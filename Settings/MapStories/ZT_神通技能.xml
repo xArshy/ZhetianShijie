@@ -1,0 +1,209 @@
+<Stories><List>
+	
+	<Story Name="YTS_LY"  Parent="BaseFillingStory">
+		<DisplayName>Gather together</DisplayName>
+		<Desc>All souls condense into essence,[NAME]Ready to enter attributes into it to determine the final result</Desc>
+		<Selections>
+			<li>
+			<Display>No attribute source</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_WSXY",3);me:ModifierProperty("MaxAge",-300);
+			</OKResult>
+			</li>
+			<li>
+			<Display>Metallic source</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_JSXY",3);me:ModifierProperty("MaxAge",-300);
+			</OKResult>
+			</li>
+			<li>
+			<Display>Wood property source</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_MSXY",3);me:ModifierProperty("MaxAge",-300);
+			</OKResult>
+			</li>
+			<li>
+			<Display>Water source</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_SSXY",3);me:ModifierProperty("MaxAge",-300);
+			</OKResult>
+			</li>
+			<li>
+			<Display>Fire Attribute Source</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_HSXY",3);me:ModifierProperty("MaxAge",-300);
+			</OKResult>
+			</li>
+			<li>
+			<Display>Soil property source</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_TSXY",3);me:ModifierProperty("MaxAge",-300);
+			</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="YTS_LSY"  Parent="BaseFillingStory">
+		<DisplayName>All-soul source</DisplayName>
+		<Desc>All souls condense into essence,[NAME]Ready to enter attributes into it to determine the final result</Desc>
+		<Selections>
+			<li>
+			<Display>Attributeless Source</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_WSXSY",5);me:ModifierProperty("MaxAge",-1500);
+			</OKResult>
+			</li>
+			<li>
+			<Display>Metallic Divine Source</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_JSXSY",5);me:ModifierProperty("MaxAge",-1500);
+			</OKResult>
+			</li>
+			<li>
+			<Display>Wooden Source God Source</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_MSXSY",5);me:ModifierProperty("MaxAge",-1500);
+			</OKResult>
+			</li>
+			<li>
+			<Display>Water Source God Source</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_SSXSY",5);me:ModifierProperty("MaxAge",-1500);
+			</OKResult>
+			</li>
+			<li>
+			<Display>Fire Source God Source</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_HSXSY",5);me:ModifierProperty("MaxAge",-1500);
+			</OKResult>
+			</li>
+			<li>
+			<Display>Divine Source</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_TSXSY",5);me:ModifierProperty("MaxAge",-1500);
+			</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="YTS_LXY"  Parent="BaseFillingStory">
+		<DisplayName>Celestial Origin</DisplayName>
+		<Desc>All souls condense into essence,[NAME]Ready to enter attributes into it to determine the final result</Desc>
+		<Selections>
+			<li>
+			<Display>No Attribute Xianyuan</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_WSXXY",1);me:ModifierProperty("MaxAge",-3000);
+			</OKResult>
+			</li>
+			<li>
+			<Display>Metallic fairy</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_JSXXY",1);me:ModifierProperty("MaxAge",-3000);
+			</OKResult>
+			</li>
+			<li>
+			<Display>Wood property fairy source</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_MSXXY",1);me:ModifierProperty("MaxAge",-3000);
+			</OKResult>
+			</li>
+			<li>
+			<Display>Water property</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_SSXXY",1);me:ModifierProperty("MaxAge",-3000);
+			</OKResult>
+			</li>
+			<li>
+			<Display>Fire Properties Xianyuan</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_HSXXY",1);me:ModifierProperty("MaxAge",-3000);
+			</OKResult>
+			</li>
+			<li>
+			<Display>Earth Properties</Display> 
+			<OKResult>
+			me:DropAwardItem("Item_TSXXY",1);me:ModifierProperty("MaxAge",-3000);
+			</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	<Story Name="ZT_xzm" Parent="BaseFillingStory">
+		<DisplayName>Travel around the world</DisplayName>
+		<Desc>[NAME]Be prepared to show the secrets of the line. After the show, all true immortals will gain experience.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>行</Display>
+				<OKResult>
+				<![CDATA[	
+					for i=0,CS.XiaWorld.PracticeMgr.Instance:GetAllGongName().Count-1,1 do
+
+				local count1 = CS.XiaWorld.PracticeMgr.Instance:GetGongDef(CS.XiaWorld.PracticeMgr.Instance:GetAllGongName()[i]).Stages.Count
+
+				local count2 = CS.XiaWorld.PracticeMgr.Instance:GetGongDef(CS.XiaWorld.PracticeMgr.Instance:GetAllGongName()[i]).Stages[count1 - 1].Necks.Count
+
+				CS.XiaWorld.PracticeMgr.Instance:GetGongDef(CS.XiaWorld.PracticeMgr.Instance:GetAllGongName()[i]).Stages[count1 - 1].Necks[count2 - 1].Kind = CS.XiaWorld.g_emGongBottleNeckType.God
+
+				CS.XiaWorld.PracticeMgr.Instance:GetGongDef(CS.XiaWorld.PracticeMgr.Instance:GetAllGongName()[i]).Stages[count1 - 1].Necks[count2 - 1].NeckCountdown = nil
+				end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Forget it, i'll take a look</Display>
+				<OKResult>
+				me:AddMsg(XT("[NAME]I feel the time is not up."))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZT_xzm2" Parent="BaseFillingStory">
+		<DisplayName>Go the other way.</DisplayName>
+		<Desc>[NAME]Be prepared to perform the word secret countermeasures. After the show, all true immortals will return to the state of robbery.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>solution</Display>
+				<OKResult>
+				<![CDATA[	
+					for i=0,CS.XiaWorld.PracticeMgr.Instance:GetAllGongName().Count-1,1 do
+
+		local count1 = CS.XiaWorld.PracticeMgr.Instance:GetGongDef(CS.XiaWorld.PracticeMgr.Instance:GetAllGongName()[i]).Stages.Count
+
+		local count2 = CS.XiaWorld.PracticeMgr.Instance:GetGongDef(CS.XiaWorld.PracticeMgr.Instance:GetAllGongName()[i]).Stages[count1 - 1].Necks.Count
+
+		CS.XiaWorld.PracticeMgr.Instance:GetGongDef(CS.XiaWorld.PracticeMgr.Instance:GetAllGongName()[i]).Stages[count1 - 1].Necks[count2 - 1].Kind = CS.XiaWorld.g_emGongBottleNeckType.God
+
+		CS.XiaWorld.PracticeMgr.Instance:GetGongDef(CS.XiaWorld.PracticeMgr.Instance:GetAllGongName()[i]).Stages[count1 - 1].Necks[count2 - 1].NeckCountdown = 900
+		end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Forget it, i'll take a look</Display>
+				<OKResult>
+				me:AddMsg(XT("[NAME]I feel that the time has not yet come."))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	<Story Name="JT" Parent="BaseFillingStory">
+		<DisplayName>Shenyuan Quebing</DisplayName>
+		<Desc>[NAME]This magic weapon is being tempered.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Extremely tempered.</Display>
+				<OKResult>
+				me:AddMsg(XT("[NAME]Feeling that the soldiers in his hands are invincible, Jian Feng pointed out that nothing was spared, and he couldn't help but be happy."))
+				me:AddTitle(""Tianque God Carpenter", "God quenched to the extreme to get this title.", 4);
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+		
+</List></Stories>

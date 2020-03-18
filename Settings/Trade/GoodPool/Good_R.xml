@@ -1,0 +1,301 @@
+<Defs><List>	
+	<Def Name="ZTMPR">
+		<Item CountName="Rare">
+			<ItemName>Item_Dan_IncreaseNeckCountdown2</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_CopperBlock1</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>Trash</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_Dan_CureJinDamage</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_Dan_CalmDown</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_PurpleGanodermaLucidum</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_Dan_CureShuiDamage</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_Dan_Happiness</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_Dan_IncreaseLife5</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_Dan_IncreaseNeckCountdown1</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_Dan_IncreaseLife3</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_Dan_IncreaseLife4</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_Dan_Ling2</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_AL</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_YYC</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_SMG</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_SYC</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_JMY</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_JC</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_SLS</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_SJG</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_DCC</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_TSZG</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_GJZ</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_ZWX</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_SXM</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_HYC</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_JY</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_YMY</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_JHZ</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_LYC</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_LYBX</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_LHY</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_HYY</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_CL</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_FXC</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_XYC</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_FXY</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_LX</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_YS</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_HG</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_ZRH</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+		<Item CountName="Rare">
+			<ItemName>Item_CBS</ItemName>
+			<Condition>
+				<NeedRank>Friendly</NeedRank>
+			</Condition>
+			<AucType>XiaoDan</AucType>
+		</Item>
+	</Def>
+	
+	
+	
+</List></Defs>

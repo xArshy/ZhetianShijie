@@ -1,0 +1,692 @@
+<ThingDefs><List>
+	<ThingDef Type="Item" Name="FengShuiItemBase" Parent="ItemBase">
+	
+	<ThingName></ThingName>
+	<Desc>Desc.</Desc>
+	<TexPath></TexPath>
+	
+	<Rate>1</Rate>
+	<MaxStack>1</MaxStack>
+	<SelectAble>1</SelectAble>
+	<VisualAble>1</VisualAble>
+
+	<Beauty>15</Beauty>
+	
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>999</BurningPoint>
+	</Flammability>
+	
+	<Item  Lable="Other">
+		<FuelMultiplier>1</FuelMultiplier>
+		<NotRandom>1</NotRandom>
+		<FabaoSuffix></FabaoSuffix>
+		<PhysicalLables>
+			<li>Gravel</li>
+		</PhysicalLables>
+		<Rot>
+			<RotSpeed>0</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Ling>
+		<AddionLing>50</AddionLing>
+		<AddionRadius>4</AddionRadius>
+		<AddionFailing>0.75</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.4</Absorption>
+		<Accommodate>1</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>0</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="FengShuiItem_FS1" Parent="FengShuiItemBase">
+	
+	<ThingName>Suzakuyin</ThingName>
+	<Desc>The type of engraving Suzaku has the magical effect of suppressing feng shui.</Desc>
+	<TexPath>Spr\Building\ZS\SX4.png</TexPath>
+	<TexScale>0.8</TexScale>
+	<Rate>15</Rate>
+	<ElementKind>Huo</ElementKind>
+	
+	<Item Lable="Other">
+		<FuelMultiplier>1</FuelMultiplier>
+		<FabaoSuffix>印</FabaoSuffix>
+		<PhysicalLables>
+			<li>Heavy2</li>
+			<li>Hard2</li>
+			<li>PhysicalLables_Huo</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_BossFeng_HuoYu" count = "5"/>
+				<Item name = "Item_BossFeng_Gu" count = "2"/>
+				<Item name = "Item_BossFeng_HuoYu" count = "5"/>
+				<Item name = "Item_DLYJ" count = "15"/>
+				<Item name = "Item_XZ" count = "15"/>
+			</CostItems>
+		</BeMade>
+		<Fengshui>
+			<AddV>30</AddV>
+			<ElementKind>Huo</ElementKind>
+			<ElementPower>0</ElementPower>
+			<RoomKind>None</RoomKind>
+			<RoomLevel>0</RoomLevel>
+			<Localtion>None</Localtion>
+			<Modifiers>
+				<li>SP_FSZhenWu_17</li>
+			</Modifiers>
+			<Specials>
+				<li>20000</li>
+			</Specials>
+		</Fengshui>			
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="FengShuiItem_FS2" Parent="FengShuiItemBase">
+	
+	<ThingName>Black warrior seal</ThingName>
+	<Desc>In the battle of immortals and demons, ancient repairs that were damaged by magical repairs and turned into stone statues, and the later stone statues have the magical effect of suppressing feng shui.</Desc>
+	<TexPath>Spr\Building\ZS\SX5.png</TexPath>
+	<TexScale>0.8</TexScale>
+	<Rate>15</Rate>
+	<ElementKind>Tu</ElementKind>
+	
+	<Item Lable="Other">
+		<FuelMultiplier>1</FuelMultiplier>
+		<FabaoSuffix>印</FabaoSuffix>
+		<PhysicalLables>
+			<li>Heavy2</li>
+			<li>Hard2</li>
+			<li>PhysicalLables_Tu</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_XianDaoXieNian" count = "1"/>
+				<Item name = "Item_XianDaoShenNian" count = "1"/>
+				<Item name = "Item_JTBYB" count = "15"/>
+				<Item name = "Item_JTCYW" count = "15"/>
+				<Item name = "Item_YYSY" count = "15"/>
+			</CostItems>
+		</BeMade>
+		<Fengshui>
+			<AddV>30</AddV>
+			<ElementKind>Tu</ElementKind>
+			<ElementPower>0</ElementPower>
+			<RoomKind>None</RoomKind>
+			<RoomLevel>0</RoomLevel>
+			<Localtion>None</Localtion>
+			<Modifiers>
+				<li>SP_FSZhenWu_18</li>
+			</Modifiers>
+			<Specials>
+				<li>20000</li>
+			</Specials>
+		</Fengshui>			
+	</Item>
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="FengShuiItem_FS3" Parent="FengShuiItemBase">
+	
+	<ThingName>Fairy jade</ThingName>
+	<Desc>Legend has it that the immortals at the coast of the East China Sea are transformed after their immortality, and have the magical effect of suppressing feng shui.</Desc>
+	<TexPath>Spr\Building\ZS\SX6.png</TexPath>
+	<TexScale>0.8</TexScale>
+	<Rate>15</Rate>
+	<ElementKind>Tu</ElementKind>
+	
+	<Item Lable="Other">
+		<FuelMultiplier>1</FuelMultiplier>
+		<FabaoSuffix>仙玉石</FabaoSuffix>
+		<PhysicalLables>
+			<li>Heavy2</li>
+			<li>HighDensity1</li>
+			<li>PhysicalLables_Tu</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_XianDaoShenNian" count = "2"/>
+				<Item name = "Item_JTBLSY" count = "15"/>
+				<Item name = "Item_ST" count = "15"/>
+				<Item name = "Item_YYSY" count = "15"/>
+			</CostItems>
+		</BeMade>
+		<Fengshui>
+			<AddV>30</AddV>
+			<ElementKind>Tu</ElementKind>
+			<ElementPower>0</ElementPower>
+			<RoomKind>None</RoomKind>
+			<RoomLevel>0</RoomLevel>
+			<Localtion>None</Localtion>
+			<Modifiers>
+				<li>SP_FSZhenWu_19</li>
+			</Modifiers>
+			<Specials>
+				<li>20000</li>
+			</Specials>
+		</Fengshui>			
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="FengShuiItem_FS4" Parent="FengShuiItemBase">
+	
+	<ThingName>Meow Stone Carving</ThingName>
+	<Desc>The Meow Star Emperor, the stone carving left by Wan Meowan, has the magical effect of suppressing Feng Shui.</Desc>
+	<TexPath>Spr\Building\ZS\SX8.png</TexPath>
+	<TexScale>0.8</TexScale>
+	<Rate>15</Rate>
+	<ElementKind>None</ElementKind>
+	
+	<Item Lable="Other">
+		<FuelMultiplier>1</FuelMultiplier>
+		<FabaoSuffix>喵芯</FabaoSuffix>
+		<PhysicalLables>
+			<li>Heavy2</li>
+			<li>Smooth21</li>
+			<li>PhysicalLables_None</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_MagicHerb" count = "100"/>
+				<Item name = "Item_ZYW" count = "15"/>
+				<Item name = "Item_ST" count = "15"/>
+				<Item name = "Item_WSTJ" count = "15"/>
+			</CostItems>
+		</BeMade>
+		<Fengshui>
+			<AddV>30</AddV>
+			<ElementKind>None</ElementKind>
+			<ElementPower>0</ElementPower>
+			<RoomKind>None</RoomKind>
+			<RoomLevel>0</RoomLevel>
+			<Localtion>None</Localtion>
+			<Modifiers>
+				<li>SP_FSZhenWu_20</li>
+			</Modifiers>
+			<Specials>
+				<li>20000</li>
+			</Specials>
+		</Fengshui>			
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="FengShuiItem_FS5" Parent="FengShuiItemBase">
+	
+	<ThingName>Purple Moon Fairy</ThingName>
+	<Desc>The fairy rhyme made with a large amount of bauhinia god copper has the magical effect of suppressing feng shui.</Desc>
+	<TexPath>Spr\Building\ZS\SX9.png</TexPath>
+	<TexScale>0.8</TexScale>
+	<Rate>15</Rate>
+	<ElementKind>None</ElementKind>
+	
+	<Item Lable="Other">
+		<FuelMultiplier>1</FuelMultiplier>
+		<FabaoSuffix>仙阙</FabaoSuffix>
+		<PhysicalLables>
+			<li>Heavy2</li>
+			<li>Smooth21</li>
+			<li>PhysicalLables_None</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_ZJST" count = "30"/>
+				<Item name = "Item_ZYW" count = "15"/>
+				<Item name = "Item_ZYSY" count = "15"/>
+				<Item name = "Item_WSTJ" count = "15"/>
+			</CostItems>
+		</BeMade>
+		<Fengshui>
+			<AddV>30</AddV>
+			<ElementKind>None</ElementKind>
+			<ElementPower>0</ElementPower>
+			<RoomKind>None</RoomKind>
+			<RoomLevel>0</RoomLevel>
+			<Localtion>None</Localtion>
+			<Modifiers>
+				<li>SP_FSZhenWu_21</li>
+			</Modifiers>
+			<Specials>
+				<li>20000</li>
+			</Specials>
+		</Fengshui>			
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="FengShuiItem_FS6" Parent="FengShuiItemBase">
+	
+	<ThingName>Unicorn print</ThingName>
+	<Desc>Swiss beast, with a mild temperament, is said to live for two thousand years. The ancients believed that everywhere Kirin appeared, there must be auspiciousness and the magical effect of suppressing feng shui.</Desc>
+	<TexPath>Spr\Building\ZS\SX10.png</TexPath>
+	<TexScale>0.8</TexScale>
+	<Rate>15</Rate>
+	<ElementKind>None</ElementKind>
+	
+	<Item Lable="Other">
+		<FuelMultiplier>1</FuelMultiplier>
+		<FabaoSuffix>麒麟印</FabaoSuffix>
+		<PhysicalLables>
+			<li>Heavy2</li>
+			<li>Smooth21</li>
+			<li>PhysicalLables_None</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_JTCYW" count = "15"/>
+				<Item name = "Item_ZYW" count = "15"/>
+				<Item name = "Item_HSXY" count = "5"/>
+				<Item name = "Item_YZBYB" count = "15"/>
+			</CostItems>
+		</BeMade>
+		<Fengshui>
+			<AddV>30</AddV>
+			<ElementKind>None</ElementKind>
+			<ElementPower>0</ElementPower>
+			<RoomKind>None</RoomKind>
+			<RoomLevel>0</RoomLevel>
+			<Localtion>None</Localtion>
+			<Modifiers>
+				<li>SP_FSZhenWu_22</li>
+			</Modifiers>
+			<Specials>
+				<li>20000</li>
+			</Specials>
+		</Fengshui>			
+	</Item>
+	</ThingDef>
+	<ThingDef Type="Item" Name="FengShuiItem_FS7" Parent="FengShuiItemBase">
+	
+	<ThingName>Maitreya</ThingName>
+	<Desc>The fifth Buddha of the Thousand Buddhas is often called "the Maitreya Buddha in the next life", which has the magical effect of suppressing feng shui.</Desc>
+	<TexPath>Spr\Building\ZS\SX11.png</TexPath>
+	<TexScale>0.8</TexScale>
+	<Rate>15</Rate>
+	<ElementKind>None</ElementKind>
+	
+	<Item Lable="Other">
+		<FuelMultiplier>1</FuelMultiplier>
+		<FabaoSuffix>佛相</FabaoSuffix>
+		<PhysicalLables>
+			<li>Heavy2</li>
+			<li>Smooth21</li>
+			<li>PhysicalLables_None</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_WSSS" count = "15"/>
+				<Item name = "Item_ST" count = "15"/>
+				<Item name = "Item_WSXY" count = "2"/>
+				<Item name = "Item_JTBYB" count = "15"/>
+			</CostItems>
+		</BeMade>
+		<Fengshui>
+			<AddV>30</AddV>
+			<ElementKind>None</ElementKind>
+			<ElementPower>0</ElementPower>
+			<RoomKind>None</RoomKind>
+			<RoomLevel>0</RoomLevel>
+			<Localtion>None</Localtion>
+			<Modifiers>
+				<li>SP_FSZhenWu_23</li>
+			</Modifiers>
+			<Specials>
+				<li>20000</li>
+			</Specials>
+		</Fengshui>			
+	</Item>
+	</ThingDef>
+	<ThingDef Type="Item" Name="FengShuiItem_FS8" Parent="FengShuiItemBase">
+	
+	<ThingName>Koi Covenant</ThingName>
+	<Desc>The "live gems in the water" and "swimming artworks" are also regarded as mascots because they are easy to survive, and have the magical effect of suppressing feng shui.</Desc>
+	<TexPath>Spr\Building\ZS\SX12.png</TexPath>
+	<TexScale>0.8</TexScale>
+	<Rate>15</Rate>
+	<ElementKind>Shui</ElementKind>
+	
+	<Item Lable="Other">
+		<FuelMultiplier>1</FuelMultiplier>
+		<FabaoSuffix>锦鲤</FabaoSuffix>
+		<PhysicalLables>
+			<li>Heavy2</li>
+			<li>Smooth21</li>
+			<li>PhysicalLables_None</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_SHQ" count = "5"/>
+				<Item name = "Item_ST" count = "15"/>
+				<Item name = "Item_WSSS" count = "50"/>
+				
+			</CostItems>
+		</BeMade>
+		<Fengshui>
+			<AddV>30</AddV>
+			<ElementKind>Shui</ElementKind>
+			<ElementPower>0</ElementPower>
+			<RoomKind>None</RoomKind>
+			<RoomLevel>0</RoomLevel>
+			<Localtion>None</Localtion>
+			<Modifiers>
+				<li>SP_FSZhenWu_24</li>
+			</Modifiers>
+			<Specials>
+				<li>20000</li>
+			</Specials>
+		</Fengshui>			
+	</Item>
+	</ThingDef>
+	<ThingDef Type="Item" Name="FengShuiItem_FS9" Parent="FengShuiItemBase">
+	
+	<ThingName>Goalkeeper Lion</ThingName>
+	<Desc>Commonly used in traditional Chinese culture to ward off evil spirits, stone materials are used to sculpt the image of a lion, a sculpture with artistic and ornamental value. It has the magical effect of suppressing feng shui.</Desc>
+	<TexPath>Spr\Building\ZS\SX13.png</TexPath>
+	<TexScale>0.8</TexScale>
+	<Rate>15</Rate>
+	<ElementKind>Tu</ElementKind>
+	
+	<Item Lable="Other">
+		<FuelMultiplier>1</FuelMultiplier>
+		<FabaoSuffix>神狮</FabaoSuffix>
+		<PhysicalLables>
+			<li>Heavy2</li>
+			<li>Smooth21</li>
+			<li>PhysicalLables_Tu</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_YZBYB" count = "30"/>
+				<Item name = "Item_ST" count = "30"/>
+				<Item name = "Item_WSTJ" count = "30"/>
+				
+			</CostItems>
+		</BeMade>
+		<Fengshui>
+			<AddV>30</AddV>
+			<ElementKind>Tu</ElementKind>
+			<ElementPower>0</ElementPower>
+			<RoomKind>None</RoomKind>
+			<RoomLevel>0</RoomLevel>
+			<Localtion>None</Localtion>
+			<Modifiers>
+				<li>SP_FSZhenWu_25</li>
+			</Modifiers>
+			<Specials>
+				<li>20000</li>
+			</Specials>
+		</Fengshui>			
+	</Item>
+	</ThingDef>
+	<ThingDef Type="Item" Name="FengShuiItem_FS10" Parent="FengShuiItemBase">
+	
+	<ThingName>Harvest horns deer</ThingName>
+	<Desc>There are deer in the mountains and forests. The horse has a sheep's tail, a long head and a long side, and high feet and speed. It has the magical effect of suppressing feng shui.</Desc>
+	<TexPath>Spr\Building\ZS\SX14.png</TexPath>
+	<TexScale>0.8</TexScale>
+	<Rate>15</Rate>
+	<ElementKind>Mu</ElementKind>
+	
+	<Item Lable="Other">
+		<FuelMultiplier>1</FuelMultiplier>
+		<FabaoSuffix>角鹿</FabaoSuffix>
+		<PhysicalLables>
+			<li>Heavy2</li>
+			<li>Smooth21</li>
+			<li>PhysicalLables_Mu</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_JadeBlock" count = "200"/>
+				<Item name = "Item_ST" count = "10"/>
+				<Item name = "Item_WSTJ" count = "10"/>
+				
+			</CostItems>
+		</BeMade>
+		<Fengshui>
+			<AddV>30</AddV>
+			<ElementKind>Mu</ElementKind>
+			<ElementPower>0</ElementPower>
+			<RoomKind>None</RoomKind>
+			<RoomLevel>0</RoomLevel>
+			<Localtion>None</Localtion>
+			<Modifiers>
+				<li>SP_FSZhenWu_26</li>
+			</Modifiers>
+			<Specials>
+				<li>20000</li>
+			</Specials>
+		</Fengshui>			
+	</Item>
+	</ThingDef>
+	<ThingDef Type="Item" Name="FengShuiItem_FS11" Parent="FengShuiItemBase">
+	
+	<ThingName>Greenwood Mountain Mark</ThingName>
+	<Desc>There is a cure for this mountain. It has the magical effect of suppressing feng shui.</Desc>
+	<TexPath>Spr\Building\ZS\SX15.png</TexPath>
+	<TexScale>0.8</TexScale>
+	<Rate>15</Rate>
+	<ElementKind>Mu</ElementKind>
+	
+	<Item Lable="Other">
+		<FuelMultiplier>1</FuelMultiplier>
+		<FabaoSuffix>绿木</FabaoSuffix>
+		<PhysicalLables>
+			<li>Heavy2</li>
+			<li>Smooth21</li>
+			<li>PhysicalLables_Mu</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_Wood" count = "600"/>
+				<Item name = "Item_HardWood" count = "60"/>
+				<Item name = "Item_ParasolWood" count = "30"/>
+				
+			</CostItems>
+		</BeMade>
+		<Fengshui>
+			<AddV>30</AddV>
+			<ElementKind>Mu</ElementKind>
+			<ElementPower>0</ElementPower>
+			<RoomKind>None</RoomKind>
+			<RoomLevel>0</RoomLevel>
+			<Localtion>None</Localtion>
+			<Modifiers>
+				<li>SP_FSZhenWu_27</li>
+			</Modifiers>
+			<Specials>
+				<li>20000</li>
+			</Specials>
+		</Fengshui>			
+	</Item>
+	</ThingDef>
+	<ThingDef Type="Item" Name="FengShuiItem_FS12" Parent="FengShuiItemBase">
+	
+	<ThingName>Golden Ingot Furnace</ThingName>
+	<Desc>With this furnace, alchemy is nothing more than automated processing. It has the magical effect of suppressing feng shui.</Desc>
+	<TexPath>Spr\Building\ZS\SX16.png</TexPath>
+	<TexScale>0.8</TexScale>
+	<Rate>15</Rate>
+	<ElementKind>Huo</ElementKind>
+	
+	<Item Lable="Other">
+		<FuelMultiplier>1</FuelMultiplier>
+		<FabaoSuffix>神炉</FabaoSuffix>
+		<PhysicalLables>
+			<li>Heavy2</li>
+			<li>Smooth21</li>
+			<li>PhysicalLables_Huo</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_CopperRock" count = "100"/>
+				<Item name = "Item_DarksteelRock" count = "30"/>
+				<Item name = "Item_ST" count = "30"/>
+				
+			</CostItems>
+		</BeMade>
+		<Fengshui>
+			<AddV>30</AddV>
+			<ElementKind>Huo</ElementKind>
+			<ElementPower>0</ElementPower>
+			<RoomKind>None</RoomKind>
+			<RoomLevel>0</RoomLevel>
+			<Localtion>None</Localtion>
+			<Modifiers>
+				<li>SP_FSZhenWu_28</li>
+			</Modifiers>
+			<Specials>
+				<li>20000</li>
+			</Specials>
+		</Fengshui>			
+	</Item>
+	</ThingDef>
+	<ThingDef Type="Item" Name="FengShuiItem_FS13" Parent="FengShuiItemBase">
+	
+	<ThingName>Cattle hedge</ThingName>
+	<Desc>Carving the statue of the god cow plowing field. It has the magical effect of suppressing feng shui.</Desc>
+	<TexPath>Spr\Building\ZS\SX17.png</TexPath>
+	<TexScale>0.8</TexScale>
+	<Rate>15</Rate>
+	<ElementKind>Tu</ElementKind>
+	
+	<Item Lable="Other">
+		<FuelMultiplier>1</FuelMultiplier>
+		<FabaoSuffix>耕吙</FabaoSuffix>
+		<PhysicalLables>
+			<li>Heavy2</li>
+			<li>Smooth21</li>
+			<li>PhysicalLables_Tu</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_Wood" count = "500"/>
+				<Item name = "Item_StoneEssence" count = "120"/>
+				<Item name = "Item_ST" count = "30"/>
+				
+			</CostItems>
+		</BeMade>
+		<Fengshui>
+			<AddV>30</AddV>
+			<ElementKind>Tu</ElementKind>
+			<ElementPower>0</ElementPower>
+			<RoomKind>None</RoomKind>
+			<RoomLevel>0</RoomLevel>
+			<Localtion>None</Localtion>
+			<Modifiers>
+				<li>SP_FSZhenWu_29</li>
+			</Modifiers>
+			<Specials>
+				<li>20000</li>
+			</Specials>
+		</Fengshui>			
+	</Item>
+	</ThingDef>
+	<ThingDef Type="Item" Name="FengShuiItem_FS14" Parent="FengShuiItemBase">
+	
+	<ThingName>Broken Guding</ThingName>
+	<Desc>The Xianding which was broken in the war of thousands of years ago, but there seems to be some charm in it. It has the magical effect of suppressing feng shui.</Desc>
+	<TexPath>Spr\Building\ZS\SX19.png</TexPath>
+	<TexScale>0.8</TexScale>
+	<Rate>15</Rate>
+	<ElementKind>Jin</ElementKind>
+	
+	<Item Lable="Other">
+		<FuelMultiplier>1</FuelMultiplier>
+		<FabaoSuffix>古鼎</FabaoSuffix>
+		<PhysicalLables>
+			<li>Heavy2</li>
+			<li>Smooth21</li>
+			<li>PhysicalLables_Jin</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_WSTJ" count = "60"/>
+				<Item name = "Item_ZYW" count = "60"/>
+				<Item name = "Item_ST" count = "30"/>
+				
+			</CostItems>
+		</BeMade>
+		<Fengshui>
+			<AddV>30</AddV>
+			<ElementKind>Jin</ElementKind>
+			<ElementPower>0</ElementPower>
+			<RoomKind>None</RoomKind>
+			<RoomLevel>0</RoomLevel>
+			<Localtion>None</Localtion>
+			<Modifiers>
+				<li>SP_FSZhenWu_30</li>
+			</Modifiers>
+			<Specials>
+				<li>20000</li>
+			</Specials>
+		</Fengshui>			
+	</Item>
+	</ThingDef>
+	<ThingDef Type="Item" Name="FengShuiItem_FS15" Parent="FengShuiItemBase">
+	
+	<ThingName>Nine-Maned Horse Carvings</ThingName>
+	<Desc>Ma, Wu Ye. Its characters are like head, fashion, tail, and foot. The Homa said. It has the magical effect of suppressing feng shui.</Desc>
+	<TexPath>Spr\Building\ZS\SX18.png</TexPath>
+	<TexScale>0.8</TexScale>
+	<Rate>15</Rate>
+	<ElementKind>Tu</ElementKind>
+	
+	<Item Lable="Other">
+		<FuelMultiplier>1</FuelMultiplier>
+		<FabaoSuffix>九鬃马</FabaoSuffix>
+		<PhysicalLables>
+			<li>Heavy2</li>
+			<li>Smooth21</li>
+			<li>PhysicalLables_Tu</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_ZYW" count = "20"/>
+				<Item name = "Item_YYSY" count = "20"/>
+				<Item name = "Item_ST" count = "10"/>
+				
+			</CostItems>
+		</BeMade>
+		<Fengshui>
+			<AddV>30</AddV>
+			<ElementKind>Tu</ElementKind>
+			<ElementPower>0</ElementPower>
+			<RoomKind>None</RoomKind>
+			<RoomLevel>0</RoomLevel>
+			<Localtion>None</Localtion>
+			<Modifiers>
+				<li>SP_FSZhenWu_31</li>
+			</Modifiers>
+			<Specials>
+				<li>20000</li>
+			</Specials>
+		</Fengshui>			
+	</Item>
+	</ThingDef>
+</List></ThingDefs>

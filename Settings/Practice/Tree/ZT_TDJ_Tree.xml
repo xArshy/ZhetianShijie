@@ -1,0 +1,431 @@
+<SkillTree><List>
+	<Node Name="Gong_TDJ_LH_A1" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_LH_A1</Esoterica>
+		<DisplayName>Tao Jinglunhai</DisplayName>
+		<Level>Qi</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_TDJ_LH_A1_1</li>
+			<li>Gong_TDJ_LH_A1_2</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_TDJ_LH_A1_1" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_LH_A1_1</Esoterica>
+		<DisplayName>Tao Jinglunhai</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_TDJ_LH_A1_2" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_LH_A1_2</Esoterica>
+		<DisplayName>Tao Jinglunhai</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_TDJ_LH_A2_XKDSY" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_LH_A2_XKDSY</Esoterica>
+		<DisplayName>Void Mark</DisplayName>
+		<Level>Qi</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>1000</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_TDJ_LH_A3" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_LH_A3</Esoterica>
+		<DisplayName>sea ​​of ​​bitterness</DisplayName>
+		<Level>Qi</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_TDJ_LH_A3_1</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_TDJ_LH_A3_1" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_LH_A3_1</Esoterica>
+		<DisplayName>sea ​​of ​​bitterness</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+		<Node Name="Gong_TDJ_LH_B1" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_LH_B1</Esoterica>
+		<DisplayName>Xi Jing Jing Dao Mian Juan</DisplayName>
+		<Level>Dan1</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_TDJ_LH_B1_1</li>
+			<li>Gong_TDJ_LH_B1_2</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_TDJ_LH_B1_1" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_LH_B1_1</Esoterica>
+		<DisplayName>Xi Jing Jing Dao Mian Juan</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_TDJ_LH_B1_2" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_LH_B1_2</Esoterica>
+		<DisplayName>Xi Jing Jing Dao Mian Juan</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_TDJ_LH_B3_SDSS" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_LH_B3_SDSS</Esoterica>
+		<DisplayName>Sacred Art</DisplayName>
+		<Level>Dan1</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,8,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_TDJ_DG_B1" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_DG_B1</Esoterica>
+		<DisplayName>Yuantianshu</DisplayName>
+		<Level>Dan1</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_TDJ_DG_B2</li>
+		</Layers>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_TDJ_DG_B2" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_DG_B2</Esoterica>
+		<DisplayName>Yuantianshu</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_TDJ_SJ_C1" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_SJ_C1</Esoterica>
+		<DisplayName>Heng Yu Jing Qu</DisplayName>
+		<Level>Dan2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_TDJ_SJ_C1_1</li>
+			<li>Gong_TDJ_SJ_C1_2</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_TDJ_SJ_C1_1" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_SJ_C1_1</Esoterica>
+		<DisplayName>Heng Yu Jing Qu</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_TDJ_SJ_C1_2" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_SJ_C1_2</Esoterica>
+		<DisplayName>Heng Yu Jing Qu</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	<Node Name="Gong_TDJ_SJ_C2_YQ" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_SJ_C2_YQ</Esoterica>
+		<DisplayName>One gas three clear</DisplayName>
+		<Level>Dan2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_TDJ_SJ_C2_YQ_1</li>
+			<li>Gong_TDJ_SJ_C2_YQ_2</li>
+		</Layers>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,9,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_TDJ_SJ_C2_YQ_1" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_SJ_C1_YQ_1</Esoterica>
+		<DisplayName>One gas three clear</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_TDJ_SJ_C2_YQ_2" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_SJ_C1_YQ_2</Esoterica>
+		<DisplayName>One gas three clear</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_TDJ_SJ_C3" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_SJ_C3</Esoterica>
+		<DisplayName>Taiji Holy Art</DisplayName>
+		<Level>Dan2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_TDJ_SJ_C3_1</li>
+		</Layers>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,9,0,9,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_TDJ_SJ_C3_1" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_SJ_C3_1</Esoterica>
+		<DisplayName>Taiji Holy Art</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_TDJ_HL_D1" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_HL_D1</Esoterica>
+		<DisplayName>Emperor Jinghua Dragon</DisplayName>
+		<Level>God</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_TDJ_HL_D1_1</li>
+			<li>Gong_TDJ_HL_D1_2</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,9</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_TDJ_HL_D1_1" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_HL_D1_1</Esoterica>
+		<DisplayName>Emperor Jinghua Dragon</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_TDJ_HL_D1_2" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_HL_D1_2</Esoterica>
+		<DisplayName>Emperor Jinghua Dragon</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_TDJ_HL_D2" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_HL_D2</Esoterica>
+		<DisplayName>Break one's way</DisplayName>
+		<Level>God</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_TDJ_HL_D2_1</li>
+		</Layers>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_TDJ_HL_D2_1" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_HL_D2_1</Esoterica>
+		<DisplayName>Break one's way</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	<Node Name="Gong_TDJ_HL_ld" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_HL_ld</Esoterica>
+		<DisplayName>Six reincarnation punches</DisplayName>
+		<Level>God</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>10,10,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_TDJ_XT_F1" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_XT_F1</Esoterica>
+		<DisplayName>Sun sutra</DisplayName>
+		<Level>God2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_TDJ_XT_F1_1</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,9</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_TDJ_XT_F1_1" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_XT_F1_1</Esoterica>
+		<DisplayName>Sun sutra</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_TDJ_XT_F2" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_XT_F2</Esoterica>
+		<DisplayName>Tai Yin Zhen Jing</DisplayName>
+		<Level>God2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_TDJ_XT_F2_1</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,9</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_TDJ_XT_F2_1" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_XT_F2_1</Esoterica>
+		<DisplayName>Tai Yin Zhen Jing</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_TDJ_XT_TDQ" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_TDQ</Esoterica>
+		<DisplayName>Tiandiquan</DisplayName>
+		<Level>God2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_TDJ_XT_ZD" Gong="Gong_TDJ">
+		<Esoterica>Gong_TDJ_XT_ZD</Esoterica>
+		<DisplayName>Red Dust Fairy</DisplayName>
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+</List></SkillTree> 

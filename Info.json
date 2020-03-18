@@ -1,0 +1,11 @@
+{
+    "Name":"cover the sky",		
+	"DisplayName":"sky covering world", 
+	"Desc":" english sky covering world",
+	"UIPackage": null, 
+	"GameVersion":0.9734,	
+	"Version":0.1,			
+	"Author":"Zamori",			
+	"Sort":"99999",		
+	"IncreasedDesc":""
+}

@@ -1,0 +1,41 @@
+<Defs><List>
+
+	<Def Name="GreenBrothel">
+		<Base>1</Base>
+		<BuildType>Wonder</BuildType>
+		<BuildCondition>
+			<Landform>Aqua</Landform>
+		</BuildCondition>
+		<BuildDay>5</BuildDay>
+		<Immortal>1</Immortal>
+		<DisplayName>天凰山</DisplayName>
+		<Desc>相处，此山是不死天皇曾经的居所，未曾靠近便能感受到天凰之息。天皇晚年将收集的大多数神材都放于此地。</Desc>
+		<Effect>前来历练有几率获得帝兵材料。</Effect>
+		
+		<Icon>Spr\outspread\WSJT\TFS.png</Icon>
+		<FreePuppet>2</FreePuppet>
+		<Curb>
+			<IntervalSec>600</IntervalSec>
+			<Stories>
+				<li>BuildCurb1</li>
+				<li>BuildCurb2</li>
+				<li>BuildCurb3</li>
+			</Stories>
+		</Curb>
+		
+		<Stories>
+			<li>OutSpread_ZTTF</li>
+		</Stories>
+		
+		<Cost>
+			<Influence>1500</Influence>
+			<Mats>
+				<li ItemName="Item_WSSS" Count="1500"/>
+				<li ItemName="Item_BrownRock" Count="1500"/>
+			</Mats>
+		</Cost>
+	</Def>
+	
+	
+	
+</List></Defs>

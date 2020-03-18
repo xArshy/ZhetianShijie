@@ -1,0 +1,735 @@
+<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="Item_HST" Parent="SimpleFoodBase">
+	<ThingName>Covered Peanut Soup</ThingName>
+	<TexPath>Spr\Object\SW\HST.PNG</TexPath>	
+	<Desc>Sweet and delicious.</Desc>
+	<Rate>6</Rate>
+	<Beauty>12</Beauty>
+	<Tags>
+		<Tag Name="Food" Level="10"/>
+		<Tag Name="Tame" Level="15"/>
+		<Tag Name="TameVeg" Level="1"/>
+		<Tag Name="DiscipleFood" Level="4"/>
+	</Tags>	
+	<MaxStack>100</MaxStack>
+	<Item>
+		<FabaoSuffix>花生,汤</FabaoSuffix>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>80</Nutrition>
+			<Moods>
+				<li>Eat6</li>
+			</Moods>
+			<Modifier>SysEndureHunger</Modifier>
+		</Food>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<ArtDesc></ArtDesc>
+			<Condition>
+					<Skills>
+						<!--<Skill name = "sss" level="1"/>-->
+					</Skills>
+					<Researchs>
+						<!--<Research name = "sss" level="1"/>-->
+					</Researchs>
+			</Condition>
+			<StuffCategories></StuffCategories>
+			<CostStuffCount>0</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_Flour" count = "25"/>
+					<Item name = "Item_Water" count = "10"/>
+			</CostItems>
+		</BeMade> 
+		<Rot>
+			<RotSpeed>0.001</RotSpeed>
+			<DaysToRotStart>50</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_HG2" Parent="SimpleFoodBase">
+	<ThingName>Hot Pot</ThingName>
+	<TexPath>Spr\Object\SW\HG.PNG</TexPath>	
+	<Desc>The steam is hot, and it will solve the winter cold for you.</Desc>
+	<Rate>9</Rate>
+	<Beauty>12</Beauty>
+	<Tags>
+		<Tag Name="Food" Level="10"/>
+		<Tag Name="Tame" Level="15"/>
+		<Tag Name="TameVeg" Level="1"/>
+		<Tag Name="DiscipleFood" Level="4"/>
+	</Tags>	
+	<MaxStack>100</MaxStack>
+	<Item>
+		<FabaoSuffix>火锅</FabaoSuffix>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>80</Nutrition>
+			
+			<FunAddion>30</FunAddion>
+		
+			<PracticeNutrition>3000</PracticeNutrition>
+			<Moods>
+				<li>Eat6</li>
+			</Moods>
+			<Modifier>SysEndureHunger</Modifier>
+		</Food>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<ArtDesc></ArtDesc>
+			<Condition>
+					<Skills>
+						<!--<Skill name = "sss" level="1"/>-->
+					</Skills>
+					<Researchs>
+						<!--<Research name = "sss" level="1"/>-->
+					</Researchs>
+			</Condition>
+			<StuffCategories></StuffCategories>
+			<CostStuffCount>0</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_BoarMeat" count = "30"/>
+					<Item name = "Item_FrogMeat" count = "30"/>
+					<Item name = "Item_RabbitMeat" count = "30"/>
+					<Item name = "Item_ChickenMeat" count = "30"/>
+					<Item name = "Item_Water" count = "500"/>
+			</CostItems>
+		</BeMade> 
+		<Rot>
+			<RotSpeed>0.001</RotSpeed>
+			<DaysToRotStart>50</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>20</Value>
+		<Radius>5</Radius>
+		<RoomValue>10</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_HSR" Parent="SimpleFoodBase">
+	<ThingName>Braised pork</ThingName>
+	<TexPath>Spr\Object\SW\HSR.PNG</TexPath>	
+	<Desc>Happy New Year!</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Tags>
+		<Tag Name="Food" Level="10"/>
+		<Tag Name="Tame" Level="15"/>
+		<Tag Name="TameVeg" Level="1"/>
+		<Tag Name="DiscipleFood" Level="4"/>
+	</Tags>	
+	<MaxStack>100</MaxStack>
+	<Item>
+		<FabaoSuffix>红烧肉</FabaoSuffix>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>80</Nutrition>
+			
+			<FunAddion>100</FunAddion>
+		
+			<PracticeNutrition>9000</PracticeNutrition>
+			<Moods>
+				<li>Eat6</li>
+			</Moods>
+			<Modifier>SysEndureHunger</Modifier>
+		</Food>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<ArtDesc></ArtDesc>
+			<Condition>
+					<Skills>
+						<!--<Skill name = "sss" level="1"/>-->
+					</Skills>
+					<Researchs>
+						<!--<Research name = "sss" level="1"/>-->
+					</Researchs>
+			</Condition>
+			<StuffCategories></StuffCategories>
+			<CostStuffCount>0</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_Flour" count = "5"/>
+					<Item name = "Item_Water" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Rot>
+			<RotSpeed>0.001</RotSpeed>
+			<DaysToRotStart>50</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>10</Value>
+		<Radius>5</Radius>
+		<RoomValue>15</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_ZPG" Parent="SimpleFoodBase">
+	<ThingName>Steamed ribs</ThingName>
+	<TexPath>Spr\Object\SW\ZPG.PNG</TexPath>	
+	<Desc>Happy New Year!</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Tags>
+		<Tag Name="Food" Level="10"/>
+		<Tag Name="Tame" Level="15"/>
+		<Tag Name="TameVeg" Level="1"/>
+		<Tag Name="DiscipleFood" Level="4"/>
+	</Tags>	
+	<MaxStack>100</MaxStack>
+	<Item>
+		<FabaoSuffix>蒸排骨</FabaoSuffix>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>80</Nutrition>
+			
+			<FunAddion>100</FunAddion>
+		
+			<PracticeNutrition>9000</PracticeNutrition>
+			<Moods>
+				<li>Eat6</li>
+			</Moods>
+			<Modifier>SysEndureHunger</Modifier>
+		</Food>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<ArtDesc></ArtDesc>
+			<Condition>
+					<Skills>
+						<!--<Skill name = "sss" level="1"/>-->
+					</Skills>
+					<Researchs>
+						<!--<Research name = "sss" level="1"/>-->
+					</Researchs>
+			</Condition>
+			<StuffCategories></StuffCategories>
+			<CostStuffCount>0</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_Flour" count = "5"/>
+					<Item name = "Item_Water" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Rot>
+			<RotSpeed>0.001</RotSpeed>
+			<DaysToRotStart>50</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>10</Value>
+		<Radius>5</Radius>
+		<RoomValue>15</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_LBZTR" Parent="SimpleFoodBase">
+	<ThingName>Cold pork head</ThingName>
+	<TexPath>Spr\Object\SW\LBZTR.PNG</TexPath>	
+	<Desc>Happy New Year!</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Tags>
+		<Tag Name="Food" Level="10"/>
+		<Tag Name="Tame" Level="15"/>
+		<Tag Name="TameVeg" Level="1"/>
+		<Tag Name="DiscipleFood" Level="4"/>
+	</Tags>	
+	<MaxStack>100</MaxStack>
+	<Item>
+		<FabaoSuffix>猪头肉</FabaoSuffix>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>80</Nutrition>
+			
+			<FunAddion>100</FunAddion>
+		
+			<PracticeNutrition>9000</PracticeNutrition>
+			<Moods>
+				<li>Eat6</li>
+			</Moods>
+			<Modifier>SysEndureHunger</Modifier>
+		</Food>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<ArtDesc></ArtDesc>
+			<Condition>
+					<Skills>
+						<!--<Skill name = "sss" level="1"/>-->
+					</Skills>
+					<Researchs>
+						<!--<Research name = "sss" level="1"/>-->
+					</Researchs>
+			</Condition>
+			<StuffCategories></StuffCategories>
+			<CostStuffCount>0</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_Flour" count = "5"/>
+					<Item name = "Item_Water" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Rot>
+			<RotSpeed>0.001</RotSpeed>
+			<DaysToRotStart>50</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>5</Value>
+		<Radius>5</Radius>
+		<RoomValue>10</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_KLJC" Parent="SimpleFoodBase">
+	<ThingName>Cola Chicken Wings</ThingName>
+	<TexPath>Spr\Object\SW\KLJC.PNG</TexPath>	
+	<Desc>Happy New Year!</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Tags>
+		<Tag Name="Food" Level="10"/>
+		<Tag Name="Tame" Level="15"/>
+		<Tag Name="TameVeg" Level="1"/>
+		<Tag Name="DiscipleFood" Level="4"/>
+	</Tags>	
+	<MaxStack>100</MaxStack>
+	<Item>
+		<FabaoSuffix>可乐鸡翅</FabaoSuffix>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>80</Nutrition>
+			
+			<FunAddion>100</FunAddion>
+		
+			<PracticeNutrition>9000</PracticeNutrition>
+			<Moods>
+				<li>Eat6</li>
+			</Moods>
+			<Modifier>SysEndureHunger</Modifier>
+		</Food>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<ArtDesc></ArtDesc>
+			<Condition>
+					<Skills>
+						<!--<Skill name = "sss" level="1"/>-->
+					</Skills>
+					<Researchs>
+						<!--<Research name = "sss" level="1"/>-->
+					</Researchs>
+			</Condition>
+			<StuffCategories></StuffCategories>
+			<CostStuffCount>0</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_Flour" count = "5"/>
+					<Item name = "Item_Water" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Rot>
+			<RotSpeed>0.001</RotSpeed>
+			<DaysToRotStart>50</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>15</Value>
+		<Radius>5</Radius>
+		<RoomValue>5</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_NRHG" Parent="SimpleFoodBase">
+	<ThingName>Beef hot pot</ThingName>
+	<TexPath>Spr\Object\SW\NRHG.PNG</TexPath>	
+	<Desc>Happy New Year!</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Tags>
+		<Tag Name="Food" Level="10"/>
+		<Tag Name="Tame" Level="15"/>
+		<Tag Name="TameVeg" Level="1"/>
+		<Tag Name="DiscipleFood" Level="4"/>
+	</Tags>	
+	<MaxStack>100</MaxStack>
+	<Item>
+		<FabaoSuffix>牛肉火锅</FabaoSuffix>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>80</Nutrition>
+			
+			<FunAddion>100</FunAddion>
+		
+			<PracticeNutrition>9000</PracticeNutrition>
+			<Moods>
+				<li>Eat6</li>
+			</Moods>
+			<Modifier>SysEndureHunger</Modifier>
+		</Food>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<ArtDesc></ArtDesc>
+			<Condition>
+					<Skills>
+						<!--<Skill name = "sss" level="1"/>-->
+					</Skills>
+					<Researchs>
+						<!--<Research name = "sss" level="1"/>-->
+					</Researchs>
+			</Condition>
+			<StuffCategories></StuffCategories>
+			<CostStuffCount>0</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_Flour" count = "5"/>
+					<Item name = "Item_Water" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Rot>
+			<RotSpeed>0.001</RotSpeed>
+			<DaysToRotStart>50</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>15</Value>
+		<Radius>5</Radius>
+		<RoomValue>10</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_DJYT" Parent="SimpleFoodBase">
+	<ThingName>Fish head with chopped pepper</ThingName>
+	<TexPath>Spr\Object\SW\DJYT.PNG</TexPath>	
+	<Desc>Happy New Year!</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Tags>
+		<Tag Name="Food" Level="10"/>
+		<Tag Name="Tame" Level="15"/>
+		<Tag Name="TameVeg" Level="1"/>
+		<Tag Name="DiscipleFood" Level="4"/>
+	</Tags>	
+	<MaxStack>100</MaxStack>
+	<Item>
+		<FabaoSuffix>剁椒鱼头</FabaoSuffix>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>80</Nutrition>
+			
+			<FunAddion>100</FunAddion>
+		
+			<PracticeNutrition>9000</PracticeNutrition>
+			<Moods>
+				<li>Eat6</li>
+			</Moods>
+			<Modifier>SysEndureHunger</Modifier>
+		</Food>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<ArtDesc></ArtDesc>
+			<Condition>
+					<Skills>
+						<!--<Skill name = "sss" level="1"/>-->
+					</Skills>
+					<Researchs>
+						<!--<Research name = "sss" level="1"/>-->
+					</Researchs>
+			</Condition>
+			<StuffCategories></StuffCategories>
+			<CostStuffCount>0</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_Flour" count = "5"/>
+					<Item name = "Item_Water" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Rot>
+			<RotSpeed>0.001</RotSpeed>
+			<DaysToRotStart>50</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>25</Value>
+		<Radius>5</Radius>
+		<RoomValue>10</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_NRMF" Parent="SimpleFoodBase">
+	<ThingName>Beef noodles</ThingName>
+	<TexPath>Spr\Object\SW\NRMF.PNG</TexPath>	
+	<Desc>Happy New Year!</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Tags>
+		<Tag Name="Food" Level="10"/>
+		<Tag Name="Tame" Level="15"/>
+		<Tag Name="TameVeg" Level="1"/>
+		<Tag Name="DiscipleFood" Level="4"/>
+	</Tags>	
+	<MaxStack>100</MaxStack>
+	<Item>
+		<FabaoSuffix>牛肉米粉</FabaoSuffix>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>80</Nutrition>
+			
+			<FunAddion>100</FunAddion>
+		
+			<PracticeNutrition>9000</PracticeNutrition>
+			<Moods>
+				<li>Eat6</li>
+			</Moods>
+			<Modifier>SysEndureHunger</Modifier>
+		</Food>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<ArtDesc></ArtDesc>
+			<Condition>
+					<Skills>
+						<!--<Skill name = "sss" level="1"/>-->
+					</Skills>
+					<Researchs>
+						<!--<Research name = "sss" level="1"/>-->
+					</Researchs>
+			</Condition>
+			<StuffCategories></StuffCategories>
+			<CostStuffCount>0</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_Flour" count = "5"/>
+					<Item name = "Item_Water" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Rot>
+			<RotSpeed>0.001</RotSpeed>
+			<DaysToRotStart>50</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>10</Value>
+		<Radius>5</Radius>
+		<RoomValue>5</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_PJFZ" Parent="SimpleFoodBase">
+	<ThingName>Pickle chicken legs</ThingName>
+	<TexPath>Spr\Object\SW\PJFZ.PNG</TexPath>	
+	<Desc>Happy New Year!</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Tags>
+		<Tag Name="Food" Level="10"/>
+		<Tag Name="Tame" Level="15"/>
+		<Tag Name="TameVeg" Level="1"/>
+		<Tag Name="DiscipleFood" Level="4"/>
+	</Tags>	
+	<MaxStack>100</MaxStack>
+	<Item>
+		<FabaoSuffix>泡椒凤爪</FabaoSuffix>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>80</Nutrition>
+			
+			<FunAddion>100</FunAddion>
+		
+			<PracticeNutrition>9000</PracticeNutrition>
+			<Moods>
+				<li>Eat6</li>
+			</Moods>
+			<Modifier>SysEndureHunger</Modifier>
+		</Food>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<ArtDesc></ArtDesc>
+			<Condition>
+					<Skills>
+						<!--<Skill name = "sss" level="1"/>-->
+					</Skills>
+					<Researchs>
+						<!--<Research name = "sss" level="1"/>-->
+					</Researchs>
+			</Condition>
+			<StuffCategories></StuffCategories>
+			<CostStuffCount>0</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_Flour" count = "5"/>
+					<Item name = "Item_Water" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Rot>
+			<RotSpeed>0.001</RotSpeed>
+			<DaysToRotStart>50</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>1</Value>
+		<Radius>5</Radius>
+		<RoomValue>5</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_DZJ" Parent="SimpleFoodBase">
+	<ThingName>Braised pork feet</ThingName>
+	<TexPath>Spr\Object\SW\DZJ.PNG</TexPath>	
+	<Desc>Happy New Year!</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Tags>
+		<Tag Name="Food" Level="10"/>
+		<Tag Name="Tame" Level="15"/>
+		<Tag Name="TameVeg" Level="1"/>
+		<Tag Name="DiscipleFood" Level="4"/>
+	</Tags>	
+	<MaxStack>100</MaxStack>
+	<Item>
+		<FabaoSuffix>猪脚</FabaoSuffix>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>80</Nutrition>
+			
+			<FunAddion>100</FunAddion>
+		
+			<PracticeNutrition>9000</PracticeNutrition>
+			<Moods>
+				<li>Eat6</li>
+			</Moods>
+			<Modifier>SysEndureHunger</Modifier>
+		</Food>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<ArtDesc></ArtDesc>
+			<Condition>
+					<Skills>
+						<!--<Skill name = "sss" level="1"/>-->
+					</Skills>
+					<Researchs>
+						<!--<Research name = "sss" level="1"/>-->
+					</Researchs>
+			</Condition>
+			<StuffCategories></StuffCategories>
+			<CostStuffCount>0</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_Flour" count = "5"/>
+					<Item name = "Item_Water" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Rot>
+			<RotSpeed>0.001</RotSpeed>
+			<DaysToRotStart>50</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>5</Value>
+		<Radius>5</Radius>
+		<RoomValue>5</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_YMDX" Parent="SimpleFoodBase">
+	<ThingName>Fried Shrimps</ThingName>
+	<TexPath>Spr\Object\SW\YMDX.PNG</TexPath>	
+	<Desc>Happy New Year!</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<Tags>
+		<Tag Name="Food" Level="10"/>
+		<Tag Name="Tame" Level="15"/>
+		<Tag Name="TameVeg" Level="1"/>
+		<Tag Name="DiscipleFood" Level="4"/>
+	</Tags>	
+	<MaxStack>100</MaxStack>
+	<Item>
+		<FabaoSuffix>油焖大虾</FabaoSuffix>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>80</Nutrition>
+			
+			<FunAddion>100</FunAddion>
+		
+			<PracticeNutrition>9000</PracticeNutrition>
+			<Moods>
+				<li>Eat6</li>
+			</Moods>
+			<Modifier>SysEndureHunger</Modifier>
+		</Food>
+		<BeMade>
+			<WorkToMake>20</WorkToMake>
+			<Quality>0</Quality>
+			<ArtDesc></ArtDesc>
+			<Condition>
+					<Skills>
+						<!--<Skill name = "sss" level="1"/>-->
+					</Skills>
+					<Researchs>
+						<!--<Research name = "sss" level="1"/>-->
+					</Researchs>
+			</Condition>
+			<StuffCategories></StuffCategories>
+			<CostStuffCount>0</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_Flour" count = "5"/>
+					<Item name = "Item_Water" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Rot>
+			<RotSpeed>0.001</RotSpeed>
+			<DaysToRotStart>50</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>5</Value>
+		<Radius>5</Radius>
+		<RoomValue>5</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	</ThingDef>
+	
+	
+	
+	
+	
+	
+	
+</List></ThingDefs>

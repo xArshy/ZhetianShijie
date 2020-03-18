@@ -1,0 +1,174 @@
+<ThingDefs><List>
+	<ThingDef Type="Building" Name="WallBase" Parent="BuildingBase">
+		<TexPath></TexPath>
+		<ThingName></ThingName>
+		<Desc>WallBase</Desc>
+		<SelectAble>1</SelectAble>	
+		<CastShadow>1</CastShadow>
+		<BlockLight>1</BlockLight>
+		<Beauty>1</Beauty>
+		<UseHitPoints>1</UseHitPoints>
+		<MaxHitPoints>30</MaxHitPoints>
+		<VisionRadius>10</VisionRadius>
+		<Flammability>
+			<Flammability>0.2</Flammability>
+			<FlameSpawnThingDef></FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+		</Flammability>
+		<ElementKind>None</ElementKind>
+		
+		<Collider>
+			<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+			<Data>
+			[3]
+			</Data>
+		</Collider>
+		
+		<Building>
+			<NoFengshui>1</NoFengshui>
+			<BuildMode>Line</BuildMode>
+			<CanMakeRoom>1</CanMakeRoom>
+			<BeMade>
+				<InheritStuffTileID>1</InheritStuffTileID>
+				<WorkToMake>14</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "WoodBlock"/>
+					<Stuff name = "RockBlock"/>
+					<Stuff name = "Plant"/>
+				</StuffCategories>
+				<CostStuffCount>1</CostStuffCount>
+			</BeMade>
+		</Building>
+
+	<Element>
+		<Kind>None</Kind>
+		<Value>1</Value>         
+		<Radius>2</Radius>
+		<Failing>1</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	</ThingDef>	
+	
+	<ThingDef Type="Building" Name="ZT_Wall" Parent="WallBase">
+		<TileID>-11</TileID>
+		<ThingName>Real wall</ThingName>
+		<Desc>In order to prevent the house from being demolished, the wall is extremely high in blood.</Desc>	
+		<UseHitPoints>1</UseHitPoints>
+		<MaxHitPoints>1000000</MaxHitPoints>
+		<VisionRadius>10</VisionRadius>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef></FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+		</Flammability>
+		<ElementKind>None</ElementKind>
+		
+		<Building>
+			<CostItems>
+				<Item name = "Item_WSXSY" count = "5"/>
+				<Item name = "Item_WSSS" count = "25"/>
+			</CostItems>
+		</Building>
+	</ThingDef>	
+	
+	<ThingDef Type="Building" Name="Door_men" Parent="DoorBase">		
+		<TexPath>res/Sprs/buildingnew/building_door01</TexPath>
+		<ThingName>Yamen</ThingName>
+		<Desc>Basic structural building for people entering and leaving the room. Posting slogans added a lot of health.\n(Doors in the same direction and connected together are regarded as one door)</Desc>	
+		<MaxHitPoints>99999999</MaxHitPoints>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="Door_Fight" Parent="Door">		
+		<Collider>
+			<Data>
+			[0,4,0],
+			[4,7,4],
+			[0,4,0]
+			</Data>
+		</Collider>
+	</ThingDef>	
+	
+	<ThingDef Type="Building" Name="Door_SpringFestival_Fight" Parent="Door_SpringFestival">		
+		<Collider>
+			<Data>
+			[0,4,0],
+			[4,7,4],
+			[0,4,0]
+			</Data>
+		</Collider>
+	</ThingDef>
+			
+	<ThingDef Type="Building" Name="HDBed" Parent="FurnitureBase">
+	<TexPath>res\Sprs\buildingnew\building_1Rbed</TexPath>
+	<TexScale>1</TexScale>
+	<ThingName>Chaotic bed</ThingName>	
+	<Desc>A bed for single use can make you sleep well.</Desc>
+	<Tags>
+		<Tag Name="Sleep" Level="10"/>
+		<Tag Name="Practice" Level="25"/>
+	</Tags>
+	<ShadowSize>
+		<x>1</x>
+		<y>0.3</y>
+	</ShadowSize>
+	<ColliderKind>ThrowOver</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[7],
+		[1],
+		</Data>
+		<OffsetGroup>
+			<li><x>0</x><y>0.75</y></li><!--后-->
+			<li><x>0.5</x><y>0.2</y></li><!--右-->
+			<li><x>0</x><y>-0.4</y></li><!--前-->
+			<li><x>-0.5</x><y>0.2</y></li><!--左-->
+		</OffsetGroup>
+		<WorkOffset>
+			<li Index="0" X="0" Y="-0.3" Ang="179" Dir="Down"/>
+			<li Index="0" X="-0.5" Y="0.3" Z="-0.3" Ang="1" Dir="Left"/>
+			<li Index="0" X="0" Y="0.85" Z="-1.15" Ang="179" Dir="Up"/>
+			<li Index="0" X="0.5" Y="0.3" Z="-0.3" Ang="1" Dir="Right"/>
+		</WorkOffset>
+	</Collider>
+	
+	<Building>
+		<Orientation>F,B,R</Orientation>
+		<RoomKind>BedRoom</RoomKind>
+		<IsBed>1</IsBed>
+		<OwnerCount>1</OwnerCount>
+		<HelperClass>BuildingHelperBed</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<RestEffectiveness>1</RestEffectiveness>
+		<RoomKind>BedRoom</RoomKind>
+		<PracticeEffectiveness>0.2</PracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>2500</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_HDS" count = "20"/>
+			</CostItems>
+			<CostStuffCount>8</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.8</x>
+			<y>3.7</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	</ThingDef>			
+			
+</List></ThingDefs>

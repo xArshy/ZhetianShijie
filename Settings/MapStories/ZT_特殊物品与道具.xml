@@ -1,0 +1,1360 @@
+<Stories><List>
+	<Story Name="Story_JB" Parent="BaseFillingStory">
+		<DisplayName>Worship the Queen Mother</DisplayName>
+		<Desc>The mountain hides in the mastiff, and Lin Jing has long berry moss. Danzao mud is old, Yuantan robs wood ash. Mo Yun's fairy tales are magical, and Penglai is just a stone's throw away.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Worship</Display> 
+				<OKResult>
+				<![CDATA[
+				local nR = me:RandomInt(1, 100);
+				local nT = me:RandomInt(1, 80);
+				if world:GetWorldFlag(566) + 3 < world.DayCount then
+				me:AddMsg("Yesterday, I quarreled with Queen Mother to sleep in the middle of the night. Are you still here today? Penalize you for three days behind closed doors.");me:AddDamgeFromCache(story.DamageCache,15,1);
+				else
+					if world:GetWorldFlag(562) == 1 then
+					me:AddMsg("[NAME]Yesterday came to worship me so late, I was so annoyed that I did not see you today.");world:SetWorldFlag(562,0);
+					else
+						if world:GetWorldFlag(560) < world.DayCount then
+						world:SetWorldFlag(560,world.DayCount);
+							if world.DaySecond >= 550 then
+									if world:GetWorldFlag(564) == 2 then 
+										if me:GetSex() == 1 then
+											if nR >= 50 then
+												me:AddMsg("[NAME]Take off your pants! I saw the Queen Mother whispering to herself with a pair of scissors.[NAME]I want to resist, but there is an opponent of the Queen Mother of West, who tossed and got a shield strength value of 0.2”");me:ModifierProperty("NpcFight_ShieldConversionRate",0.2);me:AddDamage("Cut2","Genitals",1,XT("Emperor West"));world:SetWorldFlag(564,0);
+											else
+												me:AddMsg("[NAME]You go to bed first, I ’ll be here in a while, [NAME] ca n’t be excited, groaning while lying on the bed, "Oh, I ca n’t, Ouch, it hurts." Already asleep next door. . After a long night, [NAME] 's throat was dumb, but he was blessed by misfortune, and Daoxing lost 50.");me:ModifierProperty("AbilityLvAddV",-50);world:SetWorldFlag(564,0);	
+											end
+										elseif me:GetSex() == 2 then
+												me:AddMsg("Good sister, let me help you recover from the injury.");me:ModifierProperty("MaxAge",600);
+										end
+									elseif nR >= 40 then
+											if world:GetWorldFlag(561) == 0 then
+											me:AddMsg("[NAME]，When I saw you worshiping with such sincerity, I gave you a slap! Come and make me sleep again, you're dead。");world:SetWorldFlag(561,1);me:AddDamage("Shui_ColdPoison","Skull",0.5,XT("Emperor West"));
+											elseif world:GetWorldFlag(561) == 1 then 
+											me:AddMsg("[NAME]，You come to noisy me to sleep at this time again! !! !! !! Ah ah ah ah ah! !! !! !! !! .");world:SetWorldFlag(561,0);me:AddDamgeFromCache(story.DamageCache,15,1);
+											end
+									elseif nR >= 30 then
+										me:AddMsg("I'm going to bed late today. You're lucky, and sincerity is okay, just give you some iron.");
+										if nT >= 70 then
+										me:DropAwardItem("Item_XZ",6);
+										elseif nT >= 60 then
+										me:DropAwardItem("Item_YYSY",6);
+										elseif nT >= 50 then
+										me:DropAwardItem("Item_DLYJ",6);
+										elseif nT >= 40 then
+										me:DropAwardItem("Item_ZJST",6);
+										elseif nT >= 30 then
+										me:DropAwardItem("Item_ST",6);
+										elseif nT >= 20 then
+										me:DropAwardItem("Item_ZYW",6);
+										elseif nT >= 10 then
+										me:DropAwardItem("Item_ZYSY",6);
+										else
+										me:DropAwardItem("Item_JTCYW",6);
+										end
+									elseif nR >= 10 then
+										me:AddMsg("Come to worship me so late，[NAME]Do you not want me? Hum Ignore you, let's go.");world:SetWorldFlag(562,1);
+									else
+										me:AddMsg("[NAME]You're here. I happen to be eating peaches for supper.");me:DropAwardItem("Item_Dan_PT",1);
+									end
+							elseif world.DaySecond >= 450 then
+								if nR >= 80 then
+									me:AddMsg("[NAME]You're here. I happen to be having dinner. Let's eat together.");me:DropAwardItem("Item_Dan_PT",1);me:DropAwardItem("Item_LBZTR",2);me:DropAwardItem("Item_HG",5);me:DropAwardItem("Item_HSR",15);me:DropAwardItem("Item_DJYT",5);
+								elseif nR >= 40 then
+									me:AddMsg("[NAME]I happened to be here. I just want to exercise after a meal. Come and practice with me.");
+										if me:GetGLevel() >= 9 then
+												me:ModifierProperty("NpcFight_SpellPowerAddP",0.2);me:ModifierProperty("NpcFight_SpellLingCostAddP",-0.2);
+												me:AddMsg("[NAME]Practicing with West Queen Mother, I feel I have improved a bit");
+												else
+												me:AddMsg("[NAME]Where can I practice with the Queen Mother of the West? . .");
+												me:AddDamgeFromCache(story.DamageCache,14,0.8);world:SetWorldFlag(564,1);
+												end
+								elseif nR >= 20 then
+									me:AddMsg("[NAME]I happened to be here. I just want to exercise after a meal. Come and practice with me.");
+									if me:GetGLevel() >= 9 then
+												me:ModifierProperty("NpcFight_FabaoPowerAddP",0.2);me:ModifierProperty("NpcFight_FabaoLingRecoverAddP",0.1);me:ModifierProperty("NpcFight_FabaoMaxLingAddP",0.1);
+												me:AddMsg("[NAME]Practicing with West Queen Mother, I feel I have improved a bit");
+												else
+												me:AddMsg("[NAME]Where can I practice with the Queen Mother of the West? . .");
+												me:AddDamgeFromCache(story.DamageCache,14,0.8);world:SetWorldFlag(564,1);
+												end
+								else
+								me:AddMsg("[NAME]You have to play by yourself today, I have no mood to care about you. . .");
+								end
+							elseif world.DaySecond >= 375 then
+								me:AddMsg("[NAME]I'm going to take a nap, don't make a noise I know no!");world:SetWorldFlag(561,1);me:AddDamage("Shui_ColdPoison","Skull",1,XT("Emperor West"));
+							elseif world.DaySecond >= 275 then
+									if nR >= 70 then
+										me:AddMsg("[NAME]快来，一起吃午饭吧。");me:DropAwardItem("Item_Dan_PT",2);me:DropAwardItem("Item_NRHG",1);me:DropAwardItem("Item_NRMF",5);me:DropAwardItem("Item_DZJ",15);me:DropAwardItem("Item_YMDX",10);
+									elseif nR >= 40 and world:GetWorldFlag(564) == 1 then
+										me:AddMsg("[NAME]I hurt you last time, sorry. . . are you OK. . I think you can't walk stably today. . You will come to me tomorrow night and I will give you some compensation. .");world:SetWorldFlag(564,2);
+									elseif nR >= 20 then
+										if me:GetMatchingWithGong("Gong_XHJ") == 0 then
+										me:AddMsg("[NAME],I'm in a good mood today. Let me teach you a method.");
+										else
+										me:AddMsg("Hey. . . . ? You have actually learned it. . . Boring. . I'm going to bed");
+										end
+									else
+										if world:GetWorldFlag(565) == 1 then
+											me:AddMsg("[NAME]My mouth is so sweet, come to share your peaches.");me:DropAwardItem("Item_Dan_PT",3);
+										elseif world:GetWorldFlag(565) == 2 then
+											me:AddMsg("Humph![NAME]Just a big fool, don't play with fools.");
+										elseif world:GetWorldFlag(565) == 0 then
+										me:AddMsg("[NAME],I'm Queen Mother West, you want to call me Queen!");
+										end
+									end
+							elseif world.DaySecond >= 225 then
+								if nR >= 50 then
+								me:AddMsg("Not here! Don't bother me when you sleep.");
+								elseif nR >= 20 then
+								me:AddMsg("[NAME]Do you know that I spend two hours a day applying makeup and come to me without finishing painting, you steel straight man.");
+								else
+								me:AddMsg("Nothing is wrong this morning, let me teach you something interesting");	
+												if me:GetGLevel() >= 11 then
+												me:ModifierProperty("NpcFight_SpellPowerAddP",0.2);me:ModifierProperty("NpcFight_SpellLingCostAddP",-0.2);
+												me:ModifierProperty("LingAbsorbSpeed",0.4);me:ModifierProperty("NpcLingMaxValue",0.4);
+												me:ModifierProperty("NpcFight_FabaoPowerAddP",0.2);me:ModifierProperty("NpcFight_FabaoLingRecoverAddP",0.2);
+												me:ModifierProperty("NpcFight_FabaoLingRecoverK",0.01);me:ModifierProperty("NpcFight_FabaoMaxLingAddP",0.2);
+												me:ModifierProperty("NpcFight_FabaoRepelDistanceAddV",0.2);me:ModifierProperty("NpcFight_FabaoFlySpeedAddP",0.2);
+												me:ModifierProperty("NpcFight_FabaoTurnSpeedAddP",0.2);me:ModifierProperty("NpcFight_FabaoRepelResistanceAddV",0.2);
+												me:AddMsg("[NAME]Practicing with West Queen Mother, I feel I have improved a bit");
+												elseif me:GetGLevel() >= 9 then
+												me:ModifierProperty("NpcFight_SpellPowerAddP",0.1);me:ModifierProperty("NpcFight_SpellLingCostAddP",-0.1);
+												me:ModifierProperty("LingAbsorbSpeed",0.2);me:ModifierProperty("NpcLingMaxValue",0.2);
+												me:ModifierProperty("NpcFight_FabaoPowerAddP",0.1);me:ModifierProperty("NpcFight_FabaoLingRecoverAddP",0.1);
+												me:ModifierProperty("NpcFight_FabaoLingRecoverK",0.01);me:ModifierProperty("NpcFight_FabaoMaxLingAddP",0.1);
+												me:ModifierProperty("NpcFight_FabaoRepelDistanceAddV",0.1);me:ModifierProperty("NpcFight_FabaoFlySpeedAddP",0.1);
+												me:ModifierProperty("NpcFight_FabaoTurnSpeedAddP",0.1);me:ModifierProperty("NpcFight_FabaoRepelResistanceAddV",0.1);
+												me:AddMsg("[NAME]Practicing with West Queen Mother, I feel I have improved a bit");
+												else
+												me:AddMsg("[NAME]Where can I practice with the Queen Mother of the West? . .");
+													if nT >= 60 then
+													me:AddDamgeFromCache(story.DamageCache,14,1);
+													elseif nT >= 30 then
+													me:AddDamgeFromCache(story.DamageCache,14,0.8);
+													else
+													me:AddDamgeFromCache(story.DamageCache,2,1);
+													end
+												world:SetWorldFlag(564,1);
+												end
+								end
+							else
+							me:AddMsg("Ah, noisy me to sleep again! !! !! Do you know how important beauty is for women? !! !! !! !! !! Pigeon kiss! !! !! !! !! !!");world:SetWorldFlag(566,world.DayCount);
+							end
+						else
+						me:AddMsg("[NAME]Already worshipped, Queen Mother Xi is too lazy to care about you.");
+						
+						end
+					end
+				end
+				]]></OKResult>
+			</li>
+			
+			<li>
+				<Display>give up</Display>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZRZD" Parent="BaseFillingStory">
+		<DisplayName>Way of nature</DisplayName>
+		<Desc>Boys, living beings each have their own way of living. All things live together without damaging each other, and Tao runs side by side without contradicting them. Different Taos grow freely in the universe and express their Tao. These are the ways of nature.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>North Region Solar Terms</Display> 
+				<OKResult>me:AddMsg("[NAME]Look at the group notifications, when will it be updated, anyway, now it is more");</OKResult>
+			</li>
+			<li>
+				<Display>Lagerstroemia indica</Display> 
+				<OKResult>me:AddMsg("[NAME]Look at the group notifications, when will it be updated, anyway, now it is more");</OKResult>
+			</li>
+			<li>
+				<Display>Vientiane follows the law</Display> 
+				<OKResult>me:TriggerStory("ZRZD1");</OKResult>
+			</li>
+			<li>
+				<Display>Fairyland nature</Display> 
+				<OKResult>me:TriggerStory("ZRZD2");</OKResult>
+			</li>
+			<li>
+				<Display>Five</Display> 
+				<OKResult>me:TriggerStory("ZRZD3");</OKResult>
+			</li>
+			<li>
+				<Display>Clear air</Display> 
+				<OKResult>me:TriggerStory("ZRZD4");</OKResult>
+			</li>
+			<li>
+				<Display>Natural harmony</Display>
+				<OKResult>World.Weather:ClearAllWeather();me:AddMsg("[NAME]Clear all weather with Lingbao");</OKResult>
+			</li>
+			<li>
+				<Display>give up</Display>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZRZD1" Parent="BaseFillingStory">
+		<DisplayName>Vientiane follows the law</DisplayName>
+		<Desc>What do you need to change the weather for?。</Desc>
+		<Kind>None</Kind>		
+		<Selections>
+			<li>
+				<Display>Light rain/snow</Display>
+				<OKResult> GameMain:GetMod("BuildModeHelper"):ChangeWeather("LightRain")me.npcObj.PropertyMgr:AddAge(500);me:AddMsg(string.format(XT("[NAME]Li Ruoyu secretly drew Shou Yuan from% s years, Li Ruoyu still found it, just want the right meal."),tostring(500)));</OKResult>
+			</li>
+			<li>
+				<Display>Heavy rain / snow</Display>
+				<OKResult> GameMain:GetMod("BuildModeHelper"):ChangeWeather("HeavyRain")me.npcObj.PropertyMgr:AddAge(500);me:AddMsg(string.format(XT("[NAME]Li Ruoyu secretly drew Shou Yuan from% s years, Li Ruoyu still found it, just want the right meal."),tostring(500)));</OKResult>
+			</li>					
+			<li>
+				<Display>sunny day</Display>
+				<OKResult>GameMain:GetMod("BuildModeHelper"):ChangeWeather("SunnyDay")me.npcObj.PropertyMgr:AddAge(500);me:AddMsg(string.format(XT("[NAME]Li Ruoyu secretly drew Shou Yuan from% s years, Li Ruoyu still found it, just want the right meal."),tostring(500)));</OKResult>
+			</li>
+			<li>
+				<Display>cloudy day</Display>
+				<OKResult>GameMain:GetMod("BuildModeHelper"):ChangeWeather("Overcast")me.npcObj.PropertyMgr:AddAge(500);me:AddMsg(string.format(XT("[NAME]Li Ruoyu secretly drew Shou Yuan from% s years, Li Ruoyu still found it, just want the right meal."),tostring(500)));</OKResult>
+			</li>
+			<li>
+				<Display>Heavy fog</Display>
+				<OKResult>GameMain:GetMod("BuildModeHelper"):ChangeWeather("DenseFog")me.npcObj.PropertyMgr:AddAge(500);me:AddMsg(string.format(XT("[NAME]Li Ruoyu secretly drew Shou Yuan from% s years, Li Ruoyu still found it, just want the right meal."),tostring(500)));</OKResult>
+			</li>		
+			<li>
+				<Display>Meiyu</Display>
+				<OKResult>GameMain:GetMod("BuildModeHelper"):ChangeWeather("MouldRains")me.npcObj.PropertyMgr:AddAge(500);me:AddMsg(string.format(XT("[NAME]Li Ruoyu secretly drew Shou Yuan from% s years, Li Ruoyu still found it, just want the right meal."),tostring(500)));</OKResult>
+			</li>
+			<li>
+				<Display>drought</Display>
+				<OKResult>GameMain:GetMod("BuildModeHelper"):ChangeWeather("Drought")me.npcObj.PropertyMgr:AddAge(500);me:AddMsg(string.format(XT("[NAME]Li Ruoyu secretly drew Shou Yuan from% s years, Li Ruoyu still found it, just want the right meal."),tostring(500)));</OKResult>
+			</li>
+			<li>
+				<Display>Reselect</Display>
+				<OKResult>me:TriggerStory("ZRZD");</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZRZD2" Parent="BaseFillingStory">
+		<DisplayName>Fairy Nature</DisplayName>
+		<Desc>What do you need to change the weather for?。</Desc>
+		<Kind>None</Kind>		
+		<Selections>
+			<li>
+				<Display>Night falls</Display>
+				<OKResult> GameMain:GetMod("BuildModeHelper"):ChangeWeather("PermanentNight")me.npcObj.PropertyMgr:AddAge(900);me:AddMsg(string.format(XT("[NAME]Li Ruoyu secretly drew Shou Yuan from% s years, Li Ruoyu still found it, just want the right meal."),tostring(900)));</OKResult>
+			</li>			
+			<li>
+				<Display>Reiki burst</Display>
+				<OKResult>GameMain:GetMod("BuildModeHelper"):ChangeWeather("LingUpWave")me.npcObj.PropertyMgr:AddAge(900);me:AddMsg(string.format(XT("[NAME]Li Ruoyu secretly drew Shou Yuan from% s years, Li Ruoyu still found it, just want the right meal."),tostring(900)));</OKResult>
+			</li>
+			<li>
+				<Display>Reiki Low Tide</Display>
+				<OKResult>GameMain:GetMod("BuildModeHelper"):ChangeWeather("LingRarefiedWave")me.npcObj.PropertyMgr:AddAge(900);me:AddMsg(string.format(XT("[NAME]Li Ruoyu secretly drew Shou Yuan from% s years, Li Ruoyu still found it, just want the right meal."),tostring(900)));</OKResult>
+			</li>
+			<li>
+				<Display>Breath of fairyland</Display>
+				<OKResult>GameMain:GetMod("BuildModeHelper"):ChangeWeather("ZuShiBiHu")me.npcObj.PropertyMgr:AddAge(900);me:AddMsg(string.format(XT("[NAME]Li Ruoyu secretly drew Shou Yuan from% s years, Li Ruoyu still found it, just want the right meal."),tostring(900)));</OKResult>
+			</li>		
+			<li>
+				<Display>Reselect</Display>
+				<OKResult>me:TriggerStory("ZRZD");</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZRZD3" Parent="BaseFillingStory">
+		<DisplayName>Five</DisplayName>
+		<Desc>What do you need to change the weather for?。</Desc>
+		<Kind>None</Kind>		
+		<Selections>
+			<li>
+				<Display>rainstorm</Display>
+				<OKResult> GameMain:GetMod("BuildModeHelper"):ChangeWeather("Rainstorm")me.npcObj.PropertyMgr:AddAge(1400);me:AddMsg(string.format(XT("[NAME]Li Ruoyu secretly drew Shou Yuan from% s years, Li Ruoyu still found it, just want the right meal."),tostring(1400)));</OKResult>
+			</li>
+			<li>
+				<Display>foehn</Display>
+				<OKResult> GameMain:GetMod("BuildModeHelper"):ChangeWeather("Fohn")me.npcObj.PropertyMgr:AddAge(1400);me:AddMsg(string.format(XT("[NAME]Li Ruoyu secretly drew Shou Yuan from% s years, Li Ruoyu still found it, just want the right meal."),tostring(1400)));</OKResult>
+			</li>
+			<li>
+				<Display>dust storm</Display>
+				<OKResult> GameMain:GetMod("BuildModeHelper"):ChangeWeather("DustStorm")me.npcObj.PropertyMgr:AddAge(1400);me:AddMsg(string.format(XT("[NAME]Li Ruoyu secretly drew Shou Yuan from% s years, Li Ruoyu still found it, just want the right meal."),tostring(1400)));</OKResult>
+			</li>
+			<li>
+				<Display>miasma</Display>
+				<OKResult> GameMain:GetMod("BuildModeHelper"):ChangeWeather("Miasma")me.npcObj.PropertyMgr:AddAge(1400);me:AddMsg(string.format(XT("[NAME]Li Ruoyu secretly drew Shou Yuan from% s years, Li Ruoyu still found it, just want the right meal."),tostring(1400)));</OKResult>
+			</li>
+			<li>
+				<Display>Thunderstorm</Display>
+				<OKResult> GameMain:GetMod("BuildModeHelper"):ChangeWeather("LightningStorm")me.npcObj.PropertyMgr:AddAge(1400);me:AddMsg(string.format(XT("[NAME]Li Ruoyu secretly drew Shou Yuan from% s years, Li Ruoyu still found it, just want the right meal."),tostring(1400)));</OKResult>
+			</li>
+			<li>
+				<Display>Reselect</Display>
+				<OKResult>me:TriggerStory("ZRZD");</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZRZD4" Parent="BaseFillingStory">
+		<DisplayName>风爽气清</DisplayName>
+		<Desc>需要将天气改变成什么呢。</Desc>
+		<Kind>None</Kind>		
+		<Selections>
+			<li>
+				<Display>愁绪弥漫</Display>
+				<OKResult> GameMain:GetMod("BuildModeHelper"):ChangeWeather("Melancholy")me.npcObj.PropertyMgr:AddAge(1000);me:AddMsg(string.format(XT("[NAME]被李若愚偷偷吸取了%s年的寿元，李若愚还叨叨到，要恰饭的嘛。"),tostring(1000)));</OKResult>
+			</li>
+			<li>
+				<Display>春天气息</Display>
+				<OKResult> GameMain:GetMod("BuildModeHelper"):ChangeWeather("SpringAir")me.npcObj.PropertyMgr:AddAge(1000);me:AddMsg(string.format(XT("[NAME]被李若愚偷偷吸取了%s年的寿元，李若愚还叨叨到，要恰饭的嘛。"),tostring(1000)));</OKResult>
+			</li>					
+			<li>
+				<Display>丰收气息</Display>
+				<OKResult>GameMain:GetMod("BuildModeHelper"):ChangeWeather("HarvestAir")me.npcObj.PropertyMgr:AddAge(1000);me:AddMsg(string.format(XT("[NAME]被李若愚偷偷吸取了%s年的寿元，李若愚还叨叨到，要恰饭的嘛。"),tostring(1000)));</OKResult>
+			</li>
+			<li>
+				<Display>暧昧气息</Display>
+				<OKResult>GameMain:GetMod("BuildModeHelper"):ChangeWeather("Ambiguous")me.npcObj.PropertyMgr:AddAge(1000);me:AddMsg(string.format(XT("[NAME]被李若愚偷偷吸取了%s年的寿元，李若愚还叨叨到，要恰饭的嘛。"),tostring(1000)));</OKResult>
+			</li>
+			<li>
+				<Display>浮躁之风</Display>
+				<OKResult>GameMain:GetMod("BuildModeHelper"):ChangeWeather("Impetuous")me.npcObj.PropertyMgr:AddAge(1000);me:AddMsg(string.format(XT("[NAME]被李若愚偷偷吸取了%s年的寿元，李若愚还叨叨到，要恰饭的嘛。"),tostring(1000)));</OKResult>
+			</li>		
+			<li>
+				<Display>重新选择</Display>
+				<OKResult>me:TriggerStory("ZRZD");</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+
+
+
+	<Story Name="WDBSS"  Parent="BaseFillingStory">
+		<DisplayName>Do you start to realize?</DisplayName>
+		<Desc>It consumes less life before the budding period, and it just breaks through the bottleneck. During the budding period, you can instantaneously budge in the Gospel, but the location of the aura will affect the quality of Jindan. Increasing the cost of life to increase a realm</Desc>
+		<Selections>
+			<li>
+				<Display>Tianzhidao is insufficient to make up for it。</Display>
+				<OKResult>
+				<![CDATA[	
+				
+				local nR = me:GetGLevel(1,12) 
+				if nR >= 12 then 
+						me.npcObj.PropertyMgr:AddAge(2000);me:AddMsg(string.format(XT("[NAME]Xiu Weiwei has been incapable of being absorbed into the ancient tea tree Shouyuan in vain, and is% s years old."),tostring(2000))); me:NeckBroken();
+				elseif nR >= 9 then
+						me.npcObj.PropertyMgr:AddAge(1500);me:AddMsg(string.format(XT("[NAME]The spirit was absorbed by the undead tree, and it was% s years old."),tostring(1500))); me:NeckBroken();
+				elseif nR >= 7 then
+						me.npcObj.PropertyMgr:AddAge(1000);me:AddMsg(string.format(XT("[NAME]The spirit was absorbed by the undead tree, and it was% s years old."),tostring(1000))); me:NeckBroken();
+				elseif nR >= 6 then
+					me.npcObj.PropertyMgr:AddAge(500);me:AddMsg(string.format(XT("[NAME]The spirit was absorbed by the undead tree, and it was% s years old."),tostring(500)));me:AddSchoolScore(1,500);me:ModifierProperty("GodPenaltyAddV",50);me:ModifierProperty("AbilityLvAddV",100);GameMain:GetMod("IZDCA"):Hension()
+				elseif nR >= 1 then
+					me.npcObj.PropertyMgr:AddAge(100);me:AddMsg(string.format(XT("[NAME]Broke the bottleneck but also, old%s year。"),tostring(100))); me:NeckBroken();
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Leave</Display>
+				<OKResult></OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	
+	<Story Name="Story_Item_Dan_PTMY"  Parent="BaseFillingStory">
+		<DisplayName>Absorption secret</DisplayName>
+		<Desc>Yaochi's secret recipe for repairing Xianlu can take effect after refining.</Desc>
+		<Selections>
+			
+			<li>
+				<Display>Recast Fairy Road</Display> 
+				<DisplayCondition><![CDATA[	
+				me.npcObj:CheckSpecialFlag(CS.XiaWorld.g_emNpcSpecailFlag.FLAG_PRACTICEDIE) == 1
+				story:RemoveBindItem();
+				]]>
+				</DisplayCondition>
+				<OKResult>
+				me:AddMsg("[NAME]The immortal road has been successfully repaired, and it can be repaired again.");
+				me.npcObj.PropertyMgr:RemoveModifier("SysPracticeDie");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="Story_Item_XY">
+		<DisplayName>Refining Xianyuan</DisplayName>
+		<Desc>Refining and refining Xianyuan must practice the same method to the highest level to succeed. The higher the Daoxing, the higher the probability of successful refining. However, this move has nothing to do with peace, and if it fails, it will be severely damaged and increase the condemnation. Do you want to refining Xianyuan?</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Come on, it's all about to die anyway. (More than the dragon period and the same attributes)</Display>
+				<OKResult>
+				<![CDATA[	
+				local itemobj = story:GetBindThing()
+				local nE = 0
+				if itemobj.ElementKind == g_emElementKind.None then
+					nE = 0
+				elseif itemobj.ElementKind == g_emElementKind.Jin then
+					nE = 1
+				elseif itemobj.ElementKind == g_emElementKind.Mu then
+					nE = 2
+				elseif itemobj.ElementKind == g_emElementKind.Shui then
+					nE = 3
+				elseif itemobj.ElementKind == g_emElementKind.Huo then
+					nE = 4
+				elseif itemobj.ElementKind == g_emElementKind.Tu then
+					nE = 5
+				else
+					nE = 6
+				end
+				if nE == me:GetGElementKind() then
+					if me:GetGLevel() >= 11 then
+						local nR = world:RandomInt(150,300)
+						if nR <=  me:GetDaoHang() then
+							me:AddMsg(XT("[NAME]Attempt to refine and refine Xianyuan may be due to chance, and it was surprisingly and dangerously completed."));
+							local nC = me:GetFlag(99);
+							me:SetFlag(99,nC + 1);
+							local nV = math.floor(math.max(0,(1-nC * 0.1)) * me:RandomInt(100,150))
+							me:ModifierProperty("AbilityLvAddV",-nV);
+							if nC <= 2 then
+								me:AddMsg(XT("[NAME]As a result, they were able to peek into some heavens and gain a lot."));me:AddMsg(string.format(XT("[NAME]Lowered%s point."), tostring(nV)));
+							elseif nC <= 4 then
+								me:AddMsg(XT("[NAME]As a result, he was able to peek into some heavenly paths, but with several enlightenments, the effect was negligible."));me:AddMsg(string.format(XT("[NAME]The deeds decreased.%s point."), tostring(nV)));
+							elseif nC <= 6 then
+								me:AddMsg(XT("[NAME]As a result, he was able to peek into some heavens, but the effect has been negligible due to repeated enlightenment."));me:AddMsg(string.format(XT("[NAME]The deeds decreased.%s point."), tostring(nV)));
+							elseif nC <= 7 then
+								me:AddMsg(XT("[NAME]Peeping at the Tao repeatedly for some time, gradually gained some experience, and finally took advantage of this opportunity to differentiate the three Yuanshen distraction."));me:DivideGodSoul(true,3);
+							elseif nC <= 11 then
+								me:AddMsg(XT("[NAME]Peeping at the Tao repeatedly for some time, I gradually gained some experience. Finally, I took advantage of this opportunity to get in touch with the Tao, reducing the intensity of the Tianjie."));me:ModifierProperty("GodPenaltyAddV",-15);
+							else
+								me:AddMsg(XT("[NAME]As a result, I was able to peer into some heavenly ways, but because of too many times of enlightenment, I had no sense at all."));
+							end
+						else
+							me:AddMsg(XT("[NAME]Attempt to refine Huayuan, but in the end, due to insufficient Taoism, he failed to control the heavenly atmosphere contained in it."));me:AddMsg(XT("Although it ’s just a leak of breath, the heavens instantly bit back,[NAME]Also seriously injured ..."));me:AddDamage("Damage_TianDaoBenYuan1", "Brain", me:RandomFloat(0, 0.75), XT("Heaven's Eruption"));me:ModifierProperty("GodPenaltyAddV",me:RandomInt(10,30));
+						end
+					else
+						me:AddMsg(XT("以[NAME]Is far from being able to control these gods that contain the breath of heaven,[NAME]As soon as refining started, the origin of the heavens exploded violently.[NAME]Shattered spiritually.[NAME]瞬间殒命。"));me:AddDamage("Damage_TianDaoBenYuan2", "Brain", 1, XT("Heaven's Eruption"));
+					end
+				else
+					me:AddMsg(XT("[NAME]The practice method completely does not match this fairy source,[NAME]Immediately after the start of refining, Xianyuan exploded violently.[NAME]Shattered spiritually.[NAME]Die instantly."));me:AddDamage("Damage_TianDaoBenYuan2", "Brain", 1, XT("Heaven's Eruption"));
+				end
+				story:FinishSecret();
+				]]>	
+				</OKResult>
+			</li>
+			<li>
+				<Display>give up</Display>
+				<OKResult>	
+				me:AddMsg(XT("[NAME]Still decided to abandon refining this piece of fairy source."))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="ZT_DD"  Parent="BaseFillingStory">
+		<DisplayName>Page cover</DisplayName>
+		<Desc>The book has its own golden house, and it also has unlocking locations.</Desc>
+		<Selections>
+			<li>
+				<Display>Go in</Display> 
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+				me:AddMsg("[NAME]Get a cheat book to unlock new locations, plus gifts from the author and a wave of enemies");
+				me:DropRandomItem("Esoterica");me:DropRandomItem("FightFabao", 6, 12);
+				me:AddEnemy(3,1.5)
+				me:AddSchoolScore(1,50);
+				me:DropEsoteric("ZT_P");
+				
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Give up enlightenment</Display>
+				<OKResult>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZT_XXCTY"  Parent="BaseFillingStory">
+		<DisplayName>First practice</DisplayName>
+		<Desc>Ye Fan and others descended on the Forbidden City of Beidou, which is one of the seven forbidden areas of life. Ye Fan had good luck, said Sacred Fruit, and a few friends of Pember successfully rushed out of the Forbidden City of ancient times. Dongtian accepted. And experienced the birth of Yaodi tomb.</Desc>
+		<Selections>
+			<li>
+				<Display>Go in Chou Chou (Bodhi seeds are available only for the first time,)</Display> 
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+				me:AddMsg("[NAME]Get a cheat book to unlock new locations, plus gifts from the author and a wave of enemies");
+				me:AddEnemy(3,1.5)
+				me:AddSchoolScore(1,50);
+				me:DropEsoteric("ZT_LXDT");
+				 if world:GetWorldFlag(555) == 0 then
+				 me:AddMsg("[NAME]Where Ye Fan and others came, they also touched a bodhi!");
+				  world:SetWorldFlag(555,1);me:DropAwardItem("Item_PTZ",1);me:DropAwardItem("Item_Fruit",50);
+				  end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Give up enlightenment</Display>
+				<OKResult>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="ZT_GWSTSFYX"  Parent="BaseFillingStory">
+		<DisplayName>Dare to ask God if there is a fairy</DisplayName>
+		<Desc>After experiencing a series of life and death encounters, Ye Fan can see that the cultivator is no different from a mortal person. He is also greedy. After gaining the sacred heart of the demon emperor, he was held by the demon tribe, then met the East Deity God Ji Haoyue, escaped from the chaos, and was captured by Ji Ziyue. He resisted Ji Ziyue under the influence of yin and yang.</Desc>
+		<Selections>
+			<li>
+				<Display>Go in 瞅瞅 (obtain bronze bronze hall location unlocked)</Display> 
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+				me:AddMsg("[NAME]Get a cheat book to unlock new locations, plus gifts from the author and a wave of enemies");
+				me:AddEnemy(6,1.5)
+				me:AddSchoolScore(1,50);
+				me:DropEsoteric("ZT_GWSTSFYX");me:DropAwardItem("Item_ZaoHuaYuLu",4);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Give up enlightenment</Display>
+				<OKResult>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="ZT_TXM"  Parent="BaseFillingStory">
+		<DisplayName>Tai Xuan Men</DisplayName>
+		<Desc>Dare to ask if there is an immortal in heaven, and what is the purpose of spiritual practice. Ye Fan and Ji Ziyue both came to Taixuanfeng with serious thoughts. One hundred and eight immortals were scattered, and the two worshipped to get started. .</Desc>
+		<Selections>
+			<li>
+				<Display>Go in again</Display> 
+				<OKResult>
+				<![CDATA[	
+				
+				me:AddMsg("[NAME]Get a cheat book to unlock new locations, plus gifts from the author and a wave of enemies");
+				me:AddEnemy(6,1.5)
+				me:AddSchoolScore(1,50);
+				me:DropEsoteric("ZT_TXM");me:DropAwardItem("Item_WSXY",1);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Give up enlightenment</Display>
+				<OKResult>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZT_HYD"  Parent="BaseFillingStory">
+		<DisplayName>Fire domain</DisplayName>
+		<Desc>During his escape with Ji Ziyue, Ye Fan was hunted down by the Ji family because he learned the void fingerprints taught by Ji Ziyue. Chased to the realm of fire by all major forces. .</Desc>
+		<Selections>
+			<li>
+				<Display>Go in</Display> 
+				<OKResult>
+				<![CDATA[	
+				
+				me:AddMsg("[NAME]Get a cheat book to unlock new locations, plus gifts from the author and a wave of enemies");
+				me:AddEnemy(6,1.5)
+				me:AddSchoolScore(1,50);
+				me:DropEsoteric("ZT_HY");me:DropAwardItem("Item_JSXY",1);me:DropAwardItem("Item_MSXY",1);me:DropAwardItem("Item_SSXY",1);me:DropAwardItem("Item_HSXY",1);me:DropAwardItem("Item_TSXY",1);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Give up enlightenment</Display>
+				<OKResult>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZT_ZJCD"  Parent="BaseFillingStory">
+		<DisplayName>张家村</DisplayName>
+		<Desc>叶凡在火域修行了一段时间后，趁着世人逐渐忘记他的存在以后，叶凡来到了北域，来到了北域的张家村，因周围流寇而与张家村村民结缘。。</Desc>
+		<Selections>
+			<li>
+				<Display>进去瞅瞅</Display> 
+				<OKResult>
+				<![CDATA[	
+				
+				me:AddMsg("[NAME]获得一本解锁新地点的秘籍，还有作者送的礼物和一波敌人");
+				me:AddEnemy(9,1.5)
+				me:AddSchoolScore(1,50);
+				me:DropEsoteric("ZT_ZJC");me:DropAwardItem("Item_YS3",3);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>放弃参悟</Display>
+				<OKResult>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZT_TCGKD"  Parent="BaseFillingStory">
+		<DisplayName>太初古矿</DisplayName>
+		<Desc>叶凡在从紫山出来后，为了突破而四处劫掠流寇收获了不少的源，也因此尝到甜头，企图到太初古矿寻找机缘。</Desc>
+		<Selections>
+			<li>
+				<Display>进去瞅瞅</Display> 
+				<OKResult>
+				<![CDATA[	
+				
+				me:AddMsg("[NAME]获得一本解锁新地点的秘籍，还有作者送的礼物和一波敌人");
+				me:AddEnemy(12,1.5)
+				me:AddSchoolScore(1,50);
+				me:DropEsoteric("ZT_TCGK");
+				me:DropAwardItem("Item_ST",10);me:DropAwardItem("Item_ZJST",10);
+				me:DropAwardItem("Item_DLYJ",10);me:DropAwardItem("Item_XZ",10);
+				me:DropAwardItem("Item_ZYW",10);me:DropAwardItem("Item_YYSY",10);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>放弃参悟</Display>
+				<OKResult>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZT_YCSD"  Parent="BaseFillingStory">
+		<DisplayName>瑶池圣地</DisplayName>
+		<Desc>叶凡在张家村喜提一只大黑狗，在黑皇的带领下寻得西皇经，来到了瑶池圣地。</Desc>
+		<Selections>
+			<li>
+				<Display>进去瞅瞅</Display> 
+				<OKResult>
+				<![CDATA[	
+				
+				me:AddMsg("[NAME]获得一本解锁新地点的秘籍，还有作者送的礼物和一波敌人");
+				me:AddEnemy(14,1.5)
+				me:AddSchoolScore(1,50);
+				me:DropEsoteric("ZT_YCSD");
+				me:DropAwardItem("Item_ZYSY",10);me:DropAwardItem("Item_JTCYW",10);
+				me:DropAwardItem("Item_JTBYB",10);me:DropAwardItem("Item_YZBYB",10);
+				me:DropAwardItem("Item_WSTJ",10);me:DropAwardItem("Item_JTBLSY",10);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>放弃参悟</Display>
+				<OKResult>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZT_YZZ"  Parent="BaseFillingStory">
+		<DisplayName>Yunze</DisplayName>
+		<Desc>Ye Fan in front of quzhou young monks, killing Gong Guang and Ji's eight true disciples, forcing Ye Fan had to take refuge in the cave house of the QingYu Wang, take a look to save their brother.</Desc>
+		<Selections>
+			<li>
+				<Display>Go in and out.</Display> 
+				<OKResult>
+				<![CDATA[	
+				
+				me:AddMsg("[NAME]Get a copy of unlocking a new location, along with a gift from the author and a wave of enemies");
+				me:AddEnemy(18,1.5)
+				me:AddSchoolScore(1,550);
+				me:DropEsoteric("ZT_YZZ");me:DropAwardItem("HUO_CH",2);me:DropAwardItem("HUO_LH",2);me:DropAwardItem("HUO_BH",2);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Give up enlightenment</Display>
+				<OKResult>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZT_LCJM"  Parent="BaseFillingStory">
+		<DisplayName>Licheng nine secret wind</DisplayName>
+		<Desc>Ye Fan received the news, Licheng has a nine secret traces, but this message seems to have been deliberately released? Let's go and see it anyway.</Desc>
+		<Selections>
+			<li>
+				<Display>Go in and out.</Display> 
+				<OKResult>
+				<![CDATA[	
+				
+				me:AddMsg("[NAME]Get a copy of unlocking a new location, along with a gift from the author and a wave of enemies");
+				me:AddEnemy(18,1.5)
+				me:AddSchoolScore(1,50);
+				me:DropEsoteric("ZT_DDLQ");me:DropAwardItem("HUO_WH",2);me:DropAwardItem("HUO_JH",2);me:DropAwardItem("HUO_ZH",2);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Give up enlightenment</Display>
+				<OKResult>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZT_WLC"  Parent="BaseFillingStory">
+		<DisplayName>冰雪宫</DisplayName>
+		<Desc>叶凡突破道宫后，第一次行走北域，在神王的庇护下，总算能够抛头露面，寻得一些消息，来到了冰雪宫。</Desc>
+		<Selections>
+			<li>
+				<Display>进去瞅瞅</Display> 
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+				me:AddMsg("[NAME]获得一本解锁新地点的秘籍，还有作者送的礼物和一波敌人");
+				me:AddEnemy(24,0.5)
+				me:AddSchoolScore(1,2550);
+				me:DropEsoteric("ZT_WLC");me:DropAwardItem("Item_HST",200);me:DropAwardItem("Item_HG",200);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>放弃参悟</Display>
+				<OKResult>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZT_QSF"  Parent="BaseFillingStory">
+		<DisplayName>奇士府</DisplayName>
+		<Desc>叶凡在蟠桃大会上得知了奇士府的消息。</Desc>
+		<Selections>
+			<li>
+				<Display>进去瞅瞅</Display> 
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+				me:AddMsg("[NAME]获得一本解锁新地点的秘籍，还有作者送的礼物和一波敌人");
+				me:AddEnemy(64,0.5)
+				me:AddSchoolScore(1,550);
+				me:DropEsoteric("ZT_QSF");me:DropAwardItem("Item_YS",10);me:DropAwardItem("Item_SJG",10);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>放弃参悟</Display>
+				<OKResult>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZT_DD1"  Parent="BaseFillingStory">
+		<DisplayName>Location Unlock</DisplayName>
+		<Desc>Apply and the old archive missed the plot。</Desc>
+		<Selections>
+			<li>
+				<Display>Go in and out.</Display> 
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]Get a copy to unlock a new location");
+				me:AddSchoolScore(1,50);
+				me:DropEsoteric("ZT_P");
+				if world:GetWorldFlag(556) == 0 then
+				 me:AddMsg("[NAME]In the place where Ye Fan and others came, also touched a bodhi!");
+				  world:SetWorldFlag(556,1);me:DropAwardItem("Item_PTZ",1);
+				  end
+				story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Give up enlightenment</Display>
+				<OKResult>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZT_SC"  Parent="BaseFillingStory">
+		<DisplayName>Al-Quds</DisplayName>
+		<Desc>Ye Fan learned the source of the book, came to the holy city in order to solve their own breakthrough problems, in the holy city of a big gamble.</Desc>
+		<Selections>
+			<li>
+				<Display>Go in and out.</Display> 
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+				me:AddMsg("[NAME]Get a copy of unlocking a new location, along with a gift from the author and a wave of enemies");
+				me:AddEnemy(16,1.5)
+				me:AddSchoolScore(1,50);
+				me:DropEsoteric("ZT_SC");me:DropAwardItem("Item_YS3",10);me:DropAwardItem("Item_YS2",10);me:DropAwardItem("Item_YS1",10);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Give up enlightenment</Display>
+				<OKResult>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="STYH"  Parent="BaseFillingStory">
+		<DisplayName>Eucharist remains</DisplayName>
+		<Desc>Withered flesh and bones. Possessing an immortal power, as if it came across time and space.</Desc>
+		<Selections>
+			<li>
+				<Display>build connection</Display> 
+				<OKResult>
+				<![CDATA[	
+				
+				if me:CheckFeature("GodBody") == true then
+				me:AddMsg("[NAME]Part of the mind image is gone. Entering Qinglian, sinking into this corpse, he seemed to be out of his soul. / n "Why is this happening. I came into the other person's body ..., ..." / n [NAME] Don't know why this happened, which surprised him quite. / n Since ancient times. People don't know what happens when the two Eucharist meet. Because this kind of physique is so rare, the long years have passed. Their understanding is even more limited. / n Hard to imagine. [NAME] encountered this inexplicable encounter with a Eucharist skeleton.");
+				me:AddSchoolScore(1,50);
+				me:DropEsoteric("ZT_STYH");story:RemoveBindItem();
+				else
+				me:AddMsg("[NAME]It ’s not the Eucharist, what are you doing here?");
+				end
+				story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Give up enlightenment</Display>
+				<OKResult>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZT_DF"  Parent="BaseFillingStory">
+		<DisplayName>Tianyi Danfang</DisplayName>
+		<Desc>Learn all Danfang。</Desc>
+		<Selections>
+			<li>
+				<Display>Want to unlock all Dan Fang, no problem but nothing for nothing. (Challenge true enemies)</Display> 
+				<OKResult>
+				<![CDATA[	
+				if World.DayCount <= 99 then
+					me:AddMsg("[NAME]Get a book to unlock all Dan Fang, too arrogant on the way back to the martial arts, swaggering around, attracting a wave of robbers.");
+					me:DropEsoteric("ZTDF");
+					me:AddEnemy(16,0)me:AddEnemy(16,0)
+					story:FinishSecret();
+				
+				elseif World.DayCount <= 1000 then
+				me:AddMsg("[NAME]Get a book that unlocks all the Danfangs, and thinks of a powerful true fairy");
+				GameMain:GetMod("XG"):YSTZ();
+				me:DropEsoteric("ZTDF");
+				story:FinishSecret();
+				end
+				
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Give up enlightenment</Display>
+				<OKResult>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	<Story Name="Story_Item_FXLJZhenTu" Parent="BaseFillingStory">
+		<DisplayName>Enlighten</DisplayName>
+		<Desc>[NAME]Trying to comprehend this mysterious map。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>See map</Display>
+				<OKResult>
+				<![CDATA[	
+					
+					if me:GetSkillLevel("Zhen") >= 20 then
+						me:AddMsg(XT("[NAME]With some enlightenment, what did you learn from the map?"));
+						me:LearnEsoteric("Esoterica_ZhenFa_Suit12", true);
+					else
+						me:AddMsg(XT("To[NAME]You can't read this map at all."));
+					end
+				]]>		
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZT_LZ" Parent="BaseFillingStory">
+		<DisplayName>Refined Dragon Ball</DisplayName>
+		<Desc>[NAME]Preparing to refine Dragon Ball, but does [NAME] have a Dragon Age and a level 30 shield skill?</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Refined Dragon Ball</Display>
+				<OKResult>
+				<![CDATA[	
+					if me:GetGLevel() >= 11 and me:GetSkillLevel("Barrier") >= 30 then
+						me:AddMsg(XT("[NAME]Absorbed all the essence in Dragon Ball, and feel like I'm fat again"));
+						me:ModifierProperty("NpcFight_ShieldConversionRate",10);me:ModifierProperty("NpcFight_ShieldConversionRateAddP",-0.1);
+					else
+						me:AddMsg(XT("To[NAME]Insufficient strength, but was hurt by the true dragon spirit in Dragon Ball."));
+						me:AddDamage("Huo_VisceralBurn","Kidney",1,XT("True Dragon Backbone"));
+							me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("True Dragon Backbone"));
+							me:AddDamage("Huo_VisceralBurn","Head",1,XT("True Dragon Backbone"));
+							me:AddDamage("Huo_VisceralBurn","Liver",1,XT("True Dragon Backbone"));
+							me:AddDamage("Huo_VisceralBurn","Brain",1,XT("True Dragon Backbone"));
+							me:AddDamage("Huo_VisceralBurn","Lung",1,XT("True Dragon Backbone"));
+							me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("True Dragon Backbone"));
+					end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Forget it, i'll look at the conditions</Display>
+				<OKResult>
+				me:AddMsg(XT("[NAME]Still decided to give up refining this dragon ball。"))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZT_SFND" Parent="BaseFillingStory">
+		<DisplayName>Refining Nedan</DisplayName>
+		<Desc>[NAME]Preparing to refine Shenfeng Neidan, but does [NAME] have a dragon period and a 30th level skill level?</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Refining Nedan</Display>
+				<OKResult>
+				<![CDATA[
+					story:RemoveBindItem();				
+					if me:GetGLevel() >= 11 and me:GetSkillLevel("FightSkill") >= 30 then
+						me:AddMsg(XT("[NAME]Absorbed all the essence of Nedan and felt like I was a bit fat again"));
+						me:ModifierProperty("NpcFight_SpellPowerAddP",1);me:ModifierProperty("NpcFight_SpellLingCostAddP",0.2);
+						me:ModifierProperty("NpcFight_SpellCastTimeAddP",0.2);
+					else
+						me:AddMsg(XT("To[NAME]Insufficient strength, but was hurt by the true dragon spirit in Dragon Ball."));
+						me:AddDamage("Huo_VisceralBurn","Kidney",1,XT("Divine Phoenix"));
+							me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("Divine Phoenix"));
+							me:AddDamage("Huo_VisceralBurn","Head",1,XT("Divine Phoenix"));
+							me:AddDamage("Huo_VisceralBurn","Liver",1,XT("Divine Phoenix"));
+							me:AddDamage("Huo_VisceralBurn","Brain",1,XT("Divine Phoenix"));
+							me:AddDamage("Huo_VisceralBurn","Lung",1,XT("Divine Phoenix"));
+							me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("Divine Phoenix"));
+					end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Forget it, i'll look at the conditions</Display>
+				<OKResult>
+				me:AddMsg(XT("[NAME]Still decided to give up refining this Dragon Ball."))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZT_HLND" Parent="BaseFillingStory">
+		<DisplayName>Refining Nedan</DisplayName>
+		<Desc>[NAME]Prepare to refining Huanglong Neidan, but does [NAME] have a dragon period and a rank 30 skill?</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Refining Nedan</Display>
+				<OKResult>
+				<![CDATA[	
+					story:RemoveBindItem();
+					if me:GetGLevel() >= 11 and me:GetSkillLevel("Zhen") >= 30 then
+						me:AddMsg(XT("[NAME]Absorbed all the essence of Nedan and felt like I was a bit fat again"));
+						me:ModifierProperty("MaxAccumulativeLingAddV",1000);me:ModifierProperty("DeepPracticeSpeedSpecialCoefficient",-0.2);
+						
+					else
+						me:AddMsg(XT("To[NAME]Insufficient strength, but was hurt by the true dragon spirit in Dragon Ball."));
+						me:AddDamage("Huo_VisceralBurn","Kidney",1,XT("Huanglong back bite"));
+							me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("Huanglong back bite"));
+							me:AddDamage("Huo_VisceralBurn","Head",1,XT("Huanglong back bite"));
+							me:AddDamage("Huo_VisceralBurn","Liver",1,XT("Huanglong back bite"));
+							me:AddDamage("Huo_VisceralBurn","Brain",1,XT("Huanglong back bite"));
+							me:AddDamage("Huo_VisceralBurn","Lung",1,XT("Huanglong back bite"));
+							me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("Huanglong back bite"));
+							
+					end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Forget it, i'll look at the conditions</Display>
+				<OKResult>
+				me:AddMsg(XT("[NAME]Still decided to give up refining this inner Dan."))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZT_XWND" Parent="BaseFillingStory">
+		<DisplayName>Refining Nedan</DisplayName>
+		<Desc>[NAME]I ’m going to refine the Xuanwu Nedan, but does [NAME] have the Hualong period and the 30th level of Qi skill level?</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Refining Nedan</Display>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+					if me:GetGLevel() >= 11 and me:GetSkillLevel("Qi") >= 30 then
+						me:AddMsg(XT("[NAME]Absorbed all the essence of Nedan and felt like I was a bit fat again"));
+						me:ModifierProperty("LingAbsorbSpeed",1.5);me:ModifierProperty("NpcFight_FabaoLingRecoverAddP",-0.1);
+						
+					else
+						me:AddMsg(XT("To[NAME]Insufficient strength, but was injured by the basaltic spirit in Dragon Ball."));
+						me:AddDamage("Huo_VisceralBurn","Kidney",1,XT("King Ba Counterattack"));
+							me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("King Ba Counterattack"));
+							me:AddDamage("Huo_VisceralBurn","Head",1,XT("King Ba Counterattack"));
+							me:AddDamage("Huo_VisceralBurn","Liver",1,XT("King Ba Counterattack"));
+							me:AddDamage("Huo_VisceralBurn","Brain",1,XT("King Ba Counterattack"));
+							me:AddDamage("Huo_VisceralBurn","Lung",1,XT("King Ba Counterattack"));
+							me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("King Ba Counterattack"));
+					end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Forget it, i'll look at the conditions</Display>
+				<OKResult>
+				me:AddMsg(XT("[NAME]Still decided to give up refining this inner Dan。"))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZT_BHND" Parent="BaseFillingStory">
+		<DisplayName>Refining Nedan</DisplayName>
+		<Desc>[NAME]I am going to refine the white tiger Nedan, but does [NAME] have a dragon period and a level 30 imperial skill level?</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Refining Nedan</Display>
+				<OKResult>
+				<![CDATA[	
+					story:RemoveBindItem();
+					if me:GetGLevel() >= 11 and me:GetSkillLevel("Fabao") >= 30 then
+						me:AddMsg(XT("[NAME]Absorbed all the essence of Nedan and felt like I was a bit fat again"));
+						me:ModifierProperty("NpcFight_FabaoLingRecoverK",1);me:ModifierProperty("NpcFight_FabaoCoolDownAddP",0.1);
+						
+					else
+						me:AddMsg(XT("To[NAME]Insufficient strength, but was hurt by the white tiger in Nedan."));
+						me:AddDamage("Huo_VisceralBurn","Kidney",1,XT("Geng Jin Back"));
+							me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("Geng Jin Back"));
+							me:AddDamage("Huo_VisceralBurn","Head",1,XT("Geng Jin Back"));
+							me:AddDamage("Huo_VisceralBurn","Liver",1,XT("Geng Jin Back"));
+							me:AddDamage("Huo_VisceralBurn","Brain",1,XT("Geng Jin Back"));
+							me:AddDamage("Huo_VisceralBurn","Lung",1,XT("Geng Jin Back"));
+							me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("Geng Jin Back"));
+					end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Forget it, i'll look at the conditions</Display>
+				<OKResult>
+				me:AddMsg(XT("[NAME]Still decided to give up refining this inner Dan。"))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZT_TZW" Parent="BaseFillingStory">
+		<DisplayName>Refined Constitution Pills</DisplayName>
+		<Desc>[NAME]Ready to refine this constitution pill</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Refining Burning Immortal War Constitution Pills</Display>
+				<OKResult>
+				<![CDATA[	
+						local npcmgr = me.npcObj.PropertyMgr;
+						me:AddMsg(XT("[NAME]Absorbed all the essence of the Constitution Pill, and finally gained the ability to burn the immortal warfare"));
+						npcmgr:AddFeature("FSfBody");
+						story:RemoveBindItem();
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Forget it, i'll take a look</Display>
+				<OKResult>
+				me:AddMsg(XT("[NAME]Still decided to give up refining this physique pill and leave it to more suitable people."))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	
+	
+	
+	
+	<Story Name="ZT_HGSJ" Parent="BaseFillingStory">
+		<DisplayName>The ancient family</DisplayName>
+		<Desc>[NAME]Picked up a magic book with anecdotes on it. (It's best to have the strength to open it again)</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Arakuji(5000 sect rep and attacked)</Display>
+				<OKResult>
+				<![CDATA[	
+				
+						if me:GetSchoolScore(0) >= 1 then
+						me:AddMsg(XT("Ancient family, located in the southern region. The ancient scriptures of the clan are "The Void Sutra", which contains stunts of great emptiness, large fingerprints of emptiness, cutting fingers, congenital futility, etc"));
+						me:DropAwardItem("Item_WDCY",1);me:DropAwardItem("Item_WSSS",250);me:DropAwardItem("Item_ShuiEssence",2);me:DropAwardItem("Item_HuoEssence",2);me:DropAwardItem("Item_TuEssence",2);
+						me:DropAwardItem("Item_JinEssence",2);me:DropAwardItem("Item_MuEssence",2);me:DropAwardItem("Item_Dan_PracticeRate",9);me:DropAwardItem("Item_LingStone",1000);me:DropAwardItem("Item_YHLJ",2);
+						me:DropAwardItem("Item_LQ",15);me:AddSchoolScore(1,5000);
+						me:DropAwardItem("Item_WSXY",10);
+						me:DropAwardItem("Item_JSXY",10);
+						me:DropAwardItem("Item_MSXY",10);
+						me:DropAwardItem("Item_SSXY",10);
+						me:DropAwardItem("Item_HSXY",15);
+						me:DropAwardItem("Item_TSXY",10);
+						me:DropAwardItem("Item_WSXXY",1);
+						me:DropAwardItem("Item_JSXXY",1);
+						me:DropAwardItem("Item_MSXXY",1);
+						me:DropAwardItem("Item_SSXXY",1);
+						me:DropAwardItem("Item_TSXXY",1);
+						me:DropAwardItem("Item_HSXXY",1);
+						me:UnLockGong("Gong_XKJ");me:AddEnemy(3,0)story:RemoveBindItem();
+						else
+						me:AddMsg(XT("Prestige after the establishment of the martial arts, at least 1 point"));
+						end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Aragon Ginger House(6000 sect rep and attacked)</Display>
+				<OKResult>
+				<![CDATA[	
+					
+					if me:GetSchoolScore(0) >= 1 then
+						me:AddMsg(XT("The ancient family, located in the Northern Territory, has a great relationship with the Holy Emperor Shennong. The ancient scripture of the clan is "Hengyu Jing""));
+						me:DropAwardItem("Item_WDCY",1);me:DropAwardItem("Item_WSSS",450);me:DropAwardItem("Item_ShuiEssence",3);me:DropAwardItem("Item_HuoEssence",3);me:DropAwardItem("Item_TuEssence",3);
+						me:DropAwardItem("Item_JinEssence",3);me:DropAwardItem("Item_MuEssence",3);me:DropAwardItem("Item_Dan_PracticeRate",9);me:DropAwardItem("Item_LingStone",1000);me:DropAwardItem("Item_HXCJ",3);
+						me:DropAwardItem("Item_LQ",25);me:AddSchoolScore(1,6000);
+						me:DropAwardItem("Item_WSXY",10);
+						me:DropAwardItem("Item_JSXY",10);
+						me:DropAwardItem("Item_MSXY",10);
+						me:DropAwardItem("Item_SSXY",10);
+						me:DropAwardItem("Item_HSXY",15);
+						me:DropAwardItem("Item_TSXY",10);
+						me:DropAwardItem("Item_HSXXY",2);
+						me:UnLockGong("Gong_HYJ");me:AddEnemy(3,0)story:RemoveBindItem();
+						else
+						me:AddMsg(XT("Prestige after the establishment of the martial arts, at least 1 point"));
+						end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Yaochi Holy Land(6500 sect rep and attacked)</Display>
+				<OKResult>
+				<![CDATA[	
+				if me:GetSchoolScore(0) >= 1 then
+					story:RemoveBindItem();
+						me:AddMsg(XT("The Holy Land is located in the Northern Territory. The disciples are mostly women, and they have never been in conflict with the world"));
+						me:DropAwardItem("Item_WDCY",1);me:DropAwardItem("Item_WSSS",350);me:DropAwardItem("Item_ShuiEssence",4);me:DropAwardItem("Item_HuoEssence",4);me:DropAwardItem("Item_TuEssence",4);me:DropAwardItem("Item_XLLJ",3);
+						me:DropAwardItem("Item_JinEssence",4);me:DropAwardItem("Item_MuEssence",4);me:DropAwardItem("Item_Dan_PracticeRate",9);me:DropAwardItem("Item_LingStone",1000);
+						me:DropAwardItem("Item_LQ",25);me:AddSchoolScore(1,6500);
+						me:DropAwardItem("Item_WSXY",10);
+						me:DropAwardItem("Item_JSXY",10);
+						me:DropAwardItem("Item_MSXY",10);
+						me:DropAwardItem("Item_SSXY",15);
+						me:DropAwardItem("Item_HSXY",10);
+						me:DropAwardItem("Item_TSXY",10);
+						me:DropAwardItem("Item_SSXXY",2);
+						me:UnLockGong("Gong_XHJ");me:AddEnemy(3,0)
+						else
+						me:AddMsg(XT("Prestige after the establishment of the martial arts, at least 1 point"));
+						end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Zhongzhou Dynasty(4500 sect rep and attacked)</Display>
+				<OKResult>
+				<![CDATA[	
+				if me:GetSchoolScore(0) >= 1 then
+					story:RemoveBindItem();
+					
+						me:AddMsg(XT("One of the four immortal dynasties of the Daxia dynasty."));
+						me:DropAwardItem("Item_WDCY",1);me:DropAwardItem("Item_WSSS",350);me:DropAwardItem("Item_ShuiEssence",2);me:DropAwardItem("Item_HuoEssence",2);me:DropAwardItem("Item_TuEssence",2);
+						me:DropAwardItem("Item_JinEssence",2);me:DropAwardItem("Item_MuEssence",2);me:DropAwardItem("Item_Dan_PracticeRate",9);me:DropAwardItem("Item_LingStone",1500);me:DropAwardItem("Item_LingCrystal",100);
+						me:DropAwardItem("Item_LQ",55);me:AddSchoolScore(1,4500);
+						me:DropAwardItem("Item_WSXY",10);
+						me:DropAwardItem("Item_JSXY",10);
+						me:DropAwardItem("Item_MSXY",10);
+						me:DropAwardItem("Item_SSXY",10);
+						me:DropAwardItem("Item_HSXY",10);
+						me:DropAwardItem("Item_TSXY",10);
+						me:UnLockGong("Gong_THJ");me:AddEnemy(3,0)
+						else
+						me:AddMsg(XT("Prestige after the establishment of the martial arts, at least 1 point"));
+						end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Rebuilding the heaven(9999 sect rep and attacked)</Display>
+				<OKResult>
+				<![CDATA[	
+				if me:GetSchoolScore(0) >= 1 then
+					story:RemoveBindItem();
+					
+						me:AddMsg(XT("The head of the three major killer gods in ancient times has the same name as the ancient heaven court built by the emperor. Due to the siege and betrayal of the world and hell, they were annihilated by the holy places more than 100,000 years ago, but there are still descendants hiding in the village of heaven. Ye Fan reconstruction"));
+						me:DropAwardItem("Item_WDCY",2);me:DropAwardItem("Item_WSSS",500);me:DropAwardItem("Item_ShuiEssence",5);me:DropAwardItem("Item_HuoEssence",5);me:DropAwardItem("Item_TuEssence",5);
+						me:DropAwardItem("Item_JinEssence",5);me:DropAwardItem("Item_MuEssence",5);me:DropAwardItem("Item_Dan_PracticeRate",9);me:DropAwardItem("Item_LingStone",3000);me:DropAwardItem("Item_Dan_HundredRefine",9);
+						me:DropAwardItem("Item_LQ",10);me:DropAwardItem("Item_XZ",99);me:DropAwardItem("Item_YYSY",99);me:DropAwardItem("Item_DLYJ",99);me:DropAwardItem("Item_ZJST",99);me:DropAwardItem("Item_ST",99);
+						me:DropAwardItem("Item_ZYW",99);me:DropAwardItem("Item_ZYSY",99);me:DropAwardItem("Item_JTCYW",99);me:AddSchoolScore(1,9999);me:DropAwardItem("Item_SkyStone",40);
+						me:DropAwardItem("Item_WSXY",15);
+						me:DropAwardItem("Item_JSXY",15);
+						me:DropAwardItem("Item_MSXY",15);
+						me:DropAwardItem("Item_SSXY",15);
+						me:DropAwardItem("Item_HSXY",15);
+						me:DropAwardItem("Item_TSXY",15);
+						me:DropAwardItem("Item_WSXSY",2);
+						me:DropAwardItem("Item_JSXSY",2);
+						me:DropAwardItem("Item_MSXSY",2);
+						me:DropAwardItem("Item_SSXSY",2);
+						me:DropAwardItem("Item_HSXSY",2);
+						me:DropAwardItem("Item_TSXSY",2);
+						me:UnLockGong("Gong_TDJ");story:FinishSecret();me:AddEnemy(12,0)
+						else
+						me:AddMsg(XT("Prestige after the establishment of the martial arts, at least 1 point"));
+						end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>All beings(1500 sect rep and attacked)</Display>
+				<OKResult>
+				<![CDATA[	
+				if me:GetSchoolScore(0) >= 1 then
+					story:RemoveBindItem();
+					
+						me:AddMsg(XT("The most widespread verse in the practice world is the most basic verse suitable for all."));
+						me:DropAwardItem("Item_WDCY",1);me:DropAwardItem("Item_WSSS",100);me:DropAwardItem("Item_ShuiEssence",1);me:DropAwardItem("Item_HuoEssence",1);me:DropAwardItem("Item_TuEssence",1);
+						me:DropAwardItem("Item_JinEssence",1);me:DropAwardItem("Item_MuEssence",1);me:DropAwardItem("Item_Dan_PracticeRate",9);me:DropAwardItem("Item_LingStone",100);
+						me:DropAwardItem("Item_LQ",15);me:AddSchoolScore(1,1500);
+						me:DropAwardItem("Item_WSXY",2);
+						me:DropAwardItem("Item_JSXY",2);
+						me:DropAwardItem("Item_MSXY",2);
+						me:DropAwardItem("Item_SSXY",2);
+						me:DropAwardItem("Item_HSXY",2);
+						me:DropAwardItem("Item_TSXY",2);
+						me:UnLockGong("Gong_DJ");me:AddEnemy(3,0)
+						else
+						me:AddMsg(XT("Prestige after the establishment of the martial arts, at least 1 point"));
+						end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Kingdom of God(1000 sect rep and attacked)</Display>
+				<OKResult>
+				<![CDATA[	
+				if me:GetSchoolScore(0) >= 1 then
+					story:RemoveBindItem();
+					
+						me:AddMsg(XT("The once-forgotten Shinto exercises in the practice world."));
+						me:DropAwardItem("Item_WDCY",1);me:DropAwardItem("Item_WSSS",100);me:DropAwardItem("Item_ShuiEssence",1);me:DropAwardItem("Item_HuoEssence",1);me:DropAwardItem("Item_TuEssence",1);
+						me:DropAwardItem("Item_JinEssence",1);me:DropAwardItem("Item_MuEssence",1);me:DropAwardItem("Item_Dan_PracticeRate",9);me:DropAwardItem("Item_LingStone",100);
+						me:DropAwardItem("Item_LQ",15);me:AddSchoolScore(1,1000);
+						me:DropAwardItem("Item_WSXY",2);
+						me:DropAwardItem("Item_JSXY",2);
+						me:DropAwardItem("Item_MSXY",2);
+						me:DropAwardItem("Item_SSXY",2);
+						me:DropAwardItem("Item_HSXY",2);
+						me:DropAwardItem("Item_TSXY",2);
+						me:UnLockGong("Gong_DJG");me:AddEnemy(3,0)
+						else
+						me:AddMsg(XT("Prestige after the establishment of the martial arts, at least 1 point"));
+						end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Grave Robbery(3000 sect rep and attacked)</Display>
+				<OKResult>
+				<![CDATA[	
+				if me:GetSchoolScore(0) >= 1 then
+					story:RemoveBindItem();
+					
+						me:AddMsg(XT("Duan De's start, of course, is digging."));
+						me:DropAwardItem("Item_ShuiEssence",2);me:DropAwardItem("Item_HuoEssence",2);me:DropAwardItem("Item_TuEssence",2);
+						me:DropAwardItem("Item_JinEssence",2);me:DropAwardItem("Item_MuEssence",2);me:DropAwardItem("Item_Dan_PracticeRate",9);me:DropAwardItem("Item_LingStone",500);
+						me:DropAwardItem("Item_LQ",20);me:AddSchoolScore(1,3000);
+						me:DropAwardItem("Item_WSXY",5);
+						me:DropAwardItem("Item_JSXY",5);
+						me:DropAwardItem("Item_MSXY",5);
+						me:DropAwardItem("Item_SSXY",5);
+						me:DropAwardItem("Item_HSXY",5);
+						me:DropAwardItem("Item_TSXY",5);
+						me:UnLockGong("Gong_DJTG");me:AddEnemy(3,0)
+						else
+						me:AddMsg(XT("Prestige after the establishment of the martial arts, at least 1 point"));
+						end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>No beginning and no end(6000 sect rep and attacked)</Display>
+				<OKResult>
+				<![CDATA[	
+				if me:GetSchoolScore(0) >= 1 then
+					story:RemoveBindItem();
+					
+						me:AddMsg(XT("At the end of the fairy road, who is the peak, at the first sight, the road is empty."));
+						me:DropAwardItem("Item_ShuiEssence",3);me:DropAwardItem("Item_HuoEssence",3);me:DropAwardItem("Item_TuEssence",3);me:DropAwardItem("Item_WSSS",200);
+						me:DropAwardItem("Item_JinEssence",3);me:DropAwardItem("Item_MuEssence",3);me:DropAwardItem("Item_Dan_PracticeRate",9);me:DropAwardItem("Item_SHZJ",2);me:DropAwardItem("Item_LingStone",1500);
+						me:DropAwardItem("Item_LQ",30);me:AddSchoolScore(1,6000);
+						me:DropAwardItem("Item_WSXY",8);
+						me:DropAwardItem("Item_JSXY",8);
+						me:DropAwardItem("Item_MSXY",8);
+						me:DropAwardItem("Item_SSXY",8);
+						me:DropAwardItem("Item_HSXY",8);
+						me:DropAwardItem("Item_TSXY",8);
+						me:UnLockGong("Gong_WSJ");me:AddEnemy(3,0)
+						else
+						me:AddMsg(XT("Prestige after the establishment of the martial arts, at least 1 point"));
+						end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Forget it, let me see</Display>
+				<OKResult>
+				me:AddMsg(XT("[NAME]Decided to forbear for a while。"))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZT_PMH"  Parent="BaseFillingStory">
+		<DisplayName>auctions</DisplayName>
+		<Desc>[NAME]Summon auction houses here。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Participate in auctions</Display>
+				<OKResult>
+					
+						CS.Wnd_TradeAuction.Instance:ShowAuction(me.npcObj);
+					
+				</OKResult>
+			</li>
+			<li>
+				<Display>Leave</Display>
+				<OKResult><![CDATA[	
+				me:AddMsg(XT("[NAME]Don't want to do anything, just leave here."));
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+</List></Stories>

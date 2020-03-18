@@ -1,0 +1,474 @@
+<Stories><List>
+	
+	<Story Name="ZT_JZM_Z"  Parent="BaseFillingStory">
+		<DisplayName>The secret whereabouts of the word</DisplayName>
+		<Desc>[NAME]在[PLACE]The whereabouts of the nine-word secret were found nearby. It is said that can life and death of the flesh and blood of the word secret!</Desc>
+		<Selections>
+			<li>
+				<Display>A probe into the exact (four-thirds of a probability, the above-the-world realm)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 6 and me:RandomInt(1, 4) == 1
+				]]>
+				</Condition>
+				<Tip>Half of the tao palace environment may find the chance, the probability of one-fourth. Can't go low.</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]With also see the past repair and good luck, get the word secret.");
+				me:AddSchoolScore(1,200);
+				
+				me:DropEsoteric("ZT_JZM_Z");
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+
+				me:AddMsg("[NAME]Broke out a wave, so that the word secret can not see the repair, so the word secret ran, right, ran, but also to return[NAME]Left a book of other secrets, sighed, had to leave.");
+				me:AddSchoolScore(1,-30);
+				me:DropRandomItem("Esoterica");
+				story:FinishSecret()
+				]]>
+				</NOResult>
+			</li>
+			
+			<li>
+				<Display>Come on, let's go.</Display>
+				<OKResult><![CDATA[	
+				me:AddMsg("[NAME]Head long whistling, so what use, it is time to go.");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZT_JZM_L"  Parent="BaseFillingStory">
+		<DisplayName>Pro-Word SecretS</DisplayName>
+		<Desc>[NAME]In[PLACE]The whereabouts of the nine-word secret were found nearby. This time is the word secret, can improve the practitioner's state of mind, if found that a knot dan is expected</Desc>
+		<Selections>
+			<li>
+				<Display>A probe into the end (one in two probability)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 4 and me:RandomInt(1, 2) == 1
+				]]>
+				</Condition>
+				<Tip>Tao Palace poor but can find the chance, the probability of one-fourth can not get you to go to the group.</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]With a still see the past repair and general luck, to obtain the word secret.");
+	
+				me:DropEsoteric("ZT_JZM_L");
+				me:AddSchoolScore(1,200);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+
+				me:AddMsg("[NAME]The repair and bad luck are amazing ah, my day of so many years of practice is how to live, so say,[NAME]Except for a random book, hey, it's not a good time to call you gone.")
+				me:AddSchoolScore(1,-20);
+				me:DropRandomItem("Esoterica");
+				story:FinishSecret()
+				]]>
+				</NOResult>
+			</li>
+			
+			<li>
+				<Display>Come on, let's go.</Display>
+				<OKResult><![CDATA[	
+				me:AddMsg("[NAME]Head long whistling, so what use, it is time to go.");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZT_JZM_X"  Parent="BaseFillingStory">
+		<DisplayName>The secret whereabouts of the line</DisplayName>
+		<Desc>[NAME]在[PLACE]The whereabouts of the nine-word secret were found nearby. I heard that is to make the emperor are envious of the line secret, this down the door to steal things i am not afraid.</Desc>
+		<Selections>
+			<li>
+				<Display>A probe into the end (experience speed is greater than 5, god is greater than 9, insight is greater than 9)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 3 
+				]]>
+				</Condition>
+				<Tip>Round sea may find the edge, tell me really I lower the probability,</Tip>
+				<OKResult>
+				<![CDATA[	
+				if me:GetProperty("WorldMapFlySpeed") >= 5 or me:GetPerception() >= 9 and me:GetIntelligence() >= 9 then
+				me:AddMsg("[NAME]With their own good foundation ability, watching the old madman's feet, actually have a lot to gain, learned the word secret.");
+				me:DropEsoteric("ZT_JZM_X");
+				me:AddSchoolScore(1,200);
+				else
+					me:AddMsg("[NAME]Staring at the old madman's feet, sniffing for three days, actually learned nothing, was smoked to death.");
+					me:AddDamgeFromCache(story.DamageCache,9,9);
+				end
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+
+				me:AddMsg("[NAME]With a still see the past repair and general luck, simply can not get the word secret, it ran to find the old madman, you dare to follow?");
+				me:AddSchoolScore(1,-20);
+				me:DropRandomItem("Esoterica");
+				story:FinishSecret()
+				]]>
+				</NOResult>
+			</li>
+			
+			<li>
+				<Display>Come on, let's go.</Display>
+				<OKResult><![CDATA[	
+				me:AddMsg("[NAME]Head long whistling, so what use, it is time to go.");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+		
+	<Story Name="ZT_JZM_D"  Parent="BaseFillingStory">
+		<DisplayName>Fighting Words</DisplayName>
+		<Desc>[NAME]in[PLACE]The whereabouts of Ji Zi Zi was found nearby. The word secret is the world's first attacking technique, with him! I! It seems that nothing can be done.</Desc>
+		<Selections>
+			<li>
+				<Display>Check it out (Spell Level 28)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 6 and me:GetSkillLevel("FightSkill") >= 28
+				]]>
+				</Condition>
+				<Tip>The opportunity can only be found in Daomingjing</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]Run the aura in your body, don't be lucky, I look at your spell ability, you break through the formation, and you get the word secret.");
+	
+				me:DropEsoteric("ZT_JZM_D");
+				me:AddSchoolScore(1,200);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+
+				me:AddMsg("[NAME]With the luck that can't exist and the skill is so poor, you can't find the word secret. It's there, you just can't get it.");
+				me:AddSchoolScore(1,-20);
+				me:DropRandomItem("Esoterica");
+				story:FinishSecret()
+				]]>
+				</NOResult>
+			</li>
+			
+			<li>
+				<Display>Forget it, let's go.</Display>
+				<OKResult><![CDATA[	
+				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZT_JZM_ZHEN"  Parent="BaseFillingStory">
+		<DisplayName>The secret line</DisplayName>
+		<Desc>[NAME]in[PLACE]The whereabouts of Ji Zi Zi was found nearby. Adding array power? No, it doesn't. Adding magic tricks? No, neither.</Desc>
+		<Selections>
+			<li>
+				<Display>How to say it is also Jiubi, I'll go down. (Matrix 25)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 8 and me:GetSkillLevel("Zhen") >= 25
+				]]>
+				</Condition>
+				<Tip>The opportunity can only be found in Daomingjing</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]After running the aura in the body, he found that he was[NAME]What kind of aura is it?");
+				me:DropEsoteric("ZT_JZM_ZHEN");
+				me:AddSchoolScore(1,200);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+
+				me:AddMsg("[NAME]Have you learned the matrix? Just want to get a secret copy? Ok?");
+				me:AddSchoolScore(1,-20);
+				me:DropRandomItem("Esoterica");
+				story:FinishSecret()
+				]]>
+				</NOResult>
+			</li>
+			
+			<li>
+				<Display>Forget it, let's go.</Display>
+				<OKResult><![CDATA[	
+				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZT_MJ_YMSC"  Parent="BaseFillingStory">
+		<DisplayName>Formation method cheats</DisplayName>
+		<Desc>[NAME]in[PLACE]News of a lost formation cheat nearby</Desc>
+		<Selections>
+			<li>
+				<Display>Formation? Any good stuff? (Matrix 10)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 6 and me:GetSkillLevel("Zhen") >= 10
+				]]>
+				</Condition>
+				<Tip>Four opportunities to find opportunities</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]After running the aura in the body, he found that he was[NAME]What kind of aura is it?");
+				me:DropEsoteric("ZT_YMSC");me:DropAwardItem("Item_FXLJZhenTu", 1);
+				me:AddSchoolScore(1,100);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+
+				me:AddMsg("[NAME]Have you learned the matrix? Just want to get a cheat? Ok?");
+				me:AddSchoolScore(1,-20);
+				me:DropRandomItem("Esoterica");
+				story:FinishSecret()
+				]]>
+				</NOResult>
+			</li>
+			
+			<li>
+				<Display>Forget it, let's go.</Display>
+				<OKResult><![CDATA[	
+				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	<Story Name="ZT_MJ_ZH"  Parent="BaseFillingStory">
+		<DisplayName>Dan Fang Cheats</DisplayName>
+		<Desc>[NAME]in[PLACE]A lost Danfang cheat was found nearby</Desc>
+		<Selections>
+			<li>
+				<Display>Dan Fang? let me see. (Alchemy level 15)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 6 and me:GetSkillLevel("Medicine") >= 15
+				]]>
+				</Condition>
+				<Tip>Four opportunities to find opportunities</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]After running the aura in the body, he found that he was[NAME]What is your alchemy ability?");
+				me:DropEsoteric("MJ_ZH");
+				me:AddSchoolScore(1,100);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+
+				me:AddMsg("[NAME]Have you learned alchemy skills? Just want to get a cheat? Ok?");
+				me:AddSchoolScore(1,-20);
+				me:DropRandomItem("Esoterica");
+				story:FinishSecret()
+				]]>
+				</NOResult>
+			</li>
+			
+			<li>
+				<Display>Forget it, let's go.</Display>
+				<OKResult><![CDATA[	
+				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	<Story Name="ZT_JZM_Q"  Parent="BaseFillingStory">
+		<DisplayName>Former Secret Whereabouts</DisplayName>
+		<Desc>[NAME]在[PLACE]The whereabouts of Ji Zi Zi was found nearby. Add God, get rid of this game without God, add God? I think you're fine, but not.</Desc>
+		<Selections>
+			<li>
+				<Display>This nine secret is also very good, right. (One-third probability)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 3 and me:RandomInt(1, 3) == 1
+				]]>
+				</Condition>
+				<Tip>The opportunity can only be found in Daomingjing</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]Turn your aura in your body, okay, stop and give it to you.");
+				me:DropEsoteric("ZT_JZM_Q");
+				me:AddSchoolScore(1,200);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+
+				me:AddMsg("[NAME]You, see if this one-quarter probability is true. In the future, play less games that require European style, and leave it to Xiuxian Simulator?");
+				me:AddSchoolScore(1,-20);
+				me:DropRandomItem("Esoterica");
+				story:FinishSecret()
+				]]>
+				</NOResult>
+			</li>
+			
+			<li>
+				<Display>Forget it, let's go.</Display>
+				<OKResult><![CDATA[	
+				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	
+	<Story Name="ZT_JZM_S"  Parent="BaseFillingStory">
+		<DisplayName>Digital Secrets</DisplayName>
+		<Desc>[NAME]in[PLACE]The whereabouts of Ji Zi Zi was found nearby. Digital secrets, not numbers, secrets. It ’s not a number. It ’s not a secret. Of course it ’s not a number.</Desc>
+		<Selections>
+			<li>
+				<Display>It ’s a pity that I did n’t get the nine secrets. (Quarter probability)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 9 and me:RandomInt(1, 4) == 1
+				]]>
+				</Condition>
+				<Tip>You can find the chance in Hualongjing</Tip>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]You're out of luck. Hurry up and draw a prize.");
+				me:DropEsoteric("ZT_JZM_S");
+				me:AddSchoolScore(1,200);
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+
+				me:AddMsg("[NAME]It's okay. It's the luck of you, the loss of your life.");
+				me:AddSchoolScore(1,-20);
+				me:DropRandomItem("Esoterica");
+				story:FinishSecret()
+				]]>
+				</NOResult>
+			</li>
+			
+			<li>
+				<Display>Forget it, let's go.</Display>
+				<OKResult><![CDATA[	
+				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	<Story Name="ZT_JZM_J"  Parent="BaseFillingStory">
+		<DisplayName>Everyone's Secret</DisplayName>
+		<Desc>[NAME]在[PLACE]The whereabouts of Ji Zi Zi was found nearby. All, literally, everything, it's as simple as taking ten times.</Desc>
+		<Selections>
+			<li>
+				<Display>This Jiubi didn't get it, really really a pity brother. (Each attribute level is 30 or higher)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 9
+				]]>
+				</Condition>
+				<Tip>Four opportunities to find opportunities</Tip>
+				<OKResult>
+				<![CDATA[	
+				if me:GetSkillLevel("Fabao") >= 30 and me:GetSkillLevel("DouFa") >= 30 and me:GetSkillLevel("Barrier") >= 30 and me:GetSkillLevel("Zhen") >= 30 and me:GetSkillLevel("FightSkill") >= 30 and me:GetSkillLevel("Fight") >= 30 then
+				me:AddMsg("[NAME]The strength is high, the secrets are just random.");
+				me:DropEsoteric("ZT_JZM_J");
+				me:AddSchoolScore(1,200);
+				else
+				me:AddMsg("[NAME]It is a shame for my generation to dare to come and take the secret of lack of strength.");
+				me:AddSchoolScore(1,-200);
+				me:AddDamgeFromCache(story.DamageCache,9,9);
+				end
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+
+				me:AddMsg("[NAME]It ’s okay. It ’s the luck of you, the loss of your life, another day you have enough strength to come again, or you just humiliate yourself.");
+				me:AddSchoolScore(1,-20);story:FinishSecret()
+				]]>
+				</NOResult>
+			</li>
+			
+			<li>
+				<Display>Forget it, let's go.</Display>
+				<OKResult><![CDATA[	
+				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZT_JZM_B"  Parent="BaseFillingStory">
+		<DisplayName>Soldiers whereabouts</DisplayName>
+		<Desc>[NAME]in[PLACE]The whereabouts of Ji Zi Zi was found nearby. The secret word of the soldiers controls all the magic soldiers in the world. If the strength is strong enough, they can even control the imperial soldiers (think about it).</Desc>
+		<Selections>
+			<li>
+				<Display>Leap into the puddle. (Class 40)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 9
+				]]>
+				</Condition>
+				<Tip>Above the four-pole realm, the level of the refiner is 40 or higher</Tip>
+				<OKResult>
+				<![CDATA[	
+				if me:GetSkillLevel("Manual") >= 40 then
+				me:AddMsg("[NAME]The skill of the refining device is already in full swing, and it is only the icing on the cake to get a soldier secret.");
+				me:DropEsoteric("ZT_JZM_B");
+				me:AddSchoolScore(1,200);
+				else
+				me:AddMsg("[NAME]I do n’t know how to make a device at all.");
+				me:AddSchoolScore(1,-200);
+				me:AddDamgeFromCache(story.DamageCache,9,9);
+				end
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+
+				me:AddMsg("[NAME]It ’s okay. It ’s not normal. Strength is a hard condition.");
+				me:AddSchoolScore(1,-20);story:FinishSecret()
+				]]>
+				</NOResult>
+			</li>
+			
+			<li>
+				<Display>Forget it, let's go.</Display>
+				<OKResult><![CDATA[	
+				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+</List></Stories>

@@ -1,0 +1,88 @@
+<Experiences><List>
+	<Experience Name="ZT_Experiences_cs">
+		<DisplayName>Northbound</DisplayName>
+		<Desc>The beginning of the world of covering the sky, only sending resources without power, the secret of the world of covering the sky began about 60 days.</Desc>
+		<Point>2</Point>
+		<NpcSlot>2</NpcSlot>
+		<ModifierDef>
+			<BaseFive>3,3,3,3,3</BaseFive>
+		</ModifierDef>	
+		<Esoterics>
+			<li>ZT_CLBY</li>
+			<li>ZT_FL</li>
+		</Esoterics>
+		<Items>
+			<li Name= "Item_WDCY" Count="1"/>
+			<li Name= "Item_SHQ" Count="4"/>
+			<li Name= "Item_SG" Count="4"/>
+			<li Name= "Item_YS1" Count="5"/>
+			<li Name= "Item_LQ" Count="3"/>
+			<li Name= "Item_IronRock" Count="200"/>
+			<li Name= "Item_Dan_TreeEXP" Count="2"/>
+			<li Name= "Item_LingStoneBlock" Count="2500"/>
+			<li Name= "Item_LingStone" Count="1000"/>
+			<li Name= "Item_HST" Count="30"/>
+			<li Name= "Item_HG2" Count="20"/>
+			<li Name= "ZT_TSMHJ" Count="1"/>
+		</Items>	
+	</Experience>	
+	
+	<Experience Name="ZT_Experiences_cs1">
+		<DisplayName>The Heavenly Family</DisplayName>
+		<Desc>There are many strengths and sects in the sky-covering world. One of them can stand on its own and get its heritage.</Desc>
+		<Point>5</Point>
+		<NpcSlot>2</NpcSlot>
+		<ModifierDef>
+			<BaseFive>6,6,6,6,6</BaseFive>
+		</ModifierDef>	
+		<Esoterics>
+			<li>ZT_CLBY</li>
+			<li>ZTDF</li>
+			<li>ZT_FL</li>
+			<li>MJ_MY</li>
+		</Esoterics>
+		<Items>
+			<li Name= "Item_yyzt" Count="1"/>
+			<li Name= "Item_SJL" Count="1"/>
+			<li Name= "Item_IronRock" Count="200"/>
+			<li Name= "Item_Dan_TreeEXP" Count="2"/>
+			<li Name= "Item_LingStoneBlock" Count="2500"/>
+			<li Name= "Item_LingStone" Count="3000"/>
+			<li Name= "Item_HST" Count="30"/>
+			<li Name= "Item_HG2" Count="20"/>
+			<li Name= "ZT_TSMHJ" Count="1"/>
+			<li Name= "ZT_ASJ" Count="1"/>
+			<li Name= "ZT_JPLXG" Count="1"/>
+		</Items>	
+	</Experience>	
+	<Experience Name="ZT_Experiences_cs2">
+		<DisplayName>Covering the Spring Festival</DisplayName>
+		<Desc>The author of Xie Tian World said that he would like to present ten delicious dishes here. I wish you a happy Chinese New Year. Perfect!</Desc>
+		<Point>-2</Point>
+		<NpcSlot>2</NpcSlot>
+		<ModifierDef>
+			<BaseFive>9,9,9,9,9</BaseFive>
+		</ModifierDef>	
+		<Gongs>
+			<li>Gong_NPJ</li>
+		</Gongs>
+		<Items>
+			<li Name= "Item_WDCY" Count="2"/>
+			<li Name= "Item_Dan_PT" Count="6"/>
+			<li Name= "Item_LingStone" Count="8888"/>
+			<li Name= "Item_SG" Count="9"/>
+			<li Name= "Item_SHQ" Count="9"/>
+			<li Name= "Item_YMDX" Count="18"/>
+			<li Name= "Item_DJYT" Count="18"/>
+			<li Name= "Item_LBZTR" Count="18"/>
+			<li Name= "Item_HSR" Count="18"/>
+			<li Name= "Item_ZPG" Count="18"/>
+			<li Name= "Item_KLJC" Count="18"/>
+			<li Name= "Item_NRHG" Count="18"/>
+			<li Name= "Item_DJYT" Count="18"/>
+			<li Name= "Item_NRMF" Count="18"/>
+			<li Name= "Item_PJFZ" Count="18"/>
+			<li Name= "Item_DZJ" Count="18"/>
+		</Items>	
+	</Experience>	
+</List></Experiences>

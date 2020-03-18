@@ -1,0 +1,561 @@
+<RaceDefs><List>
+	
+<RaceDef Name="JYBase">
+	<NameGeneratorMaleSuffix>JYAnimal/Suffix_All.txt</NameGeneratorMaleSuffix>
+	<NameGeneratorFemaleSuffix>JYAnimal/Suffix_All.txt</NameGeneratorFemaleSuffix>
+</RaceDef>
+
+<RaceDef Name="ZTWolf" Parent="JYBase">
+	<DisplayName>Wolf</DisplayName>
+	<Mod>Mod/Npc/JYWolf/Base</Mod>
+	<NameGeneratorPrefix>JYAnimal/Prefix_Wolf.txt</NameGeneratorPrefix>
+	<RaceType>Animal</RaceType>
+	<Revive>0</Revive>
+	<MaleName>公</MaleName>
+	<FemaleName>母</FemaleName>
+	<NormalAttack>JYWolf_NormalAttack</NormalAttack>
+	<Body>QuadrupedBody</Body>
+	<FreeLength>1.8</FreeLength>
+	<FreeAni>
+		<li>Free</li>
+		<li>Free2</li>
+	</FreeAni>
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>12</GenerateMaxAge>
+	<AdultAge>5</AdultAge>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>0</WarningRange>
+	<RebornRace>Wolf</RebornRace>
+	<Modifier>ZTLH</Modifier>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,1,0],
+		[1,3,1],
+		[0,1,0],
+		</Data>
+	</Collider>
+	
+	<EliteDrops>
+		<Drop MinJinJie="1" MaxJinJie="12">
+			<Items>
+				<li>
+					<ThingDef>Item_MonsterBlood</ThingDef>
+					<Count>3</Count>
+					<Rate>0.25</Rate>
+				</li>
+				<li>
+					<ThingDef>Item_MonsterBlood</ThingDef>
+					<Count>1</Count>
+					<Rate>1</Rate>
+				</li>
+				<li>
+					<ThingDef>Item_YaoLeather</ThingDef>
+					<Count>15</Count>
+					<Rate>1</Rate>
+				</li>
+			</Items>
+		</Drop>
+		<Drop MinJinJie="4" MaxJinJie="9">
+			<Items>
+				<li>
+					<ThingDef>Item_YaoLeather</ThingDef>
+					<Count>35</Count>
+					<Rate>0.25</Rate>
+				</li>
+			</Items>
+		</Drop>
+		<Drop MinJinJie="7" MaxJinJie="12">
+			<Items>
+				<li>
+					<ThingDef>Item_SoulPearl</ThingDef>
+					<Count>1</Count>
+					<Rate>1</Rate>
+				</li>
+				<li>
+					<ThingDef>Item_MonsterBlood</ThingDef>
+					<Count>2</Count>
+					<Rate>0.25</Rate>
+				</li>
+			</Items>
+		</Drop>
+		<Drop MinJinJie="10" MaxJinJie="12">
+			<Items>
+				<li>
+					<ThingDef>Item_YaoLeather</ThingDef>
+					<Count>40</Count>
+					<Rate>1</Rate>
+				</li>
+				<li>
+					<ThingDef>Item_YaoLeather1</ThingDef>
+					<Count>15</Count>
+					<Rate>0.2</Rate>
+				</li>
+				<li>
+					<ThingDef>Item_MonsterBlood</ThingDef>
+					<Count>5</Count>
+					<Rate>0.25</Rate>
+				</li>
+			</Items>
+		</Drop>
+		
+		<Drop MinJinJie="10" MaxJinJie="12">
+			<Items>
+				<li>
+					<ThingDef>Item_Yao_WolfAtk</ThingDef>
+					<Count>1</Count>
+					<Rate>0.1</Rate>
+				</li>
+			</Items>
+		</Drop>
+	</EliteDrops>
+	
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="2"	>2,1,1,1,2</li> 
+		<li Sex="Male" 	 AgeMin="3" 	AgeMax="9"	>5,3,1,3,2</li> 
+		<li Sex="Male" 	 AgeMin="10" 	AgeMax="12"	>4,2,1,4,2</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="2"	>2,1,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="3" 	AgeMax="9"	>5,3,1,3,2</li> 
+		<li Sex="Female" 	 AgeMin="10" 	AgeMax="12"	>4,2,1,4,2</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="MammalMaxAge_15"/>
+		<li Name="RaceMoveSpeed" Value="MammalMoveSpeed"/>
+		<li Name="RaceMaxHp" Value="MammalMaxHp"/>
+		<li Name="RaceComfyTMin" Value="MammalComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="MammalComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="MammalToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="MammalToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="MammalVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="MammalBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="MammalRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+<RaceDef Name="ZTSnake" Parent="JYBase">
+	<DisplayName>蛇</DisplayName>
+	<Mod>Mod/Npc/JYSnake/Base</Mod>
+	<NameGeneratorPrefix>JYAnimal/Prefix_Snake.txt</NameGeneratorPrefix>
+	<RaceType>Animal</RaceType>
+	<Revive>0</Revive>
+	<MaleName>雄</MaleName>
+	<FemaleName>雌</FemaleName>
+	<NormalAttack>JYSnake_NormalAttack</NormalAttack>
+	<Body>SnakeBody</Body>
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>45</GenerateMaxAge>
+	<AdultAge>40</AdultAge>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>0</WarningRange>
+	<WinterHide>0</WinterHide>
+	<RebornRace>Snake</RebornRace>
+	
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0,1,0,0],
+		[0,1,1,1,0],
+		[1,1,3,1,1],
+		[0,1,1,1,0],
+		[0,0,1,0,0],
+		</Data>
+	</Collider>
+	<ForbidFly>1</ForbidFly>
+	
+	<EliteDrops>
+		<Drop MinJinJie="1" MaxJinJie="12">
+			<Items>
+				<li>
+					<ThingDef>Item_MonsterBlood</ThingDef>
+					<Count>3</Count>
+					<Rate>0.25</Rate>
+				</li>
+				<li>
+					<ThingDef>Item_MonsterBlood</ThingDef>
+					<Count>1</Count>
+					<Rate>1</Rate>
+				</li>
+				<li>
+					<ThingDef>Item_YaoLeather</ThingDef>
+					<Count>15</Count>
+					<Rate>1</Rate>
+				</li>
+			</Items>
+		</Drop>
+		<Drop MinJinJie="4" MaxJinJie="9">
+			<Items>
+				<li>
+					<ThingDef>Item_YaoLeather</ThingDef>
+					<Count>35</Count>
+					<Rate>0.25</Rate>
+				</li>
+			</Items>
+		</Drop>
+		<Drop MinJinJie="7" MaxJinJie="12">
+			<Items>
+				<li>
+					<ThingDef>Item_SoulPearl</ThingDef>
+					<Count>1</Count>
+					<Rate>1</Rate>
+				</li>
+				<li>
+					<ThingDef>Item_MonsterBlood</ThingDef>
+					<Count>2</Count>
+					<Rate>0.25</Rate>
+				</li>
+			</Items>
+		</Drop>
+		<Drop MinJinJie="10" MaxJinJie="12">
+			<Items>
+				<li>
+					<ThingDef>Item_YaoLeather</ThingDef>
+					<Count>40</Count>
+					<Rate>1</Rate>
+				</li>
+				<li>
+					<ThingDef>Item_YaoLeather1</ThingDef>
+					<Count>15</Count>
+					<Rate>0.2</Rate>
+				</li>
+				<li>
+					<ThingDef>Item_MonsterBlood</ThingDef>
+					<Count>5</Count>
+					<Rate>0.25</Rate>
+				</li>
+			</Items>
+		</Drop>
+		<Drop MinJinJie="10" MaxJinJie="12">
+			<Items>
+				<li>
+					<ThingDef>Item_Yao_SnakeHanLin</ThingDef>
+					<Count>1</Count>
+					<Rate>0.1</Rate>
+				</li>
+			</Items>
+		</Drop>
+	</EliteDrops>
+	
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="2"	>2,4,1,1,2</li> 
+		<li Sex="Male" 	 AgeMin="3" 	AgeMax="9"	>3,4,1,2,2</li> 
+		<li Sex="Male" 	 AgeMin="10" 	AgeMax="30"	>4,4,1,3,3</li> 
+		<li Sex="Male" 	 AgeMin="31" 	AgeMax="50"	>6,4,1,5,4</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="2"	>2,4,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="3" 	AgeMax="9"	>3,4,1,2,2</li> 
+		<li Sex="Female" 	 AgeMin="10" 	AgeMax="30"	>4,4,1,3,3</li> 
+		<li Sex="Female" 	 AgeMin="31" 	AgeMax="50"	>6,4,1,5,4</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="PoikilothermMaxAge_50"/>
+		<li Name="RaceMoveSpeed" Value="PoikilothermMoveSpeed_Snake"/>
+		<li Name="RaceMaxHp" Value="PoikilothermMaxHp"/>
+		<li Name="RaceComfyTMin" Value="PoikilothermComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="PoikilothermComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="PoikilothermToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="PoikilothermToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="PoikilothermVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="PoikilothermBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="PoikilothermRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+<RaceDef Name="JYLongpuNight" Parent="JYBase">
+	<DisplayName>龙之仆役(夜)</DisplayName>
+	<Mod>Mod/Npc/Longzhipuyi_night/Base</Mod>
+	<RaceType>Animal</RaceType>
+	<Revive>0</Revive>
+	<NormalAttack>JYLongPu_Night_NormalAttack</NormalAttack>
+	<Body>SnakeBody</Body>
+	<HasGenders>0</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>0.5</GenerateMinAge>
+	<GenerateMaxAge>45</GenerateMaxAge>
+	<AdultAge>40</AdultAge>
+	<LeaveBody>0</LeaveBody>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>0</WarningRange>
+	<WinterHide>0</WinterHide>
+	<RebornRace>Snake</RebornRace>
+	<!--<CastBip>Bip01 R Hand</CastBip>-->
+	
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0,1,0,0],
+		[0,1,1,1,0],
+		[1,1,3,1,1],
+		[0,1,1,1,0],
+		[0,0,1,0,0],
+		</Data>
+	</Collider>
+	<ForbidFly>1</ForbidFly>
+	
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="2"	>2,4,1,1,2</li> 
+		<li Sex="Male" 	 AgeMin="3" 	AgeMax="9"	>3,4,1,2,2</li> 
+		<li Sex="Male" 	 AgeMin="10" 	AgeMax="30"	>4,4,1,3,3</li> 
+		<li Sex="Male" 	 AgeMin="31" 	AgeMax="50"	>6,4,1,5,4</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="2"	>2,4,1,1,2</li> 
+		<li Sex="Female" 	 AgeMin="3" 	AgeMax="9"	>3,4,1,2,2</li> 
+		<li Sex="Female" 	 AgeMin="10" 	AgeMax="30"	>4,4,1,3,3</li> 
+		<li Sex="Female" 	 AgeMin="31" 	AgeMax="50"	>6,4,1,5,4</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="PoikilothermMaxAge_50"/>
+		<li Name="RaceMoveSpeed" Value="PoikilothermMoveSpeed_Snake"/>
+		<li Name="RaceMaxHp" Value="PoikilothermMaxHp"/>
+		<li Name="RaceComfyTMin" Value="PoikilothermComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="PoikilothermComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="PoikilothermToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="PoikilothermToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="PoikilothermVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="PoikilothermBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="PoikilothermRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+<RaceDef Name="JYLongpuDay" Parent="JYLongpuNight">
+	<DisplayName>龙之仆役(昼)</DisplayName>
+	<Mod>Mod/Npc/Longzhipuyi_day/Base</Mod>
+	<NormalAttack>JYLongPu_Day_NormalAttack</NormalAttack>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="PoikilothermMaxAge_50"/>
+		<li Name="RaceMoveSpeed" Value="PoikilothermMoveSpeed_Snake"/>
+		<li Name="RaceMaxHp" Value="PoikilothermMaxHp"/>
+		<li Name="RaceComfyTMin" Value="PoikilothermComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="PoikilothermComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="PoikilothermToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="PoikilothermToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="PoikilothermVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="PoikilothermBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="PoikilothermRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+	<RaceDef Name="ZTLH">
+	<DisplayName>百纹虎</DisplayName>
+	<Mod>Mod/Npc/Monster/tirger/tirger.fbx</Mod>
+	<RaceType>Boss</RaceType>
+	<Revive>1</Revive>
+	<MaleName>雄</MaleName>
+	<FemaleName>雌</FemaleName>
+	<NormalAttack>zt_Tirger_NormalAttack</NormalAttack>
+	<Body>QuadrupedBody</Body>
+	<FreeLength>2.9</FreeLength>
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>60</GenerateMinAge>
+	<GenerateMaxAge>90</GenerateMaxAge>
+	<AdultAge>3</AdultAge>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>4</WarningRange>
+	<Modifier>ZTLH</Modifier>
+	<FightModifier>Boss_MSFight</FightModifier>
+	<BreedingLikeTame>
+		<li>TameMeat</li>
+		<li>TameLing</li>
+	</BreedingLikeTame>
+	
+	<RacePregnant>
+		<PregnantTime>15000</PregnantTime>
+		<PregnantInterval>52200</PregnantInterval>
+		<PregnantRate>0.01</PregnantRate>
+		<MinBirthCount>2</MinBirthCount>
+		<MaxBirthCount>4</MaxBirthCount>
+		<PregnantItem></PregnantItem>
+	</RacePregnant>
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="3"	>1,1,1,1,1</li> 
+		<li Sex="Male" 	 AgeMin="4" 	AgeMax="9"	>1,1,1,1,1</li> 
+		<li Sex="Male" 	 AgeMin="10" 	AgeMax="15"	>1,1,1,1,1</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="3"	>1,1,1,1,1</li> 
+		<li Sex="Female" 	 AgeMin="4" 	AgeMax="9"	>1,1,1,1,1</li> 
+		<li Sex="Female" 	 AgeMin="10" 	AgeMax="15"	>1,1,1,1,1</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="PoikilothermMaxAge_50"/>
+		<li Name="RaceMoveSpeed" Value="PoikilothermMoveSpeed_Snake"/>
+		<li Name="RaceMaxHp" Value="PoikilothermMaxHp"/>
+		<li Name="RaceComfyTMin" Value="PoikilothermComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="PoikilothermComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="PoikilothermToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="PoikilothermToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="PoikilothermVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="PoikilothermBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="PoikilothermRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+	<RaceDef Name="ZTLH1">
+	<DisplayName>斑斓虎</DisplayName>
+	<Mod>Mod/Npc/Monster/tirger/tirger.fbx</Mod>
+	<RaceType>Animal</RaceType>
+	<Revive>1</Revive>
+	<MaleName>雄</MaleName>
+	<FemaleName>雌</FemaleName>
+	<NormalAttack>zt_Tirger_NormalAttack</NormalAttack>
+	<Body>QuadrupedBody</Body>
+	<FreeLength>2.9</FreeLength>
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>1</GenerateMinAge>
+	<GenerateMaxAge>14</GenerateMaxAge>
+	<AdultAge>3</AdultAge>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>4</WarningRange>
+	<Modifier>ZTLH</Modifier>
+	<BreedingLikeTame>
+		<li>TameMeat</li>
+		<li>TameLing</li>
+	</BreedingLikeTame>
+	
+	<RacePregnant>
+		<PregnantTime>15000</PregnantTime>
+		<PregnantInterval>52200</PregnantInterval>
+		<PregnantRate>0.01</PregnantRate>
+		<MinBirthCount>2</MinBirthCount>
+		<MaxBirthCount>4</MaxBirthCount>
+		<PregnantItem></PregnantItem>
+	</RacePregnant>
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="3"	>1,1,1,1,1</li> 
+		<li Sex="Male" 	 AgeMin="4" 	AgeMax="9"	>1,1,1,1,1</li> 
+		<li Sex="Male" 	 AgeMin="10" 	AgeMax="15"	>1,1,1,1,1</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="3"	>1,1,1,1,1</li> 
+		<li Sex="Female" 	 AgeMin="4" 	AgeMax="9"	>1,1,1,1,1</li> 
+		<li Sex="Female" 	 AgeMin="10" 	AgeMax="15"	>1,1,1,1,1</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="PoikilothermMaxAge_50"/>
+		<li Name="RaceMoveSpeed" Value="PoikilothermMoveSpeed_Snake"/>
+		<li Name="RaceMaxHp" Value="PoikilothermMaxHp"/>
+		<li Name="RaceComfyTMin" Value="PoikilothermComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="PoikilothermComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="PoikilothermToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="PoikilothermToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="PoikilothermVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="PoikilothermBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="PoikilothermRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+<RaceDef Name="ZTLH2">
+	<DisplayName>中薪虎</DisplayName>
+	<Mod>Mod/Npc/Monster/tirger/tirger.fbx</Mod>
+	<RaceType>Animal</RaceType>
+	<Revive>1</Revive>
+	<MaleName>雄</MaleName>
+	<FemaleName>雌</FemaleName>
+	<NormalAttack>zt_Tirger_NormalAttack</NormalAttack>
+	<Body>QuadrupedBody</Body>
+	<FreeLength>2.9</FreeLength>
+	<HasGenders>1</HasGenders>
+	<HasEquip>0</HasEquip>
+	<GenerateMinAge>1</GenerateMinAge>
+	<GenerateMaxAge>14</GenerateMaxAge>
+	<AdultAge>3</AdultAge>
+	<StrikeBack>1</StrikeBack>
+	<WarningRange>4</WarningRange>
+	<Modifier>ZTLH</Modifier>
+	<BreedingLikeTame>
+		<li>TameMeat</li>
+		<li>TameLing</li>
+	</BreedingLikeTame>
+	
+	<RacePregnant>
+		<PregnantTime>15000</PregnantTime>
+		<PregnantInterval>52200</PregnantInterval>
+		<PregnantRate>0.01</PregnantRate>
+		<MinBirthCount>2</MinBirthCount>
+		<MaxBirthCount>4</MaxBirthCount>
+		<PregnantItem></PregnantItem>
+	</RacePregnant>
+	<BaseFive>
+		<li Sex="Male" 	 AgeMin="0" 	AgeMax="3"	>1,1,1,1,1</li> 
+		<li Sex="Male" 	 AgeMin="4" 	AgeMax="9"	>1,1,1,1,1</li> 
+		<li Sex="Male" 	 AgeMin="10" 	AgeMax="15"	>1,1,1,1,1</li> 
+		<li Sex="Female" 	 AgeMin="0" 	AgeMax="3"	>1,1,1,1,1</li> 
+		<li Sex="Female" 	 AgeMin="4" 	AgeMax="9"	>1,1,1,1,1</li> 
+		<li Sex="Female" 	 AgeMin="10" 	AgeMax="15"	>1,1,1,1,1</li> 
+	</BaseFive>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="PoikilothermMaxAge_50"/>
+		<li Name="RaceMoveSpeed" Value="PoikilothermMoveSpeed_Snake"/>
+		<li Name="RaceMaxHp" Value="PoikilothermMaxHp"/>
+		<li Name="RaceComfyTMin" Value="PoikilothermComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="PoikilothermComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="PoikilothermToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="PoikilothermToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="PoikilothermVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="PoikilothermBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="PoikilothermRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+<RaceDef Name="JYZhuLongENian" Parent="JYLongpuNight">
+	<DisplayName>恶念龙形</DisplayName>
+	<Mod>Mod/Npc/Longzhipuyi_Dark/Base</Mod>
+	<NormalAttack>JYLongPu_Night_NormalAttack</NormalAttack>
+	<LingKill>1</LingKill>
+	<NoLingering>1</NoLingering>
+	<FightDriver>Enian</FightDriver>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="PoikilothermMaxAge_50"/>
+		<li Name="RaceMoveSpeed" Value="PoikilothermMoveSpeed_Snake"/>
+		<li Name="RaceMaxHp" Value="PoikilothermMaxHp"/>
+		<li Name="RaceComfyTMin" Value="PoikilothermComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="PoikilothermComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="PoikilothermToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="PoikilothermToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="PoikilothermVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="PoikilothermBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="PoikilothermRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+
+<RaceDef Name="JYZhuLongENian" Parent="JYLongpuNight">
+	<DisplayName>恶念龙形</DisplayName>
+	<Mod>Mod/Npc/Longzhipuyi_Dark/Base</Mod>
+	<NormalAttack>JYLongPu_Night_NormalAttack</NormalAttack>
+	<LingKill>1</LingKill>
+	<NoLingering>1</NoLingering>
+	<FightDriver>Enian</FightDriver>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="PoikilothermMaxAge_50"/>
+		<li Name="RaceMoveSpeed" Value="PoikilothermMoveSpeed_Snake"/>
+		<li Name="RaceMaxHp" Value="PoikilothermMaxHp"/>
+		<li Name="RaceComfyTMin" Value="PoikilothermComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="PoikilothermComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="PoikilothermToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="PoikilothermToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="PoikilothermVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="PoikilothermBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="PoikilothermRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+<RaceDef Name="JYZhuLongShanNian" Parent="JYLongpuNight">
+	<DisplayName>善念龙形</DisplayName>
+	<Mod>Mod/Npc/Longzhipuyi_Light/Base</Mod>
+	<NormalAttack>JYLongPu_Day_NormalAttack</NormalAttack>
+	<FightDriver>Shannian</FightDriver>
+	<LingKill>1</LingKill>
+	<NoLingering>1</NoLingering>
+	<BaseP>
+		<li Name="RaceMaxAge" Value="PoikilothermMaxAge_50"/>
+		<li Name="RaceMoveSpeed" Value="PoikilothermMoveSpeed_Snake"/>
+		<li Name="RaceMaxHp" Value="PoikilothermMaxHp"/>
+		<li Name="RaceComfyTMin" Value="PoikilothermComfyTMin"/>
+		<li Name="RaceComfyTMax" Value="PoikilothermComfyTMax"/>
+		<li Name="RaceToleranceTMin" Value="PoikilothermToleranceTMin"/>
+		<li Name="RaceToleranceTMax" Value="PoikilothermToleranceTMax"/>
+		<li Name="RaceVisionRadius" Value="PoikilothermVisionRadius"/>
+		<li Name="RaceBaseWorkSpeed" Value="PoikilothermBaseWorkSpeed"/>
+		<li Name="RaceRecoveryPower" Value="PoikilothermRecoveryPower"/>
+	</BaseP>
+</RaceDef>
+
+</List></RaceDefs>

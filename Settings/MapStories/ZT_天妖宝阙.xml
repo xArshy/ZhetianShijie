@@ -1,0 +1,4980 @@
+<Stories><List>
+	
+	<Story Name="TYCL"  Parent="BaseFillingStory">
+		<DisplayName>Five Doors</DisplayName>
+		<Desc>It is said that the five doors are five wooden gates created by five masters of extraordinary skill. The formation of the law is unbreakable.</Desc>
+		
+		<Selections>
+			<li>
+				<Display>Wood owner - Qing Zhengtian (Knotdan monk, hospitality)</Display> 
+				<OKResult>
+				me:TriggerStory("TYMC");
+				</OKResult>
+			</li>
+			<li>
+				<Display>Wood owner - Xiong Wu (Jidan monk, hanger Langdang)</Display> 
+				<OKResult>
+				me:TriggerStory("TYMCxw");
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>Stone boss - Wang Wei (Jiandan period monk, perennial disease)</Display> 
+				<OKResult>
+				me:TriggerStory("TYSCws");
+				</OKResult>
+			</li>
+			<li>
+				<Display>Stone Boss - Iron Swasan (Knotdan Period Monk, Lotte)</Display> 
+				<OKResult>
+				me:TriggerStory("TYSCtm");
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>Mine owner - Golden Triangle (Knotta monk, sinister)</Display> 
+				<OKResult>
+				me:TriggerStory("TYSCjsj");
+				</OKResult>
+			</li>
+			<li>
+				<Display>Mine owner - ShiWan (Monk, likes to ask strange questions)</Display> 
+				<OKResult>
+					me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>Look back at the other area.</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>Get out of here.</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]I don't think there's any need, forget it,"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="TYMC"  Parent="BaseFillingStory">
+		<DisplayName>Timber Boss-Qing Zhengtian</DisplayName>
+		<Desc>Qing Zhengtian greeted you when he saw you coming from a distance: "You are coming,Come and see what I just got. "</Desc>
+		<Selections>
+			<li>
+				<Display>Buy some logs (100 life)</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 100 then
+					me:AddMsg("[NAME]Ah, this is a small business and we don't take credit. You can make it long enough to come again.");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]The remaining balance is:%s。"), tostring(num600)));
+					else	
+						if world:GetWorldFlag(100002) == 0 then
+						me:AddMsg("[NAME]I told you that I thought no one would buy my logs in this life, so you know it! I gave you these 5 Indus trees.");
+					me:DropAwardItem("Item_Wood",2000);me:DropAwardItem("Item_ParasolWood",5);me:ModifierProperty("MaxAge",-100);me:TriggerStory("TYMC");world:SetWorldFlag(100002,1)
+					else
+				me:AddMsg("[NAME]I told you that these gadgets are not valuable, but they are time consuming. How can you have the power of flying around in these days? Don't say that I sell them expensive, I will buy them today One get one for you.");
+					me:DropAwardItem("Item_Wood",2000);me.npcObj.PropertyMgr:AddAge(100);me:TriggerStory("TYMC");
+					end
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Buy some gold silk wood (300)</Display> 
+				<OKResult>
+					<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 300 then
+					me:AddMsg("[NAME]Ah, this is a small business and we don't take credit. You can make it long enough to come again.");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]The remaining balance is:%s。"), tostring(num600)));
+					else
+				me:AddMsg("[NAME]Take a look. This is a golden tree from the ancient forbidden land, and it is not affected by the ancient atmosphere. Instead, it absorbs a lot of spiritual power. Xiaotian I wasted a lot of effort. I'll secretly send you some more, others don't have this discount");
+					me:DropAwardItem("Item_HardWood",50);me:ModifierProperty("MaxAge",-300);me:TriggerStory("TYMC");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Buy some Spirit Wood (500)</Display> 
+				<OKResult>
+					<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 500 then
+					me:AddMsg("[NAME]Ah, this is a small business and we don't take credit. You can make it long enough to come again.");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]The remaining balance is:%s。"), tostring(num600)));
+					else
+				me:AddMsg("[NAME]I picked up the spirit trees on the booth and looked at them, and then I was ready to buy them.[NAME]So easy to send[NAME]20 Lingmu");
+					me:DropAwardItem("Item_LingWood",80);me:ModifierProperty("MaxAge",-500);me:TriggerStory("TYMC");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Buy some Indus Shenmu (1000)</Display> 
+				<OKResult>
+					<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 1000 then
+					me:AddMsg("[NAME]Ah, this is a small business and we don't take credit. You can make it long enough to come again.");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]The remaining balance is:%s。"), tostring(num600)));
+					else
+				me:AddMsg("[NAME]Please talk to us in the back room, saying that Qing Zhengtian has a gesture of please,[NAME]No bullshit, walked into the room immediately.\n[NAME]After entering the room, Qingzheng Tian looked around the perimeter, felt very relieved, and also entered the door. "Come, drink tea, although it is not as good as Wudao tea, but it is also good Longjin tea."[NAME]Hand a cup of tea[NAME]A space implement, don't look at Qing Zhengtian's only Dandan Xiuwei, but this implement is also very valuable, at least worth 3,000 spirit stones.\n[NAME]Divine knowledge penetrated, inspected the goods, it was indeed 100 Indus Shenmu, but there were five more, Qingzheng Tian hurriedly said, "These five are the ones who honor your old people. I hope you will come here often."[NAME]After listening, I nodded in satisfaction, and accepted the 105 Indus Shenmu. "");
+					me:DropAwardItem("Item_ParasolWood",15);me:ModifierProperty("MaxAge",-1000);me:TriggerStory("TYMC");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Look back at other areas</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>Leave this place</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]I do n’t think I need anything, forget it,"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>	
+	
+	<Story Name="TYMCxw"  Parent="BaseFillingStory">
+		<DisplayName>木材老板——熊伍</DisplayName>
+		<Desc>熊伍坐在摊位上懒懒散散，似乎还有点享受，远远看到了你走来便打招呼道：“哟，您来啦，随意看看吧。”</Desc>
+		<Selections>
+			<li>
+				<Display>买点原木（150寿命）</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 150 then
+					me:AddMsg("你这钱都没有，还搁着干嘛呢，打扰我晒太阳。");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+				me:AddMsg("说实话，我熊伍干这行当也有三十几年了，别的比不过别人，就说这机智吧就比别人强，你来我这里买东西保证是物美价廉。来拿着你的1500原木");
+					me:DropAwardItem("Item_Wood",3000);me:ModifierProperty("MaxAge",-150);me:TriggerStory("TYMCxw");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买点金丝灵木（400）</Display> 
+				<OKResult>
+					<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 50);
+					local num600 = nY
+					if nY <= 400 then
+					me:AddMsg("你这钱都没有，还搁着干嘛呢，打扰我晒太阳。");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+					me:AddMsg("来来来，[NAME]你看看这金丝，你看看这光泽，你再打听打听，这整个天妖宝阙，哪家有我熊伍买的木料好的？拿着吧，保证你不吃亏！");
+						if nR <= 20 then
+							me:DropAwardItem("Item_HardWood",30);me:ModifierProperty("MaxAge",-400);me:TriggerStory("TYMCxw");
+						elseif nR <= 40 then
+							me:DropAwardItem("Item_HardWood",45);me:ModifierProperty("MaxAge",-400);me:TriggerStory("TYMCxw");
+						elseif nR <= 50 then
+							me:DropAwardItem("Item_HardWood",70);me:ModifierProperty("MaxAge",-400);me:TriggerStory("TYMCxw");
+						end
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买点灵木（550）</Display> 
+				<OKResult>
+					<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 500 then
+					me:AddMsg("你这钱都没有，还搁着干嘛呢，打扰我晒太阳。");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+				me:AddMsg("[NAME]你要这些灵木干嘛，这些破东西，我家后院。。。。。\n拿了快走吧，哎这一天到晚的，累死我了。");
+					me:DropAwardItem("Item_LingWood",70);me:ModifierProperty("MaxAge",-550);me:TriggerStory("TYMCxw");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买点梧桐神木（950）</Display> 
+				<OKResult>
+					<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 50);
+					local num600 = nY
+					if nY <= 950 then
+					me:AddMsg("你这钱都没有，还搁着干嘛呢，打扰我晒太阳。");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+				me:AddMsg("你说你要梧桐神木啊，行就在里屋呢，你自己去吧，自己拿，自己动手~丰衣足食。我再晒会太阳~惬意啊~");
+					
+					if nR <= 20 then
+							me:DropAwardItem("Item_ParasolWood",15);me:ModifierProperty("MaxAge",-550);me:TriggerStory("TYMCxw");
+						elseif nR <= 40 then
+							me:DropAwardItem("Item_ParasolWood",20);me:ModifierProperty("MaxAge",-550);me:TriggerStory("TYMCxw");
+						elseif nR <= 50 then
+							me:DropAwardItem("Item_ParasolWood",30);me:ModifierProperty("MaxAge",-550);me:TriggerStory("TYMCxw");
+						end
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYCL");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="TYSCws"  Parent="BaseFillingStory">
+		<DisplayName>石材老板——王叁</DisplayName>
+		<Desc>王叁，依靠在一块大石边上，手中的一堆玉玲珑似被他打磨得有些放光，身材精壮，倒看不出传闻中的顽疾在身”</Desc>
+		<Selections>
+			<li>
+				<Display>买些大理石（500年）。</Display> 
+				
+					<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 50 then
+					me:AddMsg("没有钱，那就先去攒点钱再来吧。");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						if world:GetWorldFlag(100003) == 0 then
+						me:AddMsg("咳咳，，，没想到真的有人回来买这些没用的。。。有用的大理石。真不容易。");
+					me:DropAwardItem("Item_Marble",3000);me:ModifierProperty("MaxAge",-550);me:TriggerStory("TYSCws");World:SetWorldFlag(100003.1)
+					else
+					me:AddMsg("大理石这种物件，虽然对修道之人来说没什么用，但建立门派还是少不了它的，咳咳，，，客官拿走吧这3000大理石");
+					me:DropAwardItem("Item_Marble",3000);me:ModifierProperty("MaxAge",-550);me:TriggerStory("TYSCws");
+					end
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些玉石（300年）。</Display> 
+				
+					<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 300 then
+					me:AddMsg("没有钱，那就先去攒点钱再来吧。");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+				me:AddMsg("哈。。哈哈，客人您可真有眼光，您看我手上的这玉玲珑，便是用着玉石制作的，看看这光泽。包你不亏");
+					me:DropAwardItem("Item_Jade",60);me:ModifierProperty("MaxAge",-300);me:TriggerStory("TYSCws");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些玉髓（800年）。</Display> 
+				
+					<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 800 then
+					me:AddMsg("没有钱，那就先去攒点钱再来吧。");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+				me:AddMsg("客人，果然不是一般人，我这儿的玉髓。。咳咳。不好意思，喷你一脸唾沫了，我给您擦擦，我这玉髓，可是从妖帝坟中打捞出来的，兴许有那么一两块还带着大帝印记呢。");
+					me:DropAwardItem("Item_JadeEssence",40);me:ModifierProperty("MaxAge",-800);me:TriggerStory("TYSCws");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些石髓（500年）。</Display> 
+				
+					<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 500 then
+					me:AddMsg("没有钱，那就先去攒点钱再来吧。");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+				me:AddMsg("您可别小看这些石髓，有些石髓里曾经还诞生过大帝的~咳咳咳。。。。不好意思啊，老毛病又犯了。");
+					me:DropAwardItem("Item_StoneEssence",30);me:ModifierProperty("MaxAge",-550);me:TriggerStory("TYSCws");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些天柱石（1200年）。</Display> 
+					<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 1200 then
+					me:AddMsg("没有钱，那就先去攒点钱再来吧。");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+				me:AddMsg("哎。。。说起这天柱石，我就回忆起当年那次。。。哎算了，，不说了。。说多了都是心酸事，也不知道曲州那人还在不在。");
+					me:DropAwardItem("Item_SkyStone",15);me:ModifierProperty("MaxAge",-1200);me:TriggerStory("TYSCws");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些千棱神玉（1500年）。</Display> 
+
+					<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 1500 then
+					me:AddMsg("没有钱，那就先去攒点钱再来吧。");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+				me:AddMsg("虽然，这玉是珍稀 ，但是搁我这，我就给您这个价，不算贵，你看看哪儿还能整到这五神玉1500的地儿？！！咳咳咳咳咳。。。。不好意思我太激动了。。。");
+					me:DropAwardItem("Item_ExtremeJade",5);me:ModifierProperty("MaxAge",-1500);me:TriggerStory("TYSCws");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYCL");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>	
+	<Story Name="TYSCtm"  Parent="BaseFillingStory">
+		<DisplayName>石材老板——铁菛</DisplayName>
+		<Desc>铁菛看到了你的光临，噌地一下，做起了身，虽然店面小，而且货源不多，但是铁菛还是欢乐地为你推荐着。</Desc>
+		<Selections>
+			
+			<li>
+				<Display>买些玉石（350年）。</Display> 
+				
+					<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 350 then
+					me:AddMsg("没有钱，那就先去攒点钱再来吧。");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+				me:AddMsg("看看吧，客官，这可是上百年成色的玉石，我当时死了四五个兄弟，才从一个妖穴里抢出来的啊。");
+					me:DropAwardItem("Item_Jade",30);me:ModifierProperty("MaxAge",-300);me:TriggerStory("TYSCws");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些玉髓（600年）。</Display> 
+				
+					<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 600 then
+					me:AddMsg("没有钱，那就先去攒点钱再来吧。");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+				me:AddMsg("说实话，老有人说我的玉髓卖的太便宜了，哪有怎么样呢，反正我的道心便是让我如此。");
+					me:DropAwardItem("Item_JadeEssence",20);me:ModifierProperty("MaxAge",-600);me:TriggerStory("TYSCws");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些石髓（50年）。</Display> 
+				
+					<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 50 then
+					me:AddMsg("没有钱，那就先去攒点钱再来吧。");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+				me:AddMsg("这些石髓，真的让我好不舍得卖的，我每天看着这些发着光的小石头，都会感到内心一阵宁静");
+					me:DropAwardItem("Item_StoneEssence",1);me.npcObj.PropertyMgr:AddAge(50);me:TriggerStory("TYSCws");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYCL");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>	
+	
+	<Story Name="TYSCjsj"  Parent="BaseFillingStory">
+	<DisplayName>矿场老板——金三角</DisplayName>
+		<Desc>金三角看到你走来，换上了一脸的献媚的笑容。。。这么个五大三粗的男人，吓得你都想走了。。</Desc>
+		<Selections>
+			<li>
+				<Display>买些铁矿（5000年）。</Display> 
+				
+					<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 75 then
+					me:AddMsg("没有钱？滚滚滚，穷鬼也敢来，这天妖破阙标准越来越低了");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						if world:GetWorldFlag(10006) == 0 then
+						me:TriggerStory("TYSCjsj1");
+						else
+							if world:GetWorldFlag(10006) == world.DayCount + 1 then
+							me:AddMsg("嘿嘿嘿，小伙子，你不大走运啊，下次再努力努力吧。");
+							me:DropAwardItem("Item_IronRock",10000);me:ModifierProperty("MaxAge",-7500);me:TriggerStory("TYSCjsj");
+							elseif world:GetWorldFlag(10006) == world.DayCount + 2 then
+							me:AddMsg("行吧，算你厉害，小子，下次再来，我要让你知道我金三角的厉害！");
+							me:DropAwardItem("Item_IronRock",10000);me:ModifierProperty("MaxAge",-2500);me:TriggerStory("TYSCjsj");
+							elseif world:GetWorldFlag(10006) == world.DayCount then
+							me:AddMsg("拿走吧，就这些了，就只有五千个了");
+							me:DropAwardItem("Item_IronRock",5000);me:ModifierProperty("MaxAge",-2500);me:TriggerStory("TYSCjsj");
+							end
+						end
+					
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些火铜矿（500年）。</Display>
+				
+					<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 750 then
+					me:AddMsg("没有钱？滚滚滚，穷鬼也敢来，这天妖破阙标准越来越低了");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						if world:GetWorldFlag(10006) == 0 then
+						me:TriggerStory("TYSCjsj1");
+						else
+							if world:GetWorldFlag(10006) == world.DayCount + 1 then
+							me:AddMsg("嘿嘿嘿，小伙子，你不大走运啊，下次再努力努力吧。");
+							me:DropAwardItem("Item_CopperRock",60);me:ModifierProperty("MaxAge",-750);me:TriggerStory("TYSCjsj");
+							elseif world:GetWorldFlag(10006) == world.DayCount + 2 then
+							me:AddMsg("行吧，算你厉害，小子，下次再来，我要让你知道我金三角的厉害！");
+							me:DropAwardItem("Item_CopperRock",60);me:ModifierProperty("MaxAge",-250);me:TriggerStory("TYSCjsj");
+							elseif world:GetWorldFlag(10006) == world.DayCount then
+							me:AddMsg("拿走吧，就这些了，就只有五十个了");
+							me:DropAwardItem("Item_CopperRock",20);me:ModifierProperty("MaxAge",-250);me:TriggerStory("TYSCjsj");
+							end
+						end
+					
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些寒晶矿（500年）。</Display>
+				
+					<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 750 then
+					me:AddMsg("没有钱？滚滚滚，穷鬼也敢来，这天妖破阙标准越来越低了");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						if world:GetWorldFlag(10006) == 0 then
+						me:TriggerStory("TYSCjsj1");
+						else
+							if world:GetWorldFlag(10006) == world.DayCount + 1 then
+							me:AddMsg("嘿嘿嘿，小伙子，你不大走运啊，下次再努力努力吧。");
+							me:DropAwardItem("Item_SilverRock",60);me:ModifierProperty("MaxAge",-750);me:TriggerStory("TYSCjsj");
+							elseif world:GetWorldFlag(10006) == world.DayCount + 2 then
+							me:AddMsg("行吧，算你厉害，小子，下次再来，我要让你知道我金三角的厉害！");
+							me:DropAwardItem("Item_SilverRock",60);me:ModifierProperty("MaxAge",-250);me:TriggerStory("TYSCjsj");
+							elseif world:GetWorldFlag(10006) == world.DayCount then
+							me:AddMsg("拿走吧，就这些了，就只有五十个了");
+							me:DropAwardItem("Item_SilverRock",20);me:ModifierProperty("MaxAge",-250);me:TriggerStory("TYSCjsj");
+							end
+						end
+					
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些玄铁矿（800年）。</Display>
+				
+					<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 1000 then
+					me:AddMsg("没有钱？滚滚滚，穷鬼也敢来，这天妖破阙标准越来越低了");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						if world:GetWorldFlag(10006) == 0 then
+						me:TriggerStory("TYSCjsj1");
+						else
+							if world:GetWorldFlag(10006) == world.DayCount + 1 then
+							me:AddMsg("嘿嘿嘿，小伙子，你不大走运啊，下次再努力努力吧。");
+							me:DropAwardItem("Item_DarksteelRock",60);me:ModifierProperty("MaxAge",-550);me:TriggerStory("TYSCjsj");
+							elseif world:GetWorldFlag(10006) == world.DayCount + 2 then
+							me:AddMsg("行吧，算你厉害，小子，下次再来，我要让你知道我金三角的厉害！");
+							me:DropAwardItem("Item_DarksteelRock",60);me:ModifierProperty("MaxAge",-400);me:TriggerStory("TYSCjsj");
+							elseif world:GetWorldFlag(10006) == world.DayCount then
+							me:AddMsg("拿走吧，就这些了，就只有五十个了");
+							me:DropAwardItem("Item_DarksteelRock",20);me:ModifierProperty("MaxAge",-400);me:TriggerStory("TYSCjsj");
+							end
+						end
+					
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些星髓矿（1500年）。</Display> Item_StarEssence
+				
+					<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 1875 then
+					me:AddMsg("没有钱？滚滚滚，穷鬼也敢来，这天妖破阙标准越来越低了");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						if world:GetWorldFlag(10006) == 0 then
+						me:TriggerStory("TYSCjsj1");
+						else
+							if world:GetWorldFlag(10006) == world.DayCount + 1 then
+							me:AddMsg("嘿嘿嘿，小伙子，你不大走运啊，下次再努力努力吧。");
+							me:DropAwardItem("Item_StarEssence",15);me.npcObj.PropertyMgr:AddAge(1875);me:TriggerStory("TYSCjsj");
+							elseif world:GetWorldFlag(10006) == world.DayCount + 2 then
+							me:AddMsg("行吧，算你厉害，小子，下次再来，我要让你知道我金三角的厉害！");
+							me:DropAwardItem("Item_StarEssence",15);me:ModifierProperty("MaxAge",-750);me:TriggerStory("TYSCjsj");
+							elseif world:GetWorldFlag(10006) == world.DayCount then
+							me:AddMsg("拿走吧，就这些了，就只有五十个了");
+							me:DropAwardItem("Item_StarEssence",5);me:ModifierProperty("MaxAge",-750);me:TriggerStory("TYSCjsj");
+							end
+						end
+					
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYCL");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="TYSCbw"  Parent="BaseFillingStory">
+	<DisplayName>矿场老板——捌万</DisplayName>
+		<Desc>捌万披头散发，一身地狼狈样，好似刚刚与人大战了一场。</Desc>
+		<Selections>
+		<li>
+				<Display>买些铁矿（50年）。</Display> 
+				
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 50 then
+					me:AddMsg("没有钱？钱是何物，钱不就是一堆粪土吗？");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else 
+						if world:GetWorldFlag(10001) == 0 then
+						me:TriggerStory("TYSCbw1");
+						else
+						me:AddMsg("确实，人怎么能踏入同一条河流呢，就像这一刻的我们和上一刻的我们是不一样的啊。你太厉害了[NAME]");
+						me:DropAwardItem("Item_IronRock",130);me.npcObj.PropertyMgr:AddAge(50);me:TriggerStory("TYSCbw");
+					end
+					end
+
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些火铜矿（500年）。</Display> 
+				
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 500 then
+					me:AddMsg("没有钱？钱是何物，钱不就是一堆粪土吗？");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						if world:GetWorldFlag(10002) == 0 then
+						me:TriggerStory("TYSCbw2");
+						else
+						me:AddMsg("对对对，见鸡才能行食，[NAME]你太厉害了，来这些给你。");
+						me:DropAwardItem("Item_CopperRock",80);me:ModifierProperty("MaxAge",-550);me:TriggerStory("TYSCbw");
+						end
+					
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些寒晶矿（500年）。</Display> 
+				
+					<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 500 then
+					me:AddMsg("没有钱？钱是何物，钱不就是一堆粪土吗？");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						if world:GetWorldFlag(10003) == 0 then
+						me:TriggerStory("TYSCbw3");
+						else
+						me:AddMsg("原来是766啊，[NAME]你可真是个天材，这都记住了，来这130个寒晶矿归你了");
+						me:DropAwardItem("Item_SilverRock",80);me:ModifierProperty("MaxAge",-550);me:TriggerStory("TYSCbw");
+						end
+					
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些玄铁矿（800年）。</Display> 
+				
+					<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 800 then
+					me:AddMsg("没有钱？钱是何物，钱不就是一堆粪土吗？");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						if world:GetWorldFlag(10004) == 0 then
+						me:TriggerStory("TYSCbw4");
+						else
+						me:AddMsg("没错，是金庸老先生，我居然把这个大神给忘了，真是不该啊。。。");
+						me:DropAwardItem("Item_DarksteelRock",80);me:ModifierProperty("MaxAge",-800);me:TriggerStory("TYSCbw");
+						end
+					
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些星髓矿（1500年）。</Display> 
+				
+					<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 1500 then
+					me:AddMsg("没有钱？钱是何物，钱不就是一堆粪土吗？");
+					me:TriggerStory("TYCL");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						if world:GetWorldFlag(10005) == 0 then
+						me:TriggerStory("TYSCbw5");
+						else
+						me:AddMsg("对对对，见鸡才能行食，[NAME]你太厉害了，来这些给你。");
+						me:DropAwardItem("Item_StarEssence",10);me:ModifierProperty("MaxAge",-1500);me:TriggerStory("TYSCbw");
+						end
+					
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYCL");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+			</Selections>
+	</Story>
+	<Story Name="TYSCbw1"  Parent="BaseFillingStory">
+	<DisplayName>矿场老板——捌万</DisplayName>
+		<Desc>人能不能踏入同一条河流呢？</Desc>
+		<Selections>
+		<li>
+				<Display>当然能</Display> 
+				
+				<OKResult>
+				me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			<li>
+				<Display>不能把？</Display> 
+				
+				<OKResult>
+				me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			<li>
+				<Display>不能</Display> 
+				
+				<OKResult>
+				me:AddMsg("答对了！再去点一次购买就可以购买了！");
+				world:SetWorldFlag(10001,1);me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			</Selections>
+	</Story>
+	<Story Name="TYSCbw2"  Parent="BaseFillingStory">
+	<DisplayName>矿场老板——捌万</DisplayName>
+		<Desc>黄鼠狼等食</Desc>
+		<Selections>
+		<li>
+				<Display>食啥</Display> 
+				
+				<OKResult>
+				me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>见机行事</Display> 
+				
+				<OKResult>
+				me:AddMsg("答对了！再去点一次购买就可以购买了！");
+				world:SetWorldFlag(10002,1);me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			<li>
+				<Display>吃鸡</Display> 
+				
+				<OKResult>
+				me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			<li>
+				<Display>今晚吃鸡，大吉大利</Display> 
+				
+				<OKResult>
+				me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			</Selections>
+	</Story>
+	<Story Name="TYSCbw3"  Parent="BaseFillingStory">
+	<DisplayName>矿场老板——捌万</DisplayName>
+		<Desc>最近我家里有人要结丹了呀，但是我忘记了结丹到底怎么算的，每秒消耗多少灵力啊？（正确答案加群问群主。）</Desc>
+		<Selections>
+		<li>
+				<Display>766</Display> 
+				
+				<OKResult>
+				me:AddMsg("答对了！再去点一次购买就可以购买了！");
+				world:SetWorldFlag(10003,1);me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+		<li>
+				<Display>520</Display> 
+				
+				<OKResult>
+				me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			<li>
+				<Display>901</Display> 
+				
+				<OKResult>
+				me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			<li>
+				<Display>660</Display> 
+				
+				<OKResult>
+				me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			
+			</Selections>
+	</Story>
+	<Story Name="TYSCbw4"  Parent="BaseFillingStory">
+	<DisplayName>矿场老板——捌万</DisplayName>
+		<Desc>玄铁玄铁，玄铁重剑，我突然想起来这是一把威力十足的武器，还被人写进了小说，是哪个大佬来着、？</Desc>
+		<Selections>
+		<li>
+				<Display>古龙</Display> 
+				
+				<OKResult>
+				me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			<li>
+				<Display>正史作者seven</Display> 
+				
+				<OKResult>
+				me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			<li>
+				<Display>金庸</Display> 
+				
+				<OKResult>
+				me:AddMsg("答对了！再去点一次购买就可以购买了！");
+				world:SetWorldFlag(10004,1);me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			<li>
+				<Display>浪沧客</Display> 
+				
+				<OKResult>
+				me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			
+			</Selections>
+	</Story>
+	<Story Name="TYSCbw5"  Parent="BaseFillingStory">
+	<DisplayName>矿场老板——捌万</DisplayName>
+		<Desc>前段时间，我在一个洞穴里，发现了大量的星髓，但是很奇怪的事，我发现了一些刻痕，sin3α=4sinα·sin(π/3+α)sin(π/3-α)看着就很玄妙吧，但这到底是什么呢？你知道吗[NAME]</Desc>
+		<Selections>
+		<li>
+				<Display>倍角公式</Display> 
+				
+				<OKResult>
+				me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			<li>
+				<Display>余弦定理</Display> 
+				
+				<OKResult>
+				me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			<li>
+				<Display>三倍角公式</Display> 
+				
+				<OKResult>
+				me:AddMsg("答对了！再去点一次购买就可以购买了！");
+				world:SetWorldFlag(10005,1);me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			<li>
+				<Display>正弦定理</Display> 
+				
+				<OKResult>
+				me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			<li>
+				<Display>群主变态</Display> 
+				
+				<OKResult>
+				me:TriggerStory("TYSCbw");
+				</OKResult>
+			</li>
+			</Selections>
+	</Story>
+	
+	<Story Name="TYSCjsj1"  Parent="BaseFillingStory">
+	<DisplayName>矿场老板——金三角</DisplayName>
+		<Desc>小兄弟~来和我玩个游戏怎么样，我们来比点数，如果你比我大，我呢就给你打个五折，如果你点数比我小，那我就多收你一半的钱。怎么样玩不玩？（全店）</Desc>
+		<Selections>
+		<li>
+				<Display>玩就玩</Display> 
+				
+				<OKResult>
+				<![CDATA[
+					local tN = {1,2,3,4,5,6,7,8,9,10};
+					local nR = me:RandomInt(1,(#tN+1));
+					local nQ = tN[nR];
+					world:SetWorldFlag(167,nQ);
+					table.remove(tN,nR);
+					nR = me:RandomInt(1,(#tN+1));
+					nQ = tN[nR];
+					world:SetWorldFlag(166,nQ);
+					local num166 = world:GetWorldFlag(166)
+					local num167 = world:GetWorldFlag(167)
+					me:AddMsg(string.format(XT("[NAME]和金三角的点数分别为：%s,%s。"), tostring(num166), tostring(num167)));
+					local nB = math.ceil(num166 - num167)
+					local num601 = nB
+					me:AddMsg(string.format(XT("双方差值为：%s。"), tostring(num601)));
+					
+						if nB > 0 then
+						me:AddMsg("。。。。我居然会输。。。不服啊。。。");
+						me:TriggerStory("TYSCjsj");world:SetWorldFlag(10006,world.DayCount + 2);
+						else
+						me:AddMsg("哈哈哈哈，愿赌服输啊[NAME]你这运气怎么能和我比呢？");
+						me:TriggerStory("TYSCjsj");world:SetWorldFlag(10006,world.DayCount + 1);
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>不玩</Display> 
+				
+				<OKResult>
+				me:AddMsg("切，怂货（再点击一次购买可直接购买）");
+				me:TriggerStory("TYSCjsj");world:SetWorldFlag(10006,world.DayCount);
+				</OKResult>
+			</li>
+			
+			</Selections>
+	</Story>
+	
+	<Story Name="TYDY"  Parent="BaseFillingStory">
+		<DisplayName>天枢丹楼</DisplayName>
+		<Desc>天枢丹楼，这里的卖家大多道宫实力，甚至有时会有化龙境强者出没。</Desc>
+		<Selections>
+			<li>
+				<Display>丹药老板——上炎散人（道宫境修士，神秘）</Display> 
+				<OKResult>
+				me:TriggerStory("TYDYsysr");
+				</OKResult>
+			</li>
+			<li>
+				<Display>丹药老板——岩箫（未知境界修士，行踪诡秘，炼丹术绝顶。）</Display> 
+				<OKResult>
+				me:TriggerStory("TYDYyx");
+				</OKResult>
+			</li>
+			<li>
+				<Display>丹药老板——古焚（道宫境修士，扮猪吃老虎专业户）</Display> 
+				<OKResult>
+				me:TriggerStory("TYDYgf");
+				</OKResult>
+			</li>
+			<li>
+				<Display>丹药老板——南宫芷（四极境修士，偶尔才会来此贩卖丹药）</Display> 
+				<OKResult>
+				<![CDATA[
+					local nR = me:RandomInt(1, 10000);
+					
+					if World.DayCount >= nR then
+					me:AddMsg("南宫老怪最近云游去了，改天再来吧。");
+					me:TriggerStory("TYDY");
+					else
+					me:TriggerStory("TYDYngz");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>丹药老板——天极老宿（化龙境修士，天妖宝阙客卿长老之一。）</Display> 
+				<OKResult>
+				<![CDATA[
+					local nR = me:RandomInt(1,4);
+					
+					if nR >= 2 then
+					me:AddMsg("长老正在闭关，由他的弟子华深匠代理");
+					me:TriggerStory("TYDYhsj");
+					else
+					me:TriggerStory("TYDYtjlx");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="TYDYsysr"  Parent="BaseFillingStory">
+		<DisplayName>丹药老板——上炎散人</DisplayName>
+		<Desc>上炎散人，因得罪了一些大人物。十年前来到此地，开始卖丹药。</Desc>
+		<Selections>
+			<li>
+				<Display>买些筑基丹（300年）10颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 300 then
+					me:AddMsg("没钱就下次来吧，反正我还会在的。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("拿着吧，这些筑基丹是你要的。");
+						me:DropAwardItem("Item_BasePracticeDrug",10);me:ModifierProperty("MaxAge",-300);me:TriggerStory("TYDYsysr");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些精元丹（500年）20颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 500 then
+					me:AddMsg("没钱就下次来吧，反正我还会在的。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("拿着吧，这些精元丹是你要的。");
+						me:DropAwardItem("Item_Dan_JingYuan",20);me:ModifierProperty("MaxAge",-550);me:TriggerStory("TYDYsysr");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些参芝九窍丸（150年）10颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 150 then
+					me:AddMsg("没钱就下次来吧，反正我还会在的。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("拿着吧，这些参芝九窍丸是你要的。");
+						me:DropAwardItem("Item_Dan_JingYuan2",10);me:ModifierProperty("MaxAge",-150);me:TriggerStory("TYDYsysr");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些血竭散（450年）5颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 450 then
+					me:AddMsg("没钱就下次来吧，反正我还会在的。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("拿着吧，这些血竭散是你要的。");
+						me:DropAwardItem("Item_Dan_JingYuan3",5);me:ModifierProperty("MaxAge",-450);me:TriggerStory("TYDYsysr");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些聚灵丹（3000年）500颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 150 then
+					me:AddMsg("没钱就下次来吧，反正我还会在的。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("拿着吧，这些聚灵丹是你要的。");
+						me:DropAwardItem("Item_Dan_Ling",500);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYDYsysr");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些紫阳丹（950年）5颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 450 then
+					me:AddMsg("没钱就下次来吧，反正我还会在的。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("拿着吧，这些紫阳丹是你要的。");
+						me:DropAwardItem("Item_Dan_Ling2",5);me:ModifierProperty("MaxAge",-950);me:TriggerStory("TYDYsysr");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些黄庭丹（1150年）8颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 250 then
+					me:AddMsg("没钱就下次来吧，反正我还会在的。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("拿着吧，这些黄庭丹是你要的。");
+						me:DropAwardItem("Item_Dan_PracticeRate",8);me:ModifierProperty("MaxAge",-1150);me:TriggerStory("TYDYsysr");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些黄芽丹（1200年）10颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 300 then
+					me:AddMsg("没钱就下次来吧，反正我还会在的。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("拿着吧，这些黄芽丹是你要的。");
+						me:DropAwardItem("Item_Dan_PracticeSpeed",10);me:ModifierProperty("MaxAge",-1200);me:TriggerStory("TYDYsysr");
+						end
+					]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>买些清心丹（1200年）20颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 600 then
+					me:AddMsg("没钱就下次来吧，反正我还会在的。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("拿着吧，这些清心丹是你要的。");
+						me:DropAwardItem("Item_Dan_CalmDown",20);me:ModifierProperty("MaxAge",-1200);me:TriggerStory("TYDYsysr");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些极乐丹（1200年）20颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 600 then
+					me:AddMsg("没钱就下次来吧，反正我还会在的。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("拿着吧，这些极乐丹是你要的。");
+						me:DropAwardItem("Item_Dan_Happiness",20);me:ModifierProperty("MaxAge",-1200);me:TriggerStory("TYDYsysr");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些饮气丹（600年）50颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 300 then
+					me:AddMsg("没钱就下次来吧，反正我还会在的。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("拿着吧，这些饮气丹是你要的。");
+						me:DropAwardItem("Item_Dan_NoHunger",50);me:ModifierProperty("MaxAge",-600);me:TriggerStory("TYDYsysr");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYDY");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="TYDYyx"  Parent="BaseFillingStory">
+		<DisplayName>丹药老板——岩箫</DisplayName>
+		<Desc>身披黑衣，神神秘秘，一般这种人都可能是小说主角。</Desc>
+		<Selections>
+			<li>
+				<Display>买些辟谷丹（1750年）100颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 750 then
+					me:AddMsg("没钱吗，岩箫一阵冷笑，继续自顾自地修炼起来了。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("客官，这是100颗辟谷丹，合作愉快。");
+						me:DropAwardItem("Item_Dan_NoHunger2",100);me:ModifierProperty("MaxAge",-1750);me:TriggerStory("TYDYyx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些兵粮丸（1750年）100颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 750 then
+					me:AddMsg("没钱吗，岩箫一阵冷笑，继续自顾自地修炼起来了。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("客官，这是100颗兵粮丸，合作愉快。");
+						me:DropAwardItem("Item_Dan_NoHunger1",100);me:ModifierProperty("MaxAge",-1750);me:TriggerStory("TYDYyx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些摄神丹（1750年）100颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 750 then
+					me:AddMsg("没钱吗，岩箫一阵冷笑，继续自顾自地修炼起来了。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("客官，这是100颗摄神丹，合作愉快。");
+						me:DropAwardItem("Item_Dan_LostSoul",100);me:ModifierProperty("MaxAge",-1750);me:TriggerStory("TYDYyx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些通脉散（1750年）100颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 750 then
+					me:AddMsg("没钱吗，岩箫一阵冷笑，继续自顾自地修炼起来了。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("客官，这是100颗通脉散，合作愉快。");
+						me:DropAwardItem("Item_Dan_DredgeQi1",100);me:ModifierProperty("MaxAge",-1750);me:TriggerStory("TYDYyx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些理气丹（1750年）100颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 750 then
+					me:AddMsg("没钱吗，岩箫一阵冷笑，继续自顾自地修炼起来了。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("客官，这是100颗理气丹，合作愉快。");
+						me:DropAwardItem("Item_Dan_DredgeQi",100);me:ModifierProperty("MaxAge",-1750);me:TriggerStory("TYDYyx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些五灵散（1750年）100颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 750 then
+					me:AddMsg("没钱吗，岩箫一阵冷笑，继续自顾自地修炼起来了。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("客官，这是100颗五灵散，合作愉快。");
+						me:DropAwardItem("Item_Dan_WuLingSan",5);me:ModifierProperty("MaxAge",-1750);me:TriggerStory("TYDYyx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些庚金万化丸（2100年）20颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 900 then
+					me:AddMsg("没钱吗，岩箫一阵冷笑，继续自顾自地修炼起来了。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("客官，这是20颗庚金万化丸，合作愉快。");
+						me:DropAwardItem("Item_Dan_CureJinDamage",20);me:ModifierProperty("MaxAge",-2100);me:TriggerStory("TYDYyx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些碧春丹（2100年）20颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 900 then
+					me:AddMsg("没钱吗，岩箫一阵冷笑，继续自顾自地修炼起来了。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("客官，这是20颗碧春丹，合作愉快。");
+						me:DropAwardItem("Item_Dan_CureMuDamage",20);me:ModifierProperty("MaxAge",-2100);me:TriggerStory("TYDYyx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>买些天一承气散（2100年）20颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 900 then
+					me:AddMsg("没钱吗，岩箫一阵冷笑，继续自顾自地修炼起来了。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("客官，这是20颗天一承气散，合作愉快。");
+						me:DropAwardItem("Item_Dan_CureShuiDamage",20);me:ModifierProperty("MaxAge",-2100);me:TriggerStory("TYDYyx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些火真丹（2100年）20颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 900 then
+					me:AddMsg("没钱吗，岩箫一阵冷笑，继续自顾自地修炼起来了。。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("客官，这是20颗火真丹，合作愉快。");
+						me:DropAwardItem("Item_Dan_CureHuoDamage",20);me:ModifierProperty("MaxAge",-2100);me:TriggerStory("TYDYyx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些定坤丹（2100年）20颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 900 then
+					me:AddMsg("没钱吗，岩箫一阵冷笑，继续自顾自地修炼起来了。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("客官，这是20颗定坤丹，合作愉快。");
+						me:DropAwardItem("Item_Dan_CureTuDamage",20);me:ModifierProperty("MaxAge",-2100);me:TriggerStory("TYDYyx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些五方化伤丹（2500年）50颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 2500 then
+					me:AddMsg("没钱吗，岩箫一阵冷笑，继续自顾自地修炼起来了。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("客官，这是50颗五方化伤丹，合作愉快。");
+						me:DropAwardItem("Item_Dan_CureFiveElementDamage",50);me:ModifierProperty("MaxAge",-2500);me:TriggerStory("TYDYyx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYDY");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="TYDYgf"  Parent="BaseFillingStory">
+		<DisplayName>丹药老板——古焚</DisplayName>
+		<Desc>此人气息平稳，龙行虎步一身修为虽才道宫境，但似乎还有所隐藏。</Desc>
+		<Selections>
+			<li>
+				<Display>买些归源散（750年）50颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 750 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，50份归源散，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_Restore",50);me:ModifierProperty("MaxAge",-750);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些造化神丹（2250年）5颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 1250 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，5份造化神丹，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_ExtremeLofty",5);me.npcObj.PropertyMgr:AddAge(2250);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些九转金丹（2250年）5颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 1250 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，5份九转金丹，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_HundredRefine",5);me.npcObj.PropertyMgr:AddAge(2250);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些长生丹（1450年）15颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 450 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，15份长生丹，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_IncreaseLife1",15);me:ModifierProperty("MaxAge",-1450);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些玄牝续命散（2000年）20颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 1000 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，20份玄牝续命散，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_IncreaseLife2",20);me:ModifierProperty("MaxAge",-2000);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些五极灵丹（2100年）10颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 1100 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，10份五极灵丹，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_IncreaseLife3",10);me:ModifierProperty("MaxAge",-2100);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些再造金丹（3500年）10颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 500 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，10份再造金丹，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_IncreaseLife4",10);me:ModifierProperty("MaxAge",-3500);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些未来星宿化劫丹（2500年）10颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 1100 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，10份未来星宿化劫丹，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_IncreaseLife5",10);me:ModifierProperty("MaxAge",-2500);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些乾元避劫丹（3750年）15颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 750 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，15份乾元避劫丹，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_IncreaseNeckCountdown1",15);me:ModifierProperty("MaxAge",-3750);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些剑丸（300年）2颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 100 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，2份剑丸，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_SwordBall",2);me:ModifierProperty("MaxAge",-300);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些碧血丹青（1800年）20颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 600 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，20份碧血丹青，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2",20);me:ModifierProperty("MaxAge",-1800);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些真罡丹（1500年）10颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 500 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，10份真罡丹，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_Defense",10);me:ModifierProperty("MaxAge",-1500);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些万灵散（2000年）30颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 1500 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，30份万灵散，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_Ling3",30);me:ModifierProperty("MaxAge",-2000);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些通天丸（1600年）20颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 600 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，20份通天丸，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_FiveBase1",20);me:ModifierProperty("MaxAge",-1600);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些纳地丸（1600年）20颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 600 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，20份纳地丸，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_FiveBase2",20);me:ModifierProperty("MaxAge",-1600);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些逸仙丸（1600年）20颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 600 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，20份逸仙丸，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_FiveBase3",20);me:ModifierProperty("MaxAge",-1600);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些明通丸（1600年）20颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 600 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，20份明通丸，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_FiveBase4",20);me:ModifierProperty("MaxAge",-1600);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些神佑丸（1600年）20颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 600 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，20份神佑丸，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_FiveBase5",20);me:ModifierProperty("MaxAge",-1600);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些五毒五炁元神丹（1640年）6颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 540 then
+					me:AddMsg("没钱的话，我可不做你的生意。说完拿出一本残卷似的卷轴修炼了起来。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("来，20份五毒五炁元神丹，一手交钱一手交货。");
+						me:DropAwardItem("Item_Dan_FiveBaseFromLife",6);me.npcObj.PropertyMgr:AddAge(1640);me:TriggerStory("TYDYgf");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYDY");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="TYDYngz"  Parent="BaseFillingStory">
+		<DisplayName>丹药老板——南宫芷</DisplayName>
+		<Desc>四极老怪，能到四极境的都不是好相与的，毕竟是渡过天劫的怪物。。。</Desc>
+		<Selections>
+			<li>
+				<Display>买些天道神丹（2000年）10颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 1000 then
+					me:AddMsg("没钱？你莫不是在戏弄本座？");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("本座这里的丹药都是随手炼制，比其他地儿都便宜许多，你算是运气不错。");
+						me:DropAwardItem("Item_Dan_TreeEXP",10);me:ModifierProperty("MaxAge",-2000);me:TriggerStory("TYDYngz");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些神泣丹（1750年）15颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 1550 then
+					me:AddMsg("没钱？你莫不是在戏弄本座？");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("本座这里的丹药都是随手炼制，比其他地儿都便宜许多，你算是运气不错。");
+						me:DropAwardItem("Item_Dan_Soul1",15);me:ModifierProperty("MaxAge",-1750);me:TriggerStory("TYDYngz");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些通玄丹（1750年）15颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 1550 then
+					me:AddMsg("没钱？你莫不是在戏弄本座？");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("本座这里的丹药都是随手炼制，比其他地儿都便宜许多，你算是运气不错。");
+						me:DropAwardItem("Item_Dan_Soul2",15);me:ModifierProperty("MaxAge",-1750);me:TriggerStory("TYDYngz");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些凝珀丹（1750年）15颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 1550 then
+					me:AddMsg("没钱？你莫不是在戏弄本座？");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("本座这里的丹药都是随手炼制，比其他地儿都便宜许多，你算是运气不错。");
+						me:DropAwardItem("Item_Dan_Soul3",15);me:ModifierProperty("MaxAge",-1750);me:TriggerStory("TYDYngz");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些燃魂丹（1750年）15颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 1550 then
+					me:AddMsg("没钱？你莫不是在戏弄本座？");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("本座这里的丹药都是随手炼制，比其他地儿都便宜许多，你算是运气不错。");
+						me:DropAwardItem("Item_Dan_Soul4",15);me:ModifierProperty("MaxAge",-1750);me:TriggerStory("TYDYngz");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些玄牝重生丹（900年）3颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 600 then
+					me:AddMsg("没钱？你莫不是在戏弄本座？");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("本座这里的丹药都是随手炼制，比其他地儿都便宜许多，你算是运气不错。");
+						me:DropAwardItem("Item_Dan_ReBorn",3);me:ModifierProperty("MaxAge",-900);me:TriggerStory("TYDYngz");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些六道轮回丹（4000年）2颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 4000 then
+					me:AddMsg("没钱？你莫不是在戏弄本座？");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("本座这里的丹药都是随手炼制，比其他地儿都便宜许多，你算是运气不错。");
+						me:DropAwardItem("Item_Dan_ReBorn_4",2);me:ModifierProperty("MaxAge",-4000);me:TriggerStory("TYDYngz");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些灵源种（6000年）4颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 6000 then
+					me:AddMsg("没钱？你莫不是在戏弄本座？");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("本座这里的丹药都是随手炼制，比其他地儿都便宜许多，你算是运气不错。");
+						me:DropAwardItem("Item_Dan_LingYuanZhong",4);me:ModifierProperty("MaxAge",-6000);me:TriggerStory("TYDYngz");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些造化玉砂（4000年）7颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 4200 then
+					me:AddMsg("没钱？你莫不是在戏弄本座？");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("本座这里的丹药都是随手炼制，比其他地儿都便宜许多，你算是运气不错。");
+						me:DropAwardItem("Item_Dan_LingYuanSha",7);me:ModifierProperty("MaxAge",-4000);me:TriggerStory("TYDYngz");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYDY");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="TYDYhsj"  Parent="BaseFillingStory">
+		<DisplayName>丹药老板——天极老宿</DisplayName>
+		<Desc>老宿正在闭关，由华深匠代理出售这些丹药。。华深匠每次最欣喜的就是这段时光了。</Desc>
+		<Selections>
+			<li>
+				<Display>买些龙魂真灵丹（3500年）2颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 3500 then
+					me:AddMsg("没钱？没钱？哎！！你个堂堂的修士连钱都没有，你敢来我师傅店里？捣乱是吧，赶紧走，不然我叫人了！");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("哼，我师傅炼的丹药可不是一般的丹药，你能买到是你的福气，贵点也是你赚了知道吗？");
+						me:DropAwardItem("Item_Dan_LongDan1",2);me:ModifierProperty("MaxAge",-3500);me:TriggerStory("TYDYhsj");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些凤魂真灵丹（3500年）2颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 3500 then
+					me:AddMsg("没钱？没钱？哎！！你个堂堂的修士连钱都没有，你敢来我师傅店里？捣乱是吧，赶紧走，不然我叫人了！");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("哼，我师傅炼的丹药可不是一般的丹药，你能买到是你的福气，贵点也是你赚了知道吗？");
+						me:DropAwardItem("Item_Dan_FengDan1",2);me:ModifierProperty("MaxAge",-3500);me:TriggerStory("TYDYhsj");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些阴阳真灵丹（3500年）2颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 3500 then
+					me:AddMsg("没钱？没钱？哎！！你个堂堂的修士连钱都没有，你敢来我师傅店里？捣乱是吧，赶紧走，不然我叫人了！");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("哼，我师傅炼的丹药可不是一般的丹药，你能买到是你的福气，贵点也是你赚了知道吗？");
+						me:DropAwardItem("Item_Dan_ZhuLongDan1",2);me:ModifierProperty("MaxAge",-3500);me:TriggerStory("TYDYhsj");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些盘古元神丹（3500年）2颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 3500 then
+					me:AddMsg("没钱？没钱？哎！！你个堂堂的修士连钱都没有，你敢来我师傅店里？捣乱是吧，赶紧走，不然我叫人了！");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("哼，我师傅炼的丹药可不是一般的丹药，你能买到是你的福气，贵点也是你赚了知道吗？");
+						me:DropAwardItem("Item_Dan_FenShen1",2);me:ModifierProperty("MaxAge",-3500);me:TriggerStory("TYDYhsj");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些造化同心丹（3500年）2颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 3500 then
+					me:AddMsg("没钱？没钱？哎！！你个堂堂的修士连钱都没有，你敢来我师傅店里？捣乱是吧，赶紧走，不然我叫人了！");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("哼，我师傅炼的丹药可不是一般的丹药，你能买到是你的福气，贵点也是你赚了知道吗？");
+						me:DropAwardItem("Item_Dan_FenShen2",2);me:ModifierProperty("MaxAge",-3500);me:TriggerStory("TYDYhsj");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些裂神丹（3500年）2颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 3500 then
+					me:AddMsg("没钱？没钱？哎！！你个堂堂的修士连钱都没有，你敢来我师傅店里？捣乱是吧，赶紧走，不然我叫人了！");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("哼，我师傅炼的丹药可不是一般的丹药，你能买到是你的福气，贵点也是你赚了知道吗？");
+						me:DropAwardItem("Item_Dan_FenShen3",2);me:ModifierProperty("MaxAge",-3500);me:TriggerStory("TYDYhsj");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些替身丹（500年）5颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 250 then
+					me:AddMsg("没钱？没钱？哎！！你个堂堂的修士连钱都没有，你敢来我师傅店里？捣乱是吧，赶紧走，不然我叫人了！");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("哼，我师傅炼的丹药可不是一般的丹药，你能买到是你的福气，贵点也是你赚了知道吗？");
+						me:DropAwardItem("Item_Dan_TiShen",5);me:ModifierProperty("MaxAge",-250);me:TriggerStory("TYDYhsj");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYDY");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="TYDYtjlx"  Parent="BaseFillingStory">
+		<DisplayName>丹药老板——天极老宿</DisplayName>
+		<Desc>天极老宿，困于四极境四象境界已千年，近年来不再以修为改变容貌，略显得衰老了。</Desc>
+		<Selections>
+			<li>
+				<Display>买些龙魂真灵丹（3000年）2颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 3500 then
+					me:AddMsg("哼！浪费本座的时间。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("道友，这些丹药便是你要的。");
+						me:DropAwardItem("Item_Dan_LongDan1",2);me:ModifierProperty("MaxAge",-3500);me:TriggerStory("TYDYtjlx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些凤魂真灵丹（3000年）2颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 3500 then
+					me:AddMsg("没钱？没钱？哎！！你个堂堂的修士连钱都没有，你敢来我师傅店里？捣乱是吧，赶紧走，不然我叫人了！");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("道友，这些丹药便是你要的。");
+						me:DropAwardItem("Item_Dan_FengDan1",2);me:ModifierProperty("MaxAge",-3500);me:TriggerStory("TYDYtjlx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些阴阳真灵丹（3000年）2颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 3500 then
+					me:AddMsg("哼！浪费本座的时间。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("道友，这些丹药便是你要的。");
+						me:DropAwardItem("Item_Dan_ZhuLongDan1",2);me:ModifierProperty("MaxAge",-3500);me:TriggerStory("TYDYtjlx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些盘古元神丹（3000年）2颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 3500 then
+					me:AddMsg("哼！浪费本座的时间。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("道友，这些丹药便是你要的。");
+						me:DropAwardItem("Item_Dan_FenShen1",2);me:ModifierProperty("MaxAge",-3500);me:TriggerStory("TYDYtjlx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些造化同心丹（3000年）2颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 3500 then
+					me:AddMsg("哼！浪费本座的时间。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("道友，这些丹药便是你要的。");
+						me:DropAwardItem("Item_Dan_FenShen2",2);me:ModifierProperty("MaxAge",-3500);me:TriggerStory("TYDYtjlx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些裂神丹（3000年）2颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 3500 then
+					me:AddMsg("哼！浪费本座的时间。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("道友，这些丹药便是你要的。");
+						me:DropAwardItem("Item_Dan_FenShen3",2);me:ModifierProperty("MaxAge",-3500);me:TriggerStory("TYDYtjlx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些替身丹（250年）5颗。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 250 then
+					me:AddMsg("哼！浪费本座的时间。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("道友，这些丹药便是你要的。");
+						me:DropAwardItem("Item_Dan_TiShen",5);me:ModifierProperty("MaxAge",-250);me:TriggerStory("TYDYtjlx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYDY");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="TYSNF"  Parent="BaseFillingStory">
+		<DisplayName>神农坊</DisplayName>
+		<Desc>天妖宝阙以南的二十余座仙山上，散发着各种神药的仙气，仙光茵茵。</Desc>
+		<Selections>
+			<li>
+				<Display>草药行商——清義小道（道宫境修士，谦逊）</Display> 
+				<OKResult>
+				<![CDATA[
+					local nR = me:RandomInt(50, 150);
+					local nT = me:RandomInt(150, 550);
+					if World.DayCount >= nR or World.DayCount >= nT then
+					me:AddMsg("清羲小道是最近刚刚来到天妖宝阙的修行者，据说刚刚突破道宫境不久，所以在积极修行中，也许哪天感觉自己突破无望了就会一直开着了");
+					me:TriggerStory("TYSNF");
+					else
+					me:TriggerStory("TYSNFqx");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>草药行商——幸智散人（道宫境修士，常年浪迹于各大神山。）</Display> 
+				<OKResult>
+				<![CDATA[
+					local nR = me:RandomInt(50, 100);
+					local nT = me:RandomInt(80, 180);
+					local nY = me:RandomInt(200, 300);
+					local nU = me:RandomInt(500, 700);
+					if World.DayCount >= nR or World.DayCount >= nT or World.DayCount >= nY or World.DayCount >= nU then
+					me:AddMsg("辛智散人有一双特殊的鼻子，比其他修士对草药更加灵敏，也因此贩卖草药之便宜受各家修士所欢迎，只不过他一般不做小生意。");
+					me:TriggerStory("TYSNFxz");
+					else
+					me:AddMsg("辛智散人似乎又出门寻药了，下次再来看看吧");
+					me:TriggerStory("TYSNF");
+					end
+					]]>;
+				</OKResult>
+			</li>
+			<li>
+				<Display>草药行商——眼镜狗大能（四极境修士，常驻神农坊的大能之一。）</Display> 
+				<OKResult>
+				me:TriggerStory("TYSNFyjg");
+				</OKResult>
+			</li>
+			<li>
+				<Display>草药行商——老吴道人（四极境修士，常驻神农坊的大能之一，但偶尔会出任务。）</Display> 
+				<OKResult>
+				<![CDATA[
+					local nR = me:RandomInt(50, 60);
+					local nT = me:RandomInt(70, 80);
+					local nY = me:RandomInt(90, 100);
+					local nU = me:RandomInt(200, 3000);
+					if World.DayCount >= nR or World.DayCount >= nT or World.DayCount >= nY or World.DayCount >= nU then
+					me:AddMsg("老吴道人是一名平凡的上班族，但却有着不平凡的使命。不过今天他正好在。");
+					me:TriggerStory("TYSNFlw");
+					else
+					me:AddMsg("老吴道友似乎出门救火了。大家体谅一下他。毕竟是为人民做贡献。");
+					me:TriggerStory("TYSNF");
+					end
+					]]>;
+				</OKResult>
+			</li>
+			<li>
+				<Display>丹药老板——南宫芷（四极境修士，偶尔才会来此贩卖丹药）</Display> 
+				<OKResult>
+				<![CDATA[
+					local nR = me:RandomInt(1, 10000);
+					
+					if World.DayCount >= nR then
+					me:AddMsg("南宫老怪最近云游去了，改天再来吧。");
+					me:TriggerStory("TYDY");
+					else
+					me:TriggerStory("TYDYngz");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>丹药老板——天极老宿（化龙境修士，天妖宝阙客卿长老之一。）</Display> 
+				<OKResult>
+				<![CDATA[
+					local nR = me:RandomInt(1,4);
+					
+					if nR >= 2 then
+					me:AddMsg("长老正在闭关，由他的弟子华深匠代理");
+					me:TriggerStory("TYDYhsj");
+					else
+					me:TriggerStory("TYDYtjlx");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+
+	<Story Name="TYSNFqx"  Parent="BaseFillingStory">
+		<DisplayName>草药行商——清義小道</DisplayName>
+		<Desc>清羲小道，观面相年纪不大，长相清秀常挂着一副笑嘻嘻的表情。</Desc>
+		<Selections>
+			<li>
+				<Display>买些龙涎果（250寿元）500株</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 50 then
+					me:AddMsg("没有钱了吗，哎。。那下次再见不知何时咯。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("这些都是我在各地游历之时采摘的，很难得的，道友。");
+						me:DropAwardItem("Item_Fruit",500);me:ModifierProperty("MaxAge",-250);me:TriggerStory("TYSNFqx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些灵初露（200寿元）500份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					if nY <= 20 then
+					me:AddMsg("没有钱了吗，哎。。那下次再见不知何时咯。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("这些都是我在各地游历之时采摘的，很难得的，道友。");
+						me:DropAwardItem("Item_LingWater",500);me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("TYSNFqx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些造化玉露（800寿元）10份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 50);
+					local num600 = nY
+					if nY <= 500 then
+					me:AddMsg("没有钱了吗，哎。。那下次再见不知何时咯。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					elseif nR >= 25 then
+					me:AddMsg("哎。。这个东西真的很难搞，上次弄到花了我上百天呢。。下次你再来看看吧。");
+					me:TriggerStory("TYSNFqx");
+					else
+						me:AddMsg("这可是我从天上池水附近找来的，比其他人买的都便宜的。");
+						me:DropAwardItem("Item_ZaoHuaYuLu",10);me:ModifierProperty("MaxAge",-800);me:TriggerStory("TYSNFqx");
+						end
+					]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>哎。。你这没什么好货了啊。（3000寿元）</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nT = me:RandomInt(50, 300);
+					local num600 = nY
+					if nY <= 3000 then
+					me:AddMsg("没有钱了。。你还挑我的货。。再见。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("好吧，既然道友这么说了，我给你推荐一个人。三山散人");
+						if World.DayCount >= nT then
+						me:TriggerStory("TYSNFss");
+						else
+						me:AddMsg("刚刚看了一下，散人这段时间似乎不在。。道友下次再来看看吧");
+						me:TriggerStory("TYDY");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYSNF");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="TYSNFss"  Parent="BaseFillingStory">
+		<DisplayName>草药行商——三山散人</DisplayName>
+		<Desc>清羲小道在万龙巢游历时结识的一名道友，他只卖五色灵根，听说是祖上留下的小空间界中种植的。</Desc>
+		<Selections>
+			<li>
+				<Display>买些琅琊果（1500寿元）5株</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 20);
+					local num600 = nY
+					if nY <= 1500 then
+					me:AddMsg("没钱？那我们就此别过吧。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("哈哈哈，和道友你做生意是真爽快。给，你要的灵植。");
+						if nR >= 10 then
+						me:DropAwardItem("Item_JinEssence",5);me:ModifierProperty("MaxAge",-1500);me:TriggerStory("TYSNFss");
+						else
+						me:AddMsg("道友，这些是给你的灵植，不过咱们的生意到此为止吧，我似乎感应到了什么。")
+						me:DropAwardItem("Item_JinEssence",5);me:ModifierProperty("MaxAge",-1500);me:TriggerStory("TYSNFqx");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些木枯藤（1500寿元）5株</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 20);
+					local num600 = nY
+					if nY <= 1500 then
+					me:AddMsg("没钱？那我们就此别过吧。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("哈哈哈，和道友你做生意是真爽快。给，你要的灵植。");
+						if nR >= 10 then
+						me:DropAwardItem("Item_MuEssence",5);me:ModifierProperty("MaxAge",-1500);me:TriggerStory("TYSNFss");
+						me:AddMsg("道友，这些是给你的灵植，不过咱们的生意到此为止吧，我似乎感应到了什么。")
+						me:DropAwardItem("Item_MuEssence",5);me:ModifierProperty("MaxAge",-1500);me:TriggerStory("TYSNFqx");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些五色金莲（1500寿元）5株</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 20);
+					local num600 = nY
+					if nY <= 1500 then
+					me:AddMsg("没钱？那我们就此别过吧。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("哈哈哈，和道友你做生意是真爽快。给，你要的灵植。");
+						if nR >= 10 then
+						me:DropAwardItem("Item_ShuiEssence",5);me:ModifierProperty("MaxAge",-1500);me:TriggerStory("TYSNFss");
+						me:AddMsg("道友，这些是给你的灵植，不过咱们的生意到此为止吧，我似乎感应到了什么。")
+						me:DropAwardItem("Item_ShuiEssence",5);me:ModifierProperty("MaxAge",-1500);me:TriggerStory("TYSNFqx");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些朱果（1500寿元）5株</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 20);
+					local num600 = nY
+					if nY <= 500 then
+					me:AddMsg("没钱？那我们就此别过吧。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("哈哈哈，和道友你做生意是真爽快。给，你要的灵植。");
+						if nR >= 10 then
+						me:DropAwardItem("Item_HuoEssence",5);me:ModifierProperty("MaxAge",-1500);me:TriggerStory("TYSNFss");
+						me:AddMsg("道友，这些是给你的灵植，不过咱们的生意到此为止吧，我似乎感应到了什么。")
+						me:DropAwardItem("Item_HuoEssence",5);me:ModifierProperty("MaxAge",-1500);me:TriggerStory("TYSNFqx");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些赭黄精（1500寿元）5株</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 20);
+					local num600 = nY
+					if nY <= 1500 then
+					me:AddMsg("没钱？那我们就此别过吧。");
+					me:TriggerStory("TYDY");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					else
+						me:AddMsg("哈哈哈，和道友你做生意是真爽快。给，你要的灵植。");
+						if nR >= 10 then
+						me:DropAwardItem("Item_TuEssence",5);me:ModifierProperty("MaxAge",-1500);me:TriggerStory("TYSNFss");
+						me:AddMsg("道友，这些是给你的灵植，不过咱们的生意到此为止吧，我似乎感应到了什么。")
+						me:DropAwardItem("Item_TuEssence",5);me:ModifierProperty("MaxAge",-1500);me:TriggerStory("TYSNFqx");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYSNF");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="TYSNFxz"  Parent="BaseFillingStory">
+		<DisplayName>草药行商——辛智散人</DisplayName>
+		<Desc>无门无派一届散修，性格有些高傲。</Desc>
+		<Selections>
+			<li>
+				<Display>买些灵髓脂（3000寿元）10株</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 6000 then
+					me:AddMsg("没钱别来烦我，我很忙的，马上就要四极境了。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 20 then
+							me:AddMsg("涨价了一百哈，感觉还是便宜了点。下次来要不要给你加价呢？");
+						me:DropAwardItem("Item_EarthEssence_1",10);me:ModifierProperty("MaxAge",-3100);me:TriggerStory("TYSNFxz");
+						elseif nR >= 15 then
+							me:AddMsg("涨价了三百哈，感觉还是便宜了点。下次来要不要给你加价呢？");
+							me:DropAwardItem("Item_EarthEssence_1",10);me:ModifierProperty("MaxAge",-3300);me:TriggerStory("TYSNFxz");
+						elseif nR >= 10 then
+							me:AddMsg("这个价格还行3500，下次来要不要给你加价呢？");
+							me:DropAwardItem("Item_EarthEssence_1",10);me:ModifierProperty("MaxAge",-3500);me:TriggerStory("TYSNFxz");
+						else
+							me:AddMsg("总感觉卖的太便宜了，下次来要不要给你加价呢？");
+						me:DropAwardItem("Item_EarthEssence_1",10);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYSNFxz");
+						end
+						
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些血髓脂（3000寿元）10株</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 3500 then
+					me:AddMsg("没钱别来烦我，我很忙的，马上就要四极境了。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 20 then
+							me:AddMsg("涨价了一百哈，感觉还是便宜了点。下次来要不要给你加价呢？");
+						me:DropAwardItem("Item_EarthEssence1_1",10);me:ModifierProperty("MaxAge",-3100);me:TriggerStory("TYSNFxz");
+						elseif nR >= 15 then
+							me:AddMsg("涨价了三百哈，感觉还是便宜了点。下次来要不要给你加价呢？");
+							me:DropAwardItem("Item_EarthEssence1_1",10);me:ModifierProperty("MaxAge",-3300);me:TriggerStory("TYSNFxz");
+						elseif nR >= 10 then
+							me:AddMsg("这个价格还行3500，下次来要不要再给你加价呢？");
+							me:DropAwardItem("Item_EarthEssence1_1",10);me:ModifierProperty("MaxAge",-3500);me:TriggerStory("TYSNFxz");
+						else
+							me:AddMsg("总感觉卖的太便宜了，下次来要不要给你加价呢？");
+						me:DropAwardItem("Item_EarthEssence1_1",10);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYSNFxz");
+						end
+						
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些长生泉（3500寿元）15株</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 5000 then
+					me:AddMsg("没钱别来烦我，我很忙的，马上就要四极境了。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 20 then
+							me:AddMsg("涨价了一百哈，感觉还是便宜了点。下次来要不要给你加价呢？");
+						me:DropAwardItem("Item_LifeStream",15);me:ModifierProperty("MaxAge",-3600);me:TriggerStory("TYSNFxz");
+						elseif nR >= 15 then
+							me:AddMsg("涨价了三百哈，感觉还是便宜了点。下次来要不要给你加价呢？");
+							me:DropAwardItem("Item_LifeStream",15);me:ModifierProperty("MaxAge",-3800);me:TriggerStory("TYSNFxz");
+						elseif nR >= 10 then
+							me:AddMsg("这个价格还行5000，下次来要不要再给你加价呢？");
+							me:DropAwardItem("Item_LifeStream",15);me:ModifierProperty("MaxAge",-4000);me:TriggerStory("TYSNFxz");
+						else
+							me:AddMsg("总感觉卖的太便宜了，下次来要不要给你加价呢？");
+						me:DropAwardItem("Item_LifeStream",15);me:ModifierProperty("MaxAge",-3500);me:TriggerStory("TYSNFxz");
+						end
+						
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些地母灵液（2500寿元）15份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 3000 then
+					me:AddMsg("没钱别来烦我，我很忙的，马上就要四极境了。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 20 then
+							me:AddMsg("涨价了一百哈，感觉还是便宜了点。下次来要不要给你加价呢？");
+						me:DropAwardItem("Item_EarthEssence",15);me:ModifierProperty("MaxAge",-2600);me:TriggerStory("TYSNFxz");
+						elseif nR >= 15 then
+							me:AddMsg("涨价了三百哈，感觉还是便宜了点。下次来要不要给你加价呢？");
+							me:DropAwardItem("Item_EarthEssence",15);me:ModifierProperty("MaxAge",-2800);me:TriggerStory("TYSNFxz");
+						elseif nR >= 10 then
+							me:AddMsg("这个价格还行3000，下次来要不要再给你加价呢？");
+							me:DropAwardItem("Item_EarthEssence",15);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYSNFxz");
+						else
+							me:AddMsg("总感觉卖的太便宜了，下次来要不要给你加价呢？");
+						me:DropAwardItem("Item_EarthEssence",15);me:ModifierProperty("MaxAge",-2500);me:TriggerStory("TYSNFxz");
+						end
+						
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些邪脉血泉（2500寿元）15份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 3000 then
+					me:AddMsg("没钱别来烦我，我很忙的，马上就要四极境了。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 20 then
+							me:AddMsg("涨价了一百哈，感觉还是便宜了点。下次来要不要给你加价呢？");
+						me:DropAwardItem("Item_EarthEssence1",15);me:ModifierProperty("MaxAge",-2600);me:TriggerStory("TYSNFxz");
+						elseif nR >= 15 then
+							me:AddMsg("涨价了三百哈，感觉还是便宜了点。下次来要不要给你加价呢？");
+							me:DropAwardItem("Item_EarthEssence1",15);me:ModifierProperty("MaxAge",-2800);me:TriggerStory("TYSNFxz");
+						elseif nR >= 10 then
+							me:AddMsg("这个价格还行3000，下次来要不要再给你加价呢？");
+							me:DropAwardItem("Item_EarthEssence1",15);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYSNFxz");
+						else
+							me:AddMsg("总感觉卖的太便宜了，下次来要不要给你加价呢？");
+						me:DropAwardItem("Item_EarthEssence1",15);me:ModifierProperty("MaxAge",-2500);me:TriggerStory("TYSNFxz");
+						end
+						
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYSNF");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="TYSNFlw"  Parent="BaseFillingStory">
+		<DisplayName>草药行商——老吴道人</DisplayName>
+		<Desc>老吴坐在石椅上，喝一口龙津茶，长叹一声，巴适。</Desc>
+		<Selections>
+			<li>
+				<Display>买些药草（1450寿元）300份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 1450 then
+					me:AddMsg("道友，人生路漫漫，防火需重视。没钱下次来吧。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("又是平凡的一天。");
+						me:DropAwardItem("Item_Healroot",300);me:ModifierProperty("MaxAge",-1450);me:TriggerStory("TYSNFlw");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些人参（900寿元）100份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 900 then
+					me:AddMsg("道友，人生路漫漫，防火需重视。没钱下次来吧。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("又是平凡的一天。");
+						me:DropAwardItem("Item_Ginseng",100);me:ModifierProperty("MaxAge",-900);me:TriggerStory("TYSNFlw");
+						end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些芝草（900寿元）100份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 900 then
+					me:AddMsg("道友，人生路漫漫，防火需重视。没钱下次来吧。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("又是平凡的一天。");
+						me:DropAwardItem("Item_GanodermaLucidum",100);me:ModifierProperty("MaxAge",-900);me:TriggerStory("TYSNFlw");
+						end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些赤参（1480寿元）30份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 1480 then
+					me:AddMsg("道友，人生路漫漫，防火需重视。没钱下次来吧。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("又是平凡的一天。");
+						me:DropAwardItem("Item_RedGinseng",30);me:ModifierProperty("MaxAge",-1480);me:TriggerStory("TYSNFlw");
+						end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些紫芝（1480寿元）30份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 1480 then
+					me:AddMsg("道友，人生路漫漫，防火需重视。没钱下次来吧。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("又是平凡的一天。");
+						me:DropAwardItem("Item_PurpleGanodermaLucidum",30);me:ModifierProperty("MaxAge",-1480);me:TriggerStory("TYSNFlw");
+						end
+						
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些玄牝珠（1500寿元）10份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 1500 then
+					me:AddMsg("道友，人生路漫漫，防火需重视。没钱下次来吧。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("又是平凡的一天。");
+						me:DropAwardItem("Item_SoulPearl",10);me:ModifierProperty("MaxAge",-1500);me:TriggerStory("TYSNFlw");
+						end
+						
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些妖灵血（1500寿元）50份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 1500 then
+					me:AddMsg("道友，人生路漫漫，防火需重视。没钱下次来吧。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("又是平凡的一天。");
+						me:DropAwardItem("Item_MonsterBlood",50);me:ModifierProperty("MaxAge",-1500);me:TriggerStory("TYSNFlw");
+						end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些清心草（1400寿元）150份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 1400 then
+					me:AddMsg("道友，人生路漫漫，防火需重视。没钱下次来吧。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("又是平凡的一天。");
+						me:DropAwardItem("Item_Mint",150);me:ModifierProperty("MaxAge",-1400);me:TriggerStory("TYSNFlw");
+						end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些仙灵草（1400寿元）150份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 1400 then
+					me:AddMsg("道友，人生路漫漫，防火需重视。没钱下次来吧。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("又是平凡的一天。");
+						me:DropAwardItem("Item_MagicHerb",150);me:ModifierProperty("MaxAge",-1400);me:TriggerStory("TYSNFlw");
+						end
+						
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYSNF");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="TYSNFyjg"  Parent="BaseFillingStory">
+		<DisplayName>草药行商——眼镜狗大能</DisplayName>
+		<Desc>不是穿着裤衩的黑皇。当然也不是戴着眼镜的黑皇，是我们群里帅气管理员狗凶。所以我把一些贵重物品交给他卖了。</Desc>
+		<Selections>
+			<li>
+				<Display>买些仙人遗骨（2500寿元）5份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 2500 then
+					me:AddMsg("说实话，你有钱我也不买的。这东西是我最爱啊。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("幸福往往是摸得透彻，而敬业的心却常常隐藏。");
+						me:DropAwardItem("Item_XianBone",5);me:ModifierProperty("MaxAge",-2500);me:TriggerStory("TYDYyjg");
+						end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些冬虫（500寿元）1份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 500 then
+					me:AddMsg("穷的真实，不卖了。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("幸福往往是摸得透彻，而敬业的心却常常隐藏。");
+						me:DropAwardItem("Item_WinterWarm",1);me:ModifierProperty("MaxAge",-550);me:TriggerStory("TYDYyjg");
+						end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些夏草（500寿元）1份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 500 then
+					me:AddMsg("穷的真实，不卖了。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("幸福往往是摸得透彻，而敬业的心却常常隐藏。");
+						me:DropAwardItem("Item_SummerHerb",1);me:ModifierProperty("MaxAge",-550);me:TriggerStory("TYDYyjg");
+						end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些神舍利（3600寿元）5份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 3600 then
+					me:AddMsg("说实话，穷的真实，不卖了。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("幸福往往是摸得透彻，而敬业的心却常常隐藏。");
+						me:DropAwardItem("Item_XianBoneBall",5);me:ModifierProperty("MaxAge",-3600);me:TriggerStory("TYDYyjg");
+						end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些造化玉籽（3600寿元）5份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 3600 then
+					me:AddMsg("穷的真实，不卖了。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("幸福往往是摸得透彻，而敬业的心却常常隐藏。");
+						me:DropAwardItem("Item_ZaoHuaYuZi",5);me:ModifierProperty("MaxAge",-3600);me:TriggerStory("TYDYyjg");
+						end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些元魂露（1150寿元）10份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 1150 then
+					me:AddMsg("穷的真实，不卖了。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("幸福往往是摸得透彻，而敬业的心却常常隐藏。收一个的手续费哈。");
+						me:DropAwardItem("Item_YuanHunLu",9);me:ModifierProperty("MaxAge",-1150);me:TriggerStory("TYDYyjg");
+						end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些邪魂露（1150寿元）10份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 1150 then
+					me:AddMsg("穷的真实，不卖了。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("幸福往往是摸得透彻，而敬业的心却常常隐藏。收一个的手续费哈。");
+						me:DropAwardItem("Item_XieHunLu",9);me:ModifierProperty("MaxAge",-1150);me:TriggerStory("TYDYyjg");
+						end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些演道果（900寿元）2份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 900 then
+					me:AddMsg("穷的真实，不卖了。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("幸福往往是摸得透彻，而敬业的心却常常隐藏。收一个的手续费哈。");
+						me:DropAwardItem("Item_YanDaoGuo",2);me:ModifierProperty("MaxAge",-900);me:TriggerStory("TYDYyjg");
+						end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些窃道果（900寿元）2份</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 500 then
+					me:AddMsg("穷的真实，不卖了。");
+					me:TriggerStory("TYSNF");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("幸福往往是摸得透彻，而敬业的心却常常隐藏。收一个的手续费哈。");
+						me:DropAwardItem("Item_QieDaoGuo",2);me:ModifierProperty("MaxAge",-900);me:TriggerStory("TYDYyjg");
+						end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYSNF");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+
+	<Story Name="TYXG"  Parent="BaseFillingStory">
+		<DisplayName>天妖悬阁</DisplayName>
+		<Desc>天妖悬阁，唯有四极以上修士方能进入是天妖宝阙核心重地之一。</Desc>
+		<Selections>
+			<li>
+				<Display>悬阁大能——不老仙（仙台境修士，乖张凶戾）</Display> 
+				<OKResult>
+				<![CDATA[
+					local nR = me:RandomInt(1, 1000);
+					
+					if World.DayCount >= nR then
+				
+					me:AddMsg("说实话。。。我们也没办法获得不老仙的消息，你要想遇到他还得看运气的。");
+						if World:GetWorldFlag(100111) == 2 then
+							me:AddMsg("说实话。。。你得罪了老仙，这人最小气了，你给我们哥几个一点钱，我们帮你摆平。");
+							me:TriggerStory("TYXGblx1");
+						else
+						me:AddMsg("不给钱拉倒。我们啥也不知道");
+						me:TriggerStory("TYXG");
+						end
+						if World:GetWorldFlag(100111) == 3 then
+							if World.DayCount >= nR then
+								me:AddMsg("虽然拿了钱，但是不老仙的行踪确实难以琢磨，你再等等。");
+								me:TriggerStory("TYXG");
+							else
+							me:TriggerStory("TYXGblx")
+							me:AddMsg("拿了钱好办事老哥，不老仙最近正好回来了，快去吧。");
+							end
+						else
+						me:AddMsg("不给钱拉倒。我们啥也不知道");
+						me:TriggerStory("TYXG");
+						end
+					me:TriggerStory("TYXG");
+					else
+					me:TriggerStory("TYXGblx")
+					end
+					]]>
+				;
+				</OKResult>
+			</li>
+			<li>
+				<Display>悬阁大能——本始大圣（仙台境修士，随性随缘）</Display> 
+				<OKResult>
+				<![CDATA[
+					local nR = me:RandomInt(1, 10000);
+					
+					if World.DayCount >= nR then
+				
+					me:AddMsg("说实话。。。我们也没办法获得本始大圣的消息，你要想遇到他还得看运气的。");
+					me:TriggerStory("TYXG");
+					else
+					me:TriggerStory("TYXGbs")
+					end
+					]]>
+				;
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="TYXGblx"  Parent="BaseFillingStory">
+		<DisplayName>悬阁大能——不老仙</DisplayName>
+		<Desc>不老仙，传说中的有望称帝的圣人，看上去和普通青年无异，但实则已经好几万岁了。</Desc>
+		<Selections>
+			<li>
+				<Display>买些无属性天道本源（3000）2颗</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 3300 then
+					me:AddMsg("憨憨，没钱也敢来老仙我这？");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("仙法之息"));me:AddDamage("VisceralRupture","Body",1,XT("仙法之息"));
+					me:TriggerStory("TYXG");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("恩，有点小眼光，顺带多给我几个灵石作为手续费吧，老仙我来一次也挺累的。");
+						me:TriggerStory("TYDYblxsxf1");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些金属性天道本源（3000）2颗</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 3300 then
+					me:AddMsg("憨憨，没钱也敢来老仙我这？");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("仙法之息"));me:AddDamage("VisceralRupture","Body",1,XT("仙法之息"));
+					me:TriggerStory("TYXG");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("恩，有点小眼光，顺带多给我几个灵石作为手续费吧，老仙我来一次也挺累的。");
+						me:TriggerStory("TYDYblxsxf2");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些木属性天道本源（3000）2颗</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 3300 then
+					me:AddMsg("憨憨，没钱也敢来老仙我这？");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("仙法之息"));me:AddDamage("VisceralRupture","Body",1,XT("仙法之息"));
+					me:TriggerStory("TYXG");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("恩，有点小眼光，顺带多给我几个灵石作为手续费吧，老仙我来一次也挺累的。");
+						me:TriggerStory("TYDYblxsxf3");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些水属性天道本源（3000）2颗</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 3300 then
+					me:AddMsg("憨憨，没钱也敢来老仙我这？");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("仙法之息"));me:AddDamage("VisceralRupture","Body",1,XT("仙法之息"));
+					me:TriggerStory("TYXG");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("恩，有点小眼光，顺带多给我几个灵石作为手续费吧，老仙我来一次也挺累的。");
+						me:TriggerStory("TYDYblxsxf4");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些火属性天道本源（3000）2颗</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 3300 then
+					me:AddMsg("憨憨，没钱也敢来老仙我这？");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("仙法之息"));me:AddDamage("VisceralRupture","Body",1,XT("仙法之息"));
+					me:TriggerStory("TYXG");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("恩，有点小眼光，顺带多给我几个灵石作为手续费吧，老仙我来一次也挺累的。");
+						me:TriggerStory("TYDYblxsxf5");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些土属性天道本源（3000）2颗</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 3300 then
+					me:AddMsg("憨憨，没钱也敢来老仙我这？");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("仙法之息"));me:AddDamage("VisceralRupture","Body",1,XT("仙法之息"));
+					me:TriggerStory("TYXG");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("恩，有点小眼光，顺带多给我几个灵石作为手续费吧，老仙我来一次也挺累的。");
+						me:TriggerStory("TYDYblxsxf6");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些土属性天道本源（3000）2颗</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 3300 then
+					me:AddMsg("憨憨，没钱也敢来老仙我这？");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("仙法之息"));me:AddDamage("VisceralRupture","Body",1,XT("仙法之息"));
+					me:TriggerStory("TYXG");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("恩，有点小眼光，顺带多给我几个灵石作为手续费吧，老仙我来一次也挺累的。");
+						me:TriggerStory("TYDYblxsxf6");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些神识邪念（3000）2颗</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 3300 then
+					me:AddMsg("憨憨，没钱也敢来老仙我这？");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("仙法之息"));me:AddDamage("VisceralRupture","Body",1,XT("仙法之息"));
+					me:TriggerStory("TYXG");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("恩，有点小眼光，顺带多给我几个灵石作为手续费吧，老仙我来一次也挺累的。");
+						me:TriggerStory("TYDYblxsxf7");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些仙识神念（3000）2颗</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 3300 then
+					me:AddMsg("憨憨，没钱也敢来老仙我这？");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("仙法之息"));me:AddDamage("VisceralRupture","Body",1,XT("仙法之息"));
+					me:TriggerStory("TYXG");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						
+							me:AddMsg("恩，有点小眼光，顺带多给我几个灵石作为手续费吧，老仙我来一次也挺累的。");
+						me:TriggerStory("TYDYblxsxf8");
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYXG");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="TYDYblxsxf1"  Parent="BaseFillingStory">
+		<DisplayName>悬阁大能——不老仙</DisplayName>
+		<Desc>不老仙，传说中的有望称帝的圣人，看上去和普通青年无异，但实则已经好几万岁了。</Desc>
+		<Selections>
+			<li>
+				<Display>老仙。。我这没有更多的寿命给你了。。</Display> 
+				<OKResult>
+				
+					me:AddMsg("憨憨，没钱也敢来老仙我这？收你几个手续费而已，你居然不给我老仙面子？");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("仙法之息"));me:AddDamage("VisceralRupture","Body",1,XT("仙法之息"));
+					me:DropAwardItem("Item_BenYuan_None",2);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXG");
+					end
+					
+				</OKResult>
+			</li>
+			<li>
+				<Display>给个锤子，不给！你卖不卖？</Display> 
+				<OKResult>
+			
+				me:AddMsg("哼，小子。你不给我我就不卖。");
+				me:TriggerStory("TYXG");World:SetWorldFlag(100111,2)
+
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>好说好说</Display> 
+				<OKResult>
+				<![CDATA[
+					
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nR <= 10 then
+					me:AddMsg("小伙子，挺乖，不过老仙我也不是那种强人锁男之人，其实只是与你开个玩笑而已。");
+						
+						me:DropAwardItem("Item_BenYuan_None",2);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXGblx");
+					else
+						
+						me:AddMsg("哈哈哈，既然如此老仙我就收下你的三十万灵石了");World:SetWorldFlag(100111,1)
+						me:DropAwardItem("Item_BenYuan_None",2);me:ModifierProperty("MaxAge",-3300);me:TriggerStory("TYXGblx");
+						end
+						
+					end
+					]]>
+				</OKResult>
+			</li>
+			
+		</Selections>
+	</Story>
+	<Story Name="TYDYblxsxf2"  Parent="BaseFillingStory">
+		<DisplayName>悬阁大能——不老仙</DisplayName>
+		<Desc>不老仙，传说中的有望称帝的圣人，看上去和普通青年无异，但实则已经好几万岁了。</Desc>
+		<Selections>
+			<li>
+				<Display>老仙。。我这没有更多的寿命给你了。。</Display> 
+				<OKResult>
+				
+					me:AddMsg("憨憨，没钱也敢来老仙我这？收你几个手续费而已，你居然不给我老仙面子？");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("仙法之息"));me:AddDamage("VisceralRupture","Body",1,XT("仙法之息"));
+					me:DropAwardItem("Item_BenYuan_Jin",2);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXG");
+					end
+					
+				</OKResult>
+			</li>
+			<li>
+				<Display>给个锤子，不给！你卖不卖？</Display> 
+				<OKResult>
+			
+				me:AddMsg("哼，小子。你不给我我就不卖。");
+				me:TriggerStory("TYXG");World:SetWorldFlag(100111,2)
+
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>好说好说</Display> 
+				<OKResult>
+				<![CDATA[
+					
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nR <= 10 then
+					me:AddMsg("小伙子，挺乖，不过老仙我也不是那种强人锁男之人，其实只是与你开个玩笑而已。");
+						
+						me:DropAwardItem("Item_BenYuan_Jin",2);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXGblx");
+					else
+						
+						me:AddMsg("哈哈哈，既然如此老仙我就收下你的三十万灵石了");World:SetWorldFlag(100111,1)
+						me:DropAwardItem("Item_BenYuan_Jin",2);me:ModifierProperty("MaxAge",-3300);me:TriggerStory("TYXGblx");
+						end
+						
+					end
+					]]>
+				</OKResult>
+			</li>
+			
+		</Selections>
+	</Story>
+	<Story Name="TYDYblxsxf3"  Parent="BaseFillingStory">
+		<DisplayName>悬阁大能——不老仙</DisplayName>
+		<Desc>不老仙，传说中的有望称帝的圣人，看上去和普通青年无异，但实则已经好几万岁了。</Desc>
+		<Selections>
+			<li>
+				<Display>老仙。。我这没有更多的寿命给你了。。</Display> 
+				<OKResult>
+				
+					me:AddMsg("憨憨，没钱也敢来老仙我这？收你几个手续费而已，你居然不给我老仙面子？");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("仙法之息"));me:AddDamage("VisceralRupture","Body",1,XT("仙法之息"));
+					me:DropAwardItem("Item_BenYuan_Mu",2);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXG");
+					end
+					
+				</OKResult>
+			</li>
+			<li>
+				<Display>给个锤子，不给！你卖不卖？</Display> 
+				<OKResult>
+			
+				me:AddMsg("哼，小子。你不给我我就不卖。");
+				me:TriggerStory("TYXG");World:SetWorldFlag(100111,2)
+
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>好说好说</Display> 
+				<OKResult>
+				<![CDATA[
+					
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nR <= 10 then
+					me:AddMsg("小伙子，挺乖，不过老仙我也不是那种强人锁男之人，其实只是与你开个玩笑而已。");
+						
+						me:DropAwardItem("Item_BenYuan_Mu",2);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXGblx");
+					else
+						
+						me:AddMsg("哈哈哈，既然如此老仙我就收下你的三十万灵石了");World:SetWorldFlag(100111,1)
+						me:DropAwardItem("Item_BenYuan_Mu",2);me:ModifierProperty("MaxAge",-3300);me:TriggerStory("TYXGblx");
+						end
+						
+					end
+					]]>
+				</OKResult>
+			</li>
+			
+		</Selections>
+	</Story>
+	<Story Name="TYDYblxsxf4"  Parent="BaseFillingStory">
+		<DisplayName>悬阁大能——不老仙</DisplayName>
+		<Desc>不老仙，传说中的有望称帝的圣人，看上去和普通青年无异，但实则已经好几万岁了。</Desc>
+		<Selections>
+			<li>
+				<Display>老仙。。我这没有更多的寿命给你了。。</Display> 
+				<OKResult>
+				
+					me:AddMsg("憨憨，没钱也敢来老仙我这？收你几个手续费而已，你居然不给我老仙面子？");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("仙法之息"));me:AddDamage("VisceralRupture","Body",1,XT("仙法之息"));
+					me:DropAwardItem("Item_BenYuan_Shui",2);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXG");
+					end
+					
+				</OKResult>
+			</li>
+			<li>
+				<Display>给个锤子，不给！你卖不卖？</Display> 
+				<OKResult>
+			
+				me:AddMsg("哼，小子。你不给我我就不卖。");
+				me:TriggerStory("TYXG");World:SetWorldFlag(100111,2)
+
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>好说好说</Display> 
+				<OKResult>
+				<![CDATA[
+					
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nR <= 10 then
+					me:AddMsg("小伙子，挺乖，不过老仙我也不是那种强人锁男之人，其实只是与你开个玩笑而已。");
+						
+						me:DropAwardItem("Item_BenYuan_Mu",2);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXGblx");
+					else
+						
+						me:AddMsg("哈哈哈，既然如此老仙我就收下你的三十万灵石了");World:SetWorldFlag(100111,1)
+						me:DropAwardItem("Item_BenYuan_Mu",2);me:ModifierProperty("MaxAge",-3300);me:TriggerStory("TYXGblx");
+						end
+						
+					end
+					]]>
+				</OKResult>
+			</li>
+			
+		</Selections>
+	</Story>
+	<Story Name="TYDYblxsxf5"  Parent="BaseFillingStory">
+		<DisplayName>悬阁大能——不老仙</DisplayName>
+		<Desc>不老仙，传说中的有望称帝的圣人，看上去和普通青年无异，但实则已经好几万岁了。</Desc>
+		<Selections>
+			<li>
+				<Display>老仙。。我这没有更多的寿命给你了。。</Display> 
+				<OKResult>
+				
+					me:AddMsg("憨憨，没钱也敢来老仙我这？收你几个手续费而已，你居然不给我老仙面子？");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("仙法之息"));me:AddDamage("VisceralRupture","Body",1,XT("仙法之息"));
+					me:DropAwardItem("Item_BenYuan_Huo",2);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXG");
+					end
+					
+				</OKResult>
+			</li>
+			<li>
+				<Display>给个锤子，不给！你卖不卖？</Display> 
+				<OKResult>
+			
+				me:AddMsg("哼，小子。你不给我我就不卖。");
+				me:TriggerStory("TYXG");World:SetWorldFlag(100111,2)
+
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>好说好说</Display> 
+				<OKResult>
+				<![CDATA[
+					
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nR <= 10 then
+					me:AddMsg("小伙子，挺乖，不过老仙我也不是那种强人锁男之人，其实只是与你开个玩笑而已。");
+						
+						me:DropAwardItem("Item_BenYuan_Mu",2);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXGblx");
+					else
+						
+						me:AddMsg("哈哈哈，既然如此老仙我就收下你的三十万灵石了");World:SetWorldFlag(100111,1)
+						me:DropAwardItem("Item_BenYuan_Mu",2);me:ModifierProperty("MaxAge",-3300);me:TriggerStory("TYXGblx");
+						end
+						
+					end
+					]]>
+				</OKResult>
+			</li>
+			
+		</Selections>
+	</Story>
+	<Story Name="TYDYblxsxf6"  Parent="BaseFillingStory">
+		<DisplayName>悬阁大能——不老仙</DisplayName>
+		<Desc>不老仙，传说中的有望称帝的圣人，看上去和普通青年无异，但实则已经好几万岁了。</Desc>
+		<Selections>
+			<li>
+				<Display>老仙。。我这没有更多的寿命给你了。。</Display> 
+				<OKResult>
+				
+					me:AddMsg("憨憨，没钱也敢来老仙我这？收你几个手续费而已，你居然不给我老仙面子？");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("仙法之息"));me:AddDamage("VisceralRupture","Body",1,XT("仙法之息"));
+					me:DropAwardItem("Item_BenYuan_Tu",2);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXG");
+					end
+					
+				</OKResult>
+			</li>
+			<li>
+				<Display>给个锤子，不给！你卖不卖？</Display> 
+				<OKResult>
+			
+				me:AddMsg("哼，小子。你不给我我就不卖。");
+				me:TriggerStory("TYXG");World:SetWorldFlag(100111,2)
+
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>好说好说</Display> 
+				<OKResult>
+				<![CDATA[
+					
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nR <= 10 then
+					me:AddMsg("小伙子，挺乖，不过老仙我也不是那种强人锁男之人，其实只是与你开个玩笑而已。");
+						
+						me:DropAwardItem("Item_BenYuan_Mu",2);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXGblx");
+					else
+						
+						me:AddMsg("哈哈哈，既然如此老仙我就收下你的三十万灵石了");World:SetWorldFlag(100111,1)
+						me:DropAwardItem("Item_BenYuan_Mu",2);me:ModifierProperty("MaxAge",-3300);me:TriggerStory("TYXGblx");
+						end
+						
+					end
+					]]>
+				</OKResult>
+			</li>
+			
+		</Selections>
+	</Story>
+	<Story Name="TYDYblxsxf7"  Parent="BaseFillingStory">
+		<DisplayName>悬阁大能——不老仙</DisplayName>
+		<Desc>不老仙，传说中的有望称帝的圣人，看上去和普通青年无异，但实则已经好几万岁了。</Desc>
+		<Selections>
+			<li>
+				<Display>老仙。。我这没有更多的寿命给你了。。</Display> 
+				<OKResult>
+				
+					me:AddMsg("憨憨，没钱也敢来老仙我这？收你几个手续费而已，你居然不给我老仙面子？");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("仙法之息"));me:AddDamage("VisceralRupture","Body",1,XT("仙法之息"));
+					me:DropAwardItem("Item_XianDaoXieNian",2);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXG");
+					end
+					
+				</OKResult>
+			</li>
+			<li>
+				<Display>给个锤子，不给！你卖不卖？</Display> 
+				<OKResult>
+			
+				me:AddMsg("哼，小子。你不给我我就不卖。");
+				me:TriggerStory("TYXG");World:SetWorldFlag(100111,2)
+
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>好说好说</Display> 
+				<OKResult>
+				<![CDATA[
+					
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nR <= 10 then
+					me:AddMsg("小伙子，挺乖，不过老仙我也不是那种强人锁男之人，其实只是与你开个玩笑而已。");
+						
+						me:DropAwardItem("Item_BenYuan_Mu",2);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXGblx");
+					else
+						
+						me:AddMsg("哈哈哈，既然如此老仙我就收下你的三十万灵石了");World:SetWorldFlag(100111,1)
+						me:DropAwardItem("Item_BenYuan_Mu",2);me:ModifierProperty("MaxAge",-3300);me:TriggerStory("TYXGblx");
+						end
+						
+					end
+					]]>
+				</OKResult>
+			</li>
+			
+		</Selections>
+	</Story>
+	<Story Name="TYDYblxsxf8"  Parent="BaseFillingStory">
+		<DisplayName>悬阁大能——不老仙</DisplayName>
+		<Desc>不老仙，传说中的有望称帝的圣人，看上去和普通青年无异，但实则已经好几万岁了。</Desc>
+		<Selections>
+			<li>
+				<Display>老仙。。我这没有更多的寿命给你了。。</Display> 
+				<OKResult>
+				
+					me:AddMsg("憨憨，没钱也敢来老仙我这？收你几个手续费而已，你居然不给我老仙面子？");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("仙法之息"));me:AddDamage("VisceralRupture","Body",1,XT("仙法之息"));
+					me:DropAwardItem("Item_XianDaoShenNian",2);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXG");
+					end
+					
+				</OKResult>
+			</li>
+			<li>
+				<Display>给个锤子，不给！你卖不卖？</Display> 
+				<OKResult>
+			
+				me:AddMsg("哼，小子。你不给我我就不卖。");
+				me:TriggerStory("TYXG");World:SetWorldFlag(100111,2)
+
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>好说好说</Display> 
+				<OKResult>
+				<![CDATA[
+					
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nR <= 10 then
+					me:AddMsg("小伙子，挺乖，不过老仙我也不是那种强人锁男之人，其实只是与你开个玩笑而已。");
+						
+						me:DropAwardItem("Item_BenYuan_Mu",2);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXGblx");
+					else
+						
+						me:AddMsg("哈哈哈，既然如此老仙我就收下你的三十万灵石了");World:SetWorldFlag(100111,1)
+						me:DropAwardItem("Item_BenYuan_Mu",2);me:ModifierProperty("MaxAge",-3300);me:TriggerStory("TYXGblx");
+						end
+						
+					end
+					]]>
+				</OKResult>
+			</li>
+			
+		</Selections>
+	</Story>
+	<Story Name="TYXGblx1"  Parent="BaseFillingStory">
+		<DisplayName>悬阁大能——不老仙</DisplayName>
+		<Desc>不老仙，传说中的有望称帝的圣人，看上去和普通青年无异，但实则已经好几万岁了。</Desc>
+		<Selections>
+			<li>
+				<Display>怎么办呢，给点钱，花钱消灾吧。（3000寿元）</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 2500 then
+					me:AddMsg("憨憨，没钱也敢来和老子们闹呢，给我打");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("天妖守卫"));me:AddDamage("VisceralRupture","Body",1,XT("天妖守卫"));
+					me:TriggerStory("TYXG");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						me:AddMsg("恩，行，那你这事儿就是小问题，交给我们哥两把。");
+						me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXG");World:SetWorldFlag(100111,3)
+						end
+					]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>给个屁，不卖我再也不卖了就是了。</Display> 
+				<OKResult>
+					me:TriggerStory("TYXG");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="TYXGbs"  Parent="BaseFillingStory">
+		<DisplayName>悬阁大能——本始大圣</DisplayName>
+		<Desc>本始大圣，是天妖宝阙从中州请来的一位大能，据说成圣是在五千年前的事了。</Desc>
+		<Selections>
+			<li>
+				<Display>买些执念结晶（5600寿元）16颗</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 6600 then
+					me:AddMsg("为求财富，疯狂追逐，仙界杀戮，不堪入目。");
+					me:TriggerStory("TYXG");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 20 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。");
+						me:DropAwardItem("Item_God_ZhiNianJieJing",16);me:ModifierProperty("MaxAge",-5600);me:TriggerStory("TYXGbs");
+						elseif nR >= 10 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。这次价格贵点。");
+						me:DropAwardItem("Item_God_ZhiNianJieJing",16);me:ModifierProperty("MaxAge",-6600);me:TriggerStory("TYXGbs");
+						elseif nR >= 1 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。这次算你便宜点。");
+						me:DropAwardItem("Item_God_ZhiNianJieJing",16);me:ModifierProperty("MaxAge",-4600);me:TriggerStory("TYXGbs");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些幽珀（1600寿元）20颗</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 1600 then
+					me:AddMsg("为求财富，疯狂追逐，仙界杀戮，不堪入目。");
+					me:TriggerStory("TYXG");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 20 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。");
+						me:DropAwardItem("Item_SoulCrystalYou",20);me:ModifierProperty("MaxAge",-1600);me:TriggerStory("TYXGbs");
+						elseif nR >= 10 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。这次价格贵点。");
+						me:DropAwardItem("Item_SoulCrystalYou",20);me:ModifierProperty("MaxAge",-2600);me:TriggerStory("TYXGbs");
+						elseif nR >= 1 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。这次算你便宜点。");
+						me:DropAwardItem("Item_SoulCrystalYou",20);me:ModifierProperty("MaxAge",-60);me:TriggerStory("TYXGbs");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些宁珀（1600寿元）20颗</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 1600 then
+					me:AddMsg("为求财富，疯狂追逐，仙界杀戮，不堪入目。");
+					me:TriggerStory("TYXG");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 20 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。");
+						me:DropAwardItem("Item_SoulCrystalNing",20);me:ModifierProperty("MaxAge",-1600);me:TriggerStory("TYXGbs");
+						elseif nR >= 10 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。这次价格贵点。");
+						me:DropAwardItem("Item_SoulCrystalNing",20);me:ModifierProperty("MaxAge",-4600);me:TriggerStory("TYXGbs");
+						elseif nR >= 1 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。这次算你便宜点。");
+						me:DropAwardItem("Item_SoulCrystalNing",20);me.npcObj.PropertyMgr:AddAge(6);me:TriggerStory("TYXGbs");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买些灵珀（1600寿元）20颗</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 4600 then
+					me:AddMsg("为求财富，疯狂追逐，仙界杀戮，不堪入目。");
+					me:TriggerStory("TYXG");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 20 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。");
+						me:DropAwardItem("Item_SoulCrystalLing",20);me:ModifierProperty("MaxAge",-1600);me:TriggerStory("TYXGbs");
+						elseif nR >= 10 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。这次价格贵点。");
+						me:DropAwardItem("Item_SoulCrystalLing",20);me:ModifierProperty("MaxAge",-1800);me:TriggerStory("TYXGbs");
+						elseif nR >= 1 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。这次算你便宜点。");
+						me:DropAwardItem("Item_SoulCrystalLing",20);me:ModifierProperty("MaxAge",-550);me:TriggerStory("TYXGbs");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买本拍卖会邀请函（2000寿元）</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 2000 then
+					me:AddMsg("为求财富，疯狂追逐，仙界杀戮，不堪入目。");
+					me:TriggerStory("TYXG");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 20 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。");
+						me:DropAwardItem("Item_AuctionPaper",1);me:ModifierProperty("MaxAge",-2000);me:TriggerStory("TYXGbs");
+						elseif nR >= 10 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。这次价格贵点。");
+						me:DropAwardItem("Item_AuctionPaper",1);me:ModifierProperty("MaxAge",-2800);me:TriggerStory("TYXGbs");
+						elseif nR >= 1 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。这次算你便宜点。");
+						me:DropAwardItem("Item_AuctionPaper",1);me:ModifierProperty("MaxAge",-550);me:TriggerStory("TYXGbs");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买本古代密卷（5000寿元）</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 5000 then
+					me:AddMsg("为求财富，疯狂追逐，仙界杀戮，不堪入目。");
+					me:TriggerStory("TYXG");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 20 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。");
+						me:DropAwardItem("Item_GodPractice_MiJuan",1);me.npcObj.PropertyMgr:AddAge(5000);me:TriggerStory("TYXGbs");
+						elseif nR >= 10 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。这次价格贵点。");
+						me:DropAwardItem("Item_GodPractice_MiJuan",1);me.npcObj.PropertyMgr:AddAge(5800);me:TriggerStory("TYXGbs");
+						elseif nR >= 1 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。这次算你便宜点。");
+						me:DropAwardItem("Item_GodPractice_MiJuan",1);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXGbs");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>买本神道宝录（5000寿元）</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 5000 then
+					me:AddMsg("为求财富，疯狂追逐，仙界杀戮，不堪入目。");
+					me:TriggerStory("TYXG");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 20 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。");
+						me:DropAwardItem("Item_God_GongAll",1);me.npcObj.PropertyMgr:AddAge(5000);me:TriggerStory("TYXGbs");
+						elseif nR >= 10 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。这次价格贵点。");
+						me:DropAwardItem("Item_God_GongAll",1);me.npcObj.PropertyMgr:AddAge(5800);me:TriggerStory("TYXGbs");
+						elseif nR >= 1 then
+						me:AddMsg("人在修仙界，不由自主，虽很富足，也很无助。这次算你便宜点。");
+						me:DropAwardItem("Item_God_GongAll",1);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYXGbs");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYXG");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="TYWB"  Parent="BaseFillingStory">
+		<DisplayName>万宝楼</DisplayName>
+		<Desc>万宝楼里专门买卖法宝，以及法宝的拍卖</Desc>
+		
+		<Selections>
+			<li>
+				<Display>法宝老板——九御真人（化龙期修士，刀子嘴豆腐心）</Display> 
+				<OKResult>
+				me:TriggerStory("TYWBjy");
+				</OKResult>
+			</li>
+			<li>
+				<Display>法宝老板——无火真人（金丹期修士，心硬如铁）</Display> 
+				<OKResult>
+				me:TriggerStory("TYWBwh");
+				</OKResult>
+			</li>
+			<li>
+				<Display>法宝老板——天丹圣者（仙台期修士，玩心重）</Display> 
+				<OKResult>
+				me:TriggerStory("TYWBtd");
+				</OKResult>
+			</li>
+			<li>
+				<Display>法宝竞拍（未开业）</Display> 
+				<OKResult>
+				me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="TYWBjy"  Parent="BaseFillingStory">
+		<DisplayName>法宝老板——九御真人</DisplayName>
+		<Desc>万宝楼里专门买卖法宝，以及法宝的拍卖</Desc>
+		
+		<Selections>
+			<li>
+				<Display>我要买一件12阶法宝（4000寿元）</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 20);
+					local num600 = nY
+					if nY <= 6000 then
+					me:AddMsg("没钱，自然就不给你打造法宝，改天再来吧。");
+					me:TriggerStory("TYWB");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 11 then
+						me:AddMsg("无上玄法，到底在哪里，炼器难道永远无法证道吗。");
+						me:DropRandomItem("FightFabao", 12, 12);me:ModifierProperty("MaxAge",-4000);me:TriggerStory("TYWBjy");
+						elseif nR >= 10 then
+						me:AddMsg("无上玄法，到底在哪里，炼器难道永远无法证道吗。");
+						me:DropRandomItem("FightFabao", 13, 13);me.npcObj.PropertyMgr:AddAge(4800);me:TriggerStory("TYWBjy");
+						elseif nR >= 1 then
+						me:AddMsg("无上玄法，到底在哪里，炼器难道永远无法证道吗。");
+						me:DropRandomItem("FightFabao", 11, 11);me:ModifierProperty("MaxAge",-3600);me:TriggerStory("TYWBjy");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>我要买一件11阶法宝（3000寿元）</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 20);
+					local num600 = nY
+					if nY <= 3600 then
+					me:AddMsg("没钱，自然就不给你打造法宝，改天再来吧。");
+					me:TriggerStory("TYWB");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 11 then
+						me:AddMsg("无上玄法，到底在哪里，炼器难道永远无法证道吗。");
+						me:DropRandomItem("FightFabao", 11, 11);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYWBjy");
+						elseif nR >= 10 then
+						me:AddMsg("无上玄法，到底在哪里，炼器难道永远无法证道吗。");
+						me:DropRandomItem("FightFabao", 12, 12);me:ModifierProperty("MaxAge",-3600);me:TriggerStory("TYWBjy");
+						elseif nR >= 1 then
+						me:AddMsg("无上玄法，到底在哪里，炼器难道永远无法证道吗。");
+						me:DropRandomItem("FightFabao", 10, 10);me:ModifierProperty("MaxAge",-2600);me:TriggerStory("TYWBjy");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>我要买一件10阶法宝（2000寿元）</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 20);
+					local num600 = nY
+					if nY <= 2000 then
+					me:AddMsg("没钱，自然就不给你打造法宝，改天再来吧。");
+					me:TriggerStory("TYWB");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 11 then
+						me:AddMsg("无上玄法，到底在哪里，炼器难道永远无法证道吗。");
+						me:DropRandomItem("FightFabao", 10, 10);me:ModifierProperty("MaxAge",-2000);me:TriggerStory("TYWBjy");
+						elseif nR >= 10 then
+						me:AddMsg("无上玄法，到底在哪里，炼器难道永远无法证道吗。");
+						me:DropRandomItem("FightFabao", 11, 11);me:ModifierProperty("MaxAge",-2600);me:TriggerStory("TYWBjy");
+						elseif nR >= 1 then
+						me:AddMsg("无上玄法，到底在哪里，炼器难道永远无法证道吗。");
+						me:DropRandomItem("FightFabao", 9, 9);me:ModifierProperty("MaxAge",-1600);me:TriggerStory("TYWBjy");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYWB");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="TYWBwh"  Parent="BaseFillingStory">
+		<DisplayName>法宝老板——无火真人</DisplayName>
+		<Desc>一个冷面糙汉子，一双铁手张开似一对蒲扇一般，奈何技术不是很好</Desc>
+		
+		<Selections>
+			<li>
+				<Display>我要买一件9阶法宝（900寿元）</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 900 then
+					me:AddMsg("没钱，就别想要装备了，凑够了再来。");
+					me:TriggerStory("TYWB");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 15 then
+						me:AddMsg("来，你要的法宝");
+						me:DropRandomItem("FightFabao", 9, 9);me:ModifierProperty("MaxAge",-900);me:TriggerStory("TYWBwh");
+						elseif nR >= 10 then
+						me:AddMsg("虽然品阶掉了一些但是，钱不能少");
+						me:DropRandomItem("FightFabao", 8, 8);me:ModifierProperty("MaxAge",-900);me:TriggerStory("TYWBwh");
+						elseif nR >= 1 then
+						me:AddMsg("虽然没做出来，但你还得付我一半人工费，这是规矩。");
+						me:ModifierProperty("MaxAge",-450);me:TriggerStory("TYWBwh");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>我要买一件8阶法宝（600寿元）</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 600 then
+					me:AddMsg("没钱，就别想要装备了，凑够了再来。");
+					me:TriggerStory("TYWB");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 15 then
+						me:AddMsg("来，你要的法宝");
+						me:DropRandomItem("FightFabao", 8, 8);me:ModifierProperty("MaxAge",-600);me:TriggerStory("TYWBwh");
+						elseif nR >= 10 then
+						me:AddMsg("虽然品阶掉了一些但是，钱不能少");
+						me:DropRandomItem("FightFabao", 7, 7);me:ModifierProperty("MaxAge",-600);me:TriggerStory("TYWBwh");
+						elseif nR >= 1 then
+						me:AddMsg("虽然没做出来，但你还得付我一半人工费，这是规矩。");
+						me:ModifierProperty("MaxAge",-300);me:TriggerStory("TYWBwh");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>我要买一件7阶法宝（500寿元）</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 500 then
+					me:AddMsg("没钱，就别想要装备了，凑够了再来。");
+					me:TriggerStory("TYWB");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 15 then
+						me:AddMsg("来，你要的法宝");
+						me:DropRandomItem("FightFabao", 7, 7);me:ModifierProperty("MaxAge",-550);me:TriggerStory("TYWBwh");
+						elseif nR >= 10 then
+						me:AddMsg("虽然品阶掉了一些但是，钱不能少");
+						me:DropRandomItem("FightFabao", 6, 6);me:ModifierProperty("MaxAge",-550);me:TriggerStory("TYWBwh");
+						elseif nR >= 1 then
+						me:AddMsg("虽然没做出来，但你还得付我一半人工费，这是规矩。");
+						me:ModifierProperty("MaxAge",-250);me:TriggerStory("TYWBwh");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYWB");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="TYWBtd"  Parent="BaseFillingStory">
+		<DisplayName>法宝老板——天丹圣者</DisplayName>
+		<Desc>明明已经几千岁的人了，但还是一幅童心未泯的样子。</Desc>
+		
+		<Selections>
+			<li>
+				<Display>我要买一件法宝（3000寿元）</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local nT = me:RandomInt(1, 15);
+					local num600 = nY
+					if nY <= 3000 then
+					me:AddMsg("你没钱过来干嘛，小心我揍你。");
+					me:TriggerStory("TYWB");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 12 then
+						me:AddMsg("哈哈哈，圣者我可是从不失手的。");
+						me:DropRandomItem("FightFabao", nT, nT);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYWBtd");
+						elseif nR >= 10 then
+						me:AddMsg("你看吧，我这技术，整个万宝楼你找不到第二个");
+						me:DropRandomItem("FightFabao", nT, nT);me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYWBtd");
+						elseif nR >= 1 then
+						me:AddMsg("额，我不管，钱我招收，东西你拿走吧，气死本圣了。。。");
+						me:ModifierProperty("MaxAge",-3000);me:TriggerStory("TYWB");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+			<li>
+				<Display>买的差不多了，[NAME]决定离开这里。</Display> 
+				<OKResult>
+					me:TriggerStory("TYWB");
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="TYXJ"  Parent="BaseFillingStory">
+		<DisplayName>玄经楼</DisplayName>
+		<Desc>经声绕梁，整个楼层因为收藏的经文时不时发出的仙光，而显得更加虚无</Desc>
+		
+		<Selections>
+			<li>
+				<Display>法宝老板——seven天帝（帝境修士，特从异界请来）</Display> 
+				<OKResult>
+				me:TriggerStory("TYXJsv");
+				</OKResult>
+			</li>
+			
+			
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="TYXJsv"  Parent="BaseFillingStory">
+		<DisplayName>seven天帝</DisplayName>
+		<Desc>技术超凡，除去实力超凡而坐镇此地，更因其对某个重要人物有大恩，因此坐享最尊贵的玄经楼</Desc>
+		
+		<Selections>
+			<li>
+				<Display>我要买一本秘籍。（900寿元）</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 1000 then
+					me:AddMsg("没钱?没钱也能买！我推荐神坑！");
+					me:TriggerStory("TYWB");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 15 then
+						me:AddMsg("大爷真乃土豪也！以后记得常来哦！");
+						me:DropRandomItem("Esoterica");me:ModifierProperty("MaxAge",-900);me:TriggerStory("TYXJsv");
+						elseif nR >= 1 then
+						me:AddMsg("没思路了，，，算了钱留下，大爷你走吧。");
+						me:ModifierProperty("MaxAge",-450);me:TriggerStory("TYXJsv");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>大佬赐予我一本功法吧。（6500寿元）</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local nR = me:RandomInt(1, 30);
+					local num600 = nY
+					if nY <= 3000 then
+					me:AddMsg("没钱?没钱也能买！我推荐神坑！");
+					me:TriggerStory("TYXJ");
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+						
+					else
+						if nR >= 25 then
+						me:AddMsg("大爷真乃土豪也！以后记得常来哦！");
+						WorldLua:UnlockRandomGong(4);me:ModifierProperty("MaxAge",-6500);me:TriggerStory("TYXJsv");
+						elseif nR >= 20 then
+						me:AddMsg("大爷真乃土豪也！以后记得常来哦！");
+						WorldLua:UnlockRandomGong(3);me:ModifierProperty("MaxAge",-6500);me:TriggerStory("TYXJsv");
+						elseif nR >= 15 then
+						WorldLua:AddMsg("大爷真乃土豪也！以后记得常来哦！");
+						WorldLua:UnlockRandomGong(2);me:ModifierProperty("MaxAge",-6500);me:TriggerStory("TYXJsv");
+						elseif nR >= 10 then
+						WorldLua:AddMsg("大爷真乃土豪也！以后记得常来哦！");
+						WorldLua:UnlockRandomGong(1);me:ModifierProperty("MaxAge",-6500);me:TriggerStory("TYXJsv");
+						elseif nR >= 1 then
+						me:AddMsg("没思路了，，，算了钱留下一半，大爷你走吧。");
+						me.npcObj.PropertyMgr:AddAge(3250);me:TriggerStory("TYXJsv");
+						end
+						end
+					]]>
+				</OKResult>
+			</li>
+			
+			
+			<li>
+				<Display>离开此地</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]觉得没什么需要的，算了、"));
+				</OKResult>
+			</li>
+			<li>
+				<Display>回头再看看别的区域</Display> 
+				<OKResult>
+					me:TriggerStory("TYBJ");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+</List></Stories>

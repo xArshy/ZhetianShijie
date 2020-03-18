@@ -1,0 +1,309 @@
+<Esotericas><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Esoterica Name="Gong_NPJ_1">
+		<DisplayName>Angry</DisplayName>
+		<Icon>Spr\Object\JN\ZT_NPJ\NPJ_Z.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>This volume records how to improve the speed of the human body and the elixir of spiritual recovery.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]\n learned all elixir of Qi Haijuan.[/color][/size]</EffectDesc>
+		<Dans>
+			<li>NPJ_QHD1</li>
+			<li>NPJ_QHD2</li>
+			<li>NPJ_QHD3</li>
+			<li>NPJ_QHD4</li>
+			<li>NPJ_QHD11</li>
+			<li>NPJ_QHD21</li>
+			<li>NPJ_QHD31</li>
+			<li>NPJ_QHD41</li>
+			<li>NPJ_QHD6</li>
+			<li>NPJ_QHD7</li>
+			<li>NPJ_QHD8</li>
+			<li>NPJ_QHD9</li>
+			<li>NPJ_QHD61</li>
+			<li>NPJ_QHD71</li>
+			<li>NPJ_QHD81</li>
+			<li>NPJ_QHD91</li>
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_NPJ_6">
+		<DisplayName>greedy</DisplayName>
+		<Icon>Spr\Object\JN\ZT_NPJ\NPJ_0.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc></Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    One heavy sky \nAdd five points each \nIncrease psionic power 1000 \nIncrease alchemy level 10 cap 10[/color][/size]</EffectDesc>
+		<Modifier>Gong_NPJ_6_A</Modifier>
+		<Dans>
+			<li>NP_XWD</li>
+		</Dans>
+	</Esoterica>
+	<Esoterica Name="Gong_NPJ_6_1">
+		<DisplayName>Angry at</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_NPJ\NPJ_0.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Nirvana is an exact method that cannot be decomposed. It is completely born of the world, and has only one nature, which is to completely transcend the doom and immortality of the real world.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]   Double Sky \nAdd five points each one \nAdd five elements damage reduction value 0.2 \nIncrease alchemy bonus 5[/color][/size]</EffectDesc>
+		<Modifier>Gong_NPJ_6_B</Modifier>
+		
+	</Esoterica>
+	<Esoterica Name="Gong_NPJ_6_2">
+		<DisplayName>Idiot</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_NPJ\NPJ_0.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Nirvana is an exact method that cannot be decomposed. It is completely born of the world, and has only one nature, which is to completely transcend the doom and immortality of the real world.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    Triple Sky \nAdd five points to each point \nIncrease Shield Level 10 Cap 10 \nIncrease Alchemy Speed ​​10[/color][/size]</EffectDesc>
+		<Modifier>Gong_NPJ_6_C</Modifier>
+		
+	</Esoterica>
+	
+	<Esoterica Name="Gong_NPJ_11">
+		<DisplayName>Tsutenkaku</DisplayName>
+		<Icon>Spr\Object\JN\ZT_NPJ\NPJ_Y.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>The revised volume records how to refine the elixir to improve practice and speed of practice.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508] \nAcquired all the elixir of Tongtian volume.[/color][/size]</EffectDesc>
+		<Dans>
+			<li>NP_JXW</li>
+			<li>NP_MXW</li>
+			<li>NP_SXW</li>
+			<li>NP_HXW</li>
+			<li>NP_TXW</li>
+			<li>NP_TYD</li>
+			<li>NP_TYD2</li>
+			<li>NP_TYD3</li>
+			<li>NP_TYD4</li>
+			<li>NP_TYDW</li>
+			<li>NP_TYDJ</li>
+			<li>NP_TYDM</li>
+			<li>NP_TYDS</li>
+			<li>NP_TYDH</li>
+			<li>NP_TYDT</li>
+			
+		</Dans>
+	</Esoterica>
+	
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Esoterica Name="Gong_NPJ_2">
+		<DisplayName>Payroll</DisplayName>
+		<Icon>Spr\Object\JN\ZT_NPJ\NPJ_JE.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Tiandao pays diligence, and can make up for it. There is no garbage tool person, only a tool person who has no medicine to eat.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    Yizhongtian \nAcquisition rewards all elixir.[/color][/size]</EffectDesc>
+		
+		<Dans>
+			
+			<li>NP_CQD</li>
+			<li>NP_CQD1</li>
+			<li>NP_CQD2</li>
+			<li>NP_CQD3</li>
+			<li>NP_CQD4</li>
+			<li>NP_CQD5</li>
+			<li>NP_CQD6</li>
+			<li>NP_CQD7</li>
+		</Dans>
+	</Esoterica>
+	<Esoterica Name="Gong_NPJ_12">
+		<DisplayName>World roll</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_NPJ\NPJ_JE.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>How to mix without elixir when walking around the world?</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    Double Sky \nAdd five points to each point \nLearn all elixir in the world. \nPlus five elements damage reduction[/color][/size]</EffectDesc>
+		
+		<Dans>
+			<li>NP_LLD</li>
+			<li>NP_LLD1</li>
+			<li>NP_LLD3</li>
+			<li>NP_LLD4</li>
+			<li>NP_CHD</li>
+			<li>NP_CHD1</li>
+			<li>NP_STW</li>
+			<li>NP_STW1</li>
+			
+		</Dans>
+	</Esoterica>
+	
+	<!-- ==========================技能3========================== -->
+	<Esoterica Name="Gong_NPJ_8">
+		<DisplayName>Didan roll</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_NPJ\DD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>Dixian</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]\nIncreases Spirit Recovery speed by 3 times \nAlchemy Limit +10 \n[/color][/size]</EffectDesc>
+		<Modifier>Gong_NPJ_8_A</Modifier>
+		<Dans>
+			<li>NP_XWD1</li>
+			<li>NP_JXW1</li>
+			<li>NP_MXW1</li>
+			<li>NP_SXW1</li>
+			<li>NP_HXW1</li>
+			<li>NP_TXW1</li>
+			<li>NP_DD</li>
+			<li>NP_DDJ</li>
+			<li>NP_DDJ1</li>
+			<li>NP_DDJ2</li>
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_NPJ_8_1">
+		<DisplayName>Tian Dan Roll</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_NPJ\DD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>Tianxian Chengdan, induction red dust!</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]\nIncrease the speed of spiritual power by 3 times \nAlchemy upper limit plus 10 \nAlchemy yield increased by 3[/color][/size]</EffectDesc>
+		<Modifier>Gong_NPJ_8_B</Modifier>
+		<Dans>
+			<li>NP_TDJ</li>
+			<li>NP_TDJ1</li>
+			<li>NP_TDJ2</li>
+			<li>NP_TDJ3</li>
+			<li>NP_TDJ4</li>
+			<li>NP_TDJ5</li>
+			<li>NP_XWD2</li>
+			<li>NP_JXW2</li>
+			<li>NP_MXW2</li>
+			<li>NP_SXW2</li>
+			<li>NP_HXW2</li>
+			<li>NP_TXW2</li>
+			<li>NP_TD</li>
+		</Dans>
+	</Esoterica>
+
+	
+	<Esoterica Name="Gong_NPJ_4">
+		<DisplayName>Dow roll</DisplayName>
+		<Icon>Spr\Object\JN\ZT_NPJ\DH.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>Taoization, test poison.</Desc>
+		<GLevel>God</GLevel>
+		<Element>Tu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    \n Learned Dahua Volume All Dan Fang[/color][/size]</EffectDesc>
+		<Dans>
+			<li>NP_DHD</li>
+			<li>NP_DHDJ</li>
+			<li>NP_DHDM</li>
+			<li>NP_DHDS</li>
+			<li>NP_DHDH</li>
+			<li>NP_DHDT</li>
+			<li>NP_DHD1</li>
+			<li>NP_DHD1J</li>
+			<li>NP_DHD1M</li>
+			<li>NP_DHD1S</li>
+			<li>NP_DHD1H</li>
+			<li>NP_DHD1T</li>
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_NPJ_14">
+		<DisplayName>Heaven Book</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_NPJ\TS.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>No words and no trace, white paper fairy constant.</Desc>
+		<GLevel>God</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]\n Acquired Heaven Book Volume All Dan Fang[/color][/size]</EffectDesc>
+		<Dans>
+			<li>NP_TSD</li>
+			<li>NP_TSD1</li>
+			<li>NP_TSD2</li>
+			<li>NP_TSD3</li>
+			<li>NP_TSD4</li>
+			
+		</Dans>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="Gong_NPJ_5">
+		<DisplayName>Nirvana</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_NPJ\NPJ_E.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Nirvana is reborn, and fire feathers burn the sky.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508] \n learn Nirvana roll all Danfang.[/color][/size]</EffectDesc>
+		<Dans>
+			<li>NP_NPD</li>
+		</Dans>
+	</Esoterica>
+
+	<Esoterica Name="Gong_NPJ_10">
+		<DisplayName>Heaven and earth</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_NPJ\NPJ_E.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>The magic tricks reach the sky, the magic weapon shakes the ground.</Desc>
+		<GLevel>God</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]\n heaven and earth roll all Danfang.[/color][/size]</EffectDesc>
+		<Dans>
+			<li>NP_TJD</li>
+			<li>NP_THD</li>
+		</Dans>
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_NPJ_15">
+		<DisplayName>Red Dust Fairy</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_NPJ\ZT_TDJ_ZD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>100</Difficulty>
+		<Desc>Red dust becomes immortal, just waiting for your return.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]\nJia Shou Yuan and Jia Hui Ling Multiplier \nPlus Thirty Primal Distractions \nAdd Furnace Ding \nAdd Artifact Success Rate \nAdditional Power and Addition Power[/color][/size]</EffectDesc>
+		<Modifier>Gong_NPJ_15_A</Modifier>
+		<GodSoulCount>30</GodSoulCount>
+	</Esoterica>
+	
+	
+	
+	
+</List></Esotericas>

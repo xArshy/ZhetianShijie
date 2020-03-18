@@ -1,0 +1,348 @@
+﻿<SkillTree><List>
+	<Node Name="Gong_WSJ_LH_A1" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_LH_A1</Esoterica>
+		<DisplayName>圣体传承</DisplayName>
+		<Level>Qi</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_WSJ_LH_A1_1</li>
+			<li>Gong_WSJ_LH_A1_2</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_WSJ_LH_A1_1" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_LH_A1_1</Esoterica>
+		<DisplayName>圣体传承</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_WSJ_LH_A1_2" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_LH_A1_2</Esoterica>
+		<DisplayName>圣体传承</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Gong_WSJ_LQ_A1" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_LQ_A1</Esoterica>
+		<DisplayName>先天圣体道胎</DisplayName>
+		<Level>Qi</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_WSJ_LQ_A1_1</li>
+			<li>Gong_WSJ_LQ_A1_2</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_WSJ_LQ_A1_1" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_LQ_A1_1</Esoterica>
+		<DisplayName>先天圣体道胎</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_WSJ_LQ_A1_2" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_LQ_A1_2</Esoterica>
+		<DisplayName>先天圣体道胎</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+	<Node Name="Gong_WSJ_LQ_A3" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_LQ_A3</Esoterica>
+		<DisplayName>无上大道</DisplayName>
+		<Level>Qi</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+		<Node Name="Gong_WSJ_LH_B1" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_LH_B1</Esoterica>
+		<DisplayName>西皇经道宫卷</DisplayName>
+		<Level>Dan1</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_WSJ_LH_B1_1</li>
+			<li>Gong_WSJ_LH_B1_2</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_WSJ_LH_B1_1" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_LH_B1_1</Esoterica>
+		<DisplayName>西皇经道宫卷</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_WSJ_LH_B1_2" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_LH_B1_2</Esoterica>
+		<DisplayName>西皇经道宫卷</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+		<Node Name="Gong_WSJ_LH_B2" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_LH_B2</Esoterica>
+		<DisplayName>徒手接帝兵</DisplayName>
+		<Level>Dan1</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_WSJ_LH_B2_1</li>
+	
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_WSJ_LH_B2_1" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_LH_B2_1</Esoterica>
+		<DisplayName>徒手接帝兵</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+
+	<Node Name="Gong_WSJ_HL_C1" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_HL_C1</Esoterica>
+		<DisplayName>只手镇压</DisplayName>
+		<Level>Dan2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Gong_WSJ_HL_C2" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_HL_C2</Esoterica>
+		<DisplayName>逆转乾坤</DisplayName>
+		<Level>Dan2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Gong_WSJ_HL_C3" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_HL_C3</Esoterica>
+		<DisplayName>万古皆空</DisplayName>
+		<Level>Dan2</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_WSJ_HL_C3_1</li>
+			
+		</Layers>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_WSJ_HL_C3_1" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_HL_C3_1</Esoterica>
+		<DisplayName>万古皆空</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+
+	<Node Name="Gong_WSJ_YS_1D" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_YS_1D</Esoterica>
+		<DisplayName>无始钟</DisplayName>
+		<Level>God</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_WSJ_YS_1D_1</li>
+			
+		</Layers>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_WSJ_YS_1D_1" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_YS_1D_1</Esoterica>
+		<DisplayName>无始钟</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+
+	<Node Name="Gong_WSJ_YS_2D" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_YS_2D</Esoterica>
+		<DisplayName>封神榜</DisplayName>
+		<Level>God</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_WSJ_YS_2D_1</li>
+		
+		</Layers>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_WSJ_YS_2D_1" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_YS_2D_1</Esoterica>
+		<DisplayName>封神榜</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+
+	<Node Name="Gong_WSJ_HL_ld" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_HL_ld</Esoterica>
+		<DisplayName>六道轮回拳</DisplayName>
+		<Level>God</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>10,10,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Gong_WSJ_XT_1D" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_XT_1D</Esoterica>
+		<DisplayName>谁为峰</DisplayName>
+		<Level>God2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Gong_WSJ_XT_2D" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_XT_2D</Esoterica>
+		<DisplayName>道成空</DisplayName>
+		<Level>God2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Gong_WSJ_XT_ZD" Gong="Gong_WSJ">
+		<Esoterica>Gong_WSJ_XT_ZD</Esoterica>
+		<DisplayName>红尘仙</DisplayName>
+		<Level>God2</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+</List></SkillTree> 

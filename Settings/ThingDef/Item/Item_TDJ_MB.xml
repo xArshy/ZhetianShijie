@@ -1,0 +1,1488 @@
+<ThingDefs><List>
+	<ThingDef Type="Item" Name="MiBaoBase" Parent="ItemBase">
+	
+	<ThingName></ThingName>
+	<MaxStack>1</MaxStack>
+	<TexPath></TexPath>
+	<Desc>Desc.</Desc>
+	<SelectAble>1</SelectAble>
+	<VisualAble>1</VisualAble>
+
+	<Beauty>15</Beauty>
+	<Rate>12</Rate>
+	
+	<Flammability>
+		<Flammability>-10</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>
+	</Flammability>
+	
+	<Item Kind="Equipment" Type="Treasure">
+		<NotRandom>1</NotRandom>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<FuelMultiplier>1</FuelMultiplier>
+		<BeMade>
+			<Quality>100</Quality>
+			<WorkToMake>3000</WorkToMake>
+		</BeMade> 
+		<Rot>
+			<RotSpeed>0</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+		
+		<!-- 
+		<Equip>
+			<ToolModifier>Modifier_Item_BossFeng_HuoYu</ToolModifier>
+		</Equip> 
+		-->
+	</Item>
+	
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	
+	<Element>
+		<Kind>None</Kind>
+		<Value>15</Value>         
+		<Radius>3</Radius>
+		<Failing>1</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_MiBao_WWMQD" Parent="MiBaoBase">
+		<ThingName>All things mother gas</ThingName>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTding01</TexPath>
+		<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHding01</FabaoTexPath>	
+		<Desc>Ye Fan's destiny weapon is made of Xuanhuang mother gas and is made of Emperor-class materials. A tripod, two ears, three legs, and three things are born from the legacy of the ruthless Emperor. Contains the emperor's charm.</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>WWMQD</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "HUO_WSSH" count = "9"/>
+				<Item name = "HUO_QCSH" count = "3"/>
+				<Item name = "Item_DJHJ" count = "9"/>
+				<Item name = "Item_LWHJ" count = "9"/>
+				<Item name = "Item_SHZJ" count = "9"/>
+				<Item name = "Item_XLLJ" count = "9"/>
+				<Item name = "Item_HXCJ" count = "9"/>
+				<Item name = "Item_YHQJ" count = "9"/>
+				<Item name = "Item_XHEQ" count = "9"/>
+				<Item name = "Item_XHJC" count = "9"/>
+				<Item name = "Item_ZJST" count = "99"/>
+				<Item name = "Item_ST" count = "99"/>
+				<Item name = "Item_DLYJ" count = "99"/>
+				<Item name = "Item_XZ" count = "99"/>
+				<Item name = "Item_ZYW" count = "99"/>
+				<Item name = "Item_YYSY" count = "99"/>
+				<Item name = "Item_ZYSY" count = "99"/>
+				<Item name = "Item_JTCYW" count = "99"/>
+				<Item name = "Item_JTBYB" count = "99"/>
+				<Item name = "Item_YZBYB" count = "99"/>
+				<Item name = "Item_WSTJ" count = "99"/>
+				<Item name = "Item_IronRock" count = "199"/>
+				<Item name = "Item_CopperRock" count = "199"/>
+				<Item name = "Item_SilverRock" count = "199"/>
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		    <ActiveCondition>
+			   <Condition eventid = "KillCount" des = "Carrying embryos to kill 45 meta-gods" needcount = "45" lParam = "God"/>
+			   <Condition eventid = "BrokenNeck" des = "Carrying treasures through 19 lift-offs" needcount = "19" lParam = "God2" />
+			    <Condition eventid = "Other" des = "Feeding treasure siathing with blood 49 times" needcount = "49"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="FlyDamageAddP" fParam1="0.1" Desc="For every 1 second of flight, the base power is increased by 10% and emptied upon return."/>
+				 <Ability Kind="HitSameFabaoAndEffect" nParam1="9" nParam2="1" Desc="Each attack on the same magic weapon 9 times, can make it ineffective, the duration is related to its order."/>
+				 <Ability Kind="MultiKillAddPowerUp" nParam1="99" fParam1="0.1" Desc="Each killing of a living life increases the power of 10%, up to 99 floors. If you do not drink blood on the 1st day will be zero effect."/>
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Longxinyinyanggui" Desc="Body Protection Skills Improve10"/>
+				 <Ability Kind="LastLingCostPowerUp" nParam1="100000" fParam1="0.1" fParam2="10"  Desc="For every 100,000 reikis consumed, damage is increased by 10% and up to 1000%. The weapon resets when replenishing reiki."/>
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Yuanshenxinjian" Desc="Sword Skills Improved 10"/>
+				 <Ability Kind="AtkRateDamageAddp" fParam1="0.01" fParam2="10" nParam1="0" Desc="When you cause damage, there is a 10% chance of causing 10 times damage."/>
+				 <Ability Kind="AtkRateDamageAddp" fParam1="0.1" fParam2="0.3" nParam1="1" nParam2="1" Desc="Attacking the enemy onthisis has a 1% chance of causing an additional 30% of the target's current reiki damage."/>
+				 <Ability Kind="HitCountAddMirror" nParam1="9" nParam2="9" fParam1="9" Desc="For each attack 9 times, 9 mosquitoes are formed in fractals for 9 seconds."/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FeedSelf()</UseLua>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="Item_MiBao_XKJ" Parent="MiBaoBase">
+		<ThingName>Nether Mirror</ThingName>
+		<TexPath>Spr\Object\WP\XKJ.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\XKJ.png</FabaoTexPath>	
+		<Desc>The Void Emperor's weapon of preaching has extremely powerful space power, which can determine the void or mess the space.</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>XKJ</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "HUO_BH" count = "3"/>
+				<Item name = "HUO_ZH" count = "3"/>
+				<Item name = "HUO_WSSH" count = "3"/>
+				<Item name = "HUO_QCSH" count = "3"/>
+				<Item name = "Item_IronBlock" count = "199"/>
+				<Item name = "Item_CopperBlock1" count = "199"/>
+				<Item name = "Item_SilverBlock1" count = "199"/>
+				<Item name = "Item_HardWoodBlock" count = "99"/>
+				<Item name = "Item_ParasolWoodBlock" count = "99"/>
+				<Item name = "Item_BenYuan_None" count = "9"/>
+				<Item name = "Item_XianDaoShenNian" count = "3"/>
+				<Item name = "Item_JTBYB" count = "99"/>
+				<Item name = "Item_YZBYB" count = "99"/>
+				<Item name = "Item_SHZJ" count = "6"/>
+
+
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		    <ActiveCondition>
+			  <Condition eventid = "SoulCrystal" des = "Successful at noon or midnight and lasts 12 days" needday = "12" fParam = "1" continuity = "1" tParam = "0,1"  tParam2 = "11,13" tParam3 = "23,24"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="FlyDamageAddP" fParam1="0.05" Desc="For every 1 second of flight, the base power is increased by 5% and emptied upon return."/>
+				 <Ability Kind="HitSameFabaoAndEffect" nParam1="4" nParam2="1" Desc="Each attack on the same magic weapon 4 times, can make it ineffective, the duration is related to its order."/>
+				  <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="1" nParam1="2" Desc="When fighting with the magic weapon, cause 2 times the damage."/>
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Longxinyinyanggui" Desc="Body Protection Skills Improve10"/>
+				 <Ability Kind="HitCountCostSkill" nParam1="3"  sParam1="DamageSkill_4" Desc="Every 3 attacks will be a spell against the target enemy."/>
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Yuanshenxinjian" Desc="Sword Skills Improved 10"/>
+				  <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Wuqileifu" Desc="Surgical skills improved10"/>
+				  <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoPowerAddP" fParam2="0.5" nParam1="1" Desc="Fundamentally increase the power of their own magic weapon plus 50%."/>
+				 <Ability Kind="FristHitPowerUp" fParam1="10" Desc="The first blow power increased by 1000%, and The Magic replenishes the Reiki reset."/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FeedSelf()</UseLua>
+	</Item>
+
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+	
+	
+	
+	<ThingDef Type="Item" Name="Item_MiBao_MDJS" Parent="MiBaoBase">
+		<ThingName>Ming Dao Jin Shu</ThingName>
+		<TexPath>Spr\Object\WP\MDJS.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\MDJS.png</FabaoTexPath>	
+		<Desc>Dao Jing was written by the ancient emperor, Jiutianzun Moral Godzun. After finishing this book, Moral Tianzun refined one of the pages into the supreme treasure.</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>MDJS</li>
+			
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "HUO_CH" count = "1"/>
+				<Item name = "HUO_WH" count = "1"/>
+				<Item name = "HUO_JH" count = "1"/>
+				<Item name = "HUO_LH" count = "1"/>
+				<Item name = "HUO_BH" count = "1"/>
+				<Item name = "HUO_ZH" count = "1"/>
+				<Item name = "HUO_WSSH" count = "1"/>
+				<Item name = "HUO_QCSH" count = "1"/>
+				<Item name = "Item_DJHJ" count = "9"/>
+				<Item name = "Item_Wood" count = "9999"/>
+				<Item name = "Item_LingCrystalBlock" count = "99"/>
+				<Item name = "Item_HardWood" count = "399"/>
+				<Item name = "Item_ParasolWood" count = "99"/>
+				<Item name = "Item_SpellPaperLv3" count = "399"/>
+				<Item name = "Item_YYSY" count = "99"/>
+				<Item name = "Item_ParasolWoodBlock" count = "399"/>
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		   <ActiveCondition>
+				<Condition eventid = "BrokenNeck" des = "Carrying treasures through metal robbery" needcount = "7" lParam = "God2" eParam = "Jin" />
+			    <Condition eventid = "BrokenNeck" des = "Carrying treasures through the wooden property of the day robbery" needcount = "7" lParam = "God2" eParam = "Mu" />
+			    <Condition eventid = "BrokenNeck" des = "Carrying treasures through the water's natural robbery" needcount = "7" lParam = "God2" eParam = "Shui" />
+			    <Condition eventid = "BrokenNeck" des = "Carrying treasures through the fire" needcount = "7" lParam = "God2" eParam = "Huo" />
+			    <Condition eventid = "BrokenNeck" des = "Carrying treasures through the earth's land" needcount = "7" lParam = "God2" eParam = "Tu" />
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Wuqileifu" Desc="Surgical skills improved10"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoMaxLingAddP" fParam2="0.3" nParam1="1" Desc="Fundamentally improve their own magic to increase the lingitoiinto by 30%."/>
+				 <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="5" nParam1="0" sParam1="Mu" Desc="500% increase in damage to wood attribute target"/>
+				
+				 <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="5" nParam1="0" sParam1="Tu" Desc="500% increase in damage to soil attribute targets"/>
+				 <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="5" nParam1="0" sParam1="Huo" Desc="500% increase in damage to fire attribute target"/>
+				 <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="5" nParam1="0" sParam1="Jin" Desc="500% increase in damage to metal targets"/>
+				
+				 <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="5" nParam1="0" sParam1="Shui" Desc="500% increase in damage to water attribute targets"/> 
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Longxinyinyanggui" Desc="Body Protection Skills Improve10"/>
+				 <Ability Kind="AtkRateDamageAddp" fParam1="0.1" fParam2="0.3" nParam1="1" nParam2="1" Desc="Attacking the enemy onthisis has a 10% chance of causing an additional 30% of the target's current reiki damage."/>
+			</SpecialAbility>
+		</Fabao>
+		<ModPath>Spr\Object\WP\MDJS.FBX</ModPath>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MiBao_HYSL" Parent="MiBaoBase">
+		<ThingName>Hengyu God furnace</ThingName>
+		<TexPath>Spr\Object\WP\HYSL.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\HYSL.png</FabaoTexPath>	
+		<Desc>Using the equivalent of the god phoenix bones—phoenix blood and red gold—who want to make extreme weapons, go to Chiyue Grottoes and Fallen Ridge to worship the imperial soldiers in the Taichu restricted area, and even be drained because of the lack of Yangyang in Fallen Ridge. However, this has achieved the extreme weapon Hengyu Furnace formed by the Phoenix Blood Red Gold Hammer.</Desc>
+		<ElementKind>Huo</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>HYSL</li>
+			
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "HUO_CH" count = "3"/>
+				<Item name = "HUO_WH" count = "3"/>
+				<Item name = "HUO_JH" count = "3"/>
+				<Item name = "HUO_LH" count = "3"/>
+				<Item name = "HUO_BH" count = "3"/>
+				<Item name = "HUO_ZH" count = "3"/>
+				<Item name = "HUO_WSSH" count = "3"/>
+				<Item name = "HUO_QCSH" count = "3"/>
+				<Item name = "Item_HXCJ" count = "18"/>
+				
+				<Item name = "Item_HSXXY" count = "69"/>
+				<Item name = "Item_HSXSY" count = "129"/>
+				<Item name = "Item_HSXY" count = "300"/>
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		   <ActiveCondition>
+
+			    <Condition eventid = "BrokenNeck" des = "Carrying treasures through the water property 20 times" needcount = "20" lParam = "God2" eParam = "Shui" />
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Wuqileifu" Desc="Surgical skills improved10"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoMaxLingAddP" fParam2="0.6" nParam1="1" Desc="Fundamentally improve their own magic to increase the lingitoi into 60%."/>
+				 <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="10" nParam1="0" sParam1="Mu" Desc="1000% increase in damage to wood attribute target"/>
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Longxinyinyanggui" Desc="Body Protection Skills Improve10"/>
+				 <Ability Kind="AtkRateDamageAddp" fParam1="0.5" fParam2="0.3" nParam1="1" nParam2="1" Desc="Attacking the enemy onthisis has a 50% chance of additional damage to the target's current reiki by 10%."/>
+				 <Ability Kind="HitCountAddMirror" nParam1="1" fParam1="2" Desc="1 attack, 1 split for 2 seconds"/>
+				  <Ability Kind="DanCountAddPowerUp" fParam1="0.5" Desc="For every drug taken, the power is increased by 50%."/>
+				  <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoRepelDistanceAddV" fParam2="0.9" nParam1="1" Desc="Fundamentally improve their magic weapon to fight back the distance of 90%."/>
+				  <Ability Kind="HitSameFabaoAndEffect" nParam1="6" nParam2="1" Desc="Each attack on the same magic weapon 6 times, can make it ineffective, the duration is related to its order."/>
+			</SpecialAbility>
+		</Fabao>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MiBao_LHSL" Parent="MiBaoBase">
+		<ThingName>From the Vulcan Furnace</ThingName>
+		<TexPath>Spr\Object\WP\LHSL.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\LHSL.png</FabaoTexPath>	
+		<Desc>Emperor Hengyu's portable weapon before the sermon.</Desc>
+		<ElementKind>Huo</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>LHSL</li>
+			
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "HUO_CH" count = "1"/>
+				<Item name = "HUO_WH" count = "1"/>
+				<Item name = "HUO_JH" count = "1"/>
+				<Item name = "HUO_LH" count = "1"/>
+				<Item name = "HUO_BH" count = "1"/>
+				<Item name = "HUO_ZH" count = "1"/>
+				<Item name = "HUO_WSSH" count = "1"/>
+				<Item name = "HUO_QCSH" count = "1"/>
+				<Item name = "Item_DLYJ" count = "68"/>
+				<Item name = "Item_JTCYW" count = "69"/>
+				<Item name = "Item_HSXSY" count = "39"/>
+				<Item name = "Item_HSXY" count = "100"/>
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+			<SpecialAbility>
+			     <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Wuqileifu" Desc="Surgical skills improved10"/>
+				 <Ability Kind="HitAddRecovery" fParam1="0.1"  Desc="The 10% of the damage will be supplemented by the reiki of The Fabo itself."/>
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Longxinyinyanggui" Desc="Body Protection Skills Improve10"/>
+				<Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1 = "1" Desc="At the expense of fragmentation, resist one death and recover all injuries." />
+				  <Ability Kind="HitCountAddMirror" nParam1="3" nParam2="3" fParam1="9" Desc="3 attacks, producing 3 fractals for 9 seconds."/>
+				  <Ability Kind="CantAttack" Desc="Surrounding the perimeter will not actively attack, focus on the defense."/>
+			</SpecialAbility>
+		</Fabao>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MiBao_LHY" Parent="MiBaoBase">
+		<ThingName>Reincarnation</ThingName>
+		<TexPath>Spr\Object\WP\LHY.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\LHY.png</FabaoTexPath>	
+		<Desc>The treasure in Duan De's body is said to be able to reverse life and death, and it can also be continuously increased in reincarnation.</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>LHY</li>
+			
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "HUO_CH" count = "1"/>
+				<Item name = "HUO_WH" count = "1"/>
+				<Item name = "HUO_JH" count = "1"/>
+				<Item name = "HUO_LH" count = "1"/>
+				<Item name = "HUO_BH" count = "1"/>
+				<Item name = "HUO_ZH" count = "1"/>
+				<Item name = "HUO_WSSH" count = "1"/>
+				<Item name = "HUO_QCSH" count = "2"/>
+				<Item name = "Item_BasePracticeDrug" count = "99"/>
+				<Item name = "Item_Dan_Ling2" count = "99"/>
+				<Item name = "Item_Dan_Happiness" count = "99"/>
+				<Item name = "Item_Dan_DredgeQi" count = "99"/>
+				<Item name = "Item_Dan_CureFiveElementDamage" count = "99"/>
+				<Item name = "Item_Dan_HundredRefine" count = "99"/>
+				<Item name = "Item_Dan_IncreaseLife5" count = "99"/>
+				<Item name = "Item_ZYW" count = "99"/>
+				<Item name = "Item_LWHJ" count = "9"/>
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		   <ActiveCondition>
+			     <Condition eventid = "BrokenNeck" des = "Carrying treasures through metal robbery" needcount = "9" lParam = "God2" eParam = "Jin" />
+			    <Condition eventid = "BrokenNeck" des = "Carrying treasures through the wooden property of the day robbery" needcount = "9" lParam = "God2" eParam = "Mu" />
+			    <Condition eventid = "BrokenNeck" des = "Carrying treasures through the water's natural robbery" needcount = "9" lParam = "God2" eParam = "Shui" />
+			    <Condition eventid = "BrokenNeck" des = "Carrying treasures through the fire" needcount = "9" lParam = "God2" eParam = "Huo" />
+			    <Condition eventid = "BrokenNeck" des = "Carrying treasures through the earth's land" needcount = "9" lParam = "God2" eParam = "Tu" />
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Wuqileifu" Desc="Surgical skills improved10"/>
+				  <Ability Kind="LastLingCostPowerUp" nParam1="100000" fParam1="0.5" fParam2="20"  Desc="For every 100,000 reikis consumed, damage is increased by 50% and up to 2000%. The weapon resets when replenishing reiki."/>
+				 <Ability Kind="DanCountAddPowerUp" fParam1="0.05" Desc="For every drug taken, the power is increased by 5%."/>
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Longxinyinyanggui" Desc="Body Protection Skills Improve10"/>
+				<Ability Kind="AtkRateDamageAddp" fParam1="0.1" fParam2="4" nParam1="0" Desc="There is a 10% chance of causing damage."/>
+				  <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoRepelResistanceAddV" fParam2="0.3" nParam1="1" Desc="Fundamentally improve their own magic weapon to fight back 30%."/>
+				 <Ability Kind="FunctionEffectPower" nParam1="-10" fParam1="0.05" nParam2="1" Desc="For every 10% lower health value, the power of the magic weapon increases by 500%."/>
+				 <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1 = "1" Desc="At the expense of fragmentation, resist one death and recover all injuries." />
+				  <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.1" nParam1="1" nParam2="1" Desc="An additional 10% additional damage to the target's current reiki is caused when attacking the enemy onthisis."/>
+			</SpecialAbility>
+		</Fabao>
+		<ModPath>Spr\Object\WP\LHY.FBX</ModPath>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="Item_MiBao_THJ" Parent="MiBaoBase">
+		<ThingName>Tai Huang Sword</ThingName>
+		<TexPath>Spr\Object\WP\THJ.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\THJ.png</FabaoTexPath>	
+		<Desc>The Emperor Sword can almost collapse Wanjie, and a dragon chant resounds through the ages, like an eternal light. Tai Huang sword out, unparalleled attack power!</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>THJ</li>
+			
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+			
+				<Item name = "HUO_WH" count = "9"/>
+				<Item name = "HUO_JH" count = "9"/>
+
+				<Item name = "HUO_WSSH" count = "8"/>
+
+				<Item name = "Item_DJHJ" count = "9"/>
+				<Item name = "Item_JSXXY" count = "9"/>
+				<Item name = "Item_DLYJ" count = "199"/>
+				<Item name = "Item_LingCrystalBlock" count = "99"/>
+				<Item name = "Item_BenYuan_Jin" count = "9"/>
+				<Item name = "Item_StarEssence" count = "199"/>
+				<Item name = "Item_TuEssence" count = "99"/>
+
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		   <ActiveCondition>
+			    <Condition eventid = "KillCount" des = "Carrying embryos to kill 99 meta-gods" needcount = "99" lParam = "God"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			    <Ability Kind="FunctionEffectPower" nParam1="-1" fParam1="1" nParam2="1" Desc="For every 1% lower health value, the power of the magic weapon increases by 100%."/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoMaxLingAddP" fParam2="0.5" nParam1="1" Desc="Fundamentally improve their own magic baoling a 50% increase."/>
+				 <Ability Kind="MultiKillAddPowerUp" nParam1="99" fParam1="0.2" Desc="Each killing of a living life increases the power of 20%, up to 99 layers. If you do not drink blood on the 1st day will be zero effect."/>
+				
+				 <Ability Kind="AgeAddPowerUp" fParam1="5" fParam2="1" Desc="The closer the user approaches the life limit, the more powerful the magic weapon is" />
+				  <Ability Kind="HitCountAddMirror" nParam1="2" fParam1="1" Desc="2 attacks, resulting in 1 sword light differentiation for 7 seconds"/>
+				<Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Yuanshenxinjian" Desc="Sword Skills Improved 10"/>
+				 <Ability Kind="AtkRateDamageAddp" fParam1="0.1" fParam2="0.9" nParam1="1" nParam2="1" Desc="Attacking the enemy onthisis has a 1% chance of causing an additional 90% of the target's current reiki damage."/>
+				 <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="1" nParam1="2" Desc="When fighting with the magic weapon, cause 2 times the damage."/>
+			</SpecialAbility>
+		</Fabao>
+		<ModPath>Spr\Object\WP\THJ.FBX</ModPath>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="Item_MiBao_XHT" Parent="MiBaoBase">
+		<ThingName>West Tower</ThingName>
+		<TexPath>Spr\Object\WP\XHT.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\XHT.png</FabaoTexPath>	
+		<Desc>The Emperor Xi of the West, when she became emperor, remained extremely powerful.</Desc>
+		<ElementKind>Shui</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>XHT</li>
+			
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				
+				<Item name = "HUO_BH" count = "9"/>
+				<Item name = "HUO_ZH" count = "12"/>
+				<Item name = "HUO_QCSH" count = "10"/>
+				<Item name = "Item_SSXXY" count = "9"/>
+				<Item name = "Item_XLLJ" count = "15"/>
+				<Item name = "Item_Dan_LingYuanZhong" count = "18"/>
+				<Item name = "Item_Dan_LingYuanSha" count = "28"/>
+				<Item name = "Item_IronBlock" count = "999"/>
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		   <ActiveCondition>
+			    <Condition eventid = "SoulCrystal" des = "对胚胎幽粹12次" needcount = "12" fParam = "1"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Wuqileifu" Desc="术法技能提高10"/>
+				  <Ability Kind="LastLingCostPowerUp" nParam1="100000" fParam1="0.2" fParam2="20"  Desc="每消耗100000点灵气，伤害提高20%，最高提高2000%。法宝补充灵气时重置。"/>
+				 <Ability Kind="DanCountAddPowerUp" fParam1="0.8" Desc="每服用过一种丹药，威力提高80%。"/>
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Longxinyinyanggui" Desc="护体技能提高10"/>
+				<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="1" nParam1="0" sParam1="Huo" Desc="对火属性目标伤害加深100%"/>
+				  <Ability Kind="HitAddRecovery" fParam1="0.1"  Desc="造成伤害的10%会补充为法宝自身的灵气。"/>
+				 <Ability Kind="HitCountAddSubColdDown" nParam1="2" fParam1="1" Desc="每2次攻击会减少1秒技能CD。"/>
+				  <Ability Kind="AgeAddPowerUp" fParam1="5" fParam2="1" Desc="使用者越接近寿命极限法宝威力大" />
+				  <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="1" nParam1="2" Desc="与法宝拼斗时，造成2倍伤害。"/>
+			</SpecialAbility>
+		</Fabao>
+		<Ling>
+		<AddionLing>10</AddionLing>
+		<AddionRadius>4</AddionRadius>
+		<AddionFailing>0.8</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>100</Absorption>
+		<Accommodate>50000</Accommodate>
+		</Ling>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_MiBao_DZSG" Parent="MiBaoBase">
+		<ThingName>Fighting holy stick</ThingName>
+		<TexPath>Spr\Object\WP\DZSG.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\DZSG.png</FabaoTexPath>	
+		<Desc>The most powerful emperor soldiers in the battle of the holy apes. The few people in the war of the holy apes have a great victory!</Desc>
+		<ElementKind>Huo</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>DZSG</li>
+			
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_DJHJ" count = "99"/>
+				<Item name = "Item_LingCrystalBlock" count = "999"/>
+				<Item name = "Item_StarEssence" count = "99"/>
+				<Item name = "Item_JinEssence" count = "99"/>
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+			<ActiveCondition>
+			     <Condition eventid = "Other" des = "Absorb scent 36 times forever night" needcount = "36" continuity = "0"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			      <Ability Kind="FunctionEffectPower" nParam1="-1" fParam1="3" nParam2="1" Desc="For every 1% lower health value, the power of the magic weapon increased by 300%."/>
+				  <Ability Kind="LastLingCostPowerUp" nParam1="500000" fParam1="0.2" fParam2="30"  Desc="For every 500,000 reikis consumed, damage is increased by 50% and up to 3000%. The weapon resets when replenishing reiki."/>
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Longxinyinyanggui" Desc="Body Protection Skills Improve10"/>
+				 <Ability Kind="MultiKillAddPowerUp" nParam1="36" fParam1="0.5" Desc="Each killing of a living life increases the power of 50%, up to 36 layers. If you do not drink blood on the 1st day will be zero effect."/>
+				  <Ability Kind="HitAddRecovery" fParam1="0.1"  Desc="The 10% of the damage will be supplemented by the reiki of The Fabo itself."/>
+				  <Ability Kind="HitCountCostSkill" nParam1="3"  sParam1="DamageSkill_4" Desc="Every 3 attacks will be a spell against the target enemy."/>
+				 <Ability Kind="AtkRateDamageAddp" fParam1="0.05" fParam2="99" nParam1="0" Desc="There is a 5% chance of 100 times damage when you cause damage."/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoPowerAddP" fParam2="1" nParam1="1" Desc="Fundamentally improve the power of their own magic weapon plus 100%。"/>
+				 <Ability Kind="HitAddRecovery" fParam1="0.25"  Desc="25% of the damage will be supplemented by the reiki of Faber itself."/>
+			</SpecialAbility>
+		</Fabao>
+		<ModPath>Spr\Object\WP\DZSG.FBX</ModPath>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveWeather({'PermanentNight'})</UseLua>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MiBao_FSB" Parent="MiBaoBase">
+		<ThingName>Fengshenbang</ThingName>
+		
+		<TexPath>Spr\Object\WP\FSB.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\FSB.png</FabaoTexPath>	
+		<Desc>The immortal soldiers cast by the Emperor Fengshibang Wushi once suppressed the undead Taoists!</Desc>
+		<ElementKind>Jin</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>FSB</li>
+			
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+			<Item name = "HUO_CH" count = "15"/>
+				<Item name = "HUO_WH" count = "10"/>
+				
+				<Item name = "HUO_WSSH" count = "12"/>
+				<Item name = "HUO_QCSH" count = "12"/>
+				<Item name = "Item_YYSY" count = "69"/>
+				<Item name = "Item_ParasolWoodBlock" count = "99"/>
+				<Item name = "Item_ST" count = "99"/>
+				<Item name = "Item_SHZJ" count = "9"/>
+				<Item name = "Item_LingCrystalBlock" count = "399"/>
+				<Item name = "Item_JinEssence" count = "19"/>
+				<Item name = "Item_MuEssence" count = "19"/>
+				<Item name = "Item_ShuiEssence" count = "19"/>
+				<Item name = "Item_HuoEssence" count = "19"/>
+				<Item name = "Item_TuEssence" count = "19"/>
+				<Item name = "Item_WSXSY" count = "29"/>
+				<Item name = "Item_MSXSY" count = "29"/>
+				<Item name = "Item_SSXSY" count = "29"/>
+				<Item name = "Item_HSXSY" count = "29"/>
+				<Item name = "Item_TSXSY" count = "29"/>
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+			<ActiveCondition>
+			     <Condition eventid = "Other" des = "Absorb 12 days of Beidou Starlight" needcount = "12" continuity = "0"/>
+				 <Condition eventid = "SoulCrystalYou" des = "The treasure will be successfully hidden 11 times." needcount = "11" fParam = "1" />
+				  <Condition eventid = "BrokenNeck" des = "Carrying treasures through 14 lift-offs" needcount = "14" lParam = "God2" />
+				
+			</ActiveCondition>
+			<SpecialAbility>
+			      <Ability Kind="HitSameFabaoAndEffect" nParam1="2" nParam2="1" Desc="Each attack on the same magic weapon 2 times, can make it ineffective, the duration is related to its order."/>	
+				 <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="5.5" nParam1="1" Desc="When attacking the enemy onthisis, it causes 6 times as much damage."/>
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Longxinyinyanggui" Desc="Body Protection Skills Improve10"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoMaxLingAddP" fParam2="2" nParam1="1" Desc="Fundamentally improve your own magic baoling into 200%。"/>
+				  <Ability Kind="HitAddRecovery" fParam1="0.5"  Desc="50% of the damage will be supplemented by the reiki of Faber itself."/>
+				   <Ability Kind="HitCountAddSubColdDown" nParam1="3" fParam1="4" Desc="Skill CDs are reduced by 4 seconds per 2 attacks."/>
+				 <Ability Kind="HitCountAddMirror" nParam1="3" nParam2="19" fParam1="3" Desc="Each attack 3 times, the production of 19 mosquitoes must be fractal, lasting 3 seconds."/>
+				  <Ability Kind="HitCountAddDamage" nParam1="5" sParam1="TheWholeBody" sParam2="FivePoison" Desc="Every 5 attacks on the practitioner's body, it will penetrate the shield to cause additional damage."/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoPowerAddP" fParam2="1" nParam1="1" Desc="Fundamentally improve the power of their own magic weapon plus 100%。"/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveBeiDou()</UseLua>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+
+		<ThingDef Type="Item" Name="Item_MiBao_WSZ" Parent="MiBaoBase">
+		<ThingName>No beginning bell</ThingName>
+		<TexPath>Spr\Object\WP\WSZ.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\WSZ.png</FabaoTexPath>	
+		<Desc>No start bell ringing storm!</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>WSZ</li>
+			
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "HUO_CH" count = "9"/>
+				<Item name = "HUO_WH" count = "9"/>
+				<Item name = "HUO_ZH" count = "9"/>
+				<Item name = "HUO_WSSH" count = "3"/>
+				<Item name = "HUO_QCSH" count = "3"/>
+				<Item name = "Item_DJHJ" count = "9"/>
+				<Item name = "Item_JTBYB" count = "99"/>
+				<Item name = "Item_SoulCrystalYou" count = "99"/>
+				<Item name = "Item_JinEssence" count = "10"/>
+				<Item name = "Item_MuEssence" count = "10"/>
+				<Item name = "Item_ShuiEssence" count = "10"/>
+				<Item name = "Item_HuoEssence" count = "10"/>
+				<Item name = "Item_TuEssence" count = "10"/>
+				<Item name = "Item_YZBYB" count = "50"/>
+				<Item name = "Item_WSTJ" count = "50"/>
+				<Item name = "Item_ZYSY" count = "90"/>
+			
+				<Item name = "Item_WSXSY" count = "29"/>
+				<Item name = "Item_MSXSY" count = "29"/>
+				<Item name = "Item_SSXSY" count = "29"/>
+				<Item name = "Item_HSXSY" count = "29"/>
+				<Item name = "Item_TSXSY" count = "29"/>
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+			<ActiveCondition>
+			    <Condition eventid = "Carry" des = "由童女携带蕴养2年" needday = "224" sex = "2" age = "0,16"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			      <Ability Kind="HitSameFabaoAndEffect" nParam1="4" nParam2="1" Desc="每攻击同一个法宝4次，可使其失效，持续时间与其品阶有关。"/>	
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Longxinyinyanggui" Desc="护体技能提高10"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoMaxLingAddP" fParam2="2" nParam1="1" Desc="从根本上提高自身法宝灵气加成200%。"/>
+				  <Ability Kind="FunctionEffectPower" nParam1="-1" fParam1="0.5" nParam2="1" Desc="健康值每低1%，法宝威力增加50%。"/>
+				  <Ability Kind="CantAttack" Desc="环绕周身不会主动进攻，专注防御。"/>
+				  <Ability Kind="AgeAddPowerUp" fParam1="5" fParam2="1" Desc="使用者越接近寿命极限法宝威力大" />
+				 <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1 = "1" Desc="以破碎为代价，抵挡一次死亡并恢复所有伤害。" />
+			</SpecialAbility>
+		</Fabao>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_MiBao_DSB" Parent="MiBaoBase">
+		<ThingName>Whip</ThingName>
+		<TexPath>Spr\Object\WP\DSB.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\DSB.png</FabaoTexPath>	
+		<Desc>The other part of the starry sky, the weapons of the pre-Qin refiners!</Desc>
+		<ElementKind>Jin</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>DSB</li>
+			
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_LWHJ" count = "9"/>
+				<Item name = "Item_LingCrystalBlock" count = "99"/>
+
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+			<ActiveCondition>
+			    <Condition eventid = "KillCount" des = "携带宝物胚胎击杀27男性生灵" needcount = "27" sex = "1"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			      <Ability Kind="HitSameFabaoAndEffect" nParam1="1" nParam2="1" Desc="每攻击同一个法宝1次，可使其失效，持续时间与其品阶有关。"/>	 
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Longxinyinyanggui" Desc="护体技能提高10"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoPowerAddP" fParam2="0.5" nParam1="1" Desc="从根本上提高自身法宝威力加成50%。"/>
+			</SpecialAbility>
+		</Fabao>
+	
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="Item_MiBao_DHJ" Parent="MiBaoBase">
+		<ThingName>Great Wild Halberd</ThingName>
+		<TexPath>Spr\Object\WP\DHJ.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\DHJ.png</FabaoTexPath>	
+		<Desc>King Wing Peng ’s famous weapon has supreme attack power!</Desc>
+		<ElementKind>Jin</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>DHJ</li>
+			
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_LWHJ" count = "9"/>
+				<Item name = "Item_LingCrystalBlock" count = "99"/>
+
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+			<ActiveCondition>
+			    <Condition eventid = "KillCount" des = "携带宝物胚胎击杀27女性生灵" needcount = "27" sex = "2"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			      <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="2" nParam1="2" Desc="与法宝拼斗时，造成3倍伤害。"/>	 
+				 <Ability Kind="FunctionEffectPower" nParam1="-1" fParam1="3" nParam2="1" Desc="健康值每低1%，法宝威力增加300%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoPowerAddP" fParam2="0.5" nParam1="1" Desc="从根本上提高自身法宝威力加成50%。"/>
+			</SpecialAbility>
+		</Fabao>
+		
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+	
+		<ThingDef Type="Item" Name="Item_MiBao_YDX" Parent="MiBaoBase">
+		<ThingName>Monster Emperor Heart</ThingName>
+		<TexPath>Spr\Object\DJ\YDX.png</TexPath>
+		<FabaoTexPath>Spr\Object\DJ\YDX.png</FabaoTexPath>	
+		<Desc>Supreme magic weapon made from the heart of Donghuang's last monster emperor!</Desc>
+		<ElementKind>Mu</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>YDX</li>
+			
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "HUO_CH" count = "1"/>
+				<Item name = "HUO_WH" count = "1"/>
+				<Item name = "HUO_JH" count = "1"/>
+				<Item name = "HUO_LH" count = "1"/>
+				<Item name = "HUO_BH" count = "1"/>
+				<Item name = "HUO_ZH" count = "1"/>
+				<Item name = "HUO_WSSH" count = "1"/>
+				<Item name = "HUO_QCSH" count = "1"/>
+		
+				<Item name = "Item_YDX" count = "1"/>
+				<Item name = "Item_ZYW" count = "99"/>
+				<Item name = "Item_XZ" count = "99"/>
+				<Item name = "Item_DLYJ" count = "69"/>
+				<Item name = "Item_LingCrystalBlock" count = "99"/>
+
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+			<ActiveCondition>
+			    <Condition eventid = "KillCount" des = "携带宝物胚胎击杀27女性生灵" needcount = "27" sex = "2"/>
+				<Condition eventid = "KillCount" des = "携带宝物胚胎击杀27男性生灵" needcount = "27" sex = "1"/>
+				<Condition eventid = "Other" des = "以精血喂养宝物30次" needcount = "30"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="DanCountAddPowerUp" fParam1="1" Desc="每服用过一种丹药，威力提高100%。"/> 
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Yuanshenxinjian" Desc="御剑技能提高10"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoPowerAddP" fParam2="0.8" nParam1="1" Desc="从根本上提高自身法宝威力加成80%。"/>
+				 <Ability Kind="MultiKillAddPowerUp" nParam1="60" fParam1="0.1" Desc="每击杀一个生灵威力提高一成，最高60层。如果1日未饮血就会效果清零。"/>
+				 <Ability Kind="LastLingCostPowerUp" nParam1="100000" fParam1="0.1" fParam2="10"  Desc="每消耗100000点灵气，伤害提高10%，最高提高1000%。法宝补充灵气时重置。"/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FeedSelf()</UseLua>
+		
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MiBao_ZG" Parent="MiBaoBase">
+		<ThingName>Humble Bow</ThingName>
+		<TexPath>Spr\Object\WP\ZG.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\ZG.png</FabaoTexPath>	
+		<Desc>The extraordinary treasure formed by the day and night of Zhuofeng Nature Avenue!</Desc>
+		<ElementKind>Tu</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>ZG</li>
+			
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_ParasolWood" count = "49"/>
+				<Item name = "Item_LingCrystalBlock" count = "19"/>
+				<Item name = "Item_StarEssence" count = "9"/>
+				<Item name = "Item_WSXSY" count = "10"/>
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+			<ActiveCondition>
+				<Condition eventid = "Other" des = "吸收28次永夜的气息" needcount = "28" continuity = "0"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoPowerAddP" fParam2="0.5" nParam1="1" Desc="从根本上提高自身法宝威力加成50%。"/>
+				 <Ability Kind="LastLingCostPowerUp" nParam1="10000" fParam1="0.01" fParam2="10"  Desc="每消耗10000点灵气，伤害提高1%，最高提高1000%。法宝补充灵气时重置。"/>
+				  <Ability Kind="FristHitPowerUp" fParam1="9" Desc="第一击威力增加900%，法宝补充灵气重置。"/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveWeather({'PermanentNight'})</UseLua>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MiBao_YG" Parent="MiBaoBase">
+		<ThingName>Moon Palace</ThingName>
+		<TexPath>Spr\Object\WP\YG.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\BHFTJ.png</FabaoTexPath>	
+		<Desc>Hidden with Yao Xi Fairy, the deep things.</Desc>
+		<ElementKind>Shui</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>YG</li>
+		</PhysicalLables>
+		<Fabao>
+			<ActiveCondition>
+				<Condition eventid = "Other" des = "Absorb the breath of 12 nights" needcount = "12"/>
+				 
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="HitAddRecovery" fParam1="0.1"  Desc="10% of the damage done will be replenished by the magic weapon's own aura."/>
+				  <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Wuqileifu" Desc="Increase spell skill by 10"/>
+				  <Ability Kind="HitCountAddDamage" nParam1="8" sParam1="TheWholeBody" sParam2="FivePoison" Desc="Every 8 attacks on the practitioner ’s body, it penetrates the shield and causes additional damage."/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveWeather({'PermanentNight'})</UseLua>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MiBao_DDBP" Parent="MiBaoBase">
+		<ThingName>Avenue Aquarius</ThingName>
+		<TexPath>Spr\Object\WP\DDBP.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\DDBP.png</FabaoTexPath>	
+		<Desc>:If you realize a certain realm of swallowing the magic of heaven, you can choose to cast a treasure jar on the road, which is the carrier of "Tao". In the future, you can gather countless mana and have great power. The avenue treasure jar is simple and natural, and the style is not complicated. It gives people the feeling of simplicity and simplicity. This is like the carrier of the Tao, it can suppress the heavens and the world, and it is mysterious! 。</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>DDBP</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "HUO_WSSH" count = "1"/>
+				<Item name = "Item_LWHJ" count = "1"/>
+				<Item name = "Item_YYSY" count = "299"/>
+				<Item name = "Item_ZYSY" count = "299"/>
+				<Item name = "Item_JTBYB" count = "299"/>
+				<Item name = "Item_YZBYB" count = "299"/>
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		    <ActiveCondition>
+			    <Condition eventid = "Other" des = "以精血喂养宝物30次" needcount = "30"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="FlyDamageAddP" fParam1="0.5" Desc="飞剑每飞行1秒，基础威力就提高50%，返回后清空。"/>
+				 <Ability Kind="HitSameFabaoAndEffect" nParam1="5" nParam2="1" Desc="每攻击同一个法宝5次，可使其失效，持续时间与其品阶有关。"/>
+				 <Ability Kind="MultiKillAddPowerUp" nParam1="60" fParam1="0.5" Desc="每击杀一个生灵威力提高五成，最高60层。如果1日未饮血就会效果清零。"/>
+				 <Ability Kind="LastLingCostPowerUp" nParam1="500000" fParam1="1" fParam2="10"  Desc="每消耗500000点灵气，伤害提高100%，最高提高5000%。法宝补充灵气时重置。"/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FeedSelf()</UseLua>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MiBao_TTMG" Parent="MiBaoBase">
+		<ThingName>Devouring Cap</ThingName>
+		<TexPath>Spr\Object\WP\TTMGAI.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\TTMGAI.png</FabaoTexPath>	
+		<Desc>The upper part of the devouring pot is made by the cruel emperor who sacrifices the fetus and cranium.</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>TTMG</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "HUO_WSSH" count = "1"/>
+				<Item name = "Item_LWHJ" count = "1"/>
+				<Item name = "Item_YYSY" count = "299"/>
+				<Item name = "Item_ZYSY" count = "299"/>
+				<Item name = "Item_JTBYB" count = "299"/>
+				<Item name = "Item_YZBYB" count = "299"/>
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		    <ActiveCondition>
+				<Condition eventid = "KillCount" des = "携带胚胎击杀300个生灵" needcount = "300" />
+			    <Condition eventid = "Other" des = "以精血喂养宝物24次" needcount = "24"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="HitCountAddDamage" nParam1="5" sParam1="TheWholeBody" sParam2="FivePoison" Desc="每5次攻击修行者本体，会穿透护盾造成额外伤害。"/>
+				 <Ability Kind="MultiKillAddPowerUp" nParam1="30" fParam1="0.8" Desc="每击杀一个生灵威力提高八成，最高30层。如果1日未饮血就会效果清零。"/>
+				<Ability Kind="HitCountCostSkill" nParam1="9"  sParam1="TTMG_WHSJ" Desc="每9次攻击会对目标敌人发动一次法术"/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FeedSelf()</UseLua>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MiBao_TTMW" Parent="MiBaoBase">
+		<ThingName>Devourer Bowl</ThingName>
+		<TexPath>Spr\Object\WP\TTMW.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\TTMW.png</FabaoTexPath>	
+		<Desc>The lower part of the devouring pot is made by the cruel emperor's sacrifice and cranium.</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>TTMW</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "HUO_ZH" count = "1"/>
+				<Item name = "Item_XHJC" count = "1"/>
+				<Item name = "Item_JTCYW" count = "299"/>
+				<Item name = "Item_ZYW" count = "299"/>
+				<Item name = "Item_XZ" count = "299"/>
+				<Item name = "Item_ZYSY" count = "299"/>
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		    <ActiveCondition>
+				<Condition eventid = "KillCount" des = "携带胚胎击杀300个生灵" needcount = "300" />
+			    <Condition eventid = "Other" des = "以精血喂养宝物24次" needcount = "24"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			      <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1 = "1" Desc="以破碎为代价，抵挡一次死亡并恢复所有伤害。" />
+				 <Ability Kind="HitAddRecovery" fParam1="0.1"  Desc="造成伤害的10%会补充为法宝自身的灵气。"/>
+				<Ability Kind="HitCountCostSkill" nParam1="9"  sParam1="TTMG_WHSJ" Desc="每9次攻击会对目标敌人发动一次法术"/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FeedSelf()</UseLua>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_MiBao_TTMG1" Parent="MiBaoBase">
+		<ThingName>Devourer</ThingName>
+		<TexPath>Spr\Object\WP\TTMG.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\TTMG.png</FabaoTexPath>	
+		<Desc>Swallowing the magic pot is made by the cruel emperor who sacrifice the magic fetus and make a skull.</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>TTMG1</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "HUO_ZH" count = "3"/>
+				<Item name = "HUO_BH" count = "3"/>
+				<Item name = "HUO_LH" count = "3"/>
+				<Item name = "Item_XHJC" count = "1"/>
+				<Item name = "Item_YHLJ" count = "1"/>
+				<Item name = "Item_XLLJ" count = "1"/>
+				<Item name = "Item_MiBao_TTMW" count = "1"/>
+				<Item name = "Item_MiBao_TTMG" count = "1"/>
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		    <ActiveCondition>
+				<Condition eventid = "KillCount" des = "携带胚胎击杀300个生灵" needcount = "300" />
+			    <Condition eventid = "Other" des = "以精血喂养宝物24次" needcount = "24"/>
+				<Condition eventid = "BrokenNeck" des = "携带宝物度过14次飞升天劫" needcount = "14" lParam = "God2" />
+			</ActiveCondition>
+			<SpecialAbility>
+				<Ability Kind="FlyDamageAddP" fParam1="0.5" Desc="飞剑每飞行1秒，基础威力就提高50%，返回后清空。"/>
+				 <Ability Kind="HitSameFabaoAndEffect" nParam1="5" nParam2="1" Desc="每攻击同一个法宝5次，可使其失效，持续时间与其品阶有关。"/>
+				 <Ability Kind="MultiKillAddPowerUp" nParam1="60" fParam1="0.5" Desc="每击杀一个生灵威力提高五成，最高60层。如果1日未饮血就会效果清零。"/>
+				 <Ability Kind="LastLingCostPowerUp" nParam1="500000" fParam1="1" fParam2="10"  Desc="每消耗500000点灵气，伤害提高100%，最高提高5000%。法宝补充灵气时重置。"/>
+			     <Ability Kind="HitCountAddMirror" nParam1="4" fParam1="9" Desc="每攻击4次，产生1道分化，持续9秒"/>
+				 <Ability Kind="HitAddRecovery" fParam1="0.1"  Desc="造成伤害的10%会补充为法宝自身的灵气。"/>
+				<Ability Kind="HitCountCostSkill" nParam1="9"  sParam1="TTMG_WHSJ" Desc="每9次攻击会对目标敌人发动一次法术"/>
+				<Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1 = "1" Desc="以破碎为代价，抵挡一次死亡并恢复所有伤害。" />
+				 <Ability Kind="HitAddRecovery" fParam1="0.2"  Desc="造成伤害的20%会补充为法宝自身的灵气。"/>
+				<Ability Kind="HitCountCostSkill" nParam1="6"  sParam1="TTMG_WHSJ" Desc="每6次攻击会对目标敌人发动一次法术"/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FeedSelf()</UseLua>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_MiBao_XLGM" Parent="MiBaoBase">
+		<ThingName>Smiley face</ThingName>
+		<TexPath>Spr\Object\WP\GLMJ.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\GLMJ.png</FabaoTexPath>	
+		<Desc>The life of the ruthless emperor is accompanied by controversy, but it is also full of legends. The immortal experience of his life and the actions against the sky are innumerable, leaving only endless memories behind the grimace that seemed to cry and laugh.</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>GLMJ</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "HUO_ZH" count = "3"/>
+				<Item name = "HUO_BH" count = "3"/>
+				<Item name = "HUO_LH" count = "3"/>
+				<Item name = "Item_XHJC" count = "1"/>
+				<Item name = "Item_JTCYW" count = "299"/>
+				<Item name = "Item_ZYW" count = "299"/>
+				<Item name = "Item_XZ" count = "299"/>
+				<Item name = "Item_ZYSY" count = "299"/>
+				<Item name = "Item_YYSY" count = "299"/>
+				<Item name = "Item_ZYSY" count = "299"/>
+				<Item name = "Item_JTBYB" count = "299"/>
+				<Item name = "Item_YZBYB" count = "299"/>
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		    <ActiveCondition>
+			    <Condition eventid = "Other" des = "以精血喂养宝物99次" needcount = "99"/>
+				<Condition eventid = "BrokenNeck" des = "携带宝物度过14次飞升天劫" needcount = "14" lParam = "God2" />
+			</ActiveCondition>
+			<SpecialAbility>
+				<Ability Kind="FlyDamageAddP" fParam1="0.1" Desc="飞剑每飞行1秒，基础威力就提高10%，返回后清空。"/>
+				 <Ability Kind="HitSameFabaoAndEffect" nParam1="12" nParam2="1" Desc="每攻击同一个法宝12次，可使其失效，持续时间与其品阶有关。"/>
+				 <Ability Kind="MultiKillAddPowerUp" nParam1="60" fParam1="0.5" Desc="每击杀一个生灵威力提高五成，最高60层。如果1日未饮血就会效果清零。"/>
+				 
+			     <Ability Kind="HitCountAddMirror" nParam1="4" fParam1="9" Desc="每攻击4次，产生1道分化，持续9秒"/>
+				 
+				<Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1 = "1" Desc="以破碎为代价，抵挡一次死亡并恢复所有伤害。" />
+				 
+				<Ability Kind="HitCountCostSkill" nParam1="6"  sParam1="TTMG_FXJ" Desc="每20次攻击会对目标敌人发动一次法术"/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FeedSelf()</UseLua>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="Item_MiBao_JGZ" Parent="MiBaoBase">
+		<ThingName>King Kong</ThingName>
+		<TexPath>Spr\Object\WP\JGZ.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\JGZ.png</FabaoTexPath>	
+		<Desc>King Kong Zhuo, Tai Shang Laojun, carrying magic weapons when he went out of the Hangu Pass, appeared in Ziwei Emperor in the cover!</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>JGZ</li>
+			
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_YHLJ" count = "49"/>
+				<Item name = "Item_LingCrystalBlock" count = "19"/>
+				<Item name = "Item_StarEssence" count = "9"/>
+				<Item name = "Item_WSXSY" count = "10"/>
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+			<ActiveCondition>
+				<Condition eventid = "Other" des = "吸收14天的北斗星光" needcount = "14" continuity = "0"/>
+			</ActiveCondition>
+			<SpecialAbility>
+					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="1" nParam1="2" Desc="与法宝拼斗时，造成2倍伤害。"/>
+				 <Ability Kind="LastLingCostPowerUp" nParam1="50000" fParam1="0.3" fParam2="10"  Desc="每消耗50000点灵气，伤害提高30%，最高提高3000%。法宝补充灵气时重置。"/>
+				  <Ability Kind="FristHitPowerUp" fParam1="7" Desc="第一击威力增加700%，法宝补充灵气重置。"/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveBeiDou()</UseLua>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MiBao_YYSJ" Parent="MiBaoBase">
+		<ThingName>Yin Yang Holy Sword</ThingName>
+		<TexPath>Spr\Object\WP\YYSJ.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\YYSJ.png</FabaoTexPath>	
+		<Desc>Treasures of Yinyang Church!</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>YYSJ</li>
+			
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_LWHJ" count = "49"/>
+				<Item name = "Item_DJHJ" count = "49"/>
+				<Item name = "Item_StarEssence" count = "9"/>
+				<Item name = "Item_WSXSY" count = "10"/>
+				
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+			<ActiveCondition>
+				<Condition eventid = "Other" des = "Absorption of burning weather 9 times" needcount = "9"/>
+				<Condition eventid = "SoulCrystalLing" des = "9 times for the embryo" needcount = "9" fParam = "1"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			      <Ability Kind="AtkRateDamageAddp" fParam1="0.1" fParam2="9" nParam1="0" Desc="When you cause damage, there is a 10% chance of causing 10 times damage."/>
+				 <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.3" nParam1="1" nParam2="1" Desc="An additional 30% additional damage to the target's current reiki is caused when attacking the enemy onthisis."/>
+				 <Ability Kind="MultiKillAddPowerUp" nParam1="36" fParam1="0.3" Desc="Each killing of a living life increases the power of 30%, up to 36 layers. If you do not drink blood on the 1st day will be zero effect."/>
+				 <Ability Kind="FunctionEffectPower" nParam1="-1" fParam1="0.1" nParam2="1" Desc="For every 1% lower health value, the power of the magic weapon increased by 10%."/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoPowerAddP" fParam2="0.6" nParam1="1" Desc="Fundamentally improve the power of their own magic weapon plus 60%。"/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveWeather({'FohnNoFeng','Fohn'})</UseLua>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	<Ling>
+		<Attenuation>1</Attenuation>
+		<Absorption>1</Absorption>
+		<Accommodate>10000000</Accommodate>
+	</Ling>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MiBao_HYYYH" Parent="MiBaoBase">
+		<ThingName>Mixed yuan without rhyme ring</ThingName>
+		<TexPath>Spr\Object\WP\HYYYH.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\HYYYH.png</FabaoTexPath>	
+		<Desc>Yuan Tianshu once recorded one of the six hexagons that made up Fengxian Liuban.</Desc>
+		<ElementKind>None</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>HYYYH</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_WSXY" count = "18"/>
+				<Item name = "Item_WSXSY" count = "9"/>
+				<Item name = "Item_DLYJ" count = "99"/>
+				<Item name = "Item_WSXXY" count = "3"/>
+
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+			<ActiveCondition>
+				<Condition eventid = "SoulCrystalLing" des = "对胚胎灵粹9次" needcount = "9" fParam = "1"/>
+				<Condition eventid = "KillCount" des = "携带胚胎击杀12名元神生灵" needcount = "12" lParam = "God"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="HitSameFabaoAndEffect" nParam1="9" nParam2="1" Desc="每攻击同一个法宝9次，可使其失效，持续时间与其品阶有关。"/>
+				<Ability Kind="HitCountAddDamage" nParam1="10" sParam1="TheWholeBody" sParam2="FivePoison" Desc="每10次攻击修行者本体，会穿透护盾造成额外伤害。"/>
+			</SpecialAbility>
+		</Fabao>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	<Ling>
+		<Attenuation>1</Attenuation>
+		<Absorption>1</Absorption>
+		<Accommodate>10000000</Accommodate>
+	</Ling>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_MiBao_TJZJT" Parent="MiBaoBase">
+		<ThingName>Tianjin Town Boundary Tower</ThingName>
+		<TexPath>Spr\Object\WP\TJZJT.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\TJZJT.png</FabaoTexPath>	
+		<Desc>Yuan Tianshu once recorded one of the six hexagons that made up Fengxian Liuban.</Desc>
+		<ElementKind>Jin</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>TJZJT</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_JSXY" count = "18"/>
+				<Item name = "Item_JSXSY" count = "9"/>
+				<Item name = "Item_JTBYB" count = "99"/>
+				<Item name = "Item_JSXXY" count = "3"/>
+
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+			<ActiveCondition>
+				<Condition eventid = "SoulCrystalYou" des = "将宝物成功幽粹11次。" needcount = "11" fParam = "1" />
+				 <Condition eventid = "BrokenNeck" des = "携带宝物度过7次飞升天劫" needcount = "7" lParam = "God2" />
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="HitCountAddMirror" nParam1="5" fParam1="7" Desc="每攻击5次，产生1道分化，持续7秒"/>
+				<Ability Kind="AtkRateDamageAddp" fParam1="0.1" fParam2="7" nParam1="0" Desc="造成伤害时，有10%的几率造成8倍伤害。"/>
+			</SpecialAbility>
+		</Fabao>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_MiBao_QTBYS" Parent="MiBaoBase">
+		<ThingName>Blue lotus leaf fan</ThingName>
+		<TexPath>Spr\Object\WP\QTBYS.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\QTBYS.png</FabaoTexPath>	
+		<Desc>Yuan Tianshu once recorded one of the six hexagons that made up Fengxian Liuban.</Desc>
+		<ElementKind>Mu</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>QTBYS</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_MSXY" count = "18"/>
+				<Item name = "Item_MSXSY" count = "9"/>
+				<Item name = "Item_JTBLSY" count = "99"/>
+				<Item name = "Item_MSXXY" count = "3"/>
+
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+			<ActiveCondition>
+				<Condition eventid = "SoulCrystalYou" des = "将宝物成功幽粹11次。" needcount = "11" fParam = "1" />
+				 <Condition eventid = "BrokenNeck" des = "携带宝物度过7次飞升天劫" needcount = "7" lParam = "God2" />
+			</ActiveCondition>
+			<SpecialAbility>
+			    <Ability Kind="AtkRateDamageAddp" fParam1="2.5" fParam2="0.2" nParam1="1" nParam2="1" Desc="攻击敌方本体时有25%几率额外造成目标当前灵气20%的附加伤害。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoFlySpeedAddP" fParam2="0.6" nParam1="1" Desc="从根本上提高自身法宝飞行速度60%。"/>
+			</SpecialAbility>
+		</Fabao>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_MiBao_HLY" Parent="MiBaoBase">
+		<ThingName>Han Lanyue</ThingName>
+		<TexPath>Spr\Object\WP\HLY.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\HLY.png</FabaoTexPath>	
+		<Desc>Yuan Tianshu once recorded one of the six hexagons that made up Fengxian Liuban.</Desc>
+		<ElementKind>Shui</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>HLY</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_SSXY" count = "18"/>
+				<Item name = "Item_SSXSY" count = "9"/>
+				<Item name = "Item_YYSY" count = "99"/>
+				<Item name = "Item_SSXXY" count = "3"/>
+
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+			<ActiveCondition>
+				<Condition eventid = "Other" des = "吸收12次永夜的气息" needcount = "12"/>
+				<Condition eventid = "RefiningDan" des = "携带胚胎炼制36炉丹药" needcount = "36" fParam = "1"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="HitCountAddMirror" nParam1="6" nParam2="16" fParam1="5" Desc="每攻击6次，产生16道蚊须分形，持续5秒。"/>
+				 <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.5" nParam1="2" Desc="与法宝拼斗时，造成1.5倍伤害。"/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveWeather({'PermanentNight'})</UseLua>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_MiBao_BHFTJ" Parent="MiBaoBase">
+		<ThingName>Eight Wastes Burning Sky Sword</ThingName>
+		<TexPath>Spr\Object\WP\BHFTJ.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\BHFTJ.png</FabaoTexPath>	
+		<Desc>Yuan Tianshu once recorded one of the six hexagons that made up Fengxian Liuban.</Desc>
+		<ElementKind>Huo</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>BHFTJ</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_HSXY" count = "18"/>
+				<Item name = "Item_HSXSY" count = "9"/>
+				<Item name = "Item_JTCYW" count = "99"/>
+				<Item name = "Item_HSXXY" count = "3"/>
+
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+			<ActiveCondition>
+				<Condition eventid = "Other" des = "吸收12次永夜的气息" needcount = "12"/>
+				 <Condition eventid = "SoulCrystal" des = "在正午或者午夜幽粹成功且持续9天" needday = "9" fParam = "1" continuity = "1" tParam = "0,1"  tParam2 = "11,13" tParam3 = "23,24"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="HitAddRecovery" fParam1="0.1"  Desc="造成伤害的10%会补充为法宝自身的灵气。"/>
+				  <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Wuqileifu" Desc="术法技能提高10"/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveWeather({'PermanentNight'})</UseLua>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_MiBao_YJXMC" Parent="MiBaoBase">
+		<ThingName>Silver Spirit Drop Magic Pestle</ThingName>
+		<TexPath>Spr\Object\WP\YJXMC.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\YJXMC.png</FabaoTexPath>	
+		<Desc>Yuan Tianshu once recorded one of the six hexagons that made up Fengxian Liuban.</Desc>
+		<ElementKind>Tu</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>YJXMC</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_TSXY" count = "18"/>
+				<Item name = "Item_TSXSY" count = "9"/>
+				<Item name = "Item_ST" count = "99"/>
+				<Item name = "Item_TSXXY" count = "3"/>
+
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+			<ActiveCondition>
+				 <Condition eventid = "SoulCrystalLing" des = "尝试灵粹宝物25次" needcount = "25" />
+				 <Condition eventid = "Other" des = "以精血喂养宝物18次" needcount = "18"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			    <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1 = "1" Desc="以破碎为代价，抵挡一次死亡并恢复所有伤害。" />
+				 <Ability Kind="CantAttack" Desc="环绕周身不会主动进攻，专注防御。"/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FeedSelf()</UseLua>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	<Ling>
+		<Attenuation>1</Attenuation>
+		<Absorption>1</Absorption>
+		<Accommodate>10000000</Accommodate>
+	</Ling>
+	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_MiBao_ZHYX" Parent="MiBaoBase">
+		<ThingName>Soul Chasing Jade</ThingName>
+		<TexPath>Spr\Object\WP\ZHYX.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\ZHYX.png</FabaoTexPath>	
+		<Desc>Ancient saint, King Yuxiao once used weapons to seduce souls and seize souls.</Desc>
+		<ElementKind>Mu</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>ZHYX</li>
+		</PhysicalLables>
+		
+		<Fabao>
+			
+			<SpecialAbility>
+				<Ability Kind="HitCountAddMirror" nParam1="4" nParam2="16" fParam1="5" Desc="Every 4 attacks, 16 mosquito fractals are generated for 5 seconds."/>
+				 <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.5" nParam1="2" Desc="Deal 1.5 times damage when fighting with magic weapon."/>
+				<Ability Kind="HitAddRecovery" fParam1="0.6"  Desc="60% of the damage will be replenished to the magic weapon's own aura."/>
+			    <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1 = "1" Desc="Resist the death and recover all damage at the cost of breaking." />
+				 <Ability Kind="CantAttack" Desc="Around the whole body will not actively attack, focus on defense."/>
+			</SpecialAbility>
+		</Fabao>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_MiBao_TXF" Parent="MiBaoBase">
+		<ThingName>Tian Xuan</ThingName>
+		<TexPath>Spr\Object\WP\TXF.png</TexPath>
+		<FabaoTexPath>Spr\Object\WP\TXF.png</FabaoTexPath>	
+		<Desc>Tianxuan Holy Land was once one of the battlefields guarding the mountain gate.</Desc>
+		<ElementKind>Tu</ElementKind>
+		<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>TXF</li>
+			
+			
+		</PhysicalLables>
+		
+		<Fabao>
+			
+			<SpecialAbility>
+				<Ability Kind="LastLingCostPowerUp" nParam1="10000" fParam1="0.2" fParam2="20"  Desc="For every 10,000 reikis consumed, damage is increased by 20% and up to 2000%. The weapon resets when replenishing reiki."/>
+				 <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="1.5" nParam1="2" Desc="When fighting with Fabao, cause 2.5 times damage."/>
+			    <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1 = "1" Desc="At the expense of fragmentation, resist one death and recover all injuries." />
+				<Ability Kind="HitSameFabaoAndEffect" nParam1="1" nParam2="3" Desc="Each attack on the same magic weapon 3 times, can make it ineffective, the duration is related to its order."/>	 
+			</SpecialAbility>
+		</Fabao>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="Item_FXLJZhenTu" Parent="MiBaoBase">
+	<ThingName>Fengxian Six ban map</ThingName>
+	<TexPath>Spr\Object\WP\FXLJ.png</TexPath>	
+	<Desc>In Yuan Tianshu, the strongest banned technique can be attacked and retreated.</Desc>
+	<Rate>12</Rate>
+	<Beauty>12</Beauty>
+	<ElementKind>None</ElementKind>
+	<Item Kind="Equipment">
+	<BeMade>
+			<CostItems>
+		
+				<Item name = "Item_WSXSY" count = "18"/>
+				<Item name = "Item_JSXSY" count = "18"/>
+				<Item name = "Item_MSXSY" count = "18"/>
+				<Item name = "Item_SSXSY" count = "18"/>
+				<Item name = "Item_HSXSY" count = "18"/>
+				<Item name = "Item_TSXSY" count = "18"/>
+
+			</CostItems>
+		</BeMade> 
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	<StoryBnts>
+			<li Name="Understanding" Desc="Trying to get into the array." Appoint="2" Story="Story_Item_FXLJZhenTu" Cost="5" Icon="Spr\Object\WP\FXLJ.png"/>
+	</StoryBnts>
+	</ThingDef>
+	
+</List></ThingDefs>

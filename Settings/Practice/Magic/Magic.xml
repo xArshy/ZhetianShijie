@@ -1,0 +1,360 @@
+<Magics><List>
+	
+	<Magic Name="ZT_JZM_X" Type="Class">
+		<DisplayName>Travel this world</DisplayName>
+		<Desc>Make Zhenxian gain experience.</Desc>
+		<Icon>Spr\Object\JN\ZT_MJ\ZT_JZM_X.png</Icon>
+		<Kind>None</Kind>
+		<CostAge>200</CostAge>
+		<Param1>1</Param1>
+		<CostLing>0</CostLing>
+		<Penalty>25</Penalty>
+		<SelectMode>None</SelectMode>
+		<ClassName>ZT_JZM_X</ClassName>
+	</Magic>
+	<Magic Name="ZT_JZM_XG" Type="Class">
+		<DisplayName> Read this</DisplayName>
+		<Desc>Make true fairy return to normal state.</Desc>
+		<Icon>Spr\Object\JN\ZT_MJ\ZT_JZM_X.png</Icon>
+		<Kind>None</Kind>
+		<CostAge>50</CostAge>
+		<Param1>1</Param1>
+		<CostLing>0</CostLing>
+		<Penalty>15</Penalty>
+		<SelectMode>None</SelectMode>
+		<ClassName>ZT_JZM_XG</ClassName>
+	</Magic>
+	<Magic Name="YCSS" Type="Class">
+		<DisplayName>Yaochi Holy Art</DisplayName>
+		<Desc>People who have died or died can be resurrected.</Desc>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\YCSS.png</Icon>
+		<Kind>None</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>15</Param1>
+		<CostLing>30000</CostLing>
+		<CostAge>900</CostAge>
+		<Penalty>15</Penalty>
+		<SelectMode>Single</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<ClassName>Magic_GodResurrectionA</ClassName>
+		<SelectTarget>Npc</SelectTarget>
+		<TargetDesc>请选择一名已死亡的角色。</TargetDesc>
+	</Magic>
+
+	
+	<Magic Name="SQDD">
+		<DisplayName>Three Thousand Avenue</DisplayName>
+		<Desc>Three thousand avenues, Tao Dao conception, Tao Dao Xianxian Road. 20 times faster practice</Desc>
+		<Icon>Spr\Object\JN\ZT_WSJ\SQDD.png</Icon>
+		<Param1>20</Param1><!--修炼速度加成-->
+		<Param2>0.5</Param2><!--寿命消耗/秒-->
+		<Param3>4</Param3><!--精元消耗倍率-->
+		<CostLing>0</CostLing>
+		<CostAge>0</CostAge>
+		<Penalty>0</Penalty>
+		<ScoreBase>0</ScoreBase>
+		<ScoreGood>0</ScoreGood>
+		<ScoreBad>0</ScoreBad>
+		<CMD>ClosedDoor</CMD>
+		<SelectType>CloseDoor</SelectType>
+	</Magic>
+	
+	<Magic Name="LXDD">
+		<DisplayName>Longhang Avenue</DisplayName>
+		<Desc>Know the dragon with the gods and enter the void.</Desc>
+		<Icon>Spr\Object\JN\ZT_THJ\HCCC.png</Icon>
+		<Param1>14</Param1><!--修炼速度加成-->
+		<Param2>0.8</Param2><!--寿命消耗/秒-->
+		<Param3>4</Param3><!--精元消耗倍率-->
+		<CostLing>0</CostLing>
+		<CostAge>0</CostAge>
+		<Penalty>0</Penalty>
+		<ScoreBase>0</ScoreBase>
+		<ScoreGood>0</ScoreGood>
+		<ScoreBad>0</ScoreBad>
+		<CMD>ClosedDoor</CMD>
+		<SelectType>CloseDoor</SelectType>
+	</Magic>
+	
+	
+	<Magic Name="ZT_DDZJ">
+		<DisplayName>Space roam</DisplayName>
+		<Desc>According to the Void Sutra, the magical method of combining with the void, the consciousness and the migration of space, can increase the speed of practice by 12 times.</Desc>
+		<Icon>Spr\Object\JN\ZT_XKJ\DDZJ.png</Icon>
+		<Param1>12</Param1><!--修炼速度加成-->
+		<Param2>0.75</Param2><!--寿命消耗/秒-->
+		<Param3>4</Param3><!--精元消耗倍率-->
+		<CostLing>0</CostLing>
+		<CostAge>0</CostAge>
+		<Penalty>0</Penalty>
+		<ScoreBase>0</ScoreBase>
+		<ScoreGood>0</ScoreGood>
+		<ScoreBad>0</ScoreBad>
+		<CMD>ClosedDoor</CMD>
+		<SelectType>CloseDoor</SelectType>
+	</Magic>
+	<Magic Name="KHBT">
+		<DisplayName>Bitter sea waves</DisplayName>
+		<Desc>Go to the designated place to absorb the aura in the environment (50x speed)</Desc>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\KHBT.png</Icon>
+		<CostLing>0</CostLing>
+		<CostAge>0</CostAge>
+		<Param1>50</Param1><!--提高吸灵速度N倍-->
+		<CMD>AbsorbLing</CMD>
+		<SelectType>AbsorbLing</SelectType>
+	</Magic>
+	
+	<Magic Name="LHXK">
+		<DisplayName>Refining Nether</DisplayName>
+		<Desc>Unleash the living creatures, consume the target's life, and replenish their aura.</Desc>
+		<Icon>Spr\Object\JN\ZT_HYJ\LHXK.png</Icon>
+		<Param1>0.001</Param1><!--天谴值/秒-->
+		<CostLing>5000</CostLing>
+		<CostAge>0</CostAge>
+		<ScoreBad>0</ScoreBad>
+		<CMD>AbsorbLing_Live</CMD>
+		<SelectType>AbsorbLing_Live</SelectType>
+	</Magic>
+	<Magic Name="ZT_KJHJ">
+		<DisplayName>Spatialization</DisplayName>
+		<Desc>Use the power of space to refine a corpse, refine its flesh and blood, and replenish your aura.</Desc>
+		<Icon>Spr\Object\JN\ZT_XKJ\WW.png</Icon>
+		<Param1>1</Param1><!--施法时间-->
+		<CostAge>-150</CostAge>
+		<Penalty>5</Penalty>
+		<CMD>AbsorbLing_Body</CMD>
+		<SelectType>AbsorbLing_Body</SelectType>
+	</Magic>
+	
+	<Magic Name="DH">
+		<DisplayName>Taste the herbs</DisplayName>
+		<Desc>Release the aura from the buildings, plants, and minerals in the scene. The more target auras, the higher the upper limit of your own aura, and the faster the absorption speed.</Desc>
+		<Icon>Spr\Object\JN\ZT_HYJ\DH.png</Icon>
+		<CostAge>0</CostAge>
+		<ScoreBase>500</ScoreBase>
+		<ScoreGood>500</ScoreGood>
+		<CMD>AbsorbLing_Thing</CMD>
+		<SelectType>AbsorbLing_Thing</SelectType>
+	</Magic>
+	<Magic Name="QYLT">
+		<DisplayName>Qi Yun Dragon Body</DisplayName>
+		<Desc>Release the aura from the buildings, plants, and minerals in the scene. The more target auras, the higher the upper limit of your own aura, and the faster the absorption speed.</Desc>
+		<Icon>Spr\Object\JN\ZT_THJ\QYLT.png</Icon>
+		<CMD>AbsorbLing_Thing</CMD>
+		<SelectType>AbsorbLing_Thing</SelectType>
+	</Magic>
+
+	<Magic Name="SNZZ">
+		<DisplayName>Shennong Secret</DisplayName>
+		<Desc>Regenerate a limb,Recast everything he lost. Decrease ten days of condemnation per use and consume fifty years of life</Desc>
+		<Icon>Spr\Object\JN\ZT_HYJ\DH1.png</Icon>
+		<Kind>Good</Kind>
+		<TargetMood>BuildBody</TargetMood>
+		<CastFavour>ThankTreat</CastFavour>
+		<Param1>30</Param1><!--施法时间-->
+		<CostLing>15000</CostLing>
+		<CostAge>50</CostAge>
+		<Penalty>-30</Penalty>
+		<CMD>BuildBody</CMD>
+		<SelectType>Npc</SelectType>
+	</Magic>
+
+	<Magic Name="ZT_QXHX">
+		<DisplayName>Qi deficiency repair</DisplayName>
+		<Desc>Capture a soul without cultivation as a living creature, refine it to increase your cultivation, and gain insight at the same time. The higher the target perception, the stronger the effect. .</Desc>
+		<Icon>Spr\Object\JN\ZT_XKJ\QXHY.png</Icon>
+		<Ani>shentong6</Ani>
+		<Param1>6</Param1><!--施法时间-->
+		<Param2>1</Param2><!--修为 目标悟性 *  0.3%  * 当前境界所需修为-->
+		<Param3>10000</Param3><!--参悟获取 悟性*X-->
+		<CostLing>25000</CostLing>
+		<Penalty>2</Penalty>
+		<CMD>AbsorbGong_3</CMD>
+		<SelectType>NormalNpc</SelectType>
+	</Magic>
+
+	<Magic Name="HYAbsorbGong_6">
+		<DisplayName>Vines</DisplayName>
+		<Desc>Apply a spell to a similar species, parasitize a ray of the gods on it, and transform the base value of the parasitic object into its own equivalent cultivation and enlightenment at 0 o'clock every day.\nFor each unit that parasitizes, it will damage the mind by distracting the soul, and the target will be weakened by being parasitized. Release the target once it has been released, and you can take back the magic power.</Desc>
+		<Icon>Spr\Object\JN\ZT_HYJ\CCXG.png</Icon>
+		<Ani>shentong2</Ani>
+		<Param1>10.2</Param1><!--施法时间-->
+		<CostLing>0</CostLing>
+	<!--	<CheckFlag>FLAG_AbsorbGong_6</CheckFlag>-->
+		<CMD>AbsorbGong_6</CMD>
+		<SelectType>Npc</SelectType>
+	</Magic>
+	
+	<Magic Name="WGCC">
+		<DisplayName>Forever</DisplayName>
+		<Desc>The pure vitality aura stimulates all the vitality of the plant, which can greatly increase its growth rate in a day. The higher the target plant grade, the worse the effect.</Desc>
+		<Icon>Spr\Object\JN\ZT_WSJ\WGCC.png</Icon>
+		<Kind>Good</Kind>
+		<Ani>shentong3</Ani>
+		<Param1>0.1</Param1><!--施法时间-->
+		<Param2>1500</Param2><!--生长倍速-->
+		<Param3>3000</Param3><!--作用时长-->
+		<CostLing>150000</CostLing>
+		<CMD>PlantGrowUp</CMD>
+		<SelectType>Plant</SelectType>
+	</Magic>
+	
+	<Magic Name="TSTL_W" Type="Class">
+		<DisplayName>Tianyuan Forging</DisplayName>
+		<Desc>A secret technique using Xianyuan recorded in Yuantianshu consumes Xianyuan to integrate with the practitioner to increase the shield value and shield strength of the practitioner. (Decrease the caster's corresponding attributes)</Desc>
+		<Icon>Spr\Object\JN\ZT_MJ\YTSW.png</Icon>
+		<Kind>VeryBad</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>60</Param1>
+		<Penalty>1</Penalty>
+		<CostLing>50000</CostLing>
+		<CostAge>800</CostAge>
+		<SelectMode>Single</SelectMode>
+		<SelectTarget>Npc</SelectTarget>
+		<ClassName>YTS_TYDW</ClassName>
+		<TargetDesc>Please choose a practitioner.</TargetDesc>
+		<ItemCost>
+			<li name="Item_WSXXY" count="1"/>
+		</ItemCost>
+	</Magic>
+	
+	<Magic Name="TSTL_J" Type="Class">
+		<DisplayName>Tianyuan Forging</DisplayName>
+		<Desc>A secret technique using Xianyuan recorded in Yuantianshu consumes Xianyuan to integrate into the practitioner to increase the spiritual rebirth and magic power of the practitioner. (Decrease the caster's corresponding attributes)</Desc>
+		<Icon>Spr\Object\JN\ZT_MJ\YTSJ.png</Icon>
+		<Kind>VeryBad</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>60</Param1>
+		<Penalty>1</Penalty>
+		<CostLing>500000</CostLing>
+		<CostAge>800</CostAge>
+		<SelectMode>Single</SelectMode>
+		<SelectTarget>Npc</SelectTarget>
+		<ClassName>YTS_TYDJ</ClassName>
+		<TargetDesc>Please choose a practitioner.</TargetDesc>
+		<ItemCost>
+			<li name="Item_JSXXY" count="1"/>
+		</ItemCost>
+	</Magic>
+	
+	<Magic Name="TSTL_S" Type="Class">
+		<DisplayName>Tianyuan forging water</DisplayName>
+		<Desc>A secret technique using Xianyuan recorded in Yuantianshu, which consumes Xianyuan to integrate into the practitioner to improve the individual's spiritual return and cultivation (reducing the corresponding attributes of the practitioner).</Desc>
+		<Icon>Spr\Object\JN\ZT_MJ\YTSS.png</Icon>
+		<Kind>VeryBad</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>60</Param1>
+		<Penalty>1</Penalty>
+		<CostLing>500000</CostLing>
+		<CostAge>800</CostAge>
+		<SelectMode>Single</SelectMode>
+		<SelectTarget>Npc</SelectTarget>
+		<ClassName>YTS_TYDS</ClassName>
+		<TargetDesc>Please choose a practitioner.</TargetDesc>
+		<ItemCost>
+			<li name="Item_SSXXY" count="1"/>
+		</ItemCost>
+	</Magic>
+	
+	<Magic Name="TSTL_M" Type="Class">
+		<DisplayName>Tianyuan forging wood</DisplayName>
+		<Desc>A secret technique using Xianyuan recorded in Yuantianshu consumes Xianyuan to integrate into the practitioner to increase the practitioner's life and magic power limit. (Decrease the caster's corresponding attributes)</Desc>
+		<Icon>Spr\Object\JN\ZT_MJ\YTSM.png</Icon>
+		<Kind>VeryBad</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>60</Param1>
+		<Penalty>1</Penalty>
+		<CostLing>500000</CostLing>
+		<CostAge>800</CostAge>
+		<SelectMode>Single</SelectMode>
+		<SelectTarget>Npc</SelectTarget>
+		<ClassName>YTS_TYDM</ClassName>
+		<TargetDesc>请选择一名修行者。</TargetDesc>
+		<ItemCost>
+			<li name="Item_MSXXY" count="1"/>
+		</ItemCost>
+	</Magic>
+	
+	<Magic Name="TSTL_H" Type="Class">
+		<DisplayName>Tianyuan Blacksmithing</DisplayName>
+		<Desc>A secret technique using Xianyuan recorded in Yuantianshu consumes Xianyuan to integrate into the practitioner to increase its power and reduce its consumption. (Decrease the caster's corresponding attributes)</Desc>
+		<Icon>Spr\Object\JN\ZT_MJ\YTSH.png</Icon>
+		<Kind>VeryBad</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>60</Param1>
+		<Penalty>1</Penalty>
+		<CostLing>500000</CostLing>
+		<CostAge>800</CostAge>
+		<SelectMode>Single</SelectMode>
+		<SelectTarget>Npc</SelectTarget>
+		<ClassName>YTS_TYDH</ClassName>
+		<TargetDesc>请选择一名修行者。</TargetDesc>
+		<ItemCost>
+			<li name="Item_HSXXY" count="1"/>
+		</ItemCost>
+	</Magic>
+	
+	<Magic Name="TSTL_T" Type="Class">
+		<DisplayName>Tianyuan forging soil</DisplayName>
+		<Desc>A secret technique using Xianyuan recorded in Yuantianshu consumes Xianyuan into the body of the practitioner to increase the practitioner's furnace ceiling and Jindan value. (Decrease the caster's corresponding attributes)</Desc>
+		<Icon>Spr\Object\JN\ZT_MJ\YTST.png</Icon>
+		<Kind>VeryBad</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>60</Param1>
+		<Penalty>1</Penalty>
+		<CostLing>500000</CostLing>
+		<CostAge>800</CostAge>
+		<SelectMode>Single</SelectMode>
+		<SelectTarget>Npc</SelectTarget>
+		<ClassName>YTS_TYDT</ClassName>
+		<TargetDesc>Please choose a practitioner.</TargetDesc>
+		<ItemCost>
+			<li name="Item_TSXXY" count="1"/>
+		</ItemCost>
+	</Magic>
+	
+	<Magic Name="TYS_LY" Type="Class">
+		<DisplayName>Gather together</DisplayName>
+		<Desc>Consumption of 10,000 spirit power and a source stone, a source of five hundred years of life will make a source, and the caster will increase a large amount of condemnation.</Desc>
+		<Icon>Spr\Object\JN\ZT_MJ\Y.png</Icon>
+		<Kind>None</Kind>
+		<Param1>5</Param1>
+		<CostLing>10000</CostLing>
+		<Penalty>10</Penalty>
+		<SelectMode>None</SelectMode>
+		<ClassName>YTS_LY</ClassName>
+		<ItemCost>
+			<li name="Item_YS1" count="1"/>
+		</ItemCost>
+	</Magic>
+	
+	<Magic Name="YTS_LSY" Type="Class">
+		<DisplayName>Divine Source</DisplayName>
+		<Desc>Consumption of 100,000 auras and a source stone, the maximum limit of one thousand and five years of life to make a god source, while increasing the amount of condemnation of the caster.</Desc>
+		<Icon>Spr\Object\JN\ZT_MJ\SY.png</Icon>
+		<Kind>None</Kind>
+		<Param1>5</Param1>
+		<CostLing>100000</CostLing>
+		<Penalty>25</Penalty>
+		<SelectMode>None</SelectMode>
+		<ClassName>YTS_LSY</ClassName>
+		<ItemCost>
+			<li name="Item_YS1" count="5"/>
+		</ItemCost>
+	</Magic>
+	<Magic Name="YTS_LXY" Type="Class">
+		<DisplayName>Celestial Origin</DisplayName>
+		<Desc>Consumes tens of millions of spiritual power and a source stone. The maximum life span is 3,000 yuan to make an immortal source, and at the same time increases the amount of condemnation of the caster.</Desc>
+		<Icon>Spr\Object\JN\ZT_MJ\XY.png</Icon>
+		<Kind>None</Kind>
+		<Param1>5</Param1>
+		<CostLing>10000000</CostLing>
+		<Penalty>50</Penalty>
+		<SelectMode>None</SelectMode>
+		<ClassName>YTS_LXY</ClassName>
+		<ItemCost>
+			<li name="Item_YS1" count="10"/>
+		</ItemCost>
+	</Magic>
+	
+</List></Magics>

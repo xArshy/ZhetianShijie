@@ -1,0 +1,28 @@
+<Defs><List>
+	<Def Name="Build_TJZ">
+		<Base>1</Base>
+		<BuildCondition>
+			<Symbols>
+				<li>Recuit</li>
+			</Symbols>
+		</BuildCondition>
+		
+		<DisplayName>太极阵</DisplayName>
+		<BuildType>Point</BuildType>
+		<BuildDay>1</BuildDay>
+		
+		<Icon>Spr\outspread\WSJT\TJZ.png</Icon>
+		<Desc>太极阵，用五色神石修复五色祭坛后，可召唤九龙拉棺，造收异世界的弟子。</Desc>
+		
+		<UnlockSkill>
+			<li>zhaolanwsst</li>
+		</UnlockSkill>
+		
+		<Cost>
+			<Influence>0</Influence>
+			<Mats>
+				<li ItemName="Item_WSSS" Count="50"/>
+			</Mats>
+		</Cost>
+	</Def>
+</List></Defs>

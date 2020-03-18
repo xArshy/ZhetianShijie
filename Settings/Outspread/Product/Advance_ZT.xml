@@ -1,0 +1,16 @@
+<Defs><List>
+	
+	<Def Name="ws1">
+		<li>Item_YS1</li>
+	</Def>
+	<Def Name="ws2">
+		<li>Item_LingStone</li>
+	</Def>
+	
+	<Def Name="ws3">
+		<li>Item_WSSS</li>
+	</Def>
+	<Def Name="ZJC1">
+		<li>Item_ZRH</li>
+	</Def>
+</List></Defs>

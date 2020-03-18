@@ -1,0 +1,83 @@
+<Defs><List>
+	<Def Name="WSST" Parent="HeYin">
+		<DisplayName>五色祭坛</DisplayName>
+		<Desc>此地为五色祭坛，可派出弟子发掘其中的物资。</Desc>
+		<Landform>
+			<li>Forest</li>
+		</Landform>
+		<FirstHall>MainHall1</FirstHall>
+		<Point>
+			<li Point="Point_Discipline"/>
+			<li Point="Point_Secret"/>
+			<li Point="Point_Sermon"/>
+			<li Point="Point_Recuit"/>
+		</Point>
+		<Type>City</Type>
+		<ClickPlace>Place_WSST</ClickPlace>
+		
+		<BasicProduct>
+			<li Type="Hall1" Product="Hall" Count="10" />
+			<li Type="Hall2" Product="Hall" Count="15" />
+			<li Type="Hall3" Product="Hall" Count="20" />
+		</BasicProduct>
+		
+		<Population>450000</Population>
+		<Stability>45</Stability>
+		
+		
+	</Def>
+	<Def Name="YZZ" Parent="HeYin">
+		<DisplayName>云泽州</DisplayName>
+		<Desc>青蛟王的秘密洞府，同时也是附近的大洲，以湖泽为多，但同样适合人居住。</Desc>
+		<Landform>
+			<li>Aqua</li>
+		</Landform>
+		<FirstHall>MainHall1</FirstHall>
+		<Point>
+			<li Point="Point_Discipline"/>
+			<li Point="Point_Secret"/>
+			<li Point="Point_Sermon"/>
+			<li Point="Point_Recuit"/>
+		</Point>
+		<Type>City</Type>
+		<ClickPlace>Place_YZZ</ClickPlace>
+		
+		<BasicProduct>
+			<li Type="Hall1" Product="Hall" Count="10" />
+			<li Type="Hall2" Product="Hall" Count="15" />
+			<li Type="YZZ" Product="ws2" Count="200" />
+		</BasicProduct>
+		
+		<Population>950000</Population>
+		<Stability>45</Stability>
+		
+		
+	</Def>
+	<Def Name="ZJC" Parent="HeYin">
+		<DisplayName>张家村</DisplayName>
+		<Desc>北域源天师一脉的后人，地处北域，因而矿脉居多。</Desc>
+		<Landform>
+			<li>Mountain</li>
+		</Landform>
+		<FirstHall>MainHall1</FirstHall>
+		<Point>
+			<li Point="Point_Discipline"/>
+			<li Point="Point_Secret"/>
+			<li Point="Point_Sermon"/>
+			<li Point="Point_Recuit"/>
+		</Point>
+		<Type>City</Type>
+		<ClickPlace>Place_ZJC</ClickPlace>
+		
+		<BasicProduct>
+			<li Type="Hall1" Product="Hall" Count="10" />
+			<li Type="ZJC1" Product="ZJC1" Count="5" />
+			<li Type="ZJC" Product="ws1" Count="200" />
+		</BasicProduct>
+		
+		<Population>650000</Population>
+		<Stability>45</Stability>
+		
+		
+	</Def>
+</List></Defs>

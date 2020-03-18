@@ -1,0 +1,3907 @@
+<Stories><List>
+	
+	<Story Name="JLBD"  Parent="BaseFillingStory">
+		<DisplayName>Holy city</DisplayName>
+		<Desc>The oasis where the holy city is located and its vastness can reach tens of thousands of miles, and there are many towns. Compared to other states, the holy city is the most peaceful.</Desc>
+		<Selections>
+			<li>
+				<Display>Gambling House</Display> 
+				<OKResult>
+				<![CDATA[
+				world:PlayBGM("Spr/Music/BGM/DSF.OGG",false);
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+				if me:GetProperty("MaxAge") >= 2000 and nY > 0 then
+					me:TriggerStory("DSF");
+				else
+					me:AddMsg("[NAME]I do n’t have enough money for my ticket. .");
+					me:TriggerStory("JLBD");
+				end	
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Wonderful desire(Not open)</Display> 
+				<OKResult>
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>Sky demon treasure</Display> 
+				<OKResult>
+				me:TriggerStory("TYBJ");
+				world:PlayBGM("Spr/Music/BGM/1001.OGG",false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>Drunk fairy</Display> 
+				<OKResult>
+				me:TriggerStory("ZXQ");
+				world:PlayBGM("Spr/Music/BGM/ZXQ.OGG",false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>Fairyland</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:RandomInt(1,50)
+					
+				if SM >= 25 then
+					me:TriggerStory("JLBD");
+					me:AddMsg("[NAME]After a few laps, I did not find the right candidate. Next time.");
+				else
+					me:TriggerStory("Join_SC");
+				end	
+					]]>
+					
+				</OKResult>
+			</li>
+			<li>
+				<Display>Moving world</Display> 
+				<OKResult>
+					me:TriggerStory("CH_T");
+					world:PlayBGM("Spr/Music/BGM/MDTX.OGG",false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>Leave this place</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]Passing the holy city, but I have no life to gamble on stones, my body is not good, I ca n’t afford to eat, I can still handle it, and go."));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZXQ"  Parent="BaseFillingStory">
+		<DisplayName>Drunk fairy</DisplayName>
+		<Desc>Objectively, what would you like to eat today? As long as there is something in the game, we can do it for you.</Desc>
+		<Selections>
+			<li>
+				<Display>Wuling Red Bad Rabbit (1000)</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]The remaining balance is:%s。"), tostring(num600)));
+					if nY <= 1000 then
+					me:AddMsg("[NAME]I'm dead, still want to eat? roll roll roll!");
+					else
+					me:AddMsg("Sorry, objectively, these rabbits heard that you were going to eat it, and ran to your house in excitement, and you just slaughtered it at home.");
+					me:AddManyYaoShou("JYRabbit",66,0,9999);me.npcObj.PropertyMgr:AddAge(1000);
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Nanling stewed coyote (1000)</Display> 
+				<OKResult>
+					<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]The remaining balance is:%s。"), tostring(num600)));
+					if nY <= 1000 then
+					me:AddMsg("[NAME]I'm dead, still want to eat? roll roll roll!");
+					else
+					me:AddMsg("Sorry, objectively, these wolf pups heard that you were going to eat it, and ran to your house in excitement, and you just slaughtered it at home.");
+					me:AddManyYaoShou("JYWolf",66,0,9999);me.npcObj.PropertyMgr:AddAge(1000);
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Steamed hundred poisonous snakes (1000)</Display> 
+				<OKResult>
+					<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]The remaining balance is:%s。"), tostring(num600)));
+					if nY <= 1000 then
+					me:AddMsg("[NAME]I'm dead, still want to eat? roll roll roll!");
+					else
+					me:AddMsg("Sorry, objectively, these little bugs heard that you were going to eat it, and ran to your house in excitement, and you just slaughtered it at home.");
+					me:AddManyYaoShou("JYSnake",66,0,9999);me.npcObj.PropertyMgr:AddAge(1000);
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Arago Big Trotter (1000)</Display> 
+				<OKResult>
+					<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]The remaining balance is:%s。"), tostring(num600)));
+					if nY <= 1000 then
+					me:AddMsg("[NAME]I'm dead, still want to eat? roll roll roll!");
+					else
+					me:AddMsg("Sorry, objectively, these little pigs heard that you were going to eat it, and they ran to your house in excitement, and you just slaughtered at home.");
+					me:AddManyYaoShou("JYBoar",66,0,9999);me.npcObj.PropertyMgr:AddAge(1000);
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>West Desert Braised Paw (1000)</Display> 
+				<OKResult>
+					<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]The remaining balance is:%s。"), tostring(num600)));
+					if nY <= 1000 then
+					me:AddMsg("[NAME]I'm dead, still want to eat? roll roll roll!");
+					else
+					me:AddMsg("Sorry, objective, these little bears heard that you were going to eat it, and ran to your house in excitement, and you just slaughtered it at home.");
+					me:AddManyYaoShou("JYBear",66,0,9999);me.npcObj.PropertyMgr:AddAge(1000);
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Stir-fried frog (1000)</Display> 
+				<OKResult>
+					<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]The remaining balance is:%s。"), tostring(num600)));
+					if nY <= 1000 then
+					me:AddMsg("[NAME]I'm dead, still want to eat? roll roll roll!");
+					else
+					me:AddMsg("Sorry, objectively, these little frogs heard that you were going to eat it, and they ran to your house in excitement, and you just slaughtered it at home.");
+					me:AddManyYaoShou("JYFrog",66,0,9999);me.npcObj.PropertyMgr:AddAge(1000);
+					end
+					]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>Red Tortoise Turtle (1000)</Display> 
+				<OKResult>
+					<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]The remaining balance is:%s。"), tostring(num600)));
+					if nY <= 1000 then
+					me:AddMsg("[NAME]I'm dead, still want to eat? roll roll roll!");
+					else
+					me:AddMsg("Sorry, objective, these little ghosts heard that you were going to eat it, and ran to your house in excitement, and you just slaughtered it at home.");
+					me:AddManyYaoShou("JYTurtle",66,0,9999);me.npcObj.PropertyMgr:AddAge(1000);
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Garlic Longjin (6000)</Display> 
+				<OKResult>
+					<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]The remaining balance is:%s。"), tostring(num600)));
+					if nY <= 1000 then
+					me:AddMsg("[NAME]I'm dead, still want to eat? roll roll roll!");
+					else
+								me:AddMsg("Sorry, objectively, these little dragons heard that you were going to eat it and ran to your house with excitement, and you just slaughtered it at home.");
+								local long = Map:CallBoss("Boss_Long",Map:RandomBronGrid(),false);
+								long:AddModifier("Boss_JiaolongFight", 299);
+								long:AddLing(long.MaxLing - long.LingV);me.npcObj.PropertyMgr:AddAge(6000);
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Holy City Called Chaffinch (6000)</Display> 
+				<OKResult>
+					<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]The remaining balance is:%s。"), tostring(num600)));
+					if nY <= 1000 then
+					me:AddMsg("[NAME]I'm dead, still want to eat? roll roll roll!");
+					else
+								me:AddMsg("Sorry, objectively, these Xiaofeng heard that you were going to eat it, and ran to your house in excitement, and you just slaughtered at home.");
+								local long = Map:CallBoss("Boss_Feng",Map:RandomBronGrid(),false);
+								long:AddModifier("Boss_XiongfengFight", 299);
+								long:AddLing(long.MaxLing - long.LingV);me.npcObj.PropertyMgr:AddAge(6000);
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Beiyu Yinyang Hotpot (6000)</Display> 
+				<OKResult>
+					<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]The remaining balance is:%s。"), tostring(num600)));
+					if nY <= 1000 then
+					me:AddMsg("[NAME]I'm dead, still want to eat? roll roll roll!");
+					else
+								me:AddMsg("Sorry, objectively, these little candle dragons heard that you were going to eat it, and they ran to your house with excitement, and you just slaughtered it at home.");
+								local long = Map:CallBoss("Boss_Zhulong",Map:RandomBronGrid(),false);
+								long:AddModifier("Boss_ZhulongFight", 299);
+								long:AddLing(long.MaxLing - long.LingV);me.npcObj.PropertyMgr:AddAge(6000);
+					end
+					]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>Forget it, I'm not ready yet. I'll take a look again.</Display> 
+				<OKResult>
+					me:TriggerStory("JLBD");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	
+	<Story Name="CH_T"  Parent="BaseFillingStory">
+		<DisplayName>The world moves with the king</DisplayName>
+		<Desc>Daoyou is no small in the world of repairing immortals.</Desc>
+		<Selections>
+			<li>
+				<Display>So far, I have practiced Taoism, and today Fang Jiedan.</Display> 
+				<OKResult>
+					me:TriggerStory("CD_T");
+				</OKResult>
+			</li>
+			<li>
+				<Display>The monks should be furious and embarrassed. Have you ever heard of it ..</Display> 
+				<OKResult>
+					me:TriggerStory("CH_1");
+				</OKResult>
+			</li>
+			<li>
+				<Display>Wrong go back and see ..</Display> 
+				<OKResult>
+					me:TriggerStory("JLBD");
+				</OKResult>
+			</li>
+			<li>
+				<Display>The monk just practiced, and never had a fancy name.</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]Laughed by everyone present, they went back to the author to cry."));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>	
+	<Story Name="CH_1"  Parent="BaseFillingStory">
+		<DisplayName>The world moves with the king</DisplayName>
+		<Desc>I don't know if you have heard it before. . . .</Desc>
+		<Selections>
+			<li>
+				<Display>warrior. Provided by Sven Spectacles (Conquer all martial arts)</Display> 
+				<OKResult><![CDATA[	
+				if world:IsSchoolSubmissionToPlayer(story.1) == true and world:IsSchoolSubmissionToPlayer(story.2) == true and world:IsSchoolSubmissionToPlayer(story.3) == true and world:IsSchoolSubmissionToPlayer(story.4) == true and world:IsSchoolSubmissionToPlayer(story.5) == true and world:IsSchoolSubmissionToPlayer(story.6) == true and world:IsSchoolSubmissionToPlayer(story.7) == true and world:IsSchoolSubmissionToPlayer(story.8) == true and world:IsSchoolSubmissionToPlayer(story.9) == true and world:IsSchoolSubmissionToPlayer(story.10) == true and world:IsSchoolSubmissionToPlayer(story.11) == true and world:IsSchoolSubmissionToPlayer(story.12) == true then
+					me:AddMsg("[NAME]Cigarette lighter and glasses? People around are curious[NAME]Bring the strange light after taking this stuff so that he forgot everything he said");
+					me:AddMsg("[NAME]In the strange eyes of everyone, he continued his performance. I thought that at the time I was in charge of the Acacia faction, the sword pointed at the gate of Shushan Mountain, and everyone on the Baiman Mountain was garbage.");
+					me:AddMsg("As soon as the word "trash" appeared, the heroes present at the scene couldn't resist this pretending aura, so they were all gone.");
+					me:AddTitle("warrior","I am the brave to save the world", 4);
+					end
+				]]>
+					
+				</OKResult>
+			</li>
+			<li>
+				<Display>Emperor. Let's hear a word-old man rape. (Prestige is just zero)</Display> 
+				<OKResult><![CDATA[	
+				if me:GetSchoolRank() == 0 then
+					me:AddMsg("[NAME]Pulled up a bench and sat on it, but everyone was curious that the bench was missing a leg,[NAME]Still so calm and restless, could not help admiring secretly.");
+					me:AddMsg("[NAME]Sitting still, everyone waited for about half an hour. See you.[NAME]I didn't speak yet, thinking that I had been tricked, I had to take lessons.");
+					me:AddMsg(""Humph!"[NAME]With a flick, everyone was pushed away by a force of Kelly,[NAME] He didn't look back, leaving only the phrase "strength is not for you to juggle."");
+					me:AddTitle("Emperor","The Lord of Heaven, the universe respects all, ghosts and gods worship together. Heaven and earth are invincible.", 4);
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Chodo asked Qingtian. Xu Ye. (600 lines)</Display> 
+				<OKResult><![CDATA[	
+				if me:GetProperty("AbilityLvAddV") >= 666 then
+				me:AddMsg("[NAME]Standing quietly in the field, the evolution of the universe in the eyes of life and death, after a moment, slowly came.");
+					me:AddMsg("The world is ruthless, taking the avenue as a chessboard, and treating sentient beings as the flag in hand. Today I[NAME]They will cut off these three thousand ruthless paths for future generations. From now on, there will be no shackles in the world. Everyone can ask the sky, and never be bullied by that day! Ask this blue sky, dare to fight me! My monk, what a war!");
+					me:AddMsg("[NAME]The more you talk, the more you get into the drama.[NAME]The trousers almost fell off and everyone around them listened[NAME]After talking, he shook his head for a while, and went crazy again. .");
+					me:AddTitle("Beheaded to ask the sky","My word does not need you to admit it! God thief can fight with me! !! !!", 4);
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Too Initial Emperor. Yun Changsheng. (Ji Ji has nine secrets)</Display> 
+				<OKResult><![CDATA[	
+				if me:IsLearnedEsoteric("ZT_JZM_J") == true and me:IsLearnedEsoteric("ZT_JZM_X") == true and me:IsLearnedEsoteric("ZT_JZM_Z") == true and me:IsLearnedEsoteric("ZT_JZM_S") == true and me:IsLearnedEsoteric("ZT_JZM_L") == true and me:IsLearnedEsoteric("ZT_JZM_ZHEN") == true and me:IsLearnedEsoteric("ZT_JZM_Q") == true and me:IsLearnedEsoteric("ZT_JZM_D") == true and  then
+				me:AddMsg("[NAME]Sitting in a tight position, after adjusting for a long time, I always feel that it is not a comfortable 13 posture.[NAME]时，[NAME]Only slowly said.");
+					me:AddMsg("Five Emperors at the beginning of the Heavenly Emperor, one was Hongmeng, the other was Taichu, the third was Mixed Yuan, the fourth was Immortal, the fifth was Kaitian, and the Five Emperor Taichu was also one of them!");
+					me:AddMsg("[NAME]Talking and forgetting about it, watching the people around you wanted to reveal their identity, but they didn't expect everyone to take a blind look.[NAME]Then they dispersed. Before leaving, there was a little girl who said that my grandma told me this story last night.")
+					me:AddTitle("Emperor","The beginning of the supreme emperor on the beginning of the emperor!", 4);
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Sword destroys all ways. Love without joy. (Armor level reaches level 45 and carries Taiji sword)</Display> 
+				<OKResult><![CDATA[	
+				if me:GetSkillLevel("FightSkill") >= 45 and me:CheckItemEquptCount("Item_MiBao_THJ") == 1 then			
+					me:AddMsg("[NAME]Looking at the anticipation of everyone in this room, they didn't set out slowly.");
+					me:AddMsg("in those days[NAME]Came into a strange hollow, in this situation and dreams, and resolutely entered into it. Xuanyuanqiu, which was surrounded by smoke, heard a hissing sound in the distance.[NAME]Perceived that she had changed appearance, wearing cyan armor, and felt that she had never been true before.");
+					me:AddMsg("The blood of the evil spirit on the sword is scarlet, and the bodies of the earth and demons are like mounds,[NAME]Unable to cast the spell, but the sword was like the wind, the three-foot Qingfeng returned to the sheath, nothing stood, and when he opened his eyes, he returned to the hollow. It turned out to be past life memories. Murmured in his mouth, three thousand red dust, swords destroyed, all ghosts and gods cut");
+					me:AddMsg("Talking[NAME]To wave the sword in his hand, it seemed to chop the three thousand red dust, was taken down by an electric baton of the city management, and was thrown to the back door by some kind people.");
+					me:AddTitle("Sword Extinction","Kunlun has jade, thinking that soldiers and soldiers, swords destroy all kinds of methods, ghosts and gods are cut!", 4);
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>The monk just practiced, and never had a fancy name.</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]Laughed by everyone present, they went back to the author to cry."))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>	
+	<Story Name="CD_T"  Parent="BaseFillingStory">
+		<DisplayName>Dan is not a trivial matter</DisplayName>
+		<Desc>Dao You revealed that the golden dan was presented to the grandfathers here.</Desc>
+		<Selections>
+			<li>
+				<Display>More than six hundred thousand Dan.</Display> 
+				<OKResult>
+					me:TriggerStory("Story_1Gold");
+				</OKResult>
+			</li>
+			<li>
+				<Display>More than one million Dan.</Display> 
+				<OKResult>
+					me:TriggerStory("Story_2Gold");
+				</OKResult>
+			</li>
+			<li>
+				<Display>More than three million Dan.</Display> 
+				<OKResult>
+					me:TriggerStory("Story_3Gold");
+				</OKResult>
+			</li>
+			<li>
+				<Display>More than five million Dan.</Display> 
+				<OKResult>
+					me:TriggerStory("Story_4Gold");
+				</OKResult>
+			</li>
+			<li>
+				<Display>More than ten million Dan.</Display> 
+				<OKResult>
+					me:TriggerStory("Story_5Gold");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="Story_1Gold">
+		<DisplayName>Cheng Tianzun</DisplayName>
+		<Desc>[NAME]In order to reach the state of Jin Dan, Xiu practitioners gave him a title.</Desc>
+		<Kind>None</Kind>
+		<GlobleOKResult>
+			<![CDATA[
+				if me:GetGoldLevel() == 1 then
+					if me:GetGoldValue() >= 600000 then
+						local tR = {XT("Promise"),XT("No beginning"),XT("Endless"),XT("Too high"),XT("太虚"),XT("元髯"),XT("太皓"),XT("玄清"),XT("梵天"),XT("八方"),XT("四极"),XT("万象"),XT("荧惑"),XT("乾元"),XT("混沌"),XT("百刃"),XT("天罡"),XT("乘龙"),XT("域旻"),XT("灵宝"),XT("太上"),XT("玄幻"),XT("南幽"),XT("北冥")}
+						local titlepre = tR[me:RandomInt(1, #tR + 1)]
+						me:AddTitle(string.format(XT("%s Tianzun"), tostring(titlepre)), XT("Not bad, but not strong!"), 4);
+					else
+						me:AddRandomTitle(1, XT("结丹一品！"), 3);
+					end
+				
+				end
+			]]>
+		</GlobleOKResult>
+	</Story>	
+	<Story Name="Story_2Gold">
+		<DisplayName>Into glasses dog?</DisplayName>
+		<Desc>[NAME]In order to reach the state of Jin Dan, Xiu practitioners gave him a title.</Desc>
+		<Kind>None</Kind>
+		<GlobleOKResult>
+			<![CDATA[
+				if me:GetGoldLevel() == 1 then
+					if me:GetGoldValue() >= 1000000 then
+						local tR = {XT("无极"),XT("无始"),XT("无终"),XT("太上"),XT("太虚"),XT("元髯"),XT("太皓"),XT("玄清"),XT("梵天"),XT("八方"),XT("四极"),XT("万象"),XT("荧惑"),XT("乾元"),XT("混沌"),XT("百刃"),XT("天罡"),XT("乘龙"),XT("域旻"),XT("灵宝"),XT("太上"),XT("玄幻"),XT("南幽"),XT("北冥")}
+						local titlepre = tR[me:RandomInt(1, #tR + 1)]
+						me:AddTitle(string.format(XT("%s眼镜狗"), tostring(titlepre)), XT("别问，问就加群！"), 4);
+					else
+						me:AddRandomTitle(1, XT("结丹一品！"), 3);
+					end
+				elseif me:GetGoldLevel() <= 3 then
+					me:AddRandomTitle(1, XT("结丹上品！"), 2);
+				elseif me:GetGoldLevel() <= 6 then
+					me:AddRandomTitle(1, XT("结丹中品！"), 1);
+				else
+					me:AddRandomTitle(1, XT("结丹下品！"), 0);
+				end
+			]]>
+		</GlobleOKResult>
+	</Story>
+	<Story Name="Story_3Gold">
+		<DisplayName>成圣</DisplayName>
+		<Desc>[NAME]修为达到金丹之境，修行界的同道给予其一个称号。</Desc>
+		<Kind>None</Kind>
+		<GlobleOKResult>
+			<![CDATA[
+				if me:GetGoldLevel() == 1 then
+					if me:GetGoldValue() >= 3000000 then
+						local tR = {XT("源弘"),XT("无始"),XT("无量"),XT("太崆"),XT("太仙"),XT("元日"),XT("太白"),XT("玄风"),XT("梵界"),XT("八劫"),XT("四凡"),XT("万龙"),XT("紫薇"),XT("贪狼"),XT("巨门"),XT("七星"),XT("天岩"),XT("乘界"),XT("域劫"),XT("灵崆"),XT("三十三"),XT("玄殇"),XT("西海"),XT("东诀")}
+						local titlepre = tR[me:RandomInt(1, #tR + 1)]
+						me:AddTitle(string.format(XT("%s圣人"), tostring(titlepre)), XT("圣者，有证道之望！"), 4);
+					else
+						me:AddRandomTitle(1, XT("结丹一品！"), 3);
+					end
+				end
+			]]>
+		</GlobleOKResult>
+	</Story>
+	<Story Name="Story_4Gold">
+		<DisplayName>成准帝</DisplayName>
+		<Desc>[NAME]修为达到金丹之境，修行界的同道给予其一个称号。</Desc>
+		<Kind>None</Kind>
+		<GlobleOKResult>
+			<![CDATA[
+				if me:GetGoldLevel() == 1 then
+					if me:GetGoldValue() >= 5000000 then
+						local tR = {XT("南槐"),XT("北麟"),XT("西凤"),XT("堕韵"),XT("苍海"),XT("东宫"),XT("南岳"),XT("古道"),XT("战仙"),XT("九重"),XT("劫海"),XT("百岳"),XT("无法"),XT("贪天"),XT("枫梧"),XT("黑水"),XT("洪戮"),XT("澄琅"),XT("宇"),XT("灵"),XT("阎道"),XT("五才"),XT("西灭"),XT("东琅")}
+						local titlepre = tR[me:RandomInt(1, #tR + 1)]
+						me:AddTitle(string.format(XT("%s准帝"), tostring(titlepre)), XT("结丹超品，冠绝当世！"), 4);
+					else
+						me:AddRandomTitle(1, XT("结丹一品！"), 3);
+					end
+				end
+			]]>
+		</GlobleOKResult>
+	</Story>	
+	<Story Name="Story_5Gold">
+		<DisplayName>成帝</DisplayName>
+		<Desc>[NAME]修为达到金丹之境，修行界的同道给予其一个称号。</Desc>
+		<Kind>None</Kind>
+		<GlobleOKResult>
+			<![CDATA[
+				if me:GetGoldLevel() == 1 then
+					if me:GetGoldValue() >= 10000000 then
+						local tR = {XT("南槐"),XT("北麟"),XT("西凤"),XT("堕韵"),XT("苍海"),XT("东宫"),XT("南岳"),XT("古道"),XT("战仙"),XT("九重"),XT("劫海"),XT("百岳"),XT("无法"),XT("贪天"),XT("枫梧"),XT("黑水"),XT("洪戮"),XT("澄琅"),XT("宇"),XT("灵"),XT("阎道"),XT("五才"),XT("西灭"),XT("东琅"),XT("吾儿王腾")}
+						local titlepre = tR[me:RandomInt(1, #tR + 1)]
+						me:AddTitle(string.format(XT("%s大帝"), tostring(titlepre)), XT("大帝之姿！"), 4);
+					else
+						me:AddRandomTitle(1, XT("结丹一品！"), 3);
+					end
+				elseif me:GetGoldLevel() <= 3 then
+					me:AddRandomTitle(1, XT("结丹上品！"), 2);
+				elseif me:GetGoldLevel() <= 6 then
+					me:AddRandomTitle(1, XT("结丹中品！"), 1);
+				else
+					me:AddRandomTitle(1, XT("结丹下品！"), 0);
+				end
+			]]>
+		</GlobleOKResult>
+	</Story>
+	
+	<Story Name="TYBJ"  Parent="BaseFillingStory">
+		<DisplayName>天妖宝阙--大厅</DisplayName>
+		<Desc>雍容华贵的装饰，随处摆放的源仿佛是没人要的垃圾，仙乐一阵阵奏响，[NAME]觉得自己像是来到了仙阙一般。</Desc>
+		<Selections>
+			<li>
+				<Display>五门木阁</Display> 
+				<OKResult>
+					me:TriggerStory("TYCL");world:PlayBGM("Spr/Music/BGM/PTCL.OGG",false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>天枢丹楼</Display> 
+				<OKResult>
+					me:TriggerStory("TYDY");world:PlayBGM("Spr/Music/BGM/DYQ.OGG",false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>万宝楼。</Display> 
+				<OKResult>
+					me:TriggerStory("TYWB");world:PlayBGM("Spr/Music/BGM/WB.OGG",false);
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>神农坊。</Display> 
+				<OKResult>
+					me:TriggerStory("TYSNF");world:PlayBGM("Spr/Music/BGM/SNF.OGG",false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>天妖悬阁。</Display> 
+				<OKResult>
+					<![CDATA[
+					if World.DayCount >= 150 then
+					me:TriggerStory("TYXG");world:PlayBGM("Spr/Music/BGM/XG.OGG",false);
+					else
+					me:AddMsg("道友请留步，这里不是你这种憨憨能进的。");
+					me:TriggerStory("TYBJ");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>玄经楼。</Display> 
+				<OKResult>
+					me:TriggerStory("TYXJ");world:PlayBGM("Spr/Music/BGM/XJ.OGG",false);
+				</OKResult>
+			</li>
+			<li>
+				<Display>算了，我还没准备好。我再看看。</Display> 
+				<OKResult>
+					me:TriggerStory("JLBD");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	<Story Name="DSF"  Parent="BaseFillingStory">
+		<DisplayName>赌石坊</DisplayName>
+		<Desc>这条街上栖息着所有的赌石坊</Desc>
+		<Selections>
+			<li>
+				<Display>太初圣地赌石坊。</Display> 
+				<OKResult>
+					me:TriggerStory("TCSF");
+				</OKResult>
+			</li>
+			<li>
+				<Display>瑶池圣地赌石坊。</Display> 
+				<OKResult>
+					me:TriggerStory("YCSF");
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>牌技场。</Display> 
+				<OKResult>
+					me:TriggerStory("PJCML");
+				</OKResult>
+			</li>
+			<li>
+				<Display>不赌，和谐。</Display> 
+				<OKResult>
+					me:TriggerStory("JLBD");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="PJCML"  Parent="BaseFillingStory">
+		<DisplayName>牌技场</DisplayName>
+		<Desc>可以在这里练练牌技，为天字赌石园做准备</Desc>
+		<Selections>
+			<li>
+				<Display>进入牌技场。（五十寿元一局）</Display> 
+				<OKResult>
+					me:TriggerStory("PJC");me.npcObj.PropertyMgr:AddAge(50);
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>不赌，和谐。</Display> 
+				<OKResult>
+					me:TriggerStory("JLBD");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="YCSF"  Parent="BaseFillingStory">
+		<DisplayName>瑶池赌石坊</DisplayName>
+		<Desc>瑶池圣地开设的赌石坊</Desc>
+		<Selections>
+			<li>
+				<Display>人字号石园。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 0 then
+					me:AddMsg("[NAME]命都没了，还想赌？滚滚滚！");
+					me:TriggerStory("JLBD");
+					else
+					me:TriggerStory("RZHY");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>地字号石园。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 0 then
+					me:AddMsg("[NAME]命都没了，还想赌？滚滚滚！");
+					me:TriggerStory("JLBD");
+					elseif World.DayCount <= 200 then
+					me:AddMsg("[NAME]走进石坊，但是由于时机尚早，所以源石内部还没能孕育出好东西，地字号仍未开业");
+					me:TriggerStory("YCSF");
+					else
+					me:TriggerStory("DZHY");
+					end
+				]]>
+					
+				</OKResult>
+			</li>
+			<li>
+				<Display>天字号石园。</Display> 
+				<OKResult>
+				<![CDATA[
+				local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 0 then
+					me:AddMsg("[NAME]命都没了，还想赌？滚滚滚！");
+					me:TriggerStory("JLBD");
+					elseif World.DayCount <= 300 then
+					me:AddMsg("[NAME]走进石坊，但是由于时机尚早，所以源石内部还没能孕育出好东西，地字号仍未开业");
+					me:TriggerStory("YCSF");
+					else
+					me:TriggerStory("YCTZ");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>屁字号石园，我要回去。</Display> 
+				<OKResult>
+					me:TriggerStory("DSF");
+				</OKResult>
+			</li>
+			
+		</Selections>
+	</Story>
+	
+	<Story Name="TCSF"  Parent="BaseFillingStory">
+		<DisplayName>太初赌石坊</DisplayName>
+		<Desc>太初圣地开设的赌石坊</Desc>
+		<Selections>
+			<li>
+				<Display>人字号石园。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 0 then
+					me:AddMsg("[NAME]命都没了，还想赌？滚滚滚！");
+					me:TriggerStory("JLBD");
+					else
+					me:TriggerStory("RZHY");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>地字号石园。</Display> 
+				<OKResult>
+				<![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 0 then
+					me:AddMsg("[NAME]命都没了，还想赌？滚滚滚！");
+					me:TriggerStory("JLBD");
+					elseif World.DayCount <= 200 then
+					me:AddMsg("[NAME]走进石坊，但是由于时机尚早，所以源石内部还没能孕育出好东西，地字号仍未开业");
+					me:TriggerStory("TCSF");
+					else
+					me:TriggerStory("DZHY");
+					end
+				]]>
+					
+				</OKResult>
+			</li>
+			<li>
+				<Display>天字号石园。</Display> 
+				<OKResult>
+				<![CDATA[
+				local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 0 then
+					me:AddMsg("[NAME]命都没了，还想赌？滚滚滚！");
+					me:TriggerStory("JLBD");
+					elseif World.DayCount <= 300 then
+					me:AddMsg("[NAME]走进石坊，但是由于时机尚早，所以源石内部还没能孕育出好东西，地字号仍未开业");
+					me:TriggerStory("TCSF");
+					else
+					me:TriggerStory("TCTZ");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>屁字号石园，我要回去。</Display> 
+				<OKResult>
+					me:TriggerStory("DSF");
+				</OKResult>
+			</li>
+			
+		</Selections>
+	</Story>
+	
+	
+	<Story Name="RZHY"  Parent="BaseFillingStory">
+		<DisplayName>人字号赌石坊</DisplayName>
+		<Desc>各大圣地通用的石园</Desc>
+		<Selections>
+			<li>
+				<Display>皮石头。（20寿命）</Display> 
+				<OKResult>
+				<![CDATA[
+				local nR = me:RandomInt(1, 40);
+				local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 20 then
+					me:AddMsg("[NAME]选了皮石头并决定切开它！然而毛都没一根");me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 18 then
+					me:AddMsg("[NAME]要切皮石头的时候，被石头皮了以下，胯下一阵疼痛，虽然运气还行居然切到了源。");
+					me:DropAwardItem("Item_WSXY",1);me:AddDamage("VisceralRupture","Genitals",0.9,XT("皮石冲撞"));me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 17 then
+					me:AddMsg("[NAME]切开皮石头，皮石头想皮，不过被[NAME]机智地躲过了，一刀切开居然只有石髓。");
+					me:DropAwardItem("Item_StoneEssence",15);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 14 then
+					me:AddMsg("[NAME]切开皮石头，皮石头想皮，不过被[NAME]机智地躲过了，一刀切开居然只有玉髓。");
+					me:DropAwardItem("Item_JadeEssence",2);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 12 then
+					me:AddMsg("[NAME]切开皮石头，皮石头想皮，不过被[NAME]机智地躲过了，一刀切开居然有多了两块玉髓。");
+					me:DropAwardItem("Item_JadeEssence",4);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 10 then
+					me:AddMsg("[NAME]切开皮石头，皮石头想皮，不过被[NAME]机智地躲过了，一刀切开居然有几株不知道几百年前的清心草。");
+					me:DropAwardItem("Item_Mint",9);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 8 then
+					me:AddMsg("[NAME]切开皮石头，皮石头想皮，不过被[NAME]机智地躲过了，一刀切开居然有筐银杏果，不过为啥有牙印呢。");
+					me:DropAwardItem("Item_Ginkgo",20);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 6 then
+					me:AddMsg("[NAME]切开皮石头，皮石头想皮，不过被[NAME]机智地躲过了，一刀切开居然是一幅史前巨作？。");
+					me:DropAwardItem("Item_FunPainting",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 5 then
+					me:AddMsg("[NAME]切开皮石头，虽然没切到源，不过居然是一些星髓。");
+					me:DropAwardItem("Item_StarEssence",5);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]切开皮石头，虽然没切到源，不过居然有火铜矿石。");
+					me:DropAwardItem("Item_CopperRock",5);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 2 then
+					me:AddMsg("[NAME]切开皮石头，虽然没切到源，不过居然有。。shit?。");
+					me:DropAwardItem("Item_Shit",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]切开皮石头，虽然没切到源，不过居然有一些妖灵血");
+					me:DropAwardItem("Item_MonsterBlood",12);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>破石头。（20寿命）</Display> 
+				<OKResult>
+				<![CDATA[
+					local nR = me:RandomInt(1, 40);
+					local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 15 then
+					me:AddMsg("[NAME]选了破石头并决定切开它！真的破。");me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 13 then
+					me:AddMsg("[NAME]刀起，未落，石头居然自己破开了，一股霸道的气息冲撞到[NAME]胯下，[NAME]躲闪不及，不过还是运气不过，居然是金属性源。");
+					me:DropAwardItem("Item_JSXY",1);me:AddDamage("VisceralRupture","Genitals",0.9,XT("破石咬人"));me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 9 then
+					me:AddMsg("[NAME]淡定地切开破石头，破石头。。变成两块源石？太初的人笑得肚子都疼说是送[NAME]了");
+					me:DropAwardItem("Item_YS1",2);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 7 then
+					me:AddMsg("[NAME]破开破石头，破石头里居然有个破垃圾？赶人。");
+					me:DropAwardItem("Item_Garbage",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 5 then
+					me:AddMsg("[NAME]一脚踹开破石头，五色光芒发出，是十块五色神石，这一幕被不少看在眼里。");
+					me:DropAwardItem("Item_WSSS",10);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");me:AddEnemy(9,0)
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]切开破石头，一道龙气呼啸而出，[NAME]来不及反应，被龙气冲断了一条胳膊。");
+					me:DropAwardItem("Item_LQ",1);me.npcObj.PropertyMgr:AddAge(20);me:AddDamage("Jin_ThunderDamage","LeftPostbrachium",3,XT("龙气冲击"));me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]在破石头中切到了，一团糟糕的饭菜。。哎。。");
+					me:DropAwardItem("Item_HorribleMeal",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>烂石头。（20寿命）</Display> 
+				<OKResult>
+					<![CDATA[
+					local nR = me:RandomInt(1, 40);
+					local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 25 then
+					me:AddMsg("[NAME]选了烂石头并决定切开它！这么烂确实出不了东西。");me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 20 then
+					me:AddMsg("[NAME]发现这块烂石头居然有一股腐朽的气息，就在犹豫之时旁边一人帮[NAME]下刀了。烂石头中溅射出一股强大的伤害，不过运气也还行至少有个木属性源石。");
+					me:DropAwardItem("Item_MSXY",1);me:AddDamage("VisceralRupture","Genitals",1,XT("烂石溅射"));me:AddDamage("Mu_Corrosion","RightRibs3",0.8,XT("烂石溅射"));me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 15 then
+					me:AddMsg("[NAME]淡定地切开烂石头，前车之鉴[NAME]远远地躲开，没想到里面有五颗木属性源，因为躲得太远被其他修行者抢走几块，大战一番受了重伤，也只抢回两块，匆匆跑路");
+					me:DropAwardItem("Item_YS1",2);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人围殴"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人围殴"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人围殴"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人围殴"));
+					elseif nR >= 13 then
+					me:AddMsg("[NAME]破开烂石头，烂石头里掉出了几根木头。。白瞎了我六十年寿元。");
+					me:DropAwardItem("Item_Wood",100);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 11 then
+					me:AddMsg("[NAME]看着烂石头，心中郁闷不知道为毛自己要选烂石头。不过只能认命，打开一看没想到是两三坨天龙砂。");
+					me:DropAwardItem("Item_DragonShit",2);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");me:AddEnemy(9,0)
+					elseif nR >= 6 then
+					me:AddMsg("[NAME]掰开了烂石头，又不是西瓜石，你掰开干嘛呢，这香味、是一瓶筑基丹！。");
+					me:DropAwardItem("Item_BasePracticeDrug",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]在烂石头里居然切到了十五个灵石！什么好人品？。");
+					me:DropAwardItem("Item_LingStone",15);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 2 then
+					me:AddMsg("[NAME]缓缓来到烂石头跟前，似乎有些特殊的感应在召唤[NAME]，手起刀落，没想到[NAME]切到了九秘！不过九秘被一种神秘的气息围绕使得[NAME]被吸收了千年的寿命。");
+					me:DropEsoteric("ZT_JZM_S");me:AddModified("ZT_tc",15);me.npcObj.PropertyMgr:AddAge(1020);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]在烂石头里居然切到了17个玄铁矿！。");
+					me:DropAwardItem("Item_DarksteelRock",17);me.npcObj.PropertyMgr:AddAge(1020);me:TriggerStory("DSF");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>垃圾石头。（20寿命）</Display> 
+				<OKResult>
+					<![CDATA[
+					local nR = me:RandomInt(1, 40);
+					local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 35 then
+					me:AddMsg("[NAME]居然看上了垃圾石头，就不怕只有垃圾吗。然而啥也没切出来");me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 30 then
+					me:AddMsg("[NAME]发现这块垃圾石头感觉和自己有缘，于是[NAME]兴冲冲地切开了垃圾石头，只有一堆垃圾。");
+					me:DropAwardItem("Item_Garbage",10);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 20 then
+					me:AddMsg("[NAME]切开了垃圾石头后发现有三块木属性源，财帛懂人心啊，[NAME]被人抢走了两块源，拼死保住了最后一块源才堪堪逃命。");
+					me:DropAwardItem("Item_MSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					me:AddDamage("DiffEnergyInvade","RenChannel",1,XT("被人围殴"));
+					me:AddDamage("Shui_ColdPoison","LeftThighbone",1,XT("被人围殴"));
+					me:AddDamage("Shui_Frostbite","Genitals",1,XT("被人围殴"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人围殴"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人围殴"));
+					elseif nR >= 18 then
+					me:AddMsg("[NAME]打开垃圾石头，石头里面只有一些木头而已，不过没注意到炸裂出来的源气，被源气所伤。");
+					me:DropAwardItem("Item_Wood",100);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");me:AddDamage("VisceralRupture","Genitals",1,XT("垃圾爆破"));me:AddDamage("Mu_Corrosion","RightRibs3",0.8,XT("垃圾爆破"));
+					elseif nR >= 16 then
+					me:AddMsg("[NAME]在切开垃圾石头后，只找到了些千年前的丹药，和现在的也没啥差别嘛。");
+					me:DropAwardItem("Item_Dan_JingYuan",6);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 9 then
+					me:AddMsg("[NAME]切开垃圾石头，里面有千年巨蟒的肉！。");
+					me:DropAwardItem("Item_SnakeMeat",100);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 5 then
+					me:AddMsg("[NAME]在烂石头里居然切到了二十五个灵石！什么好人品？。");
+					me:DropAwardItem("Item_LingStone",25);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]在垃圾石头切开后，什么也没有找到，[NAME]心有不甘，一头撞在垃圾石头上，没想到一头爆出了一件秘宝！。");
+					me:DropAwardItem("Item_MiBao_TunLingShenJian",1);me:AddDamage("Fabao_CutOff","Skull",0.9,XT("头壳派掉"));me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>一般石头。（20寿命）</Display> 
+				<OKResult>
+					<![CDATA[
+					local nR = me:RandomInt(1, 40);
+					local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 15 then
+					me:AddMsg("[NAME]切开一般的石头，忍不住说了一句，果然一般。。。连垃圾都没有");me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 13 then
+					me:AddMsg("[NAME]感觉自已挺一般，就切个一般的石头吧，没想到掉了不一般的源？。");
+					me:DropAwardItem("Item_SSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 11 then
+					me:AddMsg("[NAME]感觉自已挺一般，就切个一般的石头吧，没想到掉了不一般的源？。");
+					me:DropAwardItem("Item_HSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 9 then
+					me:AddMsg("[NAME]感觉自已挺一般，就切个一般的石头吧，没想到掉了不一般的源？。");
+					me:DropAwardItem("Item_TSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 5 then
+					me:AddMsg("[NAME]在烂石头里居然切到了二十五个灵石！什么好人品？。");
+					me:DropAwardItem("Item_LingStone",25);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]在垃圾石头切开后，什么也没有找到，[NAME]心有不甘，一头撞在垃圾石头上，没想到一头爆出大包啥也没有了！。");
+					me:AddDamage("Fabao_CutOff","Skull",5,XT("头壳派掉"));me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>小石头。（20寿命）</Display> 
+				<OKResult>
+					<![CDATA[
+					local nR = me:RandomInt(1, 40);
+					local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 17 then
+					me:AddMsg("[NAME]切开这一块小石头，结果只是白费了20年的寿元");me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 14 then
+					me:AddMsg("[NAME]切开了这块石头，里面什么也没有，但是一股股太初的气息沾染上了[NAME],[NAME]被额外吸收了30年寿元。");
+					me:AddModified("ZT_tc");me.npcObj.PropertyMgr:AddAge(50);me:TriggerStory("DSF");
+					elseif nR >= 11 then
+					me:AddMsg("[NAME]切开小石头，被内蕴光华所伤，无比后悔选了这块石头。。。");
+					me:AddModified("Gan");me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 9 then
+					me:AddMsg("[NAME]切开了小石头，没想到这里面有一件秘宝，没想到人字园能有这种惊喜！");
+					me:DropAwardItem("Item_MiBao_ShiErShaShenMoLingSha",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 5 then
+					me:AddMsg(XT("[NAME]切开了小石头，发现其中藏有一件古代奇珍，竟然可以镇压风水。"));
+					me:DropRandomItem(tIL[world:RandomInt(nil,#tIL+1)], 7, 11, true);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]选了小石头切开后，切到了100份草？感情以前这块石头是被绿了？");
+					me:DropAwardItem("Item_Grass",100);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>九秘石头。（20寿命）</Display> 
+				<OKResult>
+					<![CDATA[
+					local nR = me:RandomInt(1, 30);
+					local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 15 then
+					me:AddMsg("[NAME]选了九秘石头就以为能切到九秘？做梦吧，哈哈哈");me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 13 then
+					me:AddMsg("[NAME]掂量了一会这块九秘石，感觉总有些不妥，但还是切开了，果然，没有九秘只有一堆妖兽。");
+					me:AddManyYaoShou(nil,9,0,1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 11 then
+					me:AddMsg("[NAME]感觉自已应该是没希望切到九秘的，不过运气这种东西，比较很难说嘛。当然明显[NAME]没有这种好运。");
+					me:DropAwardItem("Item_BrownRock",1000);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 9 then
+					me:AddMsg("[NAME]感应到了！感应到了九秘的气息，没错，就是九秘！！！");
+					me:DropAwardItem("ZT_JMDB",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 5 then
+					me:AddMsg("[NAME]在九秘石头里居然切到了十五个灵晶！什么好人品？！");
+					me:DropAwardItem("Item_LingCrystal",15);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 2 then
+					me:AddMsg("[NAME]在九秘石头里虽然没切到九秘，但似乎获得了一些感悟，提高了百分5的法宝灵力上限！");
+					me:ModifierProperty("NpcFight_FabaoMaxLingAddP",0.05);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]缓缓来到九秘石头跟前，似乎有些特殊的感应在召唤[NAME]，手起刀落，没想到[NAME]真的切到了九秘！不过九秘似乎有些奇怪？");
+					me:DropAwardItem("ZT_JMDB",1);me:AddModified("ZT_tc",15);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>青山石头。（20寿命）</Display> 
+				<OKResult>
+					<![CDATA[
+					local nR = me:RandomInt(1, 20);
+					local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 12 then
+					me:AddMsg("[NAME]选了这颗看着奇特的青山石头，但是似乎什么也没有切出来");me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 6 then
+					me:AddMsg("[NAME]在思考这青山石头里究竟会有什么好东西的时候，被别人抢先一步切开来，卧槽没想到对方切到了九字秘！？气的[NAME]吐了一升血。");
+					me:AddModified("ZT_Q");me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 4 then
+					me:AddMsg("[NAME]在青山石头里切到了一颗演道果！趁着人字号园人少，瞬间跑路了。");
+					me:DropAwardItem("Item_YanDaoGuo",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]挑选了这块不起眼的青山石，也不废话直接切开了，果然便宜没好货，，，[NAME]头都没打算回，不对！[NAME]趁着周围的人还没反应过来，裹挟这那团未散开的光华便跑了！");
+					me:DropAwardItem("Item_ThunderAir",2);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>水边石头。（20寿命）</Display> 
+				<OKResult>
+				<![CDATA[
+				local nR = me:RandomInt(1, 40);
+				local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 30 then
+					me:AddMsg("[NAME]感觉切不到石头和他无关，这水边的石头也能拿来做切石？这不明摆的坑人吗？[NAME]想要与圣地理论，但除了一顿打就是一顿嘲讽，坑人？也没让你选啊！");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("被暴揍"));
+					me:AddDamage("Cut2","LeftEye",1,XT("被暴揍"));
+					me:AddDamage("VisceralRupture","Head",0.5,XT("头都被打歪了"));
+					me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 20 then
+					me:AddMsg("[NAME]切开了水边石头，果然。。和[NAME]想的一样，就是啥也没有愿者上钩，。。");
+					me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 17 then
+					me:AddMsg("[NAME]切开水边石头，没想到里面居然有那么些好东西，虽然不算很好。");
+					me:DropAwardItem("Item_BasePracticeDrug",2);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 14 then
+					me:AddMsg("[NAME]切开水边石头，没想到里面居然有那么些好东西，虽然不算很好。");
+					me:DropAwardItem("Item_JadeEssence",2);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 12 then
+					me:AddMsg("[NAME]切开水边石头，没想到里面居然有那么些好东西，虽然不算很好。");
+					me:DropAwardItem("Item_Dan_IncreaseLife2",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 10 then
+					me:AddMsg("[NAME]切开水边石头，一刀切开居然有几株不知道几百年前的清心草。");
+					me:DropAwardItem("Item_Mint",9);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 8 then
+					me:AddMsg("[NAME]在水边石头犹豫了很久，就在准备切开时，却被他人先一步下刀，被对方切开了十块仙源，？？？？");
+					me:AddModified("ZT_Q",4);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 6 then
+					me:AddMsg("[NAME]切开了水边石头，一刀切开居然是一幅史前巨作？。");
+					me:DropAwardItem("Item_FunPainting",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 5 then
+					me:AddMsg("[NAME]切开水边石头，虽然没切到源，不过还好有些龙涎果，正好需要这玩意。");
+					me:DropAwardItem("Item_Fruit",25);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]切开水边石头，虽然没切到源，[NAME]突然发现有些不对，快速收起了石中光华便走了。");
+					me:DropAwardItem("Item_SSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 2 then
+					me:AddMsg("[NAME]切开水边石头，没想到里面是一颗可以吃的蛟龙蛋");
+					me:DropAwardItem("Item_LongEgg",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]切开水边石头，里面有一些灵初露");
+					me:DropAwardItem("Item_LingWater",22);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					end
+					]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>金光石头。（20寿命）</Display> 
+				<OKResult>
+				<![CDATA[
+				local nR = me:RandomInt(1, 30);
+				local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 20 then
+					me:AddMsg("[NAME]一看就是爱慕虚荣的小伙子，看到金光闪闪就走不动道了。然而华而不实，里面啥也没有哦。");
+					me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 17 then
+					me:AddMsg("[NAME]切开了金光石头，切出了一些矿产，也算不亏了");
+					me:DropAwardItem("Item_IronRock",5);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 12 then
+					me:AddMsg("[NAME]切开了金光石头，切出了一些矿产，也算不亏了");
+					me:DropAwardItem("Item_CopperRock",4);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 7 then
+					me:AddMsg("[NAME]切开了金光石头，切出了一些矿产，也算不亏了");
+					me:DropAwardItem("Item_SilverRock",4);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 5 then
+					me:AddMsg("[NAME]切开了金光石头，切出了一些矿产，也算不亏了");
+					me:DropAwardItem("Item_DarksteelRock",3);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]切开了金光石头，切出了一小撮星髓，也算不亏了");
+					me:DropAwardItem("Item_StarEssence",6);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]切开了金光石头，切出了一大撮星髓，不亏了，不过沾染了些许太初气息");
+					me:DropAwardItem("Item_StarEssence",12);me:AddModified("ZT_tc",2);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					
+					end
+					]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>肾虚石头。（20寿命）</Display> 
+				<OKResult>
+				<![CDATA[
+				local nR = me:RandomInt(1, 20);
+				local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 8 then
+					me:AddMsg("[NAME]真的虚。。。啥玩意都没有。。");
+					me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 5 then
+					me:AddMsg("[NAME]切开了肾虚石头，没想到内部有一颗肾宝！难怪石头肾虚，[NAME]当即服用了石头增加了百分五的灵力最大值");
+					me:ModifierProperty("NpcLingMaxValue",0.05);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 4 then
+					me:AddMsg("[NAME]切开了肾虚石头，听闻了仙界三人组挂了的消息，不禁感慨，想不到红尘仙也落得如此下场。。。");
+					me:AddModified("TWEH",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]切开了肾虚石头，听闻了仙界三人组挂了的消息，不禁感慨，想不到红尘仙也落得如此下场。。。");
+					me:AddModified("TWEH",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 2 then
+					me:AddMsg("[NAME]切开了肾虚石头，听闻了仙界三人组挂了的消息，不禁感慨，想不到红尘仙也落得如此下场。。。");
+					me:AddModified("TWEH",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]切开了肾虚石头，观看到了仙界的消息，修为瞬间提升到了瓶颈。");
+					world:GetSelectThing().PropertyMgr.Practice:AddPractice("99999999");me:AddModified("ZT_XJ",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>天假石头。（20寿命）</Display> 
+				<OKResult>
+				<![CDATA[
+				local nR = me:RandomInt(1, 20);
+				local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 15 then
+					me:AddMsg("[NAME]真的假这破东西。。。啥玩意都没有。。");
+					me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 10 then
+					me:AddMsg("[NAME]切开了天假石头，没想到获得百年寿元，真是不虚此行，白嫖了");
+					me:ModifierProperty("MaxAge",100);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 4 then
+					me:AddMsg(XT("[NAME]切开了天假石头，发现其中藏有一件古代奇珍，竟然可以镇压风水。"));
+					me:DropRandomItem(tIL[world:RandomInt(nil,#tIL+1)], 7, 11, true);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]切开了天假石头，居然获得了500神民的上限提升");
+					me:ModifierProperty("GodCity_MaxResident",500);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>玄东石头。（20寿命）</Display> 
+				<OKResult>
+				<![CDATA[
+				local nR = me:RandomInt(1, 20);
+				local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 15 then
+					me:AddMsg("[NAME]发现在这个石头切，百分百掉落，估计没几个人看的上这石头，没想到被[NAME]切到了一本秘籍");
+					me:DropRandomItem("Esoterica");me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 10 then
+					me:AddMsg("[NAME]切开了玄东石头，没想到，真的没想到，[NAME]逐渐进入魔怔，身前的神源被其他人给抢走了。。");
+					me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 4 then
+					me:AddMsg(XT("[NAME]切开了玄东石头，发现一团龙气，收获不浅"));
+					me:DropAwardItem("Item_LQ",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]切开了玄东石头，居然获得了50核心信徒上限。");
+					me:ModifierProperty("GodCity_MaxCoreBeliever",50);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>海劫石。（20寿命）</Display> 
+				<OKResult>
+				<![CDATA[
+				local nR = me:RandomInt(1, 20);
+				local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 12 then
+					me:AddMsg("[NAME]被海劫石的天劫气机所动，导致雷劫时间提前了250。。而且还一无所获");
+					me:ModifierProperty("NeckCountdownAddV",-250);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 11 then
+					me:AddMsg("[NAME]切开了海劫石，获得了一块水属性源？哦吼，看来人字号也是有惊喜的嘛。");
+					me:DropAwardItem("Item_SSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 6 then
+					me:AddMsg(XT("[NAME]切开了海劫石，获得了一本秘籍"));
+					me:DropRandomItem("Esoterica");me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]切开了海劫石，居然有一堆的龙涎果。");
+					me:DropAwardItem("Item_Fruit",25);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>火焚石。（20寿命）</Display> 
+				<OKResult>
+				<![CDATA[
+				local nR = me:RandomInt(1, 20);
+				local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 15 then
+					me:AddMsg("[NAME]在石中被一阵阵炽热的气息所伤。根儿受到了重伤，而且一无所获");
+					me:AddDamage("VisceralRupture","Genitals",0.6,XT("火气很大"));me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 10 then
+					me:AddMsg("[NAME]切开了火焚石，一阵阵火气入体，但没有想象中的那么爆裂，反而蕴养着[NAME]的身躯，获得了百分五的信仰加成系数");
+					me:ModifierProperty("GodCity_PracticeEffect",50);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 4 then
+					me:AddMsg(XT("[NAME]切开了火焚石，发现有一大堆的灵石，收获不浅"));
+					me:DropAwardItem("Item_LingStone",50);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]切开了火焚石，居然获得了一颗火属性源");
+					me:DropAwardItem("Item_HSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]切开了火焚石，居然获得了50核心信徒上限。");
+					me:ModifierProperty("GodCity_MaxCoreBeliever",50);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>乱星石。（20寿命）</Display> 
+				<OKResult>
+				<![CDATA[
+				local nR = me:RandomInt(1, 20);
+				local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 15 then
+					me:AddMsg("[NAME]切开了乱星石后，石头中射出一道流星，打中了[NAME]，是一块星髓。。");
+					me:AddDamage("VisceralRupture","Genitals",1,XT("星坠"));me:AddDamage("VisceralRupture","RightEye",1,XT("星坠"));me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 10 then
+					me:AddMsg("[NAME]切开了火焚石，一阵阵星光入体，但没有想象中的那么爆裂，反而蕴养着[NAME]的身躯，获得了百分五的灵力恢复速度加成");
+					me:ModifierProperty("LingAbsorbSpeed",0.05);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 4 then
+					me:AddMsg(XT("[NAME]切开了乱星石，发现有一大堆的灵石，收获不浅"));
+					me:DropAwardItem("Item_LingStone",50);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]切开了乱星石，居然获得了一颗无属性源");
+					me:DropAwardItem("Item_WSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]切开了火焚石，居然获得了50核心信徒上限。");
+					me:ModifierProperty("GodCity_MaxCoreBeliever",50);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>绿草石。（20寿命）</Display> 
+				<OKResult>
+				<![CDATA[
+				local nR = me:RandomInt(1, 20);
+				local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 15 then
+					me:AddMsg("[NAME]切开了绿草石后，除了一堆草什么也没有了");
+					me:DropAwardItem("Item_Grass",20);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 10 then
+					me:AddMsg("[NAME]切开了绿草石，一阵阵绿光入脑，但没有想象中的那么绿，反而蕴养着[NAME]的身躯，获得了百分五的身体恢复速度加成");
+					me:ModifierProperty("RecoveryPower",0.5);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 4 then
+					me:AddMsg(XT("[NAME]切开了绿草石，发现有一大堆的灵石，收获不浅"));
+					me:DropAwardItem("Item_LingStone",50);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]切开了绿草石，居然获得了一颗木属性源");
+					me:DropAwardItem("Item_MSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]切开了绿草石，居然获得了50核心信徒上限。");
+					me:ModifierProperty("GodCity_MaxCoreBeliever",50);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>罡金石。（20寿命）</Display> 
+				<OKResult>
+				<![CDATA[
+				local nR = me:RandomInt(1, 20);
+				local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 15 then
+					me:AddMsg("[NAME]选择了罡金石，一掌劈下去。。手骨碎裂，，没能切开。");
+					me:AddDamage("Jin_ThunderDamage","LeftShoulder",1,XT("金罡之息"));me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 10 then
+					me:AddMsg("[NAME]切开了罡金石，不过没有什么锻体的效果，只有一些珍稀的材料");
+					me:DropAwardItem("Item_LingWood",15);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 4 then
+					me:AddMsg(XT("[NAME]切开了罡金石，发现有一大堆的灵石，收获不浅"));
+					me:DropAwardItem("Item_LingStone",50);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]切开了罡金石，居然获得了一颗金属性源");
+					me:DropAwardItem("Item_JSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]切开了罡金石，居然获得了50核心信徒上限。");
+					me:ModifierProperty("GodCity_MaxCoreBeliever",50);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>厚圆石。（20寿命）</Display> 
+				<OKResult>
+				<![CDATA[
+				local nR = me:RandomInt(1, 20);
+				local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 15 then
+					me:AddMsg("[NAME]选择了厚圆石，一掌劈下去，啥也没有。");
+					me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 10 then
+					me:AddMsg("[NAME]切开了厚圆石，不过没有什么锻体的效果，只有一些珍稀的材料");
+					me:DropAwardItem("Item_ExtremeJade",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 4 then
+					me:AddMsg(XT("[NAME]切开了厚圆石，发现有一大堆的灵石，收获不浅"));
+					me:DropAwardItem("Item_LingStone",50);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]切开了厚圆石，居然获得了一颗土属性源");
+					me:DropAwardItem("Item_TSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]切开了厚圆石，居然获得了50核心信徒上限。");
+					me:ModifierProperty("GodCity_MaxCoreBeliever",50);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>百天石。（20寿命）</Display> 
+				<OKResult>
+				<![CDATA[
+				local nR = me:RandomInt(1, 20);
+				local tIL = {"Wood","Rock","Metal","Weapon"};
+				
+				if World.DayCount == 100 then
+				me:AddMsg("[NAME]选择了百天石，每一百天，百天石内部都能孕育出五种属性的源，真是妙也。");
+				me:DropAwardItem("Item_TSXY",1);me:DropAwardItem("Item_JSXY",1);me:DropAwardItem("Item_MSXY",1);me:DropAwardItem("Item_SSXY",1);me:DropAwardItem("Item_HSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+				elseif World.DayCount == 200 then
+				me:AddMsg("[NAME]选择了百天石，每一百天，百天石内部都能孕育出五种属性的源，真是妙也。");
+				me:DropAwardItem("Item_TSXY",1);me:DropAwardItem("Item_JSXY",1);me:DropAwardItem("Item_MSXY",1);me:DropAwardItem("Item_SSXY",1);me:DropAwardItem("Item_HSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+				elseif World.DayCount == 300 then
+				me:AddMsg("[NAME]选择了百天石，每一百天，百天石内部都能孕育出五种属性的源，真是妙也。");
+				me:DropAwardItem("Item_TSXY",1);me:DropAwardItem("Item_JSXY",1);me:DropAwardItem("Item_MSXY",1);me:DropAwardItem("Item_SSXY",1);me:DropAwardItem("Item_HSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+				elseif World.DayCount == 400 then
+				me:AddMsg("[NAME]选择了百天石，每一百天，百天石内部都能孕育出五种属性的源，真是妙也。");
+				me:DropAwardItem("Item_TSXY",1);me:DropAwardItem("Item_JSXY",1);me:DropAwardItem("Item_MSXY",1);me:DropAwardItem("Item_SSXY",1);me:DropAwardItem("Item_HSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+				elseif World.DayCount == 500 then
+				me:AddMsg("[NAME]选择了百天石，每一百天，百天石内部都能孕育出五种属性的源，真是妙也。");
+				me:DropAwardItem("Item_TSXY",1);me:DropAwardItem("Item_JSXY",1);me:DropAwardItem("Item_MSXY",1);me:DropAwardItem("Item_SSXY",1);me:DropAwardItem("Item_HSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+				elseif World.DayCount == 600 then
+				me:AddMsg("[NAME]选择了百天石，每一百天，百天石内部都能孕育出五种属性的源，真是妙也。");
+				me:DropAwardItem("Item_TSXY",1);me:DropAwardItem("Item_JSXY",1);me:DropAwardItem("Item_MSXY",1);me:DropAwardItem("Item_SSXY",1);me:DropAwardItem("Item_HSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+				elseif World.DayCount == 700 then
+				me:AddMsg("[NAME]选择了百天石，每一百天，百天石内部都能孕育出五种属性的源，真是妙也。");
+				me:DropAwardItem("Item_TSXY",1);me:DropAwardItem("Item_JSXY",1);me:DropAwardItem("Item_MSXY",1);me:DropAwardItem("Item_SSXY",1);me:DropAwardItem("Item_HSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+				elseif World.DayCount == 800 then
+				me:AddMsg("[NAME]选择了百天石，每一百天，百天石内部都能孕育出五种属性的源，真是妙也。");
+				me:DropAwardItem("Item_TSXY",1);me:DropAwardItem("Item_JSXY",1);me:DropAwardItem("Item_MSXY",1);me:DropAwardItem("Item_SSXY",1);me:DropAwardItem("Item_HSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+				elseif World.DayCount == 900 then
+				me:AddMsg("[NAME]选择了百天石，每一百天，百天石内部都能孕育出五种属性的源，真是妙也。");
+				me:DropAwardItem("Item_TSXY",1);me:DropAwardItem("Item_JSXY",1);me:DropAwardItem("Item_MSXY",1);me:DropAwardItem("Item_SSXY",1);me:DropAwardItem("Item_HSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+				elseif World.DayCount == 1000 then
+				me:AddMsg("[NAME]选择了百天石，每一百天，百天石内部都能孕育出五种属性的源，真是妙也。");
+				me:DropAwardItem("Item_TSXY",1);me:DropAwardItem("Item_JSXY",1);me:DropAwardItem("Item_MSXY",1);me:DropAwardItem("Item_SSXY",1);me:DropAwardItem("Item_HSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 15 then
+					me:AddMsg("[NAME]选择了百天石，一掌劈下去，啥也没有。");
+					me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 10 then
+					me:AddMsg("[NAME]切开了厚圆石，不过没有什么锻体的效果，只有一些珍稀的材料");
+					me:DropAwardItem("Item_ExtremeJade",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 4 then
+					me:AddMsg(XT("[NAME]切开了厚圆石，发现有一大堆的灵石，收获不浅"));
+					me:DropAwardItem("Item_LingStone",50);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]切开了厚圆石，居然获得了一颗土属性源");
+					me:DropAwardItem("Item_TSXY",1);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]切开了厚圆石，居然获得了50核心信徒上限。");
+					me:ModifierProperty("GodCity_MaxCoreBeliever",50);me.npcObj.PropertyMgr:AddAge(20);me:TriggerStory("DSF");
+					end
+					]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>狗屁字号石园，我要回去。</Display> 
+				<OKResult>
+					me:TriggerStory("DSF");
+				</OKResult>
+			</li>
+			<li>
+				<Display>没命了要，不赌了，我要回去。</Display> 
+				<OKResult>
+					me:AddMsg("[NAME]仰天一声长叹，赌狗十赌九输，再也不赌了。");
+				</OKResult>
+			</li>
+			
+		</Selections>
+	</Story>
+	
+	<Story Name="DZHY"  Parent="BaseFillingStory">
+		<DisplayName>太初地字号赌石坊</DisplayName>
+		<Desc>太初圣地开设的赌石坊</Desc>
+		<Selections>
+			<li>
+				<Display>顽石。（200寿命）</Display> 
+				<OKResult>
+				<![CDATA[
+				local nR = me:RandomInt(1, 20);
+				local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 15 then
+					me:AddMsg("[NAME]走到顽石身边，敲敲打打，似模似样，说这是[NAME]动静合一，好似很牛，但石头并不给他面子");me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");
+					elseif nR >= 12 then
+					me:AddMsg("[NAME]走到顽石的身边，想也不想，切开了顽石，居然掉落了不少无属性源。");
+					me:DropAwardItem("Item_WSXY",6);me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");
+					elseif nR >= 8 then
+					me:AddMsg("[NAME]一边想着今晚的晚饭一边切开了源石，没想到美梦成真了。");
+					me:DropAwardItem("Item_DelicacyFood",90);me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");
+					elseif nR >= 7 then
+					me:AddMsg("[NAME]在切顽石时用力过猛，被顽石生气地踹了一脚。不过还好没被白踢，顽石里有100的星髓");
+					me:DropAwardItem("Item_JadeEssence",100);me:AddDamage("Cut3","RightShoulder",1,XT("顽石飞踢"));me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");
+					elseif nR >= 4 then
+					me:AddMsg("[NAME]用一身的修为，奋力一击砸开了源石，只有一些人参。");
+					me:DropAwardItem("Item_Ginseng",90);me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]慢慢地切开了顽石，似乎有些过于小心，毕竟没有好东西，只有百来个铁矿石。");
+					me:DropAwardItem("Item_IronRock",111);me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]感天观地，在最合适的时分切开了顽石，一道道龙气围绕着[NAME]。");
+					me:DropAwardItem("Item_LQ",16);me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>百炎石。（200寿命）</Display> 
+				<OKResult>
+				<![CDATA[
+					local nR = me:RandomInt(1, 20);
+					local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 15 then
+					me:AddMsg("[NAME]千挑万选，在其他人发现百炎石之前，先一步挑选了，迅速地切开了百炎石，然而什么也没有。");me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");
+					elseif nR >= 13 then
+					me:AddMsg("[NAME]感受到了百炎石内部的炽热气息，迫不及待切开来，一道道火属性光芒绽放，[NAME]获得了大量的朱果，但也被一些人盯上了。");
+					me:DropAwardItem("Item_HuoEssence",3);me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");me:AddEnemy(12,0.3)
+					elseif nR >= 10 then
+					me:AddMsg("[NAME]感受到了百炎石内部火一般的高温，但是在切开来时没能防护好自己，得到了几块火属性源");
+					me:DropAwardItem("Item_HSXY",4);me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");me:AddDamage("Huo_HeartBurn","Heart",1,XT("百炎焚心"));
+					elseif nR >= 7 then
+					me:AddMsg("[NAME]百炎石中似乎有什么秘密，听说是从妖兽堆中挖出来的。");
+					me:DropAwardItem("Item_XieHunLu",6);me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");
+					elseif nR >= 4 then
+					me:AddMsg("[NAME]切开百炎石，五色光芒发出，是五十块五色神石，这一幕被不少看在眼里。");
+					me:DropAwardItem("Item_WSSS",50);me.npcObj.PropertyMgr:AddAge(60);me:TriggerStory("DSF");me:AddEnemy(9,0)
+					elseif nR >= 2 then
+					me:AddMsg("[NAME]切开百炎石，发现了一些古人用来祭祀祖先的道具。");
+					me:DropAwardItem("Item_XiangHuo2",12);me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]在百炎石中居然切出了一件秘宝！");
+					me:DropAwardItem("Item_MiBao_TianMoHuaXueShenDao",1);me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>千叶石。（200寿命）</Display> 
+				<OKResult>
+					<![CDATA[
+					local nR = me:RandomInt(1, 20);
+					local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 10 then
+					me:AddMsg("[NAME]看中了千叶石，不过啥也没切出来啊");me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");
+					elseif nR >= 7 then
+					me:AddMsg("[NAME]切开千叶石，原以为会有木属性源，但是只有吃饱的虫子。");
+					me:DropAwardItem("Item_WinterWarm",5);me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");
+					elseif nR >= 5 then
+					me:AddMsg("[NAME]居然在千叶石里发现了两片悟道茶叶树，太恐怖了，要被人看到就糟了");
+					me:DropAwardItem("Item_WDCY",2);me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");me:AddEnemy(24,0.3)
+					
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]运转法力打开了千叶石，居然意外地切到了木属性神源，喜出望外，不过也被周围的人盯上，一阵大战，[NAME]侥幸逃脱，虽然受到了重伤。");
+					me:DropAwardItem("Item_MSXSY",100);me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人围殴"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人围殴"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人围殴"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人围殴"));
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]切到了180的灵木，不知是好运还是坏运气。");
+					me:DropAwardItem("Item_LingWood",180);me.npcObj.PropertyMgr:AddAge(200);me:TriggerStory("DSF");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>鬼洞石。（300寿命）</Display> 
+				<OKResult>
+					<![CDATA[
+					local nR = me:RandomInt(1, 10);
+					local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 7 then
+					me:AddMsg("[NAME]没能从鬼洞石中切出什么东西，还被莫名地波动冲击");me:AddDamage("DiffEnergyInvade","UpperElixirField",1,XT("冥魂冲击"));me.npcObj.PropertyMgr:AddAge(300);me:TriggerStory("DSF");
+					elseif nR >= 6 then
+					me:AddMsg("[NAME]在鬼洞石里，没切出物品，但是一股莫名契机引导之下，居然提升了百分六十的术法威力。");
+					me:ModifierProperty("NpcFight_SpellPowerAddP",0.6);me.npcObj.PropertyMgr:AddAge(300);me:TriggerStory("DSF");
+					elseif nR >= 4 then
+					me:AddMsg("[NAME]在鬼洞石中看到了一些特殊的机缘，获得了一团乌光火焰。");
+					me:DropAwardItem("HUO_WH",1);me.npcObj.PropertyMgr:AddAge(300);me:TriggerStory("DSF");
+					elseif nR >= 2 then
+					me:AddMsg("[NAME]在鬼洞石里找到了黑鳞，除了太显眼，也没有坏处了。");
+					me:DropAwardItem("Item_BossZhuLong_HeiLin",10);me.npcObj.PropertyMgr:AddAge(300);me:TriggerStory("DSF");me:AddDamage("VisceralRupture","Genitals",1,XT("夺宝追杀"));me:AddDamage("Mu_Corrosion","RightRibs3",0.8,XT("夺宝追杀"));
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]在切开鬼洞石后，发现了几株夏草。");
+					me:DropAwardItem("Item_SummerHerb",6);me.npcObj.PropertyMgr:AddAge(60);me:TriggerStory("DSF");
+					
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>六月石。（300寿命）</Display> 
+				<OKResult>
+					<![CDATA[
+					local nR = me:RandomInt(1, 6);
+					local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 6 then
+					me:AddMsg("[NAME]感受到了6月的气息");me.npcObj.PropertyMgr:AddAge(300);me:TriggerStory("DSF");
+					elseif nR >= 5 then
+					me:AddMsg("[NAME]感觉到了5月的气息。");
+					me:DropAwardItem("Item_TSXSY",1);me.npcObj.PropertyMgr:AddAge(300);me:TriggerStory("DSF");
+					elseif nR >= 4 then
+					me:AddMsg("[NAME]感受到了4月的气息？。");
+					me:DropAwardItem("Item_ZaoHuaYuZi",4);me.npcObj.PropertyMgr:AddAge(300);me:TriggerStory("DSF");
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]感受到3月的气息？。");
+					me:DropAwardItem("Item_Laxative",50);me.npcObj.PropertyMgr:AddAge(300);me:TriggerStory("DSF");
+					elseif nR >= 2 then
+					me:AddMsg("[NAME]在2月的气息中得到了一件秘宝？。");
+					me:DropAwardItem("Item_MiBao_YinHunZhu",1);me.npcObj.PropertyMgr:AddAge(60);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]1月的气息中被无形所伤害。");
+					me:DropAwardItem("endItem_Dan_FiveBase4",25);
+					me:AddDamage("Fabao_CutOff","Skull",5,XT("头壳派掉"));me.npcObj.PropertyMgr:AddAge(300);me:TriggerStory("DSF");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>天殇石。（400寿命）</Display> 
+				<OKResult>
+					<![CDATA[
+					local nR = me:RandomInt(1, 30);
+					local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 20 then
+					me:AddMsg("[NAME]切开天殇石，居然被光华射瞎了双眼，以至于看不到眼前的仙源，被其他人抢走了");me:AddDamage("Mu_Failure","LeftEye",1,XT("天殇之息"));me:AddDamage("Mu_Failure","RightEye",1,XT("天殇之息"));me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 18 then
+					me:AddMsg("[NAME]切开天殇石，居然得到不少五行灵植。");
+					me:DropAwardItem("Item_JinEssence",6);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 16 then
+					me:AddMsg("[NAME]切开天殇石，居然得到不少五行灵植。");
+					me:DropAwardItem("Item_MuEssence",12);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 14 then
+					me:AddMsg("[NAME]切开天殇石，居然得到不少五行灵植。");
+					me:DropAwardItem("Item_ShuiEssence",12);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 12 then
+					me:AddMsg("[NAME]切开天殇石，居然得到不少五行灵植。");
+					me:DropAwardItem("Item_HuoEssence",12);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 10 then
+					me:AddMsg("[NAME]切开天殇石，居然得到不少五行灵植。");
+					me:DropAwardItem("Item_TuEssence",12);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 8 then
+					me:AddMsg("[NAME]在天殇石中切出一本世家录。");
+					me:DropAwardItem("Item_SJL",1);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 6 then
+					me:AddMsg("[NAME]在天殇石中找到了两颗仙源，赶紧跑路吧。");
+					me:DropAwardItem("Item_HSXXY",2);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]在天殇石里居然切到了六十颗灵晶！什么好人品？。");
+					me:DropAwardItem("Item_LingCrystal",60);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]在天殇石切开后，什么也没有找到，[NAME]心有不甘，一头撞在天殇石上，没想到一头爆出大包,啥也没有了！。");
+					me:AddDamage("Fabao_CutOff","Skull",5,XT("头壳派掉"));me.npcObj.PropertyMgr:AddAge(60);me:TriggerStory("DSF");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>八劫洞天石。（400寿命）</Display> 
+				<OKResult>
+					<![CDATA[
+					local nR = me:RandomInt(1, 8);
+					local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 7 then
+					me:AddMsg("[NAME]细丝体悟这八劫，提高了百分八十灵力最大值");
+					me:ModifierProperty("NpcFight_FabaoMaxLingAddP",0.8);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 5 then
+					me:AddMsg("[NAME]细丝体悟这八劫，提高了百分八十灵力恢复最大值。");
+					me:ModifierProperty("LingAbsorbSpeed",0.8);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]没能经受住八劫的气息，降低了百分三十的术法威能。");
+					me:ModifierProperty("NpcFight_SpellPowerAddP", -0.3);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]在八劫洞天石中，寻得四块天劫之息，但也在取得天劫之时受到了伤害。");
+					me:DropAwardItem("Item_ThunderAir",4);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					me:AddDamage("Jin_ThunderDamage","Genitals",1,XT("八劫之威"));
+					me:AddDamage("Jin_ThunderDamage","Lung",1,XT("八劫之威"));
+					me:AddDamage("Jin_ThunderDamage","LeftThigh",1,XT("八劫之威"));
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>赤月牙。（400寿命）</Display> 
+				<OKResult>
+					<![CDATA[
+					local nR = me:RandomInt(1, 30);
+					local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 20 then
+					me:AddMsg("[NAME]切开赤月牙，忍不住要骂人，居然啥也没有");me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 15 then
+					me:AddMsg("[NAME]切开赤月牙后，一股难以明言的感觉涌上心头提高百分四十火属性免疫，还掉了一个天劫之息，应该是上一个被劈死的吧。");
+					me:DropAwardItem("Item_ThunderAir",1);me:ModifierProperty("NpcFight_ShieldResistanceToHuo",0.4);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 11 then
+					me:AddMsg("[NAME]切了半天，没能切开赤月牙，赌坊的人只好给了[NAME]十块源石便打发了[NAME]。");
+					me:DropAwardItem("Item_YS1",10);me.npcObj.PropertyMgr:AddAge(60);me:TriggerStory("DSF");
+					elseif nR >= 6 then
+					me:AddMsg("[NAME]切开了赤月牙，居然发现了一个有犬牙印的蟠桃。。一口老血喷出。");
+					me:DropAwardItem("Item_Dan_PT",1);me.npcObj.PropertyMgr:AddAge(60);me:TriggerStory("DSF");
+					elseif nR >= 2 then
+					me:AddMsg("[NAME]在烂石头里居然切到了四十个灵晶！什么好人品？。");
+					me:DropAwardItem("Item_LingCrystal",40);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]切开赤月牙，一股荒古的气息涌出，居然是一块凰血赤金！。");
+					me:DropAwardItem("Item_HXCJ",1);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>蒙石。（400寿命）</Display> 
+				<OKResult>
+					<![CDATA[
+					local nR = me:RandomInt(1, 30);
+					local tIL = {"Wood","Rock","Metal","Weapon"};
+					if nR >= 20 then
+					me:AddMsg("[NAME]切开蒙石，居然得到四本神通,怎么可能呢，不存在的。");me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 18 then
+					me:AddMsg("[NAME]切开蒙石，居然得到不少五行灵植。");
+					me:DropAwardItem("Item_JinEssence",6);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 16 then
+					me:AddMsg("[NAME]切开蒙石，居然得到不少五行灵植。");
+					me:DropAwardItem("Item_MuEssence",6);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 14 then
+					me:AddMsg("[NAME]切开蒙石，居然得到不少五行灵植。");
+					me:DropAwardItem("Item_ShuiEssence",6);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 12 then
+					me:AddMsg("[NAME]切开蒙石，居然得到不少五行灵植。");
+					me:DropAwardItem("Item_HuoEssence",6);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 10 then
+					me:AddMsg("[NAME]切开蒙石，居然得到不少五行灵植。");
+					me:DropAwardItem("Item_TuEssence",6);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 8 then
+					me:AddMsg("[NAME]在蒙石中切出了不少灵木血竭。");
+					me:DropAwardItem("Item_LingMuXueJie",40);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 6 then
+					me:AddMsg("[NAME]在源石中找到了没喝过的地母灵液六壶。");
+					me:DropAwardItem("Item_EarthEssence",6);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 3 then
+					me:AddMsg("[NAME]在烂石头里居然切到了六十颗灵晶！什么好人品？。");
+					me:DropAwardItem("Item_LingCrystal",60);me.npcObj.PropertyMgr:AddAge(400);me:TriggerStory("DSF");
+					elseif nR >= 1 then
+					me:AddMsg("[NAME]在垃圾石头切开后，什么也没有找到，[NAME]心有不甘，一头撞在垃圾石头上，没想到一头爆出大包啥也没有了！。");
+					me:AddDamage("Fabao_CutOff","Skull",5,XT("头壳派掉"));me.npcObj.PropertyMgr:AddAge(60);me:TriggerStory("DSF");
+					end
+					
+					]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>天人合一。（600寿命）</Display> 
+				<OKResult>
+					<![CDATA[
+					me:AddMsg("[NAME]在切开天下合一时，突然一股强大的精神力冲击冲向了[NAME]的眉心。");
+					me.npcObj.PropertyMgr:AddAge(600);me:TriggerStory("ZT1");
+					
+					]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>狗屁字号石园，我要回去。</Display> 
+				<OKResult>
+					me:TriggerStory("DSF");
+				</OKResult>
+			</li>
+			<li>
+				<Display>没命了要，不赌了，我要回去。</Display> 
+				<OKResult>
+					me:AddMsg("[NAME]仰天一声长叹，赌狗十赌九输，再也不赌了。");
+				</OKResult>
+			</li>
+			
+		</Selections>
+	</Story>
+	
+	
+	<Story Name="TCTZ"  Parent="BaseFillingStory">
+		<DisplayName>太初天字号赌石坊</DisplayName>
+		<Desc>太初圣地开设的赌石坊</Desc>
+		<Selections>
+			<li>
+				<Display>神凰石。超多神凤材料附赠三只最弱凶凤相当于免费送蛋（1300寿命）</Display> 
+				<OKResult>
+				
+				me:AddMsg("[NAME]在切开石头时，突然一股强大的精神力冲击冲向了[NAME]的眉心。");
+				me:TriggerStory("SFD");
+				me.npcObj.PropertyMgr:AddAge(1300);
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>阴阳卵。超多烛龙材料（1300寿命）</Display> 
+				<OKResult>
+				
+					me:AddMsg("[NAME]在切开石头时，突然一股强大的精神力冲击冲向了[NAME]的眉心。");
+					me:TriggerStory("ZLD");
+					me.npcObj.PropertyMgr:AddAge(1300);
+					
+				</OKResult>
+			</li>
+			<li>
+				<Display>海波涛。超多蛟龙材料，附赠三只最弱蛟龙相当于免费送蛋（1300寿命）</Display> 
+				<OKResult>
+					
+					me:AddMsg("[NAME]在切开石头时，突然一股强大的精神力冲击冲向了[NAME]的眉心。");
+					me:TriggerStory("JLD");
+					me.npcObj.PropertyMgr:AddAge(1300);
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>仙王碑。全属性加成百分百（1500寿命）</Display> 
+				<OKResult>
+					
+					me:AddMsg("[NAME]在切开石头时，突然一股强大的精神力冲击冲向了[NAME]的眉心。");
+					me:TriggerStory("XWB");
+					me.npcObj.PropertyMgr:AddAge(1500);
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>天源石。巨量源石相赠（2000寿命）</Display> 
+				<OKResult>
+					
+					me:AddMsg("[NAME]在切开石头时，突然一股强大的精神力冲击冲向了[NAME]的眉心。");
+					me:TriggerStory("TYS");
+					me.npcObj.PropertyMgr:AddAge(2000);
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>帝兵坟。巨量帝兵材料（2600寿命）</Display> 
+				<OKResult>
+					
+					me:AddMsg("[NAME]在切开石头时，突然一股强大的精神力冲击冲向了[NAME]的眉心。");
+					me:TriggerStory("DBF");
+					me.npcObj.PropertyMgr:AddAge(2600);
+					
+				</OKResult>
+			</li>
+			<li>
+				<Display>开天碑。三种秘宝各一套，每件六把（1900寿命）</Display> 
+				<OKResult>
+					
+					me:AddMsg("[NAME]在切开石头时，突然一股强大的精神力冲击冲向了[NAME]的眉心。");
+					me:TriggerStory("KTB");
+					me.npcObj.PropertyMgr:AddAge(1900);
+				
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>狗屁字号石园，我要回去。</Display> 
+				<OKResult>
+					me:TriggerStory("TCSF");
+				</OKResult>
+			</li>
+			<li>
+				<Display>没命了要，不赌了，我要回去。</Display> 
+				<OKResult>
+					me:AddMsg("[NAME]仰天一声长叹，赌狗十赌九输，再也不赌了。");
+				</OKResult>
+			</li>
+			
+		</Selections>
+	</Story>
+	
+	<Story Name="YCTZ"  Parent="BaseFillingStory">
+		<DisplayName>瑶池天字号赌石坊</DisplayName>
+		<Desc>瑶池圣地开设的赌石坊</Desc>
+		<Selections>
+			<li>
+				<Display>避劫天丹。型似一颗丹药，据闻从太初古矿带出来的时候，天降神雷，劈在该石头上。（1200寿命）</Display> 
+				<OKResult>
+				
+				me:AddMsg("[NAME]在切开石头时，突然一股强大的精神力冲击冲向了[NAME]的眉心。");
+				me:TriggerStory("BJTD");
+				me.npcObj.PropertyMgr:AddAge(1200);
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>天道。一颗看似普通的石头，但其中却又天道的气息不断流转。（1200寿命）</Display> 
+				<OKResult>
+				
+				me:AddMsg("[NAME]在切开石头时，突然一股强大的精神力冲击冲向了[NAME]的眉心。");
+				me:TriggerStory("TD");
+				me.npcObj.PropertyMgr:AddAge(1200);
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>道流。神奇地一颗石头，挖掘自星源瀑布，石头的形状但却在石头表面覆盖着液状的质感。（1200寿命）</Display> 
+				<OKResult>
+				
+				me:AddMsg("[NAME]在切开石头时，突然一股强大的精神力冲击冲向了[NAME]的眉心。");
+				me:TriggerStory("DL");
+				me.npcObj.PropertyMgr:AddAge(1200);
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>裂天断地。石头表面布满裂痕，但内蕴光华却又使其不曾真正地裂开，怪哉。（1200寿命）</Display> 
+				<OKResult>
+				
+				me:AddMsg("[NAME]在切开石头时，突然一股强大的精神力冲击冲向了[NAME]的眉心。");
+				me:TriggerStory("FS");
+				me.npcObj.PropertyMgr:AddAge(1200);
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>万纹山。据传是从太初古矿最高的山峰掉下来的，内蕴大量土属性的精华。（1200寿命）</Display> 
+				<OKResult>
+				
+				me:AddMsg("[NAME]在切开石头时，突然一股强大的精神力冲击冲向了[NAME]的眉心。");
+				me:TriggerStory("WW");
+				me.npcObj.PropertyMgr:AddAge(1200);
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>瑶池圣形。据传是从太初古矿最高的山峰掉下来的，内蕴大量水属性的精华。（1200寿命）</Display> 
+				<OKResult>
+				
+				me:AddMsg("[NAME]在切开石头时，突然一股强大的精神力冲击冲向了[NAME]的眉心。");
+				me:TriggerStory("YC");
+				me.npcObj.PropertyMgr:AddAge(1200);
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>狗屁字号石园，我要回去。</Display> 
+				<OKResult>
+					me:TriggerStory("TCSF");
+				</OKResult>
+			</li>
+			<li>
+				<Display>没命了要，不赌了，我要回去。</Display> 
+				<OKResult>
+					me:AddMsg("[NAME]仰天一声长叹，赌狗十赌九输，再也不赌了。");
+				</OKResult>
+			</li>
+			
+		</Selections>
+	</Story>
+	
+	<Story Name="BJTD"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]切开石头，意识飘散到了异界结点的一场赌局之中。赌局的规则如下[img]Spr\object\DS\JD.png[/img][size=12][color=#9400D3]代表着至阳之力，可以化解代表至阴之力[img]Spr\object\DS\BU.png[/img][size=12][color=#9400D3]的道力侵噬，但不敌[img]Spr\object\DS\ST.png[/img][size=12][color=#9400D3]的先天定力，而先天定力又受制与[img]Spr\object\DS\BU.png[/img][size=12][color=#9400D3]的至阴之力。\n赌局最高六轮轮，每轮玩家可选择一种道力作为自己的首发道力，若克制了对方道力则获胜。第一轮获胜获得一般奖励，可以选择继续，如若继续游戏失败则双倍惩罚并不获得奖励，第三轮开始失败会造成死亡。</Desc>
+		<Selections>
+			<li>
+				<Display>至阳之力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("ZYZL1");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>至阴之力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("ZYZL11");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>先天定力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("XTDL1");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display> 
+				<OKResult>me:AddMsg(XT("[NAME]想了想，赌博害人，还是赶紧离开吧消耗了寿元，就消耗了吧，买个教训。"));</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZYZL1"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了至阳之力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT2.."[size=12] 是先天定力，定住了[NAME]的至阳之力，[NAME]额头沁汗，身形不稳，被对手一个黑虎掏心给打出了石中赌局！[/size]\n[NAME]输了，损失了[color=#007FFF]1200寿元[/color]");me:TriggerStory("YCSF");
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT3.."[size=12] 是至阴之力，[NAME]心中冷哼，就你小样还想和我决一死战，源石的东西是我的了！[NAME]双手向虚空中轻轻一握，一道道至阳之力冲杀向对手，顷刻间对手便被打出了赌局！[/size]\n[NAME]赢得这轮赌局");me:TriggerStory("BJTD1");
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT1.."[size=12] 同样是至阳之力，[NAME]和对手大战三千回合，双方的实力不相伯仲，但谁也不让着谁，直到力竭！[/size]\n[NAME]和对手战了个平局，休息片刻继续再战");me:TriggerStory("BJTD");me.npcObj.PropertyMgr:AddAge(200);
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="XTDL1"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了先天定力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT2.."[size=12] 同样是先天定力，[NAME]脸色变得不大好看，无奈之下只得与对方大战三万回合，而后不分胜负累到趴下！[/size]\n[NAME]与对手堪堪平局，休息片刻再战");me:TriggerStory("BJTD");me.npcObj.PropertyMgr:AddAge(200);
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT3.."[size=12] 是至阴之力，[NAME]暗道不好，但是对手攻势逼人，已经打到面门，不得不妨，但终是未能敌过，被打出了赌局，同时白白损失了寿元[color=#007FFF]1200寿元[/color]");me:TriggerStory("YCSF");
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT1.."[size=12] 居然是至阳之力，[NAME]一阵暗喜，手中的道力威势更是不断攀升，一道定力打出，打的对手难以支撑瞬间取胜！[/size]\n[NAME]赢得了赌局");me:TriggerStory("BJTD1");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZYZL11"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了至阴之力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT2.."[size=12] 是先天定力，[NAME]不禁喜上眉稍，只见[NAME]运转至阴之力，缓缓侵噬着对手的定力，最终在对手一个疏忽之际，一招制敌！[/size]\n[NAME]赢得了赌局");me:TriggerStory("BJTD1");
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT3.."[size=12] 同样是至阴之力，[NAME]与对手拉开了极致操作，双方同样是骚操作，但是谁也奈何不了谁，最终都累得趴在了原地！[/size]\n[NAME]和对手战了个平局，休息片刻继续再战");me:TriggerStory("BJTD");me.npcObj.PropertyMgr:AddAge(200);
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT1.."[size=12] 是至阳之力，[NAME]和对手大战三千回合，但是[NAME]渐渐招架不住对手的猛烈攻势，最终一招之差被打出了赌局！[/size]\n[NAME]输了，白白损失了[color=#007FFF]1200寿元[/color]");me:TriggerStory("YCSF");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="BJTD1"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]获得了胜利，现在到了抉择的时刻了，是拿了东西就走还是搏一搏单车变摩托？</Desc>
+		<Selections>
+			<li>
+				<Display>继续赌局。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 2405 then
+					me:AddMsg("[NAME]连两千四百零五寿元都没有就想变摩托？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					else
+					me:TriggerStory("BJTD_1");
+					end
+
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>拿了奖励走人。</Display> 
+				<OKResult><![CDATA[
+					me:DropAwardItem("Item_Dan_IncreaseLife3",4);me:DropAwardItem("Item_WDCY",1);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2",8);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown1",4);me:DropAwardItem("Item_Dan_IncreaseLife5",2);
+					]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="BJTD_1"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]切开石头，意识飘散到了异界结点的一场赌局之中。赌局的规则如下[img]Spr\object\DS\JD.png[/img][size=12][color=#9400D3]代表着至阳之力，可以化解代表至阴之力[img]Spr\object\DS\BU.png[/img][size=12][color=#9400D3]的道力侵噬，但不敌[img]Spr\object\DS\ST.png[/img][size=12][color=#9400D3]的先天定力，而先天定力又受制与[img]Spr\object\DS\BU.png[/img][size=12][color=#9400D3]的至阴之力。\n赌局最高六轮轮，每轮玩家可选择一种道力作为自己的首发道力，若克制了对方道力则获胜。第一轮获胜获得一般奖励，如果该轮内平局则在该轮内继续每次平局重开消耗200寿元，获胜可以选择继续，如若继续游戏失败则双倍惩罚并不获得奖励，第三轮开始失败会造成死亡。</Desc>
+		<Selections>
+			<li>
+				<Display>至阳之力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("ZYZL2");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>至阴之力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("ZYZL12");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>先天定力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("XTDL2");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display> 
+				<OKResult>me:AddMsg(XT("[NAME]想了想，赌博害人，还是赶紧离开吧消耗了寿元，就消耗了吧，买个教训。"));</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZYZL2"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了至阳之力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT2.."[size=12] 是先天定力，定住了[NAME]的至阳之力，[NAME]额头沁汗，身形不稳，被对手一个黑虎掏心给打出了石中赌局！[/size]\n[NAME]输了，损失了[color=#007FFF]1200寿元[/color]");me:TriggerStory("YCSF");me.npcObj.PropertyMgr:AddAge(1200);
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT3.."[size=12] 是至阴之力，[NAME]心中冷哼，就你小样还想和我决一死战，源石的东西是我的了！[NAME]双手向虚空中轻轻一握，一道道至阳之力冲杀向对手，顷刻间对手便被打出了赌局！[/size]\n[NAME]赢得这轮赌局");me:TriggerStory("BJTD2");
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT1.."[size=12] 同样是至阳之力，[NAME]和对手大战三千回合，双方的实力不相伯仲，但谁也不让着谁，直到力竭！[/size]\n[NAME]和对手战了个平局，休息片刻继续再战");me:TriggerStory("BJTD_1");me.npcObj.PropertyMgr:AddAge(200);
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="XTDL2"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了先天定力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT2.."[size=12] 同样是先天定力，[NAME]脸色变得不大好看，无奈之下只得与对方大战三万回合，而后不分胜负累到趴下！[/size]\n[NAME]与对手堪堪平局，休息片刻再战[color=#007FFF]1200寿元[/color]");me:TriggerStory("BJTD_1");me.npcObj.PropertyMgr:AddAge(200);
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT3.."[size=12] 是至阴之力，[NAME]暗道不好，但是对手攻势逼人，已经打到面门，不得不妨，但终是未能敌过，被打出了赌局");me:TriggerStory("YCSF");me.npcObj.PropertyMgr:AddAge(1200);
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT1.."[size=12] 居然是至阳之力，[NAME]一阵暗喜，手中的道力威势更是不断攀升，一道定力打出，打的对手难以支撑瞬间取胜！[/size]\n[NAME]赢得了赌局");me:TriggerStory("BJTD2");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZYZL12"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了至阴之力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT2.."[size=12] 是先天定力，[NAME]不禁喜上眉稍，只见[NAME]运转至阴之力，缓缓侵噬着对手的定力，最终在对手一个疏忽之际，一招制敌！[/size]\n[NAME]赢得了赌局");me:TriggerStory("BJTD2");
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT3.."[size=12] 同样是至阴之力，[NAME]与对手拉开了极致操作，双方同样是骚操作，但是谁也奈何不了谁，最终都累得趴在了原地！[/size]\n[NAME]和对手战了个平局，休息片刻继续再战");me:TriggerStory("BJTD_1");me.npcObj.PropertyMgr:AddAge(200);
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT1.."[size=12] 是至阳之力，[NAME]和对手大战三千回合，但是[NAME]渐渐招架不住对手的猛烈攻势，最终一招之差被打出了赌局！[/size]\n[NAME]输了，白白损失了[color=#007FFF]1200寿元[/color]");me:TriggerStory("YCSF");me.npcObj.PropertyMgr:AddAge(1200);
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	<Story Name="BJTD2"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]获得了胜利，现在到了抉择的时刻了，是拿了东西就走还是搏一搏单车变摩托？</Desc>
+		<Selections>
+			<li>
+				<Display>继续赌局。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 3605 then
+					me:AddMsg("[NAME]连三千零五寿元都没有就想变摩托？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					else
+					me:TriggerStory("BJTD_2");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>拿了奖励走人。</Display> 
+				<OKResult><![CDATA[
+					me:DropAwardItem("Item_Dan_IncreaseLife3",6);me:DropAwardItem("Item_WDCY",1);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2",12);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown1",6);me:DropAwardItem("Item_Dan_IncreaseLife5",3);
+					]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="BJTD_2"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]切开石头，意识飘散到了异界结点的一场赌局之中。赌局的规则如下[img]Spr\object\DS\JD.png[/img][size=12][color=#9400D3]代表着至阳之力，可以化解代表至阴之力[img]Spr\object\DS\BU.png[/img][size=12][color=#9400D3]的道力侵噬，但不敌[img]Spr\object\DS\ST.png[/img][size=12][color=#9400D3]的先天定力，而先天定力又受制与[img]Spr\object\DS\BU.png[/img][size=12][color=#9400D3]的至阴之力。\n赌局最高六轮轮，每轮玩家可选择一种道力作为自己的首发道力，若克制了对方道力则获胜。第一轮获胜获得一般奖励，可以选择继续，如若继续游戏失败则双倍惩罚并不获得奖励，第三轮开始失败会造成死亡。</Desc>
+		<Selections>
+			<li>
+				<Display>至阳之力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("ZYZL3");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>至阴之力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("ZYZL13");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>先天定力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("XTDL3");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display> 
+				<OKResult>me:AddMsg(XT("[NAME]想了想，赌博害人，还是赶紧离开吧消耗了寿元，就消耗了吧，买个教训。"));</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZYZL3"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了至阳之力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT2.."[size=12] 是先天定力，定住了[NAME]的至阳之力，[NAME]额头沁汗，身形不稳，被对手一个黑虎掏心给打出了石中赌局！[/size]\n[NAME]输了，损失了[color=#007FFF]1200寿元[/color]");me:TriggerStory("YCSF");me.npcObj.PropertyMgr:AddAge(2400);
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT3.."[size=12] 是至阴之力，[NAME]心中冷哼，就你小样还想和我决一死战，源石的东西是我的了！[NAME]双手向虚空中轻轻一握，一道道至阳之力冲杀向对手，顷刻间对手便被打出了赌局！[/size]\n[NAME]赢得这轮赌局");me:TriggerStory("BJTD3");
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT1.."[size=12] 同样是至阳之力，[NAME]和对手大战三千回合，双方的实力不相伯仲，但谁也不让着谁，直到力竭！[/size]\n[NAME]和对手战了个平局，休息片刻继续再战");me:TriggerStory("BJTD_2");me.npcObj.PropertyMgr:AddAge(200);
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="XTDL3"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了先天定力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT2.."[size=12] 同样是先天定力，[NAME]脸色变得不大好看，无奈之下只得与对方大战三万回合，而后不分胜负累到趴下！[/size]\n[NAME]与对手堪堪平局，休息片刻再战[color=#007FFF]1200寿元[/color]");me:TriggerStory("BJTD_2");me.npcObj.PropertyMgr:AddAge(200);
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT3.."[size=12] 是至阴之力，[NAME]暗道不好，但是对手攻势逼人，已经打到面门，不得不妨，但终是未能敌过，被打出了赌局");me:TriggerStory("YCSF");me.npcObj.PropertyMgr:AddAge(2400);
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT1.."[size=12] 居然是至阳之力，[NAME]一阵暗喜，手中的道力威势更是不断攀升，一道定力打出，打的对手难以支撑瞬间取胜！[/size]\n[NAME]赢得了赌局");me:TriggerStory("BJTD3");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZYZL13"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了至阴之力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT2.."[size=12] 是先天定力，[NAME]不禁喜上眉稍，只见[NAME]运转至阴之力，缓缓侵噬着对手的定力，最终在对手一个疏忽之际，一招制敌！[/size]\n[NAME]赢得了赌局");me:TriggerStory("BJTD3");
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT3.."[size=12] 同样是至阴之力，[NAME]与对手拉开了极致操作，双方同样是骚操作，但是谁也奈何不了谁，最终都累得趴在了原地！[/size]\n[NAME]和对手战了个平局，休息片刻继续再战");me:TriggerStory("BJTD_2");me.npcObj.PropertyMgr:AddAge(200);
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT1.."[size=12] 是至阳之力，[NAME]和对手大战三千回合，但是[NAME]渐渐招架不住对手的猛烈攻势，最终一招之差被打出了赌局！[/size]\n[NAME]输了，白白损失了[color=#007FFF]1200寿元[/color]");me:TriggerStory("YCSF");me.npcObj.PropertyMgr:AddAge(2400);
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="BJTD3"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]获得了胜利，现在到了抉择的时刻了，是拿了东西就走还是搏一搏单车变摩托？</Desc>
+		<Selections>
+			<li>
+				<Display>继续赌局。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 4805 then
+					me:AddMsg("[NAME]连四千八百零五寿元都没有就想变摩托？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					else
+					me:TriggerStory("BJTD_3");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>拿了奖励走人。</Display> 
+				<OKResult><![CDATA[
+					me:DropAwardItem("Item_Dan_IncreaseLife3",10);me:DropAwardItem("Item_WDCY",2);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2",18);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown1",10);me:DropAwardItem("Item_Dan_IncreaseLife5",6);
+					]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="BJTD_3"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]切开石头，意识飘散到了异界结点的一场赌局之中。赌局的规则如下[img]Spr\object\DS\JD.png[/img][size=12][color=#9400D3]代表着至阳之力，可以化解代表至阴之力[img]Spr\object\DS\BU.png[/img][size=12][color=#9400D3]的道力侵噬，但不敌[img]Spr\object\DS\ST.png[/img][size=12][color=#9400D3]的先天定力，而先天定力又受制与[img]Spr\object\DS\BU.png[/img][size=12][color=#9400D3]的至阴之力。\n赌局最高六轮轮，每轮玩家可选择一种道力作为自己的首发道力，若克制了对方道力则获胜。第一轮获胜获得一般奖励，可以选择继续，如若继续游戏失败则双倍惩罚并不获得奖励，第三轮开始失败会造成死亡。</Desc>
+		<Selections>
+			<li>
+				<Display>至阳之力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("ZYZL4");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>至阴之力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("ZYZL14");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>先天定力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("XTDL4");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display> 
+				<OKResult>me:AddMsg(XT("[NAME]想了想，赌博害人，还是赶紧离开吧消耗了寿元，就消耗了吧，买个教训。"));</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZYZL4"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了至阳之力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT2.."[size=12] 是先天定力，定住了[NAME]的至阳之力，[NAME]额头沁汗，身形不稳，被对手一个黑虎掏心给打出了石中赌局！[/size]\n[NAME]输了，损失了[color=#007FFF]4800寿元[/color]");me:TriggerStory("YCSF");me.npcObj.PropertyMgr:AddAge(3600);me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT3.."[size=12] 是至阴之力，[NAME]心中冷哼，就你小样还想和我决一死战，源石的东西是我的了！[NAME]双手向虚空中轻轻一握，一道道至阳之力冲杀向对手，顷刻间对手便被打出了赌局！[/size]\n[NAME]赢得这轮赌局");me:TriggerStory("BJTD4");
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT1.."[size=12] 同样是至阳之力，[NAME]和对手大战三千回合，双方的实力不相伯仲，但谁也不让着谁，直到力竭！[/size]\n[NAME]和对手战了个平局，休息片刻继续再战");me:TriggerStory("BJTD_3");me.npcObj.PropertyMgr:AddAge(200);
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="XTDL4"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了先天定力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT2.."[size=12] 同样是先天定力，[NAME]脸色变得不大好看，无奈之下只得与对方大战三万回合，而后不分胜负累到趴下！[/size]\n[NAME]与对手堪堪平局，休息片刻再战");me:TriggerStory("BJTD_3");me.npcObj.PropertyMgr:AddAge(200);
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT3.."[size=12] 是至阴之力，[NAME]暗道不好，但是对手攻势逼人，已经打到面门，不得不妨，但终是未能敌过，被打出了赌局");me:TriggerStory("YCSF");me.npcObj.PropertyMgr:AddAge(3600);
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT1.."[size=12] 居然是至阳之力，[NAME]一阵暗喜，手中的道力威势更是不断攀升，一道定力打出，打的对手难以支撑瞬间取胜！[/size]\n[NAME]赢得了赌局");me:TriggerStory("BJTD4");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZYZL14"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了至阴之力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT2.."[size=12] 是先天定力，[NAME]不禁喜上眉稍，只见[NAME]运转至阴之力，缓缓侵噬着对手的定力，最终在对手一个疏忽之际，一招制敌！[/size]\n[NAME]赢得了赌局");me:TriggerStory("BJTD4");
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT3.."[size=12] 同样是至阴之力，[NAME]与对手拉开了极致操作，双方同样是骚操作，但是谁也奈何不了谁，最终都累得趴在了原地！[/size]\n[NAME]和对手战了个平局，休息片刻继续再战");me:TriggerStory("BJTD_3");me.npcObj.PropertyMgr:AddAge(200);
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT1.."[size=12] 是至阳之力，[NAME]和对手大战三千回合，但是[NAME]渐渐招架不住对手的猛烈攻势，最终一招之差被打出了赌局！[/size]\n[NAME]输了，白白损失了[color=#007FFF]4800寿元[/color]");me:TriggerStory("YCSF");me.npcObj.PropertyMgr:AddAge(3600);
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="BJTD4"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]获得了胜利，现在到了抉择的时刻了，是拿了东西就走还是搏一搏单车变摩托？</Desc>
+		<Selections>
+			<li>
+				<Display>继续赌局。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 6005 then
+					me:AddMsg("[NAME]连六千零五寿元都没有就想变摩托？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					else
+					me:TriggerStory("BJTD_4");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>拿了奖励走人。</Display> 
+				<OKResult><![CDATA[
+					me:DropAwardItem("Item_Dan_IncreaseLife3",16);me:DropAwardItem("Item_WDCY",3);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2",24);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown1",16);me:DropAwardItem("Item_Dan_IncreaseLife5",10);
+					]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="BJTD_4"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]切开石头，意识飘散到了异界结点的一场赌局之中。赌局的规则如下[img]Spr\object\DS\JD.png[/img][size=12][color=#9400D3]代表着至阳之力，可以化解代表至阴之力[img]Spr\object\DS\BU.png[/img][size=12][color=#9400D3]的道力侵噬，但不敌[img]Spr\object\DS\ST.png[/img][size=12][color=#9400D3]的先天定力，而先天定力又受制与[img]Spr\object\DS\BU.png[/img][size=12][color=#9400D3]的至阴之力。\n赌局最高六轮轮，每轮玩家可选择一种道力作为自己的首发道力，若克制了对方道力则获胜。第一轮获胜获得一般奖励，可以选择继续，如若继续游戏失败则双倍惩罚并不获得奖励，第三轮开始失败会造成死亡。</Desc>
+		<Selections>
+			<li>
+				<Display>至阳之力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("ZYZL5");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>至阴之力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("ZYZL15");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>先天定力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("XTDL5");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display> 
+				<OKResult>me:AddMsg(XT("[NAME]想了想，赌博害人，还是赶紧离开吧消耗了寿元，就消耗了吧，买个教训。"));</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZYZL5"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了至阳之力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT2.."[size=12] 是先天定力，定住了[NAME]的至阳之力，[NAME]额头沁汗，身形不稳，被对手一个黑虎掏心给打出了石中赌局！[/size]\n[NAME]输了，损失了[color=#007FFF]6000寿元[/color]");me:TriggerStory("YCSF");me.npcObj.PropertyMgr:AddAge(4800);me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT3.."[size=12] 是至阴之力，[NAME]心中冷哼，就你小样还想和我决一死战，源石的东西是我的了！[NAME]双手向虚空中轻轻一握，一道道至阳之力冲杀向对手，顷刻间对手便被打出了赌局！[/size]\n[NAME]赢得这轮赌局");me:TriggerStory("BJTD5");
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT1.."[size=12] 同样是至阳之力，[NAME]和对手大战三千回合，双方的实力不相伯仲，但谁也不让着谁，直到力竭！[/size]\n[NAME]和对手战了个平局，休息片刻继续再战");me:TriggerStory("BJTD_4");me.npcObj.PropertyMgr:AddAge(200);
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="XTDL5"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了先天定力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT2.."[size=12] 同样是先天定力，[NAME]脸色变得不大好看，无奈之下只得与对方大战三万回合，而后不分胜负累到趴下！[/size]\n[NAME]与对手堪堪平局，休息片刻再战");me:TriggerStory("BJTD_4");me.npcObj.PropertyMgr:AddAge(200);
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT3.."[size=12] 是至阴之力，[NAME]暗道不好，但是对手攻势逼人，已经打到面门，不得不妨，但终是未能敌过，被打出了赌局");me:TriggerStory("YCSF");me.npcObj.PropertyMgr:AddAge(4800);me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT1.."[size=12] 居然是至阳之力，[NAME]一阵暗喜，手中的道力威势更是不断攀升，一道定力打出，打的对手难以支撑瞬间取胜！[/size]\n[NAME]赢得了赌局");me:TriggerStory("BJTD5");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZYZL15"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了至阴之力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT2.."[size=12] 是先天定力，[NAME]不禁喜上眉稍，只见[NAME]运转至阴之力，缓缓侵噬着对手的定力，最终在对手一个疏忽之际，一招制敌！[/size]\n[NAME]赢得了赌局");me:TriggerStory("BJTD5");
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT3.."[size=12] 同样是至阴之力，[NAME]与对手拉开了极致操作，双方同样是骚操作，但是谁也奈何不了谁，最终都累得趴在了原地！[/size]\n[NAME]和对手战了个平局，休息片刻继续再战");me:TriggerStory("BJTD_4");me.npcObj.PropertyMgr:AddAge(200);
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT1.."[size=12] 是至阳之力，[NAME]和对手大战三千回合，但是[NAME]渐渐招架不住对手的猛烈攻势，最终一招之差被打出了赌局！[/size]\n[NAME]输了，白白损失了[color=#007FFF]6000寿元[/color]");me:TriggerStory("YCSF");me.npcObj.PropertyMgr:AddAge(4800);me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="BJTD5"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]获得了胜利，现在到了抉择的时刻了，是拿了东西就走还是搏一搏单车变摩托？</Desc>
+		<Selections>
+			<li>
+				<Display>继续赌局。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 7205 then
+					me:AddMsg("[NAME]连七千二零五寿元都没有就想变摩托？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					else
+					me:TriggerStory("BJTD_5");
+					end
+					]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>拿了奖励走人。</Display> 
+				<OKResult><![CDATA[
+					me:DropAwardItem("Item_Dan_IncreaseLife3",16);me:DropAwardItem("Item_WDCY",3);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2",24);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown1",16);me:DropAwardItem("Item_Dan_IncreaseLife5",10);
+					]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="BJTD_5"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]切开石头，意识飘散到了异界结点的一场赌局之中。赌局的规则如下[img]Spr\object\DS\JD.png[/img][size=12][color=#9400D3]代表着至阳之力，可以化解代表至阴之力[img]Spr\object\DS\BU.png[/img][size=12][color=#9400D3]的道力侵噬，但不敌[img]Spr\object\DS\ST.png[/img][size=12][color=#9400D3]的先天定力，而先天定力又受制与[img]Spr\object\DS\BU.png[/img][size=12][color=#9400D3]的至阴之力。\n赌局最高六轮轮，每轮玩家可选择一种道力作为自己的首发道力，若克制了对方道力则获胜。第一轮获胜获得一般奖励，可以选择继续，如若继续游戏失败则双倍惩罚并不获得奖励，第三轮开始失败会造成死亡。</Desc>
+		<Selections>
+			<li>
+				<Display>至阳之力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("ZYZL6");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>至阴之力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("ZYZL16");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>先天定力。</Display> 
+				<OKResult><![CDATA[
+					local SM = me:GetProperty("MaxAge");
+					local NL = me.npcObj.Age
+					local nY = math.ceil(SM - NL)
+					local num600 = nY
+					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					if nY <= 200 then
+					me:AddMsg("[NAME]连保底寿元都没有还想继续？打残你这货！");
+					me:AddDamage("DiffEnergyInvade","LowerElixirField",1,XT("被人围殴"));
+					me:AddDamage("Cut2","Genitals",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","RightRibs3",1,XT("被人暴打"));
+					me:AddDamage("Fracture4","Skull",0.9,XT("被人暴打"));
+					me:AddDamage("Mu_Corrosion","RightRibs3",1,XT("被人暴打"));
+					
+					else
+					me:TriggerStory("XTDL6");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display> 
+				<OKResult>me:AddMsg(XT("[NAME]想了想，赌博害人，还是赶紧离开吧消耗了寿元，就消耗了吧，买个教训。"));</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZYZL6"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了至阳之力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT2.."[size=12] 是先天定力，定住了[NAME]的至阳之力，[NAME]额头沁汗，身形不稳，被对手一个黑虎掏心给打出了石中赌局！[/size]\n[NAME]输了，损失了[color=#007FFF]1200寿元[/color]");me:TriggerStory("YCSF");me.npcObj.PropertyMgr:AddAge(6000);me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT3.."[size=12] 是至阴之力，[NAME]心中冷哼，就你小样还想和我决一死战，源石的东西是我的了！[NAME]双手向虚空中轻轻一握，一道道至阳之力冲杀向对手，顷刻间对手便被打出了赌局！[/size]\n[NAME]赢得这轮赌局");me:TriggerStory("BJTD6");
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阳之力\n对手打出了————"..SZT1.."[size=12] 同样是至阳之力，[NAME]和对手大战三千回合，双方的实力不相伯仲，但谁也不让着谁，直到力竭！[/size]\n[NAME]和对手战了个平局，休息片刻继续再战");me:TriggerStory("BJTD_5");me.npcObj.PropertyMgr:AddAge(200);
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="XTDL6"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了先天定力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT2.."[size=12] 同样是先天定力，[NAME]脸色变得不大好看，无奈之下只得与对方大战三万回合，而后不分胜负累到趴下！[/size]\n[NAME]与对手堪堪平局，休息片刻再战[color=#007FFF]1200寿元[/color]");me:TriggerStory("BJTD_5");me.npcObj.PropertyMgr:AddAge(200);
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT3.."[size=12] 是至阴之力，[NAME]暗道不好，但是对手攻势逼人，已经打到面门，不得不妨，但终是未能敌过，被打出了赌局");me:TriggerStory("YCSF");me.npcObj.PropertyMgr:AddAge(6000);me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着先天定力\n对手打出了————"..SZT1.."[size=12] 居然是至阳之力，[NAME]一阵暗喜，手中的道力威势更是不断攀升，一道定力打出，打的对手难以支撑瞬间取胜！[/size]\n[NAME]赢得了赌局");me:TriggerStory("BJTD6");
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZYZL16"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]选择了至阴之力作为自己的道力。</Desc>
+		<Selections>
+			<li>
+				<Display>开启赌局。</Display> 
+				<OKResult><![CDATA[
+					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
+					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
+					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
+				
+					
+					local nR = me:RandomInt(1, 4);
+					if nR == 3 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT2.."[size=12] 是先天定力，[NAME]不禁喜上眉稍，只见[NAME]运转至阴之力，缓缓侵噬着对手的定力，最终在对手一个疏忽之际，一招制敌！[/size]\n[NAME]赢得了赌局");me:TriggerStory("BJTD6");
+					elseif nR == 2 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT3.."[size=12] 同样是至阴之力，[NAME]与对手拉开了极致操作，双方同样是骚操作，但是谁也奈何不了谁，最终都累得趴在了原地！[/size]\n[NAME]和对手战了个平局，休息片刻继续再战");me:TriggerStory("BJTD_5");me.npcObj.PropertyMgr:AddAge(200);
+					elseif nR == 1 then
+					me:AddMsg("[NAME]和对手同时发出道力，[NAME]周身缠绕着至阴之力\n对手打出了————"..SZT1.."[size=12] 是至阳之力，[NAME]和对手大战三千回合，但是[NAME]渐渐招架不住对手的猛烈攻势，最终一招之差被打出了赌局！[/size]\n[NAME]输了，白白损失了[color=#007FFF]1200寿元[/color]");me:TriggerStory("YCSF");me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));me.npcObj.PropertyMgr:AddAge(6000);
+				end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="BJTD6"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]获得最后一局的胜利，现在到了收获的时刻了，拿了东西就走吧。别再来了。</Desc>
+		<Selections>
+			
+			<li>
+				<Display>拿了奖励走人。</Display> 
+				<OKResult><![CDATA[
+					me:DropAwardItem("Item_Dan_IncreaseLife3",32);me:DropAwardItem("Item_WDCY",6);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2",48);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown1",32);me:DropAwardItem("Item_Dan_IncreaseLife5",20);
+					]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	
+	<Story Name="ZT1"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]切开石头，意识飘散到了异界结点的一场赌局之中。赌局的规则如下开局双方获得两张道韵，一张明韵一张暗韵，1点可当做11点算（由你自己决定怎么使用），其余2至10点按牌面大小算，开局前两张道韵若是1和10则获得仙域，如果对方没有1和10则直接获得最高奖励，如果对方明韵是1，则可考虑买保险，保险寿元为切石所需寿元一般的数值，如果是仙域，则取回保险寿元并直接获得最高奖励，如果对方不是仙域，则继续赌局，没获得仙域的玩家可继续要韵，将手中的道韵向21点靠近，若玩家要的道韵超过21点则直接扣除双倍切石所需寿元，并结束赌局，假如没有超过，又决定不再要道韵，两方进行比大小。</Desc>
+		<Selections>
+			<li>
+				<Display>发道韵吧。</Display> 
+				<OKResult><![CDATA[
+					local tN = {1,2,3,4,5,6,7,8,9,10};
+					local nR = me:RandomInt(1,(#tN+1));
+					local nQ = tN[nR];
+					world:SetWorldFlag(167,nQ);
+					table.remove(tN,nR);
+					nR = me:RandomInt(1,(#tN+1));
+					nQ = tN[nR];
+					world:SetWorldFlag(166,nQ);
+					local tJ = {1,2,3,4,5,6,7,8,9,10};
+					local nH = me:RandomInt(1,(#tN+1));
+					local nG = tN[nR];
+					world:SetWorldFlag(168,nG);
+					table.remove(tJ,nH);
+					nH = me:RandomInt(1,(#tJ+1));
+					nG = tJ[nH];
+					world:SetWorldFlag(169,nG);
+					local num166 = world:GetWorldFlag(166)
+					local num167 = world:GetWorldFlag(167)
+					local num168 = world:GetWorldFlag(168)
+					local num169 = world:GetWorldFlag(169)
+					me:AddMsg(string.format(XT("[NAME]抽到的两张道韵分别为：%s,%s。"), tostring(num166), tostring(num167)));
+					me:AddMsg(string.format(XT("对家抽到的明蕴为：%s。"), tostring(num168)));
+					if num166 == 1 and num167 == 10 then
+						me:TriggerStory("XY");
+					elseif num166 == 10 and num167 == 1 then
+						me:TriggerStory("XY");
+					else
+						me:TriggerStory("JXDJ");
+					end
+				]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>离开</Display> 
+				<OKResult>me:AddMsg(XT("[NAME]想了想，赌博害人，还是赶紧离开吧消耗了寿元，就消耗了吧，买个教训。"));</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+		
+	<Story Name="XY"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]抽中了仙域，如果对方没有仙域则直接获得最高奖励，如果对方的明韵是1或10，则可考虑买保险，保险寿元为切石所需寿元一般的数值，如果是对方是仙域，则取回保险寿元并直接获得最高奖励，如果对方不是仙域，则继续赌局</Desc>
+		<Selections>
+			<li>
+				<Display>仙域都有了我还怕个锤锤</Display> 
+				<OKResult><![CDATA[
+					if num168 == 1 and num169 ==10 then
+						me:AddMsg("[NAME]这么嚣张？却是没想到对手真的也是仙域。赔个精光一无所有。");
+					elseif num168 == 10 and num169 == 1 then
+					me:AddMsg("[NAME]这么嚣张？却是没想到对手真的也是仙域。赔个精光一无所有。");
+					else
+						me:AddMsg("[NAME]赢了，获得了双倍奖励。");me:DropAwardItem("Item_WSXXY",2);me:DropAwardItem("Item_MiBao_TuFabao",2);me:DropAwardItem("Item_MiBao_JinLianShenZuo",2);
+						me:DropAwardItem("Item_WSXSY",30);me:DropAwardItem("Item_WSXY",50);me:DropAwardItem("Item_DJHJ",2);me:DropAwardItem("Item_QieDaoGuo",4);me:TriggerStory("TCSF");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>对方明韵有1或10，买个保险吧。</Display> 
+				<OKResult><![CDATA[
+					if num168 == 1 and num169 ==10 then
+						me:AddMsg("[NAME]看到了对方亮出的仙域，心中一阵感叹，还好留了个底，差点底裤都赔进去了。");
+					elseif num168 == 10 and num169 == 1 then
+						me:AddMsg("[NAME]看到了对方亮出的仙域，心中一阵感叹，还好留了个底，差点底裤都赔进去了。");
+					else
+						me:AddMsg("[NAME]赢了获得了一般奖励。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					end
+				]]></OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="JXDJ"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]继续了赌局，不知道[NAME]打算如何是好。</Desc>
+		<Selections>
+			<li>
+				<Display>给我道韵</Display> 
+				<OKResult><![CDATA[
+					local tN = {1,2,3,4,5,6,7,8,9,10};
+					local nR = me:RandomInt(1,(#tN+1));
+					local nQ = tN[nR];
+					world:SetWorldFlag(177,nQ);
+					
+					local tJ = {1,2,3,4,5,6,7,8,9,10};
+					local nH = me:RandomInt(1,(#tN+1));
+					local nG = tN[nR];
+					world:SetWorldFlag(178,nG);
+					
+					local num166 = world:GetWorldFlag(166)
+					local num167 = world:GetWorldFlag(167)
+					local num168 = world:GetWorldFlag(168)
+					local num169 = world:GetWorldFlag(169)
+					local num177 = world:GetWorldFlag(177)
+					local num178 = world:GetWorldFlag(178)
+					
+					me:AddMsg(string.format(XT("[NAME]抽到的三张道韵分别为：%s,%s,%s。"), tostring(num166), tostring(num167), tostring(num177)));
+					me:AddMsg(string.format(XT("对家抽到的两张明蕴为：%s,%s"), tostring(num168), tostring(num169)));
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169))
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获得了石中之物。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else 
+						me:TriggerStory("JXDJ1");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + 10)
+					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 then
+						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
+						me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+						nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167))
+					
+					else
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169))
+					if world:GetWorldFlag(168) == 1 or world:GetWorldFlag(169) == 1 then
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + 10)
+							if math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + 10) > 21 then
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169))
+							else 
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + 10)
+							end
+					else
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169))
+					end
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获得了石中之物。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					elseif nT >= nY then
+						me:AddMsg("[NAME]赢了获得了一般奖励。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");
+					end
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>直接开牌吧</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169))
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if num168 == 1 and num169 ==10 then
+						me:AddMsg("[NAME]这么嚣张？却是没想到对手居然是仙域。赔个精光一无所有。");
+					elseif num168 == 10 and num169 == 1 then
+					me:AddMsg("[NAME]这么嚣张？却是没想到对手真居然是仙域。赔个精光一无所有。");
+					elseif  nT >= nY then
+						me:AddMsg("[NAME]赢了获得了一般奖励。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");
+						
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="JXDJ1"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]继续了赌局，不知道[NAME]打算如何是好。。</Desc>
+		<Selections>
+			<li>
+				<Display>给我道韵</Display> 
+				<OKResult><![CDATA[
+					local tN = {1,2,3,4,5,6,7,8,9,10};
+					local nR = me:RandomInt(1,(#tN+1));
+					local nQ = tN[nR];
+					world:SetWorldFlag(187,nQ);
+					
+					local tJ = {1,2,3,4,5,6,7,8,9,10};
+					local nH = me:RandomInt(1,(#tN+1));
+					local nG = tN[nR];
+					world:SetWorldFlag(188,nG);
+					
+					local num166 = world:GetWorldFlag(166)
+					local num167 = world:GetWorldFlag(167)
+					local num168 = world:GetWorldFlag(168)
+					local num169 = world:GetWorldFlag(169)
+					local num177 = world:GetWorldFlag(177)
+					local num178 = world:GetWorldFlag(178)
+					local num187 = world:GetWorldFlag(187)
+					local num188 = world:GetWorldFlag(188)
+					
+					me:AddMsg(string.format(XT("[NAME]抽到的四张道韵分别为：%s,%s,%s,%s。"), tostring(num166), tostring(num167), tostring(num177), tostring(num187)));
+					me:AddMsg(string.format(XT("对家抽到的三张明蕴为：%s,%s,%s"), tostring(num168), tostring(num169), tostring(num178)));
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178))
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获得了石中之物。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else 
+						me:TriggerStory("JXDJ2");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + 10)
+					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 then
+						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
+						me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+						nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177))
+					else
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178))
+					if world:GetWorldFlag(168) == 1 or world:GetWorldFlag(169) == 1 or world:GetWorldFlag(178) == 1 then
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + 10)
+							if math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + 10) > 21 then
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178))
+							else 
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + 10)
+							end
+					else
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178))
+					end
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获得了石中之物。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					elseif nT >= nY then
+						me:AddMsg("[NAME]赢了获得了一般奖励。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");
+					end
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>直接开牌吧</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178))
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= nY then
+						me:AddMsg("[NAME]赢了获得了一般奖励。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");
+						
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="JXDJ2"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]继续了赌局，不知道[NAME]打算如何是好。。</Desc>
+		<Selections>
+			<li>
+				<Display>给我道韵</Display> 
+				<OKResult><![CDATA[
+					local tN = {1,2,3,4,5,6,7,8,9,10};
+					local nR = me:RandomInt(1,(#tN+1));
+					local nQ = tN[nR];
+					world:SetWorldFlag(197,nQ);
+					
+					local tJ = {1,2,3,4,5,6,7,8,9,10};
+					local nH = me:RandomInt(1,(#tN+1));
+					local nG = tN[nR];
+					world:SetWorldFlag(198,nG);
+					
+					local num166 = world:GetWorldFlag(166)
+					local num167 = world:GetWorldFlag(167)
+					local num168 = world:GetWorldFlag(168)
+					local num169 = world:GetWorldFlag(169)
+					local num177 = world:GetWorldFlag(177)
+					local num178 = world:GetWorldFlag(178)
+					local num187 = world:GetWorldFlag(187)
+					local num188 = world:GetWorldFlag(188)
+					local num197 = world:GetWorldFlag(197)
+					local num198 = world:GetWorldFlag(198)
+					
+					me:AddMsg(string.format(XT("[NAME]抽到的五张道韵分别为：%s,%s,%s,%s,%s。"), tostring(num166), tostring(num167), tostring(num177), tostring(num187), tostring(num197)));
+					me:AddMsg(string.format(XT("对家抽到的四张明蕴为：%s,%s,%s,%s。"), tostring(num168), tostring(num169), tostring(num178), tostring(num188)));
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188))
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.7,XT("神识炸裂"));
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获得了石中之物。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else 
+						me:TriggerStory("JXDJ3");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + 10)
+					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 then
+						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
+						me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+						nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187))
+					else
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188))
+					if world:GetWorldFlag(168) == 1 or world:GetWorldFlag(169) == 1 or world:GetWorldFlag(178) == 1 or world:GetWorldFlag(188) == 1 then
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + 10)
+							if math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + 10) > 21 then
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188))
+							else 
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + 10)
+							end
+					else
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188))
+					end
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获得了石中之物。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					elseif nT >= nY then
+						me:AddMsg("[NAME]赢了获得了一般奖励。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");
+					end
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>直接开牌吧</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188))
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= nY then
+						me:AddMsg("[NAME]赢了获得了一般奖励。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");
+						
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="JXDJ3"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]继续了赌局，不知道[NAME]打算如何是好。。</Desc>
+		<Selections>
+			<li>
+				<Display>给我道韵</Display> 
+				<OKResult><![CDATA[
+					local tN = {1,2,3,4,5,6,7,8,9,10};
+					local nR = me:RandomInt(1,(#tN+1));
+					local nQ = tN[nR];
+					world:SetWorldFlag(207,nQ);
+					
+					local tJ = {1,2,3,4,5,6,7,8,9,10};
+					local nH = me:RandomInt(1,(#tN+1));
+					local nG = tN[nR];
+					world:SetWorldFlag(208,nG);
+					
+					local num166 = world:GetWorldFlag(166)
+					local num167 = world:GetWorldFlag(167)
+					local num168 = world:GetWorldFlag(168)
+					local num169 = world:GetWorldFlag(169)
+					local num177 = world:GetWorldFlag(177)
+					local num178 = world:GetWorldFlag(178)
+					local num187 = world:GetWorldFlag(187)
+					local num188 = world:GetWorldFlag(188)
+					local num197 = world:GetWorldFlag(197)
+					local num198 = world:GetWorldFlag(198)
+					local num207 = world:GetWorldFlag(207)
+					local num208 = world:GetWorldFlag(208)
+					
+					me:AddMsg(string.format(XT("[NAME]抽到的六张道韵分别为：%s,%s,%s,%s,%s,%s。"), tostring(num166), tostring(num167), tostring(num177), tostring(num187), tostring(num197), tostring(num207)));
+					me:AddMsg(string.format(XT("对家抽到的五张明蕴为：%s,%s,%s,%s,%s。"), tostring(num168), tostring(num169), tostring(num178), tostring(num188), tostring(num198)));
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188))
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.7,XT("神识炸裂"));
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获得了石中之物。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else 
+						me:TriggerStory("JXDJ4");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + 10)
+					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 then
+						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
+						me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+						nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197))
+					else
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198))
+					if world:GetWorldFlag(168) == 1 or world:GetWorldFlag(169) == 1 or world:GetWorldFlag(178) == 1 or world:GetWorldFlag(188) == 1 or world:GetWorldFlag(198) == 1 then
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + 10)
+							if math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + 10) > 21 then
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198))
+							else 
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + 10)
+							end
+					else
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198))
+					end
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获得了石中之物。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					elseif nT >= nY then
+						me:AddMsg("[NAME]赢了获得了一般奖励。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");
+					end
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>直接开牌吧</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198))
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= nY then
+						me:AddMsg("[NAME]赢了获得了一般奖励。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");
+						
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+		<Story Name="JXDJ4"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]继续了赌局，不知道[NAME]打算如何是好。。</Desc>
+		<Selections>
+			<li>
+				<Display>给我道韵</Display> 
+				<OKResult><![CDATA[
+					local tN = {1,2,3,4,5,6,7,8,9,10};
+					local nR = me:RandomInt(1,(#tN+1));
+					local nQ = tN[nR];
+					world:SetWorldFlag(217,nQ);
+					
+					local tJ = {1,2,3,4,5,6,7,8,9,10};
+					local nH = me:RandomInt(1,(#tN+1));
+					local nG = tN[nR];
+					world:SetWorldFlag(218,nG);
+					
+					local num166 = world:GetWorldFlag(166)
+					local num167 = world:GetWorldFlag(167)
+					local num168 = world:GetWorldFlag(168)
+					local num169 = world:GetWorldFlag(169)
+					local num177 = world:GetWorldFlag(177)
+					local num178 = world:GetWorldFlag(178)
+					local num187 = world:GetWorldFlag(187)
+					local num188 = world:GetWorldFlag(188)
+					local num197 = world:GetWorldFlag(197)
+					local num198 = world:GetWorldFlag(198)
+					local num207 = world:GetWorldFlag(207)
+					local num208 = world:GetWorldFlag(208)
+					local num217 = world:GetWorldFlag(217)
+					local num218 = world:GetWorldFlag(218)
+					
+					me:AddMsg(string.format(XT("[NAME]抽到的七张道韵分别为：%s,%s,%s,%s,%s,%s,%s。"), tostring(num166), tostring(num167), tostring(num177), tostring(num187), tostring(num197), tostring(num207), tostring(num217)));
+					me:AddMsg(string.format(XT("对家抽到的六张明蕴为：%s,%s,%s,%s,%s,%s。"), tostring(num168), tostring(num169), tostring(num178), tostring(num188), tostring(num198), tostring(num208)));
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188)) + world:GetWorldFlag(198) + world:GetWorldFlag(208))
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.7,XT("神识炸裂"));
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获得了石中之物。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else 
+						me:TriggerStory("JXDJ5");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + 10)
+					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 and world:GetWorldFlag(207) > 1 then
+						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
+						me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+						nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207))
+					else
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208))
+					if world:GetWorldFlag(168) == 1 or world:GetWorldFlag(169) == 1 or world:GetWorldFlag(178) == 1 or world:GetWorldFlag(188) == 1 or world:GetWorldFlag(198) == 1 or world:GetWorldFlag(208) == 1 then
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + 10)
+							if math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + 10) > 21 then
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208))
+							else 
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + 10)
+							end
+					else
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208))
+					end
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.8,XT("神识炸裂"));
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获得了石中之物。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					elseif nT >= nY then
+						me:AddMsg("[NAME]赢了获得了一般奖励。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");
+					end
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>直接开牌吧</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208))
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= nY then
+						me:AddMsg("[NAME]赢了获得了一般奖励。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");
+						
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+		<Story Name="JXDJ5"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]继续了赌局，不知道[NAME]打算如何是好。。</Desc>
+		<Selections>
+			<li>
+				<Display>给我道韵</Display> 
+				<OKResult><![CDATA[
+					local tN = {1,2,3,4,5,6,7,8,9,10};
+					local nR = me:RandomInt(1,(#tN+1));
+					local nQ = tN[nR];
+					world:SetWorldFlag(227,nQ);
+					
+					local tJ = {1,2,3,4,5,6,7,8,9,10};
+					local nH = me:RandomInt(1,(#tN+1));
+					local nG = tN[nR];
+					world:SetWorldFlag(228,nG);
+					
+					local num166 = world:GetWorldFlag(166)
+					local num167 = world:GetWorldFlag(167)
+					local num168 = world:GetWorldFlag(168)
+					local num169 = world:GetWorldFlag(169)
+					local num177 = world:GetWorldFlag(177)
+					local num178 = world:GetWorldFlag(178)
+					local num187 = world:GetWorldFlag(187)
+					local num188 = world:GetWorldFlag(188)
+					local num197 = world:GetWorldFlag(197)
+					local num198 = world:GetWorldFlag(198)
+					local num207 = world:GetWorldFlag(207)
+					local num208 = world:GetWorldFlag(208)
+					local num217 = world:GetWorldFlag(217)
+					local num218 = world:GetWorldFlag(218)
+					local num217 = world:GetWorldFlag(227)
+					local num218 = world:GetWorldFlag(228)
+					
+					me:AddMsg(string.format(XT("[NAME]抽到的八张道韵分别为：%s,%s,%s,%s,%s,%s,%s,%s。"), tostring(num166), tostring(num167), tostring(num177), tostring(num187), tostring(num197), tostring(num207), tostring(num217), tostring(num227)));
+					me:AddMsg(string.format(XT("对家抽到的七张明蕴为：%s,%s,%s,%s,%s,%s,%s。"), tostring(num168), tostring(num169), tostring(num178), tostring(num188), tostring(num198), tostring(num208), tostring(num218)));
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188)) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218))
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.9,XT("神识炸裂"));
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获得了石中之物。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else 
+						me:TriggerStory("JXDJ6");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + 10)
+					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 and world:GetWorldFlag(207) > 1 and world:GetWorldFlag(217) > 1 then
+						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
+						me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+						nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217))
+					else
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218))
+					if world:GetWorldFlag(168) == 1 or world:GetWorldFlag(169) == 1 or world:GetWorldFlag(178) == 1 or world:GetWorldFlag(188) == 1 or world:GetWorldFlag(198) == 1 or world:GetWorldFlag(208) == 1 or world:GetWorldFlag(218) == 1 then
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + 10)
+							if math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + 10) > 21 then
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218))
+							else 
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + 10)
+							end
+					else
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218))
+					end
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.9,XT("神识炸裂"));
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获得了石中之物。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					elseif nT >= nY then
+						me:AddMsg("[NAME]赢了获得了一般奖励。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");
+					end
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>直接开牌吧</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218))
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= nY then
+						me:AddMsg("[NAME]赢了获得了一般奖励。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");
+						
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+		<Story Name="JXDJ6"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]继续了赌局，不知道[NAME]打算如何是好。。</Desc>
+		<Selections>
+			<li>
+				<Display>给我道韵</Display> 
+				<OKResult><![CDATA[
+					local tN = {1,2,3,4,5,6,7,8,9,10};
+					local nR = me:RandomInt(1,(#tN+1));
+					local nQ = tN[nR];
+					world:SetWorldFlag(237,nQ);
+					
+					local tJ = {1,2,3,4,5,6,7,8,9,10};
+					local nH = me:RandomInt(1,(#tN+1));
+					local nG = tN[nR];
+					world:SetWorldFlag(238,nG);
+					
+					local num166 = world:GetWorldFlag(166)
+					local num167 = world:GetWorldFlag(167)
+					local num168 = world:GetWorldFlag(168)
+					local num169 = world:GetWorldFlag(169)
+					local num177 = world:GetWorldFlag(177)
+					local num178 = world:GetWorldFlag(178)
+					local num187 = world:GetWorldFlag(187)
+					local num188 = world:GetWorldFlag(188)
+					local num197 = world:GetWorldFlag(197)
+					local num198 = world:GetWorldFlag(198)
+					local num207 = world:GetWorldFlag(207)
+					local num208 = world:GetWorldFlag(208)
+					local num217 = world:GetWorldFlag(217)
+					local num218 = world:GetWorldFlag(218)
+					local num217 = world:GetWorldFlag(227)
+					local num218 = world:GetWorldFlag(228)
+					local num217 = world:GetWorldFlag(237)
+					local num218 = world:GetWorldFlag(238)
+					
+					me:AddMsg(string.format(XT("[NAME]抽到的九张道韵分别为：%s,%s,%s,%s,%s,%s,%s,%s,%s。"), tostring(num166), tostring(num167), tostring(num177), tostring(num187), tostring(num197), tostring(num207), tostring(num217), tostring(num227), tostring(num237)));
+					me:AddMsg(string.format(XT("对家抽到的八张明蕴为：%s,%s,%s,%s,%s,%s,%s,%s。"), tostring(num168), tostring(num169), tostring(num178), tostring(num188), tostring(num198), tostring(num208), tostring(num218), tostring(num228)));
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227) + world:GetWorldFlag(237))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188)) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228))
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获得了石中之物。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else 
+						me:TriggerStory("JXDJ7");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227) + 10)
+					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 and world:GetWorldFlag(207) > 1 and world:GetWorldFlag(217) > 1 and world:GetWorldFlag(227) > 1 then
+						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
+						me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+						nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227))
+					else
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228))
+					if world:GetWorldFlag(168) == 1 or world:GetWorldFlag(169) == 1 or world:GetWorldFlag(178) == 1 or world:GetWorldFlag(188) == 1 or world:GetWorldFlag(198) == 1  or world:GetWorldFlag(208) == 1 or world:GetWorldFlag(218) == 1 or world:GetWorldFlag(228) == 1 then
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + 10)
+							if math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + 10) > 21 then
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228))
+							else 
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + 10)
+							end
+					else
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228))
+					end
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.9,XT("神识炸裂"));
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获得了石中之物。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					elseif nT >= nY then
+						me:AddMsg("[NAME]赢了获得了一般奖励。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");
+					end
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>直接开牌吧</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228))
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= nY then
+						me:AddMsg("[NAME]赢了获得了一般奖励。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");
+						
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="JXDJ7"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]继续了赌局，不知道[NAME]打算如何是好。。</Desc>
+		<Selections>
+			<li>
+				<Display>给我道韵</Display> 
+				<OKResult><![CDATA[
+					me:AddMsg("大佬就冲你这个人品，东西给你了。");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227) + world:GetWorldFlag(237)+ 10)
+					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 and world:GetWorldFlag(207) > 1 and world:GetWorldFlag(217) > 1 and world:GetWorldFlag(227) > 1 and world:GetWorldFlag(237) > 1 then
+						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
+						me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+						nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227) + world:GetWorldFlag(237))
+					else
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228))
+					if world:GetWorldFlag(168) == 1 or world:GetWorldFlag(169) == 1 or world:GetWorldFlag(178) == 1 or world:GetWorldFlag(188) == 1 or world:GetWorldFlag(198) == 1 or world:GetWorldFlag(208) == 1 or world:GetWorldFlag(218) == 1 or world:GetWorldFlag(228) == 1 or world:GetWorldFlag(238) == 1 then
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + world:GetWorldFlag(238) + 10)
+							if math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + world:GetWorldFlag(238) + 10) > 21 then
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + world:GetWorldFlag(238))
+							else 
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + world:GetWorldFlag(238) + 10)
+							end
+					else
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + world:GetWorldFlag(238))
+					end
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.9,XT("神识炸裂"));
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获得了石中之物。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					elseif nT >= nY then
+						me:AddMsg("[NAME]赢了获得了一般奖励。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");
+					end
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>直接开牌吧</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227) + world:GetWorldFlag(237))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + world:GetWorldFlag(238))
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= nY then
+						me:AddMsg("[NAME]赢了获得了一般奖励。");me:DropAwardItem("Item_WSXXY",1);me:DropAwardItem("Item_MiBao_TuFabao",1);me:DropAwardItem("Item_MiBao_JinLianShenZuo",1);
+						me:DropAwardItem("Item_WSXSY",10);me:DropAwardItem("Item_WSXY",20);me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_QieDaoGuo",2);me:TriggerStory("TCSF");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");
+						
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+</List></Stories>

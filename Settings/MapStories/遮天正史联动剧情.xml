@@ -1,0 +1,105 @@
+<Stories><List>
+	
+
+	<Story Name="XXZS_LD_ZTSJ_03"  Parent="BaseFillingStory">
+		<DisplayName>Unknown</DisplayName>
+		<Desc>The Xingkong Ancient Road is a road opened by the great power of ancient times. So far, only a few dozen people can reach the end.[NAME]Here comes the sound of the soul in search of the unknown.</Desc>
+		<Selections>
+			<li>
+				<Display>Try to open</Display>
+				<Condition>
+				<![CDATA[
+				world:GetWorldFlag(33258) == 1
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[	
+				if world:GetWorldFlag(33257) == 1 and me:CheckItemEquptCount("Item_BXZYJ") == 1 then
+					me:AddMsg("BOSS");
+					me:AddMsg("BOSS Skills Introduction");
+					story:RemoveBindItem();
+				else
+					me:AddMsg("[NAME]No matter what method is used, it is impossible to unlock the seal of this unknown object. .");
+					world:ShowMsgBox("Voice of a trembling soul: stupid. . . . . material. . . The last turmoil. . . odd. . Shifu. . . . . road. . . . turn up. . [Xiu Xian Zheng Shi] Come again. .");
+				end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				if world:GetWorldFlag(33258) == 0 then 
+					me:AddMsg("[NAME]Trying to unravel the lines, unknown moments, and sudden changes in the unknown. . An intermittent sound came in[NAME]的识海");
+					GameMain:GetMod("BuildModeHelper"):ChangeWeather("Rainstorm");
+					world:ShowMsgBox("At last. . . of. . turmoil. . Qi Shi. . . . House. . . Where are we. . Last. . . .");
+					me:DropAwardItem("Item_MiBao_ZHYX",2);
+					me:DropAwardItem("Item_MiBao_TXF",2);
+					world:SetWorldFlag(33258,1);
+				else
+					me:AddMsg("[NAME]Aren't you going to Qi Shifu yet? Why bother me? .");
+				end
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>Give up open</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]I feel that I have been miserable, and I am still a weak chicken. . . Wait again,");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="XXZS_LD_ZTSJ_04"  Parent="BaseFillingStory">
+		<DisplayName>Qi Shifu——Xingkong Ancient Road</DisplayName>
+		<Desc>The Xingkong Ancient Road is a road opened by the great power of ancient times. So far, only a few dozen people can reach the end.[NAME]Here comes the sound of the soul in search of the unknown.</Desc>
+		<Selections>
+			<li>
+				<Display>Explore Xingkong Ancient Road</Display>
+				<Condition>
+				<![CDATA[
+				world:GetWorldFlag(33257) == 1
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[
+					if me:GetGLevel() >= 9 then
+						me:AddMsg("[NAME]I came to Xingkong Ancient Road, but this road seems to be affected by the change of heaven and earth, and other roads are closed. then[NAME]Embarked on a road of no return.");
+						world:ShowMsgBox("SVENE Heavenly Emperor and Demon Gate testimony saw[NAME]According to the script, embarked on a path of no return and took a sip of hot tea in his hand.");				
+						me:DropAwardItem("Item_BXZW1",1);
+					else
+						me:AddMsg("[NAME]The strength is too bad, this no return road is impossible at all, and it is severely sanctioned by the law of space.");
+						me:AddDamgeFromCache(story.DamageCache,12,1);
+					end
+					
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				
+					me:AddMsg("[NAME][Modified History] The stone box of the mod has n’t been opened, still want to explore the ancient road to the sky?");
+					world:ShowMsgBox("I heard that SVENE is a bit related to this matter. . .");
+				
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>Give up exploring</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]I feel that the pit at home has not been filled. . Let me think twice. . .");
+				
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+	
+	
+	
+	
+	
+	
+</List></Stories>

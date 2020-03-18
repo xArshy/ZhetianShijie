@@ -1,0 +1,348 @@
+<Stories><List>
+		
+		<!-- <Desc> -->
+			<!-- [NAME]在游历中路过[PLACE]时，发现这里山美水清，烟波缭绕，柳绿花红，阡陌相叠，若非来此，绝不信世间有此等绝美之景；偶尔一两声鸟鸣，清脆;三四缕炊烟，飘渺;五六株果树，香甜;七八瓣落红，芬芳……得幸是天公不作美，小小的雨雾方才把[NAME]匆匆催赶，这才挪步进了城内；城内却又另是一番风土人情，扰人思绪，却又令人万分好奇； -->
+			<!-- 叫卖声、吆喝声、谈笑声、丝竹声，声声入耳交织不断； -->
+			<!-- 飞禽肉、走兽骨、手织画、面捏人，件件新奇把玩不停； -->
+			<!-- 艺妓舞、俪人歌、胡人技、夷族术，场场热闹赞叹不绝； -->
+			<!-- [NAME]已深深的被这里的风土人情所吸引，一时半会儿竟是忘记了历练的任务，居然还找了个茶馆坐下，看来是要停留一段时间了； -->
+			<!-- [NAME]从小二对当地的介绍中得出，这附近还是有很多有意思的地方，乘着喝茶的功夫，[IT]得好好思量思量接下来要做点什么了…… -->
+		<!-- </Desc> -->
+		
+		<!-- <Desc> -->
+			<!-- [NAME]根据之前听到的江湖传闻，前往[PLACE]一探虚实；不料，连续多日的查探，并未发现此地有何特殊异样，[NAME]因此感到无比失望，正准备起身离开时； -->
+			<!-- [IT]一脚踏空，尽然跌入一个异度空间之内，随着短暂的晕眩感消失之后，尽然是一个上古结界空间，里面灵气充沛，灵草药草遍地，而前方的几方石桌，石凳，木屋，石碑却很是打眼，看来是有高人曾经在此修行； -->
+			<!-- [NAME]走上前去，石碑之上赫然写着【墨仙谷】三个大字，这不是正是上古法宗之名吗！？[NAME]此时激动无比，快步跑进石屋之内，从厨房到卧室，从客厅到卫生间，一个不落的搜刮着…… -->
+			<!-- 然而现实又让[NAME]失望了，里面除了一本书册以外，竟在无他物，[IT]打开书册，上面竟是【墨仙谷】一门来历………… -->
+			<!-- …………天苍历元年，乃末世已远，而新世之初，天下诸子百家，皆发源建教，江岸沃野，物产丰富，民风淳朴，实属宝地，选址此谷，开山立派，名曰墨仙，祖师墨梓，立派三绝，太虚混元，太极阴阳，九天九地，皆为上乘，同志者闻之，拜山者无数，凡天资之佳，方入门内………… -->
+			<!-- …………天苍历两百年许，祖师飞升而去，设下此处结界，庇后世弟子，于此清心修炼，如此方能早登真仙大道………… -->
+			<!-- [NAME]看完此书，感觉只是简单的一本门派纪要，并没有参透其中有什么秘密，只能先带回门派，以后再说。 -->
+		<!-- </Desc> -->
+		
+	<!-- ==========================================================================道统分割线========================================================================== -->
+	
+	<Story Name="ZT_QTXD"  Parent="BaseFillingStory">
+		<DisplayName>Bronze Immortal Hall</DisplayName>
+		<Desc>Bronze immortal hall, is it artificial or god? Discover all these secrets on your own.\n (Dare to ask the visitor, is there a fairy?)</Desc>
+		
+		<Selections>
+			<li>
+				<Display>Take a look in Xiandian</Display>
+				<Tip>Inheritance</Tip>
+				<OKResult>
+				<![CDATA[
+				world:PlayBGM("Spr/Music/BGM/XD.OGG",false);
+				local nR = me:RandomInt(1, 50)
+				if nR >= 40 then
+					me:AddMsg("[NAME]Looking east to west, after much inquiry, finally found the entrance to the Xiandian and successfully entered the bronze Xiandian.");me:TriggerStory("ZT_QTXDr");
+				elseif nR >= 30 then
+						me:AddMsg("[NAME]After searching for a long time, I still couldn't find the entrance. I just met the monk who was passing by the attachment and stepped forward to ask about it.");
+						if nR >=40 then
+							me:AddMsg("[NAME]The monk who saw it was a powerful human race, and also came to try his luck when he heard about Xiandian.");
+								if me:GetGLevel() >= 11 then 
+								me:AddMsg("[NAME]Stepped forward, the power was originally Nangong Zheng, Nangong was seeing[NAME]Also has the strength of Hualong Realm, so I invite[NAME]Enter together");me:TriggerStory("ZT_QTXDr");
+								elseif me:GetGLevel() >= 9 then
+								me:AddMsg("[NAME]Stepped forward, the power was originally Nangong Zheng, see[NAME]Average strength[NAME]Left at a glance");
+								else
+								me:AddMsg("[NAME]Is too weak, just wanted to approach power, but was seriously injured by the breath of the power of Hualong Realm");
+								me:AddDamgeFromCache(story.DamageCache,12,12);
+								end
+						elseif nR >= 30 then
+							me:AddMsg("[NAME]Just noticed. . This practitioner is the peacock king! a bit dangerious. . .");
+								if me:GetGLevel() >= 11 then
+									me:AddMsg("Dao You, since we are also monks who transform into the dragon realm, we can also enter the path of finding immortals together.");me:TriggerStory("ZT_QTXDr");
+								elseif me:GetGLevel() >= 9 then
+									me:AddMsg("Little friend, this is not where you can come. Get out of here.");
+								else 
+								me:AddMsg("[NAME]Is too weak, just wanted to approach power, but was seriously injured by the breath of the power of Hualong Realm");
+								me:AddDamgeFromCache(story.DamageCache,12,12);
+								end
+						elseif nR >= 20 then
+							me:AddMsg("[NAME]Just noticed. . Where are the practitioners? This is just a few elderly people who have a good appearance. .");
+						elseif nR >= 10 then
+							me:AddMsg("[NAME]Only when I got close did I find that the main holy sites were immortal in person, and these immortals did not intend to share this secret with others.[NAME]Ask for blessings");GameMain:GetMod("XG"):LBS();
+						elseif nR >= 1 then
+							me:AddMsg("[NAME]When I got closer, I found that there are actually three dragons. I rely on them. . . A word didn't match and it caught up.");GameUlt.CallBoss("Boss_Long", nil, world:RandomInt(0, 0));
+							GameUlt.CallBoss("Boss_Long", nil, world:RandomInt(0, 0));
+							GameUlt.CallBoss("Boss_Long", nil, world:RandomInt(0, 0));
+						end
+						
+				elseif nR >= 20 then
+					me:AddMsg("[NAME]After searching for a long time, I couldn't find the entrance, so I just went back.");
+				elseif nR >= 10 then
+					me:AddMsg("[NAME]When looking for the entrance to the fairy temple, I fell into a chaotic world opened up by Supreme Mana, thinking about life in an infinite fall. After about 2 seconds from the outside world,[NAME]It fell out of the hole again and aged 10,000 years.");
+						me.npcObj.PropertyMgr:AddAge(10000);
+						
+				else 
+					me:AddMsg("[NAME]According to the news, slowly approaching the Bronze Fairy Temple, maybe luck is good today, but it really let[NAME]Found the intersection of the Bronze Immortal Hall.");me:TriggerStory("ZT_QTXDr");
+				end
+					
+				]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>Look at the sky at an angle of 90 degrees, and then leave slowly</Display>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]After thinking about it, I decided not to take any chances and left.");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZT_QTXDr"  Parent="BaseFillingStory">
+		<DisplayName>Bronze Immortal Hall</DisplayName>
+		<Desc>When I first entered the Immortal Hall, there was a stone bridge directly in front of it, and it was suspended there.</Desc>
+		
+		<Selections>
+			<li>
+				<Display>Keep going</Display>
+				<OKResult>
+				<![CDATA[
+				
+				local nR = me:RandomInt(1, 50)
+				if nR >= 40 then
+					me:AddMsg("[NAME]Take the courage to move on, but this bridge is probably designed to screen out strong practitioners. Courage is part of the test, as is luck.");me:TriggerStory("ZT_QTXDr1");story:FinishSecret();
+				elseif nR >= 30 then
+						me:AddMsg("[NAME]Gathering courage to go forward, slowly came to the edge of the suspension bridge. (Random random checks for more than 400 Daoxing, combat, magic, and imperial abilities greater than 40 Before entering the next level)");
+						if nR >= 40 then
+							if me:GetDaoHang() >= 400 then
+								me:AddMsg("[NAME]Daoxing is not shallow. Facing the sway of the suspension bridge, it immediately stabilizes.");me:TriggerStory("ZT_QTXDr1");
+							else
+								me:AddMsg("[NAME]Daoxing was inadequate, and he was struck by the suspension bridge, leaving the abyss.");story:FinishSecret();
+								me:AddDamgeFromCache(story.DamageCache,12,12);
+							end
+						elseif nR >= 30 then
+							if me:GetSkillLevel("Fight") >= 40 then
+								me:AddMsg("[NAME]The combat ability is extraordinary. Facing the sway of the suspension bridge, it instantly stabilized.");me:TriggerStory("ZT_QTXDr1");
+							else
+								me:AddMsg("[NAME]Insufficient fighting ability, was struck by the suspension bridge and left the abyss.");story:FinishSecret();
+								me:AddDamgeFromCache(story.DamageCache,12,12);
+							end
+						elseif nR >= 20 then
+							if me:GetSkillLevel("FightSkill") >= 40 then
+								me:AddMsg("[NAME]The magic ability is extraordinary. Facing the sway of the suspension bridge, it instantly stabilizes.");me:TriggerStory("ZT_QTXDr1");
+							else
+								me:AddMsg("[NAME]Insufficient skill, was hit by a suspension bridge and left the abyss.");story:FinishSecret();
+								me:AddDamgeFromCache(story.DamageCache,12,12);
+							end
+						elseif nR >= 10 then
+							if me:GetSkillLevel("Fabao") >= 40 then
+								me:AddMsg("[NAME]The imperial abilities are extraordinary. Facing the sway of the suspension bridge, it stabilizes instantly.");me:TriggerStory("ZT_QTXDr1");
+							else
+								me:AddMsg("[NAME]The imperial abilities were inadequate. He was struck by the suspension bridge and left the abyss.");story:FinishSecret();
+								me:AddDamgeFromCache(story.DamageCache,12,12);
+							end
+						elseif nR >= 1 then
+							me:AddMsg("[NAME]Walking on the suspension bridge without any difficulties, but in fact he did not know that the 3-in-1 package had been delivered[NAME]at home.");me:TriggerStory("ZT_QTXDr1");
+							GameUlt.CallBoss("Boss_Feng", nil, world:RandomInt(0, 0));
+							GameUlt.CallBoss("Boss_Zhulong", nil, world:RandomInt(0, 0));
+							GameUlt.CallBoss("Boss_Long", nil, world:RandomInt(0, 0));
+							story:FinishSecret();
+						end
+				elseif nR >= 20 then
+					me:AddMsg("[NAME]Many competitors were found on the suspension bridge. You must know that the treasure of Xianxiandian can only be obtained by one person. )");GameMain:GetMod("XG"):LBS();GameMain:GetMod("XG"):LBS1();
+				elseif nR >= 10 then
+					me:AddMsg("[NAME]When looking for to walk over the suspension bridge, I fell into a chaotic world opened up by Supreme Mana, thinking about life in an infinite fall. After about 2 seconds from the outside world,[NAME]It fell out of the hole again and aged 10,000 years.");
+						me.npcObj.PropertyMgr:AddAge(10000);
+						story:FinishSecret();
+				else 
+					me:AddMsg("[NAME]It has courage, and may have some strength, but three points of strength, seven points of luck, failed to cross the suspension bridge, and when they came out, they were stared at by the immortals of the major holy places. .");GameMain:GetMod("XG"):LBS();story:FinishSecret();
+				end
+					
+				]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>Forget it, don't move forward.</Display>
+				<OKResult>
+				<![CDATA[	
+				local nR = me:RandomInt(1, 50)
+				if nR >= 40 then
+				me:AddMsg("[NAME]When I came out of Xiandian, I didn't expect that the gate was already a gated city. Many old people in the holy place came to hear the news of Xiandian. It is the so-called guilt, even if[NAME]There are 100 mouths that can't be explained today. Actually, I've persuaded myself.");
+				GameMain:GetMod("XG"):LBS1();
+				elseif nR >= 20 then
+				me:AddMsg("[NAME],Xiandian is not something you can come and you can go if you want,[NAME]回去的路上。。。");
+					if nR >= 40 then
+							if me:GetDaoHang() >= 200 then
+								me:AddMsg("[NAME]Daoxing is not shallow and has not been affected.");
+							else
+								me:AddMsg("[NAME]Daoxing was inadequate and was hit by a fairy gas on the way back.");
+								me:AddDamgeFromCache(story.DamageCache,12,12);
+							end
+						elseif nR >= 30 then
+							if me:GetSkillLevel("Fight") >= 20 then
+								me:AddMsg("[NAME]The fighting ability is extraordinary and has not been affected.");
+							else
+								me:AddMsg("[NAME]The fighting ability was insufficient and he was hit by a fairy gas on the way back.");
+								me:AddDamgeFromCache(story.DamageCache,12,12);
+							end
+						elseif nR >= 20 then
+							if me:GetSkillLevel("FightSkill") >= 20 then
+								me:AddMsg("[NAME]The magic ability is extraordinary and has not been affected.");
+							else
+								me:AddMsg("[NAME]Insufficient skill, was hit by a fairy gas on the way back.");
+								me:AddDamgeFromCache(story.DamageCache,12,12);
+							end
+						elseif nR >= 10 then
+							if me:GetSkillLevel("Fabao") >= 20 then
+								me:AddMsg("[NAME]The imperial abilities were extraordinary and could not be affected.");
+							else
+								me:AddMsg("[NAME]The imperial abilities were insufficient and he was hit by a fairy gas on the way back.");
+								me:AddDamgeFromCache(story.DamageCache,12,12);
+							end
+						elseif nR >= 2 then
+							if me:GetSkillLevel("Barrier") >= 20 then
+								me:AddMsg("[NAME]The shield ability is extraordinary and has not been affected.");
+							else
+								me:AddMsg("[NAME]Shield ability is not enough, on the way back was hit by a fairy gas.");
+								me:AddDamgeFromCache(story.DamageCache,12,12);
+							end
+						elseif nR >= 1 then
+							me:AddMsg("[NAME]On the way back, he didn't encounter any difficulties, but in fact he didn't know that the 3-in-1 package had been delivered[NAME]at home.");
+							GameUlt.CallBoss("Boss_Feng", nil, world:RandomInt(0, 0));
+							GameUlt.CallBoss("Boss_Zhulong", nil, world:RandomInt(0, 0));
+							GameUlt.CallBoss("Boss_Long", nil, world:RandomInt(0, 0));
+						end
+				elseif nR >= 10 then
+					me:AddMsg("[NAME]Courageous, even if you have not entered Xiandian is amazing luck.");
+						if nR >= 40 then
+							me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_HXCJ",1);
+						elseif nR >= 30 then
+							me:DropAwardItem("Item_LWHJ",1);me:DropAwardItem("Item_YHQJ",1);
+						elseif nR >= 20 then
+							me:DropAwardItem("Item_SHZJ",1);me:DropAwardItem("Item_YHLJ",1);
+						elseif nR >= 10 then
+							me:DropAwardItem("Item_XLLJ",1);me:DropAwardItem("Item_XHEQ",1);
+						elseif nR >= 1 then
+							me:AddMsg("[NAME]This time it seems that luck is not too good, only a few small objects were harvested.");
+							me:DropAwardItem("Item_XZ",16);me:DropAwardItem("Item_YYSY",16);me:DropAwardItem("Item_DLYJ",16);me:DropAwardItem("Item_ZJST",16);me:DropAwardItem("Item_ST",16);story:FinishSecret();
+							me:DropAwardItem("Item_ZYW",16);me:DropAwardItem("Item_ZYSY",16);me:DropAwardItem("Item_JTCYW",16);
+						end
+				elseif nR >= 1 then
+					me:AddMsg("[NAME]I felt some special calling on the way back, and actually found a copy of the exercises.");
+						if nR >= 25 then
+						
+						WorldLua:UnlockRandomGong(4);
+						elseif nR >= 20 then
+						
+						WorldLua:UnlockRandomGong(3);
+						elseif nR >= 15 then
+						
+						WorldLua:UnlockRandomGong(2);
+						elseif nR >= 10 then
+						
+						WorldLua:UnlockRandomGong(1);
+						elseif nR >= 1 then
+						me:AddMsg("Generate electricity with love, no more love.");
+						
+						end
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZT_QTXDr1"  Parent="BaseFillingStory">
+		<DisplayName>Bronze Immortal Hall</DisplayName>
+		<Desc>It's a difficult time to pass the suspension bridge, and now is the time for choice.</Desc>
+		
+		<Selections>
+			<li>
+				<Display>Left side hall</Display>
+				<OKResult>
+				<![CDATA[
+				if me:GetGLevel() >= 9 and me:GetPerception() >= 9 then
+					if me:GetPhysique() >= 9 and me:GetLuck() >= 9 and me:GetCharisma()>=9 then
+						me:AddMsg("[NAME]Under the coercion of the Bronze Immortal Hall, there is no sense at all and the mana is running.[NAME]It seems that I felt the heaven and earth in the immortal hall, and found a faint light, which is actually the former celestial Tianxuan Yang Yizhen and the corpses of the former sages of the major holy places.[NAME]Found a way out.");me:DivideGodSoul(true,6);me:ModifierProperty("AbilityLvAddV",-90);me:AddPracticeResource("Stage", 10000);story:FinishSecret();
+					else
+						me:AddMsg("[NAME]The magical power was transported, but was suppressed by the immortal power of Xiandian, and he was severely injured, but fortunately survived.");me:AddPracticeResource("Stage", -30000);me:AddDamgeFromCache(story.DamageCache,6,world:RandomFloat(0.5,1),XT("法术轰击"));story:FinishSecret();
+					end
+				else
+					me:AddMsg("Insufficient ability to stop in front of the hall and wait and see, or go in is just to add fertilizer to the Bronze Immortal Temple.");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Central main hall.</Display>
+				<OKResult>
+				<![CDATA[	
+				local nR = me:RandomInt(1, 50)
+				
+					me:AddMsg("[NAME]From the moment you enter the main hall, you have begun to accept the inheritance of Ruthless Emperor, and the next step is to test you randomly.");
+					me:UnLockGong("Gong_TTMG");
+					if nR >= 40 then
+					me:AddMsg("[NAME]Do you know why the Ruthless Emperor is called Ruthless? Because she is ruthless to the world, she is also ruthless to herself. Now deduct 100% of all your attributes, and try to break through this test. )");
+							me:ModifierProperty("NpcFight_SpellPowerAddP",-1);me:ModifierProperty("NpcFight_SpellLingCostAddP",1);
+							me:ModifierProperty("NpcFight_SpellCastTimeAddP",1);me:ModifierProperty("NpcFight_SpellCoolDownAddP",1);
+							me:ModifierProperty("NpcFight_FabaoPowerAddP",-1);me:ModifierProperty("NpcFight_FabaoLingRecoverAddP",-1);
+							me:ModifierProperty("NpcFight_FabaoLingRecoverK",-1);me:ModifierProperty("NpcFight_FabaoMaxLingAddP",-1);
+							me:ModifierProperty("NpcFight_FabaoRepelDistanceAddV",-1);me:ModifierProperty("NpcFight_FabaoFlySpeedAddP",-1);
+							me:ModifierProperty("NpcFight_FabaoTurnSpeedAddP",-1);me:ModifierProperty("NpcFight_FabaoRepelResistanceAddV",-1);
+							me:ModifierProperty("NpcFight_BaseHitChance",-1);me:ModifierProperty("NpcFight_ShieldConversionRate",-1);
+							me:ModifierProperty("NpcFight_ShieldConversionRateAddP",-1);me:ModifierProperty("NpcFight_ZhenEnginePower",10);
+							me:ModifierProperty("LingAbsorbSpeed",-1);me:ModifierProperty("NpcLingMaxValue",-1);
+							me:ModifierProperty("AbilityLvAddV",50);me:ModifierProperty("WorldMapFlySpeed",-1);
+							me:ModifierProperty("WorldMapFlySpeedAddP",-1);me:ModifierProperty("GodPenaltyAddV",50);
+							story:FinishSecret();
+				elseif nR >= 30 then
+						me:AddMsg("[NAME]Do you know why the Ruthless Emperor is called Ruthless? Because she is ruthless to the people in the world, she is also ruthless to herself. Now I will destroy everything in your body. If you are a tool person, I have nothing to say, try to break through this test. )");
+						me:AddDamgeFromCache(story.DamageCache,24,1);story:FinishSecret();
+				elseif nR >= 20 then
+					me:AddMsg("[NAME]The most important thing to take on the inheritance of Ruthless Emperor is to have a protector. I wonder if you are ready. )");GameMain:GetMod("XG"):LBS();GameMain:GetMod("XG"):LBS1();story:FinishSecret();
+				elseif nR >= 10 then
+					me:AddMsg("[NAME]I got the ruthless emperor, but this time the luck is quite good, the ruthless emperor forgot to give the test? How is it possible that deducting your longevity is the biggest test, Ollie gave it.");
+						me.npcObj.PropertyMgr:AddAge(10000);
+						story:FinishSecret();
+				else 
+					me:AddMsg("[NAME]This time I was really lucky and encountered the simplest test.");GameMain:GetMod("XG"):LBS();story:FinishSecret();
+				end
+					
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Right side hall.</Display>
+				<OKResult>
+				<![CDATA[	
+				if me:GetGLevel() >= 6 and me:GetIntelligence() >= 9 then
+					if me:GetPhysique() >= 9 and me:GetLuck() >= 9 then
+						me:AddMsg("[NAME]Under the coercion of the Bronze Immortal Hall, he was also not afraid, and by virtue of his extraordinary understanding, he realized a trace of the true meaning of being immortal. Reduced 30 points of walking and got three distractions.");me:DivideGodSoul(true,3);me:ModifierProperty("AbilityLvAddV",-30);me:AddPracticeResource("Stage", 5000);story:FinishSecret();
+					else
+						me:AddMsg("[NAME]Humblely searching for the possibility of becoming immortal in the immortal hall, but to no avail,[NAME]At a loss in Xiandian, luck finally found an exit and escaped here.");me:AddPracticeResource("Stage", -10000);story:FinishSecret();
+					end
+				else
+					me:AddMsg("A monk should go against the sky and find a way to immortality? Might as well do your own way.");
+					
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Forget it, just leave the fairy hall.</Display>
+				<OKResult>
+				<![CDATA[
+				local nR = me:RandomInt(1, 50)	
+				if nR >= 40 then
+				me:AddMsg("[NAME]When I came out of Xiandian, I didn't expect that the gate was already a gated city. Many old people in the holy place came to hear the news of Xiandian. It is the so-called guilt, even if[NAME]There are 100 mouths that can't be explained today. Actually, I've persuaded myself.");
+				GameMain:GetMod("XG"):LBS1();
+				elseif nR >= 10 then
+				me:AddMsg("[NAME]Good luck. Actually found a way to escape without people.");
+				elseif nR >= 1 then
+				me:AddMsg("[NAME]Good luck. On the way back, he found many treasures left by the emperor.");
+				me:DropAwardItem("Item_XZ",36);me:DropAwardItem("Item_YYSY",36);me:DropAwardItem("Item_DLYJ",36);me:DropAwardItem("Item_ZJST",36);me:DropAwardItem("Item_ST",36);story:FinishSecret();
+					me:DropAwardItem("Item_ZYW",36);me:DropAwardItem("Item_ZYSY",36);me:DropAwardItem("Item_JTCYW",36);
+					end
+				
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+</List></Stories>

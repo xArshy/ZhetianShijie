@@ -1,0 +1,346 @@
+﻿<Esotericas><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Esoterica Name="Gong_WSJ_LH_A1">
+		<DisplayName>圣体传承</DisplayName>
+		<Icon>Spr\Object\JN\ZT_WSJ\STCC.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>圣体传承</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n加根骨2\n加神识2\n提高护盾等级上限5\n加寿命600\n习得神通：苦海波涛[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_LH_1A</Modifier>
+		<Magics>
+			<li>KHBT</li>
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Gong_WSJ_LH_A1_1">
+		<DisplayName>圣体传承</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_WSJ\STCC.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>圣体传承。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性1\n加个人灵气4000\n加个人回灵3[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_LH_1A_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_WSJ_LH_A1_2">
+		<DisplayName>圣体传承</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_WSJ\STCC.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>圣体传承。。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加潜力2\n加护盾值2\n加心境[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_LH_1A_2</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Gong_WSJ_LQ_A1">
+		<DisplayName>先天圣体道胎</DisplayName>
+		<Icon>Spr\Object\JN\ZT_WSJ\STDT.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>最强体质之一。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n加潜力值2\n加心境[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_LQ_1A</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_WSJ_LQ_A1_1">
+		<DisplayName>先天圣体道胎</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_WSJ\STDT.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>最强体质之一。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加术法等级上限8\n加个人灵气4000[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_LQ_1A_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_WSJ_LQ_A1_2">
+		<DisplayName>先天圣体道胎</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_WSJ\STDT.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>最强体质之一。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n减天谴\n加护盾强度2[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_LQ_1A_2</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Gong_WSJ_LQ_A3">
+		<DisplayName>无上大道</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_WSJ\WSDD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>无上大道无敌从此开始。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\n加悟性1\n加炉鼎3000\n习得神通 三千大道[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_LQ_3A</Modifier>
+		<Magics>
+			<li>SQDD</li>
+		</Magics>
+	</Esoterica>
+
+	<!-- ==========================技能2========================== -->
+	
+	<Esoterica Name="Gong_WSJ_LH_B1">
+		<DisplayName>西皇经道宫卷</DisplayName>
+		<Icon>Spr\Object\JN\ZT_WSJ\ZT_XHJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>西皇，西方天神也。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n加炉鼎值2000\n加机缘1\n加魅力1[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_LH_1B</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_WSJ_LH_B1_1">
+		<DisplayName>西皇经道宫卷</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_WSJ\ZT_XHJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>又西三百五十里，曰西皇之山</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天     \n加炼丹技能等级上限10\n加炼丹速度加成1[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_LH_1B_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_WSJ_LH_B1_2">
+		<DisplayName>西皇经道宫卷</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_WSJ\ZT_XHJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>五行神藏，勾天设体，引动精气神，布散到全身，外达于皮毛，吐纳天地本源，蕴含勃勃生机。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加灵力恢复50\n加额外炼丹加成4[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_LH_1B_2</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Gong_WSJ_LH_B2">
+		<DisplayName>徒手接帝兵</DisplayName>
+		<Icon>Spr\Object\JN\ZT_WSJ\TSJDB.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>未成大帝，徒手接帝兵，镇杀敌人</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n加最大灵力值3\n加御器等级上限10级\n习得秘术：徒手接帝兵[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_LH_2B</Modifier>
+		<Skills><li>TSJDB</li></Skills>
+	</Esoterica>
+	<Esoterica Name="Gong_WSJ_LH_B2_1">
+		<DisplayName>徒手接帝兵</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_WSJ\TSJDB.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>未成大帝，徒手接帝兵，镇杀敌人</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天   \n护盾等级10上限\n护盾强度值2\n加五行减伤0.9[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_LH_2B_1</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Esoterica Name="Gong_WSJ_HL_C1">
+		<DisplayName>只手镇压</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_WSJ\ZSZY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>无始大帝一只手压着不死天皇的信仰力铸成的神我身，一只手而已，让对手抬不起头。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\n加术法伤害4\n降术法吟唱时间0.4 \n减术法冷却时间0.4\n习得秘术 只手镇压[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_HL_1C</Modifier>
+		<Skills><li>ZSZY</li></Skills>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_WSJ_HL_C2">
+		<DisplayName>逆转乾坤</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_WSJ\NZQK.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>25</Difficulty>
+		<Desc>无始大帝一掌拍出时间倒流，让人震撼。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\n提高术法技能等级上限10级\n降术法吟唱时间0.4\n减术法冷却时间0.4\n习得秘术 逆转乾坤[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_JD_1D</Modifier>
+		<Skills><li>NZQK</li></Skills>
+	</Esoterica>
+
+	<Esoterica Name="Gong_WSJ_HL_C3">
+		<DisplayName>万古皆空</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_WSJ\WGJK.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>无始大帝根据时间之道所创。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\n法宝灵气恢复速度3\n提高战斗等级上限15级\n习得神通 万古长存[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_JD_2D</Modifier>
+		<Magics>
+			<li>WGCC</li>
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Gong_WSJ_HL_C3_1">
+		<DisplayName>万古皆空</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_WSJ\WGJK.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>25</Difficulty>
+		<Desc>无始大帝根据时间之道所创。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\n个人回灵5\n法宝威力5\n灵力最大值3\n习得神通 万古皆空[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_JD_2D_1</Modifier>
+		<Skills><li>WGJK</li></Skills>
+		
+	</Esoterica>
+	
+
+	<!-- ==========================技能4========================== -->
+	
+	<Esoterica Name="Gong_WSJ_YS_1D">
+		<DisplayName>无始钟</DisplayName>
+		<Icon>Spr\Object\JN\ZT_WSJ\WSZ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>无始钟响起代表了大帝的神威。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]\n加御器等级上限5\n加法宝击退距离抗性加成4[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_YS_1C</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_WSJ_YS_1D_1">
+		<DisplayName>无始钟</DisplayName>
+		<Icon>Spr\Object\JN\ZT_WSJ\WSZ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>无始钟响起代表了大帝的神威。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]\n加法宝数量1\n加法宝灵气值2\n习得帝兵 无始钟[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_YS_1C_1</Modifier>
+		<Fabaos>
+			<li>ZT_WSZ</li>
+		</Fabaos>
+	</Esoterica>
+	
+
+	<Esoterica Name="Gong_WSJ_YS_2D">
+		<DisplayName>封神榜</DisplayName>
+		<Icon>Spr\Object\JN\ZT_WSJ\FSB.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>封神榜无始大帝所铸仙兵曾镇压不死道人。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]\n加术法等级上限15级\n加阵法规模2\n加阵法负荷能力40[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_YS_2C</Modifier>
+		
+	</Esoterica>
+	<Esoterica Name="Gong_WSJ_YS_2D_1">
+		<DisplayName>封神榜</DisplayName>
+		<Icon>Spr\Object\JN\ZT_WSJ\FSB.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>封神榜无始大帝所铸仙兵曾镇压不死道人。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]\n加术法威力5\n加阵法负荷能力50\n习得帝兵 封神榜[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_YS_2C_1</Modifier>
+		<Fabaos>
+			<li>ZT_FSB</li>
+		</Fabaos>
+	</Esoterica>
+	
+
+	<Esoterica Name="Gong_WSJ_HL_ld">
+		<DisplayName>六道轮回拳</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_WSJ\TDJ_HL_ld.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>24</Difficulty>
+		<Desc>世间众生因造作善不善诸业而有业报，此业报有六个去处分别为:天人道、人道、畜牲道、阿修罗道、饿鬼道、地狱道。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\n习得  秘术：\n六道轮回拳[/color][/size]</EffectDesc>
+		<Skills>
+			<li>TDJ_HL_ld</li>
+		</Skills>
+	</Esoterica>
+
+	<!-- ==========================技能5========================== -->
+
+	<Esoterica Name="Gong_WSJ_XT_1D">
+		<DisplayName>谁为峰</DisplayName>
+		<Icon>Spr\Object\JN\ZT_WSJ\SWF.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>36</Difficulty>
+		<Desc>仙路尽头谁为峰。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]\n加法宝威力5\n加法宝灵气恢复速度3\n加法宝灵气最大值3\n加护盾等级上限15[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_XT_D1</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Gong_WSJ_XT_2D">
+		<DisplayName>道成空</DisplayName>
+		<Icon>Spr\Object\JN\ZT_WSJ\DCK.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>36</Difficulty>
+		<Desc>一遇无始道成空。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]\n减术法吟唱时间0.3\n减术法冷却时间0.3\n加术法伤害5\n加护盾等级上限15[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_XT_D2</Modifier>
+	</Esoterica>
+
+	<Esoterica Name="Gong_WSJ_XT_ZD">
+		<DisplayName>红尘仙</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_WSJ\ZT_TDJ_ZD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>100</Difficulty>
+		<Desc>炉养天地，活九世，镇压万古，大帝不过尔尔</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\n加寿元和加回灵倍率\n加三十道元神分神\n加炉鼎\n加神器成功率\n加术法威力和加法宝威力[/color][/size]</EffectDesc>
+		<Modifier>Gong_WSJ_XT_DZ</Modifier>
+		<GodSoulCount>30</GodSoulCount>
+	</Esoterica>
+	
+	
+	
+	
+</List></Esotericas>
+	

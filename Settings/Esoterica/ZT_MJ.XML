@@ -1,0 +1,746 @@
+<Esotericas><List>
+	
+	<Esoterica Name="ZT_JZM_L">
+		<DisplayName>Pro Crossword</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZT_JZM_L.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>30</Difficulty>
+		<GLevel>Dan1</GLevel>
+		<Desc>Physical and mental stability, immovable during the event, maintaining an unmoving will.</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Improve Mood Basis and Stability\nDecrease the value of mood affecting mood\nIncrease pain tolerance\nIncrease maximum shield level by 15[/color][/size]</EffectDesc>
+		<Modifier>ZT_JZM_L</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="ZT_JZM_Z">
+		<DisplayName>Scribe</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZT_JZM_Z.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>30</Difficulty>
+		<GLevel>Dan1</GLevel>
+		<Desc>The strongest self-healing magic, known as a drop of blood can restore the true body.</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Improve natural recovery ability \nImprove inner door injury recovery ability \nIncrease high and low temperature upper limit \nIncrease longevity \nIncrease fine element conversion rate \nIncrease spiritual recovery speed \nAlchemy skill level upper limit[/color][/size]</EffectDesc>
+		<Modifier>ZT_JZM_Z</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="ZT_JZM_X">
+		<DisplayName>Line secret</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZT_JZM_X.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>35</Difficulty>
+		<GLevel>Qi</GLevel>
+		<Desc>Secret words, shrink into inches between steps.</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Increase flight training speed \nIncrease movement speed \nIncrease training to find new locations speed \nIncrease combat dodge \nIncrease training experience acquisition \nLearn the magic power[/color][/size]</EffectDesc>
+		<Modifier>ZT_JZM_X</Modifier>
+		<Magics>
+		<li>ZT_JZM_X</li>
+		<li>ZT_JZM_XG</li>
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="ZT_JZM_D">
+		<DisplayName>Fight word secret</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZT_JZM_D.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>45</Difficulty>
+		<GLevel>Dan2</GLevel>
+		<Desc>The strongest attack technique can evolve all the killing techniques in the world</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Increase the number of magic weapons \nIncrease spell damage \nIncrease magic power \nIncrease spell cooldown[/color][/size]</EffectDesc>
+		<Modifier>ZT_JZM_D</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="ZT_JZM_ZHEN">
+		<DisplayName>Group secret</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZT_JZM_ZHEN.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<GLevel>Qi</GLevel>
+		<Desc>Different from the general cultivation method, this method favors the matrix method.</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Raise the rank of the matrix method \nRaise the limit of the rank of the matrix method \nIncrease the rank of the matrix method \nIncrease the scale of the matrix method [/color][/size]</EffectDesc>
+		<Modifier>ZT_JZM_ZHEN</Modifier>
+	</Esoterica>
+		
+	<Esoterica Name="ZT_JZM_Q">
+		<DisplayName>Former Stealth</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZT_JZM_Q.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>30</Difficulty>
+		<GLevel>Dan1</GLevel>
+		<Desc>Majoring in Yuan Shen can improve the spirituality and power of Yuan Shen.</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Improve the consciousness \nDecrease the chance \nAdd the bottleneck breakthrough coefficient \nReduce the condemnation (large) \nImprove the potential \nLearn the mystery: Da Yan Gods and Zhou Tian Gods[/color][/size]</EffectDesc>
+		<Modifier>ZT_JZM_X</Modifier>
+		<Magics>
+			<li>Prophesy</li>
+			<li>Prophesy_MapStory</li>
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="ZT_JZM_S">
+		<DisplayName>Digital secret</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZT_JZM_S.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>36</Difficulty>
+		<GLevel>God</GLevel>
+		<Desc>Life is two, life is two, life is three.</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Add 36 Yuanshen Distractions \nImprove the chance \nImprove the value of the hearth \nLearn all kinds of drugs[/color][/size]</EffectDesc>
+		<Modifier>ZT_JZM_S</Modifier>
+		<GodSoulCount>36</GodSoulCount>
+		<Magics>
+			<li>LingXiZhou</li>
+			<li>XinYinJue</li>
+			<li>TianMoWu</li>
+			<li>WuYinKeShen</li>
+			<li>FenShenZhiShu</li>
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="ZT_JZM_J">
+		<DisplayName>All secrets</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZT_JZM_J.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>40</Difficulty>
+		<GLevel>God</GLevel>
+		<Desc>Instantly inspire yourself ten times the power of attack, defense, and speed up ten times in all directions.</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Acquired Secrets: All Words Shield \nAcquired Secrets: All Words Secret Recovery \nAcquired Secrets: All Words Secrets \nAcquired Secrets: All Words Secret Battle[/color][/size]</EffectDesc>
+
+		<Skills>
+			<li>JZM_J_F</li>
+			<li>JZM_J_H</li>
+			<li>JZM_J_Z</li>
+			<li>JZM_J_D</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="ZT_JZM_B">
+		<DisplayName>Soldier secret</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZT_JZM_B.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>40</Difficulty>
+		<GLevel>God</GLevel>
+		<Desc>Control all the magic weapons in the world.</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]Learn Mystery: \nRaise the upper limit of the Refiner level by 15 levels[/color][/size]</EffectDesc>
+		<Modifier>ZT_JZM_B</Modifier>
+		<Magics>
+			<li>BZM_LXCB</li>
+			<li>BZM_WXCB</li>
+		</Magics>
+		<Fabaos>
+			<li>LGSF</li>
+			
+		</Fabaos>
+	</Esoterica>
+	
+	<Esoterica Name="MJ_MY">
+		<DisplayName>Mingyuan Danfang</DisplayName>
+		<Icon>Spr\Object\CL\MY.PNG</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>Recorded Dan Fang who made Mingyuan.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Dan</Type>
+		<EffectDesc>After learning, you can learn all the Danfang.</EffectDesc>
+		<Dans>
+			<li>Item_MY</li><!-- 筑基丹 -->
+		</Dans>
+	</Esoterica>
+	<Esoterica Name="MJ_JMBSY">
+		<DisplayName>Nine Mysterious Pills</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\JMBSY.PNG</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>Documented the method of Nine Mysteries.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Dan</Type>
+		<Dans>
+			<li>Item_JMBSY</li><!-- 筑基丹 -->
+		</Dans>
+	</Esoterica>
+	<Esoterica Name="MJ_ZH">
+		<DisplayName>Zhenghuo Danfang</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZH.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>Danfang was recorded to increase the maximum temperature.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Dan</Type>
+		<EffectDesc>After learning, you can learn all the Danfang.</EffectDesc>
+		<Dans>
+			<li>Item_Dan_BHW1</li><!-- 筑基丹 -->
+			<li>Item_Dan_BHW2</li><!-- 归源散 -->
+			<li>Item_Dan_BHW3</li><!-- 真罡丹 -->
+			
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="MJ_ZJJ">
+		<DisplayName>Epee tactic</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZJJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<GLevel>God</GLevel>
+		<Desc>In the fifth immortal mountain of Taixuanmen, the method of specializing in the emperor.</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>Raise the Emperor's skill level limit at level 7</EffectDesc>
+		<Modifier>MJ_ZJJ</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="MJ_YMZD">
+		<DisplayName>Fire Destruction Canon</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\YMZD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<GLevel>God</GLevel>
+		<Desc>In the fourth immortal mountain of Taixuanmen, the method of specializing in art.</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>Raise the limit of seven skill levels</EffectDesc>
+		<Modifier>MJ_YMZD</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="MJ_JGYD">
+		<DisplayName>Essentials of Jin Yan</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\JGYD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<GLevel>God</GLevel>
+		<Desc>In the fifth immortal mountain of Taixuanmen, the method of specializing in shields.</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>Raise the Shield Skill Level Limit of Level 7</EffectDesc>
+		<Modifier>MJ_JGYD</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="MJ_XC">
+		<DisplayName>Star quench</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\XC.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<GLevel>God</GLevel>
+		<Desc>Taixuanmen Xingfeng, a constant succession cheat book, hardened by the power of the stars, you deserve it.</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>Significantly improve the basic properties of the body.</EffectDesc>
+		<Modifier>MJ_XC</Modifier>
+	</Esoterica>
+	<Esoterica Name="ZT_STYH">
+		<DisplayName>Bitter Sea Mystery</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\KHMJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<GLevel>Qi</GLevel>
+		<Desc>After the remains of the ancient Eucharist remains in the sea, the divine power overflows. It worked on some mysterious line!</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>Significantly increase the fundamental value of the spiritual power and the speed of the aura recovery.</EffectDesc>
+		<Modifier>MJ_STYH</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="MJ_PM1">
+		<DisplayName>End of the World Epee</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\PM1.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<GLevel>God</GLevel>
+		<Desc>A cheat book</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>After studying, increase the magic power of 300%, the magic power of 300%, and the recovery of 300 magic.</EffectDesc>
+		<Modifier>MJ_PM1</Modifier>
+	</Esoterica>
+	<Esoterica Name="ZT_PM2">
+		<DisplayName>Too virtual god</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\PM2.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<GLevel>Qi</GLevel>
+		<Desc>A cheat book</Desc>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>Significantly increase the magic power by 300%, dodge by 50%, reduce the cooldown by 50%.</EffectDesc>
+		<Modifier>MJ_PM2</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="ZT_SSYYZ">
+		<DisplayName>Yaochi Road Pattern</DisplayName>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\YCDW.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>1</Difficulty>
+		<GLevel>Qi</GLevel>
+		<Desc>The formation method created by Our Lady of Yaochi has extremely high stability and consistency. It is said that a quasi-empire was suppressed to death.</Desc>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]Learned Matrix: Wonderland Road Pattern[/color][/size]</EffectDesc>
+		<Modifier>ZT_JZM_ZHEN</Modifier>
+		<ZhenNodes>
+			<li>ZT_xjdw</li>
+			<li>ZT_xjdw3</li>
+			<li>ZT_fx</li>
+			<li>ZT_dy</li>
+			<li>ZT_x1</li>
+			<li>ZT_x2</li>
+			<li>ZT_xj1</li>
+			<li>ZT_xj2</li>
+			<li>ZT_dw1</li>
+			<li>ZT_dw2</li>
+			<li>ZT_xj3</li>
+			<li>ZT_xj4</li>
+			<li>ZT_dw3</li>
+			<li>ZT_dw4</li>
+			<li>ZT_d1</li>
+			<li>ZT_d2</li>
+			<li>ZT_w1</li>
+			<li>ZT_w2</li>
+			<li>ZT_j1</li>
+			<li>ZT_j2</li>
+			<li>ZT_xjdw1</li>
+			<li>ZT_xjdw2</li>
+			<li>ZT_xjd1</li>
+			<li>ZT_xjd2</li>
+			<li>ZT_xyd1</li>
+			<li>ZT_xyd2</li>
+			
+		</ZhenNodes>
+	</Esoterica>
+	<Esoterica Name="ZT_YMSC">
+		<DisplayName>Ghost Killing Field</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\YMSC.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>1</Difficulty>
+		<GLevel>Dan2</GLevel>
+		<Desc>The void cracked, murderous and soaring into the sky, a yin and jian sword qi burst out, each with the thickness of a water tank, all urged.</Desc>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<Exp>10000</Exp>
+		<EffectDesc>[size=10][color=#D06508]Learned Formation: The Underworld Killing Field[/color][/size]</EffectDesc>
+		<Modifier>ZT_JZM_ZHEN</Modifier>
+		<ZhenNodes>
+			<li>ZT_Y</li>
+			<li>ZT_M</li>
+			<li>ZT_S</li>
+			<li>ZT_C</li>
+			<li>ZT_YM</li>
+			<li>ZT_YS</li>
+			<li>ZT_MS</li>
+			<li>ZT_MC</li>
+			<li>ZT_YMC</li>
+			<li>ZT_YSC</li>
+			<li>ZT_MSC</li>
+			<li>ZT_YMS</li>
+			<li>ZT_YMSC</li>
+			<li>ZT_YMSC3</li>
+			<li>ZT_YM</li>
+			<li>ZT_SC</li>
+		</ZhenNodes>
+	</Esoterica>
+	
+	
+	
+	<Esoterica Name="ZT_P">
+		<DisplayName>Cover the sky</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\YYZT.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>It records all the places in the heavenly sky.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>Unlock all locations after learning. Comes with Shushan to unlock</EffectDesc>
+		<Places>
+			<li>Place_HGJD_1</li>
+			<li>Place_WSST</li>
+			<li>Place_TCGK</li>
+			<li>Place_QTXD</li>
+			<li>Place_Shu2</li>
+			<li>Place_Shu3</li>
+			<li>Place_Shu4</li>
+			<li>Place_Shu5</li>
+			<li>Place_YC</li>
+			<li>Place_LXDT</li>
+			<li>Place_TXM</li>
+			<li>Place_SC</li>
+			<li>Place_HY</li>
+			<li>Place_ZJC</li>
+			<li>Place_WLC</li>
+			<li>Place_DDLQ</li>
+			<li>Place_YZZ</li>
+			<li>Place_QSF</li>
+		</Places>
+	</Esoterica>
+	
+	<Esoterica Name="ZT_CLBY">
+		<DisplayName>Northbound</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZTDD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>The five-colored brilliance shines, covering the beginning of the story of the sky. Ye Fan and others traveled through the ancient road of the starry sky to the Big Dipper through the power of the five-colored altar. This is where the legend begins.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>After learning, you can unlock the Forbidden City and the five-color altar \nThe five-colored altar produces the most important building items and props of the sky series. The Forbidden City has hidden secrets and enhanced attributes. \nThe five-colored altar produces five-colored god stones and bodhi \n. Forbidden land produces holy springs and holy fruits that increase attributes.</EffectDesc>
+		<Places>
+			<li>Place_HGJD_1</li>
+			<li>Place_WSST</li>
+		</Places>
+	</Esoterica>
+	<Esoterica Name="ZT_LXDT">
+		<DisplayName>First practice</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZTDD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>Ye Fan and others descended on the Forbidden City of Beidou, which is one of the seven forbidden areas of life. Ye Fan was lucky to mention the Holy Fruit, and a few friends of Pembo successfully rushed out of the Forbidden City of Ancient Forbidden City. Dongtian kept. And experienced the birth of the tomb of the demon emperor.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>After learning, you can unlock Lingxu Dongtian \nLingxu Dongtian produces Baicao liquid, which can be used to break through the skills and build the foundation.</EffectDesc>
+		<Places>
+			<li>Place_LXDT</li>
+		</Places>
+	</Esoterica>
+	<Esoterica Name="ZT_GWSTSFYX">
+		<DisplayName>Dare to ask God if there is a fairy</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZTDD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>After experiencing a series of life and death encounters, Ye Fan can see that the cultivator is no different from a mortal person. He is also greedy. After gaining the sacred heart of the demon emperor, he was held by the demon tribe, then met the East Deity God Ji Haoyue, escaped from the chaos, and was captured by Ji Ziyue. He resisted Ji Ziyue under the influence of yin and yang.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>After learning, you can unlock the Bronze Fairy Hall \nThe Bronze Fairy Hall, a more mysterious place in the heavenly world, can gain Xuanhuang Qi through experience, and gain attribute enhancement through secrets.</EffectDesc>
+		<Places>
+			<li>Place_QTXD</li>
+		</Places>
+	</Esoterica>
+	<Esoterica Name="ZT_TXM">
+		<DisplayName>Tai Xuan Men</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZTDD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>Dare to ask if there is an immortal in heaven, and what is the purpose of spiritual practice. Ye Fan and Ji Ziyue both came to Taixuan Peak with serious thoughts. 108 immortal mountains were scattered, and the two worshiped to get started.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>After learning, you can unlock the place Taixuanmen \nTaixuanmen, a sect in the middle and south areas of the heavenly world. Although it does not have the strong strength of the ancient family, it is also the top 100 superpower in the south.</EffectDesc>
+		<Places>
+			<li>Place_TXM</li>
+		</Places>
+	</Esoterica>
+	<Esoterica Name="ZT_HY">
+		<DisplayName>Fire domain</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZTDD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>During his escape with Ji Ziyue, Ye Fan was hunted down by the Ji family because he learned the void fingerprints taught by Ji Ziyue. Chased to the realm of fire by all major forces.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>After learning, you can unlock the fire domain. \nThe fire domain is divided into nine layers. Each layer produces different flames, which have different temperatures and are quite dangerous. However, each type of fire can obtain certain attribute improvements.</EffectDesc>
+		<Places>
+			<li>Place_HY</li>
+		</Places>
+	</Esoterica>
+	<Esoterica Name="ZT_ZJC">
+		<DisplayName>Zhangjiacun</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZTDD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>After practicing for some time in the fire domain, Ye Fan came to Beiyu, Zhangjia Village in the North, while the world gradually forgot his existence, and became associated with Zhangjiacun villagers because of the surrounding bandits.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>After learning, you can unlock Zhangjia Village \nThere are many rogues around Zhangjia Village. Killing can get many sources and even god sources, and you can unlock Purple Mountain through Zhangjia Village.</EffectDesc>
+		<Places>
+			<li>Place_ZJC</li>
+		</Places>
+	</Esoterica>
+	<Esoterica Name="ZT_TCGK">
+		<DisplayName>Taichu Ancient Mine</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZTDD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>After coming out of the Purple Mountain, Ye Fan plundered Liu Kou in order to break through and harvested a lot of resources. He also tasted the sweetness and tried to find opportunities in the Taichu ancient mine.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>After learning, you can unlock the Taichu Ancient Mine \nThe secret of the Taichu Ancient Mine can obtain the materials of the emperor soldiers, and through the training, you can also obtain the materials of the Shenbingfang.</EffectDesc>
+		<Places>
+			<li>Place_TCGK</li>
+		</Places>
+	</Esoterica>
+	<Esoterica Name="ZT_YCSD">
+		<DisplayName>Yaochi Holy Land</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZTDD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>Ye Fan mentioned a big black dog in Zhangjiacun. Under the leadership of the black emperor, he found the Western Emperor's Scriptures and came to the Holy Land of Yaochi.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>After learning, you can unlock the Yaochi Holy Land \nYaochi Holy Land, where you can get the peach and water attributes. The source of God is the place to get materials and exercises.</EffectDesc>
+		<Places>
+			<li>Place_YCSD</li>
+		</Places>
+	</Esoterica>
+	<Esoterica Name="ZT_YZZ">
+		<DisplayName>Yunze Prefecture</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZTDD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>Ye Fan came to Yunze to avoid the wind.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>After learning, you can unlock Yunze Prefecture \nThe secret of Yunze Prefecture can get the remains of the Eucharist, and get a single secret practice method.</EffectDesc>
+		<Places>
+			<li>Place_YCSD</li>
+		</Places>
+	</Esoterica>
+	<Esoterica Name="ZT_DDLQ">
+		<DisplayName>丽城风云</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZTDD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>Ye Fan received news about Jiu Mi in Belvedere and learned that the location was an underground palace.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>After learning, you can unlock the tomb of the emperor \nThe method of making the chaotic bed in the tomb of the emperor and how to obtain the chaotic stone.</EffectDesc>
+		<Places>
+			<li>Place_YCSD</li>
+		</Places>
+	</Esoterica>
+	<Esoterica Name="ZT_WLC">
+		<DisplayName>Wanlong Nest</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZTDD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>After Ye Fan broke through to the fourth level, he came to the Frozen Palace in order to find a better way to resolve the road injury.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>After learning, you can unlock Wanlong Nest \nWanlong Nest is the place where you can get five kinds of spiritual plants covering the sky in the current version. .</EffectDesc>
+		<Places>
+			<li>Place_YCSD</li>
+		</Places>
+	</Esoterica>
+	<Esoterica Name="ZT_SC">
+		<DisplayName>Holy city</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZTDD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>After Ye Fan learned Yuan Tianshu, he came to the holy city to solve his own breakthrough problem, and made a gamble in the holy city.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>Unlock Holy City after learning\n The holy city can get a lot of sources, and you can unlock Hualongchi through training.</EffectDesc>
+		<Places>
+			<li>Place_SC</li>
+		</Places>
+	</Esoterica>
+	<Esoterica Name="ZT_QSF">
+		<DisplayName>Kisfu</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZTDD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>Qi Shifu is a sacred place of practice practiced once every ten thousand years. Each opening seems to be related to the ancient sky.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>Unlock Qi Shi Fu locations after learning</EffectDesc>
+		<Places>
+			<li>Place_QSF</li>
+		</Places>
+	</Esoterica>
+	<Esoterica Name="MJ_YDX">
+		<DisplayName>Treasure: Demon Heart</DisplayName>
+		<Icon>Spr\Object\JN\MJ\YDX.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>Learn to make cheats for the demon heart.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>After learning, you can unlock the secret treasure refining method of the demon heart.</EffectDesc>
+		<Fabaos>
+			<li>ZT_YDX</li>
+			
+		</Fabaos>
+	</Esoterica>
+	
+	<Esoterica Name="MJ_ZG">
+		<DisplayName>Strange Treasure: Humble Bow</DisplayName>
+		<Icon>Spr\Object\JN\MJ\ZG.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>Gain cheats for making Humble Bow.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>After learning, you can unlock the secret treasure of Humble Bow.</EffectDesc>
+		<Fabaos>
+			<li>ZT_ZG</li>
+			
+		</Fabaos>
+	</Esoterica>
+	
+	<Esoterica Name="ZT_FL">
+		<DisplayName>Rune eyes cover the sky</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZTFL.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>记录了所有的符篆。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>After learning, you can get all runes.</EffectDesc>
+		<Spells>
+			<li>Spell_MoveSpeed1</li><!-- 轻身符 -->
+			<li>Spell_TempLow1</li><!-- 避寒符 -->
+			<li>Spell_TempHigh1</li><!-- 避暑符 -->
+			<li>Spell_MoveSpeed2</li><!-- 神行符 -->
+			<li>Spell_RecoveryPower</li><!-- 药师祛病符 -->
+			<li>Spell_VisionRadius</li><!-- 千里神视符 -->
+			<li>Spell_Fatigue</li><!-- 周公涤神符 -->
+			<li>Spell_Nutrition</li><!-- 饮气符 -->
+			<li>Spell_Nutrition1</li><!-- 辟谷符 -->
+			<li>Spell_Hide</li><!-- 隐匿符 -->
+			<li>Spell_Happy</li><!-- 长乐符 -->
+			<li>Spell_LunHui_ShenShen</li><!-- 申申符 -->
+			<li>Spell_TempLow2</li><!-- 太阳符 -->
+			<li>Spell_TempHigh2</li><!-- 太阴符 -->
+			<li>Spell_Intelligence</li><!-- 文昌符 -->
+			<li>Spell_Fight</li><!-- 武昌符 -->
+			<li>Spell_GlobalEfficiency</li><!-- 神勤符 -->
+			<li>Spell_MadeQualityAddValue</li><!-- 天工符 -->
+			<li>Spell_Yield</li><!-- 丰饶符 -->
+			<li>Spell_Treatment</li><!-- 药王符 -->
+			<li>Spell_DeepPracticeSpeedSpecialCoefficient1</li><!-- 宁心符 -->
+			<li>Spell_MindState1</li><!-- 天心符 -->
+			<li>Spell_MindState2</li><!-- 洞神符 -->
+			<li>Spell_DeepPracticeSpeedSpecialCoefficient2</li><!-- 洞真符 -->
+			<li>Spell_SpeedOfMindStateCoefficientByMoods</li><!-- 洞玄符 -->
+			<li>Spell_MindState2_LunHui</li><!-- 天通洞神符 -->
+			<li>Spell_WorldMapFlySpeed</li><!-- 分影遁空符 -->
+			<li>Spell_FabaoMake_SuccessRateAddV</li><!-- 太上通宝符 -->
+			<li>Spell_FabaoMake_LingInheritRateAddV</li><!-- 五方万灵符 -->
+			<li>Spell_DanMake_SuccessRateAddV</li><!-- 兜率神符 -->
+			<li>Spell_DanMake_YieldAddP</li><!-- 万化承丹符 -->
+			<li>Spell_Fu</li><!-- 万福图 -->
+			<li>Spell_Lu</li><!-- 万禄图 -->
+			<li>Spell_Shou</li><!-- 万寿图 -->
+		</Spells>
+	</Esoterica>
+	
+	<Esoterica Name="ZTDF">
+		<DisplayName>Tianyi Danfang</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\ZTDF.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>Recorded all Dan Fang.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Dan</Type>
+		<EffectDesc>After learning, you can learn all the Danfang.</EffectDesc>
+		<Dans>
+			<li>BasePracticeDrug</li><!-- 筑基丹 -->
+			<li>Dan_Restore</li><!-- 归源散 -->
+			<li>Dan_Defense</li><!-- 真罡丹 -->
+			<li>Dan_CalmDown</li><!-- 清心丹 -->
+			<li>Dan_Happiness</li><!-- 极乐丹 -->
+			<li>Dan_LostSoul</li><!-- 摄神丹 -->
+			<li>Dan_PracticeRate</li><!-- 黄庭丹 -->
+			<li>Dan_PracticeSpeed</li><!-- 黄芽丹 -->
+			<li>Dan_Thin</li><!-- 塑身丹 -->
+			<li>Dan_Fat</li><!-- 壮体丹 -->
+			<li>Dan_DredgeQi</li><!-- 理气丹 -->
+			<li>Dan_DredgeQi1</li><!-- 通脉散 -->
+			<li>Dan_WuLingSan</li><!-- 五灵散 -->
+			<li>Dan_CureFiveElementDamage</li><!-- 五方化伤丹 -->
+			<li>Dan_CureJinDamage</li><!-- 庚金万化丹 -->
+			<li>Dan_CureMuDamage</li><!-- 碧春丹 -->
+			<li>Dan_CureShuiDamage</li><!-- 天一承气散 -->
+			<li>Dan_CureHuoDamage</li><!-- 火真丹 -->
+			<li>Dan_CureTuDamage</li><!-- 定坤丹 -->
+			<li>Dan_NoHunger2</li><!-- 辟谷丹 -->
+			<li>Dan_NoHunger1</li><!-- 兵粮丸 -->
+			<li>Dan_NoHunger</li><!-- 饮气丹 -->
+			<li>Dan_JingYuan</li><!-- 精元丹 -->
+			<li>Dan_JingYuan2</li><!-- 参芝九窍丸 -->
+			<li>Dan_JingYuan3</li><!-- 血竭散 -->
+			<li>Dan_Ling</li><!-- 聚灵丹 -->
+			<li>Dan_Ling2</li><!-- 紫阳丹 -->
+			<li>Dan_Ling3</li><!-- 万灵散 -->
+			<li>Dan_HundredRefine</li><!-- 九转金丹 -->
+			<li>Dan_ExtremeLofty</li><!-- 造化神丹 -->
+			<li>Dan_IncreaseLife1</li><!-- 长生丹 -->
+			<li>Dan_IncreaseLife2</li><!-- 玄牝续命散 -->
+			<li>Dan_IncreaseLife3</li><!-- 五极灵丹 -->
+			<li>Dan_IncreaseLife4</li><!-- 再造金丹 -->
+			<li>Dan_IncreaseLife5</li><!-- 未来星宿化劫丹 -->
+			<li>Dan_IncreaseNeckCountdown1</li><!-- 乾元避劫丹 -->
+			<li>Dan_IncreaseNeckCountdown2</li><!-- 碧血丹青 -->
+			<li>Dan_FiveBase1</li><!-- 通天丸 -->
+			<li>Dan_FiveBase2</li><!-- 纳地丸 -->
+			<li>Dan_FiveBase3</li><!-- 逸仙丸 -->
+			<li>Dan_FiveBase4</li><!-- 明通丸 -->
+			<li>Dan_FiveBase5</li><!-- 神佑丸 -->
+			<li>Dan_FiveBaseFromLife</li><!-- 五毒五蕴五炁神丹 -->
+			<li>Dan_Soul1</li><!-- 神泣丹 -->
+			<li>Dan_Soul2</li><!-- 通玄丹 -->
+			<li>Dan_Soul3</li><!-- 凝珀丹 -->
+			<li>Dan_Soul4</li><!-- 燃魂丹 -->
+			<li>Dan_SwordBall</li><!-- 剑丸 -->
+			<li>Dan_TreeEXP</li><!-- 天道神丹 -->
+			<li>Dan_LunHui1</li><!-- 封印的记忆：星途闪耀 -->
+			<li>Dan_ReBorn</li><!-- 玄牝重生丹 -->
+			<li>Dan_LingYuanZhong</li><!-- 灵源种 -->
+			<li>Dan_LingYuanSha</li><!-- 造化玉砂 -->
+			<li>Dan_LongDan1</li><!-- 龙魂真灵丹 -->
+			<li>Dan_FengDan1</li><!-- 凤魂真灵丹 -->
+			<li>Dan_ZhuLongDan1</li><!-- 阴阳真灵丹 -->
+			<li>Dan_FenShen1</li><!-- 盘古元神丹 -->
+			<li>Dan_FenShen2</li><!-- 造化同心丹 -->
+			<li>Dan_FenShen3</li><!-- 裂神丹 -->
+			<li>Dan_LingYuanZhong</li><!-- 灵源种 -->
+			<li>Dan_LingYuanSha</li><!-- 灵源砂 -->
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="Esoterica_ZhenFa_Suit12">
+		<DisplayName>Fengxian Liuban</DisplayName>
+		<Icon>Spr\Object\JN\ZT_MJ\FXLJ.png</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>It records the supreme array of powers in Yuan Tianshu, and it is said that it once suppressed a fairy.</Desc>
+		<EffectDesc>Massively increase the load capacity of the matrix method \nIncrease the size of the matrix method \nUnlock the ancient array: \nFengxian Liuban</EffectDesc>
+		<ZhenShapes>
+			<li Name="封仙六禁"> 
+				<ShapeInfo>10|10|5|FXLJ_0|11|10|5|FXLJ_1|11|9|5|FXLJ_2|10|8|5|FXLJ_3|9|8|5|FXLJ_4|9|9|5|FXLJ_5</ShapeInfo>
+				<Descript>Taking the chaotic immortal origin born as a hub, it gathers the powers of the five elements, cultivates the essence of the heavenly path, and transforms the source of the divine source to achieve invincibility and urgency.</Descript>
+			</li>
+							
+		</ZhenShapes>
+		<Modifier>Zhen_ZhenEnginePower4</Modifier>	
+	</Esoterica> 
+</List></Esotericas>

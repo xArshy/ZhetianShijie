@@ -1,0 +1,364 @@
+<SkillTree><List>
+	<Node Name="Gong_XKJ_LH_A1" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_LH_A1</Esoterica>
+		<DisplayName>大道至简</DisplayName>
+		<Level>Qi</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_XKJ_LH_A1_1</li>
+			<li>Gong_XKJ_LH_A1_2</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>8,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_XKJ_LH_A1_1" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_LH_A1_1</Esoterica>
+		<DisplayName>大道至简</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_XKJ_LH_A1_2" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_LH_A1_2</Esoterica>
+		<DisplayName>大道至简</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_XKJ_LH_A2_XKDSY" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_LH_A2_XKDSY</Esoterica>
+		<DisplayName>虚空大手印</DisplayName>
+		<Level>Qi</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>1000</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_XKJ_LH_A3" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_LH_A3</Esoterica>
+		<DisplayName>消万物</DisplayName>
+		<Level>Qi</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_XKJ_LH_A3_2</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_XKJ_LH_A3_2" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_LH_A3_1</Esoterica>
+		<DisplayName>化万物</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_XKJ_LH_A3_2" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_LH_A3_2</Esoterica>
+		<DisplayName>协万物</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	
+		<Node Name="Gong_XKJ_LH_B1" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_LH_B1</Esoterica>
+		<DisplayName>大虚空术</DisplayName>
+		<Level>Dan1</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_XKJ_LH_B1_1</li>
+
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_XKJ_LH_B1_1" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_LH_B1_1</Esoterica>
+		<DisplayName>大虚空术</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	<Node Name="Gong_XKJ_LH_B3_SDSS" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_LH_B3_SDSS</Esoterica>
+		<DisplayName>截天指</DisplayName>
+		<Level>Dan1</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,8,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	<Node Name="Gong_XKJ_SJ_C1" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_SJ_C1</Esoterica>
+		<DisplayName>空间风暴</DisplayName>
+		<Level>Dan2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_XKJ_SJ_C1_1</li>
+			<li>Gong_XKJ_SJ_C1_2</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_XKJ_SJ_C1_1" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_SJ_C1_1</Esoterica>
+		<DisplayName>空间风暴</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_XKJ_SJ_C1_2" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_SJ_C1_2</Esoterica>
+		<DisplayName>空间风暴</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	<Node Name="Gong_XKJ_SJ_C2_YQ" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_SJ_C2_YQ</Esoterica>
+		<DisplayName>气虚化有</DisplayName>
+		<Level>Dan2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_XKJ_SJ_C2_YQ_1</li>
+			<li>Gong_XKJ_SJ_C2_YQ_2</li>
+		</Layers>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,9,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_XKJ_SJ_C2_YQ_1" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_SJ_C1_YQ_1</Esoterica>
+		<DisplayName>气虚化有</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_XKJ_SJ_C2_YQ_2" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_SJ_C1_YQ_2</Esoterica>
+		<DisplayName>气虚化有</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_XKJ_SJ_C3" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_SJ_C3</Esoterica>
+		<DisplayName>虚断两界</DisplayName>
+		<Level>Dan2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_XKJ_SJ_C3_1</li>
+		</Layers>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,9,0,9,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_XKJ_SJ_C3_1" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_SJ_C3_1</Esoterica>
+		<DisplayName>虚断两界</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_XKJ_HL_D1" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_HL_D1</Esoterica>
+		<DisplayName>无虚空间</DisplayName>
+		<Level>God</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_XKJ_HL_D1_1</li>
+			<li>Gong_XKJ_HL_D1_2</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,9</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_XKJ_HL_D1_1" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_HL_D1_1</Esoterica>
+		<DisplayName>无虚空间</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_XKJ_HL_D1_2" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_HL_D1_2</Esoterica>
+		<DisplayName>无虚空间</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_XKJ_HL_D2" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_HL_D2</Esoterica>
+		<DisplayName>虚空镜</DisplayName>
+		<Level>God</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_XKJ_HL_D2_1</li>
+		</Layers>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_XKJ_HL_D2_1" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_HL_D2_1</Esoterica>
+		<DisplayName>虚空镜</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+
+	
+	<Node Name="Gong_XKJ_XT_F1" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_XT_F1</Esoterica>
+		<DisplayName>虚空大道</DisplayName>
+		<Level>God2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_XKJ_XT_F1_1</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,9</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_XKJ_XT_F1_1" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_XT_F1_1</Esoterica>
+		<DisplayName>虚空大道</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	<Node Name="Gong_XKJ_XT_TDQ" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_TDQ</Esoterica>
+		<DisplayName>无上禁忌秘术</DisplayName>
+		<Level>God2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_XKJ_XT_ZD" Gong="Gong_XKJ">
+		<Esoterica>Gong_XKJ_XT_ZD</Esoterica>
+		<DisplayName>红尘仙</DisplayName>
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+</List></SkillTree> 

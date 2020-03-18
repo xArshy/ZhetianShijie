@@ -1,0 +1,26 @@
+<Defs><List>
+	<Def Name="YS1">
+		<li>Item_WSXY</li>
+		
+	</Def>
+	<Def Name="YS2">
+		<li>Item_JSXY</li>
+		
+	</Def>
+	<Def Name="YS3">
+		<li>Item_MSXY</li>
+		
+	</Def>
+	<Def Name="YS4">
+		<li>Item_SSXY</li>
+		
+	</Def>
+	<Def Name="YS5">
+		<li>Item_HSXY</li>
+		
+	</Def>
+	<Def Name="YS6">
+		<li>Item_TSXY</li>
+		
+	</Def>
+</List></Defs>

@@ -1,0 +1,2230 @@
+<ThingDefs><List>
+	<ThingDef Type="Building" Name="DW1" Parent="FurnitureBase">
+		<ThingName>Road pattern 1</ThingName>
+		<Desc>Cultivation of special road patterns can gather aura.</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2</TexScale>
+		<TexPath>Spr\Building\DW\DW1.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,5,0],
+				[0,1,5,1,1,1,0],
+				[5,1,1,5,1,1,5],
+				[5,1,1,5,1,1,5],
+				[0,1,5,1,5,1,0],
+				[0,0,0,0,5,5,0],
+				[0,0,0,0,0,5,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>10</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_WSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW2" Parent="FurnitureBase">
+		<ThingName>Road pattern 2</ThingName>
+		<Desc>Cultivation of special road patterns can gather aura.</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2.5</TexScale>
+		<TexPath>Spr\Building\DW\DW2.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0],
+				[0,0,0,5,0,0,0],
+				[0,1,5,1,5,1,0],
+				[0,0,1,5,1,0,0],
+				[0,1,5,1,5,1,0],
+				[0,0,0,5,0,0,0],
+				[0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>7</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_WSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW3" Parent="FurnitureBase">
+		<ThingName>Road pattern 3</ThingName>
+		<Desc>Cultivation of special road patterns can gather aura.</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2</TexScale>
+		<TexPath>Spr\Building\DW\DW3.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,5,0,0,0],
+				[0,1,5,1,5,1,0],
+				[5,1,1,5,1,1,5],
+				[5,1,1,5,1,1,5],
+				[0,1,5,1,5,1,0],
+				[0,0,0,5,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+			</Collider>
+		<Building>
+			<OwnerCount>12</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_TSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW4" Parent="FurnitureBase">
+		<ThingName>Road pattern 4</ThingName>
+		<Desc>Cultivation of special road patterns can gather aura.</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2.5</TexScale>
+		<TexPath>Spr\Building\DW\DW5.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0],
+				[0,5,0,5,0,5,0],
+				[0,0,5,1,5,0,0],
+				[0,5,1,5,1,5,0],
+				[0,0,5,1,5,0,0],
+				[0,5,0,5,0,5,0],
+				[0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>13</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_HSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW5" Parent="FurnitureBase">
+		<ThingName>Road pattern 5</ThingName>
+		<Desc>Cultivation of special road patterns can gather aura.</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2.5</TexScale>
+		<TexPath>Spr\Building\DW\DW6.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0],
+				[0,5,0,5,0,5,0],
+				[0,0,5,1,5,0,0],
+				[0,5,1,5,1,5,0],
+				[0,0,5,1,5,0,0],
+				[0,5,0,5,0,5,0],
+				[0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>13</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_SSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW6" Parent="FurnitureBase">
+		<ThingName>Road pattern 6</ThingName>
+		<Desc>Cultivation of special road patterns can gather aura.</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>1</TexScale>
+		<TexPath>Spr\Building\DW\DW7.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,1,0,5,0,1,0,0],
+				[0,0,0,1,1,1,0,0,0],
+				[0,5,0,1,5,1,0,5,0],
+				[0,0,1,1,1,1,1,0,0],
+				[0,0,5,0,5,0,5,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,5,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>8</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_MSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW7" Parent="FurnitureBase">
+		<ThingName>Road pattern 7</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>1</TexScale>
+		<TexPath>Spr\Building\DW\DW8.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,5,0,0,0,0],
+				[0,0,0,5,1,5,0,0,0],
+				[0,0,5,1,5,1,5,0,0],
+				[0,0,0,5,1,5,0,0,0],
+				[0,0,0,0,5,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>8</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_JSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW8" Parent="FurnitureBase">
+		<ThingName>Road pattern 8</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>1</TexScale>
+		<TexPath>Spr\Building\DW\DW10.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,1,0,0,0,0],
+				[0,0,0,0,1,0,0,0,0],
+				[0,0,0,0,5,0,0,0,0],
+				[0,0,0,5,1,5,0,0,0],
+				[1,1,5,1,5,1,5,1,1],
+				[0,0,0,5,1,5,0,0,0],
+				[0,0,0,0,5,0,0,0,0],
+				[0,0,0,0,1,0,0,0,0],
+				[0,0,0,0,1,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>8</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_WSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW9" Parent="FurnitureBase">
+		<ThingName>Road pattern 9</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2</TexScale>
+		<TexPath>Spr\Building\DW\DW11.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,1,0,0,0,0],
+				[0,0,0,0,5,0,0,0,0],
+				[0,5,0,0,1,0,0,5,0],
+				[0,0,0,5,1,5,0,0,0],
+				[0,1,5,1,5,1,5,1,0],
+				[0,0,0,5,1,5,0,0,0],
+				[0,5,0,0,1,0,0,5,0],
+				[0,0,0,0,5,0,0,0,0],
+				[0,0,0,0,1,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>13</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_TSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW10" Parent="FurnitureBase">
+		<ThingName>Road pattern 10</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>4</TexScale>
+		<TexPath>Spr\Building\DW\DW21.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,1,0,0,0,0],
+				[0,0,0,0,5,0,0,0,0],
+				[0,5,0,0,1,0,0,5,0],
+				[0,0,0,5,1,5,0,0,0],
+				[0,1,5,1,5,1,5,1,0],
+				[0,0,0,5,1,5,0,0,0],
+				[0,5,0,0,1,0,0,5,0],
+				[0,0,0,0,5,0,0,0,0],
+				[0,0,0,0,1,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>13</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_HSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW11" Parent="FurnitureBase">
+		<ThingName>道纹11</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>1</TexScale>
+		<TexPath>Spr\Building\DW\DW22.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				
+				[5,0,5],
+				[0,5,0],
+				[5,0,5],
+				
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>5</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_SSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW12" Parent="FurnitureBase">
+		<ThingName>Road pattern 12</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>1</TexScale>
+		<TexPath>Spr\Building\DW\DW16.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,5,0,0,0,0],
+				[0,0,0,5,1,5,0,0,0],
+				[0,0,5,1,5,1,5,0,0],
+				[0,0,0,5,1,5,0,0,0],
+				[0,0,0,0,5,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>9</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_MSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW13" Parent="FurnitureBase">
+		<ThingName>道纹13</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>1</TexScale>
+		<TexPath>Spr\Building\DW\DW17.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,5,1,5,0,0,0],
+				[0,0,0,5,5,5,0,0,0],
+				[0,0,0,5,1,5,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>9</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_JSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW14" Parent="FurnitureBase">
+		<ThingName>道纹14</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2</TexScale>
+		<TexPath>Spr\Building\DW\DW23.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,5,1,5,0,0,0],
+				[0,0,0,5,5,5,0,0,0],
+				[0,0,0,5,1,5,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>9</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_WSXXY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW15" Parent="FurnitureBase">
+		<ThingName>道纹15</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2</TexScale>
+		<TexPath>Spr\Building\DW\DW24.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,5,0,5,0,5,0,0],
+				[0,1,0,5,1,5,0,1,0],
+				[0,5,0,5,5,5,0,5,0],
+				[0,1,0,5,1,5,0,1,0],
+				[0,0,5,0,5,0,5,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>9</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_TSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW16" Parent="FurnitureBase">
+		<ThingName>道纹16</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2</TexScale>
+		<TexPath>Spr\Building\DW\DW12.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0],
+				[0,0,1,5,1,0,0],
+				[0,1,5,1,5,1,0],
+				[0,5,1,5,1,5,0],
+				[0,1,5,1,5,1,0],
+				[0,0,1,5,1,0,0],
+				[0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>9</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_HSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW17" Parent="FurnitureBase">
+		<ThingName>道纹17</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>0.75</TexScale>
+		<TexPath>Spr\Building\DW\DW13.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0],
+				[0,0,0,5,0,0,0],
+				[0,0,5,5,5,0,0],
+				[0,0,0,5,0,0,0],
+				[0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>5</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_SSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW18" Parent="FurnitureBase">
+		<ThingName>道纹18</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2.5</TexScale>
+		<TexPath>Spr\Building\DW\DW14.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0],
+				[0,0,0,5,0,0,0],
+				[0,0,5,5,5,0,0],
+				[0,0,0,5,0,0,0],
+				[0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>5</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_MSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW19" Parent="FurnitureBase">
+		<ThingName>道纹19</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>0.75</TexScale>
+		<TexPath>Spr\Building\DW\DW15.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0],
+				[0,0,0,5,0,0,0],
+				[0,0,5,5,5,0,0],
+				[0,0,0,5,0,0,0],
+				[0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>5</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_JSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW20" Parent="FurnitureBase">
+		<ThingName>道纹20</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2</TexScale>
+		<TexPath>Spr\Building\DW\DW.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0],
+				[0,0,1,5,1,0,0],
+				[0,1,5,1,5,1,0],
+				[0,5,1,5,1,5,0],
+				[0,1,5,1,5,1,0],
+				[0,0,1,5,1,0,0],
+				[0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>9</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_WSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW21" Parent="FurnitureBase">
+		<ThingName>道纹21</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2</TexScale>
+		<TexPath>Spr\Building\DW\DW20.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0],
+				[0,0,1,5,1,0,0],
+				[0,1,5,1,5,1,0],
+				[0,5,1,5,1,5,0],
+				[0,1,5,1,5,1,0],
+				[0,0,1,5,1,0,0],
+				[0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>9</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_WSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Building" Name="DW22" Parent="FurnitureBase">
+		<ThingName>道纹22</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2</TexScale>
+		<TexPath>Spr\Building\DW\DW18.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0],
+				[0,0,1,5,1,0,0],
+				[0,1,5,1,5,1,0],
+				[0,5,1,5,1,5,0],
+				[0,1,5,1,5,1,0],
+				[0,0,1,5,1,0,0],
+				[0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>9</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_WSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Building" Name="DW23" Parent="FurnitureBase">
+		<ThingName>道纹23</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2</TexScale>
+		<TexPath>Spr\Building\DW\DW19.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0],
+				[0,0,1,5,1,0,0],
+				[0,1,5,1,5,1,0],
+				[0,5,1,5,1,5,0],
+				[0,1,5,1,5,1,0],
+				[0,0,1,5,1,0,0],
+				[0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>9</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_WSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW24" Parent="FurnitureBase">
+		<ThingName>道纹24</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>1</TexScale>
+		<TexPath>Spr\Building\DW\DW9.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,5,0,0,0,0],
+				[0,0,0,5,1,5,0,0,0],
+				[0,0,5,1,5,1,5,0,0],
+				[0,0,0,5,1,5,0,0,0],
+				[0,0,0,0,5,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				[0,0,0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>8</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_JSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW25" Parent="FurnitureBase">
+		<ThingName>道纹25</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2</TexScale>
+		<TexPath>Spr\Building\DW\DW25.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0],
+				[0,0,1,5,1,0,0],
+				[0,1,5,1,5,1,0],
+				[0,5,1,5,1,5,0],
+				[0,1,5,1,5,1,0],
+				[0,0,1,5,1,0,0],
+				[0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>9</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_TSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Building" Name="DW26" Parent="FurnitureBase">
+		<ThingName>道纹26</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2</TexScale>
+		<TexPath>Spr\Building\DW\DW26.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0],
+				[0,0,1,5,1,0,0],
+				[0,1,5,1,5,1,0],
+				[0,5,1,5,1,5,0],
+				[0,1,5,1,5,1,0],
+				[0,0,1,5,1,0,0],
+				[0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>9</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_WSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Building" Name="DW27" Parent="FurnitureBase">
+		<ThingName>道纹27</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2</TexScale>
+		<TexPath>Spr\Building\DW\DW27.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0],
+				[0,0,1,5,1,0,0],
+				[0,1,5,1,5,1,0],
+				[0,5,1,5,1,5,0],
+				[0,1,5,1,5,1,0],
+				[0,0,1,5,1,0,0],
+				[0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>9</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_SSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Building" Name="DW28" Parent="FurnitureBase">
+		<ThingName>道纹28</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2</TexScale>
+		<TexPath>Spr\Building\DW\DW28.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0],
+				[0,0,1,5,1,0,0],
+				[0,1,5,1,5,1,0],
+				[0,5,1,5,1,5,0],
+				[0,1,5,1,5,1,0],
+				[0,0,1,5,1,0,0],
+				[0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>9</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_HSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW29" Parent="FurnitureBase">
+		<ThingName>道纹29</ThingName>
+		<Desc>修炼专用的道纹，能聚集灵气。</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2</TexScale>
+		<TexPath>Spr\Building\DW\DW29.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0],
+				[0,0,1,5,1,0,0],
+				[0,1,5,1,5,1,0],
+				[0,5,1,5,1,5,0],
+				[0,1,5,1,5,1,0],
+				[0,0,1,5,1,0,0],
+				[0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>9</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_MSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="DW30" Parent="FurnitureBase">
+		<ThingName>Road pattern 30</ThingName>
+		<Desc>Cultivation of special road patterns can gather aura.</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>2</TexScale>
+		<TexPath>Spr\Building\DW\DW30.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+				[0,0,0,0,0,0,0],
+				[0,0,1,5,1,0,0],
+				[0,1,5,1,5,1,0],
+				[0,5,1,5,1,5,0],
+				[0,1,5,1,5,1,0],
+				[0,0,1,5,1,0,0],
+				[0,0,0,0,0,0,0],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+				<Offset>
+			
+		</Offset>
+			</Collider>
+		<Building>
+			<OwnerCount>9</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_WSXSY" count = "20"/>
+					<Item name = "Item_WSSS" count = "120"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>9</AddionRadius>
+			<AddionFailing>0.01</AddionFailing>
+			<AddionFailRadius>14</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>1</Absorption>
+			<Accommodate>160000</Accommodate>
+			<LingSource>40000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+</List></ThingDefs>

@@ -1,0 +1,75 @@
+<MoodDefs><List>
+	
+	<Mood Name="wsss">
+		<DisplayName>吃石头，你也太饥不择食了</DisplayName>
+		<Desc>真香警告？</Desc>
+		<StoryDesc>虽然石头加属性。。但是还是很不爽。</StoryDesc>
+		<MaxStack>3</MaxStack>
+		<StackRatio>0.6</StackRatio>
+		<Value>-30</Value>
+		<Duration>0.5</Duration>
+	</Mood>
+	<Mood Name="TCHM">
+		<DisplayName>太初红毛</DisplayName>
+		<Desc>最近睡觉，老梦到红毛怪物在门口哀嚎。。。怎么回事呢。</Desc>
+		<StoryDesc>总感觉最近自己被人诅咒了。</StoryDesc>
+		<MaxStack>9999</MaxStack>
+		<StackRatio>0.5</StackRatio>
+		<Value>-20</Value>
+		<Duration>0.5</Duration>
+	</Mood>
+	<Mood Name="Gan">
+		<DisplayName>瞎了狗眼</DisplayName>
+		<Desc>哎，都怪自己瞎了眼，挑错石头。</Desc>
+		<StoryDesc>被石头中气息所伤，有点疼。</StoryDesc>
+		<MaxStack>9999</MaxStack>
+		<StackRatio>0.5</StackRatio>
+		<Value>-10</Value>
+		<Duration>0.5</Duration>
+	</Mood>
+	<Mood Name="DB">
+		<DisplayName>打击盗版</DisplayName>
+		<Desc>哎，都怪自己瞎了眼，带着一本盗版的秘籍。</Desc>
+		<StoryDesc>因为盗版秘籍而感到愤怒</StoryDesc>
+		<MaxStack>9999</MaxStack>
+		<StackRatio>0.5</StackRatio>
+		<Value>-15</Value>
+		<Duration>0.5</Duration>
+	</Mood>
+	<Mood Name="ZT_Q">
+		<DisplayName>气到吐血</DisplayName>
+		<Desc>被抢先一步切开了好东西，我可以和别人吹一万年的资本就这样没了！</Desc>
+		<StoryDesc>因为与好东西失之交臂而感到心塞</StoryDesc>
+		<MaxStack>9999</MaxStack>
+		<StackRatio>0.5</StackRatio>
+		<Value>-25</Value>
+		<Duration>0.5</Duration>
+	</Mood>
+	<Mood Name="TWEH">
+		<DisplayName>肾虚噩耗</DisplayName>
+		<Desc>没想到强如天帝最后也是如此下场。。。</Desc>
+		<StoryDesc>因为噩耗的消息而感到难过</StoryDesc>
+		<MaxStack>1</MaxStack>
+		<StackRatio>1</StackRatio>
+		<Value>-25</Value>
+		<Duration>5</Duration>
+	</Mood>
+	<Mood Name="XJ">
+		<DisplayName>仙界消息</DisplayName>
+		<Desc>仙界似乎真的存在！</Desc>
+		<StoryDesc>因为仙界的消息而欣喜</StoryDesc>
+		<MaxStack>1</MaxStack>
+		<StackRatio>1</StackRatio>
+		<Value>25</Value>
+		<Duration>5</Duration>
+	</Mood>
+	<Mood Name="Mood_NP_CQD">
+		<DisplayName>啊啊啊！！</DisplayName>
+		<Desc>我感觉我根本停不下来！</Desc>
+		<StoryDesc>心里不停地在骂mmp</StoryDesc>
+		<MaxStack>1</MaxStack>
+		<StackRatio>1</StackRatio>
+		<Value>15</Value>
+		<Duration>5</Duration>
+	</Mood>
+</List></MoodDefs>

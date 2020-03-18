@@ -1,0 +1,60 @@
+<DamageDefs><List>
+<!--特殊-->
+
+	<Damage Name="HX">
+		<DisplayName>虎啸</DisplayName>
+		<Lable>None</Lable>
+		<ValueMin>0.5</ValueMin>
+		<ValueMax>1</ValueMax>
+		<Pain>0</Pain>
+		<Trend>-1</Trend>
+		<Previous></Previous>
+	</Damage>
+	
+	<Damage Name="LSZ">
+		<DisplayName>裂山爪</DisplayName>
+		<Lable>Jin</Lable>
+		<TreatConstant>0</TreatConstant>
+		<ValueMin>0.6</ValueMin>
+		<ValueMax>1</ValueMax>
+		<Pain>1</Pain>
+		<Trend>0.2</Trend>
+		<Previous></Previous>
+		<Next></Next>
+	</Damage>
+	
+	<Damage Name="GCCD">
+		<DisplayName>肝肠寸断</DisplayName>
+		<TreatConstant>0</TreatConstant>
+		<ValueMin>0.15</ValueMin>
+		<ValueMax>0.95</ValueMax>
+		<Pain>0.75</Pain>
+		<Trend>0</Trend>
+		<Previous></Previous>
+		<Next></Next>
+	</Damage>
+	
+	<Damage Name="CH">
+		<DisplayName>嗤魂</DisplayName>
+		<TreatConstant>0</TreatConstant>
+		<ValueMin>0</ValueMin>
+		<ValueMax>1</ValueMax>
+		<Pain>0</Pain>
+		<Trend>0</Trend>
+		<Previous></Previous>
+		<Next></Next>
+	</Damage>
+	
+	<Damage Name="LGB">
+		<DisplayName>裂光波</DisplayName>
+		<Lable>Special</Lable>
+		<TreatConstant>0</TreatConstant>
+		<ValueMin>0.2</ValueMin>
+		<ValueMax>1</ValueMax>
+		<Pain>0</Pain>
+		<Trend>0</Trend>
+		<Previous></Previous>
+		<Next></Next>
+	</Damage>
+	
+</List></DamageDefs>

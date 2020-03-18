@@ -1,0 +1,159 @@
+<DifficultyLabel><List>
+	<Label Name="MapSize">
+		<DisplayName>Map size</DisplayName>
+		<Desc></Desc>
+		<Default>1</Default>
+		<Values>
+			<li Name="Small" Value="0" Desc="96x96 map size"/>
+			<li Name="Medium" Value="1" Desc="128x128 map size"/>
+			<li Name="Big" Value="2" Desc="196x196 map size"/>
+		</Values>
+	</Label>
+	<Label Name="ThunderAddion">
+		<DisplayName>Heavenly Tribulation</DisplayName>
+		<Desc>Difficulty of heavenly tribulations</Desc>
+		<Default>2</Default>
+		<Values>
+			<li Name="Puny" Value="-0.75" Desc="0.25x"/>
+			<li Name="Weak" Value="-0.3" Desc="0.7x"/>
+			<li Name="Normal" Value="0" Desc="1x"/>
+			<li Name="Strong" Value="0.2" Desc="1.2x"/>
+			<li Name="Powerful" Value="0.4" Desc="1.4x"/>
+			<li Name="Sky Difficulty" Value="1" Desc="2x Divine Difficulty"/>
+		</Values>
+	</Label>
+	<Label Name="FightDifficultCoefficient">
+		<DisplayName>Combat</DisplayName>
+		<Desc>The fighting power of cultivators, demon beasts, ancient cultivators etc.</Desc>
+		<Default>2</Default>
+		<Values>
+			<li Name="Puny" Value="0.2" Desc="0.33x"/>
+			<li Name="Weak" Value="0.4" Desc="0.67x"/>
+			<li Name="Normal" Value="0.6" Desc="1x"/>
+			<li Name="Strong" Value="0.8" Desc="1.33x"/>
+			<li Name="Powerful" Value="1" Desc="1.67x"/>
+			<li Name="Sky Difficulty" Value="4" Desc="Several times more difficult to fight"/>
+		</Values>
+	</Label>	
+	<Label Name="LiveDifficulty">
+		<DisplayName>Farming</DisplayName>
+		<Desc>Farming difficulty - growth rate of plants and harvesting yield</Desc>
+		<Default>1</Default>
+		<Values>
+			<li Name="Miniscule" Value="0,1" Desc="2x growth rate and 2x yield"/>
+			<li Name="Low" Value="-0.25,0.5" Desc="1.5x growth rate and 1.5x yield"/>
+			<li Name="Normal" Value="-0.5,0" Desc="1x growth rate and 1x yield"/> <!--GrowAddp,DropAddp-->
+		</Values>
+	</Label>
+	<Label Name="BaseMood">
+		<DisplayName>Mood</DisplayName>
+		<Desc>Base mood value of characters</Desc>
+		<Default>1</Default>
+		<Values>
+			<li Name="Very High" Value="1" Desc="2x"/>
+			<li Name="High" Value="0.5" Desc="1.5x"/>
+			<li Name="Normal" Value="0" Desc="1x"/>
+			<li Name="Sky Difficulty" Value="-0.5" Desc="0.5x"/>
+		</Values>
+	</Label>
+	
+	<Label Name="WorkAddp">
+		<DisplayName>Basic work efficiency</DisplayName>
+		<Desc>The speed at which the character performs most of the work</Desc>
+		<Default>1</Default>
+		<Values>
+			<li Name="Fast" Value="3" Desc="4 times the work efficiency"/>
+			<li Name="Extremely fast" Value="1" Desc="2x working efficiency"/>
+			<li Name="fast" Value="0.5" Desc="1.5 times the work efficiency"/>
+			<li Name="normal" Value="0" Desc="Normal work efficiency"/>
+		</Values>
+	</Label>
+	
+	<Label Name="PracticeAddp">
+		<DisplayName>Cultivation</DisplayName>
+		<Desc>Base speed of cultivation</Desc>
+		<Default>1</Default>
+		<Values>
+			<li Name="Very fast" Value="1" Desc="2x"/>
+			<li Name="Fast" Value="0.5" Desc="1.5x"/>
+			<li Name="Normal" Value="0" Desc="1x"/>
+			<li Name="Sky Era" Value="-0.5" Desc="0.5x"/>
+		</Values>
+	</Label>
+	
+	<Label Name="MapExploringAddp">
+		<DisplayName>Traveling</DisplayName>
+		<Desc>Base speed of characters on the world map</Desc>
+		<Default>1</Default>
+		<Values>
+			<li Name="Extremely fast" Value="5" Desc="5x"/>
+			<li Name="Very fast" Value="1" Desc="2x"/>
+			<li Name="Fast" Value="0.5" Desc="1.5x"/>
+			<li Name="Normal" Value="0" Desc="1"/>
+		</Values>
+	</Label>
+	
+	<Label Name="TreeExpAddtion">
+		<DisplayName>Learning</DisplayName>
+		<Desc>Base cost of learning new abilities</Desc>
+		<Default>1</Default>
+		<Values>
+			<li Name="Very low" Value="-0.5" Desc="0.5x"/>
+			<li Name="Low" Value="-0.25" Desc="0.75x"/>
+			<li Name="Normal" Value="0" Desc="1x"/>
+		</Values>
+	</Label>
+	
+	<Label Name="AverageTimePerEvent">
+		<DisplayName>Events</DisplayName>
+		<Desc>Time interval between the events</Desc>
+		<Default>2</Default>
+		<Values>
+			<li Name="Very long" Value="3" Desc="Once per 3 days"/>
+			<li Name="Long" Value="2.5" Desc="Once per 2.5 days"/>
+			<li Name="Normal" Value="2" Desc="Once per 2 days"/>
+			<li Name="Short" Value="1.5" Desc="Once per 1.5 days"/>
+			<li Name="Very short" Value="1" Desc="Once per day"/>
+		</Values>
+	</Label>
+	
+	<Label Name="DoubleRate">
+		<DisplayName>Double event</DisplayName>
+		<Desc>Chance of triggering two events at once</Desc>
+		<Default>2</Default>
+		<Values>
+			<li Name="None" Value="0" Desc="None"/>
+			<li Name="Low" Value="0.1" Desc="10%"/>
+			<li Name="Medium" Value="0.2" Desc="20%"/>
+			<li Name="High" Value="0.3" Desc="30%"/>
+			<li Name="Very High" Value="0.4" Desc="40%"/>
+		</Values>
+	</Label>	
+		
+	<Label Name="TripleRate">
+		<DisplayName>Triple event</DisplayName>
+		<Desc>Chance of triggering three events at once</Desc>
+		<Default>2</Default>
+		<Values>
+			<li Name="None" Value="0" Desc="None"/>
+			<li Name="Low" Value="0.1" Desc="5%"/>
+			<li Name="Medium" Value="0.2" Desc="10%"/>
+			<li Name="High" Value="0.3" Desc="15%"/>
+			<li Name="Very High" Value="0.4" Desc="20%"/>
+		</Values>
+	</Label>
+	
+	<Label Name="BlankWeight">
+		<DisplayName>Accident rate</DisplayName>
+		<Desc>Chance of triggering an empty event when an event occurs</Desc>
+		<Default>4</Default>
+		<Values>
+			<li Name="Very High" Value="0.6" Desc="60%"/>
+			<li Name="High" Value="0.45" Desc="45%"/>
+			<li Name="Medium" Value="0.3" Desc="30%"/>
+			<li Name="Low" Value="0.15" Desc="15%"/>
+			<li Name="None" Value="0" Desc="None"/>
+		</Values>
+	</Label>
+	
+</List></DifficultyLabel>

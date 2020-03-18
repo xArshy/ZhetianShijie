@@ -1,0 +1,281 @@
+<Stories><List>	
+<!--系统使用，不能修改-->
+	
+	
+	
+	<Story Name="OutSpread_ZTTF"  Parent="BaseFillingStory">
+		<DisplayName>Tianfeng Mountains</DisplayName>
+		<Desc>Tianfeng Mountain is the treasure of the immortal Emperor. Materials for Imperial soldiers may be found inside.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Search some</Display>
+				<OKResult>
+					<![CDATA[
+					local nR = me:RandomInt(1, 200);
+					local nQ = me:RandomInt(1, 200);
+					local nB = me:RandomInt(1, 200);
+					if nR >= 180 then
+					me:AddMsg(XT("[NAME]Searched around, but found nothing good."));
+					elseif nR >= 175 then
+					me:AddMsg(XT("[NAME]Walking to the depths of Tianfeng Mountain, I actually found Dongfu's cave house!"));
+						if nB >= 180 then
+							me:AddMsg(XT("[NAME]It was found that Dongfu seemed to be a fake Dongfu and found nothing."));
+						elseif nB >= 160 then
+							me:AddMsg(XT("[NAME]Found a treasure box in Dongfu, opened it, and it turned out to be an imperial talent."));
+							me:DropAwardItem("Item_DJHJ",1);
+						elseif nB >= 140 then
+							me:AddMsg(XT("[NAME]Found a treasure box in Dongfu, opened it, and it turned out to be an imperial talent."));
+							me:DropAwardItem("Item_HXCJ",1);
+						elseif nB >= 120 then
+							me:AddMsg(XT("[NAME]Found a treasure box in Dongfu, opened it, and it turned out to be an imperial talent."));
+							me:DropAwardItem("Item_LWHJ",1);
+						elseif nB >= 100 then
+							me:AddMsg(XT("[NAME]Found a treasure box in Dongfu, opened it, and it turned out to be an imperial talent."));
+							me:DropAwardItem("Item_YHQJ",1);
+						elseif nB >= 80 then
+							me:AddMsg(XT("[NAME]Found a treasure box in Dongfu, opened it, and it turned out to be an imperial talent."));
+							me:DropAwardItem("Item_SHZJ",1);
+						elseif nB >= 60 then
+							me:AddMsg(XT("[NAME]Found a treasure box in Dongfu, opened it, and it turned out to be an imperial talent."));
+							me:DropAwardItem("Item_YHLJ",1);
+						elseif nB >= 40 then
+							me:AddMsg(XT("[NAME]Found a treasure box in Dongfu, opened it, and it turned out to be an imperial talent."));
+							me:DropAwardItem("Item_XLLJ",1);
+						elseif nB >= 20 then
+							me:AddMsg(XT("[NAME]Found a treasure box in Dongfu, opened it, and it turned out to be an imperial talent."));
+							me:DropAwardItem("Item_XHEQ",1);
+						elseif nB >= 1 then
+							me:AddMsg(XT("[NAME]Found a treasure box in Dongfu, opened it, and it turned out to be a bunch of imperial soldiers."));
+							me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_XHEQ",1);me:DropAwardItem("Item_XLLJ",1);
+							me:DropAwardItem("Item_HXCJ",1);me:DropAwardItem("Item_LWHJ",1);me:DropAwardItem("Item_YHQJ",1);
+							me:DropAwardItem("Item_SHZJ",1);me:DropAwardItem("Item_YHLJ",1);
+							if nQ >= 100 then
+								me:AddMsg(XT("[NAME]Forgetting the truth that wealth is not exposed, all kinds of arrogance on the return road were heard by the major saints."));
+								GameMain:GetMod("XG"):TTMG2();
+							else nQ >= 1 then
+								me:AddMsg(XT("Since ancient times, wealth has moved people, even monks can't avoid the vulgarity, those who are waiting around the Tianfeng Mountain early on, are planning to rob."));
+								GameMain:GetMod("XG"):TTMG1();
+							end
+						end
+						elseif nR >= 155 then
+						me:AddMsg(XT("[NAME]Walking to the depths of Tianfeng Mountain, I actually found Dongfu's cave house!"));
+							if nQ >= 180 then
+								me:AddMsg(XT("[NAME]It was found that Dongfu seemed to be a fake Dongfu and found nothing."));
+							else
+								me:AddMsg(XT("[NAME]Found a prohibition in Dongfu, which seemed to seal something good."));
+								if me:GetGLevel() >= 11 then 
+									me:AddMsg(XT("[NAME]With his strong practice, he directly broke the ban."));
+										if nB >= 100 then 
+											me:AddMsg(XT("Even though it has been over a million years, can the Great Emperor's prohibition be broken when you say it?"));
+											me:AddDamgeFromCache(story.DamageCache,12,12);
+										elseif nB >= 50 then 
+											me:AddMsg(XT("[NAME]The ban was broken, but it was a little bit engulfed, but the gains were considerable."));
+											me:DropAwardItem("Item_BasePracticeDrug",3);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2",6);me:DropAwardItem("Item_WDCY",3);
+											me:AddDamgeFromCache(story.DamageCache,12,0.8);
+										elseif nB >= 1 then 
+											me:AddMsg(XT("[NAME]With both strength and luck, he successfully broke the long-repaired embargo."));
+											me:DropAwardItem("Item_BasePracticeDrug",3);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2",6);me:DropAwardItem("Item_WDCY",3);
+										end
+									end
+								elseif me:GetGLevel() >= 9 then 
+									me:AddMsg(XT("[NAME]Relying on his own practice, he broke the prohibition directly."));
+										if nB >= 80 then 
+											me:AddMsg(XT("Even though it has been over a million years, can the Great Emperor's prohibition be broken when you say it?"));
+											me:AddDamgeFromCache(story.DamageCache,12,12);
+										elseif nB >= 40 then 
+											me:AddMsg(XT("[NAME]The ban was broken, but it was a little bit engulfed, but the gains were considerable."));
+											me:DropAwardItem("Item_BasePracticeDrug",3);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2",6);me:DropAwardItem("Item_WDCY",3);
+											me:AddDamgeFromCache(story.DamageCache,12,0.8);
+										elseif nB >= 1 then 
+											me:AddMsg(XT("[NAME]With both strength and luck, he successfully broke the long-repaired embargo."));
+											me:DropAwardItem("Item_BasePracticeDrug",3);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2",6);me:DropAwardItem("Item_WDCY",3);
+										end
+								else
+									me:AddMsg(XT("[NAME]The strength was too bad, and he was wounded by the imperial emperor ’s power just near the ban."));
+											me:AddDamgeFromCache(story.DamageCache,1,1);
+								end
+							end
+					elseif nR >= 105 then
+						me:AddMsg(XT("[NAME]Walking to the depths of Tianfeng Mountain, I actually found Dongfu's cave house!"));	
+							if nQ >= 180 then
+								me:AddMsg(XT("[NAME]It was found that Dongfu seemed to be a fake Dongfu and found nothing."));
+							else
+								me:AddMsg(XT("[NAME]Found a prohibition in Dongfu, which seemed to seal something good."));
+								if me:GetGLevel() >= 11 then 
+								me:AddMsg(XT("[NAME]With his strong practice, he directly broke the ban."));
+									if nB >= 100 then 
+										me:AddMsg(XT("Even though it has been over a million years, can the Great Emperor's prohibition be broken when you say it?"));
+										me:AddDamgeFromCache(story.DamageCache,12,12);
+									elseif nB >= 50 then 
+										me:AddMsg(XT("[NAME]The ban was broken, but it was a little bit engulfed, but the gains were considerable."));
+										me:DropAwardItem("Item_MiBao_YinHunZhu",2);me:DropAwardItem("Item_MiBao_ZHYX",2);me:DropAwardItem("Item_MiBao_TXF",1);
+										me:AddDamgeFromCache(story.DamageCache,12,0.8);
+									elseif nB >= 1 then 
+										me:AddMsg(XT("[NAME]With both strength and luck, he successfully broke the long-repaired embargo."));
+										me:DropAwardItem("Item_MiBao_YinHunZhu",2);me:DropAwardItem("Item_MiBao_ZHYX",2);me:DropAwardItem("Item_MiBao_TXF",1);
+									end
+								
+								elseif me:GetGLevel() >= 9 then 
+								me:AddMsg(XT("[NAME]Relying on his own practice, he broke the prohibition directly."));
+									if nB >= 80 then 
+										me:AddMsg(XT("Even though it has been over a million years, can the Great Emperor's prohibition be broken when you say it?"));
+										me:AddDamgeFromCache(story.DamageCache,12,12);
+									elseif nB >= 40 then 
+										me:AddMsg(XT("[NAME]The ban was broken, but it was a little bit engulfed, but the gains were considerable."));
+										me:DropAwardItem("Item_MiBao_YinHunZhu",2);me:DropAwardItem("Item_MiBao_ZHYX",2);me:DropAwardItem("Item_MiBao_TXF",1);
+										me:AddDamgeFromCache(story.DamageCache,12,0.8);
+									elseif nB >= 1 then 
+										me:AddMsg(XT("[NAME]With both strength and luck, he successfully broke the long-repaired embargo."));
+										me:DropAwardItem("Item_MiBao_YinHunZhu",2);me:DropAwardItem("Item_MiBao_ZHYX",2);me:DropAwardItem("Item_MiBao_TXF",1);
+									end
+								else
+								me:AddMsg(XT("[NAME]The strength was too bad, and he was wounded by the imperial emperor ’s power just near the ban."));
+										me:AddDamgeFromCache(story.DamageCache,1,1);
+								end
+							end
+					elseif nR >= 55 then
+						me:AddMsg(XT("[NAME]Walking to the depths of Tianfeng Mountain, I actually found Dongfu's cave house!"));	
+						if nQ >= 180 then
+							me:AddMsg(XT("[NAME]It was found that Dongfu seemed to be a fake Dongfu and found nothing."));
+						else
+							me:AddMsg(XT("[NAME]Found a prohibition in Dongfu, which seemed to seal something good."));
+							if me:GetGLevel() >= 11 then 
+								me:AddMsg(XT("[NAME]With his strong practice, he directly broke the ban."));
+									if nB >= 100 then 
+										me:AddMsg(XT("Even though it has been over a million years, can the Great Emperor's prohibition be broken when you say it?"));
+										me:AddDamgeFromCache(story.DamageCache,12,12);
+									elseif nB >= 50 then 
+										me:AddMsg(XT("[NAME]The ban was broken, but it was a little bit engulfed, but the gains were considerable."));
+										me:DropAwardItem("Item_XZ",20);me:DropAwardItem("Item_YYSY",20);me:DropAwardItem("Item_DLYJ",20);me:DropAwardItem("Item_ZJST",20);
+										me:DropAwardItem("Item_ST",20);me:DropAwardItem("Item_ZYW",20);me:DropAwardItem("Item_ZYSY",20);me:DropAwardItem("Item_JTCYW",20);
+										me:AddDamgeFromCache(story.DamageCache,12,0.8);
+									elseif nB >= 1 then 
+										me:AddMsg(XT("[NAME]With both strength and luck, he successfully broke the long-repaired embargo."));
+										me:DropAwardItem("Item_XZ",20);me:DropAwardItem("Item_YYSY",20);me:DropAwardItem("Item_DLYJ",20);me:DropAwardItem("Item_ZJST",20);
+										me:DropAwardItem("Item_ST",20);me:DropAwardItem("Item_ZYW",20);me:DropAwardItem("Item_ZYSY",20);me:DropAwardItem("Item_JTCYW",20);
+									end
+							elseif me:GetGLevel() >= 9 then 
+								me:AddMsg(XT("[NAME]Relying on his own practice, he broke the prohibition directly."));
+									if nB >= 80 then 
+										me:AddMsg(XT("Even though it has been over a million years, can the Great Emperor's prohibition be broken when you say it?"));
+										me:AddDamgeFromCache(story.DamageCache,12,12);
+									elseif nB >= 40 then 
+										me:AddMsg(XT("[NAME]The ban was broken, but it was a little bit engulfed, but the gains were considerable."));
+										me:DropAwardItem("Item_XZ",20);me:DropAwardItem("Item_YYSY",20);me:DropAwardItem("Item_DLYJ",20);me:DropAwardItem("Item_ZJST",20);
+										me:DropAwardItem("Item_ST",20);me:DropAwardItem("Item_ZYW",20);me:DropAwardItem("Item_ZYSY",20);me:DropAwardItem("Item_JTCYW",20);
+										me:AddDamgeFromCache(story.DamageCache,12,0.8);
+									elseif nB >= 1 then 
+										me:AddMsg(XT("[NAME]With both strength and luck, he successfully broke the long-repaired embargo."));
+										me:DropAwardItem("Item_XZ",20);me:DropAwardItem("Item_YYSY",20);me:DropAwardItem("Item_DLYJ",20);me:DropAwardItem("Item_ZJST",20);
+										me:DropAwardItem("Item_ST",20);me:DropAwardItem("Item_ZYW",20);me:DropAwardItem("Item_ZYSY",20);me:DropAwardItem("Item_JTCYW",20);
+									end
+							else
+								me:AddMsg(XT("[NAME]The strength was too bad, and he was wounded by the imperial emperor ’s power just near the ban."));
+										me:AddDamgeFromCache(story.DamageCache,1,1);
+							end
+						end
+					elseif nR >= 5 then
+						me:AddMsg(XT("[NAME]Walking to the depths of Tianfeng Mountain, I actually found Dongfu's cave house!"));	
+						if nQ >= 180 then
+							me:AddMsg(XT("[NAME]It was found that Dongfu seemed to be a fake Dongfu and found nothing."));
+						else
+							me:AddMsg(XT("[NAME]Found a prohibition in Dongfu, which seemed to seal something good."));
+							if me:GetGLevel() >= 11 then 
+								me:AddMsg(XT("[NAME]With his strong practice, he directly broke the ban."));
+									if nB >= 100 then 
+										me:AddMsg(XT("Even though it has been over a million years, can the Great Emperor's prohibition be broken when you say it?"));
+										me:AddDamgeFromCache(story.DamageCache,12,12);
+									elseif nB >= 50 then 
+										me:AddMsg(XT("[NAME]The ban was broken, but it was a little bit engulfed, but the gains were considerable."));
+										me:DropAwardItem("Item_WSXY",12);
+										me:DropAwardItem("Item_JSXY",12);
+										me:DropAwardItem("Item_MSXY",12);
+										me:DropAwardItem("Item_SSXY",12);
+										me:DropAwardItem("Item_HSXY",12);
+										me:DropAwardItem("Item_TSXY",12);
+										me:AddDamgeFromCache(story.DamageCache,12,0.8);
+									elseif nB >= 1 then 
+										me:AddMsg(XT("[NAME]With both strength and luck, he successfully broke the long-repaired embargo."));
+										me:DropAwardItem("Item_WSXY",12);
+										me:DropAwardItem("Item_JSXY",12);
+										me:DropAwardItem("Item_MSXY",12);
+										me:DropAwardItem("Item_SSXY",12);
+										me:DropAwardItem("Item_HSXY",12);
+										me:DropAwardItem("Item_TSXY",12);
+									end
+							elseif me:GetGLevel() >= 9 then 
+								me:AddMsg(XT("[NAME]Relying on his own practice, he broke the prohibition directly."));
+									if nB >= 80 then 
+										me:AddMsg(XT("Even though it has been over a million years, can the Great Emperor's prohibition be broken when you say it?"));
+										me:AddDamgeFromCache(story.DamageCache,12,12);
+									elseif nB >= 40 then 
+										me:AddMsg(XT("[NAME]The ban was broken, but it was a little bit engulfed, but the gains were considerable."));
+										me:DropAwardItem("Item_WSXY",12);
+										me:DropAwardItem("Item_JSXY",12);
+										me:DropAwardItem("Item_MSXY",12);
+										me:DropAwardItem("Item_SSXY",12);
+										me:DropAwardItem("Item_HSXY",12);
+										me:DropAwardItem("Item_TSXY",12);
+										me:AddDamgeFromCache(story.DamageCache,12,0.8);
+									elseif nB >= 1 then 
+										me:AddMsg(XT("[NAME]With both strength and luck, he successfully broke the long-repaired embargo."));
+										me:DropAwardItem("Item_WSXY",12);
+										me:DropAwardItem("Item_JSXY",12);
+										me:DropAwardItem("Item_MSXY",12);
+										me:DropAwardItem("Item_SSXY",12);
+										me:DropAwardItem("Item_HSXY",12);
+										me:DropAwardItem("Item_TSXY",12);
+									end
+							else
+								me:AddMsg(XT("[NAME]The strength was too bad, and he was wounded by the imperial emperor ’s power just near the ban."));
+										me:AddDamgeFromCache(story.DamageCache,1,1);
+							end
+						end
+						elseif nR >= 1 then
+						me:AddMsg(XT("[NAME]Walking to the depths of Tianfeng Mountain, I actually found Dongfu's cave house!"));	
+						if nQ >= 180 then
+							me:AddMsg(XT("[NAME]It was found that Dongfu seemed to be a fake Dongfu and found nothing."));
+						else
+							me:AddMsg(XT("[NAME]Found a prohibition in Dongfu, which seemed to seal something good."));
+							if me:GetGLevel() >= 11 then 
+								me:AddMsg(XT("[NAME]With his strong practice, he directly broke the ban."));
+									if nB >= 100 then 
+										me:AddMsg(XT("Even though it has been over a million years, can the Great Emperor's prohibition be broken when you say it?"));
+										me:AddDamgeFromCache(story.DamageCache,12,12);
+									elseif nB >= 50 then 
+										me:AddMsg(XT("[NAME]The ban was broken, but it was a little bit engulfed, but the gains were considerable."));
+										me:DropAwardItem("Item_BSSHY",1);
+										me:AddDamgeFromCache(story.DamageCache,12,0.8);
+									elseif nB >= 1 then 
+										me:AddMsg(XT("[NAME]With both strength and luck, he successfully broke the long-repaired embargo."));
+										me:DropAwardItem("Item_BSSHY",1);
+									end
+							elseif me:GetGLevel() >= 9 then 
+								me:AddMsg(XT("[NAME]Relying on his own practice, he broke the prohibition directly."));
+									if nB >= 80 then 
+										me:AddMsg(XT("Even though it has been over a million years, can the Great Emperor's prohibition be broken when you say it?"));
+										me:AddDamgeFromCache(story.DamageCache,12,12);
+									elseif nB >= 40 then 
+										me:AddMsg(XT("[NAME]The ban was broken, but it was a little bit engulfed, but the gains were considerable."));
+										me:DropAwardItem("Item_BSSHY",1);
+										me:AddDamgeFromCache(story.DamageCache,12,0.8);
+									elseif nB >= 1 then 
+										me:AddMsg(XT("[NAME]With both strength and luck, he successfully broke the long-repaired embargo."));
+										me:DropAwardItem("Item_BSSHY",1);
+									end
+							else
+								me:AddMsg(XT("[NAME]The strength was too bad, and he was wounded by the imperial emperor ’s power just near the ban."));
+										me:AddDamgeFromCache(story.DamageCache,1,1);
+							end
+						end
+					end
+						
+							
+							
+					]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+</List></Stories>

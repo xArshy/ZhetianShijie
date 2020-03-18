@@ -1,0 +1,1996 @@
+<ThingDefs><List>
+	<ThingDef Type="Building" Name="LGD1" Parent="FurnitureBase">
+	<ThingName>Practice array</ThingName>	
+	<Desc>The environment for outside students to hone their fists and feet to build the foundation, it ’s more sensation to practice here.</Desc>
+	<Tags>
+		<Tag Name="BasePractice" Level="10"/>
+		<Tag Name="AtkPractice" Level="10"/>
+	</Tags>
+	<TexPath>Spr\Building\DW\LGD1.png</TexPath>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>	
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,4,0],
+		[4,3,4],
+		[0,4,0],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<AutoUnLock>1</AutoUnLock>
+		<MaxWorker>2</MaxWorker>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkAnimation>kszdpugong1,kszdpugong2,kszdpugong3,kszdpugong4</WorkAnimation>
+		<BasePracticeEffectiveness>1.5</BasePracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostItems>
+					<Item name = "Item_WSXY" count = "5"/>
+				</CostItems>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.45</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="LGD2" Parent="FurnitureBase">
+	<ThingName>Practice array 2</ThingName>	
+	<Desc>The environment for outside students to hone their fists and feet to build the foundation, it ’s more sensation to practice here.</Desc>
+	<Tags>
+		<Tag Name="BasePractice" Level="10"/>
+		<Tag Name="AtkPractice" Level="10"/>
+	</Tags>
+	<TexPath>Spr\Building\DW\LGD2.png</TexPath>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>	
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,4,0],
+		[4,3,4],
+		[0,4,0],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<AutoUnLock>1</AutoUnLock>
+		<MaxWorker>2</MaxWorker>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkAnimation>kszdpugong1,kszdpugong2,kszdpugong3,kszdpugong4</WorkAnimation>
+		<BasePracticeEffectiveness>1.5</BasePracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostItems>
+					<Item name = "Item_WSXY" count = "5"/>
+				</CostItems>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.45</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="LGD3" Parent="FurnitureBase">
+	<ThingName>Practice array 3</ThingName>	
+	<Desc>The environment for outside students to hone their fists and feet to build the foundation, it ’s more sensation to practice here.</Desc>
+	<Tags>
+		<Tag Name="BasePractice" Level="10"/>
+		<Tag Name="AtkPractice" Level="10"/>
+	</Tags>
+	<TexPath>Spr\Building\DW\LGD3.png</TexPath>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>	
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,4,0],
+		[4,3,4],
+		[0,4,0],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<AutoUnLock>1</AutoUnLock>
+		<MaxWorker>2</MaxWorker>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkAnimation>kszdpugong1,kszdpugong2,kszdpugong3,kszdpugong4</WorkAnimation>
+		<BasePracticeEffectiveness>1.5</BasePracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostItems>
+					<Item name = "Item_WSXY" count = "5"/>
+				</CostItems>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.45</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="LGD4" Parent="FurnitureBase">
+	<ThingName>Practice array 4</ThingName>	
+	<Desc>The environment for outside students to hone their fists and feet to build the foundation, it ’s more sensation to practice here.</Desc>
+	<Tags>
+		<Tag Name="BasePractice" Level="10"/>
+		<Tag Name="AtkPractice" Level="10"/>
+	</Tags>
+	<TexPath>Spr\Building\DW\LGD4.png</TexPath>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>	
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,4,0],
+		[4,3,4],
+		[0,4,0],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<AutoUnLock>1</AutoUnLock>
+		<MaxWorker>2</MaxWorker>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkAnimation>kszdpugong1,kszdpugong2,kszdpugong3,kszdpugong4</WorkAnimation>
+		<BasePracticeEffectiveness>1.5</BasePracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostItems>
+					<Item name = "Item_WSXY" count = "5"/>
+				</CostItems>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.45</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	
+	<ThingDef Type="Building" Name="LGD5" Parent="FurnitureBase">
+	<ThingName>Practice array 5</ThingName>	
+	<Desc>The environment for outside students to hone their fists and feet to build the foundation, it ’s more sensation to practice here.</Desc>
+	<Tags>
+		<Tag Name="BasePractice" Level="10"/>
+		<Tag Name="AtkPractice" Level="10"/>
+	</Tags>
+	<TexPath>Spr\Building\DW\LGD5.png</TexPath>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>	
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,4,0],
+		[4,3,4],
+		[0,4,0],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<AutoUnLock>1</AutoUnLock>
+		<MaxWorker>2</MaxWorker>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkAnimation>kszdpugong1,kszdpugong2,kszdpugong3,kszdpugong4</WorkAnimation>
+		<BasePracticeEffectiveness>1.5</BasePracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostItems>
+					<Item name = "Item_WSXY" count = "5"/>
+				</CostItems>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.45</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="LGD6" Parent="FurnitureBase">
+	<ThingName>Practice array 6</ThingName>	
+	<Desc>The environment for outside students to hone their fists and feet to build the foundation, it ’s more sensation to practice here.</Desc>
+	<Tags>
+		<Tag Name="BasePractice" Level="10"/>
+		<Tag Name="AtkPractice" Level="10"/>
+	</Tags>
+	<TexPath>Spr\Building\DW\LGD6.png</TexPath>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>	
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,4,0],
+		[4,3,4],
+		[0,4,0],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<AutoUnLock>1</AutoUnLock>
+		<MaxWorker>2</MaxWorker>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkAnimation>kszdpugong1,kszdpugong2,kszdpugong3,kszdpugong4</WorkAnimation>
+		<BasePracticeEffectiveness>1.5</BasePracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostItems>
+					<Item name = "Item_JSXY" count = "5"/>
+				</CostItems>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.45</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="LGD7" Parent="FurnitureBase">
+	<ThingName>Practice array 7</ThingName>	
+	<Desc>The environment for outside students to hone their fists and feet to build the foundation, it ’s more sensation to practice here.</Desc>
+	<Tags>
+		<Tag Name="BasePractice" Level="10"/>
+		<Tag Name="AtkPractice" Level="10"/>
+	</Tags>
+	<TexPath>Spr\Building\DW\LGD7.png</TexPath>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>	
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,4,0],
+		[4,3,4],
+		[0,4,0],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<AutoUnLock>1</AutoUnLock>
+		<MaxWorker>2</MaxWorker>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkAnimation>kszdpugong1,kszdpugong2,kszdpugong3,kszdpugong4</WorkAnimation>
+		<BasePracticeEffectiveness>1.5</BasePracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostItems>
+					<Item name = "Item_MSXY" count = "5"/>
+				</CostItems>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.45</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="LGD8" Parent="FurnitureBase">
+	<ThingName>Exercise array 8</ThingName>	
+	<Desc>The environment for outside students to hone their fists and feet to build the foundation, it ’s more sensation to practice here.</Desc>
+	<Tags>
+		<Tag Name="BasePractice" Level="10"/>
+		<Tag Name="AtkPractice" Level="10"/>
+	</Tags>
+	<TexPath>Spr\Building\DW\LGD8.png</TexPath>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>	
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,4,0],
+		[4,3,4],
+		[0,4,0],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<AutoUnLock>1</AutoUnLock>
+		<MaxWorker>2</MaxWorker>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkAnimation>kszdpugong1,kszdpugong2,kszdpugong3,kszdpugong4</WorkAnimation>
+		<BasePracticeEffectiveness>1.5</BasePracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostItems>
+					<Item name = "Item_SSXY" count = "5"/>
+				</CostItems>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.45</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="LGD9" Parent="FurnitureBase">
+	<ThingName>Exercise array 9</ThingName>	
+	<Desc>The environment for outside students to hone their fists and feet to build the foundation, it ’s more sensation to practice here.</Desc>
+	<Tags>
+		<Tag Name="BasePractice" Level="10"/>
+		<Tag Name="AtkPractice" Level="10"/>
+	</Tags>
+	<TexPath>Spr\Building\DW\LGD9.png</TexPath>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>	
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,4,0],
+		[4,3,4],
+		[0,4,0],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<AutoUnLock>1</AutoUnLock>
+		<MaxWorker>2</MaxWorker>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkAnimation>kszdpugong1,kszdpugong2,kszdpugong3,kszdpugong4</WorkAnimation>
+		<BasePracticeEffectiveness>1.5</BasePracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostItems>
+					<Item name = "Item_HSXY" count = "5"/>
+				</CostItems>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.45</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="LGD10" Parent="FurnitureBase">
+	<ThingName>Exercise array 10</ThingName>	
+	<Desc>The environment for outside students to hone their fists and feet to build the foundation, it ’s more sensation to practice here.</Desc>
+	<Tags>
+		<Tag Name="BasePractice" Level="10"/>
+		<Tag Name="AtkPractice" Level="10"/>
+	</Tags>
+	<TexPath>Spr\Building\DW\LGD10.png</TexPath>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>	
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,4,0],
+		[4,3,4],
+		[0,4,0],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<AutoUnLock>1</AutoUnLock>
+		<MaxWorker>2</MaxWorker>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkAnimation>kszdpugong1,kszdpugong2,kszdpugong3,kszdpugong4</WorkAnimation>
+		<BasePracticeEffectiveness>1.5</BasePracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostItems>
+					<Item name = "Item_TSXY" count = "5"/>
+				</CostItems>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.45</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="LGD11" Parent="FurnitureBase">
+	<ThingName>Exercise array 11</ThingName>	
+	<Desc>The environment for outside students to hone their fists and feet to build the foundation, it ’s more sensation to practice here.</Desc>
+	<Tags>
+		<Tag Name="BasePractice" Level="10"/>
+		<Tag Name="AtkPractice" Level="10"/>
+	</Tags>
+	<TexPath>Spr\Building\DW\LGD11.png</TexPath>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>	
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,4,0],
+		[4,3,4],
+		[0,4,0],
+		</Data>
+		<Offset>
+			<y>-0.75</y>
+			<x>-0.55</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<AutoUnLock>1</AutoUnLock>
+		<MaxWorker>2</MaxWorker>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkAnimation>kszdpugong1,kszdpugong2,kszdpugong3,kszdpugong4</WorkAnimation>
+		<BasePracticeEffectiveness>1.5</BasePracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostItems>
+					<Item name = "Item_JSXY" count = "5"/>
+				</CostItems>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.45</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="LGD12" Parent="FurnitureBase">
+	<ThingName>Exercise array 12</ThingName>	
+	<Desc>The environment for outside students to hone their fists and feet to build the foundation, it ’s more sensation to practice here.</Desc>
+	<Tags>
+		<Tag Name="BasePractice" Level="10"/>
+		<Tag Name="AtkPractice" Level="10"/>
+	</Tags>
+	<TexPath>Spr\Building\DW\LGD12.png</TexPath>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>	
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,4,0],
+		[4,3,4],
+		[0,4,0],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<AutoUnLock>1</AutoUnLock>
+		<MaxWorker>2</MaxWorker>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkAnimation>kszdpugong1,kszdpugong2,kszdpugong3,kszdpugong4</WorkAnimation>
+		<BasePracticeEffectiveness>1.5</BasePracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostItems>
+					<Item name = "Item_MSXY" count = "5"/>
+				</CostItems>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.45</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="LGD13" Parent="FurnitureBase">
+	<ThingName>练功阵13</ThingName>	
+	<Desc>供外门弟子磨练拳脚筑基的环境，在这里练功更有感觉。</Desc>
+	<Tags>
+		<Tag Name="BasePractice" Level="10"/>
+		<Tag Name="AtkPractice" Level="10"/>
+	</Tags>
+	<TexPath>Spr\Building\DW\LGD13.png</TexPath>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>	
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,4,0],
+		[4,3,4],
+		[0,4,0],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<AutoUnLock>1</AutoUnLock>
+		<MaxWorker>2</MaxWorker>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkAnimation>kszdpugong1,kszdpugong2,kszdpugong3,kszdpugong4</WorkAnimation>
+		<BasePracticeEffectiveness>1.5</BasePracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostItems>
+					<Item name = "Item_SSXY" count = "5"/>
+				</CostItems>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.45</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="LGD14" Parent="FurnitureBase">
+	<ThingName>Exercise array 14</ThingName>	
+	<Desc>The environment for outside students to hone their fists and feet to build the foundation, it ’s more sensation to practice here.</Desc>
+	<Tags>
+		<Tag Name="BasePractice" Level="10"/>
+		<Tag Name="AtkPractice" Level="10"/>
+	</Tags>
+	<TexPath>Spr\Building\DW\LGD14.png</TexPath>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>	
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,4,0],
+		[4,3,4],
+		[0,4,0],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<AutoUnLock>1</AutoUnLock>
+		<MaxWorker>2</MaxWorker>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkAnimation>kszdpugong1,kszdpugong2,kszdpugong3,kszdpugong4</WorkAnimation>
+		<BasePracticeEffectiveness>1.5</BasePracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostItems>
+					<Item name = "Item_HSXY" count = "5"/>
+				</CostItems>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.45</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="LGD15" Parent="FurnitureBase">
+	<ThingName>练功阵15</ThingName>	
+	<Desc>供外门弟子磨练拳脚筑基的环境，在这里练功更有感觉。</Desc>
+	<Tags>
+		<Tag Name="BasePractice" Level="10"/>
+		<Tag Name="AtkPractice" Level="10"/>
+	</Tags>
+	<TexPath>Spr\Building\DW\LGD15.png</TexPath>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>	
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,4,0],
+		[4,3,4],
+		[0,4,0],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<AutoUnLock>1</AutoUnLock>
+		<MaxWorker>2</MaxWorker>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>1</BePackage>
+		<WorkAnimation>kszdpugong1,kszdpugong2,kszdpugong3,kszdpugong4</WorkAnimation>
+		<BasePracticeEffectiveness>1.5</BasePracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostItems>
+					<Item name = "Item_TSXY" count = "5"/>
+				</CostItems>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.45</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	
+	<ThingDef Type="Building" Name="ZTQKJ1" Parent="MiracleBase">
+	<TexPath>Spr\Building\DW\XKDD.png</TexPath>
+	<TexScale>1</TexScale>
+	<Tags>
+		<Tag Name="_WONDER" Level="1"/>
+		<Tag Name="SleeveSpace" Level="1"/>
+	</Tags>
+	<ThingName>Void Emperor</ThingName>	
+	<Desc>The statues that are left behind by the mighty power of Supreme Space have the ability to store things.</Desc>
+	<ElementKind>None</ElementKind>
+	<BlockLight>0</BlockLight>
+	<ShadowSize>
+		<x>1</x>
+		<y>1.2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,3,1],
+		[1,1,1,1],
+		</Data>
+		<Offset>
+			<y>2.5</y>
+			<x>-0.5</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<SnowRenderData>
+			<x>1.5</x>
+			<y>1.5</y>
+			<z>1</z>
+		</SnowRenderData>
+		<MaxCount>1</MaxCount>		
+		<BeMade>
+			<WorkToMake>18000</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "40"/>
+				<Item name = "Item_JSXY" count = "40"/>
+				<Item name = "Item_MSXY" count = "40"/>
+				<Item name = "Item_SSXY" count = "40"/>
+				<Item name = "Item_HSXY" count = "40"/>
+				<Item name = "Item_TSXY" count = "40"/>
+				<Item name = "Item_WSXSY" count = "10"/>
+				<Item name = "Item_JSXSY" count = "10"/>
+				<Item name = "Item_MSXSY" count = "10"/>
+				<Item name = "Item_SSXSY" count = "10"/>
+				<Item name = "Item_HSXSY" count = "10"/>
+				<Item name = "Item_TSXSY" count = "10"/>
+				<Item name = "Item_LingStone" count = "5000"/>
+			</CostItems>
+		</BeMade>
+	</Building>	
+	<Harvest>
+		<DropItems>
+			<li>
+				<ThingDef>Item_Wonder_QianKunLingJing</ThingDef>
+				<Count>1</Count>
+			</li>
+		</DropItems>  
+	</Harvest>
+	<StoryBnts>
+			<li Name="collect" Desc="Include all non-disabled income items on the map that are not in the fog." Script="Map:CollectToRemoteStorage(bind.Key)" Icon="res/Sprs/ui/icon_hand"/>
+	</StoryBnts>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+	</Ling>
+	<Light>
+		<Value>200</Value>
+		<Failing>1</Failing>
+		<FailRadius>4</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDAD00C6</Color>
+	</Light>
+	</ThingDef>	
+	
+	<ThingDef Type="Building" Name="ZTJZ1" Parent="OrnamentBase">
+	<TexPath>Spr\Building\DW\JZ1.png</TexPath>
+	<TexScale>2</TexScale>
+	<ThingName>Sky Sword Formation</ThingName>	
+	<Desc>You can put useless magic weapons into the sword array, and when necessary, you can open the sword array to defend against the enemy. The sword array can only lock the breath of the inner disciples. Once the magic weapon is put into the sword array, it cannot be taken out.</Desc>
+	<Tags>
+		<Tag Name="Zhen" Level="10"/>
+	</Tags>
+	<Beauty>20</Beauty>
+	<ShadowSize>
+		<x>1</x>
+		<y>2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[1,3,1],
+		[1,1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<NoFengshui>0</NoFengshui>
+		<Perfab>Building/Prefabs/Jianzhu</Perfab>
+		<BePackage>0</BePackage>
+		<HelperClass>BuildingHelperZhen</HelperClass>
+		
+		<BagDrop>0</BagDrop>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "10"/>
+				<Item name = "Item_JSXY" count = "10"/>
+				<Item name = "Item_MSXY" count = "10"/>
+				<Item name = "Item_SSXY" count = "10"/>
+				<Item name = "Item_HSXY" count = "10"/>
+				<Item name = "Item_TSXY" count = "10"/>
+				</CostItems>
+			<CostStuffCount>40</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.4</x>
+			<y>4</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>0</Radius>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>80</Value>
+		<Failing>1</Failing>
+		<FailRadius>4</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDAD00C6</Color>
+	</Light>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="ZTJZ2" Parent="OrnamentBase">
+	<TexPath>Spr\Building\DW\JZ2.png</TexPath>
+	<TexScale>1</TexScale>
+	<ThingName>Sky Sword Formation</ThingName>	
+	<Desc>You can put useless magic weapons into the sword array, and when necessary, you can open the sword array to defend against the enemy. The sword array can only lock the breath of the inner disciples. Once the magic weapon is put into the sword array, it cannot be taken out.</Desc>
+	<Tags>
+		<Tag Name="Zhen" Level="10"/>
+	</Tags>
+	<Beauty>20</Beauty>
+	<ShadowSize>
+		<x>1</x>
+		<y>2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[1,3,1],
+		[1,1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<NoFengshui>0</NoFengshui>
+		<Perfab>Building/Prefabs/Jianzhu</Perfab>
+		<BePackage>0</BePackage>
+		<HelperClass>BuildingHelperZhen</HelperClass>
+		
+		<BagDrop>0</BagDrop>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "10"/>
+				<Item name = "Item_JSXY" count = "10"/>
+				<Item name = "Item_MSXY" count = "10"/>
+				<Item name = "Item_SSXY" count = "10"/>
+				<Item name = "Item_HSXY" count = "10"/>
+				<Item name = "Item_TSXY" count = "10"/>
+				</CostItems>
+			<CostStuffCount>40</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.4</x>
+			<y>4</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>0</Radius>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>80</Value>
+		<Failing>1</Failing>
+		<FailRadius>4</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDAD00C6</Color>
+	</Light>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="ZTJZ3" Parent="OrnamentBase">
+	<TexPath>Spr\Building\DW\JZ3.png</TexPath>
+	<TexScale>1</TexScale>
+	<ThingName>Sky Sword Formation</ThingName>	
+	<Desc>You can put useless magic weapons into the sword array, and when necessary, you can open the sword array to defend against the enemy. The sword array can only lock the breath of the inner disciples. Once the magic weapon is put into the sword array, it cannot be taken out.</Desc>
+	<Tags>
+		<Tag Name="Zhen" Level="10"/>
+	</Tags>
+	<Beauty>20</Beauty>
+	<ShadowSize>
+		<x>1</x>
+		<y>2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[1,3,1],
+		[1,1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<NoFengshui>0</NoFengshui>
+		<Perfab>Building/Prefabs/Jianzhu</Perfab>
+		<BePackage>0</BePackage>
+		<HelperClass>BuildingHelperZhen</HelperClass>
+		
+		<BagDrop>0</BagDrop>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "10"/>
+				<Item name = "Item_JSXY" count = "10"/>
+				<Item name = "Item_MSXY" count = "10"/>
+				<Item name = "Item_SSXY" count = "10"/>
+				<Item name = "Item_HSXY" count = "10"/>
+				<Item name = "Item_TSXY" count = "10"/>
+				</CostItems>
+			<CostStuffCount>40</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.4</x>
+			<y>4</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>0</Radius>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>80</Value>
+		<Failing>1</Failing>
+		<FailRadius>4</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDAD00C6</Color>
+	</Light>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="ZTJZ4" Parent="OrnamentBase">
+	<TexPath>Spr\Building\DW\JZ4.png</TexPath>
+	<TexScale>1</TexScale>
+	<ThingName>Sky Sword Formation</ThingName>	
+	<Desc>You can put useless magic weapons into the sword array, and when necessary, you can open the sword array to defend against the enemy. The sword array can only lock the breath of the inner disciples. Once the magic weapon is put into the sword array, it cannot be taken out.</Desc>
+	<Tags>
+		<Tag Name="Zhen" Level="10"/>
+	</Tags>
+	<Beauty>20</Beauty>
+	<ShadowSize>
+		<x>1</x>
+		<y>2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[1,3,1],
+		[1,1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<NoFengshui>0</NoFengshui>
+		<Perfab>Building/Prefabs/Jianzhu</Perfab>
+		<BePackage>0</BePackage>
+		<HelperClass>BuildingHelperZhen</HelperClass>
+		
+		<BagDrop>0</BagDrop>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "10"/>
+				<Item name = "Item_JSXY" count = "10"/>
+				<Item name = "Item_MSXY" count = "10"/>
+				<Item name = "Item_SSXY" count = "10"/>
+				<Item name = "Item_HSXY" count = "10"/>
+				<Item name = "Item_TSXY" count = "10"/>
+				</CostItems>
+			<CostStuffCount>40</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.4</x>
+			<y>4</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>0</Radius>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>80</Value>
+		<Failing>1</Failing>
+		<FailRadius>4</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDAD00C6</Color>
+	</Light>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="ZTJZ5" Parent="OrnamentBase">
+	<TexPath>Spr\Building\DW\JZ5.png</TexPath>
+	<TexScale>2</TexScale>
+	<ThingName>Sky Sword Formation</ThingName>	
+	<Desc>You can put useless magic weapons into the sword array, and when necessary, you can open the sword array to defend against the enemy. The sword array can only lock the breath of the inner disciples. Once the magic weapon is put into the sword array, it cannot be taken out.</Desc>
+	<Tags>
+		<Tag Name="Zhen" Level="10"/>
+	</Tags>
+	<Beauty>20</Beauty>
+	<ShadowSize>
+		<x>1</x>
+		<y>2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[1,3,1],
+		[1,1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<NoFengshui>0</NoFengshui>
+		<Perfab>Building/Prefabs/Jianzhu</Perfab>
+		<BePackage>0</BePackage>
+		<HelperClass>BuildingHelperZhen</HelperClass>
+		
+		<BagDrop>0</BagDrop>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "10"/>
+				<Item name = "Item_JSXY" count = "10"/>
+				<Item name = "Item_MSXY" count = "10"/>
+				<Item name = "Item_SSXY" count = "10"/>
+				<Item name = "Item_HSXY" count = "10"/>
+				<Item name = "Item_TSXY" count = "10"/>
+				</CostItems>
+			<CostStuffCount>40</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.4</x>
+			<y>4</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>0</Radius>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>80</Value>
+		<Failing>1</Failing>
+		<FailRadius>4</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDAD00C6</Color>
+	</Light>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="ZTJZ6" Parent="OrnamentBase">
+	<TexPath>Spr\Building\DW\JZ6.png</TexPath>
+	<TexScale>1</TexScale>
+	<ThingName>遮天剑阵</ThingName>	
+	<Desc>可以将无用的法宝投入剑阵，在必要的时候可以开启剑阵，抵御敌人，剑阵只能锁定内门弟子的气息。法宝一旦投入剑阵就无法取出。</Desc>
+	<Tags>
+		<Tag Name="Zhen" Level="10"/>
+	</Tags>
+	<Beauty>20</Beauty>
+	<ShadowSize>
+		<x>1</x>
+		<y>2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[1,3,1],
+		[1,1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<NoFengshui>0</NoFengshui>
+		<Perfab>Building/Prefabs/Jianzhu</Perfab>
+		<BePackage>0</BePackage>
+		<HelperClass>BuildingHelperZhen</HelperClass>
+		
+		<BagDrop>0</BagDrop>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "10"/>
+				<Item name = "Item_JSXY" count = "10"/>
+				<Item name = "Item_MSXY" count = "10"/>
+				<Item name = "Item_SSXY" count = "10"/>
+				<Item name = "Item_HSXY" count = "10"/>
+				<Item name = "Item_TSXY" count = "10"/>
+				</CostItems>
+			<CostStuffCount>40</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.4</x>
+			<y>4</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>0</Radius>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>80</Value>
+		<Failing>1</Failing>
+		<FailRadius>4</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDAD00C6</Color>
+	</Light>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="ZTJZ7" Parent="OrnamentBase">
+	<TexPath>Spr\Building\DW\JZ7.png</TexPath>
+	<TexScale>1</TexScale>
+	<ThingName>遮天剑阵</ThingName>	
+	<Desc>可以将无用的法宝投入剑阵，在必要的时候可以开启剑阵，抵御敌人，剑阵只能锁定内门弟子的气息。法宝一旦投入剑阵就无法取出。</Desc>
+	<Tags>
+		<Tag Name="Zhen" Level="10"/>
+	</Tags>
+	<Beauty>20</Beauty>
+	<ShadowSize>
+		<x>1</x>
+		<y>2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[1,3,1],
+		[1,1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<NoFengshui>0</NoFengshui>
+		<Perfab>Building/Prefabs/Jianzhu</Perfab>
+		<BePackage>0</BePackage>
+		<HelperClass>BuildingHelperZhen</HelperClass>
+		
+		<BagDrop>0</BagDrop>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "10"/>
+				<Item name = "Item_JSXY" count = "10"/>
+				<Item name = "Item_MSXY" count = "10"/>
+				<Item name = "Item_SSXY" count = "10"/>
+				<Item name = "Item_HSXY" count = "10"/>
+				<Item name = "Item_TSXY" count = "10"/>
+				</CostItems>
+			<CostStuffCount>40</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.4</x>
+			<y>4</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>0</Radius>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>80</Value>
+		<Failing>1</Failing>
+		<FailRadius>4</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDAD00C6</Color>
+	</Light>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="ZTJZ8" Parent="OrnamentBase">
+	<TexPath>Spr\Building\DW\JZ8.png</TexPath>
+	<TexScale>1</TexScale>
+	<ThingName>遮天剑阵</ThingName>	
+	<Desc>可以将无用的法宝投入剑阵，在必要的时候可以开启剑阵，抵御敌人，剑阵只能锁定内门弟子的气息。法宝一旦投入剑阵就无法取出。</Desc>
+	<Tags>
+		<Tag Name="Zhen" Level="10"/>
+	</Tags>
+	<Beauty>20</Beauty>
+	<ShadowSize>
+		<x>1</x>
+		<y>2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[1,3,1],
+		[1,1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<NoFengshui>0</NoFengshui>
+		<Perfab>Building/Prefabs/Jianzhu</Perfab>
+		<BePackage>0</BePackage>
+		<HelperClass>BuildingHelperZhen</HelperClass>
+		
+		<BagDrop>0</BagDrop>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "10"/>
+				<Item name = "Item_JSXY" count = "10"/>
+				<Item name = "Item_MSXY" count = "10"/>
+				<Item name = "Item_SSXY" count = "10"/>
+				<Item name = "Item_HSXY" count = "10"/>
+				<Item name = "Item_TSXY" count = "10"/>
+				</CostItems>
+			<CostStuffCount>40</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.4</x>
+			<y>4</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>0</Radius>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>80</Value>
+		<Failing>1</Failing>
+		<FailRadius>4</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDAD00C6</Color>
+	</Light>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="ZTJZ9" Parent="OrnamentBase">
+	<TexPath>Spr\Building\DW\JZ9.png</TexPath>
+	<TexScale>1</TexScale>
+	<ThingName>Sky Sword Formation</ThingName>	
+	<Desc>You can put useless magic weapons into the sword array, and when necessary, you can open the sword array to defend against the enemy. The sword array can only lock the breath of the inner disciples. Once the magic weapon is put into the sword array, it cannot be taken out.</Desc>
+	<Tags>
+		<Tag Name="Zhen" Level="10"/>
+	</Tags>
+	<Beauty>20</Beauty>
+	<ShadowSize>
+		<x>1</x>
+		<y>2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[1,3,1],
+		[1,1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<NoFengshui>0</NoFengshui>
+		<Perfab>Building/Prefabs/Jianzhu</Perfab>
+		<BePackage>0</BePackage>
+		<HelperClass>BuildingHelperZhen</HelperClass>
+		
+		<BagDrop>0</BagDrop>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "10"/>
+				<Item name = "Item_JSXY" count = "10"/>
+				<Item name = "Item_MSXY" count = "10"/>
+				<Item name = "Item_SSXY" count = "10"/>
+				<Item name = "Item_HSXY" count = "10"/>
+				<Item name = "Item_TSXY" count = "10"/>
+				</CostItems>
+			<CostStuffCount>40</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.4</x>
+			<y>4</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>0</Radius>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>80</Value>
+		<Failing>1</Failing>
+		<FailRadius>4</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDAD00C6</Color>
+	</Light>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="ZTJZ10" Parent="OrnamentBase">
+	<TexPath>Spr\Building\DW\JZ10.png</TexPath>
+	<TexScale>1.5</TexScale>
+	<ThingName>遮天剑阵</ThingName>	
+	<Desc>可以将无用的法宝投入剑阵，在必要的时候可以开启剑阵，抵御敌人，剑阵只能锁定内门弟子的气息。法宝一旦投入剑阵就无法取出。</Desc>
+	<Tags>
+		<Tag Name="Zhen" Level="10"/>
+	</Tags>
+	<Beauty>20</Beauty>
+	<ShadowSize>
+		<x>1</x>
+		<y>2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[1,3,1],
+		[1,1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<NoFengshui>0</NoFengshui>
+		<Perfab>Building/Prefabs/Jianzhu</Perfab>
+		<BePackage>0</BePackage>
+		<HelperClass>BuildingHelperZhen</HelperClass>
+		
+		<BagDrop>0</BagDrop>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "10"/>
+				<Item name = "Item_JSXY" count = "10"/>
+				<Item name = "Item_MSXY" count = "10"/>
+				<Item name = "Item_SSXY" count = "10"/>
+				<Item name = "Item_HSXY" count = "10"/>
+				<Item name = "Item_TSXY" count = "10"/>
+				</CostItems>
+			<CostStuffCount>40</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.4</x>
+			<y>4</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>0</Radius>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>80</Value>
+		<Failing>1</Failing>
+		<FailRadius>4</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDAD00C6</Color>
+	</Light>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="ZTJZ11" Parent="OrnamentBase">
+	<TexPath>Spr\Building\DW\JZ11.png</TexPath>
+	<TexScale>1.5</TexScale>
+	<ThingName>遮天剑阵</ThingName>	
+	<Desc>可以将无用的法宝投入剑阵，在必要的时候可以开启剑阵，抵御敌人，剑阵只能锁定内门弟子的气息。法宝一旦投入剑阵就无法取出。</Desc>
+	<Tags>
+		<Tag Name="Zhen" Level="10"/>
+	</Tags>
+	<Beauty>20</Beauty>
+	<ShadowSize>
+		<x>1</x>
+		<y>2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[1,3,1],
+		[1,1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<NoFengshui>0</NoFengshui>
+		<Perfab>Building/Prefabs/Jianzhu</Perfab>
+		<BePackage>0</BePackage>
+		<HelperClass>BuildingHelperZhen</HelperClass>
+		
+		<BagDrop>0</BagDrop>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "10"/>
+				<Item name = "Item_JSXY" count = "10"/>
+				<Item name = "Item_MSXY" count = "10"/>
+				<Item name = "Item_SSXY" count = "10"/>
+				<Item name = "Item_HSXY" count = "10"/>
+				<Item name = "Item_TSXY" count = "10"/>
+				</CostItems>
+			<CostStuffCount>40</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.4</x>
+			<y>4</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>0</Radius>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>80</Value>
+		<Failing>1</Failing>
+		<FailRadius>4</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDAD00C6</Color>
+	</Light>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="ZTJZ12" Parent="OrnamentBase">
+	<TexPath>Spr\Building\DW\JZ12.png</TexPath>
+	<TexScale>1.5</TexScale>
+	<ThingName>遮天剑阵</ThingName>	
+	<Desc>可以将无用的法宝投入剑阵，在必要的时候可以开启剑阵，抵御敌人，剑阵只能锁定内门弟子的气息。法宝一旦投入剑阵就无法取出。</Desc>
+	<Tags>
+		<Tag Name="Zhen" Level="10"/>
+	</Tags>
+	<Beauty>20</Beauty>
+	<ShadowSize>
+		<x>1</x>
+		<y>2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[1,3,1],
+		[1,1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<NoFengshui>0</NoFengshui>
+		<Perfab>Building/Prefabs/Jianzhu</Perfab>
+		<BePackage>0</BePackage>
+		<HelperClass>BuildingHelperZhen</HelperClass>
+		
+		<BagDrop>0</BagDrop>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "10"/>
+				<Item name = "Item_JSXY" count = "10"/>
+				<Item name = "Item_MSXY" count = "10"/>
+				<Item name = "Item_SSXY" count = "10"/>
+				<Item name = "Item_HSXY" count = "10"/>
+				<Item name = "Item_TSXY" count = "10"/>
+				</CostItems>
+			<CostStuffCount>40</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.4</x>
+			<y>4</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>0</Radius>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>80</Value>
+		<Failing>1</Failing>
+		<FailRadius>4</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDAD00C6</Color>
+	</Light>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="ZTJZ13" Parent="OrnamentBase">
+	<TexPath>Spr\Building\DW\JZ13.png</TexPath>
+	<TexScale>1.5</TexScale>
+	<ThingName>遮天剑阵</ThingName>	
+	<Desc>可以将无用的法宝投入剑阵，在必要的时候可以开启剑阵，抵御敌人，剑阵只能锁定内门弟子的气息。法宝一旦投入剑阵就无法取出。</Desc>
+	<Tags>
+		<Tag Name="Zhen" Level="10"/>
+	</Tags>
+	<Beauty>20</Beauty>
+	<ShadowSize>
+		<x>1</x>
+		<y>2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[1,3,1],
+		[1,1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<NoFengshui>0</NoFengshui>
+		<Perfab>Building/Prefabs/Jianzhu</Perfab>
+		<BePackage>0</BePackage>
+		<HelperClass>BuildingHelperZhen</HelperClass>
+		
+		<BagDrop>0</BagDrop>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "10"/>
+				<Item name = "Item_JSXY" count = "10"/>
+				<Item name = "Item_MSXY" count = "10"/>
+				<Item name = "Item_SSXY" count = "10"/>
+				<Item name = "Item_HSXY" count = "10"/>
+				<Item name = "Item_TSXY" count = "10"/>
+				</CostItems>
+			<CostStuffCount>40</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.4</x>
+			<y>4</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>0</Radius>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>80</Value>
+		<Failing>1</Failing>
+		<FailRadius>4</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDAD00C6</Color>
+	</Light>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="ZTJZ14" Parent="OrnamentBase">
+	<TexPath>Spr\Building\DW\JZ14.png</TexPath>
+	<TexScale>1.5</TexScale>
+	<ThingName>遮天剑阵</ThingName>	
+	<Desc>可以将无用的法宝投入剑阵，在必要的时候可以开启剑阵，抵御敌人，剑阵只能锁定内门弟子的气息。法宝一旦投入剑阵就无法取出。</Desc>
+	<Tags>
+		<Tag Name="Zhen" Level="10"/>
+	</Tags>
+	<Beauty>20</Beauty>
+	<ShadowSize>
+		<x>1</x>
+		<y>2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[1,3,1],
+		[1,1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<NoFengshui>0</NoFengshui>
+		<Perfab>Building/Prefabs/Jianzhu</Perfab>
+		<BePackage>0</BePackage>
+		<HelperClass>BuildingHelperZhen</HelperClass>
+		
+		<BagDrop>0</BagDrop>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "10"/>
+				<Item name = "Item_JSXY" count = "10"/>
+				<Item name = "Item_MSXY" count = "10"/>
+				<Item name = "Item_SSXY" count = "10"/>
+				<Item name = "Item_HSXY" count = "10"/>
+				<Item name = "Item_TSXY" count = "10"/>
+				</CostItems>
+			<CostStuffCount>40</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.4</x>
+			<y>4</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>0</Radius>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>80</Value>
+		<Failing>1</Failing>
+		<FailRadius>4</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDAD00C6</Color>
+	</Light>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="ZTJZ15" Parent="OrnamentBase">
+	<TexPath>Spr\Building\DW\JZ15.png</TexPath>
+	<TexScale>1</TexScale>
+	<ThingName>Sky Sword Formation</ThingName>	
+	<Desc>You can put useless magic weapons into the sword array, and when necessary, you can open the sword array to defend against the enemy. The sword array can only lock the breath of the inner disciples. Once the magic weapon is put into the sword array, it cannot be taken out.</Desc>
+	<Tags>
+		<Tag Name="Zhen" Level="10"/>
+	</Tags>
+	<Beauty>20</Beauty>
+	<ShadowSize>
+		<x>1</x>
+		<y>2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[1,3,1],
+		[1,1,1],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<NoFengshui>0</NoFengshui>
+		<Perfab>Building/Prefabs/Jianzhu</Perfab>
+		<BePackage>0</BePackage>
+		<HelperClass>BuildingHelperZhen</HelperClass>
+		
+		<BagDrop>0</BagDrop>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "10"/>
+				<Item name = "Item_JSXY" count = "10"/>
+				<Item name = "Item_MSXY" count = "10"/>
+				<Item name = "Item_SSXY" count = "10"/>
+				<Item name = "Item_HSXY" count = "10"/>
+				<Item name = "Item_TSXY" count = "10"/>
+				</CostItems>
+			<CostStuffCount>40</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.4</x>
+			<y>4</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>0</Radius>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	<Light>
+		<Value>80</Value>
+		<Failing>1</Failing>
+		<FailRadius>4</FailRadius>
+		<Radius>8</Radius>
+		<Color>FDAD00C6</Color>
+	</Light>
+	</ThingDef>	
+	
+	
+	
+	
+	
+	
+</List></ThingDefs>

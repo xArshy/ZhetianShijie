@@ -1,0 +1,75 @@
+<ModifierDefs><List>
+
+	<Modifier Name="ZT_HGJD_SHQ" Type="Normal">
+		<DisplayName>ZT_HGJD_SHQ</DisplayName>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>  
+			<li Name="MaxAge" AddV="200"/>
+			<li Name="NpcLingMaxValue" AddP="0.25"/>
+			<li Name="LingAbsorbSpeed" AddP="0.25"/>
+			
+
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.1"/>
+			
+
+
+			<li Name="ToleranceTMin" AddV="-10"/>
+			<li Name="ToleranceTMax" AddV="10"/>
+		
+			<li Name="NutritionConsumeConstant" AddP="0.5"/>
+			<li Name="NutritionWaterAutoRecover" AddV="0.15"/>
+			
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="0.15"/>
+			<li Name="GodPenaltyAddV" AddV="5"/>
+			<li Name="NeckCountdownAddV" AddV="-2"/>
+			
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="ZT_HGJD_SG" Type="Normal">
+		<DisplayName>ZT_HGJD_SG</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+				
+				<li Name="Fabao" Level="1"/><!-- 法宝 -->
+				<li Name="DouFa" Level="1"/><!-- 斗法 -->
+				<li Name="Barrier" Level="1"/><!-- 护盾 -->
+				<li Name="Zhen" Level="1"/><!-- 阵法 -->
+				<li Name="FightSkill" Level="1"/><!-- 术法 -->
+				<li Name="DanQi" Level="1"/><!-- 丹器 -->
+				<li Name="Medicine" Level="1"/>
+				<li Name="Manual" Level="1"/>
+				<li Name="Fight" Level="1"/><!-- 御物 -->
+				<li Name="Qi" Level="1"/><!-- 气感 -->
+
+				<li Name="Fight" LevelOver="1"/><!-- 御物 -->
+				<li Name="Qi" LevelOver="1"/><!-- 气感 -->
+				<li Name="Fabao" LevelOver="1"/><!-- 法宝 -->
+				<li Name="DouFa" LevelOver="1"/><!-- 斗法 -->
+				<li Name="Barrier" LevelOver="1"/><!-- 护盾 -->
+				<li Name="Zhen" LevelOver="1"/><!-- 阵法 -->
+				<li Name="FightSkill" LevelOver="1"/><!-- 术法 -->
+				<li Name="DanQi" LevelOver="1"/><!-- 丹器 -->
+				<li Name="Medicine" LevelOver="1"/>
+				<li Name="Manual" LevelOver="1"/>
+			</Skills>
+	</Modifier> 
+	
+	<Modifier Name="ZT_PTZ" Type="Normal">
+		<DisplayName>ZT_PTZ</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="5"/>
+			<li Name="InspirationCoefficient" AddP="1"/>
+		</Properties>
+	</Modifier> 
+	
+	
+</List></ModifierDefs>

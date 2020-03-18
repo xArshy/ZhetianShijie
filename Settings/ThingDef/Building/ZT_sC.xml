@@ -1,0 +1,2602 @@
+<ThingDefs><List>
+	<ThingDef Type="Building" Name="LRY" Parent="FurnitureBase">
+	<ThingName>Li Ruoyu</ThingName>	
+	<Desc>Taixuanmen Humble Peak Guardian, Ye Fanzhi. The repair is quite high and hidden. Repair the natural way, so the weather control is more experienced</Desc>
+	<TexPath>Spr\Building\LRY1.png</TexPath>
+	<Tags>
+		<Tag Name="_WONDER" Level="1"/>
+	</Tags>
+	<TexScale>1</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,4,0],
+		[1,1,1],
+		[1,2,1],
+	
+		</Data>
+		<Offset>
+			<y>3</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<HelperClass>BuildingHelperFengshui</HelperClass>
+		<BeMade>
+			<WorkToMake>6000</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSXSY" count = "10"/>
+				<Item name = "Item_JSXSY" count = "10"/>
+				<Item name = "Item_MSXSY" count = "10"/>
+				<Item name = "Item_SSXSY" count = "10"/>
+				<Item name = "Item_HSXSY" count = "10"/>
+				<Item name = "Item_TSXSY" count = "10"/>
+				
+			</CostItems>
+			<CostStuffCount>8</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.4</x>
+			<y>2.86</y>
+			<z>0.5</z>
+		</SnowRenderData>
+		<Light>
+		<Value>125</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>FDCB64FF</Color>
+	</Light>
+	</Building>
+	<StoryBnts>
+		<li Name="Way of nature" Desc="Ask Senior Li to change the weather" Cost="1" Appoint="2" Scope="0"  Story="ZRZD"/>
+		
+		</StoryBnts>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="MP" Parent="ProductionBase">
+	<ThingName>Meng Po</ThingName>	
+	<Desc>The past is unavailable, the present is unavailable, and the future is unavailable. The past life is gone, and in this life, good and evil are only thought of in the heart. Come on, the hot soup is done.</Desc>
+	<TexPath>Spr\Building\MP.png</TexPath>
+	<!--<TexScale>0.65</TexScale>-->
+	<Tags>
+		<Tag Name="_WONDER" Level="1"/>
+	</Tags>
+	<SelectAble>1</SelectAble>	
+	<TexScale>0.75</TexScale>
+	<CastShadow>1</CastShadow>
+	<Beauty>1</Beauty>
+	<BlockLight>1</BlockLight>
+	
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0,0,4,0,0,0],
+		[0,1,1,1,1,1,0],
+		[0,1,1,2,1,1,0],
+	
+		</Data>
+		<Offset>
+			<y>3</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+
+	<Heat>
+		<Value>-18</Value>
+		<Radius>4</Radius>
+		<RoomValue>-20</RoomValue>
+		<Failing>0.3</Failing>
+		<FailRadius>9</FailRadius>
+	</Heat>
+	<Building>
+		<BePackage>1</BePackage>
+		<RoomKind>Kitchen</RoomKind>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<CanMakeRoom>0</CanMakeRoom>
+		<WorkAnimation>cook</WorkAnimation>
+		<BeMade>
+			<WorkToMake>3000</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSSS" count = "50"/>
+			</CostItems>
+			<CostStuffCount>8</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.9</x>
+			<y>3.75</y>
+			<z>1</z>
+		</SnowRenderData>
+		<Drive>
+			<StuffCategories>
+				<Stuff name = "Wood"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostStuffCount>16</CostStuffCount>			
+			<Duration>0.05</Duration>
+			<DriveJustProdece>1</DriveJustProdece>
+			<RateMin>0</RateMin>
+			<RateMax>3</RateMax>
+		</Drive>
+		<ProducePriority>1</ProducePriority>
+		<ProduceKind>Cooking</ProduceKind>
+		<Produces>
+			<Produce>
+				<ThingDef>Item_HST</ThingDef>
+				<Display>Peanut soup</Display>
+				<Count>10</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_HG2</ThingDef>
+				<Display>Big hot pot</Display>
+				<Count>1</Count>
+			</Produce>
+			
+		</Produces>
+	</Building>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>9</Value>         
+		<Radius>2</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Light>
+		<Value>125</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>FDCB64FF</Color>
+	</Light>
+	</ThingDef>	
+	
+	<ThingDef Type="Building" Name="SYYJ"  Parent="ProductionBase">	
+	<ThingName>Source mason table</ThingName>
+	<Desc>We do not produce sources, we are just porters of source stones.</Desc>
+	<TexPath>Spr\Building\SYYJ.png</TexPath>
+	<TexScale>0.7</TexScale>
+	<SelectAble>1</SelectAble>
+	<CastShadow>1</CastShadow>
+	<Beauty>50</Beauty>
+	<BlockLight>10</BlockLight>
+	<ShadowSize>
+		<x>0</x>
+		<y>0</y>
+	</ShadowSize>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0,4,0,1],
+		[4,1,1,1,4],
+		[4,1,1,1,4],
+		[0,4,2,4,0],
+		</Data>
+		<Offset>
+			<y>2</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<MaxCount>3</MaxCount>
+		<BePackage>1</BePackage>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<CanMakeRoom>0</CanMakeRoom>
+		<WorkAnimation>Produce</WorkAnimation>
+		<BeMade>
+			<WorkToMake>1250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSSS" count = "20"/>
+			</CostItems>
+			<CostStuffCount>50</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.8</y>
+			<z>1</z>
+		</SnowRenderData>
+	
+		<ProduceKind>StoneWork</ProduceKind>
+		<Produces>
+			<Produce>
+				<ThingDef>Item_YS1</ThingDef>
+				<Display>Source stone</Display>
+				<Count>1</Count>
+				</Produce>
+				<Produce>
+				<ThingDef>Item_YS2</ThingDef>
+				<Display>Source stone 2</Display>
+				<Count>1</Count>
+				</Produce>
+		</Produces>
+	</Building>
+	</ThingDef>	
+	
+	<ThingDef Type="Building" Name="SBFMaker" Parent="BuildingBase">
+	<ThingName>Artifact Square</ThingName>
+	<TexPath>Spr\Building\SBF.png</TexPath>
+	<Desc>The place where the big brothers customize weapons.</Desc>
+	<TexScale>1.5</TexScale>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,1,1,1,0],
+		[0,1,1,1,0],
+		[1,1,2,1,1],
+		[0,4,4,4,0],
+		</Data>
+		<Offset>
+			<y>2</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<MaxCount>1</MaxCount>
+		<BeMade>
+			<WorkToMake>500</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSSS" count = "20"/>
+			</CostItems>
+			<CostStuffCount>300</CostStuffCount>
+		</BeMade>
+		<ProduceKind>Smithing</ProduceKind>
+		<Produces>
+			<Produce>
+				<ThingDef>ZT_HP</ThingDef>
+				<Display>Tiger</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_BLHQRJY</ThingDef>
+				<Display>Blue Spring Huangjiu into Jiuyou</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_ZHYD</ThingDef>
+				<Display>Forged Jade Plate</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_NGZQS</ThingDef>
+				<Display>Nangong Suzaku Fan</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_WSLHJ</ThingDef>
+				<Display>Reincarnation Sword</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_JXFJ</ThingDef>
+				<Display>Mechanical flying sword</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_DYCHJ</ThingDef>
+				<Display>Emperor Yuan Cang Emperor Sword</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_BXLRJ</ThingDef>
+				<Display>Bixin Linglong Sword</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_ZTXLJ</ThingDef>
+				<Display>Funeral Shura sword</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_XY_CM</ThingDef>
+				<Display>Blood Yuan-Cang Min</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_MJ_JY</ThingDef>
+				<Display>Magic Sword-Jiuyou</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_JD_TQ</ThingDef>
+				<Display>Forbidden-Tianqing</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_ZXSLJ</ThingDef>
+				<Display>紫霄神雷剑</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_LY</ThingDef>
+				<Display>Blue flame</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_JL</ThingDef>
+				<Display>Jian Li</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_WFWTJ</ThingDef>
+				<Display>No sky knife</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_ZTQ</ThingDef>
+				<Display>Sky Gun</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_HSZD</ThingDef>
+				<Display>Way of nursing</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_ZFJ</ThingDef>
+				<Display>Cut Feng Sword</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_YJJ</ThingDef>
+				<Display>Jade Robbery Sword</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_TLD</ThingDef>
+				<Display>Dragon Sword</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_LYFQ</ThingDef>
+				<Display>Flames</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_ZTD</ThingDef>
+				<Display>Skyscraper</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_XHKT</ThingDef>
+				<Display>Xuanhuang Kaitian</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_HMYYJ</ThingDef>
+				<Display>Hongmeng Yin Yang Sword</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_FHJ</ThingDef>
+				<Display>Phoenix Robbery</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_YMZD</ThingDef>
+				<Display>Ghost Town</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_TZY</ThingDef>
+				<Display>Seal of Heaven</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_DZY</ThingDef>
+				<Display>Earth Seal</Display>
+				<Count>1</Count>
+			</Produce>
+		</Produces>
+	</Building>
+	
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="SBFMaker1" Parent="BuildingBase">
+	<ThingName>Queen Mother West</ThingName>
+	<TexPath>Spr\Building\XHM.png</TexPath>
+	<Desc>The Emperor of the West, the mother of the Emperor Wu Shi, was born in harmony with Tao. It is also the name of the Virgin of Yaochi Holy Land. The second custom weapon of the young man is here~</Desc>
+	<TexScale>0.75</TexScale>
+	<Tags>
+		<Tag Name="_WONDER" Level="1"/>
+	</Tags>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		
+		[0,1,1,1,0],
+		[1,1,2,1,1],
+		[1,1,4,1,1],
+		</Data>
+		<Offset>
+			<y>2</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<MaxCount>1</MaxCount>
+		<BeMade>
+			<WorkToMake>500</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSSS" count = "40"/>
+			</CostItems>
+			<CostStuffCount>300</CostStuffCount>
+		</BeMade>
+		<ProduceKind>Smithing</ProduceKind>
+		<Produces>
+			<Produce>
+				<ThingDef>ZT_LHBM</ThingDef>
+				<Display>Reincarnation</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_SYLG</ThingDef>
+				<Display>Shiyin keel</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_CYLG</ThingDef>
+				<Display>Pure Yang Keel</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_ZJSNP</ThingDef>
+				<Display>Ziji Shennongpei</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_BHJM</ThingDef>
+				<Display>Nirvana immortal*Eight Wastes</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_JSXJ</ThingDef>
+				<Display>Death Sword</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_MSSH</ThingDef>
+				<Display>Manshusha</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_FJFS</ThingDef>
+				<Display>Buddha Sword</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_WDJ</ThingDef>
+				<Display>文帝剑</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_TCJ</ThingDef>
+				<Display>太初</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_ZTY</ThingDef>
+				<Display>Cover sky</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_QSYL</ThingDef>
+				<Display>Colorful</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_ML</ThingDef>
+				<Display>Life sickle</Display>
+				<Count>1</Count>
+			</Produce>
+		</Produces>
+	</Building>
+	<Light>
+		<Value>125</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>FDCB64FF</Color>
+	</Light>
+	<StoryBnts>
+			<li Name="Worship" Desc="Worship the emperor" Appoint="3" Story="Story_JB" Cost="5" Icon="Spr\Building\JB.png"/>
+		</StoryBnts>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="QZMaker" Parent="BuildingBase">
+	<ThingName>Baibingfang</ThingName>
+	<TexPath>Spr\Building\QZWQ.png</TexPath>
+	<Desc>Where to make mid-range weapons.</Desc>
+	<TexScale>2</TexScale>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[4,2,4],
+		</Data>
+		<Offset>
+			<y>2</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Building>
+		<MaxCount>1</MaxCount>
+		<BePackage>0</BePackage>
+		<BeMade>
+			<WorkToMake>500</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_WSSS" count = "30"/>
+			</CostItems>
+			<CostStuffCount>300</CostStuffCount>
+		</BeMade>
+		<ProduceKind>Smithing</ProduceKind>
+		<Produces>
+			<Produce>
+				<ThingDef>ZT_BHGXR</ThingDef>
+				<Display>Bai Hu Geng Xin Jian</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_BJJ</ThingDef>
+				<Display>Moon Blade</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_YMJ</ThingDef>
+				<Display>Yan Mo Baihun Dao</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_GYKRF</ThingDef>
+				<Display>鬼眼锻天斧</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_BJQ</ThingDef>
+				<Display>冰泉枪</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_TSMHJ</ThingDef>
+				<Display>Heavenly Soul Slayer</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_JMHJ</ThingDef>
+				<Display>Jianmu soul sword</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_JPLXG</ThingDef>
+				<Display>金鹏龙弦弓</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_ASJ</ThingDef>
+				<Display>闇殇刃</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_BHZ</ThingDef>
+				<Display>避寒玉佩</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>ZT_BHW</ThingDef>
+				<Display>避火真丹</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>FengShuiItem_FS1</ThingDef>
+				<Display>仙玉石</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>FengShuiItem_FS2</ThingDef>
+				<Display>喵芯石刻</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>FengShuiItem_FS3</ThingDef>
+				<Display>朱雀印</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>FengShuiItem_FS4</ThingDef>
+				<Display>黑武士</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>FengShuiItem_FS5</ThingDef>
+				<Display>紫月仙阙</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>FengShuiItem_FS6</ThingDef>
+				<Display>Unicorn print</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>FengShuiItem_FS7</ThingDef>
+				<Display>Maitreya</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>FengShuiItem_FS8</ThingDef>
+				<Display>Koi Covenant</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>FengShuiItem_FS9</ThingDef>
+				<Display>Goalkeeper Lion</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>FengShuiItem_FS10</ThingDef>
+				<Display>Harvest horns deer</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>FengShuiItem_FS11</ThingDef>
+				<Display>Greenwood Mountain Mark</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>FengShuiItem_FS12</ThingDef>
+				<Display>金銮神炉</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>FengShuiItem_FS13</ThingDef>
+				<Display>牛篱耕吙</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>FengShuiItem_FS14</ThingDef>
+				<Display>残破古鼎</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>FengShuiItem_FS15</ThingDef>
+				<Display>九鬃马石刻</Display>
+				<Count>1</Count>
+			</Produce>
+		</Produces>
+	</Building>
+	
+	</ThingDef>
+
+
+	<ThingDef Type="Building" Name="TGMaker" Parent="ProductionBase">
+	<ThingName>Source matrix</ThingName>
+	<TexPath>Spr\Building\YSZHQ.png</TexPath>
+	<Desc>You can drop the source into it and convert it into other items. Now you can only change the source. No more transactions have been opened for the time being, so stay tuned.</Desc>
+	<TexScale>0.9</TexScale>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+
+		[0,0,2,0,0],
+		[0,1,4,1,0],
+		[0,1,1,1,0],
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+			<z>0</z>
+		</Offset>
+	</Collider>
+	<Building>
+		<MaxCount>1</MaxCount>
+		
+		<BeMade>
+			<WorkToMake>500</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+			</StuffCategories>
+			<CostItems>
+				<Item name = "Item_LingStone" count = "50"/>
+				<Item name = "Item_WSSS" count = "30"/>
+			</CostItems>
+			<CostStuffCount>300</CostStuffCount>
+		</BeMade>
+		<ProduceKind>Handwork</ProduceKind>
+		<Produces>
+			<Produce>
+				<ThingDef>Item_TZW</ThingDef>
+				<Display>Body fluid</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_MY</ThingDef>
+				<Display>Fate</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_WSXY</ThingDef>
+				<Display>No attribute source</Display>
+				<Count>1</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_JSXY</ThingDef>
+				<Display>Metallic source</Display>
+				<Count>1</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_MSXY</ThingDef>
+				<Display>Wood property source</Display>
+				<Count>1</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_SSXY</ThingDef>
+				<Display>Water property source</Display>
+				<Count>1</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_HSXY</ThingDef>
+				<Display>Fire Attribute Source</Display>
+				<Count>1</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_TSXY</ThingDef>
+				<Display>Soil property source</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_WSXSY</ThingDef>
+				<Display>Attributeless Source</Display>
+				<Count>1</Count>
+			</Produce>
+
+			<Produce>
+				<ThingDef>Item_JSXSY</ThingDef>
+				<Display>Metallic Divine Source</Display>
+				<Count>1</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_SSXSY</ThingDef>
+				<Display>Water Source God Source</Display>
+				<Count>1</Count>
+			</Produce>
+
+			<Produce>
+				<ThingDef>Item_HSXSY</ThingDef>
+				<Display>Fire Source God Source</Display>
+				<Count>1</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_TSXSY</ThingDef>
+				<Display>土属性神源</Display>
+				<Count>1</Count>
+			</Produce>
+
+			<Produce>
+				<ThingDef>Item_MSXSY</ThingDef>
+				<Display>Wooden Source God Source</Display>
+				<Count>1</Count>
+			</Produce>
+			
+			
+			<Produce>
+				<ThingDef>Item_WSXXY</ThingDef>
+				<Display>No Attribute Xianyuan</Display>
+				<Count>1</Count>
+			</Produce>
+
+			<Produce>
+				<ThingDef>Item_JSXXY</ThingDef>
+				<Display>Metallic fairy</Display>
+				<Count>1</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_SSXXY</ThingDef>
+				<Display>Water property</Display>
+				<Count>1</Count>
+			</Produce>
+
+			<Produce>
+				<ThingDef>Item_HSXXY</ThingDef>
+				<Display>Fire Properties Xianyuan</Display>
+				<Count>1</Count>
+			</Produce>
+			
+			<Produce>
+				<ThingDef>Item_TSXXY</ThingDef>
+				<Display>Earth Properties</Display>
+				<Count>1</Count>
+			</Produce>
+
+			<Produce>
+				<ThingDef>Item_MSXXY</ThingDef>
+				<Display>Wood property fairy source</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_yyzt</ThingDef>
+				<Display>One page</Display>
+				<Count>1</Count>
+			</Produce>
+		</Produces>
+	</Building>
+	
+	</ThingDef>
+	
+	
+	<ThingDef Type="Building" Name="WDBSS" Parent="Building_ZhengFaBuildBase">
+	<TexPath>Spr\Building\WDBSS.png</TexPath>
+	<TexScale>1.5</TexScale>
+	<ThingName>Wudao Ancient Tea Tree</ThingName>
+	<Desc>Wudao tree can produce Wudao tea, and the ancient tea tree of Wudao can be used for instant budding to shorten the time required for budding.</Desc>	
+	<Tags>
+		<Tag Name="Sitable" Level="1"/>
+		<Tag Name="Practice" Level="6"/>
+		<Tag Name="_WONDER" Level="1"/>
+	</Tags>
+	<ShadowSize>
+		<x>1</x>
+		<y>1.2</y>
+	</ShadowSize>
+	<NoElementKind>1</NoElementKind> 
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0,0,0,0],
+		[0,5,3,5,0],
+		[0,1,4,1,1],
+		</Data>
+		<WorkOffset>
+			<li Index="0"  X="0" Y="0.15" Z="-1" Ang="181"/>
+		</WorkOffset>
+		<OffsetGroup>
+			<li><x>0</x><y>0</y></li>  <!-- 后 -->
+			<li><x>0</x><y>0</y></li>     <!-- 右 -->
+			<li><x>0</x><y>0.7</y></li>     <!-- 前 -->
+			<li><x>0</x><y>0</y></li>     <!-- 左 -->
+		</OffsetGroup>
+	</Collider>
+	<Building>
+		<MaxCount>6</MaxCount>
+		<OwnerCount>1</OwnerCount>
+		<PracticeEffectiveness>1.4</PracticeEffectiveness>
+		<WorkAnimation>Produce</WorkAnimation>
+		<BeMade>
+			<WorkToMake>3000</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostStuffCount>999</CostStuffCount>
+			<CostItems>
+				<Item name = "Item_WSXXY" count = "1"/>
+				<Item name = "Item_JSXXY" count = "1"/>
+				<Item name = "Item_MSXXY" count = "1"/>
+				<Item name = "Item_SSXXY" count = "1"/>
+				<Item name = "Item_HSXXY" count = "1"/>
+				<Item name = "Item_TSXXY" count = "1"/>
+				<Item name = "Item_WSXSY" count = "5"/>
+				<Item name = "Item_JSXSY" count = "5"/>
+				<Item name = "Item_MSXSY" count = "5"/>
+				<Item name = "Item_SSXSY" count = "5"/>
+				<Item name = "Item_HSXSY" count = "5"/>
+				<Item name = "Item_TSXSY" count = "5"/>
+				<Item name = "Item_WSXY" count = "10"/>
+				<Item name = "Item_HSXY" count = "10"/>
+				<Item name = "Item_JSXY" count = "10"/>
+				<Item name = "Item_MSXY" count = "10"/>
+				<Item name = "Item_SSXY" count = "10"/>
+				<Item name = "Item_TSXY" count = "10"/>
+
+				<Item name = "Item_WSSS" count = "1000"/>
+
+			</CostItems>
+		</BeMade>
+		<ProduceKind>StoneWork</ProduceKind>
+		<Produces>
+			<Produce>
+				<ThingDef>Item_WDCY</ThingDef>
+				<Display>Wudao tea, ten tablets a hundred days</Display>
+				<Count>10</Count>
+				</Produce>
+		</Produces>
+		<SnowRenderData>
+			<x>2.55</x>
+			<y>3.5</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+		
+	<Ling>
+		<AddionLing>600</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>30000</Accommodate>
+		<LingSource>6000</LingSource>
+	</Ling>
+	<Light>
+		<Value>15</Value>   
+		<FailRadius>6</FailRadius>  
+		<Radius>5</Radius>     
+		<Color>#AFEEEE</Color>   
+	</Light>
+		<StoryBnts>
+		<li Name="Go" Desc="Enlighten Tao with the ancient tea tree." Cost="1" Appoint="2" Scope="0"  Story="WDBSS"/>
+		
+		</StoryBnts>
+		
+	</ThingDef>	
+	
+	<ThingDef Type="Building" Name="FAZUO1" Parent="FurnitureBase">
+		<ThingName>Geng Jin Dao Wen</ThingName>
+		<Desc>Using Xianyuan to engrave the special pattern for cultivation, it can gather aura and increase the speed of cultivation.</Desc>
+		<Beauty>120</Beauty>
+		<ElementKind>Jin</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>0.25</TexScale>
+		<TexPath>Spr\Building\DWJ.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+					[6],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+			</Collider>
+		<Building>
+			<OwnerCount>1</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<WorkTexPath>Spr\Building\DWJ.png</WorkTexPath>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_JSXXY" count = "12"/>
+					<Item name = "Item_WSSS" count = "60"/>
+				</CostItems>
+			</BeMade>
+			
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>3</AddionRadius>
+			<AddionFailing>0.1</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+				
+			<Attenuation>0.1</Attenuation>
+			<Absorption>0.8</Absorption>
+			<Accommodate>60000</Accommodate>
+			<LingSource>10000</LingSource>
+		</Ling>
+		<Element>
+			<Kind>Jin</Kind>
+			<Value>12</Value>
+			<Radius>6</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="FAZUO2" Parent="FurnitureBase">
+		<ThingName>Jiamu Road Pattern</ThingName>
+		<Desc>Using Xianyuan to engrave the special pattern for cultivation, it can gather aura and increase the speed of cultivation.</Desc>
+		<Beauty>120</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>0.125</TexScale>
+		<TexPath>Spr\Building\DWM.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+					[6],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+			</Collider>
+		<Building>
+			<OwnerCount>1</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<WorkTexPath>Spr\Building\DWM.png</WorkTexPath>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_MSXXY" count = "12"/>
+					<Item name = "Item_WSSS" count = "60"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>3</AddionRadius>
+			<AddionFailing>0.1</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>0.8</Absorption>
+			<Accommodate>60000</Accommodate>
+			<LingSource>10000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="FAZUO3" Parent="FurnitureBase">
+		<ThingName>Renshui</ThingName>
+		<Desc>Using Xianyuan to engrave the special pattern for cultivation, it can gather aura and increase the speed of cultivation.</Desc>
+		<Beauty>120</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>1</TexScale>
+		<TexPath>Spr\Building\DWS.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+					[6],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+			</Collider>
+		<Building>
+			<OwnerCount>1</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<WorkTexPath>Spr\Building\DWS.png</WorkTexPath>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_SSXXY" count = "12"/>
+					<Item name = "Item_WSSS" count = "60"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>3</AddionRadius>
+			<AddionFailing>0.1</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>0.8</Absorption>
+			<Accommodate>60000</Accommodate>
+			<LingSource>10000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="FAZUO4" Parent="FurnitureBase">
+		<ThingName>Cinderfire pattern</ThingName>
+		<Desc>Cultivation of special road patterns can gather aura.</Desc>
+		<Beauty>240</Beauty>
+		<ElementKind>Huo</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>0.25</TexScale>
+		<TexPath>Spr\Building\DWH.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+					[6],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+			</Collider>
+		<Building>
+			<OwnerCount>1</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<WorkTexPath>Spr\Building\DWH.png</WorkTexPath>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+				
+					<Stuff name = "WoodBlock"/>
+	
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_HSXXY" count = "12"/>
+					<Item name = "Item_WSSS" count = "60"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>3</AddionRadius>
+			<AddionFailing>0.1</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>0.8</Absorption>
+			<Accommodate>60000</Accommodate>
+			<LingSource>10000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>Huo</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="FAZUO5" Parent="FurnitureBase">
+		<ThingName>Thick soil</ThingName>
+		<Desc>Cultivation of special road patterns can gather aura.</Desc>
+		<Beauty>120</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>0.25</TexScale>
+		<TexPath>Spr\Building\DWT.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+					[6],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+			</Collider>
+		<Building>
+			<OwnerCount>1</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<WorkTexPath>Spr\Building\DWT.png</WorkTexPath>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>50</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+	
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_TSXXY" count = "12"/>
+					<Item name = "Item_WSSS" count = "60"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>3</AddionRadius>
+			<AddionFailing>0.1</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>0.8</Absorption>
+			<Accommodate>60000</Accommodate>
+			<LingSource>10000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="FAZUO6" Parent="FurnitureBase">
+		<ThingName>Chaos Road Pattern</ThingName>
+		<Desc>Cultivation of special road patterns can gather aura.</Desc>
+		<Beauty>120</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Tags>
+			<Tag Name="Sitable" Level="1"/>
+			<Tag Name="Practice" Level="20"/>
+		</Tags>
+		<TexScale>0.25</TexScale>
+		<TexPath>Spr\Building\DWW.png</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<BlockLight>0</BlockLight>
+			<Collider>
+				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				<Data>
+					[6],
+				</Data>
+				<WorkOffset>
+					<li Index="0"  X="0" Y="0" Ang="181"/>
+				</WorkOffset>
+			</Collider>
+		<Building>
+			<OwnerCount>1</OwnerCount>
+			<NoFengshui>1</NoFengshui>
+			<RoomKind>None</RoomKind>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BePackage>1</BePackage>
+			<WorkTexPath>Spr\Building\DWW.png</WorkTexPath>
+			<PracticeEffectiveness>1</PracticeEffectiveness>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+	
+					<Stuff name = "WoodBlock"/>
+
+				</StuffCategories>
+				<CostStuffCount>60</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_WSXXY" count = "12"/>
+					<Item name = "Item_WSSS" count = "60"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<AddionLing>1000</AddionLing>
+			<AddionRadius>3</AddionRadius>
+			<AddionFailing>0.1</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+							
+			<Attenuation>0.1</Attenuation>
+			<Absorption>0.8</Absorption>
+			<Accommodate>60000</Accommodate>
+			<LingSource>10000</LingSource>
+
+		</Ling>
+		<Element>
+			<Kind>None</Kind>
+			<Value>12</Value>
+			<Radius>5</Radius>
+		</Element>
+	</ThingDef>
+	
+	
+	
+	<ThingDef Type="Building" Name="DS1"  Parent="FurnitureBase">	
+	<ThingName>Lighting 1</ThingName>
+	<Desc>It means decorative.</Desc>
+	<Tags>
+		<Tag Name="Light_FSZW" Level="1"/>
+	</Tags>
+	<TexPath>Spr\Building\DS2.png</TexPath>
+	<TexScale>0.9</TexScale>
+	<SelectAble>1</SelectAble>
+	<CastShadow>1</CastShadow>
+	<Beauty>50</Beauty>
+	<BlockLight>10</BlockLight>
+	<ShadowSize>
+		<x>0</x>
+		<y>0</y>
+	</ShadowSize>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		
+		[2],
+		[3],
+		
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Light>
+		<Value>125</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>FDCB64FF</Color>
+	</Light>
+	<Building>
+		<BePackage>1</BePackage>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.8</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="DS2"  Parent="FurnitureBase">	
+	<ThingName>灯饰2</ThingName>
+	<Desc>It means decorative.</Desc>
+	<Tags>
+		<Tag Name="Light_FSZW" Level="1"/>
+	</Tags>
+	<TexPath>Spr\Building\LZ.png</TexPath>
+	<TexScale>0.9</TexScale>
+	<SelectAble>1</SelectAble>
+	<CastShadow>1</CastShadow>
+	<Beauty>50</Beauty>
+	<BlockLight>10</BlockLight>
+	<ShadowSize>
+		<x>0</x>
+		<y>0</y>
+	</ShadowSize>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		
+		[2],
+		[3],
+		
+		</Data>
+		<Offset>
+			<y>1.5</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Light>
+		<Value>125</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>FDCB64FF</Color>
+	</Light>
+	<Building>
+		<BePackage>1</BePackage>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.8</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+
+	<ThingDef Type="Building" Name="DS3"  Parent="FurnitureBase">	
+	<ThingName>Lighting 3</ThingName>
+	<Desc>It means decorative.</Desc>
+	<Tags>
+		<Tag Name="Light_FSZW" Level="1"/>
+	</Tags>
+	<TexPath>Spr\Building\DS3.png</TexPath>
+	<TexScale>0.9</TexScale>
+	<SelectAble>1</SelectAble>
+	<CastShadow>1</CastShadow>
+	<Beauty>50</Beauty>
+	<BlockLight>10</BlockLight>
+	<ShadowSize>
+		<x>0</x>
+		<y>0</y>
+	</ShadowSize>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		
+		[2],
+		[3],
+		
+		</Data>
+		<Offset>
+			<y>0.6</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Light>
+		<Value>125</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>FDCB64FF</Color>
+	</Light>
+	<Building>
+		<BePackage>1</BePackage>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.8</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+	
+	<ThingDef Type="Building" Name="DS4"  Parent="FurnitureBase">	
+	<ThingName>灯饰4</ThingName>
+	<Desc>就是指装饰用的。</Desc>
+	<Tags>
+		<Tag Name="Light_FSZW" Level="1"/>
+	</Tags>
+	<TexPath>Spr\Building\DS4.png</TexPath>
+	<TexScale>0.9</TexScale>
+	<SelectAble>1</SelectAble>
+	<CastShadow>1</CastShadow>
+	<Beauty>50</Beauty>
+	<BlockLight>10</BlockLight>
+	<ShadowSize>
+		<x>0</x>
+		<y>0</y>
+	</ShadowSize>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		
+		[2],
+		[3],
+		
+		</Data>
+		<Offset>
+			<y>0.6</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Light>
+		<Value>125</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>FDCB64FF</Color>
+	</Light>
+	<Building>
+		<BePackage>1</BePackage>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.8</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+	
+	<ThingDef Type="Building" Name="DS5"  Parent="FurnitureBase">	
+	<ThingName>灯饰5</ThingName>
+	<Desc>就是指装饰用的。</Desc>
+	<Tags>
+		<Tag Name="Light_FSZW" Level="1"/>
+	</Tags>
+	<TexPath>Spr\Building\DS5.png</TexPath>
+	<TexScale>0.9</TexScale>
+	<SelectAble>1</SelectAble>
+	<CastShadow>1</CastShadow>
+	<Beauty>50</Beauty>
+	<BlockLight>10</BlockLight>
+	<ShadowSize>
+		<x>0</x>
+		<y>0</y>
+	</ShadowSize>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		
+		[2],
+		[3],
+		
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Light>
+		<Value>125</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>FDCB64FF</Color>
+	</Light>
+	<Building>
+		<BePackage>1</BePackage>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.8</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="DS6"  Parent="FurnitureBase">	
+	<ThingName>灯饰6</ThingName>
+	<Desc>就是指装饰用的。</Desc>
+	<Tags>
+		<Tag Name="Light_FSZW" Level="1"/>
+	</Tags>
+	<TexPath>Spr\Building\DS6.png</TexPath>
+	<TexScale>0.9</TexScale>
+	<SelectAble>1</SelectAble>
+	<CastShadow>1</CastShadow>
+	<Beauty>50</Beauty>
+	<BlockLight>10</BlockLight>
+	<ShadowSize>
+		<x>0</x>
+		<y>0</y>
+	</ShadowSize>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		
+		[2],
+		[3],
+		
+		</Data>
+		<Offset>
+			<y>0.6</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Light>
+		<Value>125</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>FDCB64FF</Color>
+	</Light>
+	<Building>
+		<BePackage>1</BePackage>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.8</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+	
+	
+	
+	<ThingDef Type="Building" Name="DS7"  Parent="FurnitureBase">	
+	<ThingName>灯饰7</ThingName>
+	<Desc>就是指装饰用的。</Desc>
+	<Tags>
+		<Tag Name="Light_FSZW" Level="1"/>
+	</Tags>
+	<TexPath>Spr\Building\ZS\DS7.png</TexPath>
+	<TexScale>1.5</TexScale>
+	<SelectAble>1</SelectAble>
+	<CastShadow>1</CastShadow>
+	<Beauty>50</Beauty>
+	<BlockLight>10</BlockLight>
+	<ShadowSize>
+		<x>0</x>
+		<y>0</y>
+	</ShadowSize>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		
+		[2],
+		[3],
+		
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Light>
+		<Value>125</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>FDCB64FF</Color>
+	</Light>
+	<Building>
+		<BePackage>1</BePackage>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.8</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="DS8"  Parent="FurnitureBase">	
+	<ThingName>灯饰8</ThingName>
+	<Desc>就是指装饰用的。</Desc>
+	<Tags>
+		<Tag Name="Light_FSZW" Level="1"/>
+	</Tags>
+	<TexPath>Spr\Building\ZS\DS8.png</TexPath>
+	<TexScale>1.5</TexScale>
+	<SelectAble>1</SelectAble>
+	<CastShadow>1</CastShadow>
+	<Beauty>50</Beauty>
+	<BlockLight>10</BlockLight>
+	<ShadowSize>
+		<x>0</x>
+		<y>0</y>
+	</ShadowSize>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		
+		[2],
+		[3],
+		
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Light>
+		<Value>125</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>FDCB64FF</Color>
+	</Light>
+	<Building>
+		<BePackage>1</BePackage>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.8</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="DS9"  Parent="FurnitureBase">	
+	<ThingName>灯饰9</ThingName>
+	<Desc>就是指装饰用的。</Desc>
+	<Tags>
+		<Tag Name="Light_FSZW" Level="1"/>
+	</Tags>
+	<TexPath>Spr\Building\ZS\DS9.png</TexPath>
+	<TexScale>1.5</TexScale>
+	<SelectAble>1</SelectAble>
+	<CastShadow>1</CastShadow>
+	<Beauty>50</Beauty>
+	<BlockLight>10</BlockLight>
+	<ShadowSize>
+		<x>0</x>
+		<y>0</y>
+	</ShadowSize>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		
+		[2],
+		[3],
+		
+		</Data>
+		<Offset>
+			<y>0</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Light>
+		<Value>125</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>FDCB64FF</Color>
+	</Light>
+	<Building>
+		<BePackage>1</BePackage>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.8</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="DS10"  Parent="FurnitureBase">	
+	<ThingName>灯饰10</ThingName>
+	<Desc>就是指装饰用的。</Desc>
+	<Tags>
+		<Tag Name="Light_FSZW" Level="1"/>
+	</Tags>
+	<TexPath>Spr\Building\ZS\DS10.png</TexPath>
+	<TexScale>1.5</TexScale>
+	<SelectAble>1</SelectAble>
+	<CastShadow>1</CastShadow>
+	<Beauty>50</Beauty>
+	<BlockLight>10</BlockLight>
+	<ShadowSize>
+		<x>0</x>
+		<y>0</y>
+	</ShadowSize>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		
+		[2],
+		[3],
+		
+		</Data>
+		<Offset>
+			<y>0.6</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Light>
+		<Value>125</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>FDCB64FF</Color>
+	</Light>
+	<Building>
+		<BePackage>1</BePackage>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.8</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="DS11"  Parent="FurnitureBase">	
+	<ThingName>灯饰11</ThingName>
+	<Desc>就是指装饰用的。</Desc>
+	<Tags>
+		<Tag Name="Light_FSZW" Level="1"/>
+	</Tags>
+	<TexPath>Spr\Building\ZS\DS11.png</TexPath>
+	<TexScale>1.5</TexScale>
+	<SelectAble>1</SelectAble>
+	<CastShadow>1</CastShadow>
+	<Beauty>50</Beauty>
+	<BlockLight>10</BlockLight>
+	<ShadowSize>
+		<x>0</x>
+		<y>0</y>
+	</ShadowSize>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		
+		[2],
+		[3],
+		
+		</Data>
+		<Offset>
+			<y>0.6</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Light>
+		<Value>125</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>FDCB64FF</Color>
+	</Light>
+	<Building>
+	
+		<BePackage>1</BePackage>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.8</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="DS12"  Parent="FurnitureBase">	
+	<ThingName>灯饰12</ThingName>
+	<Desc>就是指装饰用的。</Desc>
+	<Tags>
+		<Tag Name="Light_FSZW" Level="1"/>
+	</Tags>
+	<TexPath>Spr\Building\ZS\DS12.png</TexPath>
+	<TexScale>1.5</TexScale>
+	<SelectAble>1</SelectAble>
+	<CastShadow>1</CastShadow>
+	<Beauty>50</Beauty>
+	<BlockLight>10</BlockLight>
+	<ShadowSize>
+		<x>0</x>
+		<y>0</y>
+	</ShadowSize>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		
+		[2],
+		[3],
+		
+		</Data>
+		<Offset>
+			<y>0.6</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Light>
+		<Value>125</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>FDCB64FF</Color>
+	</Light>
+	<Building>
+		<BePackage>1</BePackage>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.8</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+	<ThingDef Type="Building" Name="DS13"  Parent="FurnitureBase">	
+	<ThingName>灯饰13</ThingName>
+	<Desc>就是指装饰用的。</Desc>
+	<Tags>
+		<Tag Name="Light_FSZW" Level="1"/>
+	</Tags>
+	<TexPath>Spr\Building\ZS\DS13.png</TexPath>
+	<TexScale>1.5</TexScale>
+	<SelectAble>1</SelectAble>
+	<CastShadow>1</CastShadow>
+	<Beauty>50</Beauty>
+	<BlockLight>10</BlockLight>
+	<ShadowSize>
+		<x>0</x>
+		<y>0</y>
+	</ShadowSize>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		
+		[2],
+		[3],
+		
+		</Data>
+		<Offset>
+			<y>0.6</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Light>
+		<Value>125</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>3</FailRadius>
+		<Radius>12</Radius>
+		<Color>FDCB64FF</Color>
+	</Light>
+	<Building>
+		<BePackage>1</BePackage>
+		<HelperClass>BuildingHelperAutoLight</HelperClass>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.95</x>
+			<y>3.8</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	<Element>
+		<Kind>None</Kind>
+		<Value>2</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>	
+	
+	
+	<ThingDef Type="Building" Name="SX1" Parent="FurnitureBase">
+	<ThingName>Stone statue</ThingName>	
+	<Desc>Martial symbol stele.</Desc>
+	<Tags>
+		<Tag Name="TheGate" Level="1"/>
+	</Tags>
+	<TexPath>Spr\Building\ZS\ZMS.png</TexPath>
+	<TexScale>1.5</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[1,3],
+		[4,4],
+		</Data>
+		<Offset>
+			<y>0.6</y>
+			<x>-0.3</x>
+		</Offset>
+		
+	</Collider>
+
+	<Building>
+		<HelperClass>BuildingHelperGate</HelperClass>
+		<Perfab>Building/Prefabs/TheGate</Perfab>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		
+		<BeMade>
+			<WorkToMake>150</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>10</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.75</x>
+			<y>3.6</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>
+	<ThingDef Type="Building" Name="SX2" Parent="FurnitureBase">
+	<ThingName>Stone statue 1</ThingName>	
+	<Desc>Martial symbol stele.</Desc>
+	<Tags>
+		<Tag Name="TheGate" Level="1"/>
+	</Tags>
+	<TexPath>Spr\Building\ZS\SX1.png</TexPath>
+	<TexScale>1.2</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[1,3],
+		[1,1],
+		</Data>
+		<Offset>
+			<y>1</y>
+			<x>-1</x>
+		</Offset>
+		
+	</Collider>
+
+	<Building>
+		<HelperClass>BuildingHelperGate</HelperClass>
+		<Perfab>Building/Prefabs/TheGate</Perfab>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		
+		<BeMade>
+			<WorkToMake>150</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>10</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.75</x>
+			<y>3.6</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>
+	<ThingDef Type="Building" Name="SX3" Parent="FurnitureBase">
+	<ThingName>石像2</ThingName>	
+	<Desc>门派的标志石碑。</Desc>
+	<Tags>
+		<Tag Name="TheGate" Level="1"/>
+	</Tags>
+	<TexPath>Spr\Building\ZS\SX2.png</TexPath>
+	<TexScale>1.2</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3,1],
+		[1,1],
+		</Data>
+		<Offset>
+			<y>1</y>
+			<x>0</x>
+		</Offset>
+		
+	</Collider>
+
+	<Building>
+		<HelperClass>BuildingHelperGate</HelperClass>
+		<Perfab>Building/Prefabs/TheGate</Perfab>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		
+		<BeMade>
+			<WorkToMake>150</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>10</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.75</x>
+			<y>3.6</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>
+	<ThingDef Type="Building" Name="SX4" Parent="FurnitureBase">
+	<ThingName>石像3</ThingName>	
+	<Desc>门派的标志石碑。</Desc>
+	<Tags>
+		<Tag Name="TheGate" Level="1"/>
+	</Tags>
+	<TexPath>Spr\Building\ZS\SX.png</TexPath>
+	<TexScale>2</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[3],
+		
+		</Data>
+		<Offset>
+			<y>0.75</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+
+	<Building>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		
+		<BeMade>
+			<WorkToMake>150</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>10</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.75</x>
+			<y>3.6</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>
+	
+	
+	<ThingDef Type="Building" Name="ZTZWT" Parent="OrnamentBase">
+	<TexPath>Spr\Building\ZS\ZWT.png</TexPath>
+	<TexScale>0.65</TexScale>
+	<NoElementKind>1</NoElementKind>
+	<ThingName>Shelves 1</ThingName>	
+	<Desc>The designated items can be placed on the shelf. (Mainly for decoration)</Desc>
+	<Tags>
+		<Tag Name="ItemShelf" Level="1"/>
+	</Tags>
+	<BlockLight>0</BlockLight>
+	<ShadowSize>
+		<x>0.8</x>
+		<y>1.5</y>
+	</ShadowSize>
+	<ColliderKind>Across</ColliderKind>  
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.1</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<Perfab>Building/Prefabs/ItemShelf</Perfab>
+		<HelperClass>BuildingHelperItemShelf</HelperClass>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.5</x>
+			<y>4</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>1</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="ZTZWT1" Parent="OrnamentBase">
+	<TexPath>Spr\Building\ZS\ZWT1.png</TexPath>
+	<TexScale>0.65</TexScale>
+	<NoElementKind>1</NoElementKind>
+	<ThingName>Shelf 2</ThingName>	
+	<Desc>The designated items can be placed on the shelf. (Mainly for decoration)</Desc>
+	<Tags>
+		<Tag Name="ItemShelf" Level="1"/>
+	</Tags>
+	<BlockLight>0</BlockLight>
+	<ShadowSize>
+		<x>0.8</x>
+		<y>1.5</y>
+	</ShadowSize>
+	<ColliderKind>Across</ColliderKind>  
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[3],
+		</Data>
+		<Offset>
+			<y>0.1</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	
+	<Flammability>
+		<Flammability>0</Flammability>
+	</Flammability>
+	<Building>
+		<Perfab>Building/Prefabs/ItemShelf</Perfab>
+		<HelperClass>BuildingHelperItemShelf</HelperClass>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>2</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.5</x>
+			<y>4</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>1</Radius>
+		<Failing>0</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	
+	</ThingDef>
+	
+	
+	
+	
+	
+	<ThingDef Type="Building" Name="ZTLDL" Parent="ProductionBase">
+	<ThingName>Dan furnace</ThingName>	
+	<Desc>The best environment for refining elixir</Desc>
+	<Tags>
+		<Tag Name="RefiningDan" Level="10"/>
+	</Tags>
+	<TexPath>Spr\Building\ZS\LDL.png</TexPath>
+	<TexScale>0.7</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>1</BlockLight>	
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[0,3,0,0],
+		[1,4,1,0],
+		</Data>
+		<Offset>
+			<y>0.54</y>
+			<x>0</x>
+		</Offset>
+	</Collider>
+	<Flammability>
+		<Flammability>-0.5</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+	</Flammability>
+	<Building>	
+		<RoomKind>DanRoom</RoomKind>
+		<Drive>
+			<StuffCategories>
+				<Stuff name = "Wood"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<!--<DrivingTexPath>res/Sprs/buildingnew/building_liandanlu01b</DrivingTexPath>-->
+			<CostStuffCount>3</CostStuffCount>
+			<Duration>0.5</Duration>
+			<DriveJustProdece>1</DriveJustProdece>
+			<RateMin>0</RateMin>
+			<RateMax>3</RateMax>
+		</Drive>
+		<SelectProduceStuff>0</SelectProduceStuff>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<BePackage>0</BePackage>
+		<BeMade>
+			<WorkToMake>150</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>20</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.7</x>
+			<y>3.7</y>
+			<z>1</z>
+		</SnowRenderData>
+		<ProduceKind>RefiningDan</ProduceKind>
+	</Building>
+	</ThingDef>
+	
+	
+	
+</List></ThingDefs>

@@ -1,0 +1,2766 @@
+<ThingDefs><List>
+<!--无-->
+	<ThingDef Type="Item" Name="Item_AL" Parent="DrugBase">
+	<ThingName>Dark lotus</ThingName>
+	<TexPath>Spr\Object\ZW\AL.PNG</TexPath>	
+	<Desc>There is a secret snow all year round in the Arctic cold, and an ordinary person walks less than a hundred meters into an ice sculpture. However, in the early years, there was a large one that could explore the secret of the ice field for seven days. When the source was about to run out, a non-freezing pond was found in the ice field. The water in the pond was as dark as ink but with a scent of fragrance. It was explored by the power of the five elements but went into the mud cow and into the sea silently. There were several black lotuses in the pool. They were able to pick up one to supplement Yuanli's help and eat it. The entrance of the black lotus disappeared like a cold current, and it didn't feel chilling when it entered the snow. The power can bring several lotus seeds out of the mystery, because its color is black, it is called dark lotus.</Desc>
+	<Rate>8</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>None</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="3000"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="3500" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="3500" />
+					<SalePrice Value="900" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_N</li>
+		</PhysicalLables>
+		<FabaoSuffix>闇莲,闇,莲</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_AL</Modifier>
+			<Fesistance>0.6</Fesistance>
+		</Elixir>
+		<Food>
+			<Ling>10000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>30</Nutrition>
+			<FunAddion>25</FunAddion>
+			<PracticeNutrition>-5000</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMax>10</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>-600</Value>
+		<Radius>5</Radius>
+		<RoomValue>-850</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>None</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_YYC" Parent="DrugBase">
+	<ThingName>Yin Yang grass</ThingName>
+	<TexPath>Spr\Object\ZW\YYC.PNG</TexPath>	
+	<Desc>Outside the Northwest Sea, north of Chishui, there is Zhangwei Mountain. There is a god, the human face is snake-like and red, straight eyes are riding, its stubbornness is obscure, its vision is bright, it does not eat and sleep, and the wind and rain is sorrowful. Trees in the mountains are often infected by the power of candlesticks, so the power of yin and yang changes with the environment. When the yin and yang are balanced on the day, the leaves are full of yin and yang blending to promote the avenue. The practice of food should be done with less effort。</Desc>
+	<Rate>9</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>None</ElementKind>
+	
+	<Item>
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="5500"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="9500" />
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="5500" />
+					<SalePrice Value="1000" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_N</li>
+		</PhysicalLables>
+		<FabaoSuffix>阴阳草,阴草,阳草</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_YYC</Modifier>
+		</Elixir>
+		<Food>
+			<Ling>40000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>-100</Nutrition>
+			<FunAddion>10</FunAddion>
+			<PracticeNutrition>3000</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-30</TempMin>
+			<TempMax>30</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>10</Value>
+		<Radius>5</Radius>
+		<RoomValue>20</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>None</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_SYC" Parent="DrugBase">
+	<ThingName>Sanyangchun</ThingName>
+	<TexPath>Spr\Object\ZW\SYC.PNG</TexPath>	
+	<Desc>Yiyangsheng, Eryangchang, Sanyangkaitai, winter to spring to yin and Yangyang, there is the prosperity of Jiheng. In the winter, the medicinal takes the medicine of three flavors of yang qi one by one. In March, the new year becomes a magic drug. Colors like pearls, dazzling and bright, dedicated to the guests to celebrate the New Year, the power of food greatly increased.</Desc>
+	<Rate>9</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>None</ElementKind>
+	
+	<Item>
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="3000"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_N</li>
+		</PhysicalLables>
+		<FabaoSuffix>三阳春,三阳,阳春</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_SYC</Modifier>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>10</Nutrition>
+			<FunAddion>20</FunAddion>
+			<PracticeNutrition>3000</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-30</TempMin>
+			<TempMax>40</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>100</Value>
+		<Radius>5</Radius>
+		<RoomValue>150</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>None</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_JMY" Parent="DrugBase">
+	<ThingName>Jingmingye</ThingName>
+	<TexPath>Spr\Object\ZW\JMY.PNG</TexPath>	
+	<Desc>Jingming, Jingming, according to legend, in ancient times, when the fairyland and the mortal world communicated, due to the rich aura, the Jingming leaves could show wonderful road patterns on the leaves, which could refresh people's hearts and clear their minds, and you can realize the breakthrough of Taoism through understanding. .</Desc>
+	<Rate>9</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>None</ElementKind>
+	
+	<Item>
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="3000"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_N</li>
+		</PhysicalLables>
+		<FabaoSuffix>境明叶</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_JMY</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>10</Nutrition>
+			<FunAddion>20</FunAddion>
+			<PracticeNutrition>2000</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-10</TempMin>
+			<TempMax>20</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>15</Value>
+		<Radius>5</Radius>
+		<RoomValue>15</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>None</Kind>
+	</Element>
+	<Light>
+		<Value>15</Value>
+		<Failing>0.2</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>1</Radius>
+		
+	</Light>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_SMG" Parent="DrugBase">
+	<ThingName>Shuang Ming Guo</ThingName>
+	<TexPath>Spr\Object\ZW\SMG.PNG</TexPath>	
+	<Desc>Born in a very special place, Shuangmingguo can reduce people's 100 points for a period of time after eating. After the duration, they are unconscious for ten days due to intense Yin and Yang impact.</Desc>
+	<Rate>9</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>None</ElementKind>
+	
+	<Item>
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="5000"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="5000" />
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="5000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_N</li>
+		</PhysicalLables>
+		<FabaoSuffix>双明,双明果</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_SMG</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>10</Nutrition>
+			<FunAddion>20</FunAddion>
+			<PracticeNutrition>2000</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-10</TempMin>
+			<TempMax>20</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>15</Value>
+		<Radius>5</Radius>
+		<RoomValue>15</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>None</Kind>
+	</Element>
+	<Light>
+		<Value>15</Value>
+		<Failing>0.2</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>1</Radius>
+		
+	</Light>
+	</ThingDef>
+<!--金-->
+		
+	<ThingDef Type="Item" Name="Item_JC" Parent="DrugBase">
+	<ThingName>Sword cluster</ThingName>
+	<TexPath>Spr\Object\ZW\JC.PNG</TexPath>	
+	<Desc>A grass can cut the stars, and a cluster of grass can break the world. The sword cluster was originally a fairy god grass, but it lost its spirituality due to falling into the world, and it looks like ordinary herbs. This grass is sharp and unmatched. It is a supreme infertility tool. It cannot be removed without half-step power. If it is taken directly, it will be injured by sword gas and cause incurable wounds, but it will greatly increase the magic weapon. power. .</Desc>
+	<Rate>10</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Jin</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="9500"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="9500" />
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="19500" />
+					<SalePrice Value="900" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_J</li>
+		</PhysicalLables>
+		<FabaoSuffix>剑簇</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_JC</Modifier>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>-50</Nutrition>
+			<FunAddion>20</FunAddion>
+			<PracticeNutrition>-2500</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-30</TempMin>
+			<TempMax>40</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>30</Value>
+		<Radius>5</Radius>
+		<RoomValue>30</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Jin</Kind>
+	</Element>
+	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_SJG" Parent="DrugBase">
+	<ThingName>Death Root</ThingName>
+	<TexPath>Spr\Object\ZW\SJG.PNG</TexPath>	
+	<Desc>The mysterious herbal medicine found by the practitioners in the barren land, this medicine is like half a ginseng, but there is no strangeness and no spirituality. Ordinary people will have the effect of accelerating the life and accelerating the foundation. Come with great power. If you can spend it fortunately, you will wash your whole body, fit your body, reduce a certain amount of practice and permanently increase the speed of cultivation. .</Desc>
+	<Rate>11</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Jin</ElementKind>
+	
+	<Item>
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="12500"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="12500" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="12500" />
+					<SalePrice Value="900" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_J</li>
+		</PhysicalLables>
+		<FabaoSuffix>死劫根,死劫,劫根</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_SJG</Modifier>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>-35</Nutrition>
+			<FunAddion>-20</FunAddion>
+			<PracticeNutrition>-5000</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-10</TempMin>
+			<TempMax>35</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>0</Value>
+		<Radius>5</Radius>
+		<RoomValue>0</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Jin</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_SLS" Parent="DrugBase">
+	<ThingName>Three bamboo shoots</ThingName>
+	<TexPath>Spr\Object\ZW\SLS.PNG</TexPath>	
+	<Desc>The three bamboo shoots did not exist in the world, but they are the Taoist and Taoist towns that exist in a taboo level in the Upper Realm and are left over by the Immortal Lower Realm. This medicine seeks to reach the immortal path with Taoism's intention to cut the three corpses. After refining, the user will be silent for 3 days and call a bunch of great gods.</Desc>
+	<Rate>9</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Jin</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="7500"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="7500" />
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="15500" />
+					<SalePrice Value="900" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_J</li>
+		</PhysicalLables>
+		<FabaoSuffix>三戾笋,戾笋</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_SLS</Modifier>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>100</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>3000</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-20</TempMin>
+			<TempMax>55</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>0</Value>
+		<Radius>5</Radius>
+		<RoomValue>0</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Jin</Kind>
+	</Element>
+	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_DCC" Parent="DrugBase">
+	<ThingName>Tuft grass</ThingName>
+	<TexPath>Spr\Object\ZW\DCC.PNG</TexPath>	
+	<Desc>Tutu grass is a kind of spirit grass that is covered all over the world, but because a certain generation of emperor liked it, he made a hat and put it on his head.</Desc>
+	<Rate>9</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Jin</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="7500"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="7500" />
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="15500" />
+					<SalePrice Value="900" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_J</li>
+		</PhysicalLables>
+		<FabaoSuffix>笪簇草,笪簇</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_DCC</Modifier>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>1</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>500</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<TempMax>5</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>0</Value>
+		<Radius>5</Radius>
+		<RoomValue>0</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Jin</Kind>
+	</Element>
+	
+	</ThingDef>
+		<ThingDef Type="Item" Name="Item_TSZG" Parent="DrugBase">
+	<ThingName>Iron twig</ThingName>
+	<TexPath>Spr\Object\ZW\TSZG.PNG</TexPath>	
+	<Desc>Six branches go out, strong and invincible brother. A branch that looks very ordinary. Its iron-like quality gives the holder good luck. After eating, it will increase the shield value by 0.1 and reduce the side effect training speed by 0.5.</Desc>
+	<Rate>9</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Jin</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="7500"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="7500" />
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="15500" />
+					<SalePrice Value="900" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_J</li>
+		</PhysicalLables>
+		<FabaoSuffix>铁树枝干</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_TSZG</Modifier>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>1</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>500</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-20</TempMin>
+			<TempMax>55</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>0</Value>
+		<Radius>5</Radius>
+		<RoomValue>0</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Jin</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+<!--木-->	
+	<ThingDef Type="Item" Name="Item_GJZ" Parent="DrugBase">
+	<ThingName>Tricky bamboo</ThingName>
+	<TexPath>Spr\Object\ZW\GJZ.PNG</TexPath>	
+	<Desc>Known to be able to communicate with Huang Quan's mysterious bamboo, the whole body is green, and the top is a strange knot branch, so it is called a strange bamboo. There are rumors that taking this medicine will allow the soul to escape from the flesh and enter Huangquan and reincarnate the cycle. There are also rumors that taking this medicine will last forever and the soul will return to the land forever. If you find a chance to refine it, you can master the power of the underworld and get a chance to avoid death.</Desc>
+	<Rate>12</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Mu</ElementKind>
+	
+	<Item>
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="12500"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="12500" />
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="22500" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_M</li>
+		</PhysicalLables>
+		<FabaoSuffix>Saly Bamboo,Bamboo</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_GJZ</Modifier>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>20</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>2000</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-50</TempMin>
+			<TempMax>0</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+		<Fabao>
+			<ActiveCondition>
+			    <Condition eventid = "RefiningDan" des = "Carrying embryos to refine 12 furnaces of medicine" needcount = "12" fParam = "1"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1 = "1" Desc="At the expense of fragmentation, resist one death and recover all injuries." />
+			</SpecialAbility>
+		</Fabao>
+	</Item>
+	<Heat>
+		<Value>-75</Value>
+		<Radius>5</Radius>
+		<RoomValue>-100</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Mu</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ZWX" Parent="DrugBase">
+	<ThingName>Lagerstroemia indica</ThingName>
+	<TexPath>Spr\Object\ZW\ZWX.PNG</TexPath>	
+	<Desc>The mysterious herbal medicine named after the burial emperor star has a strange purple color throughout the body. It is rumored that Laozi ’s purple gas came from the east. time. A weak Taoist sacrifice this thing at the critical moment of extinction, which unexpectedly caused the projection of the ancient emperor, and was inherited by the emperor, and has since become a great religion.</Desc>
+	<Rate>9</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Mu</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="37500"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="37500" />
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="35500" />
+					<SalePrice Value="900" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_M</li>
+		</PhysicalLables>
+		<FabaoSuffix>紫薇星</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_ZWX</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>	
+			<Ling>200000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>20</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>-500</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-10</TempMin>
+			<TempMax>35</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>30</Value>
+		<Radius>5</Radius>
+		<RoomValue>30</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Mu</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_SXM" Parent="DrugBase">
+	<ThingName>Shen Xue Mu</ThingName>
+	<TexPath>Spr\Object\ZW\SXM.PNG</TexPath>	
+	<Desc>Shenmu contaminated with unknown blood, it is rumored that only the place where the blood of the emperor was impregnated could produce this medicine. This medicine has no God.</Desc>
+	<Rate>12</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Mu</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="12500"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="12500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_M</li>
+		</PhysicalLables>
+		<FabaoSuffix>神血木</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_SXM</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<Ling>150000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>50</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>3500</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-10</TempMin>
+			<TempMax>35</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>30</Value>
+		<Radius>5</Radius>
+		<RoomValue>30</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Mu</Kind>
+	</Element>
+	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_HYC" Parent="DrugBase">
+	<ThingName>Thick source grass</ThingName>
+	<TexPath>Spr\Object\ZW\HYC.PNG</TexPath>	
+	<Desc>Houyuan is a beautiful place to the east of the Nanling Mountains. However, Chengyuan is also a thick source, and it is also a thick source. Therefore, Houyuan grass can enable ordinary people to obtain a large number of base values ​​in a short period of time. As a result, the competition for the various holy sites has now become difficult to produce.</Desc>
+	<Rate>12</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Mu</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="12500"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="12500" />
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="900" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_M</li>
+		</PhysicalLables>
+		<FabaoSuffix>厚源</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_HYC</Modifier>
+			<ZhuJi>20000</ZhuJi>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<Ling>150000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>50</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>3500</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-10</TempMin>
+			<TempMax>35</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>30</Value>
+		<Radius>5</Radius>
+		<RoomValue>30</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Mu</Kind>
+	</Element>
+	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_JY" Parent="DrugBase">
+	<ThingName>Nine leaves</ThingName>
+	<TexPath>Spr\Object\ZW\JY.PNG</TexPath>	
+	<Desc>Nine mysterious immortal medicine is rumored to be an ordinary nine-leaf plant at the beginning. After endless years of practice, it became emperor. The improvement of blood veins has made it no longer restricted by heaven and earth, and has become an immortal medicine. The one in the biography.</Desc>
+	<Rate>12</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Mu</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="12500"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="12500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_M</li>
+		</PhysicalLables>
+		<FabaoSuffix>九叶</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_JY</Modifier>
+		</Elixir>
+		<Food>
+			<Ling>150000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>50</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>3500</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-10</TempMin>
+			<TempMax>35</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>30</Value>
+		<Radius>5</Radius>
+		<RoomValue>30</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Mu</Kind>
+	</Element>
+	
+	</ThingDef>
+
+<!--水-->
+	<ThingDef Type="Item" Name="Item_YMY" Parent="DrugBase">
+	<ThingName>Cinnamon leaf</ThingName>
+	<TexPath>Spr\Object\ZW\YMC.PNG</TexPath>	
+	<Desc>Outside the Northwest Sea, north of Chishui, there is Zhangwei Mountain. There is a god, the human face is snake-like and red, straight eyes are riding, its stubbornness is obscure, its vision is bright, it does not eat and sleep, and the wind and rain is sorrowful. Trees in the mountains are often infected by the power of candlesticks, so the power of yin and yang changes with the environment. In winter, the yin is strong, and the leaves are full of yin, which can be added to food. There are also rumors that using this leaf mill to blend and soak hair can nourish black hair and prevent hair loss. .</Desc>
+	<Rate>6</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Shui</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="2500"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="2500" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="2500" />
+					<SalePrice Value="3000" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_S</li>
+		</PhysicalLables>
+		<FabaoSuffix>阴瞑叶,阴叶,瞑叶</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_YMC</Modifier>
+		</Elixir>
+		<Food>
+			<Ling>5000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>-100</Nutrition>
+			<FunAddion>10</FunAddion>
+			<PracticeNutrition>3000</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-90</TempMin>
+			<TempMax>20</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>-100</Value>
+		<Radius>5</Radius>
+		<RoomValue>-150</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Shui</Kind>
+	</Element>
+	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_JHZ" Parent="DrugBase">
+	<ThingName>Soul Diffuser</ThingName>
+	<TexPath>Spr\Object\ZW\JHZ.PNG</TexPath>	
+	<Desc>A mysterious branch with a weird blue color, there are two crumbling tender green leaves, and the saint was once attracted by its breath, but it just disappeared after a single breath and made the emperor seal it down . After a lapse of a thousand years, Soul of Purity is born again, if it is fateful.</Desc>
+	<Rate>10</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Shui</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="2500"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="2500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_S</li>
+		</PhysicalLables>
+		<FabaoSuffix>净魂枝</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_JHZ</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<Ling>20000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>5</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>-5000</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-200</TempMin>
+			<TempMax>30</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>30000</Value>
+		<Radius>5</Radius>
+		<RoomValue>30</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Shui</Kind>
+	</Element>
+	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_LYC" Parent="DrugBase">
+	<ThingName>Blue flame grass</ThingName>
+	<TexPath>Spr\Object\ZW\LYC.PNG</TexPath>	
+	<Desc>The unique herbal medicine in the fire domain, the grass leaves emit a blue flame, but the entrance is extremely cool, and eating can restore some spiritual power.</Desc>
+	<Rate>6</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Shui</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="2500"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="2500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_S</li>
+		</PhysicalLables>
+		<FabaoSuffix>蓝焰,草</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Ling>50000</Ling>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>5</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>-5000</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>10</TempMin>
+			<TempMax>900</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>10000</Value>
+		<Radius>5</Radius>
+		<RoomValue>30</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Shui</Kind>
+	</Element>
+	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_LYBX" Parent="DrugBase">
+	<ThingName>Six leaf white beard</ThingName>
+	<TexPath>Spr\Object\ZW\LYBX.PNG</TexPath>	
+	<Desc>Herbs commonly found in Buddhist temples are white in color, such as the old monk's beard, and the leaves are divided into six petals, such as the lotus throne. Increase mood stability after consumption for 4 days.</Desc>
+	<Rate>6</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Shui</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="2500"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="2500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_S</li>
+		</PhysicalLables>
+		<FabaoSuffix>六叶白须,白须</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_LYBX</Modifier>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>5</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>1000</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-10</TempMin>
+			<TempMax>30</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>30</Value>
+		<Radius>5</Radius>
+		<RoomValue>30</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Shui</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_LHY" Parent="DrugBase">
+	<ThingName>Lin Hanye</ThingName>
+	<TexPath>Spr\Object\ZW\LHY.PNG</TexPath>	
+	<Desc>It is rumored that there is a cold-leaf forest in the secret place of the original iceland, and there are unicorns in the forest. Some people came into this secret situation and saw that Kirin feeds on the leaves. Picking the leaves to try it, the taste is sweet, and the magic power is enhanced, but it disappears in a few days.</Desc>
+	<Rate>11</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Shui</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="3500"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="3500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="6000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_S</li>
+		</PhysicalLables>
+		<FabaoSuffix>麟寒叶,麟寒</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_LHY</Modifier>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>5</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>1000</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-20</TempMin>
+			<TempMax>0</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>-30</Value>
+		<Radius>5</Radius>
+		<RoomValue>-100</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Shui</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+<!--火-->	
+	<ThingDef Type="Item" Name="Item_HYY" Parent="DrugBase">
+	<ThingName>Mixed leaves</ThingName>
+	<TexPath>Spr\Object\ZW\YMC.PNG</TexPath>	
+	<Desc>The mixed element has no vitality, chaos is one, and the beginning of vitality. It is rumored that Xunyuan Ye was born in the beginning of the heaven and earth, with the world and the same glory, and the same life with the sun and the moon, including Wanfa. For tens of millions of years, only one person found it and refined it. Since then, that person has been invincible and became a world myth. If you can find refining, you will be able to be immune to all injuries like that person.</Desc>
+	<Rate>6</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Huo</ElementKind>
+	
+	<Item>
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="2500"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="2500" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="2500" />
+					<SalePrice Value="3000" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_H</li>
+		</PhysicalLables>
+		<FabaoSuffix>混元叶,混叶,元叶</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_HYY</Modifier>
+		</Elixir>
+		<Food>
+			<Ling>5000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>-10</Nutrition>
+			<FunAddion>10</FunAddion>
+			<PracticeNutrition>3500</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-10</TempMin>
+			<TempMax>90</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>100</Value>
+		<Radius>5</Radius>
+		<RoomValue>150</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Huo</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_CL" Parent="DrugBase">
+	<ThingName>Red lotus</ThingName>
+	<TexPath>Spr\Object\ZW\CL.PNG</TexPath>	
+	<Desc>The dark lotus flower that was born from the fire domain, instead of not having the breath of water property, on the top of the lotus is flowing the breath of fairy fire. .</Desc>
+	<Rate>12</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Huo</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="2500"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="2500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_S</li>
+		</PhysicalLables>
+		<FabaoSuffix>赤莲</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_CL</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<Ling>5000000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>20</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>1500</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>500</TempMin>
+			<TempMax>5000</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>1200</Value>
+		<Radius>5</Radius>
+		<RoomValue>30</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Huo</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_FXC" Parent="DrugBase">
+	<ThingName>Burning grass</ThingName>
+	<TexPath>Spr\Object\ZW\FXC.PNG</TexPath>	
+	<Desc>The mysterious herbal medicine that looks like a phoenix feather flows with a trace of real fire, and a faint flame flows on the top of the leaves. It is rumored that in the chaotic ancient times, there were humane top masters who refined it, and used this power to break into Xianyu in one fell swoop.</Desc>
+	<Rate>11</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Huo</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="2500"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="2500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_H</li>
+		</PhysicalLables>
+		<FabaoSuffix>焚仙</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_FX</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<Ling>5000000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>50</Nutrition>
+			<FunAddion>50</FunAddion>
+			<PracticeNutrition>-10000</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>100</TempMin>
+			<TempMax>15000</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>15000</Value>
+		<Radius>5</Radius>
+		<RoomValue>50</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Huo</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XYC" Parent="DrugBase">
+	<ThingName>Clover</ThingName>
+	<TexPath>Spr\Object\ZW\XYC.PNG</TexPath>	
+	<Desc>The fire of salaries can be ignited. The leafgrass, which was originally a leaf of the firewood tree in the immortal realm, was broken into the earth and turned into a god grass during the battle between immortals and demons.</Desc>
+	<Rate>11</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Huo</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="5500"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="5500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_H</li>
+		</PhysicalLables>
+		<FabaoSuffix>薪叶草</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_XYC</Modifier>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>50</Nutrition>
+			<FunAddion>50</FunAddion>
+			<PracticeNutrition>-2000</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>100</TempMin>
+			<TempMax>15000</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>1000</Value>
+		<Radius>5</Radius>
+		<RoomValue>50</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Huo</Kind>
+	</Element>
+	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_FXY" Parent="DrugBase">
+	<ThingName>Feng Xiye</ThingName>
+	<TexPath>Spr\Object\ZW\FXY.PNG</TexPath>	
+	<Desc>Phoenix dance for nine days, Feng Xi and Ye. There was once the power of the Phoenix tribe, and from this leaf, he gained supreme mana.</Desc>
+	<Rate>11</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Huo</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="5500"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="5500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_H</li>
+		</PhysicalLables>
+		<FabaoSuffix>凤曦叶</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_FXY</Modifier>
+			<Fesistance>0.5</Fesistance>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>50</Nutrition>
+			<FunAddion>50</FunAddion>
+			<PracticeNutrition>1000</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>10</TempMin>
+			<TempMax>15000</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>1000</Value>
+		<Radius>5</Radius>
+		<RoomValue>50</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Huo</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+<!--土-->
+	<ThingDef Type="Item" Name="Item_LX" Parent="DrugBase">
+	<ThingName>Old beard</ThingName>
+	<TexPath>Spr\Object\ZW\LX.PNG</TexPath>	
+	<Desc>The pure white ginseng, which looks like ordinary ginseng, is actually a magical medicine that God cares about. It is rumored that the Xeon will refine it when Shou Yuan is about to run out, and he will become full of blood and blood. He has lived another thousand years, but died of an unprecedentedly powerful thunderbolt when he crossed the robbery. Some ancient saints have speculated that if it is refined with Youshen into Dan, it can mostly offset its side effects.</Desc>
+	<Rate>8</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Tu</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="4500"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="4500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="9000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_T</li>
+		</PhysicalLables>
+		<FabaoSuffix>老须</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_LX</Modifier>
+		</Elixir>
+		<Food>
+			<Ling>50000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>50</Nutrition>
+			<FunAddion>50</FunAddion>
+			<PracticeNutrition>5500</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-100</TempMin>
+			<TempMax>100</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>15</Value>
+		<Radius>5</Radius>
+		<RoomValue>5</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Tu</Kind>
+	</Element>
+	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_YS" Parent="DrugBase">
+	<ThingName>Youshen</ThingName>
+	<TexPath>Spr\Object\ZW\YS.PNG</TexPath>	
+	<Desc>Half of the old ginseng contaminated by the ghostly atmosphere, the purple ginseng body is bound by the blue avenue rule, and it is said to shield the gods. It is rumored that the demon tribe could refine it, and the blood dried up in an instant, as if it was a thousand years old, but when this big demon Shouyuan was about to cross the robbery, the thunder robbery was almost cowardly, so that the demon almost Fei Blowing over the deadlock. Some ancient saints have speculated that if it is refined with old ginseng to make Dan, it can mostly offset its side effects. .</Desc>
+	<Rate>8</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Tu</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="4500"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="4500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="9000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_T</li>
+		</PhysicalLables>
+		<FabaoSuffix>幽参</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_YS</Modifier>
+		</Elixir>
+		<Food>
+			<Ling>50000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>25</Nutrition>
+			<FunAddion>50</FunAddion>
+			<PracticeNutrition>-2500</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-100</TempMin>
+			<TempMax>100</TempMax>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<Heat>
+		<Value>-15</Value>
+		<Radius>5</Radius>
+		<RoomValue>-5</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Tu</Kind>
+	</Element>
+	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_HG" Parent="DrugBase">
+	<ThingName>Magic mushroom</ThingName>
+	<TexPath>Spr\Object\ZW\HG.PNG</TexPath>	
+	<Desc>A mysterious mushroom of unknown origin resembling an ordinary mushroom, the only difference is that it emits a faint purple light, which is said to be used to make people dream. There was a time when a mighty alchemist was eating it by accident, but he dreamed of it all the time and went up to a great realm.</Desc>
+	<Rate>8</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Tu</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="9500"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="9500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="9000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_T</li>
+		</PhysicalLables>
+		<FabaoSuffix>幻菇</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_HG</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<Ling>20000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>15</Nutrition>
+			<FunAddion>-50</FunAddion>
+			<PracticeNutrition>-500</PracticeNutrition>
+		</Food>
+		
+	</Item>
+	<Heat>
+		<Value>15</Value>
+		<Radius>5</Radius>
+		<RoomValue>10</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Tu</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ZRH" Parent="DrugBase">
+	<ThingName>Velvet flowers</ThingName>
+	<TexPath>Spr\Object\ZW\ZRH.PNG</TexPath>	
+	<Desc>In the legend, velvet flowers symbolize bravery, because wild velvet flowers grow on the mountains where the environment is difficult, and it is difficult for ordinary people to see their beautiful faces, so those who have seen velvet flowers are heroes. Many young people risk their lives and climb the steep cliffs just to pick a velvet flower dedicated to their sweethearts, because only velvet flowers can represent the determination to sacrifice everything for love. .</Desc>
+	<Rate>8</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Tu</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="9500"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="9500" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="9000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_T</li>
+		</PhysicalLables>
+		<FabaoSuffix>紫绒花</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_ZRH</Modifier>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>15</Nutrition>
+			<FunAddion>-50</FunAddion>
+			<PracticeNutrition>-500</PracticeNutrition>
+		</Food>
+		
+	</Item>
+	<Heat>
+		<Value>15</Value>
+		<Radius>5</Radius>
+		<RoomValue>10</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Tu</Kind>
+	</Element>
+	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_CBS" Parent="DrugBase">
+	<ThingName>Changbai ginseng</ThingName>
+	<TexPath>Spr\Object\ZW\CBS.PNG</TexPath>	
+	<Desc>Nine hundred and eighty! Come out in 1998, say goodbye to the high price, don't be three or four thousand, not one or two thousand, as long as in 1998, Changbai Mountain Laoshan Ginseng will take home! Limited time, hurry up and buy it! The first 100 Taoists who placed the order were pleasantly surprised. Nine hundred and eighty! Nine hundred and eighty! Changbai Mountain Laoshan Ginseng only needs nine hundred and eight spirit stones! After eating, it will increase 300 yuan, and the drug resistance will be 60</Desc>
+	<Rate>9</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>Tu</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="9980"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="9980" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="9980" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_T</li>
+		</PhysicalLables>
+		<FabaoSuffix>长白参</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_CBS</Modifier>
+			<Fesistance>0.6</Fesistance>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>15</Nutrition>
+			<FunAddion>-50</FunAddion>
+			<PracticeNutrition>-500</PracticeNutrition>
+		</Food>
+		
+	</Item>
+	<Heat>
+		<Value>-15</Value>
+		<Radius>5</Radius>
+		<RoomValue>-100</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>Tu</Kind>
+	</Element>
+	
+	</ThingDef>
+	
+	
+<!--九妙-->	
+	<ThingDef Type="Item" Name="Item_JM1" Parent="DrugBase">
+	<ThingName>One of the nine magic pills</ThingName>
+	<TexPath>Spr\Object\ZW\JMBSY1.PNG</TexPath>	
+	<Desc>The Jiu Miao Immortal Medicine was scattered by the wasteland master on the top of the Nine Great Gods, and I wonder if it can be reunited.</Desc>
+	<Rate>10</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>None</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="100000"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="100000" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="39000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_N</li>
+		</PhysicalLables>
+		<FabaoSuffix>九妙不死药</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_JM1</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<Ling>20000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>15</Nutrition>
+			<FunAddion>-50</FunAddion>
+		</Food>
+		
+	</Item>
+	<Heat>
+		<Value>55</Value>
+		<Radius>5</Radius>
+		<RoomValue>-55</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>None</Kind>
+	</Element>
+	<Light>
+		<Value>15</Value>
+		<Failing>0.2</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>1</Radius>
+		<Color>FA8072</Color>
+	</Light>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_JM2" Parent="DrugBase">
+	<ThingName>One of the nine magic pills</ThingName>
+	<TexPath>Spr\Object\ZW\JMBSY2.PNG</TexPath>	
+	<Desc>The Jiu Miao Immortal Medicine was scattered by the wasteland master on the top of the Nine Great Gods, and I wonder if it can be reunited.</Desc>
+	<Rate>10</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>None</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="100000"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="100000" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="39000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_N</li>
+		</PhysicalLables>
+		<FabaoSuffix>九妙不死药</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_JM2</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<Ling>20000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>15</Nutrition>
+			<FunAddion>-50</FunAddion>
+		</Food>
+		
+	</Item>
+	<Heat>
+		<Value>55</Value>
+		<Radius>5</Radius>
+		<RoomValue>-55</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>None</Kind>
+	</Element>
+	<Light>
+		<Value>15</Value>
+		<Failing>0.2</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>1</Radius>
+		<Color>FA8072</Color>
+	</Light>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_JM3" Parent="DrugBase">
+	<ThingName>One of the nine magic pills</ThingName>
+	<TexPath>Spr\Object\ZW\JMBSY3.PNG</TexPath>	
+	<Desc>The Jiu Miao Immortal Medicine was scattered by the wasteland master on the top of the Nine Great Gods, and I wonder if it can be reunited.</Desc>
+	<Rate>10</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>None</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="100000"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="100000" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="39000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_N</li>
+		</PhysicalLables>
+		<FabaoSuffix>九妙不死药</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_JM3</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<Ling>20000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>15</Nutrition>
+			<FunAddion>-50</FunAddion>
+		</Food>
+		
+	</Item>
+	<Heat>
+		<Value>55</Value>
+		<Radius>5</Radius>
+		<RoomValue>-55</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>None</Kind>
+	</Element>
+	<Light>
+		<Value>15</Value>
+		<Failing>0.2</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>1</Radius>
+		<Color>FA8072</Color>
+	</Light>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_JM4" Parent="DrugBase">
+	<ThingName>One of the nine magic pills</ThingName>
+	<TexPath>Spr\Object\ZW\JMBSY4.PNG</TexPath>	
+	<Desc>The Jiu Miao Immortal Medicine was scattered by the wasteland master on the top of the Nine Great Gods, and I wonder if it can be reunited.</Desc>
+	<Rate>10</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>None</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="100000"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="100000" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="39000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_N</li>
+		</PhysicalLables>
+		<FabaoSuffix>九妙不死药</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_JM4</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<Ling>20000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>15</Nutrition>
+			<FunAddion>-50</FunAddion>
+		</Food>
+		
+	</Item>
+	<Heat>
+		<Value>55</Value>
+		<Radius>5</Radius>
+		<RoomValue>-55</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>None</Kind>
+	</Element>
+	<Light>
+		<Value>15</Value>
+		<Failing>0.2</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>1</Radius>
+		<Color>FA8072</Color>
+	</Light>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_JM5" Parent="DrugBase">
+	<ThingName>One of the nine magic pills</ThingName>
+	<TexPath>Spr\Object\ZW\JMBSY5.PNG</TexPath>	
+	<Desc>The Jiu Miao Immortal Medicine was scattered by the wasteland master on the top of the Nine Great Gods, and I wonder if it can be reunited.</Desc>
+	<Rate>10</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>None</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="100000"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="100000" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="39000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_N</li>
+		</PhysicalLables>
+		<FabaoSuffix>九妙不死药</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_JM5</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<Ling>20000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>15</Nutrition>
+			<FunAddion>-50</FunAddion>
+		</Food>
+		
+	</Item>
+	<Heat>
+		<Value>55</Value>
+		<Radius>5</Radius>
+		<RoomValue>-55</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>None</Kind>
+	</Element>
+	<Light>
+		<Value>15</Value>
+		<Failing>0.2</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>1</Radius>
+		<Color>FA8072</Color>
+	</Light>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_JM6" Parent="DrugBase">
+	<ThingName>One of the nine magic pills</ThingName>
+	<TexPath>Spr\Object\ZW\JMBSY6.PNG</TexPath>	
+	<Desc>The Jiu Miao Immortal Medicine was scattered by the wasteland master on the top of the Nine Great Gods, and I wonder if it can be reunited.</Desc>
+	<Rate>10</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>None</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="100000"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="100000" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="39000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_N</li>
+		</PhysicalLables>
+		<FabaoSuffix>九妙不死药</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_JM6</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<Ling>20000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>15</Nutrition>
+			<FunAddion>-50</FunAddion>
+		</Food>
+		
+	</Item>
+	<Heat>
+		<Value>55</Value>
+		<Radius>5</Radius>
+		<RoomValue>-55</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>None</Kind>
+	</Element>
+	<Light>
+		<Value>15</Value>
+		<Failing>0.2</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>1</Radius>
+		<Color>FA8072</Color>
+	</Light>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_JM7" Parent="DrugBase">
+	<ThingName>One of the nine magic pills</ThingName>
+	<TexPath>Spr\Object\ZW\JMBSY7.PNG</TexPath>	
+	<Desc>The Jiu Miao Immortal Medicine was scattered by the wasteland master on the top of the Nine Great Gods, and I wonder if it can be reunited.</Desc>
+	<Rate>10</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>None</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="100000"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="100000" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="39000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_N</li>
+		</PhysicalLables>
+		<FabaoSuffix>九妙不死药</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_JM7</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<Ling>20000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>15</Nutrition>
+			<FunAddion>-50</FunAddion>
+		</Food>
+		
+	</Item>
+	<Heat>
+		<Value>55</Value>
+		<Radius>5</Radius>
+		<RoomValue>-55</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>None</Kind>
+	</Element>
+	<Light>
+		<Value>15</Value>
+		<Failing>0.2</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>1</Radius>
+		<Color>FA8072</Color>
+	</Light>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_JM8" Parent="DrugBase">
+	<ThingName>One of the nine magic pills</ThingName>
+	<TexPath>Spr\Object\ZW\JMBSY8.PNG</TexPath>	
+	<Desc>The Jiu Miao Immortal Medicine was scattered by the wasteland master on the top of the Nine Great Gods, and I wonder if it can be reunited.</Desc>
+	<Rate>10</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>None</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="100000"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="100000" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="39000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_N</li>
+		</PhysicalLables>
+		<FabaoSuffix>九妙不死药</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_JM8</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<Ling>20000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>15</Nutrition>
+			<FunAddion>-50</FunAddion>
+		</Food>
+		
+	</Item>
+	<Heat>
+		<Value>55</Value>
+		<Radius>5</Radius>
+		<RoomValue>-55</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>None</Kind>
+	</Element>
+	<Light>
+		<Value>15</Value>
+		<Failing>0.2</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>1</Radius>
+		<Color>FA8072</Color>
+	</Light>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_JM9" Parent="DrugBase">
+	<ThingName>One of the nine magic pills</ThingName>
+	<TexPath>Spr\Object\ZW\JMBSY9.PNG</TexPath>	
+	<Desc>The Jiu Miao Immortal Medicine was scattered by the wasteland master on the top of the Nine Great Gods, and I wonder if it can be reunited.</Desc>
+	<Rate>10</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>None</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="100000"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="100000" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="39000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_N</li>
+		</PhysicalLables>
+		<FabaoSuffix>九妙不死药</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>ZTDrug_JM9</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<Ling>20000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>15</Nutrition>
+			<FunAddion>-50</FunAddion>
+		</Food>
+		
+	</Item>
+	<Heat>
+		<Value>55</Value>
+		<Radius>5</Radius>
+		<RoomValue>-55</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>None</Kind>
+	</Element>
+	<Light>
+		<Value>15</Value>
+		<Failing>0.2</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>1</Radius>
+		<Color>FA8072</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_JMBSY" Parent="DrugBase">
+	<ThingName>Nine Mysterious Pills</ThingName>
+	<TexPath>Spr\Object\ZW\JMBSY.PNG</TexPath>	
+	<Desc>Nine mysterious immortal medicine, scattered by the wasteland owner with the supreme power, on the top of the nine gods, is now one.</Desc>
+	<Rate>20</Rate>
+	<Tags>
+		
+		
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<MaxStack>9999</MaxStack>
+	<ElementKind>None</ElementKind>
+	
+	<Item>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="600000"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="600000" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="390000" />
+					<SalePrice Value="200" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>ZW_N</li>
+		</PhysicalLables>
+		<FabaoSuffix>九妙不死药</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<BeMade>
+				<WorkToMake>90000</WorkToMake>
+				<CostItems>
+					<Item name = "Item_JM1" count = "1"/>
+					<Item name = "Item_JM2" count = "1"/>
+					<Item name = "Item_JM3" count = "1"/>
+					<Item name = "Item_JM4" count = "1"/>
+					<Item name = "Item_JM5" count = "1"/>
+					<Item name = "Item_JM6" count = "1"/>
+					<Item name = "Item_JM7" count = "1"/>
+					<Item name = "Item_JM8" count = "1"/>
+					<Item name = "Item_JM9" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		<Elixir>
+			<Modifier>ZTDrug_JM</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<Food>
+			<Ling>20000</Ling>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>15</Nutrition>
+			<FunAddion>-50</FunAddion>
+		</Food>
+		
+	</Item>
+	<Heat>
+		<Value>155</Value>
+		<Radius>5</Radius>
+		<RoomValue>-155</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Element>
+			<Kind>None</Kind>
+	</Element>
+	<Light>
+		<Value>15</Value>
+		<Failing>0.2</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>1</Radius>
+		<Color>FA8072</Color>
+	</Light>
+	</ThingDef>
+	
+	
+	
+	
+	
+	
+</List></ThingDefs>

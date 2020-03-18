@@ -1,0 +1,275 @@
+<SkillTree><List>
+	<Node Name="Gong_YTS_LH_A1" Gong="Gong_YTS">
+		<Esoterica>Gong_YTS_LH_A1</Esoterica>
+		<DisplayName>谭源深禁</DisplayName>
+		<Level>Qi</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_YTS_LH_A1_1</li>
+			<li>Gong_YTS_LH_A1_2</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_YTS_LH_A1_1" Gong="Gong_YTS">
+		<Esoterica>Gong_YTS_LH_A1_1</Esoterica>
+		<DisplayName>谭源深禁</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_YTS_LH_A1_2" Gong="Gong_YTS">
+		<Esoterica>Gong_YTS_LH_A1_2</Esoterica>
+		<DisplayName>谭源深禁</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	<Node Name="Gong_YTS_LH_A3" Gong="Gong_YTS">
+		<Esoterica>Gong_YTS_LH_A3</Esoterica>
+		<DisplayName>源本创身</DisplayName>
+		<Level>Qi</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_YTS_LH_A3_1</li>
+			<li>Gong_YTS_LH_A3_2</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_YTS_LH_A3_1" Gong="Gong_YTS">
+		<Esoterica>Gong_YTS_LH_A3_1</Esoterica>
+		<DisplayName>源本创身</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_YTS_LH_A3_2" Gong="Gong_YTS">
+		<Esoterica>Gong_YTS_LH_A3_2</Esoterica>
+		<DisplayName>源本创身</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_YTS_LH_B1" Gong="Gong_YTS">
+		<Esoterica>Gong_YTS_LH_B1</Esoterica>
+		<DisplayName>源术聚源</DisplayName>
+		<Level>Dan1</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<li>Gong_YTS_DG_B1</li>
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	
+	
+	
+	<Node Name="Gong_YTS_DG_B1" Gong="Gong_YTS">
+		<Esoterica>Gong_YTS_DG_B1</Esoterica>
+		<DisplayName>源天书</DisplayName>
+		<Level>Dan1</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_YTS_DG_B2</li>
+		</Layers>
+		<MutexUnit>
+			<li>Gong_YTS_LH_B1</li>
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_YTS_DG_B2" Gong="Gong_YTS">
+		<Esoterica>Gong_YTS_DG_B2</Esoterica>
+		<DisplayName>源天书</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_YTS_SJ_C1" Gong="Gong_YTS">
+		<Esoterica>Gong_YTS_SJ_C1</Esoterica>
+		<DisplayName>源术神源</DisplayName>
+		<Level>Dan2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<li>Gong_YTS_DG_B1</li>
+			<li>Gong_YTS_SJ_C3</li>
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	
+	<Node Name="Gong_YTS_SJ_C3" Gong="Gong_YTS">
+		<Esoterica>Gong_YTS_SJ_C3</Esoterica>
+		<DisplayName>源术纳体</DisplayName>
+		<Level>Dan2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<li>Gong_YTS_LH_B1</li>
+			<li>Gong_YTS_SJ_C1</li>
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_YTS_HL_D1" Gong="Gong_YTS">
+		<Esoterica>Gong_YTS_HL_D1</Esoterica>
+		<DisplayName>源术造仙</DisplayName>
+		<Level>God</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<li>Gong_YTS_DG_B1</li>
+			<li>Gong_YTS_SJ_C3</li>
+			<li>Gong_YTS_HL_ld</li>
+		</MutexUnit>
+		<FiveBase>0,0,0,0,9</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	
+	
+	<Node Name="Gong_YTS_HL_ld" Gong="Gong_YTS">
+		<Esoterica>Gong_YTS_HL_ld</Esoterica>
+		<DisplayName>源书淬身</DisplayName>
+		<Level>God</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<li>Gong_YTS_LH_B1</li>
+			<li>Gong_YTS_SJ_C1</li>
+			<li>Gong_YTS_HL_D1</li>
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_YTS_XT_F1" Gong="Gong_YTS">
+		<Esoterica>Gong_YTS_XT_F1</Esoterica>
+		<DisplayName>源术天道</DisplayName>
+		<Level>God2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_YTS_XT_F1_1</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,9</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_YTS_XT_F1_1" Gong="Gong_YTS">
+		<Esoterica>Gong_YTS_XT_F1_1</Esoterica>
+		<DisplayName>源术天道</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_YTS_XT_TDQ" Gong="Gong_YTS">
+		<Esoterica>Gong_YTS_TDQ</Esoterica>
+		<DisplayName>源书天道</DisplayName>
+		<Level>God2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_YTS_XT_ZD" Gong="Gong_YTS">
+		<Esoterica>Gong_YTS_XT_ZD</Esoterica>
+		<DisplayName>红尘仙</DisplayName>
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+</List></SkillTree> 

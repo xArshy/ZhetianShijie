@@ -1,0 +1,214 @@
+<ThingDefs><List>
+<ThingDef Type="Plant" Name="RockBrown" Parent="RockBase">
+	
+	<ThingName>Brown rock</ThingName>
+	<Desc>The brown rocky mountain body has a loose texture and it is difficult to mine available stones.</Desc>
+	<Beauty>-1</Beauty>
+	<TileID>-1</TileID>
+	<Harvest>
+		<DropWork>40</DropWork>      
+		<DropItems>
+			<li>
+				<ThingDef>Item_BrownRock</ThingDef>
+				<Count>1</Count>
+				<Rate>0.75</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_StoneEssence</ThingDef>
+				<Count>1</Count>
+				<Rate>0.04</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_StoneBox2</ThingDef>
+				<Count>1</Count>
+				<Rate>0.003</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_YZBYB</ThingDef>
+				<Count>1</Count>
+				<Rate>0.0015</Rate>
+			</li>
+		</DropItems>				
+	</Harvest>
+</ThingDef>
+
+<ThingDef Type="Plant" Name="RockGray" Parent="RockBase">
+
+	
+	<ThingName>Limestone</ThingName>
+	<Desc>The gray rocky mountain, with its compact texture, can be mined for construction.</Desc>
+	<Beauty>-1</Beauty>
+	<TileID>-2</TileID>
+	
+	<Harvest>
+		<DropWork>60</DropWork>      
+		<DropItems>
+			<li>
+				<ThingDef>Item_GrayRock</ThingDef>
+				<Count>1</Count>
+				<Rate>0.75</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_StoneEssence</ThingDef>
+				<Count>1</Count>
+				<Rate>0.04</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_StoneBox2</ThingDef>
+				<Count>1</Count>
+				<Rate>0.003</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JYBYB</ThingDef>
+				<Count>1</Count>
+				<Rate>0.0015</Rate>
+			</li>
+		</DropItems>				
+	</Harvest>
+</ThingDef>
+
+<ThingDef Type="Plant" Name="RockMarble" Parent="RockBase">
+
+	
+	<ThingName>Dali Rock</ThingName>
+	<Desc>Marble-rich mountains, where marble can be mined.</Desc>
+	<Beauty>-1</Beauty>
+	<TileID>-7</TileID>
+	
+	<Harvest>
+		<DropWork>80</DropWork>      
+		<DropItems>
+			<li>
+				<ThingDef>Item_Marble</ThingDef>
+				<Count>1</Count>
+				<Rate>0.75</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_StoneEssence</ThingDef>
+				<Count>1</Count>
+				<Rate>0.04</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_StoneBox2</ThingDef>
+				<Count>1</Count>
+				<Rate>0.003</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ZYW</ThingDef>
+				<Count>1</Count>
+				<Rate>0.002</Rate>
+			</li>
+		</DropItems>				
+	</Harvest>
+</ThingDef>
+
+
+<ThingDef Type="Plant" Name="RockJade" Parent="RockBase">
+
+	
+	<ThingName>Yuyan</ThingName>
+	<Desc>Jade can be mined from mountains containing jade.</Desc>
+	<Beauty>-1</Beauty>
+	<TileID>-35</TileID>
+	
+	<Harvest>
+		<DropWork>80</DropWork>      
+		<DropItems>
+			<li>
+				<ThingDef>Item_Jade</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JadeEssence</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_StoneBox2</ThingDef>
+				<Count>1</Count>
+				<Rate>0.003</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ZJST</ThingDef>
+				<Count>1</Count>
+				<Rate>0.002</Rate>
+			</li>
+		</DropItems>				
+	</Harvest>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>5</Value>         
+		<Radius>2</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0.15</Attenuation>
+		<Absorption>0.4</Absorption>
+		<Accommodate>16</Accommodate>
+	</Ling>
+</ThingDef>
+
+<ThingDef Type="Plant" Name="RockCinnabar" Parent="RockBase">
+
+	
+	<ThingName>Cinnabar</ThingName>
+	<Desc>Containing cinnabar ore body, cinnabar can be mined.</Desc>
+	<Beauty>-1</Beauty>
+	<TileID>-36</TileID>
+	
+	<Harvest>
+		<DropWork>180</DropWork>      
+		<DropItems>
+			<li>
+				<ThingDef>Item_Cinnabar</ThingDef>
+				<Count>12</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Cinnabar</ThingDef>
+				<Count>8</Count>
+				<Rate>0.75</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Cinnabar</ThingDef>
+				<Count>6</Count>
+				<Rate>0.25</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_StoneBox2</ThingDef>
+				<Count>1</Count>
+				<Rate>0.003</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JTCYW</ThingDef>
+				<Count>1</Count>
+				<Rate>0.003</Rate>
+			</li>
+		</DropItems>				
+	</Harvest>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>2</Value>         
+		<Radius>1</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0.15</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>12</Accommodate>
+	</Ling>
+</ThingDef>
+</List></ThingDefs>

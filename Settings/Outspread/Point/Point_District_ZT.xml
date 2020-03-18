@@ -1,0 +1,32 @@
+<Defs><List>
+
+	<Def Name="Point_WSST" Parent="Point_LingBase">
+		<DisplayName>五色神坛</DisplayName>
+		<BuildSymbols>
+			<li>Stone</li>
+		</BuildSymbols>
+		<AdvanceProduct>
+			<li Type="L1" Product="YS1" Count="1" />
+			<li Type="L2" Product="YS2" Count="1" />
+			<li Type="L3" Product="YS3" Count="1" />
+			<li Type="L4" Product="YS4" Count="1" />
+			<li Type="L5" Product="YS5" Count="1" />
+			<li Type="L6" Product="YS6" Count="1" />
+		</AdvanceProduct>
+		
+	</Def>
+	
+	<Def Name="Point_YSKC">
+		<DisplayName>源石矿场</DisplayName>
+		<BuildSymbols>
+			<li>Stone</li>
+		</BuildSymbols>
+		<Product>
+			<li Type="ws3" Product="ws3" Count="20" />
+			<li Type="ws2" Product="ws2" Count="10" />
+			<li Type="ws1" Product="ws1" Count="1" />
+		</Product>
+		
+	</Def>
+	
+</List></Defs>

@@ -1,0 +1,260 @@
+<Stories><List>
+	
+	<Story Name="ZT_ZLBSY" Parent="BaseFillingStory">
+		<DisplayName>Taking Qinglong immortal medicine</DisplayName>
+		<Desc>[NAME]A hand to capture the Qinglong immortal, the real dragon immortal shivered, praying[NAME]Let yourself go, even gave[NAME]A dragon ball.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Taking immortal medicine (edible from the age of nine thousand years old, shield skill above 40)</Display>
+				<OKResult>
+				<![CDATA[	
+					local NL = me.npcObj.Age
+					story:RemoveBindItem();
+					if me:GetGLevel() >= 11 and me:GetSkillLevel("Barrier") >= 40 and NL >=9003 then
+						me:AddMsg(XT("[NAME]Taking the Qinglong immortal medicine, he was 9,000 years younger, increased by 100 lines, and reduced the condemnation value by 150 days. Enhanced Sixty Percent Attributes"));
+							me:ModifierProperty("NpcFight_FabaoPowerAddP",0.6);me:ModifierProperty("NpcFight_FabaoLingRecoverAddP",0.6);me:ModifierProperty("NpcFight_FabaoMaxLingAddP",0.6);
+							me:ModifierProperty("DeepPracticeSpeedSpecialCoefficient",0.6);me:ModifierProperty("LingAbsorbSpeed",0.6);me:ModifierProperty("NpcLingMaxValue",0.6);
+							me:ModifierProperty("NpcFight_FabaoRepelDistanceAddV",0.6);me:ModifierProperty("NpcFight_FabaoFlySpeedAddP",0.6);
+							me:ModifierProperty("NpcFight_FabaoTurnSpeedAddP",0.6);me:ModifierProperty("NpcFight_FabaoRepelResistanceAddV",0.6);
+							me:ModifierProperty("NpcFight_SpellPowerAddP",0.6);me:ModifierProperty("NpcFight_SpellLingCostAddP",-0.6);
+							me:ModifierProperty("NpcFight_FabaoLingRecoverK",0.6);me:ModifierProperty("NpcFight_ShieldConversionRate",0.6);
+							me:ModifierProperty("NpcFight_ShieldConversionRateAddP",0.6);me:ModifierProperty("NpcFight_ZhenEnginePower",-12);
+							me.npcObj.PropertyMgr:AddAge(-9000);me:ModifierProperty("AbilityLvAddV",100);me:ModifierProperty("GodPenaltyAddV",-150);
+							
+							
+					else
+						me:AddMsg(XT("以[NAME]Inadequate conditions, but was injured by the real dragon's immortal overdose."));
+						me:AddDamage("Huo_VisceralBurn","Kidney",1,XT("True Dragon Backbone"));
+							me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("True Dragon Backbone"));
+							me:AddDamage("Huo_VisceralBurn","Head",1,XT("True Dragon Backbone"));
+							me:AddDamage("Huo_VisceralBurn","Liver",1,XT("True Dragon Backbone"));
+							me:AddDamage("Huo_VisceralBurn","Brain",1,XT("True Dragon Backbone"));
+							me:AddDamage("Huo_VisceralBurn","Lung",1,XT("True Dragon Backbone"));
+							me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("True Dragon Backbone"));
+					end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Forget it, I think about it and eat you next time.</Display>
+				<OKResult>
+					<![CDATA[	
+				if world:GetWorldFlag(555) + 120 < world.DayCount then
+				me:AddMsg(XT("[NAME]Still decided to give up the Qinglong immortal."))
+				world:SetWorldFlag(555,world.DayCount);me:DropAwardItem("Item_LZ",1);
+				
+				else
+				me:AddMsg(XT("[NAME]Still decided to give up the Qinglong immortal. I've taken someone else's eggs last time. Time and place are immature, so you can't get anything."))
+				end
+				story:FinishSecret();
+				]]>	
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZT_BSSHY" Parent="BaseFillingStory">
+		<DisplayName>Taking Undead Phoenix Medicine</DisplayName>
+		<Desc>[NAME]A hand to catch the undead phoenix medicine, the undead phoenix medicine shivered, praying[NAME]Let yourself go, even gave[NAME]An inner Dan.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Consumption of undead medicine,(Skill level 40 or above)</Display>
+				<OKResult>
+				<![CDATA[	
+					local NL = me.npcObj.Age
+					story:RemoveBindItem();
+					if me:GetGLevel() >= 11 and me:GetSkillLevel("FightSkill") >= 40 and NL >=9003 then
+						me:AddMsg(XT("[NAME]Taken the medicine of immortal phoenix, was 9,000 years younger, increased by 100, reduced the condemnation value by 150 days. Enhanced Sixty Percent Attributes"));
+							me:ModifierProperty("NpcFight_FabaoPowerAddP",0.6);me:ModifierProperty("NpcFight_FabaoLingRecoverAddP",0.6);me:ModifierProperty("NpcFight_FabaoMaxLingAddP",0.6);
+							me:ModifierProperty("DeepPracticeSpeedSpecialCoefficient",0.6);me:ModifierProperty("LingAbsorbSpeed",0.6);me:ModifierProperty("NpcLingMaxValue",0.6);
+							me:ModifierProperty("NpcFight_FabaoRepelDistanceAddV",0.6);me:ModifierProperty("NpcFight_FabaoFlySpeedAddP",0.6);
+							me:ModifierProperty("NpcFight_FabaoTurnSpeedAddP",0.6);me:ModifierProperty("NpcFight_FabaoRepelResistanceAddV",0.6);
+							me:ModifierProperty("NpcFight_SpellPowerAddP",0.6);me:ModifierProperty("NpcFight_SpellLingCostAddP",-0.6);
+							me:ModifierProperty("NpcFight_FabaoLingRecoverK",0.6);me:ModifierProperty("NpcFight_ShieldConversionRate",0.6);
+							me:ModifierProperty("NpcFight_ShieldConversionRateAddP",0.6);me:ModifierProperty("NpcFight_ZhenEnginePower",-12);
+							me.npcObj.PropertyMgr:AddAge(-9000);me:ModifierProperty("AbilityLvAddV",100);me:ModifierProperty("GodPenaltyAddV",-150);
+					else
+						me:AddMsg(XT("To[NAME]Insufficient conditions, but was hurt by the immortal phoenix qi of the undead."));
+						me:AddDamage("Huo_VisceralBurn","Kidney",1,XT("Divine Phoenix"));
+							me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("Divine Phoenix"));
+							me:AddDamage("Huo_VisceralBurn","Head",1,XT("Divine Phoenix"));
+							me:AddDamage("Huo_VisceralBurn","Liver",1,XT("Divine Phoenix"));
+							me:AddDamage("Huo_VisceralBurn","Brain",1,XT("Divine Phoenix"));
+							me:AddDamage("Huo_VisceralBurn","Lung",1,XT("Divine Phoenix"));
+							me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("Divine Phoenix"));
+					end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Forget it, I think about it and eat you next time.</Display>
+				<OKResult>
+					<![CDATA[	
+				if world:GetWorldFlag(556) + 120 < world.DayCount then
+				me:AddMsg(XT("[NAME]Still decided to give up eating this immortal phoenix medicine."))
+				world:SetWorldFlag(556,world.DayCount);me:DropAwardItem("Item_SFND",1);
+				else
+				me:AddMsg(XT("[NAME]Still decided to give up the Qinglong immortal. I've taken someone else's eggs last time. Time and place are immature, so you can't get anything."))
+				end
+				story:FinishSecret();
+				]]>	
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZT_BSHLY" Parent="BaseFillingStory">
+		<DisplayName>Taking Undead Huanglong Medicine</DisplayName>
+		<Desc>[NAME]A hand to catch the undead Huanglong medicine, the undead Huanglong medicine shivered, praying[NAME]Let yourself go, even gave[NAME]An inner Dan.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Consumption of undead medicine,(Matrix skills over forty)</Display>
+				<OKResult>
+				<![CDATA[	
+					local NL = me.npcObj.Age
+					story:RemoveBindItem();
+					if me:GetGLevel() >= 11 and me:GetSkillLevel("Zhen") >= 40 and NL >=9003 then
+						me:AddMsg(XT("[NAME]Taking the undead Huanglong medicine, he was 9,000 years younger, increased by 100 lines, and lowered the condemnation value by 150 days. Enhanced Sixty Percent Attributes"));
+							me:ModifierProperty("NpcFight_FabaoPowerAddP",0.6);me:ModifierProperty("NpcFight_FabaoLingRecoverAddP",0.6);me:ModifierProperty("NpcFight_FabaoMaxLingAddP",0.6);
+							me:ModifierProperty("DeepPracticeSpeedSpecialCoefficient",0.6);me:ModifierProperty("LingAbsorbSpeed",0.6);me:ModifierProperty("NpcLingMaxValue",0.6);
+							me:ModifierProperty("NpcFight_FabaoRepelDistanceAddV",0.6);me:ModifierProperty("NpcFight_FabaoFlySpeedAddP",0.6);
+							me:ModifierProperty("NpcFight_FabaoTurnSpeedAddP",0.6);me:ModifierProperty("NpcFight_FabaoRepelResistanceAddV",0.6);
+							me:ModifierProperty("NpcFight_SpellPowerAddP",0.6);me:ModifierProperty("NpcFight_SpellLingCostAddP",-0.6);
+							me:ModifierProperty("NpcFight_FabaoLingRecoverK",0.6);me:ModifierProperty("NpcFight_ShieldConversionRate",0.6);
+							me:ModifierProperty("NpcFight_ShieldConversionRateAddP",0.6);me:ModifierProperty("NpcFight_ZhenEnginePower",-12);
+							me.npcObj.PropertyMgr:AddAge(-9000);me:ModifierProperty("AbilityLvAddV",100);me:ModifierProperty("GodPenaltyAddV",-150);
+					else
+						me:AddMsg(XT("以[NAME]Inadequate conditions, but was injured by the undead Huanglong medicine surplus Huanglong Qi."));
+						me:AddDamage("Huo_VisceralBurn","Kidney",1,XT("Huanglong back bite"));
+							me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("Huanglong back bite"));
+							me:AddDamage("Huo_VisceralBurn","Head",1,XT("Huanglong back bite"));
+							me:AddDamage("Huo_VisceralBurn","Liver",1,XT("Huanglong back bite"));
+							me:AddDamage("Huo_VisceralBurn","Brain",1,XT("Huanglong back bite"));
+							me:AddDamage("Huo_VisceralBurn","Lung",1,XT("Huanglong back bite"));
+							me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("Huanglong back bite"));
+					end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Forget it, I think about it and eat you next time.</Display>
+				<OKResult>
+					<![CDATA[	
+				if world:GetWorldFlag(557) + 120 < world.DayCount then
+				me:AddMsg(XT("[NAME]Still decided to give up eating this immortal Huanglong medicine."))
+				world:SetWorldFlag(557,world.DayCount);me:DropAwardItem("Item_HLND",1);
+				else
+				me:AddMsg(XT("[NAME]Still decided to give up the Qinglong immortal. I've taken someone else's eggs last time. Time and place are immature, so you can't get anything."))
+				end
+				story:FinishSecret();
+				]]>	
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+		
+	<Story Name="ZT_BSXWY" Parent="BaseFillingStory">
+		<DisplayName>Taking undead basalt medicine</DisplayName>
+		<Desc>[NAME]A handful of undead basalt medicines seized, the undead basalt medicines shivered, praying[NAME]Let yourself go, even gave[NAME]An inner Dan.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Consumption of undead medicine,(Sensing skills above level 40)</Display>
+				<OKResult>
+				<![CDATA[	
+					local NL = me.npcObj.Age
+					story:RemoveBindItem();
+					if me:GetGLevel() >= 11 and me:GetSkillLevel("Qi") >= 40 and NL >=9003 then
+						me:AddMsg(XT("[NAME]After taking the undead basalt medicine, he was 9,000 years younger, increased by 100 lines, and reduced the condemnation value by 150 days. Enhanced Sixty Percent Attributes"));
+							me:ModifierProperty("NpcFight_FabaoPowerAddP",0.6);me:ModifierProperty("NpcFight_FabaoLingRecoverAddP",0.6);me:ModifierProperty("NpcFight_FabaoMaxLingAddP",0.6);
+							me:ModifierProperty("DeepPracticeSpeedSpecialCoefficient",0.6);me:ModifierProperty("LingAbsorbSpeed",0.6);me:ModifierProperty("NpcLingMaxValue",0.6);
+							me:ModifierProperty("NpcFight_FabaoRepelDistanceAddV",0.6);me:ModifierProperty("NpcFight_FabaoFlySpeedAddP",0.6);
+							me:ModifierProperty("NpcFight_FabaoTurnSpeedAddP",0.6);me:ModifierProperty("NpcFight_FabaoRepelResistanceAddV",0.6);
+							me:ModifierProperty("NpcFight_SpellPowerAddP",0.6);me:ModifierProperty("NpcFight_SpellLingCostAddP",-0.6);
+							me:ModifierProperty("NpcFight_FabaoLingRecoverK",0.6);me:ModifierProperty("NpcFight_ShieldConversionRate",0.6);
+							me:ModifierProperty("NpcFight_ShieldConversionRateAddP",0.6);me:ModifierProperty("NpcFight_ZhenEnginePower",-12);
+							me.npcObj.PropertyMgr:AddAge(-9000);me:ModifierProperty("AbilityLvAddV",100);me:ModifierProperty("GodPenaltyAddV",-150);
+					else
+						me:AddMsg(XT("以[NAME]Inadequate conditions, but was hurt by the excess of undead basalt medicine."));
+						me:AddDamage("Huo_VisceralBurn","Kidney",1,XT("王霸反噬"));
+							me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("王霸反噬"));
+							me:AddDamage("Huo_VisceralBurn","Head",1,XT("王霸反噬"));
+							me:AddDamage("Huo_VisceralBurn","Liver",1,XT("王霸反噬"));
+							me:AddDamage("Huo_VisceralBurn","Brain",1,XT("王霸反噬"));
+							me:AddDamage("Huo_VisceralBurn","Lung",1,XT("王霸反噬"));
+							me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("王霸反噬"));
+					end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>算了，我考虑考虑，下次吃你。</Display>
+				<OKResult>
+					<![CDATA[	
+				if world:GetWorldFlag(558) + 120 < world.DayCount then
+				me:AddMsg(XT("[NAME]Still decided to give up eating this undead basalt medicine."))
+				world:SetWorldFlag(558,world.DayCount);me:DropAwardItem("Item_XWND",1);
+				else
+				me:AddMsg(XT("[NAME]Still decided to give up the Qinglong immortal. I've taken someone else's eggs last time. Time and place are immature, so you can't get anything."))
+				end
+				story:FinishSecret();
+				]]>	
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="ZT_BSBHY" Parent="BaseFillingStory">
+		<DisplayName>Taking Undead White Tiger Medicine</DisplayName>
+		<Desc>[NAME]A handful of immortal white tiger pills caught, shivering, praying[NAME]Let yourself go, even gave[NAME]An inner Dan.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Consumption of undead medicine,Emperor skill level 40 or above)</Display>
+				<OKResult>
+				<![CDATA[	
+					local NL = me.npcObj.Age
+					story:RemoveBindItem();
+					if me:GetGLevel() >= 11 and me:GetSkillLevel("Fabao") >= 40 and NL >=9003 then
+						me:AddMsg(XT("[NAME]Taking the undead white tiger medicine, he was 9,000 years younger, increased by 100 lines, and reduced the condemnation value by 150 days. Enhanced Sixty Percent Attributes"));
+							me:ModifierProperty("NpcFight_FabaoPowerAddP",0.6);me:ModifierProperty("NpcFight_FabaoLingRecoverAddP",0.6);me:ModifierProperty("NpcFight_FabaoMaxLingAddP",0.6);
+							me:ModifierProperty("DeepPracticeSpeedSpecialCoefficient",0.6);me:ModifierProperty("LingAbsorbSpeed",0.6);me:ModifierProperty("NpcLingMaxValue",0.6);
+							me:ModifierProperty("NpcFight_FabaoRepelDistanceAddV",0.6);me:ModifierProperty("NpcFight_FabaoFlySpeedAddP",0.6);
+							me:ModifierProperty("NpcFight_FabaoTurnSpeedAddP",0.6);me:ModifierProperty("NpcFight_FabaoRepelResistanceAddV",0.6);
+							me:ModifierProperty("NpcFight_SpellPowerAddP",0.6);me:ModifierProperty("NpcFight_SpellLingCostAddP",-0.6);
+							me:ModifierProperty("NpcFight_FabaoLingRecoverK",0.6);me:ModifierProperty("NpcFight_ShieldConversionRate",0.6);
+							me:ModifierProperty("NpcFight_ShieldConversionRateAddP",0.6);me:ModifierProperty("NpcFight_ZhenEnginePower",-12);
+							me.npcObj.PropertyMgr:AddAge(-9000);me:ModifierProperty("AbilityLvAddV",100);me:ModifierProperty("GodPenaltyAddV",-150);
+					else
+						me:AddMsg(XT("以[NAME]Inadequate conditions, but was injured by the undead white tiger medicine surplus of white tiger gas."));
+						me:AddDamage("Huo_VisceralBurn","Kidney",1,XT("庚金反噬"));
+							me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("庚金反噬"));
+							me:AddDamage("Huo_VisceralBurn","Head",1,XT("庚金反噬"));
+							me:AddDamage("Huo_VisceralBurn","Liver",1,XT("庚金反噬"));
+							me:AddDamage("Huo_VisceralBurn","Brain",1,XT("庚金反噬"));
+							me:AddDamage("Huo_VisceralBurn","Lung",1,XT("庚金反噬"));
+							me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("庚金反噬"));
+					end
+				]]>		
+				</OKResult>
+			</li>
+			<li>
+				<Display>Forget it, I think about it and eat you next time.</Display>
+				<OKResult>
+					<![CDATA[	
+				if world:GetWorldFlag(559) + 120 < world.DayCount then
+				me:AddMsg(XT("[NAME]Still decided to give up eating this immortal white tiger medicine."))
+				world:SetWorldFlag(559,world.DayCount);me:DropAwardItem("Item_BHND",1);
+				else
+				me:AddMsg(XT("[NAME]Still decided to give up the Qinglong immortal. I've taken someone else's eggs last time. Time and place are immature, so you can't get anything."))
+				end
+				story:FinishSecret();
+				]]>	
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+		
+</List></Stories>

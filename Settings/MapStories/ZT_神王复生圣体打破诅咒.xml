@@ -1,0 +1,358 @@
+<Stories><List>
+	<Story Name="DPZZ"  Parent="BaseFillingStory">
+		<DisplayName>The Eucharist breaks the curse.</DisplayName>
+		<Desc>After the resurrection of the white-clothed god King Jiang Taixu in the holy city's Hualong Pond, he joined forces with the Feng clan to break the curse of the Eucharist.</Desc>
+
+		<Selections>
+			<li>
+				<Display>Go and watch, just take a look.</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 6
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[	
+				if world:GetWorldFlag(570) == 0 then
+					me:AddMsg("[NAME]Despite this strength, I do n’t want to participate in the war,[NAME]I feel like I have my own story, so I do n’t need to participate in it.[NAME]The shield strength has been increased by forty percent.");
+					me:ModifierProperty("NpcFight_ShieldConversionRateAddP",0.4);
+				else
+					me:AddMsg("[NAME]Despite this strength, I do n’t want to participate in the war,[NAME]I feel that I have my own story, so there is no need to participate in it.");
+				end
+				story:FinishSecret();
+					]]>
+				</OKResult>
+				<NOResult><![CDATA[	
+				me:AddMsg("[NAME]Lack of strength does not qualify for watching.");
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>Help the Eucharist. (There is a risk of collapse)</Display> 
+				<OKResult>
+				<![CDATA[
+				if me:GetGLevel() <= 9 then
+					me:AddMsg("[NAME]The strength is not very strong, but anyway, he helped the body to shout a few 666 on the side. I did not expect that he was not only rewarded by the King of God, but was also followed by some unscrupulous people.");
+					me:AddEnemy(24,0)me:AddEnemy(22,0)
+					if me:GetSkillLevel("FightSkill") >= 20 and me:GetSkillLevel("Zhen") >= 20 then
+						me:DropAwardItem("Item_HSXSY",15);
+						me:DropAwardItem("Item_Dan_FiveBaseFromLife",10);
+						me:DropAwardItem("Item_HSXXY",1);
+						me:DropAwardItem("Item_Dan_ReBorn",2);
+						me:DropAwardItem("Item_YanDaoGuo",2);
+						me:DropAwardItem("Item_XianDaoShenNian",2);
+						if me:GetSkillLevel("Fabao") >= 20 and me:GetSkillLevel("Fight") >= 20 then
+							me:DropAwardItem("Item_TSXSY",15);
+							me:DropAwardItem("Item_WDCY",6);
+							me:DropAwardItem("Item_TSXXY",2);
+							me:DropAwardItem("Item_QieDaoGuo",2);
+							me:DropAwardItem("Item_ThunderAir",4);
+							me:DropAwardItem("Item_QieDaoGuo",2);
+							me:DropAwardItem("Item_MiBao_WWMQD",1);
+							if me:GetSkillLevel("Barrier") >= 20 and me:GetSkillLevel("Qi") >= 20 then
+								me:DropAwardItem("Item_MSXSY",10);
+								me:DropAwardItem("Item_ThunderAir",6);
+								me:DropAwardItem("Item_SSXXY",2);
+								me:DropAwardItem("Item_BenYuan_Jin",2);
+								me:DropAwardItem("Item_XianDaoXieNian",2);
+								me:DropAwardItem("Item_BenYuan_Mu",2);
+							else
+							me:AddMsg("[NAME]The shield level and the sense of qi are too weak to contribute more to the cheer, so the reward is less.");
+								me:DropAwardItem("Item_SSXSY",6);
+								me:DropAwardItem("Item_WDCY",1);
+							end
+						else
+							me:AddMsg("[NAME]The power of the weapon and the battle level is not strong enough, so the reward is also a little less.");	
+								me:DropAwardItem("Item_JSXSY",6);
+								me:DropAwardItem("Item_WDCY",1);
+							end
+					else
+						me:AddMsg("[NAME]The spell skills and formation abilities are not strong enough, so they receive less reward.");
+								me:DropAwardItem("Item_MSXSY",6);
+								me:DropAwardItem("Item_WDCY",1);
+					end
+					if me:GetLuck() <= 6 then
+						me:AddDamgeFromCache(story.DamageCache,6,6);
+					elseif me:GetLuck() <= 8 then
+						me:AddDamgeFromCache(story.DamageCache,4,4);
+					elseif me:GetLuck() <= 10 then
+						me:AddDamgeFromCache(story.DamageCache,4,0.5);
+					end
+				elseif me:GetGLevel() >= 11 then
+					me:AddMsg("[NAME]The strength is in the world and the king, so it is not enough to help a small holy body, but the major holy places feel lost.");
+					me:AddEnemy(24,0)me:AddEnemy(22,0)me:AddEnemy(22,0)
+					if me:GetSkillLevel("FightSkill") >= 20 and me:GetSkillLevel("Zhen") >= 20 then
+						me:DropAwardItem("Item_HSXSY",20);
+						me:DropAwardItem("Item_Dan_FiveBaseFromLife",15);
+						me:DropAwardItem("Item_HSXXY",2);
+						me:DropAwardItem("Item_Dan_ReBorn",3);
+						me:DropAwardItem("Item_YanDaoGuo",3);
+						me:DropAwardItem("Item_XianDaoShenNian",3);
+						if me:GetSkillLevel("Fabao") >= 20 and me:GetSkillLevel("Fight") >= 20 then
+							me:DropAwardItem("Item_TSXSY",20);
+							me:DropAwardItem("Item_WDCY",8);
+							me:DropAwardItem("Item_TSXXY",3);
+							me:DropAwardItem("Item_QieDaoGuo",3);
+							me:DropAwardItem("Item_ThunderAir",6);
+							me:DropAwardItem("Item_QieDaoGuo",3);
+							me:DropAwardItem("Item_MiBao_WWMQD",1);
+							if me:GetSkillLevel("Barrier") >= 20 and me:GetSkillLevel("Qi") >= 20 then
+								me:DropAwardItem("Item_MSXSY",15);
+								me:DropAwardItem("Item_ThunderAir",8);
+								me:DropAwardItem("Item_SSXXY",3);
+								me:DropAwardItem("Item_BenYuan_Jin",3);
+								me:DropAwardItem("Item_XianDaoXieNian",3);
+								me:DropAwardItem("Item_BenYuan_Mu",3);
+							else
+							me:AddMsg("[NAME]The shield level and the sense of qi are too weak to contribute more to the cheer, so the reward is less.");
+								me:DropAwardItem("Item_SSXSY",6);
+								me:DropAwardItem("Item_WDCY",1);
+							end
+						else
+							me:AddMsg("[NAME]The power of the weapon and the battle level is not strong enough, so the reward is also a little less.");	
+								me:DropAwardItem("Item_JSXSY",6);
+								me:DropAwardItem("Item_WDCY",1);
+							end
+					else
+						me:AddMsg("[NAME]The spell skills and formation abilities are not strong enough, so they receive less reward.");
+							me:DropAwardItem("Item_WSXSY",6);
+							me:DropAwardItem("Item_EarthEssence",8);
+							me:DropAwardItem("Item_EarthEssence_1",6);
+					end
+				end
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]The strength is average, although it is intentional but inadequate. Although it has been pursued by some factions, it has also gained something.");
+						me:DropAwardItem("Item_WSXY",5);
+						me:DropAwardItem("Item_Hemostatics",10);
+						me:DropAwardItem("Item_SmallCycle",10);
+						me:DropAwardItem("Item_EarthEssence_1",1);
+						me:DropAwardItem("Item_EarthEssence1",1);
+				me:AddEnemy(22,0.5)me:AddDamgeFromCache(story.DamageCache,9,6);story:FinishSecret();
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>Do n’t let the Eucharist do the wish</Display> 
+				
+				<OKResult>
+				<![CDATA[
+				if me:GetGLevel() <= 9 then
+				me:AddMsg("[NAME]Strength generally also wants to stop the Eucharist from breaking the curse, and the result is naturally the attack of the Eucharist and the King of God.");
+						me:DropAwardItem("Item_WSXSY",20);me:DropAwardItem("Item_JSXSY",20);me:DropAwardItem("Item_MSXSY",20);me:DropAwardItem("Item_SSXSY",20);me:DropAwardItem("Item_HSXSY",20);me:DropAwardItem("Item_TSXSY",20);
+						me:DropAwardItem("Item_Hemostatics",60);me:DropAwardItem("Item_WDCY",10);me:DropAwardItem("Item_XianDaoXieNian",10);me:DropAwardItem("Item_XianDaoShenNian",10);
+						me:DropAwardItem("Item_SmallCycle",60);
+						me:DropAwardItem("Item_XianBone",2);
+						me:DropAwardItem("Item_EarthEssence_1",9);
+						me:DropAwardItem("Item_EarthEssence1",9);
+						GameMain:GetMod("SC"):SWFS1();GameMain:GetMod("SC"):ST1();
+				else
+						me:AddMsg("[NAME]Strength was okay, but it failed to prevent the Holy Communion from breaking the curse, and the result was naturally the attack of the Holy Communion and the King of God.");
+						me:DropAwardItem("Item_WSXSY",20);me:DropAwardItem("Item_JSXSY",20);me:DropAwardItem("Item_MSXSY",20);me:DropAwardItem("Item_SSXSY",20);me:DropAwardItem("Item_HSXSY",20);me:DropAwardItem("Item_TSXSY",20);
+						me:DropAwardItem("Item_Hemostatics",60);me:DropAwardItem("Item_WDCY",10);me:DropAwardItem("Item_XianDaoXieNian",10);me:DropAwardItem("Item_XianDaoShenNian",10);
+						me:DropAwardItem("Item_SmallCycle",60);me:DropAwardItem("HUO_QCSH",6);me:DropAwardItem("HUO_WSSH",12);me:DropAwardItem("Item_MiBao_XKJ",1);me:DropAwardItem("ZT_HMYYJ",6);
+						me:DropAwardItem("Item_XianBone",2);
+						me:DropAwardItem("Item_EarthEssence_1",9);
+						me:DropAwardItem("Item_EarthEssence1",9);
+					GameMain:GetMod("SC"):SWFS();GameMain:GetMod("SC"):ST();
+				end
+				story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>Leave this place</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]Passing the holy city, but I have no life to gamble on stones, my body is not good, I ca n’t afford to eat, I can still handle it, and go."));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="HLCYY"  Parent="BaseFillingStory">
+		<DisplayName>God King returns.</DisplayName>
+		<Desc>In the dragon pool of the holy city, the king of white clothing was invincible four thousand years ago, but heroes are not allowed to see their heads. Many people have plans.</Desc>
+		
+		<Selections>
+			<li>
+				<Display>Go and watch, just take a look.</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 6
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[	
+				if world:GetWorldFlag(569) == 0 then
+					me:AddMsg("[NAME]Despite this strength, I do n’t want to participate in the war,[NAME]I feel like I have my own story, so I do n’t need to participate in it.[NAME]Mana cost has been reduced by forty percent.");
+					me:ModifierProperty("NpcFight_SpellLingCostAddP",-0.4);
+				else
+					me:AddMsg("[NAME]Despite this strength, I do n’t want to participate in the war,[NAME]I feel that I have my own story, so there is no need to participate in it.");
+				end
+				story:FinishSecret();
+					]]>
+				</OKResult>
+				<NOResult><![CDATA[	
+				me:AddMsg("[NAME]Lack of strength does not qualify for watching.");
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>Help the God King to defend against all enemies. (Be prepared to fight with the Twin Kings of Zhongzhou, and your strength will increase as you trigger the spiritual realm.)</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetGLevel() >= 6
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[
+				if me:GetGLevel() <= 9 then
+					me:AddMsg("[NAME]The strength is not very strong, but it is also worthy of its contribution to the god king in the gap. Get rewards directly, of course you have to enjoy it");
+					me:AddEnemy(24,0)me:AddEnemy(30,0)me:AddEnemy(22,0)GameMain:GetMod("SC"):SCHLC1();
+					if me:GetSkillLevel("FightSkill") >= 20 and me:GetSkillLevel("Zhen") >= 20 then
+						me:DropAwardItem("Item_WSXSY",10);
+						me:DropAwardItem("Item_EarthEssence",20);
+						me:DropAwardItem("Item_JSXXY",2);
+						me:DropAwardItem("Item_XianBone",2);
+						me:DropAwardItem("Item_EarthEssence_1",20);
+						me:DropAwardItem("Item_YanDaoGuo",2);
+						if me:GetSkillLevel("Fabao") >= 20 and me:GetSkillLevel("Fight") >= 20 then
+							me:DropAwardItem("Item_JSXSY",10);
+							me:DropAwardItem("HUO_WSSH",6);
+							me:DropAwardItem("Item_MSXXY",2);
+							me:DropAwardItem("Item_XianDaoShenNian",2);
+							me:DropAwardItem("Item_LQ",10);
+							me:DropAwardItem("Item_QieDaoGuo",2);
+							if me:GetSkillLevel("Barrier") >= 20 and me:GetSkillLevel("Qi") >= 20 then
+								me:DropAwardItem("Item_MSXSY",10);
+								me:DropAwardItem("HUO_WSSH",6);
+								me:DropAwardItem("Item_SSXXY",2);
+								me:DropAwardItem("Item_XianDaoXieNian",2);
+								me:DropAwardItem("Item_WDCY",6);
+								me:DropAwardItem("Item_BenYuan_Huo",2);
+							else
+							me:AddMsg("[NAME]Shield levels and qi are too weak to contribute more in battle, so they receive less reward.");
+								me:DropAwardItem("Item_MSXSY",4);
+								me:DropAwardItem("HUO_WSSH",2);
+								me:DropAwardItem("Item_WDCY",2);
+							end
+						else
+							me:AddMsg("[NAME]The power of the weapon and the battle level is not strong enough, so the reward is also a little less.");	
+								me:DropAwardItem("Item_JSXSY",4);
+								me:DropAwardItem("HUO_WSSH",2);
+								me:DropAwardItem("Item_LQ",4);
+							end
+					else
+						me:AddMsg("[NAME]The spell skills and formation abilities are not strong enough, so they receive less reward.");
+							me:DropAwardItem("Item_WSXSY",4);
+							me:DropAwardItem("Item_EarthEssence",6);
+							me:DropAwardItem("Item_EarthEssence_1",4);
+					end
+					if me:GetLuck() <= 6 then
+						me:AddDamgeFromCache(story.DamageCache,6,6);
+					elseif me:GetLuck() <= 8 then
+						me:AddDamgeFromCache(story.DamageCache,4,4);
+					elseif me:GetLuck() <= 10 then
+						me:AddDamgeFromCache(story.DamageCache,4,0.5);
+					end
+				elseif me:GetGLevel() >= 11 then
+					me:AddMsg("[NAME]Strength is already the king in the world, so helping the god king is nothing more than a hand. But there are always some holy places.");
+					me:AddEnemy(24,0)me:AddEnemy(22,0)GameMain:GetMod("SC"):SCHLC();
+					if me:GetSkillLevel("FightSkill") >= 20 and me:GetSkillLevel("Zhen") >= 20 then
+						me:DropAwardItem("Item_WSXSY",15);
+						me:DropAwardItem("Item_EarthEssence",30);
+						me:DropAwardItem("Item_JSXXY",3);
+						me:DropAwardItem("Item_XianBone",3);
+						me:DropAwardItem("Item_EarthEssence_1",30);
+						me:DropAwardItem("Item_YanDaoGuo",3);
+						if me:GetSkillLevel("Fabao") >= 20 and me:GetSkillLevel("Fight") >= 20 then
+							me:DropAwardItem("Item_JSXSY",15);
+							me:DropAwardItem("HUO_WSSH",8);
+							me:DropAwardItem("Item_MSXXY",3);
+							me:DropAwardItem("Item_XianDaoShenNian",3);
+							me:DropAwardItem("Item_LQ",15);
+							me:DropAwardItem("Item_QieDaoGuo",3);
+							if me:GetSkillLevel("Barrier") >= 20 and me:GetSkillLevel("Qi") >= 20 then
+								me:DropAwardItem("Item_MSXSY",15);
+								me:DropAwardItem("HUO_WSSH",8);
+								me:DropAwardItem("Item_SSXXY",3);
+								me:DropAwardItem("Item_XianDaoXieNian",3);
+								me:DropAwardItem("Item_WDCY",8);
+								me:DropAwardItem("Item_BenYuan_Huo",3);
+							else
+							me:AddMsg("[NAME]Shield levels and qi are too weak to contribute more in battle, so they receive less reward.");
+								me:DropAwardItem("Item_MSXSY",6);
+								me:DropAwardItem("HUO_WSSH",3);
+								me:DropAwardItem("Item_WDCY",3);
+							end
+						else
+							me:AddMsg("[NAME]The power of the weapon and the battle level is not strong enough, so the reward is also a little less.");	
+								me:DropAwardItem("Item_JSXSY",6);
+								me:DropAwardItem("HUO_WSSH",3);
+								me:DropAwardItem("Item_LQ",6);
+							end
+					else
+						me:AddMsg("[NAME]The spell skills and formation abilities are not strong enough, so they receive less reward.");
+							me:DropAwardItem("Item_WSXSY",6);
+							me:DropAwardItem("Item_EarthEssence",8);
+							me:DropAwardItem("Item_EarthEssence_1",6);
+					end
+				end
+				story:FinishSecret();
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+				me:AddMsg("[NAME]The strength is average, although it is intentional but inadequate. Although it has been pursued by some factions, it has also gained something.");
+						me:DropAwardItem("Item_WSXY",10);
+						me:DropAwardItem("Item_Hemostatics",30);
+						me:DropAwardItem("Item_SmallCycle",30);
+						me:DropAwardItem("Item_XianBone",1);
+						me:DropAwardItem("Item_EarthEssence_1",3);
+						me:DropAwardItem("Item_EarthEssence1",3);
+				me:AddEnemy(22,0.5)me:AddDamgeFromCache(story.DamageCache,9,6);
+				story:FinishSecret();
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>Stop the resurrection of God King! (Very strong, it may be destroyed at any time. Of course, the crisis is accompanied by benefits and I will give it to you. If you have any life, it depends on you.)</Display> 
+				<OKResult>
+				<![CDATA[
+				if me:GetGLevel() <= 9 then
+				me:AddMsg("[NAME]The strength is average but it is still decided to assassinate the god king, which is terrible, but unfortunately he did not wait for the king to sit down and wait for the king's anger to come.");
+						me:DropAwardItem("Item_WSXSY",20);me:DropAwardItem("Item_JSXSY",20);me:DropAwardItem("Item_MSXSY",20);me:DropAwardItem("Item_SSXSY",20);me:DropAwardItem("Item_HSXSY",20);me:DropAwardItem("Item_TSXSY",20);
+						me:DropAwardItem("Item_Hemostatics",60);me:DropAwardItem("Item_WDCY",10);me:DropAwardItem("Item_XianDaoXieNian",10);me:DropAwardItem("Item_XianDaoShenNian",10);
+						me:DropAwardItem("Item_SmallCycle",60);
+						me:DropAwardItem("Item_XianBone",2);
+						me:DropAwardItem("Item_EarthEssence_1",9);
+						me:DropAwardItem("Item_EarthEssence1",9);
+						GameMain:GetMod("SC"):SWFS1();
+				else
+						me:AddMsg("[NAME]Strength is okay, but also failed to kill the god king in time, so accept the god king's anger.");
+						me:DropAwardItem("Item_WSXSY",20);me:DropAwardItem("Item_JSXSY",20);me:DropAwardItem("Item_MSXSY",20);me:DropAwardItem("Item_SSXSY",20);me:DropAwardItem("Item_HSXSY",20);me:DropAwardItem("Item_TSXSY",20);
+						me:DropAwardItem("Item_Hemostatics",60);me:DropAwardItem("Item_WDCY",10);me:DropAwardItem("Item_XianDaoXieNian",10);me:DropAwardItem("Item_XianDaoShenNian",10);
+						me:DropAwardItem("Item_SmallCycle",60);me:DropAwardItem("HUO_QCSH",6);me:DropAwardItem("HUO_WSSH",12);me:DropAwardItem("Item_MiBao_XKJ",1);me:DropAwardItem("ZT_HMYYJ",6);
+						me:DropAwardItem("Item_XianBone",2);
+						me:DropAwardItem("Item_EarthEssence_1",9);
+						me:DropAwardItem("Item_EarthEssence1",9);
+					GameMain:GetMod("SC"):SWFS();
+				end
+				story:FinishSecret();
+				
+				]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>Leave this place</Display> 
+				<OKResult>
+					me:AddMsg(XT("[NAME]I feel that my strength is not enough, stay away from right and wrong."));
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+</List></Stories>

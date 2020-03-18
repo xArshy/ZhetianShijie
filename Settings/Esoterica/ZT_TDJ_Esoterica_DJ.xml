@@ -1,0 +1,474 @@
+<Esotericas><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Esoterica Name="Gong_TDJ_LH_A1">
+		<DisplayName>Tao Jinglunhai</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_DJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Road, but also non-permanent road.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    Yitian    \nAdded root bone1\nAdd God 1\nPlus potential 2\nAcquired Supernatural Powers: Bitter Sea Waves[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_LH_1A</Modifier>
+		<Magics>
+			<li>KHBT</li>
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Gong_TDJ_LH_A1_1">
+		<DisplayName>Tao Jinglunhai</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_DJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>First name</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]   Double sky  \nAdd matrix load 20\nIncrease the maximum magic skill level by 10[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_LH_1A_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_TDJ_LH_A1_2">
+		<DisplayName>Tao Jinglunhai</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_DJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>"Yes", the mother of all things. Therefore, often "nothing", want to see its wonderful; often "yes", want to see its magpie. The two are different from each other and have the same meaning. Mysterious and mysterious, the gate of all mysteries.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    Mie Tian    \nPsychic value 1500\nIncrease training speed 1\nPlus mood 50[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_LH_1A_2</Modifier>
+	</Esoterica>
+	
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Esoterica Name="Gong_TDJ_LH_A2_XKDSY">
+		<DisplayName>Void Mark</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_DJ_XKDSY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>In the void, a huge handprint quickly condenses.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]	\nAdd god consciousness 1 \nPlus battle level cap 10 \nLearn Mystery: \nVoid Fingerprints (permanently breaks the target's 10,000 psionic power cap each time)[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_LH_2A_XKDSY</Modifier>
+		<Skills>
+			<li>TDJ_DJ_XKDSY</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Esoterica Name="Gong_TDJ_LH_A3">
+		<DisplayName>sea ​​of ​​bitterness</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\JSKH.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>The Eucharist's unique vision of the bitter sea is even more majestic than ordinary people.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nUp to 10 levels of aerated sea level \nPlus 2000 psionic power[/color][/size][/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_LH_3A</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_TDJ_LH_A3_1">
+		<DisplayName>sea ​​of ​​bitterness</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\JSKH.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>The Eucharist's unique vision of the bitter sea is even more majestic than ordinary people.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nSignificantly increase Reiki 50 base value \nIncrease life 900 \nSignificantly increase Reiki recovery speed 100[/color][/size][/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_LH_3A_1</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Esoterica Name="Gong_TDJ_LH_B1">
+		<DisplayName>Xi Jing Jing Dao Mian Juan</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_XHJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>The Emperor of the West, the god of the West, too.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    Yitiantian \nPlus furnace value 2000 \nPlus chance1 \nPlus charm1[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_LH_1B</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_TDJ_LH_B1_1">
+		<DisplayName>Xi Jing Jing Dao Mian Juan</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_XHJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>Three hundred and fifty miles to the west</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    Double Sky \nAlchemy skill level cap 10 \nAlchemy speed bonus 1[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_LH_1B_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_TDJ_LH_B1_2">
+		<DisplayName>Xi Jing Jing Dao Mian Juan</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_XHJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>The five elements are hidden, and the sky is set up to evoke the spirit of vitality. It spreads to the whole body, extends beyond the fur, and absorbs the origin of heaven and earth.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    Triple Sky \nPlus Spirit Regeneration50 \nAdditional Alchemy Bonus 4[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_LH_1B_2</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="Gong_TDJ_DG_B1">
+		<DisplayName>Yuantianshu</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_YTS.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Accept the heaven and earth aura, the art of creation.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]   Yizhongtian \nPlus Alchemy Speed ​​\nAdd Alchemy Success Rate \nLearned Magic: Feng Shui Appraisal \nLearned Magic: Prayer for Heaven Classics \nLearned Magic: Fengyue Fantasy[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_DG_1B</Modifier>
+		<Magics>
+			<li>AbsorbGong_2</li>
+			<li>FengshuiItemOpen</li>
+			<li>PrayForSun</li>
+			<li>PrayForRainstorm</li>
+			<li>PrayForFohn</li>
+			<li>PrayForDustStorm</li>
+			<li>PrayForMiasma</li>
+			<li>PrayForLightningStorm</li>
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Gong_TDJ_DG_B2">
+		<DisplayName>Yuantianshu</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_XHJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>Accept the heaven and earth aura, the art of creation.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]    Double Sky \nPlus Heaven's Value \nAdd Alchemy Yield \nAdd Alchemy Rank \nAcquire Two Fortune Telling Powers \nAcquire Powers: Move Mountains and Seas \nAcquire Powers: Make Spirit Crystals \nLearn Three Tempering Supernatural Powers[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_DG_2B</Modifier>
+		<Magics>
+			<li>Prophesy</li>
+			<li>Prophesy_MapStory</li>
+			<li>BuildMine</li>
+			<li>BuildLand</li>
+			<li>BuildSea</li>
+			<li>TianMoWu</li>
+			<li>LingCrystalMake</li>
+			<li>SoulCrystalYouPowerUp</li>
+			<li>SoulCrystalLingPowerUp</li>
+			<li>MakeSoulCrystal</li>
+		</Magics>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="Gong_TDJ_LH_B3_SDSS">
+		<DisplayName>Sacred Art</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_DJ_SDSS.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>The ancient Tianting killer organization created homicide based on the nine secrets.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508] \nIncrease the magic power by 5 times \nAdd the magic weapon to repel the distance 4 \nReduce the magic cooldown -0.25 \nLearn the mystery: \nKill the Holy Art (minus the armor buff and reduce the opponent's 3 magic shield 100s )[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_LH_3B_SDSS</Modifier>
+		<Skills>
+			<li>TDJ_DJ_SDSS</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================分割线========================== -->
+	
+	<Esoterica Name="Gong_TDJ_SJ_C1">
+		<DisplayName>Heng Yu Jing Qu</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_HY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Hengyu Sacred Furnace</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Huo</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    Yitiantian \nPerception plus 1 consciousness plus 1 \nMaximum skill level 10 levels \nSpell power 5[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_SJ_1C</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_TDJ_SJ_C1_1">
+		<DisplayName>Heng Yu Jing Qu</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_HY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>Depressing the Old Road is different</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]   Double Sky \nReduces Spirit Power by 0.25 \nReduces Spell Mana by 0.25[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_SJ_1C_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_TDJ_SJ_C1_2">
+		<DisplayName>Heng Yu Jing Qu</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_HY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>If you ask where is the avenue, Hengyu furnace turns into the sky</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \nIncrease potential3 \nIncrease spell power by 10 \nDecrease spell cool by 0.25[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_SJ_1C_2</Modifier>
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_TDJ_SJ_C2_YQ">
+		<DisplayName>Tianqing</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_TG.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Sanqing refers to the "three talents" as heavenly personality, personality, and personality. The so-called three talents are genius, talent, and land talent</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nLearning Mystery: \nTiange[/color][/size]</EffectDesc>
+		<Skills>
+			<li>TDJ_SJ_SQ_TQ</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_TDJ_SJ_C1_YQ_1">
+		<DisplayName>Geography</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_DG.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Sanqing refers to the "three talents" as heavenly personality, personality, and personality. The so-called three talents are genius, talent, and land talent</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nLearning Mystery: \nDiqing[/color][/size]</EffectDesc>
+		<Skills>
+			<li>TDJ_SJ_SQ_DQ</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_TDJ_SJ_C1_YQ_2">
+		<DisplayName>Talent</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_Rc.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Sanqing refers to the "three talents" as heavenly personality, personality, and personality. The so-called three talents are genius, talent, and land talent</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nLearn Mystery: \nTalent[/color][/size]</EffectDesc>
+		<Skills>
+			<li>TDJ_SJ_SQ_Rc</li>
+		</Skills>
+	</Esoterica>
+	
+		
+	<Esoterica Name="Gong_TDJ_SJ_C3">
+		<DisplayName>Taiji Holy Art</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_TJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Evolving Taiji with the Holy Law of Fighting, Juyangling Burned the World</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    Juyang \nAdd five-dimensional attributes \nAdd personal aura \nAdd personal Huiling[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_SJ_3C</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_TDJ_SJ_C3_1">
+		<DisplayName>Taiji Holy Art</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_TJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>Evolving Tai Chi with the Method of Fighting and Fighting Sacred Law</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]   Overcast \nAdd bonus power 5 \nPlus shield value 2.5 \nPlus shield level up to ten levels[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_SJ_3C_1</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_TDJ_HL_D1">
+		<DisplayName>Emperor Jinghua Dragon</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_HDLQ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>The Tai Huang Jing is the ancestor of the Da Xia Dynasty.</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]   Nalun Yunlong \nAdditional Power Power 5 \nAdditional Power Power Max 2 \nMaximum Skill Level 10[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_HL_1D</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_TDJ_HL_D1_1">
+		<DisplayName>Emperor Jinghua Dragon</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_HDLQ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>The Tai Huang Jing is the ancestor of the Da Xia Dynasty.</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    Aura-like dragon \nAdditional magic power recovery rate 1 \nAdditional magic power recovery 4 \nAdditional magic number 1[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_HL_1D_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_TDJ_HL_D1_2">
+		<DisplayName>Emperor Jinghua Dragon</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_HDLQ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>The Tai Huang Jing is the ancestor of the Da Xia Dynasty.</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    Emperor Road Dragon Power \nAdditional Power Power 6 \nAdder Power Repels Resistance 5 \nMystery: \nImperial Dragon Power (for 40 seconds, Magic Power Recovery Speed ​​and Magnification are doubled)[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_HL_1D_2</Modifier>
+		<Skills>
+			<li>TDJ_HL_HDLQ</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_TDJ_HL_D2">
+		<DisplayName>Break one's way</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_TQ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>One tripod, two ears, three feet. Tao is one, two for two, three for two, three things for three things, all things are negative and hold the sun</Desc>
+		<GLevel>God</GLevel>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]   Embryo \nplus refiner success rate \nplus refiner speed \nplus artifact success rate[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_HL_2D</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_TDJ_HL_D2_1">
+		<DisplayName>Break one's way</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_TQ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>One tripod, two ears, three feet. Tao is one, two for two, three for two, three things for three things, all things are negative and hold the sun</Desc>
+		<GLevel>God2</GLevel>
+		<EffectDesc>[size=10][color=#D06508]    Ding Cheng \nRefiner quality bonus \nProbability of refining artifacts \nLearned[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_HL_2D_1</Modifier>
+		<Fabaos>
+			<li>TDJ_WWMQD</li>
+		</Fabaos>
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_TDJ_HL_ld">
+		<DisplayName>Six reincarnation punches</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\TDJ_HL_ld.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>All sentient beings in the world have karma for making good and bad karma. There are six places in this karma: heaven, humane, human, livestock, asura, hungry ghost, and hell.</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nLearn Mystery: \nSix Paths of Reincarnation[/color][/size]</EffectDesc>
+		<Skills>
+			<li>TDJ_HL_ld</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_TDJ_XT_F1">
+		<DisplayName>Sun sutra</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_TY1.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>The sun is overcast, weak and stubborn, and the combination of yin and yang is proven.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Huo</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    One Heavy Sky \nplus Reiki Recovery Speed ​​4 \nplus Reiki Maximum 6[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_XT_1F</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_TDJ_XT_F1_1">
+		<DisplayName>Sun sutra</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_TY1.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>The sun is overcast, weak and stubborn, and the combination of yin and yang is proven. .</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    Double Sky \nFire Damage Damage Reduction 1 \nAdd Power 6 + n[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_XT_1F_1</Modifier>
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_TDJ_XT_F2">
+		<DisplayName>Tai Yin Zhen Jing</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_TY2.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>The sun is overcast, weak and stubborn, and the combination of yin and yang is proven.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]   One Heavy Sky \nplus Reiki Recovery Speed ​​4 \nplus Reiki Maximum 6[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_XT_2F</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_TDJ_XT_F2_1">
+		<DisplayName>Tai Yin Zhen Jing</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_TY2.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>The sun is overcast, weak and stubborn, and the combination of yin and yang is proven. .</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    Double Sky \nAdd water damage reduction 1 \nAdd spell power 6 \nIncrease level 10 gas sea limit[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_XT_2F_1</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_TDJ_TDQ">
+		<DisplayName>Tiandiquan</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_TG.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>55</Difficulty>
+		<Desc>The boxing power is strong, and it is necessary to penetrate the sky and reverse the force of cutting the fairy. This is the most terrible boxing method of ancient heaven.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nLearn Mystery: \nTiandiquan[/color][/size]</EffectDesc>
+		<Skills>
+			<li>TDJ_HL_TDQ</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_TDJ_XT_ZD">
+		<DisplayName>Red Dust Fairy</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_ZD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>100</Difficulty>
+		<Desc>The boxing force is strong and supreme, and it is necessary to penetrate the sky and reverse the force of cutting fairy. This is the most terrible boxing method of ancient heaven.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nPlus Shou Yuan and Ling Hui Magnification \nAdd Thirty Yuanshen Distraction \nAdd Furnace Ding \nAdd Artifact Success Rate \nAdditional Power and Addition Power[/color][/size]</EffectDesc>
+		<Modifier>Gong_TDJ_XT_DZ</Modifier>
+		<GodSoulCount>30</GodSoulCount>
+	</Esoterica>
+	
+	
+	
+	
+</List></Esotericas>

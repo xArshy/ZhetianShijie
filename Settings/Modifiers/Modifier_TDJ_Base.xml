@@ -1,0 +1,432 @@
+<ModifierDefs><List>
+
+	<Modifier Name="ZT_TDJ_LH" Type="Normal">
+		<DisplayName>ZT_TDJ_LH</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" AddV="300"/>
+			<li Name="NpcLingMaxValue" AddP="1.5"/>
+			<li Name="LingAbsorbSpeed" AddP="1.5"/>
+		
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.1"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.5"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.75"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddP="0.25"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.75"/>
+			
+			
+			<li Name="NpcFight_SpellPowerAddP" AddP="0.5"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="0.5"/>
+			
+
+			<li Name="ToleranceTMin" AddV="-130"/>
+			<li Name="ToleranceTMax" AddV="260"/>
+			
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.2"/>
+			
+			<li Name="DanMake_SuccessRateAddV" AddV="0.2"/>
+			
+			<li Name="WorldMapFlySpeedAddP" AddV="0.01"/>
+			
+			<li Name="NutritionConsumeConstant" AddP="1"/>
+			<li Name="NutritionWaterAutoRecover" AddV="0.2"/>
+			
+			<li Name="MagicDamageRecoveryPowerAddV" AddP="0.2"/>
+			<li Name="GodPenaltyAddV" AddV="5"/>
+			<li Name="NeckCountdownAddV" AddV="1000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="2000"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZT_NPJ_LH" Type="Normal">
+		<DisplayName>ZT_NPJ_LH</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-999999"/>
+			<li Name="MaxAge" AddV="10"/>
+			<li Name="NpcLingMaxValue" AddP="2.5"/>
+			
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.5"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.5"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.5"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.05"/>
+			
+			<li Name="NpcFight_SpellPowerAddP" AddP="1"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="1"/>
+			
+
+			<li Name="ToleranceTMin" AddV="-15"/>
+			<li Name="ToleranceTMax" AddV="60"/>
+			
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.1"/>
+			
+			<li Name="DanMake_SuccessRateAddV" AddV="0.1"/>
+			
+			<li Name="WorldMapFlySpeedAddP" AddV="1"/>
+			<li Name="NeckCountdownAddV" AddV="-500"/>
+			<li Name="NutritionConsumeConstant" AddP="1"/>
+			<li Name="NutritionWaterAutoRecover" AddV="0.2"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZT_TDJ_xin" Type="Normal">
+		<DisplayName>ZT_TDJ_xin</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" AddV="100"/>
+			<li Name="NpcLingMaxValue" AddP="1"/>
+			
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.3"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.3"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.3"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.1"/>
+			
+			<li Name="NpcFight_SpellPowerAddP" AddP="0.2"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="0.2"/>
+			
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.05"/>
+			
+			<li Name="DanMake_SuccessRateAddV" AddV="0.05"/>
+
+			<li Name="MindStateBaseValue" AddV="10"/>
+			
+			<li Name="MagicDamageRecoveryPowerAddV" AddP="0.2"/>
+			<li Name="GodPenaltyAddV" AddV="2"/>
+			<li Name="LingAbsorbSpeed" AddP="1"/>
+			<li Name="NeckCountdownAddV" AddV="-500"/>
+			
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="ZT_TDJ_pi" Type="Normal">
+		<DisplayName>ZT_TDJ_pi</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" AddV="100"/>
+			<li Name="NpcLingMaxValue" AddP="2.5"/>
+			
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.3"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.3"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.3"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.1"/>
+			
+			<li Name="NpcFight_SpellPowerAddP" AddP="1"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="1"/>
+			
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.05"/>
+			
+			<li Name="DanMake_SuccessRateAddV" AddV="0.05"/>
+
+			<li Name="PainTolerance" AddP="10"/>
+			
+			<li Name="MagicDamageRecoveryPowerAddV" AddP="0.2"/>
+			<li Name="GodPenaltyAddV" AddV="2"/>
+			<li Name="LingAbsorbSpeed" AddP="1"/>
+			<li Name="NeckCountdownAddV" AddV="500"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="-500"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="ZT_TDJ_fei" Type="Normal">
+		<DisplayName>ZT_TDJ_fei</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" AddV="100"/>
+			<li Name="NpcLingMaxValue" AddP="1.25"/>
+			
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.3"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.3"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.3"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.1"/>		
+					
+	
+			<li Name="NpcFight_SpellPowerAddP" AddP="1"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="1"/>
+			
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.05"/>
+			
+			<li Name="DanMake_SuccessRateAddV" AddV="0.05"/>
+	
+			<li Name="MagicDamageRecoveryPowerAddV" AddP="0.2"/>
+			<li Name="GodPenaltyAddV" AddV="2"/>
+			<li Name="LingAbsorbSpeed" AddP="1"/>
+			<li Name="NeckCountdownAddV" AddV="500"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="-500"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="ZT_TDJ_shen" Type="Normal">
+		<DisplayName>ZT_TDJ_shen</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" AddV="100"/>
+			<li Name="NpcLingMaxValue" AddP="0.9"/>
+			<li Name="LingAbsorbSpeed" AddP="1"/>
+			
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.3"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.3"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.3"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.1"/>			
+
+			<li Name="NpcFight_SpellPowerAddP" AddP="1"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="1"/>
+			
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.05"/>
+			
+			<li Name="DanMake_SuccessRateAddV" AddV="0.05"/>
+	
+			<li Name="MagicDamageRecoveryPowerAddV" AddP="0.2"/>
+			<li Name="GodPenaltyAddV" AddV="2"/>
+			<li Name="NeckCountdownAddV" AddV="500"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="-500"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="Gong_Gold_TDJ" Type="Normal">
+		<DisplayName>Gong_Gold_TDJ</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" AddV="500"/>
+			<li Name="NpcLingMaxValue" AddP="2"/>
+			<li Name="LingAbsorbSpeed" AddP="3"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.2"/>
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.4"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="1.5"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.25"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="1.5"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddP="0.5"/>
+			
+			<li Name="NpcFight_SpellPowerAddP" AddP="1.5"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="2.5"/>
+			
+			<li Name="ToleranceTMin" AddV="-20"/>
+			<li Name="ToleranceTMax" AddV="80"/>
+			
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.15"/>
+			
+			<li Name="DanMake_SuccessRateAddV" AddV="0.1"/>
+			<li Name="DanMake_YieldAddP" AddP="1"/>
+		
+			<li Name="WorldMapFlySpeedAddP" AddV="2"/>
+			
+			<li Name="GodPenaltyAddV" AddV="5"/>
+			<li Name="NutritionConsumeConstant" AddP="3"/>
+			<li Name="NutritionWaterAutoRecover" AddV="0.4"/>
+			<li Name="FatigueConsumeConstant" AddV="-0.5"/>
+			
+			<li Name="NpcFight_SpellLingCostAddP" BAddP="-0.2"/>	
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.2"/>	
+			
+			<li Name="NpcFight_ZhenKeyPointNum" AddP="1"/>			
+			<li Name="NpcFight_ZhenEnginePower" AddV="20"/>
+			<li Name="GodPenaltyAddV" AddV="-20"/>
+			<li Name="NeckCountdownAddV" AddV="2000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="5000"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="Gong_Thunder_TDJ" Type="Normal">
+		<DisplayName>Gong_Thunder_TDJ</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" AddV="1200"/>
+			<li Name="NpcLingMaxValue" AddP="4"/>
+			<li Name="LingAbsorbSpeed" AddP="4"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.25"/>
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.5"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="2.5"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="2.5"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="2.5"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddP="1"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="2.5"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="5"/>
+			
+			<li Name="ToleranceTMin" AddV="-300"/>
+			<li Name="ToleranceTMax" AddV="1200"/>
+			
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.5"/>
+			
+			<li Name="DanMake_SuccessRateAddV" AddV="0.1"/>
+			
+			<li Name="WorldMapFlySpeedAddP" AddV="5"/>
+			
+			<li Name="NutritionWaterAutoRecover" AddV="0.8"/>
+			<li Name="FatigueConsumeConstant" AddV="-0.25"/>
+			
+			<li Name="MindStateBaseValue" AddV="20"/>
+			<li Name="MindStateBaseValue" AddV="50"/>
+			<li Name="RecoveryPower" AddP="20"/>
+			<li Name="PainTolerance" AddP="40"/>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="5"/>
+			
+			<li Name="NpcFight_SpellLingCostAddP" BAddP="-0.5"/>	
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.5"/>	
+			
+			<li Name="NutritionConsumeConstant" AddP="10"/>
+			<li Name="NutritionWaterAutoRecover" AddV="10"/>
+			<li Name="WaterConsumeConstant" AddV="-10"/>
+			<li Name="HappyConsumeConstant" AddV="-10"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-2"/>	
+			
+			<li Name="NpcFight_ZhenKeyPointNum" AddP="1"/>			
+			<li Name="NpcFight_ZhenEnginePower" AddV="30"/>
+			<li Name="GodPenaltyAddV" AddV="-50"/>
+			<li Name="NeckCountdownAddV" AddV="-4500"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="ZT_TDJ_HL" Type="Normal">
+		<DisplayName>ZT_TDJ_HL</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" AddV="800"/>
+			<li Name="NpcLingMaxValue" AddP="1"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.3"/>
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.5"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="1"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="1"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="1"/>
+
+			
+			<li Name="NpcFight_SpellPowerAddP" AddP="1"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="2"/>
+			
+			<li Name="LingAbsorbSpeed" AddP="1"/>
+
+			<li Name="ToleranceTMin" AddV="-330"/>
+			<li Name="ToleranceTMax" AddV="390"/>
+			
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.25"/>
+			
+			<li Name="DanMake_SuccessRateAddV" AddV="0.2"/>
+			
+			<li Name="WorldMapFlySpeedAddP" AddV="1.5"/>
+			
+			<li Name="NutritionConsumeConstant" AddP="1.5"/>
+			<li Name="NutritionWaterAutoRecover" AddV="0.25"/>
+			
+			<li Name="MagicDamageRecoveryPowerAddV" AddP="1.25"/>
+			<li Name="GodPenaltyAddV" AddV="2"/>
+			
+			<li Name="NpcFight_SpellLingCostAddP" BAddP="-0.1"/>	
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.1"/>	
+			<li Name="GodPenaltyAddV" AddV="10"/>
+			<li Name="NeckCountdownAddV" AddV="800"/>
+			
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="ZT_TDJ_XT" Type="Normal">
+		<DisplayName>ZT_TDJ_XT</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" AddV="1000"/>
+			<li Name="NpcLingMaxValue" AddP="4"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.5"/>
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.9"/>
+			
+			<li Name="NpcFight_FabaoPowerAddP" AddP="3"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="3"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="3"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="1"/>
+			
+			<li Name="NpcFight_SpellPowerAddP" AddP="3"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="3"/>
+			
+
+			<li Name="ToleranceTMin" AddV="-450"/>
+			<li Name="ToleranceTMax" AddV="660"/>
+			
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.25"/>
+			
+			<li Name="DanMake_SuccessRateAddV" AddV="0.2"/>
+			
+			<li Name="MagicDamageRecoveryPowerAddV" AddP="1.25"/>
+			<li Name="GodPenaltyAddV" AddV="20"/>
+			
+			<li Name="LingAbsorbSpeed" AddP="2"/>
+			
+			<li Name="NpcFight_SpellLingCostAddP" BAddP="-0.15"/>	
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.15"/>	
+			<li Name="NeckCountdownAddV" AddV="1800"/>
+			
+			
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="ZT_TDJ_ZD" Type="Normal">
+	<DisplayName>ZT_TDJ_ZD</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>  
+			<li Name="MaxAge" AddV="6000"/>
+			<li Name="NpcLingMaxValue" AddP="5"/>
+			<li Name="LingAbsorbSpeed" AddP="5"/>
+			
+			<li Name="NpcFight_FabaoPowerAddP" AddP="6"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="6"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="6"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="1"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="6"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.5"/>
+			
+			<li Name="ToleranceTMin" AddV="-1000"/>
+			<li Name="ToleranceTMax" AddV="2500"/>
+			
+			<li Name="FabaoMake_SuccessRateAddV" AddV="0.75"/>
+			
+			<li Name="DanMake_SuccessRateAddV" AddV="0.3"/>
+			
+			<li Name="WorldMapFlySpeedAddP" AddV="15"/>
+			
+			<li Name="NutritionWaterAutoRecover" AddV="2"/>
+			<li Name="FatigueConsumeConstant" AddV="-0.75"/>
+
+			<li Name="MindStateBaseValue" AddV="100"/>
+			<li Name="RecoveryPower" AddP="20"/>
+			<li Name="PainTolerance" AddP="40"/>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="10"/>
+			
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.75"/>	
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.75"/>	
+			
+			<li Name="NutritionConsumeConstant" AddP="15"/>
+			<li Name="NutritionWaterAutoRecover" AddV="15"/>
+			<li Name="WaterConsumeConstant" AddV="-15"/>
+			<li Name="HappyConsumeConstant" AddV="-15"/>
+			
+			
+			<li Name="NpcFight_ZhenKeyPointNum" AddP="3"/>			
+			<li Name="NpcFight_ZhenEnginePower" AddV="90"/>
+			<li Name="GodPenaltyAddV" AddV="180"/>
+			<li Name="NeckCountdownAddV" AddV="9000"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="1"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.25"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.25"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.25"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.25"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.25"/>
+			<li Name="NpcFight_ShieldConversionRate" AddV="1"/>
+		</Properties>
+	</Modifier> 
+
+</List></ModifierDefs>

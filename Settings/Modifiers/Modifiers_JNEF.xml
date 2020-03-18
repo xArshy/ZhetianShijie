@@ -1,0 +1,576 @@
+<ModifierDefs><List> 
+	<Modifier Name="ZT_XKJ" Type="Normal">
+		<DisplayName>Nether Enchantment</DisplayName>
+		<Desc>Flooding the entire battlefield with the power of the void, reducing the enemy's combat hit.</Desc>
+		<MaxStack>4</MaxStack>
+		<Duration>100</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_BaseHitChance" AddV="-0.15"/>
+		</Properties>
+	</Modifier>
+  <Modifier Name="TDJ_SDSS" Type="Normal">
+		<DisplayName>Kill the mind</DisplayName>
+		<Desc>A common method used by the Heavenly Killer is that the enemy fights by injecting corrosive spiritual power and weakening the opponent's spiritual shield.</Desc>
+		<MaxStack>3</MaxStack>
+		<Duration>100</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddV="-2"/>
+		</Properties>
+	</Modifier>
+	 <Modifier Name="HYJ_YYHY" Type="Normal">
+		<DisplayName>Fireland</DisplayName>
+		<Desc>Forming a sea of ​​fire with supreme mana, weakening the enemy's spell power by eight hundred percent, stacking up to 3 layers for 80s.</Desc>
+		<MaxStack>3</MaxStack>
+		<Duration>80</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="-8"/>
+		</Properties>
+	</Modifier>
+	 <Modifier Name="ZT_DJ_BY" Type="Normal">
+		<DisplayName>Fireland</DisplayName>
+		<Desc>The words that do not speak, the mysterious seal is 300% of the power of surgery. It lasts 60s and can be stacked in 5 layers.</Desc>
+		<MaxStack>5</MaxStack>
+		<Duration>60</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="-3"/>
+		</Properties>
+	</Modifier>
+	 <Modifier Name="TTMG_JF" Type="Normal">
+		<DisplayName>All ways</DisplayName>
+		<Desc>Devour your opponent's power of one thousandth of a spell at a time for 90s.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>90</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	 <Modifier Name="TTMG_JR" Type="Normal">
+		<DisplayName>Wan Dun Jie Rong</DisplayName>
+		<Desc>Devour your opponent's one thousand shield strength coefficient at a time for 90s.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>90</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	 <Modifier Name="TTMG_JR" Type="Normal">
+		<DisplayName>Everything is swallowed</DisplayName>
+		<Desc>One-time devastation of the opponent's one thousand magic power for 90s.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>90</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="HYJ" Type="Normal">
+		<DisplayName>Yan Mo</DisplayName>
+		<Desc>Incarnation of Yan Mo, reducing the shield value of all local units by 5.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>101</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddV="-5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="TDJ_XKDSY" Type="Normal">
+		<DisplayName>Void Frozen</DisplayName>
+		<Desc>Use the power of the void to permanently deprive your opponent of the 10,000 spiritual power limit</Desc>
+		<MaxStack>5</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="-10000"/><!--灵气吸收速度5-->
+		</Properties>
+	</Modifier>
+	<Modifier Name="TDJ_SJ_SQ_TQ" Type="Normal">
+		<DisplayName>Heaven feels clear</DisplayName>
+		<Desc>Increases all teammates' psychic recovery speed 5000 briefly for 60 seconds, and short-term mental stability.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>60</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="5000"/><!--灵气吸收速度5-->
+			<li Name="SpeedOfMindStateCoefficient" AddV="1000"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="TTMG_WHTF" Type="Normal">
+		<DisplayName>Wanhua talent</DisplayName>
+		<Desc>Increases all teammates' psychic recovery speed 5000 briefly for 90 seconds, and a short period of mental stability.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>90</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="5000"/><!--灵气吸收速度5-->
+			<li Name="SpeedOfMindStateCoefficient" AddV="1000"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="ZT_BZ" Type="Normal">
+		<DisplayName>Yin and yang disorder</DisplayName>
+		<Desc>The mystery of Tao Jing can temporarily make the opponent forget that he wants to put mystery for 120 seconds.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>120</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="9999"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="9999"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="9999"/><!--术法吟唱时间加成 -1-->
+		</Properties>
+	</Modifier>
+	<Modifier Name="TTMG_FXJ" Type="Normal">
+		<DisplayName>Fei Xian Jue</DisplayName>
+		<Desc>Use the power of Feixian to capture the opponent's magic weapon and permanently reduce the maximum number of opponent magic weapons.</Desc>
+		<MaxStack>5</MaxStack>
+		<Duration>3000</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="-1"/><!--法宝数量6-->
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="HYJ_WJFX" Type="Normal">
+		<DisplayName>Wanjie Fenxian</DisplayName>
+		<Desc>Burn the opponent's magic weapon with a magic fire, permanently reducing the magic weapon power by 10%.</Desc>
+		<MaxStack>5</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-0.1"/>
+			
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="TDJ_HL_ld" Type="Normal">
+		<DisplayName>Reincarnation</DisplayName>
+		<Desc>Use the power of six to make opponents go through reincarnation and deduct 300 yuan in an instant</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="-300"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="MB_CM" Type="Normal">
+		<DisplayName>silence</DisplayName>
+		<Desc>Speechless.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>100</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="9999"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="9999"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="9999"/><!--术法吟唱时间加成 -1-->
+		</Properties>
+	</Modifier>
+	<Modifier Name="MB_ZTY" Type="Normal">
+		<DisplayName>what! Birdman!</DisplayName>
+		<Desc>One magic weapon is missing, and a maximum of three are deducted.</Desc>
+		<MaxStack>3</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="-1"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="DJTG_DD" Type="Normal">
+		<DisplayName>Virtuous person</DisplayName>
+		<Desc>Silence the entire enemy for 180s.</Desc>
+		<MaxStack>2</MaxStack>
+		<Duration>180</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="9999"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="9999"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="9999"/><!--术法吟唱时间加成 -1-->
+		</Properties>
+	</Modifier>
+	<Modifier Name="DJTG_LS" Type="Normal">
+		<DisplayName>Chaos</DisplayName>
+		<Desc>Attacking on the mystery of consciousness makes the opponent's mental disorder last for 60s. Stack up to 4 layers</Desc>
+		<MaxStack>4</MaxStack>
+		<Duration>60</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="-80"/>
+			<li Name="SpeedOfMindStateCoefficient" AddP="-0.4"/>
+		</Properties>
+	</Modifier>
+	 <Modifier Name="DJTG_DSS" Type="Normal">
+		<DisplayName>Third Kill</DisplayName>
+		<Desc>Duan Deming engraved in the flesh and blood, stimulates the opponent to obtain 100% natural recovery, inner door injury recovery ability, spiritual power recovery, magic power, magic power negative gain for 50 seconds.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>50</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="RecoveryPower" AddP="-1"/><!--自然恢复力10-->
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="-5"/><!--内门伤自然恢复力5-->
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-2"/><!--法宝威力加成3-->
+			<li Name="NpcFight_SpellPowerAddP" AddP="-2"/><!--术法伤害加成3-->
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="ZT_JTZ" Type="Normal">
+		<DisplayName>Truncation of Heaven</DisplayName>
+		<Desc>One finger cuts the sky and breaks three thousand souls. Decrease opponent's spiritual limit by 15 for 60 seconds</Desc>
+		<MaxStack>5</MaxStack>
+		<Duration>60</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="-0.15"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="ZT_KKRY" Type="Normal">
+		<DisplayName>Empty</DisplayName>
+		<Desc>10% of damage done for 25 seconds</Desc>
+		<MaxStack>5</MaxStack>
+		<Duration>25</Duration>
+		<Display>1</Display>
+		<LuaClassName>ZT_KKRY</LuaClassName>
+	</Modifier>
+	
+	<Modifier Name="ZSZY" Type="Normal">
+		<DisplayName>Hand suppression</DisplayName>
+		<Desc>For the beginning, only one hand is needed to suppress the opponent for 85 seconds.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>45</Duration>
+		<Display>1</Display>
+		<LuaClassName>ZSZY</LuaClassName>
+	</Modifier>
+	<Modifier Name="WGJK" Type="Normal">
+		<DisplayName>Forever</DisplayName>
+		<Desc>With one move, the opponents played were nothing. Clear your opponent's magic power. The magic power lasts for 90s.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>90</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-9999999"/><!--法宝灵气恢复速度加成3-->
+			<li Name="NpcFight_SpellPowerAddP" AddP="-9999999"/><!--法宝灵气恢复速度加成3-->
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZLGQ" Type="Normal">
+		<DisplayName>Endless</DisplayName>
+		<Desc>Inspire the heaven and earth dragon spirit, lasting 40 seconds, magic power recovery speed and magnification increased by 2 times</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>40</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="2"/><!--法宝灵气恢复速度加成3-->
+			<li Name="NpcFight_FabaoLingRecoverK" AddP="2"/><!--法宝灵气恢复速度加成3-->
+		</Properties>
+	</Modifier>
+	<Modifier Name="NXFX" Type="Normal">
+		<DisplayName>Cut off</DisplayName>
+		<Desc>There is only one sword in the world. There is only one sword in the heart. The sword comes out and the enemy falls. Within 60s, the consumed spiritual power will become a magic weapon.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>60</Duration>
+		<Display>1</Display>
+		<LuaClassName>ZSZY</LuaClassName>
+	</Modifier>
+	
+	<Modifier Name="HYJ_Y" Type="Normal">
+		<DisplayName>flame</DisplayName>
+		
+		<MaxStack>1</MaxStack>
+		<Duration>300</Duration>
+		<Display>1</Display>
+		<LuaClassName>HYJ_Y</LuaClassName>
+	</Modifier>
+	<Modifier Name="HYJ_YY" Type="Normal">
+		<DisplayName>Flame</DisplayName>
+		
+		<MaxStack>1</MaxStack>
+		<Duration>300</Duration>
+		<Display>1</Display>
+		<LuaClassName>HYJ_YY</LuaClassName>
+	</Modifier>
+	<Modifier Name="HYJ_YYY" Type="Normal">
+		<DisplayName>Yan Yan</DisplayName>
+		
+		<MaxStack>1</MaxStack>
+		<Duration>300</Duration>
+		<Display>1</Display>
+		<LuaClassName>HYJ_YYY</LuaClassName>
+	</Modifier>
+	<Modifier Name="HYJ_YYYY" Type="Normal">
+		<DisplayName>Yan Yan Yan Yan</DisplayName>
+		
+		<MaxStack>1</MaxStack>
+		<Duration>300</Duration>
+		<Display>1</Display>
+		<LuaClassName>HYJ_YYYY</LuaClassName>
+	</Modifier>
+	<Modifier Name="TTMG_BY" Type="Normal">
+		<DisplayName>Devouring the Origin</DisplayName>
+		<Desc>Devouring Heaven's Power has devoured the origin of constitution and gained a bonus</Desc>
+		<MaxStack>99</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+				<li Name="MaxAge" AddV="500"/><!--寿元-->
+				<li Name="MindStateBaseValue" AddV="20"/><!--心情基础值-->
+				<li Name="IntelligenceSkillEXPConstant" AddP="0.3"/><!--学习速度-->
+				<li Name="VisionRadius" AddP="0.3"/><!--感知范围-->
+				<li Name="MoveSpeed" AddP="0.3"/><!--移动速度-->
+				<li Name="RecoveryPower" AddP="0.3"/><!--自然恢复力-->
+				<li Name="MagicDamageRecoveryPowerAddV" AddV="0.6"/><!--内门伤自然恢复力-->
+				<li Name="FatigueConsumeConstant" AddP="-0.2"/><!--精力消耗速度加成-->
+				<li Name="NutritionConsumeConstant" AddP="-0.2"/><!--食物消耗速度加成-->
+				<li Name="WaterConsumeConstant" AddP="-0.2"/><!--饮水消耗速度加成-->
+				<li Name="HappyConsumeConstant" AddP="-0.2"/><!--娱乐消耗速度加成-->
+				<li Name="ToleranceTMin" AddV="-10"/><!--最低极限温度-->
+				<li Name="ToleranceTMax" AddV="10"/><!--最高极限温度-->
+				<li Name="ComfyTMin" AddV="-10"/><!--最低舒适温度-->
+				<li Name="ComfyTMax" AddV="10"/><!--最高舒适温度-->
+				<li Name="PainTolerance" AddV="2"/><!--疼痛忍受极限-->
+				<li Name="IntelligenceSkillEXPConstant" AddP="0.1"/><!--学习速度加成-->
+				<li Name="PracticeFoodConsumeConstant" AddP="0.5"/><!--精元消耗速度-->
+				<li Name="FatigueConsumeConstant" AddP="-0.25"/><!--精力消耗速度-->
+				
+				战斗
+				<li Name="NpcFight_FabaoPowerAddP" AddP="0.1"/><!--法宝威力加成-->
+				<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.1"/><!--法宝灵气恢复速度加成-->
+				<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.1"/><!--法宝灵气最大值加成-->
+				<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="1"/><!--法宝击退距离加成-->
+				<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.25"/><!--法宝飞行速度加成-->
+				<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0.25"/><!--法宝转向速度加成-->
+				<li Name="NpcFight_FabaoRepelResistanceAddV" AddP="1"/><!--法宝击退距离抗性-->
+				<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="0.25"/><!--法宝拖尾长度加成-->
+				<li Name="NpcFight_SpellLingCostAddP" AddP="-0.1"/><!--术法灵气消耗加成-->
+				<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/><!--术法吟唱时间加成-->
+				<li Name="NpcFight_SpellPowerAddP" AddP="0.1"/><!--术法伤害加成-->
+				<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.1"/><!--术法冷却时间加成-->
+				<li Name="NpcFight_ShieldConversionRate" AddP="0.25"/><!--护盾强度加值-->
+				<li Name="NpcFight_ShieldConversionRateAddP" AddV="1"/><!--护盾强度加成-->
+				
+				修行
+				<li Name="PracticeRateAddPFromDan" AddP="0.2"/><!--瓶颈突破概率加成系数-->
+				<li Name="ExperienceNeckTimeCostCoefficient" AddP="-0.5"/><!--历练型瓶颈时间放大系数-->
+				<li Name="PotentialOfBasepracticeAddValue" AddV="1"/><!--潜力值-->
+				<li Name="GodPenaltyAddV" AddV="40"/><!--天谴，正的加天谴的。-->
+				<li Name="MaxAccumulativeLingAddV" AddV="1000"/><!--炉鼎值-->
+				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.1"/><!--瓶颈突破概率加成系数-->
+				<li Name="InspirationCoefficient" AddP="0.5"/><!--领悟悟性-->
+				<li Name="LingAbsorbSpeed" AddP="1"/><!--灵气吸收速度-->
+				<li Name="NpcLingMaxValue" AddP="0.1"/><!--基础灵气最大值-->
+				<li Name="WorldMapFlySpeed" AddP="0.5"/><!--历练飞行速度-->
+				<li Name="WorldMapFlySpeedAddP" AddP="-0.5"/><!--历练飞行速度加成-->
+				<li Name="ExperiencePrestigeAddP" AddP="0.5"/><!--历练型声望放大系数-->
+				<li Name="EsotericaNum" AddV="99"/><!--秘籍数量限制-->
+				<li Name="AbilityLvAddV" AddV="90"/><!--道行加值-->
+		</Properties>
+	</Modifier>
+	<Modifier Name="TTMG_WHSJ" Type="Normal">
+		<DisplayName>Secret of Wanhua</DisplayName>
+		<Desc>Wanhua Shengji can disarm for 80 seconds after hitting the enemy (reducing the magic power of the opponent to 0 for 80s).</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>80</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-9999999999999"/><!--法宝灵气恢复速度加成3-->
+		</Properties>
+	</Modifier>
+	<Modifier Name="TTMG_WHSJ" Type="Normal">
+		<DisplayName>Cut me out</DisplayName>
+		<Desc>Cut off the dead enemies, forcing the entire enemy to join me to clear my path. Then it can cause silence for 250 seconds (increase the cooling time of the surgical method by 99999 for 50 seconds).</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>250</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="9999"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="9999"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="TTMG_SXC" Type="Normal">
+		<DisplayName>Cast stars</DisplayName>
+		<Desc>Catch Zhou Tianxing as a Taoist, attack an enemy, and permanently seal its ability to release the spell (improve the cool-down time of the surgery method 99999 for 600s).</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>600</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="9999"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="9999"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="TTMG_BM" Type="Normal">
+		<DisplayName>Unbreakable Origin-Qi</DisplayName>
+		<Desc>Gain a level 1 gas sea cap bonus.</Desc>
+		<MaxStack>50</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>	
+				<li Name="Qi" LevelOver="1"/><!-- 气感 -->
+		</Skills>
+	</Modifier>
+	<Modifier Name="TTMG_BM1" Type="Normal">
+		<DisplayName>Eternal Origin-Shield</DisplayName>
+		<Desc>Gain a level 1 shield maximum bonus.</Desc>
+		<MaxStack>20</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>	
+				<li Name="Barrier" LevelOver="1"/><!-- 气感 -->
+		</Skills>
+	</Modifier>
+	<Modifier Name="TTMG_BM2" Type="Normal">
+		<DisplayName>Unbreakable Origin-Royal</DisplayName>
+		<Desc>Gain a level 1 magic cap bonus.</Desc>
+		<MaxStack>20</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>	
+				<li Name="Fabao" LevelOver="1"/><!-- 气感 -->
+		</Skills>
+	</Modifier>
+	<Modifier Name="TTMG_BM3" Type="Normal">
+		<DisplayName>Unbreakable Origin-Fight</DisplayName>
+		<Desc>Gain a level 1 battle cap bonus.</Desc>
+		<MaxStack>20</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>	
+				<li Name="Fight" LevelOver="1"/><!-- 气感 -->
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="TTMG_BM4" Type="Normal">
+		<DisplayName>Immortal Origins-Empty</DisplayName>
+		<Desc>Gain a level 1 upper battle bonus.</Desc>
+		<MaxStack>20</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>	
+				<li Name="DouFa" LevelOver="1"/><!-- 气感 -->
+		</Skills>
+	</Modifier>
+	<Modifier Name="TTMG_BM5" Type="Normal">
+		<DisplayName>Eternal Origin-Yin Yang</DisplayName>
+		<Desc>Gain a level 1 spell cap bonus.</Desc>
+		<MaxStack>20</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>	
+				<li Name="FightSkill" LevelOver="1"/><!-- 气感 -->
+		</Skills>
+	</Modifier>
+	<Modifier Name="TTMG_BM6" Type="Normal">
+		<DisplayName>Unbreakable Origin-Yuan</DisplayName>
+		<Desc>Gain a level 1 matrix cap bonus.</Desc>
+		<MaxStack>20</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>	
+				<li Name="Zhen" LevelOver="1"/><!-- 气感 -->
+		</Skills>
+	</Modifier>
+	<Modifier Name="TTMG_BM7" Type="Normal">
+		<DisplayName>Immortal Origins-Holy</DisplayName>
+		<Desc>Gain level 1 bonus for all skill levels, plus 2 for breath and shield.</Desc>
+		<MaxStack>20</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>	
+				<li Name="Fight" LevelOver="1"/><!-- 御物 -->
+				<li Name="Qi" LevelOver="2"/><!-- 气感 -->
+				<li Name="Fabao" LevelOver="1"/><!-- 法宝 -->
+				<li Name="DouFa" LevelOver="1"/><!-- 斗法 -->
+				<li Name="Barrier" LevelOver="2"/><!-- 护盾 -->
+				<li Name="Zhen" LevelOver="1"/><!-- 阵法 -->
+				<li Name="FightSkill" LevelOver="1"/><!-- 术法 -->
+				<li Name="DanQi" LevelOver="1"/><!-- 丹器 -->
+		</Skills>
+	</Modifier>
+	<Modifier Name="TTMG_BM8" Type="Normal">
+		<DisplayName>Immortal Origin-Demon</DisplayName>
+		<Desc>Gain a level 1 refiner level cap.</Desc>
+		<MaxStack>20</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>	
+				<li Name="Manual" LevelOver="1"/><!-- 御物 -->
+		</Skills>
+	</Modifier>
+	<Modifier Name="TTMG_BM9" Type="Normal">
+		<DisplayName>Unbreakable Origin-Wheel</DisplayName>
+		<Desc>Gain a level 1 alchemy level cap.</Desc>
+		<MaxStack>20</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>	
+				<li Name="Medicine" LevelOver="1"/><!-- 御物 -->
+		</Skills>
+	</Modifier>
+	<Modifier Name="TTMG_BM10" Type="Normal">
+		<DisplayName>Unbreakable Origin-Wheel</DisplayName>
+		<Desc>Gain a level 1 alchemy level cap.</Desc>
+		<MaxStack>20</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>	
+				<li Name="Medicine" LevelOver="1"/><!-- 御物 -->
+		</Skills>
+	</Modifier>
+	<Modifier Name="TTMG_BM11" Type="Normal">
+		<DisplayName>Immortal Origin-Wang</DisplayName>
+		<Desc>Gain a 10% magic power bonus.</Desc>
+		<MaxStack>20</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.1"/><!--法宝灵气恢复速度加成3-->
+		</Properties>
+	</Modifier>
+	<Modifier Name="TTMG_BM11" Type="Normal">
+		<DisplayName>Immortal Origin-Wang</DisplayName>
+		<Desc>Gain a 10% magic power bonus.</Desc>
+		<MaxStack>20</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.1"/><!--法宝灵气恢复速度加成3-->
+		</Properties>
+	</Modifier>
+	<Modifier Name="TTMG_BM12" Type="Normal">
+		<DisplayName>Immortal Origin-Immortal</DisplayName>
+		<Desc>Gain 10% magic power bonus.</Desc>
+		<MaxStack>20</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="0.1"/><!--法宝灵气恢复速度加成3-->
+		</Properties>
+	</Modifier>
+	<Modifier Name="TTMG_BM13" Type="Normal">
+		<DisplayName>Immortal Origin-Star</DisplayName>
+		<Desc>Gain 10% of five elements to reduce injuries.</Desc>
+		<MaxStack>20</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToShui" AddP="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddP="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddP="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddP="0.1"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddP="0.1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="TTMG_BM14" Type="Normal">
+		<DisplayName>Unbreakable Origin-Covering the Sky</DisplayName>
+		<Desc>Gain a 0.2 shield strength bonus.</Desc>
+		<MaxStack>20</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.2"/><!--法宝灵气恢复速度加成3-->
+		</Properties>
+	</Modifier>
+	
+</List></ModifierDefs>

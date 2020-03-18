@@ -1,0 +1,29 @@
+<ThingDefs><List>
+
+	
+	
+	<ThingDef Type="Item" Name="zt_Tirger_NormalAttack" Parent="NormalAttackBase">
+	<ThingName>Tiger attack</ThingName>
+	<Rate>12</Rate>		
+	<Item>		
+		<Equip>
+			<Damage>1000</Damage>
+			<AttackSpeed>5</AttackSpeed>
+			<AttackRange>3.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Organ" Name="GCCD" Rate="0.15" DescTags="Punch through"/>
+				<li PartKind="Organ" Name="CH" Rate="0.45" DescTags="Soul"/>
+				<li PartKind="Flesh" Name="LSZ" Rate="0.9" DescTags="Mountain Claw"/>
+				<li PartKind="Bone" Name="LGB" Rate="0.2" DescTags="Light wave"/>
+				<li PartKind="Meridian" Name="HX" Rate="0.1" DescTags="Tiger Xiao"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="Atk" HitPoint="89"/>
+				<li Name="Atk2" HitPoint="90"/>
+			</AtkAnis>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	
+</List></ThingDefs>

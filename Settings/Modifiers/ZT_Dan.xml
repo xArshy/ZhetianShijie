@@ -1,0 +1,1605 @@
+<ModifierDefs><List>
+	<Modifier Name="Dan_BCY" Type="Normal">
+		<DisplayName>Herbal Liquid</DisplayName>
+		<Desc>Activate the body's potential and temporarily increase the speed of spiritual practice for two days.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="2"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Dan_XZSZ" Type="Normal">
+		<DisplayName>Miya Shinmaru</DisplayName>
+		<Desc>Activate the body's potential, increase the magic power of three days, and then burn for three hundred years.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<EndModifier>Dan_XZSZ_D</EndModifier>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="2"/>
+		</Properties>
+	</Modifier>	
+	<Modifier Name="Dan_XZSZ_D" Type="Normal">
+		<DisplayName>Miya Shinmaru negative</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="-300"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_FZSZ" Type="Normal">
+		<DisplayName>Gongfei Wan</DisplayName>
+		<Desc>Activate the body's potential, increase the magic power of three days, and then burn for three hundred years.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<EndModifier>Dan_FZSZ_D</EndModifier>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="2"/>
+		</Properties>
+	</Modifier>	
+	<Modifier Name="Dan_FZSZ_D" Type="Normal">
+		<DisplayName>Gongfei Wan negative</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="-300"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_PZSZ" Type="Normal">
+		<DisplayName>Gongpi Wan</DisplayName>
+		<Desc>Activate the body's potential, increase the shield strength for three days, and then burn for three hundred years.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<EndModifier>Dan_PZSZ_D</EndModifier>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="2"/>
+		</Properties>
+	</Modifier>	
+	<Modifier Name="Dan_PZSZ_D" Type="Normal">
+		<DisplayName>Gongpi Wan negative</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="-300"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_SZSZ" Type="Normal">
+		<DisplayName>Gongshen Pill</DisplayName>
+		<Desc>Activate the body's potential, increase the shield strength for three days, and then burn for three hundred years.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<EndModifier>Dan_SZSZ_D</EndModifier>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="2"/>
+		</Properties>
+	</Modifier>	
+	<Modifier Name="Dan_SZSZ_D" Type="Normal">
+		<DisplayName>Gongshen Pill Negative</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="-300"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Dan_GZSZ" Type="Normal">
+		<DisplayName>Gonggan Wan</DisplayName>
+		<Desc>Activate the body's potential, reduce the load of the matrix for three days, and then burn for three hundred years.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<EndModifier>Dan_GZSZ_D</EndModifier>
+		<Properties>
+			<li Name="NpcFight_ZhenEnginePower" AddP="-2"/>
+		</Properties>
+	</Modifier>	
+	<Modifier Name="Dan_GZSZ_D" Type="Normal">
+		<DisplayName>Gonggan Wan negative</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="-300"/>
+		</Properties>
+	</Modifier>
+	
+	
+	<Modifier Name="ZT_WDCY1" Type="Normal">
+		<DisplayName>Wudao Tea</DisplayName>
+		<Desc>Decrease the value of 20 lines and 30 days of condemnation. And permanently increase the speed of cultivation</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="200"/>
+			<li Name="GodPenaltyAddV" AddV="-30"/>
+			<li Name="AbilityLvAddV" AddV="-20"/>
+
+		</Properties>
+	</Modifier> 
+	
+	
+	
+	<Modifier Name="Dan_HYD" Type="Normal">
+		<DisplayName>Huan Yang Dan</DisplayName>
+		<Desc>Increase Millennium Life</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="1000"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="Dan_PTMY" Type="Normal">
+		<DisplayName>Peach secret</DisplayName>
+		<Desc>Increase the lifespan by 1,500 yuan</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="1500"/>
+		</Properties>
+		
+	</Modifier> 
+	
+	<Modifier Name="Dan_PT" Type="Normal">
+		<DisplayName>Peach</DisplayName>
+		<Desc>Increase the lifetime of two thousand years</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="2000"/>
+		</Properties>
+
+	</Modifier> 
+	
+	<Modifier Name="ZT_WSSS" Type="Normal">
+		<DisplayName>Five-colored God Stone</DisplayName>
+		<Desc>Increase the life of one year, increase the conversion of fine element, reduce the speed of practice by two times, reduce the number of steps by 15 points, and reduce the value of condemnation.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="1"/>
+			<li Name="NutritionWaterAutoRecover" AddV="5"/>
+			<li Name="NutritionToJingYuanK" AddV="1.5"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="-2"/>
+			<li Name="AbilityLvAddV" AddV="-30"/>
+			<li Name="GodPenaltyAddV" AddV="-15"/><!--Condemnation, positive condemnation.-->
+
+		</Properties>
+
+	</Modifier>
+	<Modifier Name="ZT_MY" Type="Normal">
+		<DisplayName>Fate</DisplayName>
+		<Desc>Increase 300 years</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="300"/>
+			
+		</Properties>
+
+	</Modifier>
+
+	<Modifier Name="Dan_YDX" Type="Normal">
+		<DisplayName>Monster Emperor Heart</DisplayName>
+		<Desc>You all talk about this stuff, although add attributes.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+
+		<BaseFive>2,2,2,2,2</BaseFive>
+		<Properties>
+				<li Name="MaxAge" AddV="3000"/><!--寿元-->
+				<li Name="MindStateBaseValue" AddV="10"/><!--心情基础值-->
+				<li Name="IntelligenceSkillEXPConstant" AddP="0.3"/><!--学习速度-->
+				<li Name="VisionRadius" AddP="0.3"/><!--感知范围-->
+				<li Name="MoveSpeed" AddP="0.3"/><!--移动速度-->
+				<li Name="RecoveryPower" AddP="0.3"/><!--自然恢复力-->
+				<li Name="MagicDamageRecoveryPowerAddV" AddV="0.6"/><!--内门伤自然恢复力-->
+				<li Name="FatigueConsumeConstant" AddP="-0.2"/><!--精力消耗速度加成-->
+				<li Name="NutritionConsumeConstant" AddP="-0.2"/><!--食物消耗速度加成-->
+				<li Name="WaterConsumeConstant" AddP="-0.2"/><!--饮水消耗速度加成-->
+				<li Name="HappyConsumeConstant" AddP="-0.2"/><!--娱乐消耗速度加成-->
+				<li Name="ToleranceTMin" AddV="-10"/><!--最低极限温度-->
+				<li Name="ToleranceTMax" AddV="10"/><!--最高极限温度-->
+				<li Name="ComfyTMin" AddV="-10"/><!--最低舒适温度-->
+				<li Name="ComfyTMax" AddV="10"/><!--最高舒适温度-->
+				<li Name="PainTolerance" AddV="2"/><!--疼痛忍受极限-->
+				<li Name="IntelligenceSkillEXPConstant" AddP="0.1"/><!--学习速度加成-->
+				<li Name="PracticeFoodConsumeConstant" AddP="0.5"/><!--精元消耗速度-->
+				<li Name="FatigueConsumeConstant" AddP="-0.25"/><!--精力消耗速度-->
+				
+				战斗
+				<li Name="NpcFight_BaseHitChance" AddV="0.5"/><!--战斗命中-->
+				<li Name="NpcFight_BaseDodgeChance" AddV="0.5"/><!--战斗闪避-->
+				<li Name="NpcFight_FabaoPowerAddP" AddP="0.25"/><!--法宝威力加成-->
+				<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.25"/><!--法宝灵气恢复速度加成-->
+				<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.25"/><!--法宝灵气最大值加成-->
+				<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="0.25"/><!--法宝击退距离加成-->
+				<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.25"/><!--法宝飞行速度加成-->
+				<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0.25"/><!--法宝转向速度加成-->
+				<li Name="NpcFight_FabaoRepelResistanceAddV" AddP="0.25"/><!--法宝击退距离抗性-->
+				<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="0.5"/><!--法宝拖尾长度加成-->
+				<li Name="NpcFight_SpellLingCostAddP" AddP="-0.1"/><!--术法灵气消耗加成-->
+				<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/><!--术法吟唱时间加成-->
+				<li Name="NpcFight_SpellPowerAddP" AddP="0.5"/><!--术法伤害加成-->
+				<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.1"/><!--术法冷却时间加成-->
+				<li Name="NpcFight_ShieldConversionRate" AddP="0.5"/><!--护盾强度加值-->
+				<li Name="NpcFight_ShieldConversionRateAddP" AddV="1"/><!--护盾强度加成-->
+				<li Name="NpcFight_ZhenKeyPointNum" AddV="1"/><!--阵法规模-->
+				<li Name="NpcFight_ZhenEnginePower" AddV="1"/><!--阵法负荷能力-->
+				<li Name="NpcFight_FabaoNum" AddV="1"/><!--法宝数量-->
+				
+				
+				修行
+				<li Name="PracticeRateAddPFromDan" AddP="0.2"/><!--瓶颈突破概率加成系数-->
+				<li Name="ExperienceNeckTimeCostCoefficient" AddP="-0.5"/><!--历练型瓶颈时间放大系数-->
+				<li Name="PotentialOfBasepracticeAddValue" AddV="0.5"/><!--潜力值-->
+				<li Name="GodPenaltyAddV" AddV="20"/><!--天谴，正的加天谴的。-->
+				<li Name="MaxAccumulativeLingAddV" AddV="10000"/><!--炉鼎值-->
+				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/><!--瓶颈突破概率加成系数-->
+				<li Name="InspirationCoefficient" AddP="0.5"/><!--领悟悟性-->
+				<li Name="LingAbsorbSpeed" AddP="1"/><!--灵气吸收速度-->
+				<li Name="NpcLingMaxValue" AddV="10000"/><!--基础灵气最大值-->
+				<li Name="WorldMapFlySpeed" AddP="0.5"/><!--历练飞行速度-->
+				<li Name="WorldMapFlySpeedAddP" AddP="-0.5"/><!--历练飞行速度加成-->
+				<li Name="ExperiencePrestigeAddP" AddP="0.5"/><!--历练型声望放大系数-->
+				<li Name="EsotericaNum" AddV="99"/><!--秘籍数量限制-->
+				<li Name="AbilityLvAddV" AddV="90"/><!--道行加值-->
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZT_ZLJX" Type="Normal">
+		<DisplayName>Blue Dragon Essence</DisplayName>
+		<Desc>Dragon's Birthday is also known as Longkoushui.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+				<li Name="MaxAge" AddV="1200"/><!--寿元-->
+				<li Name="NpcFight_ShieldConversionRate" AddV="5"/><!--护盾强度加值-->
+				<li Name="GodPenaltyAddV" AddV="-45"/><!--天谴，正的加天谴的。-->
+				
+				<li Name="AbilityLvAddV" AddV="50"/><!--道行加值-->
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZT_SHJX" Type="Normal">
+		<DisplayName>Divine Phoenix Blood</DisplayName>
+		<Desc>Feng Xuan is also known as Feng Shui.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+				<li Name="MaxAge" AddV="1500"/><!--寿元-->
+				<li Name="NpcFight_SpellPowerAddP" AddP="1.5"/><!--护盾强度加值-->
+				<li Name="GodPenaltyAddV" AddV="-45"/><!--天谴，正的加天谴的。-->
+				
+				<li Name="AbilityLvAddV" AddV="50"/><!--道行加值-->
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZT_HLJX" Type="Normal">
+		<DisplayName>Huanglong Essence</DisplayName>
+		<Desc>Dragon's Birthday is also known as Longkoushui.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+				<li Name="MaxAge" AddV="1000"/><!--寿元-->
+				<li Name="MaxAccumulativeLingAddV" AddV="5000"/><!--护盾强度加值-->
+				<li Name="GodPenaltyAddV" AddV="-45"/><!--天谴，正的加天谴的。-->
+				
+				<li Name="AbilityLvAddV" AddV="50"/><!--道行加值-->
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZT_XWJX" Type="Normal">
+		<DisplayName>Basalt essence</DisplayName>
+		<Desc>Turtle birthday is also known as turtle saliva.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+				<li Name="MaxAge" AddV="1800"/><!--寿元-->
+				<li Name="LingAbsorbSpeed" AddP="1.5"/><!--灵气吸收速度5-->
+				<li Name="GodPenaltyAddV" AddV="-45"/><!--天谴，正的加天谴的。-->
+				
+				<li Name="AbilityLvAddV" AddV="50"/><!--道行加值-->
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZT_BHJX" Type="Normal">
+		<DisplayName>White tiger essence blood</DisplayName>
+		<Desc>The birthday of the tiger is also known as tiger saliva.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+				<li Name="MaxAge" AddV="900"/><!--寿元-->
+				<li Name="NpcFight_FabaoPowerAddP" AddP="2"/><!--法宝威力加成3-->
+				<li Name="GodPenaltyAddV" AddV="-45"/><!--天谴，正的加天谴的。-->
+				
+				<li Name="AbilityLvAddV" AddV="50"/><!--道行加值-->
+		</Properties>
+	</Modifier> 
+	<Modifier Name="Dan_BHW1" Type="Normal">
+		<DisplayName>Refuge</DisplayName>
+		<Desc>Raise the maximum temperature limit briefly.</Desc>
+		<MaxStack>3</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="ToleranceTMax" AddV="300"/><!--最高极限温度-->
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="Dan_BHW2" Type="Normal">
+		<DisplayName>Kwai Shui Avoiding Fire Dan</DisplayName>
+		<Desc>Raise the maximum temperature limit briefly.</Desc>
+		<MaxStack>3</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="ToleranceTMax" AddV="1000"/><!--最高极限温度-->
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="Dan_BHW3" Type="Normal">
+		<DisplayName>True Water Avoiding Fire Dan</DisplayName>
+		<Desc>Raise the maximum temperature limit briefly.</Desc>
+		<MaxStack>3</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="ToleranceTMax" AddV="1500"/><!--最高极限温度-->
+		</Properties>
+	</Modifier> 
+	<Modifier Name="Dan_SYD" Type="Normal">
+		<DisplayName>Water right</DisplayName>
+		<Desc>After taking it, increase it by 5000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>Dan_SYD</LuaClassName>
+	</Modifier>
+	<Modifier Name="ZT_XY" Type="Normal">
+		<DisplayName>Fountain of Immortals</DisplayName>
+		<Desc>Return to full spirit after eating.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>ZT_XY</LuaClassName>
+	</Modifier>
+	<!--涅槃经丹药-->
+	<Modifier Name="NP_XWD" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 4000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_XWD</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_XWD1" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 40,000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_XWD1</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_XWD2" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 40,000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_XWD2</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXW" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 4000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXW</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXW1" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 4000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXW</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXW2" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 4000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXW</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXW3" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 4000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXW</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXW4" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 4000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXW</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXW5" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 4000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXW</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXW0" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 40,000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXW0</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXW11" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 40,000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXW0</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXW12" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 40,000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXW0</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXW13" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 40,000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXW0</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXW14" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 40,000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXW0</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXW15" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 40,000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXW0</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXWE1" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 4000000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXWE</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXW21" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 4000000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXWE</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXW22" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 4000000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXWE</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXW23" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 4000000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXWE</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXW24" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 4000000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXWE</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_WXXW25" Type="Normal">
+		<DisplayName>Nirvana</DisplayName>
+		<Desc>After taking it, increase it by 4000000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_WXXWE</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_DD" Type="Normal">
+		<DisplayName>Didan</DisplayName>
+		<Desc>After taking it, it can be used to produce Dan, and the addition is affected by the aura of the plot. Only Nirvana monks can eat it.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_DD</LuaClassName>
+	</Modifier>
+	<Modifier Name="NP_JTD" Type="Normal">
+		<DisplayName>Tian Dan</DisplayName>
+		<Desc>After taking it, it can be used to produce Dan, and the addition is affected by the aura of the plot. Only Nirvana monks can eat it.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<LuaClassName>NP_JTD</LuaClassName>
+	</Modifier>
+	<!--气海卷-->
+	<Modifier Name="NP_QHD1" Type="Normal">
+		<DisplayName>Qihai</DisplayName>
+		<Desc>After taking it, increase the maximum spiritual power by 5000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="5000"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_QHD2" Type="Normal">
+		<DisplayName>Qihai</DisplayName>
+		<Desc>After taking it, increase the spiritual limit by 20,000.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="20000"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_QHD3" Type="Normal">
+		<DisplayName>Qihai</DisplayName>
+		<Desc>After taking it, increase the spiritual power by 2 times.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="2"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_QHD4" Type="Normal">
+		<DisplayName>Qihai</DisplayName>
+		<Desc>After taking it, increase the spiritual power by 4 times.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="4"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_QHD11" Type="Normal">
+		<DisplayName>Qi Hailin</DisplayName>
+		<Desc>After taking it, increase the maximum spiritual power by 5000.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_QHD111</EndModifier>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="5000"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_QHD21" Type="Normal">
+		<DisplayName>Qi Hailin</DisplayName>
+		<Desc>After taking it, increase the spiritual limit by 20,000.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_QHD211</EndModifier>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="20000"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_QHD31" Type="Normal">
+		<DisplayName>Qi Hailin</DisplayName>
+		<Desc>After taking it, increase the spiritual power by 2 times.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_QHD311</EndModifier>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="2"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_QHD41" Type="Normal">
+		<DisplayName>Qi Hailin</DisplayName>
+		<Desc>After taking it, increase the spiritual power by 4 times.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_QHD411</EndModifier>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="4"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_QHD111" Type="Normal">
+		<DisplayName>Qihai side effects</DisplayName>
+		<Desc>After taking it, increase the maximum spiritual power by 5000.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>600</Duration>
+		<Display>1</Display>
+		<Damages>
+			<li Part="Brain" Damage="LostSoul"/>
+		</Damages>
+	</Modifier>
+	<Modifier Name="NP_QHD211" Type="Normal">
+		<DisplayName>Qihai side effects</DisplayName>
+		<Desc>After taking it, increase the spiritual limit by 20,000.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Damages>
+			<li Part="Brain" Damage="LostSoul"/>
+		</Damages>
+	</Modifier>
+	<Modifier Name="NP_QHD311" Type="Normal">
+		<DisplayName>Qihai side effects</DisplayName>
+		<Desc>After taking it, increase the spiritual power by 2 times.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>3600</Duration>
+		<Display>1</Display>
+		<Damages>
+			<li Part="Brain" Damage="LostSoul"/>
+		</Damages>
+	</Modifier>
+	<Modifier Name="NP_QHD411" Type="Normal">
+		<DisplayName>Qihai side effects</DisplayName>
+		<Desc>After taking it, increase the spiritual power by 4 times.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>5400</Duration>
+		<Display>1</Display>
+		<Damages>
+			<li Part="Brain" Damage="LostSoul"/>
+		</Damages>
+	</Modifier>
+	<Modifier Name="NP_QHD6" Type="Normal">
+		<DisplayName>Turbulent</DisplayName>
+		<Desc>After taking it, restore 10,000 psychic power and increase the speed of psychic recovery by 20 points. For 2 days</Desc>
+		<MaxStack>3</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<LuaClassName>NP_QHD6</LuaClassName>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="20"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_QHD7" Type="Normal">
+		<DisplayName>Turbulent</DisplayName>
+		<Desc>After taking it, restore 100,000 psychic value and increase the speed of psychic recovery by 40 points. For two days</Desc>
+		<MaxStack>3</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<LuaClassName>NP_QHD6</LuaClassName>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="40"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_QHD8" Type="Normal">
+		<DisplayName>Turbulent</DisplayName>
+		<Desc>After taking it, it will restore one million spiritual power and increase the speed of spiritual recovery by 200 points.</Desc>
+		<MaxStack>5</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<LuaClassName>NP_QHD6</LuaClassName>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="200"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_QHD9" Type="Normal">
+		<DisplayName>Turbulent</DisplayName>
+		<Desc>After taking it, it will recover 100 million spiritual power and increase the speed of spiritual recovery by 1000 times.</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<LuaClassName>NP_QHD6</LuaClassName>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="1000"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_QHD61" Type="Normal">
+		<DisplayName>Turbulent</DisplayName>
+		<Desc>After taking, increase the speed of spiritual recovery 10</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_QHD62" Type="Normal">
+		<DisplayName>Turbulent</DisplayName>
+		<Desc>Increases speed of spiritual recovery after taking 20</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="20"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_QHD63" Type="Normal">
+		<DisplayName>Turbulent</DisplayName>
+		<Desc>Increases Spirit Recovery by 50</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="50"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_QHD64" Type="Normal">
+		<DisplayName>Turbulent</DisplayName>
+		<Desc>After taking, increase the speed of spiritual recovery by 300.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="300"/>
+		</Properties>
+	</Modifier>
+	<!--通天卷-->
+	<Modifier Name="NP_TYD" Type="Normal">
+		<DisplayName>Sky Eye Pro</DisplayName>
+		<Desc>Increases practice speed for the duration</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_TYD11</EndModifier>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_TYD2" Type="Normal">
+		<DisplayName>Sky Eye Pro</DisplayName>
+		<Desc>Increases practice speed for the duration</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_TYD12</EndModifier>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_TYD3" Type="Normal">
+		<DisplayName>Sky Eye Pro</DisplayName>
+		<Desc>Increases the practice speed for the duration.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_TYD13</EndModifier>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_TYD4" Type="Normal">
+		<DisplayName>Sky Eye Pro</DisplayName>
+		<Desc>Increases the practice speed for the duration.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_TYD14</EndModifier>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_TYD11" Type="Normal">
+		<DisplayName>Sky Eye Side Effects</DisplayName>
+		<Desc>After opening Tianyan, I was really tired and felt that my body was hollowed out.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="PracticeFoodConsumeConstant" AddP="10"/><!--精元消耗速度4-->
+				<li Name="FatigueConsumeConstant" AddP="1"/><!--精力消耗速度 -2-->
+				<li Name="PracticeFoodRecoveryConstant" AddV="-1"/><!--精元补充加成 -2-->
+				<li Name="NutritionToJingYuanK" AddP="-0.02"/><!--精元消耗速度4-->
+				
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_TYD12" Type="Normal">
+		<DisplayName>天眼副作用</DisplayName>
+		<Desc>开通天眼后，真的很累，感觉身体被掏空。</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>5400</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="PracticeFoodConsumeConstant" AddP="10"/><!--精元消耗速度4-->
+				<li Name="FatigueConsumeConstant" AddP="1"/><!--精力消耗速度 -2-->
+				<li Name="NutritionToJingYuanK" AddP="-0.02"/><!--精元消耗速度4-->
+				<li Name="PracticeFoodRecoveryConstant" AddV="-1"/><!--精元补充加成 -2-->
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_TYD13" Type="Normal">
+		<DisplayName>天眼副作用</DisplayName>
+		<Desc>开通天眼后，真的很累，感觉身体被掏空。</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>9000</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="PracticeFoodConsumeConstant" AddP="10"/><!--精元消耗速度4-->
+				<li Name="FatigueConsumeConstant" AddP="1"/><!--精力消耗速度 -2-->
+				<li Name="NutritionToJingYuanK" AddP="-0.02"/><!--精元消耗速度4-->
+				<li Name="PracticeFoodRecoveryConstant" AddV="-1"/><!--精元补充加成 -2-->
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_TYD14" Type="Normal">
+		<DisplayName>天眼副作用</DisplayName>
+		<Desc>开通天眼后，真的很累，感觉身体被掏空。</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>18000</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="PracticeFoodConsumeConstant" AddP="10"/><!--精元消耗速度4-->
+				<li Name="FatigueConsumeConstant" AddP="1"/><!--精力消耗速度 -2-->
+				<li Name="NutritionToJingYuanK" AddP="-0.02"/><!--精元消耗速度4-->
+				<li Name="PracticeFoodRecoveryConstant" AddV="-1"/><!--精元补充加成 -2-->
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="NP_TYDW" Type="Normal">
+		<DisplayName>天眼临</DisplayName>
+		<Desc>持续时间内提高修炼速度</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_TYD111</EndModifier>
+		<LuaClassName>NP_TYDWX</LuaClassName>
+		
+	</Modifier>
+	<Modifier Name="NP_TYDJ" Type="Normal">
+		<DisplayName>天眼临</DisplayName>
+		<Desc>持续时间内提高修炼速度</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_TYD111</EndModifier>
+		<LuaClassName>NP_TYDWX</LuaClassName>
+		
+	</Modifier>
+	<Modifier Name="NP_TYDM" Type="Normal">
+		<DisplayName>天眼临</DisplayName>
+		<Desc>持续时间内提高修炼速度。</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_TYD111</EndModifier>
+		<LuaClassName>NP_TYDWX</LuaClassName>
+		
+	</Modifier>
+	<Modifier Name="NP_TYDS" Type="Normal">
+		<DisplayName>天眼临</DisplayName>
+		<Desc>持续时间内提高修炼速度。</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_TYD111</EndModifier>
+		<LuaClassName>NP_TYDWX</LuaClassName>
+		
+	</Modifier>
+	
+	<Modifier Name="NP_TYDH" Type="Normal">
+		<DisplayName>天眼临</DisplayName>
+		<Desc>持续时间内提高修炼速度。</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_TYD111</EndModifier>
+		<LuaClassName>NP_TYDWX</LuaClassName>
+		
+	</Modifier>
+	<Modifier Name="NP_TYDT" Type="Normal">
+		<DisplayName>天眼临</DisplayName>
+		<Desc>持续时间内提高修炼速度。</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_TYD111</EndModifier>
+		<LuaClassName>NP_TYDWX</LuaClassName>
+		
+	</Modifier>
+	<Modifier Name="NP_TYD111" Type="Normal">
+		<DisplayName>天眼副作用</DisplayName>
+		<Desc>开通天眼后，真的很累，感觉身体被掏空。</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>3000</Duration>
+		<Display>1</Display>
+		<Damages>
+			<li Part="Brain" Damage="LostSoul"/>
+		</Damages>
+	</Modifier>
+	
+	<Modifier Name="NP_LLD" Type="Normal">
+		<DisplayName>神速1</DisplayName>
+		<Desc>服用后，永久提高跑路的速度。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+
+		<Properties>
+			<li Name="WorldMapFlySpeed" AddV="5"/>
+			<li Name="WorldMapFlySpeedAddP" AddP="2.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_LLD1" Type="Normal">
+		<DisplayName>神速2</DisplayName>
+		<Desc>服用后，永久提高跑路的速度。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+
+		<Properties>
+			<li Name="WorldMapFlySpeed" AddV="10"/>
+			<li Name="WorldMapFlySpeedAddP" AddP="5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_LLD" Type="Normal">
+		<DisplayName>神速3</DisplayName>
+		<Desc>服用后，永久提高看美女洗澡的速度。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+
+		<Properties>
+			<li Name="ExperienceFindSpeedAddV" AddV="4"/>
+			<li Name="ExperiencePrestigeAddP" AddP="2"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_LLD1" Type="Normal">
+		<DisplayName>神速4</DisplayName>
+		<Desc>服用后，永久提高看美女洗澡的速度。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+
+		<Properties>
+			<li Name="ExperienceFindSpeedAddV" AddV="9"/>
+			<li Name="ExperiencePrestigeAddP" AddP="4"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="NP_CHD" Type="Normal">
+		<DisplayName>很饱1</DisplayName>
+		<Desc>服用后，永久不需要再吃饭了。。总感觉很惨。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NutritionWaterAutoRecover" AddV="2.5"/>
+			<li Name="NutritionRecoveryConstant" AddV="10"/>
+			<li Name="WaterRecoveryConstant" AddV="10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_CHD1" Type="Normal">
+		<DisplayName>很饱2</DisplayName>
+		<Desc>服用后，永久不需要再吃饭了。。总感觉很惨。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NutritionWaterAutoRecover" AddV="5"/>
+			<li Name="NutritionRecoveryConstant" AddV="20"/>
+			<li Name="WaterRecoveryConstant" AddV="20"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="NP_STW" Type="Normal">
+		<DisplayName>神医</DisplayName>
+		<Desc>服用后，只要不是脑子没了，就有救。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>3000</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="RecoveryPower" AddP="5"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_STW1" Type="Normal">
+		<DisplayName>神医1</DisplayName>
+		<Desc>服用后，只要不是脑子没了，就有救。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>3000</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="5"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_FXD" Type="Normal">
+		<DisplayName>起飞</DisplayName>
+		<Desc>服用后，五天内健步如飞。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>3000</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_FXD11</EndModifier>
+		<Properties>
+			<li Name="MoveSpeed" AddV="20"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_FXD11" Type="Normal">
+		<DisplayName>累死爹了</DisplayName>
+		<Desc>吃了飞仙丸后，虚的一批，罢工一天。工作效率极低。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>600</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="GlobalEfficiency" AddP="-0.5"/>
+			<li Name="MoveSpeed" AddP="-0.5"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="NP_CQD" Type="Normal">
+		<DisplayName>干！</DisplayName>
+		<Desc>服用后，两天时间内提高，基本工作速度100，结束后昏迷两天。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_CQD11</EndModifier>
+		<Moods>
+			<li>Mood_NP_CQD</li>
+		</Moods>
+		<Properties>
+			<li Name="BaseWorkSpeed" AddV="100"/>
+			<li Name="FatigueConsumeConstant" AddV="-100"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_CQD11" Type="Normal">
+		<DisplayName>我人裂开了。</DisplayName>
+		<Desc>一夜疯狂后，感觉身体被掏空了。。。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>600</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="FatigueConsumeConstant" AddV="5"/>
+			<li Name="NutritionConsumeConstant" AddV="5"/>
+			<li Name="WaterConsumeConstant" AddV="5"/>
+			
+		</Properties>
+		<Damages>
+			<li Part="Brain" Damage="LostSoul"/>
+		</Damages>
+	</Modifier> 
+	<Modifier Name="NP_CQD1" Type="Normal">
+		<DisplayName>努力！</DisplayName>
+		<Desc>服用后，一天时间内提高，基本工作速度25。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>600</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="BaseWorkSpeed" AddV="25"/>
+			<li Name="FatigueConsumeConstant" AddV="-100"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_CQD2" Type="Normal">
+		<DisplayName>错觉</DisplayName>
+		<Desc>服用后，还以为自己永久不需要再吃饭了。</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>3000</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_CQD21</EndModifier>
+		<Properties>
+			<li Name="FatigueConsumeConstant" AddV="-10"/>
+			<li Name="NutritionConsumeConstant" AddV="-10"/>
+			<li Name="WaterConsumeConstant" AddV="-10"/>
+			<li Name="FatigueRecoveryConstant" AddV="10"/>
+			<li Name="NutritionRecoveryConstant" AddV="10"/>
+			<li Name="WaterRecoveryConstant" AddV="10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_CQD21" Type="Normal">
+		<DisplayName>吃土。</DisplayName>
+		<Desc>感觉前几天都是吃土了。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="FatigueConsumeConstant" AddV="10"/>
+			<li Name="NutritionConsumeConstant" AddV="10"/>
+			<li Name="WaterConsumeConstant" AddV="10"/>
+			
+		</Properties>
+	</Modifier> 
+	<Modifier Name="NP_CQD3" Type="Normal">
+		<DisplayName>庸医</DisplayName>
+		<Desc>服用后，其实和服用前一样没学过治疗，但就是喜欢给人治病。。</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>6000</Duration>
+		<Display>1</Display>
+		
+		<Properties>
+			<li Name="TreatSuccessChance" AddV="1"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_CQD4" Type="Normal">
+		<DisplayName>屠夫</DisplayName>
+		<Desc>服用后，就是变身野味大师。</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>6000</Duration>
+		<Display>1</Display>
+		
+		<Properties>
+			<li Name="CookingSpeed" AddV="5"/>
+			<li Name="ButcherSpeed" AddV="5"/>
+			<li Name="ButcherYieldEfficiency" AddV="0.2"/>
+			<li Name="CookingSuccessChance" AddV="5"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_CQD5" Type="Normal">
+		<DisplayName>神农</DisplayName>
+		<Desc>服用后，就是咱们的袁农平大佬。</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>6000</Duration>
+		<Display>1</Display>
+		
+		<Properties>
+			<li Name="PlantHarvestSpeed" AddV="5"/>
+			<li Name="PlantWorkSpeed" AddV="5"/>
+			<li Name="PlantHarvestYieldEfficiency" AddV="0.2"/>
+			<li Name="CuttingSpeed" AddV="5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_CQD6" Type="Normal">
+		<DisplayName>艺术家</DisplayName>
+		<Desc>服用后，就是艺术大佬了。。</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>6000</Duration>
+		<Display>1</Display>
+		
+		<Properties>
+			<li Name="MadeQualityAddValue" AddV="12"/>
+			<li Name="HandworkSpeed" AddV="12"/>
+			<li Name="TailoringSpeed" AddV="12"/>
+			<li Name="SmithingSpeed" AddV="12"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_CQD7" Type="Normal">
+		<DisplayName>雨神</DisplayName>
+		<Desc>服用后，就是我的王妃~~~~~~夜太美~~~~。</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>6000</Duration>
+		<Display>1</Display>
+		
+		<Properties>
+			<li Name="DisasterFightingSpeed" AddV="20"/>
+			<li Name="DisasterFightingSuccessChance" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="NP_DDJ" Type="Normal">
+		<DisplayName>地心</DisplayName>
+		<Desc>服用后，提高心境基础值80.提高心境稳定程度.持续3天</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="80"/>
+			<li Name="SpeedOfMindStateCoefficient" AddV="1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_DDJ1" Type="Normal">
+		<DisplayName>石心</DisplayName>
+		<Desc>服用后，永久提高心境基础值30.提高心境稳定程度.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="30"/>
+			<li Name="SpeedOfMindStateCoefficient" AddV="0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_DDJ2" Type="Normal">
+		<DisplayName>圣心</DisplayName>
+		<Desc>服用后，10天内提高精元获得率2.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>6000</Duration>
+		<Display>1</Display>
+		
+		<Properties>
+			<li Name="NutritionToJingYuanK" AddV="2"/>
+			<li Name="PracticeFoodConsumeConstant" AddV="-1"/>
+			<li Name="PracticeFoodRecoveryConstant" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="NP_TDJ" Type="Normal">
+		<DisplayName>刑天</DisplayName>
+		<Desc>服用后，提高技能等级上限.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>
+			
+				<li Name="Fight" LevelOver="20"/><!-- 御物20 -->
+				
+				<li Name="Fabao" LevelOver="20"/><!-- 法宝 20-->
+				
+			</Skills>
+	</Modifier>
+	<Modifier Name="NP_TDJ1" Type="Normal">
+		<DisplayName>伏羲</DisplayName>
+		<Desc>服用后，提高技能等级上限.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>
+				<li Name="Medicine" LevelOver="20"/><!-- 岐黄 -->
+				<li Name="Zhen" LevelOver="20"/><!-- 阵法 20-->
+			</Skills>
+	</Modifier>
+	<Modifier Name="NP_TDJ2" Type="Normal">
+		<DisplayName>共工</DisplayName>
+		<Desc>服用后，提高技能等级上限.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>
+			
+				<li Name="Qi" LevelOver="20"/><!-- 气感 20-->
+				
+				<li Name="DanQi" LevelOver="20"/><!-- 丹器 20-->
+				
+			</Skills>
+	</Modifier>
+	<Modifier Name="NP_TDJ3" Type="Normal">
+		<DisplayName>祝融</DisplayName>
+		<Desc>服用后，提高技能等级上限.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>
+				
+				<li Name="DouFa" LevelOver="20"/><!-- 斗法 20-->
+				<li Name="FightSkill" LevelOver="20"/><!-- 术法 20-->
+				
+			</Skills>
+	</Modifier>
+	<Modifier Name="NP_TDJ4" Type="Normal">
+		<DisplayName>阎王</DisplayName>
+		<Desc>服用后，提高技能等级上限.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>
+				
+				<li Name="Manual" LevelOver="20"/><!-- 制造 -->
+				<li Name="Barrier" LevelOver="20"/><!-- 护盾 20-->
+
+			</Skills>
+	</Modifier>
+	<Modifier Name="NP_TDJ5" Type="Normal">
+		<DisplayName>玉皇</DisplayName>
+		<Desc>服用后，提高技能等级上限.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Skills>
+				<li Name="DouFa" LevelOver="30"/><!-- 斗法 20-->
+				<li Name="FightSkill" LevelOver="30"/><!-- 术法 20-->
+				<li Name="Manual" LevelOver="30"/><!-- 制造 -->
+				<li Name="Barrier" LevelOver="30"/><!-- 护盾 20-->
+				<li Name="Qi" LevelOver="30"/><!-- 气感 20-->
+				<li Name="Medicine" LevelOver="30"/><!-- 岐黄 -->
+				<li Name="Zhen" LevelOver="30"/><!-- 阵法 20-->
+				<li Name="DanQi" LevelOver="30"/><!-- 丹器 20-->
+				<li Name="Fight" LevelOver="30"/><!-- 御物20 -->
+				
+				<li Name="Fabao" LevelOver="30"/><!-- 法宝 20-->
+			</Skills>
+	</Modifier>
+	<Modifier Name="NP_DHD" Type="Normal">
+		<DisplayName>道化</DisplayName>
+		<Desc>服用后，减低300道化，提高30点天谴</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="-300"/>
+			<li Name="GodPenaltyAddV" AddV="30"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_DHD1" Type="Normal">
+		<DisplayName>道天</DisplayName>
+		<Desc>服用后，提高300道化，减低30点天谴</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="300"/>
+			<li Name="GodPenaltyAddV" AddV="-30"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="NP_DHDJ" Type="Normal">
+		<DisplayName>道天</DisplayName>
+		<Desc>服用后，减低150道化，提高15点天谴</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>NP_DHDWX</LuaClassName>
+		
+	</Modifier>
+	<Modifier Name="NP_DHDM" Type="Normal">
+		<DisplayName>道天</DisplayName>
+		<Desc>服用后，减低150道化，提高15点天谴</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>NP_DHDWX</LuaClassName>
+		
+	</Modifier>
+	<Modifier Name="NP_DHDS" Type="Normal">
+		<DisplayName>道天</DisplayName>
+		<Desc>服用后，减低150道化，提高15点天谴</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>NP_DHDWX</LuaClassName>
+		
+	</Modifier>
+	<Modifier Name="NP_DHDH" Type="Normal">
+		<DisplayName>道天</DisplayName>
+		<Desc>服用后，减低150道化，提高15点天谴</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>NP_DHDWX</LuaClassName>
+		
+	</Modifier>
+	<Modifier Name="NP_DHDT" Type="Normal">
+		<DisplayName>道天</DisplayName>
+		<Desc>服用后，减低150道化，提高15点天谴</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>NP_DHDWX</LuaClassName>
+		
+	</Modifier>
+	<Modifier Name="NP_DHD1J" Type="Normal">
+		<DisplayName>道天</DisplayName>
+		<Desc>服用后，提高150道化，减低15点天谴</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>NP_DHD1WX</LuaClassName>
+		
+	</Modifier>
+	<Modifier Name="NP_DHD1M" Type="Normal">
+		<DisplayName>道天</DisplayName>
+		<Desc>服用后，提高150道化，减低15点天谴</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>NP_DHD1WX</LuaClassName>
+		
+	</Modifier>
+	<Modifier Name="NP_DHD1S" Type="Normal">
+		<DisplayName>道天</DisplayName>
+		<Desc>服用后，提高150道化，减低15点天谴</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>NP_DHD1WX</LuaClassName>
+		
+	</Modifier>
+	<Modifier Name="NP_DHD1H" Type="Normal">
+		<DisplayName>道天</DisplayName>
+		<Desc>服用后，提高150道化，减低15点天谴</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>NP_DHD1WX</LuaClassName>
+		
+	</Modifier>
+	<Modifier Name="NP_DHD1T" Type="Normal">
+		<DisplayName>道天</DisplayName>
+		<Desc>服用后，提高150道化，减低15点天谴</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>NP_DHD1WX</LuaClassName>
+		
+	</Modifier>
+	
+	
+	<Modifier Name="NP_NPD" Type="Normal">
+		<DisplayName>涅槃</DisplayName>
+		<Desc>如凤涅槃，化作火茧（自行想象）。九十九天后，神魂归一。获得百分五百的提升。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>59400</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_NPD1</EndModifier>
+		<Damages>
+			<li Part="Brain" Damage="LostSoul"/>
+		</Damages>
+	</Modifier>
+	<Modifier Name="NP_NPD1" Type="Normal">
+		<DisplayName>涅槃</DisplayName>
+		<Desc>归一。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_NPD1</EndModifier>
+		
+	</Modifier>
+	
+	<Modifier Name="NP_TJD" Type="Normal">
+		<DisplayName>戾金</DisplayName>
+		<Desc>服用后，我就是太皇！</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>3600</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_TDD</EndModifier>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="50"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="NP_THD" Type="Normal">
+		<DisplayName>凶火</DisplayName>
+		<Desc>服用后，我就是太皇！</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>3600</Duration>
+		<Display>1</Display>
+		<EndModifier>NP_TDD</EndModifier>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="50"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="NP_TDD" Type="Normal">
+		<DisplayName>晕了</DisplayName>
+		<Desc>这比掏空还空。。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>6000</Duration>
+		<Display>1</Display>
+		<Damages>
+			<li Part="Brain" Damage="LostSoul"/>
+		</Damages>
+	</Modifier>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></ModifierDefs>

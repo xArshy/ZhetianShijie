@@ -1,0 +1,421 @@
+<Gongs><List>
+	<Gong Name="Gong_TDJ">   
+		<DisplayName>Tiandi Jing</DisplayName>
+		<Desc>Emperor Ye Tianxiong was a rough man, a heroic hero, and he overwhelmed his contemporaries. After becoming emperor, he issued the strongest voice: "I am the emperor, and I want to suppress all enemies." He chose to raise a hundred classics in a furnace, followed the path of self-cultivation, and set himself on the road to emperor himself, paving the way for the immortal. The "Tiandi Jing" is published</Desc>
+		<SelectDesc>The practice of this method is extremely difficult. There are many realms on each level and it takes a lot of time to complement the natural treasures. Hope to be careful. Do you want to choose this practice?</SelectDesc>
+		<FiveBaseNeed>9,9,6,7,0</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>None</ElementKind>
+		<Skill> <!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>chumo</li>
+			<li>jiangdao</li>
+			<li>guanding</li>
+			<li>ciqi</li>
+			<li>kaiguang</li>
+			<li>cuiti</li>
+			<li>bihu</li>
+		</Skill>
+		<Hide>1</Hide>
+		<Stages>
+			<Stage Name="Stage1" Level="3">
+				<DisplayName>Round sea</DisplayName>
+				<Desc>The first is to open up a sea of ​​bitterness-build a fountain of life-set up a bridge of God-reach the other shore.</Desc>
+				<Value>240000</Value>
+				<Necks>
+					<Neck Location="0.25" Kind="Chance">
+						<DisplayName>sea ​​of ​​bitterness</DisplayName>
+						<Desc>The endless sea of ​​suffering that covers the wheel of life. Threshold of spiritual practice. Passing will open Xiuxian Avenue.[color=#D06508]\The lower the root bone of this bottleneck, the harder it is to break through.[/color]</Desc>
+						<CostTime>200</CostTime>
+						<SuccessChange>Physique_1_1_10</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_Dan_BCY" count = "10"/>
+							<Item name="Item_SG" count = "2"/>
+						</ItemCost>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Mingquan</DisplayName>
+						<Desc>One of the purposes of spiritual practice is to fully exhaust the sea of ​​suffering and turn it into a sweet spring of life.</Desc>
+						<CostTime>200</CostTime>
+						<SuccessChange>0.2</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_SHQ" count = "2"/>
+							<Item name="Item_LingWater" count = "10"/>
+						</ItemCost>
+						<AddModifier>ZT_TDJ_LH</AddModifier>
+					</Neck>
+					<Neck Location="0.75" Kind="Chance">
+						<DisplayName>Shenqiao</DisplayName>
+						<Desc>The endless bitterness is bound to create life in the bitter sea, brewing vitality in the dullness, and casting the god bridge in the bitter sea.[color=#D06508]\The lower the root bone of this bottleneck, the harder it is to break through.[/color]</Desc>
+						<CostTime>500</CostTime>
+						<SuccessChange>Physique_1_5_25</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_SilverGrit" count = "3"/>
+							<Item name="Item_CopperGrit" count = "3"/>
+							<Item name="Item_JSXY" count = "2"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="1" Kind="Explore">
+						<DisplayName>the other side</DisplayName>
+						<Desc>Sacrifice into an overpass, find the root, and the sacred bridge arrives like a rainbow.</Desc>
+						<ExploreValue>2</ExploreValue>
+						<AddModifier>ZT_TDJ_LH</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage3" Level="6">
+			
+				<DisplayName>Mystic Palace</DisplayName>
+				<Desc>The five deities in the Dao Palace have a great connection with them, which can generate Dao power and transform birth, which is really a place to feed.</Desc>
+				<Value>1000000</Value>
+				<Necks>
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>Heart of God</DisplayName>
+						<Desc>Cultivation first cultivates the mind, the heart is strong, and the spirit is refined.[color=#D06508]\n Failure of a break may hurt you.[/color]</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_ShuiEssence" count = "1"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Huo_HeartBurn" Rate="1"/>
+							<li PartKind="Meridian" Name="Huo_BurnOfPain" Rate="0.9"/>
+						</Damages>
+						<AddModifier>ZT_TDJ_xin</AddModifier>
+					</Neck>
+					<Neck Location="0.4" Kind="Chance">
+						<DisplayName>God of the Spleen</DisplayName>
+						<Desc>The heart belongs to fire, and the spleen and stomach belong to soil. Heart yang and normal life can promote the yang of the spleen and stomach.[color=#D06508]\n Failure of a break may hurt you.[/color]</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_MuEssence" count = "1"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Mu_VitalityDevour1" Rate="1"/>
+							<li PartKind="Meridian" Name="Mu_Failure" Rate="0.9"/>
+						</Damages>
+						<AddModifier>ZT_TDJ_pi</AddModifier>
+					</Neck>
+					<Neck Location="0.6" Kind="Chance">
+						<DisplayName>The God of Lungs</DisplayName>
+						<Desc>Qi is attributed to the lungs, the lungs are directed toward the hundred veins, and the insemination is in the fur.[color=#D06508]\n Failure of a break may hurt you.[/color]</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_MuEssence" count = "1"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Jin_SwordLight1" Rate="1"/>
+							<li PartKind="Meridian" Name="Jin_SwordLight2" Rate="0.9"/>
+						</Damages>
+						<AddModifier>ZT_TDJ_fei</AddModifier>
+					</Neck>
+					<Neck Location="0.8" Kind="Chance">
+						<DisplayName>Kidney God</DisplayName>
+						<Desc>Kidney is the main water, and yang and yin are combined to maintain the body's water-liquid balance;Kidney bone,Plenty of kidney qi has firm bones and firm teeth, and the brain is full of glory.[color=#D06508]\n Failure of a break may hurt you.[/color]</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_TuEssence" count = "1"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Shui_ColdBlood1" Rate="1"/>
+							<li PartKind="Meridian" Name="Shui_ColdPoison" Rate="0.9"/>
+						</Damages>
+						<AddModifier>ZT_TDJ_shen</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>God of the liver</DisplayName>
+						<Desc>Liver is wood, liver and kidney are the same, kidney essence can nourish liver and blood.</Desc>
+						<ItemCost>
+							<Item name="Item_JinEssence" count = "2"/>
+						</ItemCost>
+						<AddModifier>Gong_Gold_TDJ</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage4" Level="9">
+				<DisplayName>Quadrupole</DisplayName>
+				<Desc>Repair inside and then outside. Repair limbs and bones.</Desc>
+				<Value>6480000</Value>
+				<Necks>
+					
+					<Neck Location="0.25" Kind="Thunder">
+						<DisplayName>Four Elephants</DisplayName>
+						<Desc>Entering the mystery for the first time, the heavens and the earth came back, and the immortal tragedy was on the lookout. .</Desc>
+						<ThunderValue>18000</ThunderValue>
+						<NeckCountdown>4900</NeckCountdown>
+						<AddModifier>Gong_Thunder1</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>Quadrupole robbery</DisplayName>
+						<Desc>Heaven and earth are incompatible,</Desc>
+						<ThunderValue>36000</ThunderValue>
+						<NeckCountdown>4900</NeckCountdown>
+						<AddModifier>Gong_Thunder_TDJ</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.75" Kind="Thunder">
+						<DisplayName>Body fall</DisplayName>
+						<Desc>Forging the god body, thunder and thunder obstructing enlightenment.</Desc>
+						<ThunderValue>35000</ThunderValue>
+						<NeckCountdown>4900</NeckCountdown>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>Dragon Dragon</DisplayName>
+						<Desc>In the self-proclaimed supernatural power, and returning to normal, Yuan Ying appeared, breaking the cage of the physical body, which is called the fairyland.[color=#D06508]\nThe higher the perception of this bottleneck, the harder it is to break through.[/color]</Desc>
+						<ThunderValue>60000</ThunderValue>
+						<NeckCountdown>4900</NeckCountdown>
+						<AddModifier>Gong_Thunder_TDJ</AddModifier>
+					</Neck>
+					
+				</Necks>
+			</Stage>	
+			
+			<Stage Name="Stage5" Level="11">
+				<DisplayName>Hualongjing</DisplayName>
+				<Desc></Desc>
+				<Value>42320000</Value>
+				<Necks>
+					
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>Changing the dragon</DisplayName>
+						<Desc>Nine Dragons of the Dragon, Nine Dragons of the Dragon, each change is a reborn change. When the Eighth Dragon of the Dragon arrives, it is the elders of each place, and the Nine Dragons of Dragon goes to Sendai.</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_Dan_HundredRefine"/>
+							<Item name="Item_LQ" count = "3"/>
+						</ItemCost>
+						<AddModifier>ZT_TDJ_HL</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.3" Kind="Chance">
+						<DisplayName>化龙二变</DisplayName>
+						<Desc>化龙九变，九变化龙，每一变都是脱胎换骨的变化，到达化龙八变即为各地的大长老，化龙九变登仙台。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_Dan_HundredRefine"/>
+							<Item name="Item_LQ" count = "3"/>
+						</ItemCost>
+					</Neck>
+					
+					<Neck Location="0.4" Kind="Chance">
+						<DisplayName>Three Changing Dragons</DisplayName>
+						<Desc>Nine Dragons of the Dragon, Nine Dragons of the Dragon, each change is a reborn change. When the Eighth Dragon of the Dragon arrives, it is the elders of each place, and the Nine Dragons of Dragon goes to Sendai.</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_Dan_HundredRefine"/>
+							<Item name="Item_LQ" count = "3"/>
+						</ItemCost>
+						<AddModifier>ZT_TDJ_HL</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>Four Changes of the Dragon</DisplayName>
+						<Desc>Nine Dragons of the Dragon, Nine Dragons of the Dragon, each change is a reborn change. When the Eighth Dragon of the Dragon arrives, it is the elders of each place, and the Nine Dragons of Dragon goes to Sendai.</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_Dan_HundredRefine"/>
+							<Item name="Item_LQ" count = "6"/>
+						</ItemCost>
+						<AddModifier>ZT_TDJ_HL</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.6" Kind="Chance">
+						<DisplayName>化龙五变</DisplayName>
+						<Desc>化龙九变，九变化龙，每一变都是脱胎换骨的变化，到达化龙八变即为各地的大长老，化龙九变登仙台。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_Dan_HundredRefine"/>
+							<Item name="Item_LQ" count = "6"/>
+						</ItemCost>
+						<AddModifier>ZT_TDJ_HL</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.7" Kind="Chance">
+						<DisplayName>Six Dragons</DisplayName>
+						<Desc>Nine Dragons of the Dragon, Nine Dragons of the Dragon, each change is a reborn change. When the Eighth Dragon of the Dragon arrives, it is the elders of each place, and the Nine Dragons of Dragon goes to Sendai.</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_Dan_HundredRefine"/>
+							<Item name="Item_LQ" count = "6"/>
+						</ItemCost>
+						<AddModifier>ZT_TDJ_HL</AddModifier>
+					</Neck>
+					
+					
+					<Neck Location="0.8" Kind="Chance">
+						<DisplayName>Seven Dragon Changes</DisplayName>
+						<Desc>Nine Dragons of the Dragon, Nine Dragons of the Dragon, each change is a reborn change. When the Eighth Dragon of the Dragon arrives, it is the elders of each place, and the Nine Dragons of Dragon goes to Sendai.</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_Dan_HundredRefine"/>
+							<Item name="Item_LQ" count = "9"/>
+						</ItemCost>
+					</Neck>
+					
+					<Neck Location="0.9" Kind="Chance">
+						<DisplayName>Eight Dragon Changes</DisplayName>
+						<Desc>Nine Dragons of the Dragon, Nine Dragons of the Dragon, each change is a reborn change. When the Eighth Dragon of the Dragon arrives, it is the elders of each place, and the Nine Dragons of Dragon goes to Sendai.</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_Dan_HundredRefine"/>
+							<Item name="Item_LQ" count = "9"/>
+						</ItemCost>
+					</Neck>
+					
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>Nine Dragons</DisplayName>
+						<Desc>Nine Dragons of the Dragon, Nine Dragons of the Dragon, each change is a reborn change. When the Eighth Dragon of the Dragon arrives, it is the elders of each place, and the Nine Dragons of Dragon goes to Sendai.</Desc>
+						<ThunderValue>300000</ThunderValue>
+						<NeckCountdown>4900</NeckCountdown>
+						<AddModifier>Gong_Thunder_TDJ</AddModifier>
+					</Neck>
+					
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage6" Level="12">
+				<DisplayName>Sendai</DisplayName>
+				<Desc>Standing on Sendai, Chengxian is in sight. It takes a long time.</Desc>
+				<Value>676000000</Value>
+				<Necks>
+					<Neck Location="0.1" Kind="Chance">
+						<DisplayName>Half step</DisplayName>
+						<Desc>The elders in the holy land or the deserted ancient family are on the first step, that is, the elders who are at the top.[color=#D06508]\n After this bottleneck fails, you need to return to the previous state and break through again.[/color]</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.05</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="67600000"/>
+						</ResourceCost>
+						<AddModifier>ZT_TDJ_XT</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>Power</DisplayName>
+						<Desc>The level of the lord or some of the great religions, and the level of the lord of Zhongzhou.[color=#D06508]\n After this bottleneck fails, you need to return to the previous state and break through again.[/color]</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.05</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="67600000"/>
+						</ResourceCost>
+						<AddModifier>ZT_TDJ_XT</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.3" Kind="Thunder">
+						<DisplayName>King</DisplayName>
+						<Desc>Xiansan beheaded, beheaded against his own avenue.</Desc>
+						<ThunderValue>5280000</ThunderValue>
+						<NeckCountdown>9900</NeckCountdown>
+						<AddModifier>Gong_Thunder_TDJ</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.4" Kind="Chance">
+						<DisplayName>Half holy</DisplayName>
+						<Desc>Existing beyond the ranks of the Kings is also the current combat power of our protagonist.[color=#D06508]\n After this bottleneck fails, you need to return to the previous state and break through again.[/color]</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.01</SuccessChange>
+						<FailedChangeAdd>0.04</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="67600000"/>
+						</ResourceCost>
+						<AddModifier>ZT_TDJ_XT</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>saint</DisplayName>
+						<Desc>It is also a sage, a saint, and the ancient one is added to the ancient one.[color=#D06508]\nAfter this bottleneck fails, you need to return to the previous state and break through again.[/color]</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.01</SuccessChange>
+						<FailedChangeAdd>0.04</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="67600000"/>
+						</ResourceCost>
+						<AddModifier>ZT_TDJ_XT</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.6" Kind="Chance">
+						<DisplayName>圣人王</DisplayName>
+						<Desc>As the name implies, the king among saints.[color=#D06508]\nAfter this bottleneck fails, you need to return to the previous state and break through again.[/color]</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.01</SuccessChange>
+						<FailedChangeAdd>0.04</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="67600000"/>
+						</ResourceCost>
+						<AddModifier>ZT_TDJ_XT</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.7" Kind="Chance">
+						<DisplayName>大圣</DisplayName>
+						<Desc>斗战胜佛，浑拓，卫易，老疯子和老太婆，盖九幽，乾仑，人魔  等等..[color=#D06508]\n此瓶颈失败后，需回到上一个境界再次突破。[/color]</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.01</SuccessChange>
+						<FailedChangeAdd>0.04</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="67600000"/>
+						</ResourceCost>
+						<AddModifier>ZT_TDJ_XT</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.8" Kind="Chance">
+						<DisplayName>准帝</DisplayName>
+						<Desc>一念之间，世间万物无不为之战栗。[color=#D06508]\n此瓶颈失败后，需回到上一个境界再次突破。[/color]</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.01</SuccessChange>
+						<FailedChangeAdd>0.04</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="67600000"/>
+						</ResourceCost>
+						<AddModifier>ZT_TDJ_XT</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.9" Kind="Chance">
+						<DisplayName>大帝</DisplayName>
+						<Desc>如神祗一般，莅临人间，所到之处，万族顶礼膜拜。[color=#D06508]\n此瓶颈失败后，需回到上一个境界再次突破。[/color]</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.005</SuccessChange>
+						<FailedChangeAdd>0.005</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="67600000"/>
+						</ResourceCost>
+						<AddModifier>ZT_TDJ_XT</AddModifier>
+					</Neck>
+					
+					<Neck Location="1" Kind="God">
+						<DisplayName>红尘仙</DisplayName>
+						<Desc>天地间反噬到来，度过劫难仙途在望，反之灰飞烟灭。</Desc>
+						<ThunderValue>100000000</ThunderValue>
+						<NeckCountdown>9000</NeckCountdown>
+						<AddModifier>ZT_TDJ_ZD</AddModifier>
+					</Neck>
+					
+				</Necks>
+			</Stage>
+			
+		</Stages>
+	</Gong>
+</List></Gongs>

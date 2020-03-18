@@ -1,0 +1,205 @@
+<Stories><List>
+	
+	<Story Name="ZT_TCGK"  Parent="BaseFillingStory">
+		<DisplayName>Taichu Ancient Mine</DisplayName>
+		<Desc>[PLACE]Recently, it seems that some strange treasures have appeared, so quickly go and see if you can still encounter the wild emperor.</Desc>
+		<Selections>
+			<li>
+				<Display>Taichu ancient mine, if you want to go in, you have to carry it with an old knife.</Display>
+
+				<Tip>You have to have at least quadrupole and a little luck.</Tip>
+				<OKResult>
+				<![CDATA[	
+				local nR = me:GetPhysique(1,9) 
+				local nX = me:GetPerception(1,9)
+				local nb = me:GetCharisma(1,9)
+				local na = me:GetIntelligence(1,9)
+				local nd = me:GetLuck(1,9)
+				if nR <= 8 then
+					me:AddMsg("As the old knife came to the edge of Taikoo Mine, a black hair whirlwind was blowing at this moment,[NAME]I felt a strong and terrifying breath in the whirlwind. However, I was too poor in constitution and suffered some injuries, so I had to escape.");me:AddDamageRandomPart(5,"LingSpillsInjury",me:RandomFloat(0,4),XT("走火入魔"));story:FinishSecret();
+				elseif world:GetWorldFlag(501) < world.DayCount + 20 then
+					me:AddMsg("[NAME]His physique is not bad. He has a strong body, carrying a black whirlwind, reaching out and grabbing. He actually touched a piece of gold and slipped away.");
+					world:SetWorldFlag(501,world.DayCount);me:DropAwardItem("Item_DJHJ",1);story:FinishSecret();
+				else 
+					me:AddMsg("[NAME]I remember you were here twenty days ago, why are you here again?");me:TriggerStory("ZT_TCGK");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Fire dragon grave.</Display>
+
+				<Tip>It's dangerous, easy to die, and equally rewarding.</Tip>
+				<OKResult>
+				<![CDATA[	
+				local nR = me:GetPhysique(1,9) 
+				local nX = me:GetPerception(1,9)
+				local nb = me:GetCharisma(1,9)
+				local na = me:GetIntelligence(1,9)
+				local nd = me:GetLuck(1,9)
+				if nX <= 8 then
+					me:AddMsg("There must be a divine source in the fire dragon grave! ,but[NAME]The ability to perceive is really touching. I didn't feel anything but I was hurt by the dragon spirit of the fire dragon grave.");me:AddDamage("VisceralRupture","Heart",6,XT("法术轰击"));story:FinishSecret();
+				elseif world:GetWorldFlag(502) < world.DayCount + 20 then
+					me:AddMsg("[NAME]At the annex of the Fire Dragon Grave, I kept watching, and with the strength and super strong perception, I actually found a piece of purple gold.");
+					world:SetWorldFlag(502,world.DayCount);me:DropAwardItem("Item_SHZJ",1);me:DropAwardItem("Item_HSXSY",1);story:FinishSecret();
+				else
+					me:AddMsg("[NAME]I remember you were here twenty days ago, why are you here again?");me:TriggerStory("ZT_TCGK");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Dragon Blood.</Display>
+				<Tip>It's dangerous, easy to die, and equally rewarding.</Tip>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+				local nR = me:GetPhysique(1,9) 
+				local nX = me:GetPerception(1,9)
+				local nb = me:GetCharisma(1,9)
+				local na = me:GetIntelligence(1,9)
+				local nd = me:GetLuck(1,9)
+				if nb <= 8 then
+					me:AddMsg("[NAME]All the way came safely, the attachment of the dragon's blood was found on the Xiaotupo, and the dragon's blood was actually combined with the fire dragon grave to steal the heavenly work. In time, a huge mighty power[NAME]Rush here,[NAME]Suddenly he went into trouble and was dead.");me:AddDamageRandomPart(5,"LingSpillsInjury",me:RandomFloat(0,6),XT("走火入魔"));story:FinishSecret();
+				elseif world:GetWorldFlag(503) < world.DayCount + 20 then
+					me:AddMsg("[NAME]When he came to the blood of the dragon, he happened to be in the most dangerous time of day and night. But okay[NAME]With his handsome appearance, he escaped a disaster and stumbled on a dragon pattern and black gold.");
+					world:SetWorldFlag(503,world.DayCount);me:DropAwardItem("Item_LWHJ",1);story:FinishSecret();
+				else
+					me:AddMsg("[NAME]I remember you were here twenty days ago, why are you here again?");me:TriggerStory("ZT_TCGK");
+				end
+				]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>Fallen Ridge.</Display>
+				<Tip>It's dangerous, easy to die, and equally rewarding.</Tip>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+				local nR = me:GetPhysique(1,9) 
+				local nX = me:GetPerception(1,9)
+				local nb = me:GetCharisma(1,9)
+				local na = me:GetIntelligence(1,9)
+				local nd = me:GetLuck(1,9)
+				if na <= 8 and me:GetSkillLevel("FightSkill") <= 20 then
+					me:AddMsg("[NAME]In the legendary Sunset Ridge, which was born by the Son of Heaven, the sun is magnificent,[NAME]Attracted by a mysterious fairy music, he walked forward unconsciously. When he was awakened, the Fallen Ridge was only 100 meters away.[NAME]Hurrying to run, but still hurt.");me:AddDamageRandomPart(5,"LingSpillsInjury",me:RandomFloat(0,6),XT("走火入魔"));story:FinishSecret();
+				elseif world:GetWorldFlag(504) < world.DayCount + 20 then
+					me:AddMsg("[NAME]Near the Fallen Ridge, while lamenting the horror of the restricted area, he found that the surface of a stone was flashing with a masculine atmosphere, and he couldn't help but move with conviction. He flew forward and was actually a piece of phoenix blood and gold left by the former emperor.");
+					world:SetWorldFlag(504,world.DayCount);me:DropAwardItem("Item_HXCJ",1);story:FinishSecret();
+				else
+					me:AddMsg("[NAME]I remember you were here twenty days ago, why are you here again?");me:TriggerStory("ZT_TCGK");
+				end
+				]]>
+				</OKResult>
+			</li>
+				<li>
+				<Display>Chiyue Cave.</Display>
+				<Tip>It's dangerous, easy to die, and equally rewarding.</Tip>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+				local nR = me:GetPhysique(1,9) 
+				local nX = me:GetPerception(1,9)
+				local nb = me:GetCharisma(1,9)
+				local na = me:GetIntelligence(1,9)
+				local nd = me:GetLuck(1,9)
+				if na <= 8 and me:GetSkillLevel("Barrier") <= 20 then
+					me:AddMsg("[NAME]Chiyue Cave was discovered next to Pori Ridge,[NAME]I do n’t know what ’s going crazy, but I want to see it. The world is so big, it wo n’t die, so[NAME]Almost died.");me:AddDamageRandomPart(5,"LingSpillsInjury",me:RandomFloat(0,6),XT("Get into the magic"));story:FinishSecret();
+				elseif world:GetWorldFlag(507) < world.DayCount + 20 then
+					me:AddMsg("[NAME]Counting the Chiyue Caves, the timing of the reiki's outburst. At the end of the eruption, they rushed into the Chiyue Caves, and fortunately got a piece of feathered gold, and almost everyone became feathered.");
+					world:SetWorldFlag(507,world.DayCount);me:DropAwardItem("Item_YHQJ",1);story:FinishSecret();
+				else
+					me:AddMsg("[NAME]I remember you were here twenty days ago, why are you here again?");me:TriggerStory("ZT_TCGK");
+				end
+				]]>
+				</OKResult>
+			</li>
+			
+			
+			
+			<li>
+				<Display>Too early mysterious fog.</Display>
+				<Tip>It's dangerous, easy to die, and equally rewarding.</Tip>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+				local nR = me:GetPhysique(1,9) 
+				local nX = me:GetPerception(1,9)
+				local nb = me:GetCharisma(1,9)
+				local na = me:GetIntelligence(1,9)
+				local nd = me:GetLuck(1,9)
+				if na <= 8 and me:GetSkillLevel("Zhen") <= 20 then
+					me:AddMsg("[NAME]I came to Taichu Ancient Mine from another way, walked, trembled while admiring the magic of nature,[NAME]Suddenly found that I was already in the mist, I couldn't hold my heart under the turmoil, was attacked by a monster in the mist, was injured, and fled.");me:AddSchoolRelation(story.School,-500);me:AddSchoolScore(1,-200);me:AddDamage("Destroy", "RightEye", 1, XT("酷刑"));me:AddDamage("Destroy","LeftEye", 1, XT("酷刑"));me:AddDamage("Fabao_CutOff","LeftScapula", 1, XT("法宝重击"));me:AddDamage("Fabao_CutOff","RightScapula", 1, XT("法宝重击"));me:AddDamage("Fabao_CutOff","LeftThighbone", 1, XT("法宝重击"));me:AddDamage("Fabao_CutOff","RightThighbone", 1, XT("法宝重击"));story:FinishSecret();
+					
+				elseif world:GetWorldFlag(505) < world.DayCount + 20 and me:GetSkillLevel("Zhen") >= 16 then
+					me:AddMsg("[NAME]In the fog, don't panic, pick up the stones around you, and start to pose in an array that the head doesn't know.[NAME]By changing the source of the heavens, he successfully broke through the mist and obtained a piece of eternal blue gold.");
+					world:SetWorldFlag(505,world.DayCount);me:DropAwardItem("Item_YHLJ",1);story:FinishSecret();
+				else
+					me:AddMsg("[NAME]I remember you were here twenty days ago, why are you here again?");me:TriggerStory("ZT_TCGK");
+				end
+				]]>
+				</OKResult>
+			</li>
+			
+			
+			
+			<li>
+				<Display>Scarlet plain.</Display>
+				<Tip>It's dangerous, easy to die, and equally rewarding.</Tip>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+				local nR = me:GetPhysique(1,9) 
+				local nX = me:GetPerception(1,9)
+				local nb = me:GetCharisma(1,9)
+				local na = me:GetIntelligence(1,9)
+				local nd = me:GetLuck(1,9)
+				if na <= 8 and me:GetSkillLevel("Fabao") <= 20 then
+					me:AddMsg("[NAME]There were many twists and turns along the way, but fortunately still unscathed, you can leave this forbidden area after spending the bloody plain ahead.[NAME]When I looked at it from a distance, I saw a corpse. A terrifying breath erupted inside the body");me:AddDamageRandomPart(5,"LingSpillsInjury",me:RandomFloat(0,6),XT("走火入魔"));story:FinishSecret();
+				elseif world:GetWorldFlag(506) < world.DayCount + 20 then
+					me:AddMsg("[NAME]Walking into the Scarlet Plain, I saw a corpse from a distance, but[NAME]I did n’t rush to lick the bag. I observed the following four weeks and it was legendary."Reversal"[NAME]After a flash of light was found out of the corpse, the magical hand was empty, and it was pulled out to see that it was fairy green gold, but[NAME]It was too late for Ding Qing to look at it and left in a hurry.");
+					world:SetWorldFlag(507,world.DayCount);me:DropAwardItem("Item_XLLJ",1);story:FinishSecret();
+				else
+					me:AddMsg("[NAME]I remember you were here twenty days ago, why are you here again?");me:TriggerStory("ZT_TCGK");
+				end
+				
+				]]>
+				
+				</OKResult>
+			</li>
+			<li>
+				<Display>Shenyuan Waterfall.</Display>
+				<Tip>It's dangerous, easy to die, and equally rewarding.</Tip>
+				<OKResult>
+				<![CDATA[	
+				story:RemoveBindItem();
+				local nR = me:GetPhysique(1,9) 
+				local nX = me:GetPerception(1,9)
+				local nb = me:GetCharisma(1,9)
+				local na = me:GetIntelligence(1,9)
+				local nd = me:GetLuck(1,9)
+				if nd <= 8 and nR <= 8 and nX <= 8 and nb <= 8 and na <= 8 and nb <=8 then
+					me:AddMsg("[NAME]Life and death along the way, escaped a lot of difficulties, and finally came to Shenyuan Waterfall, less than a hundred meters ahead, but at this time, a red hair creature rushed out at the rear, each one Comparable to the power of a saint[NAME]Kicked up like a ball.");me:AddSchoolRelation(story.School,-500);me:AddSchoolScore(1,-200);me:AddDamage("Destroy", "RightEye", 1, XT("酷刑"));me:AddDamage("Destroy","LeftEye", 1, XT("酷刑"));me:AddDamage("Fabao_CutOff","LeftScapula", 1, XT("法宝重击"));me:AddDamage("Fabao_CutOff","RightScapula", 1, XT("法宝重击"));me:AddDamage("Fabao_CutOff","LeftThighbone", 1, XT("法宝重击"));me:AddDamage("Fabao_CutOff","RightThighbone", 1, XT("法宝重击"));
+					
+				elseif world:GetWorldFlag(508) < world.DayCount + 20 and me:GetSkillLevel("Medicine") >= 20 then
+					me:AddMsg("[NAME]The luck this time was, I was shocked to heaven, and came to Shenyuan Waterfall without any danger along the way.[NAME]Obtained 10 non-property god sources from the waterfall.");
+					me:DropAwardItem("Item_WSXSY",10);story:FinishSecret();
+				else
+					me:AddMsg("[NAME]I remember you were here twenty days ago, why are you here again?");me:TriggerStory("ZT_TCGK");
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Forget it, I don't want to be part of the source.</Display>
+				<OKResult><![CDATA[	
+				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
+				]]>
+				</OKResult>
+			</li>
+			
+		</Selections>
+	</Story>
+	
+</List></Stories>

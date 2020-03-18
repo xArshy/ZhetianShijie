@@ -1,0 +1,29 @@
+<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="HuoBase" Parent="ItemBase">   
+
+
+	  
+
+	<Beauty>36</Beauty>   
+	<MaxHitPoints>6200</MaxHitPoints>  
+	<ElementKind>Huo</ElementKind>   
+	<Flammability>   
+		<Flammability>0</Flammability>   
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   
+	</Flammability>
+	
+	
+	<Element>
+		<Kind>Huo</Kind>   
+		<Value>12</Value>         
+		<Radius>3</Radius>    
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	
+	</ThingDef>
+
+</List></ThingDefs>

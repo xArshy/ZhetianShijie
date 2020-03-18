@@ -1,0 +1,422 @@
+<Esotericas><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Esoterica Name="Gong_TTMG_1">
+		<DisplayName>吞天魔功</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TTMG\TTMG.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>出生时不如凡体，后来自创《吞天魔功》吞噬诸多王体，第一世不如凡体的体质证道成帝</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n各减五维一点\n加灵力最大值3000\n习得神通：搜魂大法、冥灵真法和天妖化血术。[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_1_A</Modifier>
+		<Magics>
+			<li>SeachSoul</li>
+			<li>AbsorbLing_Live</li>
+			<li>AbsorbLing_Body</li>
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Gong_TTMG_1_1">
+		<DisplayName>吞天魔功</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TTMG\TTMG.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>出生时不如凡体，后来自创《吞天魔功》吞噬诸多王体，第一世不如凡体的体质证道成帝</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n各减五维一点\n加个人回灵2\n习得神通：元央归息法、魂体寄生和九幽炼神大法[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_1_B</Modifier>
+		<Magics>
+			<li>AbsorbGong_3_Gong11</li>
+			<li>AbsorbGong_3</li>
+			<li>AbsorbGong_6</li>
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Gong_TTMG_1_2">
+		<DisplayName>吞天魔功</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TTMG\TTMG.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>出生时不如凡体，后来自创《吞天魔功》吞噬诸多王体，第一世不如凡体的体质证道成帝</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n各减五维一点\n加心境\n习得神通：吞天[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_1_C</Modifier>
+		<Magics>
+			<li>TTMG_1_3</li>
+		</Magics>
+	</Esoterica>
+	
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Esoterica Name="Gong_TTMG_2">
+		<DisplayName>吞噬本源</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TTMG\TCBY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>吞天魔功，除了因为强力而受到天下人的恐惧，其次就是他能够通过吞噬他人的本源而成就混沌体质。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n各减五维一点\n加术法威力5\n习得圣兵：大道宝瓶。[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_2_A</Modifier>
+		<Fabaos>
+			<li>TTMG_DDBP</li>
+		</Fabaos>
+	</Esoterica>
+	<Esoterica Name="Gong_TTMG_2_1">
+		<DisplayName>吞噬本源</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TTMG\TCBY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>出生时不如凡体，后来自创《吞天魔功》吞噬诸多王体，第一世不如凡体的体质证道成帝</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n各减五维一点\n加法宝威力5\n习得神通：吞噬本源和凡体化臻[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_2_B</Modifier>
+		<Magics>
+			<li>TTMG_2_1</li>
+			<li>TTMG_2_2</li>
+		</Magics>
+	</Esoterica>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Esoterica Name="Gong_TTMG_3">
+		<DisplayName>万化圣诀</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TTMG\WHSJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>此圣术傲视古今，威力强绝，举世无双，可化尽天下秘法，将一切惊世奇术化为凡俗，故有万化之称，举世无双，可怕到极致。。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\n各减五维两点\n提升基础灵气最大值4\n提高基础灵气恢复速度60\n习得秘术：万化圣诀（万化圣诀打中敌人后可以造成80秒时间的缴械（减对手法宝威力至0，持续80s）[/color][/size][/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_3</Modifier>
+		<Skills>
+			<li>TTMG_WHSJ</li>
+		</Skills>
+	</Esoterica>
+	
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Esoterica Name="Gong_TTMG_4">
+		<DisplayName>化立魔胎</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TTMG\HLMT.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>以魔功铸就魔胎，立无上凶威。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Tu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    \n各减五维一点\n提高各技能等级上限5级[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_4_A</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_TTMG_4_1">
+		<DisplayName>化立魔胎</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TTMG\HLMT.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>以魔功铸就魔胎，立无上凶威。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]    \n各减五维一点\n加法宝灵力最大值4\n加法宝回灵倍率2[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_4_B</Modifier>
+	</Esoterica>
+	
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="Gong_TTMG_5">
+		<DisplayName>斩我明道诀</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TTMG\ZWMD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>他就是蜕掉魔体，诞生出一个新的神胎来，又活了一世。斩我明道，顾名思义，斩逝去的我，以心明道，超脱现在的我，证道未来，明见我心。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508] \n减十点五维属性\n加寿命3000\n加护盾值\n习得神通：明道\n习得秘术：斩我明道诀(沉默对方单体修士250s)[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_5</Modifier>
+		<Magics>
+			<li>TTMG_5_1</li>
+		</Magics>
+		<Skills>
+			<li>TTMG_ZWMDJ</li>
+		</Skills>
+	</Esoterica>
+	
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="Gong_TTMG_6">
+		<DisplayName>不灭天功</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TTMG\BMTG.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>为吞天大帝，晚年创《不灭天功》，蜕去魔胎，如蠕化蝶一样，从老体中破茧而出，蜕出一个神胎，斩断过去因果。化生混沌体。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n各减五维一点\n减低术法消耗值0.25\n习得神通：摄神御鬼大法、如意幻境和鼎炉吸真术。[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_6_A</Modifier>
+		<Magics>
+			<li>AbsorbGong_3</li>
+			<li>AbsorbGong_2_Gong7</li>
+			<li>AbsorbGong_1</li>
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Gong_TTMG_6_1">
+		<DisplayName>不灭天功</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TTMG\BMTG.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>为吞天大帝，晚年创《不灭天功》，蜕去魔胎，如蠕化蝶一样，从老体中破茧而出，蜕出一个神胎，斩断过去因果。化生混沌体。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n各减五维一点\n加五行减伤值0.4\n习得神通：玉清定境和不灭幻境（吸收不同体质获得不同技能等级上限提高）[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_6_B</Modifier>
+		<Magics>
+			<li>ClosedDoor_Gong4</li>
+			<li>TTMG_6_2</li>
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Gong_TTMG_6_2">
+		<DisplayName>不灭天功</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TTMG\BMTG.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>为吞天大帝，晚年创《不灭天功》，蜕去魔胎，如蠕化蝶一样，从老体中破茧而出，蜕出一个神胎，斩断过去因果。化生混沌体。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n各减五维一点\n减低术法冷却0.3\n习得神通：不死不灭[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_6_C</Modifier>
+		<Magics>
+			<li>TTMG_6_3</li>
+		</Magics>
+	</Esoterica>
+	
+	
+	<!-- ==========================分割线========================== -->
+	
+	<Esoterica Name="Gong_TTMG_7">
+		<DisplayName>度神诀</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TTMG\DSJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>号称可度尽世间诸王，越是天赋高的人所受影响越大。度神诀，并不控制神识，而是从本源着手，让一个人真心的拜服门下，这近乎妖邪。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Huo</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]     \n各减五维一点\n法宝数量1\n习得神通：赋灵术、御灵术和心印诀[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_7_A</Modifier>
+		<Magics>
+			<li>BuidPuppet</li>
+			<li>MakePuppet</li>
+			<li>XinYinJue</li>
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Gong_TTMG_7_1">
+		<DisplayName>度神诀</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TTMG\DSJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>号称可度尽世间诸王，越是天赋高的人所受影响越大。度神诀，并不控制神识，而是从本源着手，让一个人真心的拜服门下，这近乎妖邪。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]    \n各减五维一点\n提高法宝击退加成4\n习得神通：天魔舞、五刻神印和灵魂拷问[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_7_B</Modifier>
+		<Magics>
+			<li>TianMoWu</li>
+			<li>WuYinKeShen</li>
+			<li>LinghunKaowen</li>
+		</Magics>
+	</Esoterica>
+	
+		<!-- ==========================分割线========================== -->
+	
+	<Esoterica Name="Gong_TTMG_8">
+		<DisplayName>吞天魔盖</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TTMG\TTMG.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>这是一口魔罐，散发着让日月星辰都在颤栗的气机，垂落下一缕又一缕乌光，压塌万古诸天，惊破十方英雄胆.罐体朴实，宛若陶制，上面的一些刻痕具有优美的线条，若一个少女挺秀之仙躯烙印在上，散发着让古来无数盖世英杰都恐惧的波动。吞天魔罐！</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\n习得圣兵：吞天魔盖[/color][/size]</EffectDesc>
+		<Fabaos>
+			<li>TTMG_TTMG</li>
+		</Fabaos>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_TTMG_8_1">
+		<DisplayName>吞天魔碗</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TTMG\TTMG.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>这是一口魔罐，散发着让日月星辰都在颤栗的气机，垂落下一缕又一缕乌光，压塌万古诸天，惊破十方英雄胆.罐体朴实，宛若陶制，上面的一些刻痕具有优美的线条，若一个少女挺秀之仙躯烙印在上，散发着让古来无数盖世英杰都恐惧的波动。吞天魔罐！</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\n习得圣兵：吞天魔碗\n提高炼器等级十级\n提高炼器等级十级上限[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_8_A</Modifier>
+		<Fabaos>
+			<li>TTMG_TTMW</li>
+		</Fabaos>
+	</Esoterica>
+	
+	<!-- ==========================分割线========================== -->	
+		
+	<Esoterica Name="Gong_TTMG_9">
+		<DisplayName>一念花开</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TTMG\YNHK.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>施展时，一朵又一朵仙葩绽放，片片晶莹，纷纷舞舞，每一个都可化成真身，一念花开，君临天下，道尽其神韵，配合"万化圣诀"共同展出，端的是恐怖绝伦。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]\n各减五维一点\n加个人灵气4\n加个人回灵3\n习得秘术：一念花开[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_9_A</Modifier>
+		<Skills>
+				<li>TTMG_YNHK</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="Gong_TTMG_9_1">
+		<DisplayName>君临天下</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TTMG\JLTX.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>施展时，一朵又一朵仙葩绽放，片片晶莹，纷纷舞舞，每一个都可化成真身，一念花开，君临天下，道尽其神韵，配合"万化圣诀"共同展出，端的是恐怖绝伦。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508] \n各减五维一点\n加法术冷却时间0.2\n加术法等级上限十级\n习得秘术：君临天下[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_9_B</Modifier>
+		<Skills>
+				<li>TTMG_JLTX</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_TTMG_10">
+		<DisplayName>吞天魔罐</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TTMG\TTMGAI.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>这是一口魔罐，散发着让日月星辰都在颤栗的气机，垂落下一缕又一缕乌光，压塌万古诸天，惊破十方英雄胆.罐体朴实，宛若陶制，上面的一些刻痕具有优美的线条，若一个少女挺秀之仙躯烙印在上，散发着让古来无数盖世英杰都恐惧的波动。吞天魔罐！</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\n习得圣兵：吞天魔罐\n加成法宝威力4\n加成法宝灵力值2\n加成法宝恢复倍率3[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_10_A</Modifier>
+		<Fabaos>
+			<li>TTMG_TTMG1</li>
+		</Fabaos>
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_TTMG_11">
+		<DisplayName>九大秘术</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TTMG\JDMS.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>狠人大帝，开创的对抗九秘的无上神术。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n各减五维一点\n习得秘术：万盾皆融（给予对方负增益10倍护盾加成）\n习得秘术：万器皆吞（给予对方负增益10倍法宝威力）\n习得秘术：万法皆吞（给予对方负增益10倍术法威力）。[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_6_A</Modifier>
+		<Skills>
+				<li>TTMG_JR</li>
+				<li>TTMG_JT</li>
+				<li>TTMG_JF</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="Gong_TTMG_12">
+		<DisplayName>九大秘术</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TTMG\JDMS.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>狠人大帝，开创的对抗九秘的无上神术</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n各减五维一点\n习得神通：噬器本源\n习得秘术：万法皆灵\n习得秘术：万化天分（给予己方全体5000回灵20s）\n加五行减伤值[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_11_B</Modifier>
+		<Magics>
+			<li>TTMG_11_2</li>
+		</Magics>
+		<Skills>
+				<li>TTMG_JH</li>
+				<li>TTMG_WH</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="Gong_TTMG_13">
+		<DisplayName>九大秘术</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TTMG\JDMS.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>狠人大帝，开创的对抗九秘的无上神术</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n各减五维一点\n习得神通：万法皆噬\n习得秘术：飞仙诀（单体爆发，可永久取消敌方一件法宝。）\n习得秘术：撒星辰成兵（永久沉默一名敌人。）[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_11_C</Modifier>
+		<Magics>
+			<li>TTMG_11_3</li>
+		</Magics>
+		<Skills>
+				<li>TTMG_FXJ</li>
+				<li>TTMG_SXC</li>
+		</Skills>
+	</Esoterica>
+	
+	
+	
+	<Esoterica Name="Gong_TTMG_14">
+		<DisplayName>笑脸鬼面</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TTMG\XLGM.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>狠人大帝的一生伴随着争议，却也充满了传奇，一生的近仙经历还有逆天之举难以尽数,只在那似哭似笑的鬼脸后留下无尽的回忆。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\n习得圣兵：笑脸鬼面[/color][/size]</EffectDesc>
+		<Fabaos>
+			<li>TTMG_XLGM</li>
+		</Fabaos>
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_TTMG_15">
+		<DisplayName>红尘仙</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TTMG\ZT_TDJ_ZD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>100</Difficulty>
+		<Desc>红尘成仙，只为等你归来。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\n加寿元和加回灵倍率\n加三十道元神分神\n加炉鼎\n加神器成功率\n加术法威力和加法宝威力[/color][/size]</EffectDesc>
+		<Modifier>Gong_TTMG_15_A</Modifier>
+		<GodSoulCount>30</GodSoulCount>
+	</Esoterica>
+	
+	
+	
+	
+</List></Esotericas>

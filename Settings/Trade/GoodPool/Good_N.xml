@@ -1,0 +1,30 @@
+<Defs><List>	
+	<Def Name="ZTMPN">
+		<Item CountName="Normal">
+			<ItemName>Item_BoarMeat</ItemName>
+		</Item>
+		<Item CountName="Normal">
+			<ItemName>Item_MonsterBlood</ItemName>
+		</Item>
+		<Item CountName="Normal">
+			<ItemName>Item_GanodermaLucidum</ItemName>
+		</Item>
+		<Item CountName="Normal">
+			<ItemName>Item_Marble</ItemName>
+		</Item>
+		<Item CountName="Normal">
+			<ItemName>Item_JadeEssence</ItemName>
+		</Item>
+		<Item CountName="Normal">
+			<ItemName>Item_CopperRock</ItemName>
+		</Item>
+		<Item CountName="Normal">
+			<ItemName>Item_JadeEssence</ItemName>
+		</Item>
+		<Item CountName="Normal">
+			<ItemName>Item_Ginseng</ItemName>
+		</Item>
+	</Def>
+	
+	
+</List></Defs>

@@ -1,0 +1,496 @@
+<Esotericas><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Esoterica Name="Gong_DJ_A1">
+		<DisplayName>Tao Jing</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_DJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Road, but also non-permanent road.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    One Heavy Sky \nAdding Rootbone1 \nPlus Divinity1 \nPlus Potential2 \nLearning Supernatural: Bitter Sea Waves[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_1A</Modifier>
+		<Magics>
+			<li>KHBT</li>
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Gong_DJ_A1_1">
+		<DisplayName>Tao Jing</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_DJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>First name</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]Double Sky \nAdds an array load of 20 \nIncreases the maximum array skill level by 10[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_1A_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJ_A1_2">
+		<DisplayName>Tao Jing</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_DJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>"Yes", the mother of all things. Therefore, often "nothing", want to see its wonderful; often "yes", want to see its magpie. The two are different from each other and have the same meaning. Mysterious and mysterious, the gate of all mysteries.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    Triple Sky \nPlus Spirit Power 1500 \nPlus Practice Speed ​​1 \nPlus Mind State 50[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_1A_2</Modifier>
+	</Esoterica>
+	
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Esoterica Name="Gong_DJ_A2">
+		<DisplayName>German classics</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_DJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Everyone in the world knows beauty is beauty, and Sri Lanka is evil.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    Yitiantian \nPlus five-dimensional attributes \nAdd furnace value 1500 \nLearn magic: Feng Shui[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_2A</Modifier>
+		<Magics>
+			<li>FengshuiItemCreate</li>
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Gong_DJ_A2_1">
+		<DisplayName>German classics</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_ZDJ_DJ\ZT_DJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>It is known that good is good, but Sri Lanka is not good.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]    Double Sky \nDecrease Heaven's Condemnation -15 \nAdd Personal Reiki1000 \nAdd Personal Resurrection 2[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_2A_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJ_A2_2">
+		<DisplayName>German classics</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_DJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>Therefore, there is no symbiosis, it is difficult and easy to match, the length is compared, the height is tilted, the treble is phased, and the phase follows.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508] Triple Sky \nplus potential \nplus life 800 \nplus state of mind[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_2A_2</Modifier>
+	</Esoterica>
+	
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Esoterica Name="Gong_DJ_B1">
+		<DisplayName>Taking the book as the essence</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJ\YBWJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Focus on your inner feelings and look at your heart.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nIncrease Momentum Base Value \nDecrease Spell Cooldown \nIncrease Spell Damage[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_1B</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_DJ_B1_1">
+		<DisplayName>Take things as rough</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJ\YBWJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>How can things outside the body bother people?</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nIncrease magic power 6 \nIncrease magic power 3 \nDecrease mana cost[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_1B_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJ_B1_2">
+		<DisplayName>Take product as insufficient</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJ\YBWJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>How can things outside the body bother people?</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nAcquired Magical Powers: Zhou Tian's Divine Calculation \nAcquired Magical Powers: Orogeny \nAcquired Magical Powers: Spirit Rhino Charm[/color][/size]</EffectDesc>
+		<Magics>
+			<li>LingXiZhou</li>
+			<li>BuildMine</li>
+			<li>Prophesy</li>
+		</Magics>
+	</Esoterica>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Esoterica Name="Gong_DJ_B2">
+		<DisplayName>Often</DisplayName>
+		<Icon>Spr\Object\JN\ZT_DJ\DCY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>What is Tao? Three thousand avenues are on earth.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508] Yizhongtian \nPlus furnace value 2000 \nPlus opportunity 2 \nAdding treasure regain ratio 3[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_2B</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJ_B2_1">
+		<DisplayName>Dao Changwu</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJ\DCW.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>What is the word, but there are no words.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508] Double Sky \nGas Sea Level Limit 8 \nAdditional scale 3 \nAdditional load 32[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_2B_1</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="Gong_DJ_B3">
+		<DisplayName>Do nothing</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJ\WW.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Have a clear conscience and be true to the world.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]  Yitiantian \nDecrease the speed of practice \nAdd the success rate of alchemy \nAdd the success rate of alchemy \nAdd the speed of alchemy \nAdd the speed of alchemist \nLearn the secret: inaction[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_3B</Modifier>
+		<Skills>
+			<li>ZT_DJ_WW</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="Gong_DJ_B3_1">
+		<DisplayName>Do not speak</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJ\WW.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>As the Tao, the Tao needs no words.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]  Double Sky \nReduce practice speed \nAdd alchemy output \nPlus alchemy level \nAdd refiner level \nAdd refiner level \nLearn the secret: speak (reduce the opponent's 3x magic power for 60s )[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_3B_1</Modifier>
+		<Skills>
+			<li>ZT_DJ_BY</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="Gong_DJ_C1">
+		<DisplayName>Moriichi</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJ\SY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>Baoyuan Shouyi found the root.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nAddition skill level 6 \nUpper formation skill limit 6 \n Learned formation: several [/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_1C</Modifier>
+		<ZhenNodes>
+			<li>bamen_0</li>
+			<li>bamen_1</li>
+			<li>bamen_2</li>
+			<li>bamen_3</li>
+			<li>bamen_4</li>
+			<li>bamen_5</li>
+			<li>bamen_6</li>
+			<li>bamen_7</li>
+			<li>wushan_0</li>
+			<li>wushan_1</li>
+			<li>wushan_2</li>
+			<li>wushan_3</li>
+			<li>wushan_4</li>
+			<li>ZhenNode_Lv0_1_1</li>
+			<li>ZhenNode_Lv0_2_1</li>
+			<li>ZhenNode_Lv0_2_2</li>
+			<li>ZhenNode_Lv0_2_3</li>
+			<li>ZhenNode_Lv0_3_1</li>
+			<li>ZhenNode_Lv0_3_2</li>
+			<li>ZhenNode_Lv0_3_3</li>
+			<li>ZhenNode_Lv0_3_4</li>
+		</ZhenNodes>
+	</Esoterica>
+	<Esoterica Name="Gong_DJ_C1_1">
+		<DisplayName>Xin Qi</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJ\SY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>The heart is right, the only one.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nLearned formations: several first-order formations [/color][/size]</EffectDesc>
+		<ZhenNodes>
+			<li>ZhenMainNode_Lv1_3_2</li>
+			<li>ZhenMainNode_Lv1_3_3</li>
+			<li>ZhenMainNode_Lv1_3_4</li>
+			<li>ZhenMainNode_Lv1_3_5</li>
+			<li>ZhenMainNode_Lv1_3_6</li>
+			<li>ZhenMainNode_Lv1_3_7</li>
+			<li>ZhenMainNode_Lv1_3_8</li>
+			<li>ZhenMainNode_Lv1_3_9</li>
+			<li>ZhenMainNode_Lv1_3_10</li>
+			<li>ZhenMainNode_Lv1_3_11</li>
+			<li>ZhenMainNode_Lv1_3_12</li>
+			<li>ZhenMainNode_Lv1_3_13</li>
+			<li>ZhenMainNode_Lv1_3_14</li>
+			<li>ZhenMainNode_Lv1_3_15</li>
+			<li>ZhenMainNode_Lv1_3_16</li>
+			<li>ZhenMainNode_Lv1_4_1</li>
+			<li>ZhenMainNode_Lv1_4_2</li>
+			<li>ZhenMainNode_Lv1_4_3</li>
+			<li>ZhenMainNode_Lv1_4_4</li>
+			<li>ZhenMainNode_Lv1_4_5</li>
+			<li>ZhenMainNode_Lv1_4_6</li>
+			<li>ZhenMainNode_Lv1_4_7</li>
+			<li>ZhenMainNode_Lv1_4_8</li>
+			<li>ZhenMainNode_Lv1_4_9</li>
+			<li>ZhenMainNode_Lv1_4_10</li>
+			<li>ZhenMainNode_Lv1_4_11</li>
+			<li>ZhenMainNode_Lv1_4_12</li>
+		</ZhenNodes>
+	</Esoterica>
+	<Esoterica Name="Gong_DJ_C1_2">
+		<DisplayName>Sit and forget</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJ\SY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>The heart is right, the only one.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nBreakthrough the Limit of Matrix 6 [/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_1C_2</Modifier>
+	</Esoterica>
+	<!-- ==========================分割线========================== -->
+	
+	<Esoterica Name="Gong_DJ_SJ_C2_YQ">
+		<DisplayName>Tianqing</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_TG.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>San Qingzhi "Three talents" are heaven, personality, geography. The so-called three talents are genius, talent, and land talent</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nLearn Mystery: \n Heaven[/color][/size]</EffectDesc>
+		<Skills>
+			<li>TDJ_SJ_SQ_TQ</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_DJ_SJ_C1_YQ_1">
+		<DisplayName>Geography</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_DG.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>San Qingzhi "Three talents" are heavenly personality, personality and geography. The so-called three talents are genius, talent, and land talent</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nLearn Mystery: \nDiqing[/color][/size]</EffectDesc>
+		<Skills>
+			<li>TDJ_SJ_SQ_DQ</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_DJ_SJ_C1_YQ_2">
+		<DisplayName>Talent</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_Rc.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>三清指"三才"为天格、人格、地格。所谓三才，即天才、人才、地才</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]nLearn Mystery: \nTalent[/color][/size]</EffectDesc>
+		<Skills>
+			<li>TDJ_SJ_SQ_Rc</li>
+		</Skills>
+	</Esoterica>
+	
+		
+	<Esoterica Name="Gong_DJ_C3">
+		<DisplayName>Desire to be soft</DisplayName>
+		<Icon>Spr\Object\JN\ZT_DJ\ZQZR.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Like a baby, carefree and focused</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    \nPlus practice speed 2 \nAdd matrix method to meet 40 \nPlus personal return 4[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_3C</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJ_C3_1">
+		<DisplayName>Remove</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_TJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>I live in a pure place to observe time and everything.</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]   \nAdding Spell Power 6 \nAdding Spell Power 6 \nAdding Spell Size 2[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_3C_1</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_DJ_HL_D1">
+		<DisplayName>Legally</DisplayName>
+		<Icon>Spr\Object\JN\ZT_DJ\RFD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>People receive the grace of the earth, and their behavior should imitate the earth.</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]   Magic Land \nPlus Aura Recovery Speed ​​2 \nPlus Aura Maximum 4 \nAdd Magical Knockback Resistance 5[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_HL_1D</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJ_HL_D1_1">
+		<DisplayName>Difatian</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJ\RFD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>The earth is covered by the sky, so the earth operates in accordance with the laws of the sky.</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    Law days \nDecrease the condemnation value 40 \nDecrease Dao 50 \nDecrease spell cooldown by 0.25[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_HL_1D_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJ_HL_D1_2">
+		<DisplayName>Heaven law</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJ\RFD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>The Tao is a conversion of the sky, so the heavens follow the path of the Tao and endlessly.</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]   Methodology \nAdd the number of magic treasures 1 \nAdd the maximum magic power of magic 2 \nAcquisition: \n 道 韵 natural[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_HL_1D_2</Modifier>
+		<Skills>
+			<li>DJ_DYZR</li>
+		</Skills>
+		<GodSoulCount>30</GodSoulCount>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_DJ_HL_D2">
+		<DisplayName>Ming Dao Jin Shu</DisplayName>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_DJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>One tripod, two ears, three feet. Tao born one, two born three, two born three, and three born all things.</Desc>
+		<GLevel>God</GLevel>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]  Embryo \nPlus refiner success rate \nPlus refiner speed \nPlus artifact success rate[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_HL_2D</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJ_HL_D2_1">
+		<DisplayName>Ming Dao Jin Shu</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_DJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>One leaf of gold book cuts three immortals!</Desc>
+		<GLevel>God2</GLevel>
+		<EffectDesc>[size=10][color=#D06508]   Ding Cheng \nRefiner quality bonus \nRefinement artifact probability \nLearned[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_HL_2D_1</Modifier>
+		<Fabaos>
+			<li>ZT_DJ_MDJS</li>
+		</Fabaos>
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_DJ_HL_YY">
+		<DisplayName>Negative yin yang</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJ\YY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>Embracing yin and yang, Lu Shou real body.</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nLearn Mystery: \nNegative Yin Huo Yang[/color][/size]</EffectDesc>
+		<Skills>
+			<li>ZT_DJ_YY</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_DJ_XT_F1">
+		<DisplayName>Loud sound</DisplayName>
+		<Icon>Spr\Object\JN\ZT_DJ\DYXS.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>The loudest sound is silent.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]   One Heavy Sky \nAdd Reiki Aura Recovery Speed ​​3 \nAdd Reiki Recovery 4 \nIncrease Matrix Skill Level Up to Level 20[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_XT_1F</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJ_XT_F1_1">
+		<DisplayName>Elephant invisible</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJ\DYXS.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>The biggest image is no sign.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]   Double Sky \nPlus Shield Strength 1.5 \nPlus Shield Coefficient 2.5 \nMaximum Spirit Power 4[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_XT_1F_1</Modifier>
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_DJ_WEBZ">
+		<DisplayName>For nothing</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJ\WEBZ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>25</Difficulty>
+		<Desc>There is something to be done without dispute.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nLearn Mystery: \nDo not fight[/color][/size]</EffectDesc>
+		<Skills>
+			<li>ZT_BZ</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_DJ_XT_ZD">
+		<DisplayName>Red Dust Fairy</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_ZD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>100</Difficulty>
+		<Desc>Red dust becomes immortal, and the world is proved.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\nJia Shou Yuan and Ling Hui Multiplier \nPlus Thirty Primal Distractions \nPlus Furnace Ding \nPlus Artifact Success Rate \nAdditional Power and Addition Power[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJ_XT_DZ</Modifier>
+		<GodSoulCount>30</GodSoulCount>
+	</Esoterica>
+	
+	
+	
+	
+</List></Esotericas>

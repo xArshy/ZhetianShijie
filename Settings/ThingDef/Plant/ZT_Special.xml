@@ -1,0 +1,692 @@
+<ThingDefs><List>
+<ThingDef Type="Plant" Name="MSXZW" Parent="PlantBase">
+	
+	<ThingName>Jianmu Shenshu</ThingName>
+	<MaxStack>1</MaxStack>
+	
+	<TexPath>Spr\Object\Plant\MSXZW.PNG</TexPath>
+	
+	<Desc>Plants containing all kinds of woody herbs. Need to be between -20 and 60 degrees for normal growth, the growth cycle is 64 days</Desc>
+	<SelectAble>1</SelectAble>
+	<VisualAble>1</VisualAble>
+	<Beauty>3</Beauty>
+	<Rate>12</Rate>	
+	<UseHitPoints>0</UseHitPoints>
+	<MaxHitPoints>100</MaxHitPoints>
+	<Flammability>   燃烧性
+		<Flammability>1</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>60</BurningPoint>   燃点
+	</Flammability>
+	<Plant>
+		<WildClusterSizeRangemin>0</WildClusterSizeRangemin>
+		<WildClusterSizeRangemax>0</WildClusterSizeRangemax>
+		<WildClusterRadius>0</WildClusterRadius>
+		<DeciduousLeafInAutumn>0</DeciduousLeafInAutumn>
+		<RipedTexPath>Spr\Object\Plant\MSXZW.PNG</RipedTexPath>
+		<HarvestedTexPath>Spr\Object\Plant\MSXZW.PNG</HarvestedTexPath>
+		<LeaflessTexPath></LeaflessTexPath>   
+		<SnowedTexPath></SnowedTexPath>
+		<VisualSizeMin>0.2</VisualSizeMin>
+		<VisualSizeMax>1</VisualSizeMax>
+		
+		<SowWork>60</SowWork>
+		<SowRenderTags>plant</SowRenderTags>
+		<LifespanFraction>6000</LifespanFraction>
+		<GrowDays>64</GrowDays>
+		<HarvestDays>4</HarvestDays>
+		<RestBegin>19</RestBegin>
+		<RestEnd>4</RestEnd>
+		<WitherAble>0</WitherAble>
+		
+		
+		<TempMin>-20</TempMin>
+		<TempMax>60</TempMax>
+		<LingMin>25</LingMin>
+		<LingMax>10000</LingMax>
+		<FertilityMin>1</FertilityMin>
+		<FertilityMax>3</FertilityMax>
+		<GrowGlowMin>0</GrowGlowMin>
+		<GrowGlowMax>80</GrowGlowMax>	
+		
+		
+		<SnowRenderData>
+			<x>3.1</x>
+			<y>3.6</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Plant>
+	<Harvest>
+		<HarvestWork>300</HarvestWork>    
+		<DropWork>50</DropWork>      		
+		<HarvestValueMin>1</HarvestValueMin>  
+		<HarvestFailable>1</HarvestFailable>  
+		    
+		<HarvestTag>
+			<li>Harvest</li>
+		</HarvestTag> 
+		
+		<HarvestItems>
+			<li>
+				<ThingDef>Item_GJZ</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ZWX</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SXM</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_HYC</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JY</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+		</HarvestItems>
+	</Harvest>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>2</Value>         
+		<Radius>2</Radius>
+		<Failing>0.7</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0.7</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>6</Accommodate>
+	</Ling>
+</ThingDef>
+
+<ThingDef Type="Plant" Name="WSXZW" Parent="PlantBase">
+	
+	<ThingName>Tianlang Shenhua</ThingName>
+	<MaxStack>1</MaxStack>
+	
+	<TexPath>Spr\Object\Plant\WSXZW.PNG</TexPath>
+	
+	<Desc>Contains all kinds of non-property herbs. Need to be between -50 and 50 degrees for normal growth, the growth cycle is 64 days</Desc>
+	<SelectAble>1</SelectAble>
+	<VisualAble>1</VisualAble>
+	<Beauty>3</Beauty>
+	<Rate>12</Rate>	
+	<UseHitPoints>0</UseHitPoints>
+	<MaxHitPoints>100</MaxHitPoints>
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		
+	</Flammability>
+	<Plant>
+		<WildClusterSizeRangemin>0</WildClusterSizeRangemin>
+		<WildClusterSizeRangemax>0</WildClusterSizeRangemax>
+		<WildClusterRadius>0</WildClusterRadius>
+		<DeciduousLeafInAutumn>0</DeciduousLeafInAutumn>
+		<RipedTexPath>Spr\Object\Plant\WSXZW.PNG</RipedTexPath>
+		<HarvestedTexPath>Spr\Object\Plant\WSXZW.PNG</HarvestedTexPath>
+		<LeaflessTexPath></LeaflessTexPath>   
+		<SnowedTexPath></SnowedTexPath>
+		<VisualSizeMin>0.2</VisualSizeMin>
+		<VisualSizeMax>1</VisualSizeMax>
+		
+		<SowWork>60</SowWork>
+		<SowRenderTags>plant</SowRenderTags>
+		<LifespanFraction>6000</LifespanFraction>
+		<GrowDays>64</GrowDays>
+		<HarvestDays>4</HarvestDays>
+		<RestBegin>19</RestBegin>
+		<RestEnd>4</RestEnd>
+		<WitherAble>0</WitherAble>
+		
+		
+		<TempMin>-50</TempMin>
+		<TempMax>50</TempMax>
+		<LingMin>200</LingMin>
+		<LingMax>10000</LingMax>
+		<FertilityMin>1</FertilityMin>
+		<FertilityMax>3</FertilityMax>
+		<GrowGlowMin>0</GrowGlowMin>
+		<GrowGlowMax>80</GrowGlowMax>	
+		
+		
+		<SnowRenderData>
+			<x>3.1</x>
+			<y>3.6</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Plant>
+	<Harvest>
+		<HarvestWork>300</HarvestWork>    
+		<DropWork>50</DropWork>      		
+		<HarvestValueMin>1</HarvestValueMin>  
+		<HarvestFailable>1</HarvestFailable>  
+		    
+		<HarvestTag>
+			<li>Harvest</li>
+		</HarvestTag> 
+		
+		<HarvestItems>
+			<li>
+				<ThingDef>Item_AL</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>	
+			<li>
+				<ThingDef>Item_YYC</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SYC</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SYC</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JMY</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SMG</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+		</HarvestItems>
+	</Harvest>
+	<Element>
+		<Kind>Chaos</Kind>
+		<Value>2</Value>         
+		<Radius>2</Radius>
+		<Failing>0.7</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0.7</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>6</Accommodate>
+	</Ling>
+</ThingDef>
+
+<ThingDef Type="Plant" Name="JSXZW" Parent="PlantBase">
+	
+	<ThingName>Gold Velvet</ThingName>
+	<MaxStack>1</MaxStack>
+	
+	<TexPath>Spr\Object\Plant\JSXZW.PNG</TexPath>
+	
+	<Desc>Plants containing all kinds of metallic herbs. Need to be between -150 and 0 degrees for normal growth, the growth period is 64 days</Desc>
+	<SelectAble>1</SelectAble>
+	<VisualAble>1</VisualAble>
+	<Beauty>3</Beauty>
+	<Rate>12</Rate>	
+	<UseHitPoints>0</UseHitPoints>
+	<MaxHitPoints>100</MaxHitPoints>
+	<Flammability>   燃烧性
+		<Flammability>0.5</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>800</BurningPoint>   燃点
+	</Flammability>
+	<Plant>
+		<WildClusterSizeRangemin>0</WildClusterSizeRangemin>
+		<WildClusterSizeRangemax>0</WildClusterSizeRangemax>
+		<WildClusterRadius>0</WildClusterRadius>
+		<DeciduousLeafInAutumn>0</DeciduousLeafInAutumn>
+		<RipedTexPath>Spr\Object\Plant\JSXZW.PNG</RipedTexPath>
+		<HarvestedTexPath>Spr\Object\Plant\JSXZW.PNG</HarvestedTexPath>
+		<LeaflessTexPath></LeaflessTexPath>   
+		<SnowedTexPath></SnowedTexPath>
+		<VisualSizeMin>0.2</VisualSizeMin>
+		<VisualSizeMax>1</VisualSizeMax>
+		
+		<SowWork>60</SowWork>
+		<SowRenderTags>plant</SowRenderTags>
+		<LifespanFraction>6000</LifespanFraction>
+		<GrowDays>64</GrowDays>
+		<HarvestDays>4</HarvestDays>
+		<RestBegin>19</RestBegin>
+		<RestEnd>4</RestEnd>
+		<WitherAble>0</WitherAble>
+		
+		
+		<TempMin>-150</TempMin>
+		<TempMax>0</TempMax>
+		<LingMin>100</LingMin>
+		<LingMax>10000</LingMax>
+		<FertilityMin>1</FertilityMin>
+		<FertilityMax>3</FertilityMax>
+		<GrowGlowMin>0</GrowGlowMin>
+		<GrowGlowMax>80</GrowGlowMax>	
+		
+		
+		<SnowRenderData>
+			<x>3.1</x>
+			<y>3.6</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Plant>
+	<Harvest>
+		<HarvestWork>300</HarvestWork>    
+		<DropWork>50</DropWork>      		
+		<HarvestValueMin>1</HarvestValueMin>  
+		<HarvestFailable>1</HarvestFailable>  
+		    
+		<HarvestTag>
+			<li>Harvest</li>
+		</HarvestTag> 
+		
+		<HarvestItems>
+			<li>
+				<ThingDef>Item_JC</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>	
+			<li>
+				<ThingDef>Item_SJG</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SLS</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_DCC</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TSZG</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+		</HarvestItems>
+	</Harvest>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>2</Value>         
+		<Radius>2</Radius>
+		<Failing>0.7</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0.7</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>6</Accommodate>
+	</Ling>
+</ThingDef>
+
+<ThingDef Type="Plant" Name="SSXZW" Parent="PlantBase">
+	
+	<ThingName>Beiling Snow Lotus</ThingName>
+	<MaxStack>1</MaxStack>
+	
+	<TexPath>Spr\Object\Plant\SSXZW.PNG</TexPath>
+	
+	<Desc>Plants containing all kinds of herbs with water properties. Need to be between -240 and -250 degrees for normal growth, the growth cycle is 64 days</Desc>
+	<SelectAble>1</SelectAble>
+	<VisualAble>1</VisualAble>
+	<Beauty>3</Beauty>
+	<Rate>12</Rate>	
+	<UseHitPoints>0</UseHitPoints>
+	<MaxHitPoints>100</MaxHitPoints>
+	<Flammability>   燃烧性
+		<Flammability>1</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>1</BurningPoint>   燃点
+	</Flammability>
+	<Plant>
+		<WildClusterSizeRangemin>0</WildClusterSizeRangemin>
+		<WildClusterSizeRangemax>0</WildClusterSizeRangemax>
+		<WildClusterRadius>0</WildClusterRadius>
+		<DeciduousLeafInAutumn>0</DeciduousLeafInAutumn>
+		<RipedTexPath>Spr\Object\Plant\SSXZW.PNG</RipedTexPath>
+		<HarvestedTexPath>Spr\Object\Plant\SSXZW.PNG</HarvestedTexPath>
+		<LeaflessTexPath></LeaflessTexPath>   
+		<SnowedTexPath></SnowedTexPath>
+		<VisualSizeMin>0.2</VisualSizeMin>
+		<VisualSizeMax>1</VisualSizeMax>
+		
+		<SowWork>60</SowWork>
+		<SowRenderTags>plant</SowRenderTags>
+		<LifespanFraction>6000</LifespanFraction>
+		<GrowDays>64</GrowDays>
+		<HarvestDays>4</HarvestDays>
+		<RestBegin>19</RestBegin>
+		<RestEnd>4</RestEnd>
+		<WitherAble>0</WitherAble>
+		
+		
+		<TempMin>-250</TempMin>
+		<TempMax>-240</TempMax>
+		<LingMin>100</LingMin>
+		<LingMax>10000</LingMax>
+		<FertilityMin>1</FertilityMin>
+		<FertilityMax>3</FertilityMax>
+		<GrowGlowMin>0</GrowGlowMin>
+		<GrowGlowMax>80</GrowGlowMax>	
+		
+		
+		<SnowRenderData>
+			<x>3.1</x>
+			<y>3.6</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Plant>
+	<Harvest>
+		<HarvestWork>300</HarvestWork>    
+		<DropWork>50</DropWork>      		
+		<HarvestValueMin>1</HarvestValueMin>  
+		<HarvestFailable>1</HarvestFailable>  
+		    
+		<HarvestTag>
+			<li>Harvest</li>
+		</HarvestTag> 
+		
+		<HarvestItems>
+			<li>
+				<ThingDef>Item_YMY</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>	
+			<li>
+				<ThingDef>Item_JHZ</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_LYC</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_LYBX</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_LHY</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+		</HarvestItems>
+	</Harvest>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>2</Value>         
+		<Radius>2</Radius>
+		<Failing>0.7</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0.7</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>6</Accommodate>
+	</Ling>
+</ThingDef>
+<ThingDef Type="Plant" Name="HSXZW" Parent="PlantBase">
+	
+	<ThingName>Hibiscus tree</ThingName>
+	<MaxStack>1</MaxStack>
+	
+	<TexPath>Spr\Object\Plant\HSXZW.PNG</TexPath>
+	
+	<Desc>Plants containing all kinds of fire-type herbs. Need to be between 300 and 600 degrees for normal growth, the growth cycle is 64 days</Desc>
+	<SelectAble>1</SelectAble>
+	<VisualAble>1</VisualAble>
+	<Beauty>3</Beauty>
+	<Rate>12</Rate>	
+	<UseHitPoints>0</UseHitPoints>
+	<MaxHitPoints>100</MaxHitPoints>
+	<Flammability>   燃烧性
+		<Flammability>0.2</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>100000</BurningPoint>   燃点
+	</Flammability>
+	<Plant>
+		<WildClusterSizeRangemin>0</WildClusterSizeRangemin>
+		<WildClusterSizeRangemax>0</WildClusterSizeRangemax>
+		<WildClusterRadius>0</WildClusterRadius>
+		<DeciduousLeafInAutumn>0</DeciduousLeafInAutumn>
+		<RipedTexPath>Spr\Object\Plant\HSXZW.PNG</RipedTexPath>
+		<HarvestedTexPath>Spr\Object\Plant\HSXZW.PNG</HarvestedTexPath>
+		<LeaflessTexPath></LeaflessTexPath>   
+		<SnowedTexPath></SnowedTexPath>
+		<VisualSizeMin>0.2</VisualSizeMin>
+		<VisualSizeMax>1</VisualSizeMax>
+		
+		<SowWork>60</SowWork>
+		<SowRenderTags>plant</SowRenderTags>
+		<LifespanFraction>6000</LifespanFraction>
+		<GrowDays>48</GrowDays>
+		<HarvestDays>4</HarvestDays>
+		<RestBegin>19</RestBegin>
+		<RestEnd>4</RestEnd>
+		<WitherAble>0</WitherAble>
+		
+		
+		<TempMin>300</TempMin>
+		<TempMax>600</TempMax>
+		<LingMin>100</LingMin>
+		<LingMax>10000</LingMax>
+		<FertilityMin>1</FertilityMin>
+		<FertilityMax>3</FertilityMax>
+		<GrowGlowMin>0</GrowGlowMin>
+		<GrowGlowMax>80</GrowGlowMax>	
+		
+		
+		<SnowRenderData>
+			<x>3.1</x>
+			<y>3.6</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Plant>
+	<Harvest>
+		<HarvestWork>300</HarvestWork>    
+		<DropWork>50</DropWork>      		
+		<HarvestValueMin>1</HarvestValueMin>  
+		<HarvestFailable>1</HarvestFailable>  
+		    
+		<HarvestTag>
+			<li>Harvest</li>
+		</HarvestTag> 
+		
+		<HarvestItems>
+			<li>
+				<ThingDef>Item_HYY</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>	
+			<li>
+				<ThingDef>Item_CL</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_FXC</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_XYC</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+						<li>
+				<ThingDef>Item_FXY</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+		</HarvestItems>
+	</Harvest>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>2</Value>         
+		<Radius>2</Radius>
+		<Failing>0.7</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0.7</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>6</Accommodate>
+	</Ling>
+</ThingDef>
+<ThingDef Type="Plant" Name="TSXZW" Parent="PlantBase">
+	
+	<ThingName>Roots of Shirasawa</ThingName>
+	<MaxStack>1</MaxStack>
+	
+	<TexPath>Spr\Object\Plant\TSXZW.PNG</TexPath>
+	
+	<Desc>Plants containing all kinds of herbs with various soil properties. Need to be between -10 and 10 degrees for normal growth, the growth cycle is 64 days</Desc>
+	<SelectAble>1</SelectAble>
+	<VisualAble>1</VisualAble>
+	<Beauty>3</Beauty>
+	<Rate>12</Rate>	
+	<UseHitPoints>0</UseHitPoints>
+	<MaxHitPoints>100</MaxHitPoints>
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		
+	</Flammability>
+	<Plant>
+		<WildClusterSizeRangemin>0</WildClusterSizeRangemin>
+		<WildClusterSizeRangemax>0</WildClusterSizeRangemax>
+		<WildClusterRadius>0</WildClusterRadius>
+		<DeciduousLeafInAutumn>0</DeciduousLeafInAutumn>
+		<RipedTexPath>Spr\Object\Plant\TSXZW.PNG</RipedTexPath>
+		<HarvestedTexPath>Spr\Object\Plant\TSXZW.PNG</HarvestedTexPath>
+		<LeaflessTexPath></LeaflessTexPath>   
+		<SnowedTexPath></SnowedTexPath>
+		<VisualSizeMin>0.2</VisualSizeMin>
+		<VisualSizeMax>1</VisualSizeMax>
+		
+		<SowWork>60</SowWork>
+		<SowRenderTags>plant</SowRenderTags>
+		<LifespanFraction>6000</LifespanFraction>
+		<GrowDays>48</GrowDays>
+		<HarvestDays>4</HarvestDays>
+		<RestBegin>19</RestBegin>
+		<RestEnd>4</RestEnd>
+		<WitherAble>0</WitherAble>
+		
+		
+		<TempMin>-10</TempMin>
+		<TempMax>10</TempMax>
+		<LingMin>100</LingMin>
+		<LingMax>10000</LingMax>
+		<FertilityMin>1</FertilityMin>
+		<FertilityMax>3</FertilityMax>
+		<GrowGlowMin>0</GrowGlowMin>
+		<GrowGlowMax>80</GrowGlowMax>	
+		
+		
+		<SnowRenderData>
+			<x>3.1</x>
+			<y>3.6</y>
+			<z>1</z>
+		</SnowRenderData>
+	</Plant>
+	<Harvest>
+		<HarvestWork>300</HarvestWork>    
+		<DropWork>50</DropWork>      		
+		<HarvestValueMin>1</HarvestValueMin>  
+		<HarvestFailable>1</HarvestFailable>  
+		    
+		<HarvestTag>
+			<li>Harvest</li>
+		</HarvestTag> 
+		
+		<HarvestItems>
+			<li>
+				<ThingDef>Item_LX</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>	
+			<li>
+				<ThingDef>Item_YS</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_HG</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ZRH</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_CBS</ThingDef>
+				<Count>2</Count>
+				<Rate>0.2</Rate>
+			</li>
+		</HarvestItems>
+	</Harvest>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>2</Value>         
+		<Radius>2</Radius>
+		<Failing>0.7</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0.7</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>6</Accommodate>
+	</Ling>
+</ThingDef>
+
+
+</List></ThingDefs>

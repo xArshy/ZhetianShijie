@@ -1,0 +1,117 @@
+<MainList><List>
+
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="生产"   CMDType="Build" Name="SYYJ"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="生产"   CMDType="Build" Name="SBFMaker"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="生产"   CMDType="Build" Name="SBFMaker1"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="生产"   CMDType="Build" Name="QZMaker"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="生产"   CMDType="Build" Name="TGMaker"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="生产"   CMDType="Build" Name="WDBSS"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="生产"   CMDType="Build" Name="MP"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="生产"   CMDType="Build" Name="LRY"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="生产"   CMDType="Build" Name="ZTQKJ1"/>
+	
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="强"   CMDType="Build" Name="ZT_Wall"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="强"   CMDType="Build" Name="Door_men"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="强"   CMDType="Build" Name="HDBed"/>
+	
+	
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="练功点"   CMDType="Build" Name="LGD1"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="练功点"   CMDType="Build" Name="LGD2"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="练功点"   CMDType="Build" Name="LGD3"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="练功点"   CMDType="Build" Name="LGD4"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="练功点"   CMDType="Build" Name="LGD5"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="练功点"   CMDType="Build" Name="LGD6"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="练功点"   CMDType="Build" Name="LGD7"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="练功点"   CMDType="Build" Name="LGD8"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="练功点"   CMDType="Build" Name="LGD9"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="练功点"   CMDType="Build" Name="LGD10"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="练功点"   CMDType="Build" Name="LGD11"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="练功点"   CMDType="Build" Name="LGD12"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="练功点"   CMDType="Build" Name="LGD13"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="练功点"   CMDType="Build" Name="LGD14"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="练功点"   CMDType="Build" Name="LGD15"/>
+	
+	
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="剑阵"   CMDType="Build" Name="ZTJZ1"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="剑阵"   CMDType="Build" Name="ZTJZ2"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="剑阵"   CMDType="Build" Name="ZTJZ3"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="剑阵"   CMDType="Build" Name="ZTJZ4"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="剑阵"   CMDType="Build" Name="ZTJZ5"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="剑阵"   CMDType="Build" Name="ZTJZ6"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="剑阵"   CMDType="Build" Name="ZTJZ7"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="剑阵"   CMDType="Build" Name="ZTJZ8"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="剑阵"   CMDType="Build" Name="ZTJZ9"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="剑阵"   CMDType="Build" Name="ZTJZ10"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="剑阵"   CMDType="Build" Name="ZTJZ11"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="剑阵"   CMDType="Build" Name="ZTJZ12"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="剑阵"   CMDType="Build" Name="ZTJZ13"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="剑阵"   CMDType="Build" Name="ZTJZ14"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天"   Label="剑阵"   CMDType="Build" Name="ZTJZ15"/>
+	
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="灯饰"   CMDType="Build" Name="DS1"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="灯饰"   CMDType="Build" Name="DS2"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="灯饰"   CMDType="Build" Name="DS3"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="灯饰"   CMDType="Build" Name="DS4"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="灯饰"   CMDType="Build" Name="DS5"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="灯饰"   CMDType="Build" Name="DS6"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="灯饰"   CMDType="Build" Name="DS7"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="灯饰"   CMDType="Build" Name="DS8"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="灯饰"   CMDType="Build" Name="DS9"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="灯饰"   CMDType="Build" Name="DS10"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="灯饰"   CMDType="Build" Name="DS11"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="灯饰"   CMDType="Build" Name="DS12"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="灯饰"   CMDType="Build" Name="DS13"/>
+	
+	
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="雕塑"   CMDType="Build" Name="SX1"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="雕塑"   CMDType="Build" Name="SX2"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="雕塑"   CMDType="Build" Name="SX3"/>
+	
+	
+	
+	
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="置物台"   CMDType="Build" Name="ZTZWT"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="置物台"   CMDType="Build" Name="ZTZWT1"/>
+	
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="门派"   CMDType="Build" Name="ZTLDL"/>
+
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW1"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW2"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW3"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW4"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW5"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW6"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW7"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW8"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW9"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW10"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW11"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW12"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW13"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW14"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW15"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW16"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW17"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW18"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW19"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW20"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW21"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW22"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW23"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW24"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW25"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW26"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW27"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW28"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW29"/>
+	<Data Kind="Builds" Unlock="0" Type="遮天装饰品"   Label="额外道纹"   CMDType="Build" Name="DW30"/>
+	
+	
+	
+	<Data Kind="Builds" Unlock="1" Type="遮天"  Label="道纹"  CMDType="Build" Name="FAZUO1"/>                       <!--金道纹-->
+	<Data Kind="Builds" Unlock="1" Type="遮天"  Label="道纹"  CMDType="Build" Name="FAZUO2"/>                       <!--木道纹-->
+	<Data Kind="Builds" Unlock="1" Type="遮天"  Label="道纹"  CMDType="Build" Name="FAZUO3"/>                       <!--水道纹-->
+	<Data Kind="Builds" Unlock="1" Type="遮天"  Label="道纹"  CMDType="Build" Name="FAZUO4"/>                       <!--火道纹-->
+	<Data Kind="Builds" Unlock="1" Type="遮天"  Label="道纹"  CMDType="Build" Name="FAZUO5"/>                       <!--土道纹-->
+	<Data Kind="Builds" Unlock="1" Type="遮天"  Label="道纹"  CMDType="Build" Name="FAZUO6"/>                       <!--无道纹-->
+</List></MainList>

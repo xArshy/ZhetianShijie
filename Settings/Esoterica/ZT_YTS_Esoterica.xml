@@ -1,0 +1,387 @@
+<Esotericas><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Esoterica Name="Gong_YTS_LH_A1">
+		<DisplayName>谭源深禁</DisplayName>
+		<Icon>Spr\Object\JN\ZT_YTS\TYSJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>源之道，在于掌握风水大势。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Tu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n加个人灵力上限4\n加炉鼎值2400\n加个人回灵4[/color][/size]</EffectDesc>
+		<Modifier>Gong_YTS_LH_1A</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_YTS_LH_A1_1">
+		<DisplayName>谭源深禁</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_YTS\TYSJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>源之道，在于掌握风水大势。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法宝威力4\n加法术威力4\n加基础心境[/color][/size]</EffectDesc>
+		<Modifier>Gong_YTS_LH_1A_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_YTS_LH_A1_2">
+		<DisplayName>谭源深禁</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_YTS\TYSJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>源之道，在于掌握风水大势。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加寿元600\n加法宝灵气上限4\n加心境[/color][/size]</EffectDesc>
+		<Modifier>Gong_YTS_LH_1A_2</Modifier>
+	</Esoterica>
+	
+	
+	<!-- ==========================技能2========================== -->
+	
+	
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Esoterica Name="Gong_YTS_LH_A3">
+		<DisplayName>源本创身</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_YTS\YBCS.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>源术是创造之道，亦是养身之道。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]\n提升护盾值1\n提高护盾强度2\n提高潜行值20[/color][/size][/color][/size]</EffectDesc>
+		<Modifier>Gong_YTS_LH_3A</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_YTS_LH_A3_1">
+		<DisplayName>源本创身</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_YTS\YBCS.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>源术是创造之道，亦是养身之道。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]\n提升法宝回灵\n降低法术消耗0.2\n减低天谴值-50[/color][/size][/color][/size]</EffectDesc>
+		<Modifier>Gong_YTS_LH_3A_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_YTS_LH_A3_2">
+		<DisplayName>源本创身</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_YTS\YBCS.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>源术是创造之道，亦是养身之道。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]\n提高潜力值3\n提高基础灵力值30\n提高炉鼎值2500[/color][/size][/color][/size]</EffectDesc>
+		<Modifier>Gong_YTS_LH_3A_1</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Esoterica Name="Gong_YTS_LH_B1">
+		<DisplayName>源术聚源</DisplayName>
+		<Icon>Spr\Object\JN\ZT_YTS\JY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>记载着源天书中制造源的神通。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n加五维属性1\n加修炼速度2\n习得神通 聚灵成源[/color][/size]</EffectDesc>
+		<Modifier>Gong_YTS_LH_1B</Modifier>
+		<Magics>
+		<li>TYS_LY</li>
+		</Magics>
+	</Esoterica>
+	
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="Gong_YTS_DG_B1">
+		<DisplayName>源天书</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_YTS\ZT_YTS.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>纳天地灵气，造化之术。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n加炼丹速度\n加炼丹成功率\n习得神通：风水鉴定\n习得神通：祈天经\n习得神通：风月幻境[/color][/size]</EffectDesc>
+		<Modifier>Gong_YTS_DG_1B</Modifier>
+		<Magics>
+			<li>AbsorbGong_2</li>
+			<li>FengshuiItemOpen</li>
+			<li>PrayForSun</li>
+			<li>PrayForRainstorm</li>
+			<li>PrayForFohn</li>
+			<li>PrayForDustStorm</li>
+			<li>PrayForMiasma</li>
+			<li>PrayForLightningStorm</li>
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Gong_YTS_DG_B2">
+		<DisplayName>源天书</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_YTS\ZT_YTS.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>纳天地灵气，造化之术。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加天谴值\n加炼丹产量\n加炼丹等级\n习得两个算命神通\n习得神通：移山造海\n习得神通：炼制灵晶\n习得三种淬炼神通[/color][/size]</EffectDesc>
+		<Modifier>Gong_YTS_DG_2B</Modifier>
+		<Magics>
+			<li>Prophesy</li>
+			<li>Prophesy_MapStory</li>
+			<li>BuildMine</li>
+			<li>BuildLand</li>
+			<li>BuildSea</li>
+			<li>TianMoWu</li>
+			<li>LingCrystalMake</li>
+			<li>SoulCrystalYouPowerUp</li>
+			<li>SoulCrystalLingPowerUp</li>
+			<li>MakeSoulCrystal</li>
+		</Magics>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	
+	<!-- ==========================分割线========================== -->
+	
+	<Esoterica Name="Gong_YTS_SJ_C1">
+		<DisplayName>源术神源</DisplayName>
+		<Icon>Spr\Object\JN\ZT_YTS\JY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>记载着源天书中制造神源的神通</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]        \n习得神通 灵蕴神源\n加术法威力3\n加法宝威力3[/color][/size]</EffectDesc>
+		<Modifier>Gong_YTS_SJ_1C</Modifier>
+		<Magics>
+		<li>YTS_LSY</li>
+		</Magics>
+	</Esoterica>
+	
+		
+	<Esoterica Name="Gong_YTS_SJ_C3">
+		<DisplayName>源术纳体</DisplayName>
+		<Icon>Spr\Object\JN\ZT_YTS\CT.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>记载于源天书中如何将仙源纳入神体的神通。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Tu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]       \n加五维属性1\n加个人灵气2\n加个人回灵2\n习得三种淬体神通[/color][/size]</EffectDesc>
+		<Modifier>Gong_YTS_SJ_3C</Modifier>
+		<Magics>
+		<li>TSTL_W</li>
+		<li>TSTL_J</li>
+		<li>TSTL_M</li>
+		
+		</Magics>
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_YTS_HL_D1">
+		<DisplayName>源术造仙</DisplayName>
+		<Icon>Spr\Object\JN\ZT_YTS\JY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>记载着源天书中制造仙源的神通。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]        \n习得神通 天造仙源\n加法宝灵力上限2\n加阵法等级上限15[/color][/size]</EffectDesc>
+		<Modifier>Gong_YTS_HL_1D</Modifier>
+		<Magics>
+		<li>YTS_LXY</li>
+		</Magics>
+	</Esoterica>
+	
+
+	
+	
+	<Esoterica Name="Gong_YTS_HL_ld">
+		<DisplayName>源书淬身</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_YTS\CT.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>记载于源天书中如何将仙源纳入神体的神通。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]\n减低术法消耗0.2\n提高法宝灵力恢复4\n习得三种淬体神通[/color][/size]</EffectDesc>
+		<Modifier>Gong_YTS_HL_dl</Modifier>
+		<Magics>
+		<li>TSTL_S</li>
+		<li>TSTL_H</li>
+		<li>TSTL_T</li>
+		
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_YTS_XT_F1">
+		<DisplayName>源术天道</DisplayName>
+		<Icon>Spr\Object\JN\ZT_YTS\TD1.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>30</Difficulty>
+		<Desc>记载源天书中所传的所有神通。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Huo</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]        \n加炼器成功率\n加炼器速度\n加神器成功率[/color][/size]</EffectDesc>
+		<Modifier>Gong_YTS_XT_1F</Modifier>
+		<Magics>
+			<li>BuildMine</li><!-- 造山术 -->
+			<li>BuildLand</li><!-- 造陆术 -->
+			<li>BuildSea</li><!-- 开湖术 -->
+			<li>BuildLing</li><!-- 造化灵土 -->
+			<li>BuildLingWater</li><!-- 造化灵池 -->
+			<li>BuildFertileSoil</li><!-- 造化沃土 -->
+			<li>RebornSelf</li><!-- 玄牝重生法 -->
+			<li>BuidPuppet</li><!-- 赋灵术 -->
+			<li>MakePuppet</li><!-- 御灵术 -->
+			<li>PlantGrowUp</li><!-- 御木诀 -->
+			<li>ClosedDoor</li><!-- 入定之术 -->
+			<li>Healing_Damage</li><!-- 化伤术 -->
+			<li>BuildBody</li><!-- 再造术 -->
+			<li>AbsorbGong_1</li><!-- 鼎炉吸真术 -->
+			<li>AbsorbGong_2</li><!-- 风月幻境 -->
+			<li>AbsorbGong_3</li><!-- 摄神御鬼大法 -->
+			<li>AbsorbGong_4</li><!-- 天魔化身术 -->
+			<li>AbsorbGong_5</li><!-- 他化自在大法 -->
+			<li>AbsorbGong_6</li><!-- 魂体寄生 -->
+			<li>AbsorbGong_7</li><!-- 献祭 -->
+			<li>AbsorbGong_8</li><!-- 清心咒 -->
+			<li>AbsorbGong_9_1</li><!-- 天心正法 -->
+			<li>AbsorbGong_9_2</li><!-- 天魔解体大法 -->
+			<li>AbsorbGong_10</li><!-- 慧剑斩念 -->
+			<li>AbsorbLing_Live</li><!-- 冥灵真法 -->
+			<li>AbsorbLing_Body</li><!-- 天妖化血术 -->
+			<li>AbsorbLing_Thing</li><!-- 托体同山诀 -->
+			<li>AbsorbLing_Item</li><!-- 吸星掌 -->
+			<li>AbsorbLing_Aoe</li><!-- 灵息诀 -->
+			<li>RobBodyLow</li><!-- 阴神夺舍 -->
+			<li>RobBodyHigh</li><!-- 阳神夺舍 -->
+			<li>LingStoneMake</li><!-- 炼制灵石之术 -->
+			<li>LingCrystalMake</li><!-- 炼制灵晶之术 -->
+			<li>SeachSoul</li><!-- 搜魂大法 -->
+			<li>MakeSoulCrystal</li><!-- 凝珀诀 -->
+			<li>SoulCrystalYouPowerUp</li><!-- 幽淬之法 -->
+			<li>SoulCrystalLingPowerUp</li><!-- 灵淬之法 -->
+			<li>Prophesy</li><!-- 周天神算 -->
+			<li>Prophesy_MapStory</li><!-- 大衍神算 -->
+			<li>PrayForRain</li><!-- 求雨术 -->
+			<li>PrayForSun</li><!-- 驱云诀 -->
+			<li>PrayForRainstorm</li><!-- 暴雨术 -->
+			<li>PrayForFohn</li><!-- 焚风术 -->
+			<li>PrayForDustStorm</li><!-- 尘暴术 -->
+			<li>PrayForMiasma</li><!-- 毒瘴术 -->
+			<li>PrayForLightningStorm</li><!-- 雷暴术 -->
+			<li>Healing_Physique</li><!-- 伐毛洗髓之术 -->
+			<li>Healing_Intelligence</li><!-- 醍醐灌顶之术 -->
+			<li>Healing_Charisma</li><!-- 再造形神之术 -->
+			<li>Healing_Perception</li><!-- 开天眼之术 -->
+			<li>FengshuiItemOpen</li><!-- 风水鉴定 -->
+			<li>BuildRain</li><!-- 甘霖术 -->
+			<li>LingXiZhou</li><!-- 灵犀咒 -->
+			<li>XinYinJue</li><!-- 心印诀 -->
+			<li>TianMoWu</li><!-- 天魔舞 -->
+			<li>WuYinKeShen</li><!-- 五印刻神 -->
+			<li>ClosedDoor_Gong1</li><!-- 水镜观心定 -->
+			<li>ClosedDoor_Gong4</li><!-- 玉清定境 -->
+			<li>AbsorbGong_1_Gong9</li><!-- 元央归息法 -->
+			<li>AbsorbGong_2_Gong7</li><!-- 如意幻境 -->
+			<li>AbsorbGong_3_Gong11</li><!-- 九幽炼神 -->
+			<li>PlantGrowUp_Gong1</li><!-- 天霖诀 -->
+			<li>PlantGrowUp_Gong9</li><!-- 万木回春 -->
+			<li>PrayForZhenShuiJieJie_Gong1</li><!-- 九阴真水界 -->
+			<li>PrayForZhenHuoJieJie_Gong10</li><!-- 九阳真火界 -->
+			<li>PrayForBeiDouJianJie_Gong8</li><!-- 北斗剑界 -->
+			<li>FenShenZhiShu</li><!-- 分神之术 -->
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Gong_YTS_XT_F1_1">
+		<DisplayName>源术天道</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_YTS\TD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>记载源天书中焚仙六禁所需秘宝。。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]        \n炼器品质加成\n炼成神器概率\n习得阵图六秘宝：封仙六禁[/color][/size]</EffectDesc>
+		<Modifier>Gong_YTS_XT_1F_1</Modifier>
+		<Fabaos>
+			<li>Item_MiBao_HYYYH</li>
+			<li>Item_MiBao_TJZJT</li>
+			<li>Item_MiBao_QTBYS</li>
+			<li>Item_MiBao_HLY</li>
+			<li>Item_MiBao_BHFTJ</li>
+			<li>Item_MiBao_YJXMC</li>
+		</Fabaos>
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_YTS_TDQ">
+		<DisplayName>源书天道</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_YTS\TD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>40</Difficulty>
+		<Desc>源天书中记载着所有的秘术，以及一个阵图。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]\n习得 所有秘术\n习得阵图 封仙六禁[/color][/size]</EffectDesc>
+		<Skills>
+			<li>DamageSkill_1</li><!-- 先天罡气 -->
+			<li>DamageSkill_2</li><!-- 烈焰决 -->
+			<li>DamageSkill_3</li><!-- 庚金神雷 -->
+			<li>DamageSkill_4</li><!-- 元磁灭绝神光 -->
+			<li>HealthSkill_Gong1_1</li><!-- 天水化伤术 -->
+			<li>FabaoSkill_Gong3_1</li><!-- 神剑共鸣 -->
+			<li>DamageSkill_Gong4_1</li><!-- 玉清太虚神雷 -->
+			<li>SheildSkill_Gong4_1</li><!-- 厚土之盾 -->
+			<li>HealthSkill_Gong4_1</li><!-- 回春诀 -->
+			<li>SheildSkill_Gong5_1</li><!-- 凝血神盾 -->
+			<li>DamageSkill_Gong7_1</li><!-- 斩念剑 -->
+			<li>FabaoSkill_Gong8_1</li><!-- 北极剑煞 -->
+			<li>HealthSkill_Gong9_1</li><!-- 逆转轮回 -->
+			<li>SkillSkill_Gong10_1</li><!-- 焚日真法 -->
+			<li>SheildSkill_Gong11_1</li><!-- 太虚神盾 -->
+		</Skills>
+		<Fabaos>
+			<li>Item_FXLJZhenTu</li>
+		</Fabaos>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_YTS_XT_ZD">
+		<DisplayName>红尘仙</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_YTS\ZT_TDJ_ZD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>100</Difficulty>
+		<Desc>源术证道，制源炼身，提携天地，化万古大道为手中玩物。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]\n加寿元和加回灵倍率\n加三十道元神分神\n加炉鼎\n加神器成功率\n加术法威力和加法宝威力[/color][/size]</EffectDesc>
+		<Modifier>Gong_YTS_XT_DZ</Modifier>
+		<GodSoulCount>30</GodSoulCount>
+	</Esoterica>
+	
+	
+	
+	
+</List></Esotericas>

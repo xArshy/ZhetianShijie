@@ -1,0 +1,413 @@
+<ModifierDefs><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Modifier Name="Gong_DJTG_LH_1A" Type="Normal">
+		<DisplayName>九世轮回</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="300"/>
+			<li Name="NpcLingMaxValue" BAddV="50"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJTG_LH_1A_1" Type="Normal">
+		<DisplayName>九世轮回</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="2000"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJTG_LH_1A_2" Type="Normal">
+		<DisplayName>九世轮回</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="3"/>
+			<li Name="LingAbsorbSpeed" AddP="2"/>
+			<li Name="MindStateBaseValue" AddV="20"/>
+		</Properties>
+	</Modifier>
+	<!-- ==========================技能2========================== -->
+	<Modifier Name="Gong_DJTG_LH_2A_WL" Type="Normal">
+		<DisplayName>无良</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SneakValue" AddV="15"/>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	
+	<!-- ==========================技能3========================== -->
+	<Modifier Name="Gong_DJTG_LH_3A" Type="Normal">
+		<DisplayName>结善缘</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,0,0,0,1</BaseFive>
+		<Skills>
+			<li Name="Qi" LevelOver="7"/>
+			<li Name="Fabao" LevelOver="7"/>
+			<li Name="Qi" Level="3"/>
+			<li Name="Fabao" Level="3"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_DJTG_LH_3A_1" Type="Normal">
+		<DisplayName>结善缘</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="3"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddP="2"/>
+			<li Name="NpcFight_SneakValue" AddV="35"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJTG_LH_3A_2" Type="Normal">
+		<DisplayName>结善缘</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,1,0,1,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="200"/>
+			<li Name="AbilityLvAddV" AddV="-50"/>
+			<li Name="NpcLingMaxValue" AddP="4"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Modifier Name="Gong_DJTG_LH_1B" Type="Normal">
+		<DisplayName>九世轮回</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="MaxAccumulativeLingAddV" AddV="2500"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJTG_LH_1B_1" Type="Normal">
+		<DisplayName>九世轮回</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="300"/>
+			<li Name="NpcLingMaxValue" AddP="4"/>
+			<li Name="LingAbsorbSpeed" AddP="2"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJTG_LH_1B_2" Type="Normal">
+		<DisplayName>九世轮回</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddP="0.2"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddP="0.2"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddP="0.2"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddP="0.2"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddP="0.2"/>
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.15"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.25"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能5========================== -->
+	
+		<Modifier Name="Gong_DJTG_DG_1B" Type="Normal">
+		<DisplayName>源道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,1,0,1,1</BaseFive>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="1"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="0.25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJTG_DG_2B" Type="Normal">
+		<DisplayName>源道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Skills>
+				
+			<li Name="Medicine" LevelOver="10"/>
+		</Skills>
+		<Properties>
+			<li Name="DanMake_YieldAddP" AddP="2"/>
+			<li Name="GodPenaltyAddV" AddV="30"/>
+		</Properties>
+	</Modifier>
+
+	
+	<Modifier Name="Gong_DJTG_LH_3B_DD" Type="Normal">
+		<DisplayName>断德</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellCastTimeAddP" AddV="-0.2"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="5"/> 
+		</Properties>
+		<Skills>
+			<li Name="FightSkill" LevelOver="7"/>
+			<li Name="FightSkill" Level="3"/>
+		</Skills>
+	</Modifier>
+	
+	
+	<!-- ==========================分割线========================== -->
+	
+	<Modifier Name="Gong_DJTG_SJ_1C" Type="Normal">
+		<DisplayName>九世轮回</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="5"/> 
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.2"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJTG_SJ_1C_1" Type="Normal">
+		<DisplayName>九世轮回</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddP="-60"/>
+		</Properties>
+		<Skills>
+			<li Name="Barrier" LevelOver="14"/>
+			<li Name="Barrier" Level="7"/>
+		</Skills>
+
+	</Modifier>
+	<Modifier Name="Gong_DJTG_SJ_1C_2" Type="Normal">
+		<DisplayName>九世轮回</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="3"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="5"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="6"/>
+		</Properties>
+		
+	</Modifier>
+	
+	
+	<Modifier Name="Gong_DJTG_SJ_2C_YQ" Type="Normal">
+		<DisplayName>乱古神道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+			<li Name="LingAbsorbSpeed" AddP="3"/> 
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJTG_SJ_2C_YQ_1" Type="Normal">
+		<DisplayName>乱古神道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="4"/>
+		</Properties>
+		<Skills>
+			<li Name="FightSkill" LevelOver="8"/>
+			<li Name="FightSkill" Level="4"/>
+		</Skills>
+
+	</Modifier>
+	<Modifier Name="Gong_DJTG_SJ_2c_YQ_2" Type="Normal">
+		<DisplayName>乱古神道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.5"/>
+			<li Name="NeckCountdownAddV" AddV="2000"/>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="5"/>
+		</Properties>
+
+	</Modifier>
+	
+	
+	
+
+	
+	<Modifier Name="Gong_DJTG_SJ_3C" Type="Normal">
+		<DisplayName>冥皇</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="ExperienceFindSpeedAddV" AddV="5"/>
+			<li Name="GodPenaltyAddV" AddV="-30"/> 
+			
+		</Properties>
+		<Skills>
+			<li Name="Fabao" LevelOver="8"/>
+			<li Name="Fabao" Level="8"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_DJTG_SJ_3C_1" Type="Normal">
+		<DisplayName>冥皇</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.275"/><!--护盾强度加值2-->
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.25"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.2"/> 
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_DJTG_HL_1D" Type="Normal">
+		<DisplayName>第三杀阵</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			
+			<li Name="LingAbsorbSpeed" AddP="4"/>
+			
+		</Properties>
+		<Skills>
+			<li Name="Zhen" Level="15"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="Gong_DJTG_HL_2D" Type="Normal">
+		<DisplayName>轮回印</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="1"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="1"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.2"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJTG_HL_2D_1" Type="Normal">
+		<DisplayName>轮回印</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.2"/>
+			<li Name="FabaoMake_QualityAddV" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_DJTG_XT_1F" Type="Normal">
+		<DisplayName>挖祖坟</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="4"/>
+			<li Name="GodPenaltyAddV" AddV="30"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJTG_XT_1F_1" Type="Normal">
+		<DisplayName>掘陵墓</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="50"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="2"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="10"/>
+		</Properties>
+	</Modifier>
+	
+	
+	<Modifier Name="Gong_DJTG_XT_2F" Type="Normal">
+		<DisplayName>轮回因果</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="4"/>
+			<li Name="LingAbsorbSpeed" AddP="3"/>
+			<li Name="GodPenaltyAddV" AddV="-20"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJTG_XT_2F_1" Type="Normal">
+		<DisplayName>轮回因果</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.8"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="1"/>
+			<li Name="GodPenaltyAddV" AddV="-40"/>
+		</Properties>
+	</Modifier>
+	
+	
+	<Modifier Name="Gong_DJTG_XT_DZ" Type="Normal">
+		<DisplayName>红尘仙</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="10"/>
+			<li Name="MaxAge" AddV="5000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="10000"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="20"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="20"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.9"/>
+		</Properties>
+	</Modifier>
+	
+	
+</List></ModifierDefs>

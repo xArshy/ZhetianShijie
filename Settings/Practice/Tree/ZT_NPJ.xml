@@ -1,0 +1,242 @@
+<SkillTree><List>
+	
+	<Node Name="Gong_NPJ_1" Gong="Gong_NPJ">
+		<Esoterica>Gong_NPJ_1</Esoterica>
+		<DisplayName>气海卷</DisplayName>
+		<Level>Qi</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<!--	<li></li>-->
+		</Layers>
+		<PreUnit>
+			<li>Gong_NPJ_6</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	
+	<Node Name="Gong_NPJ_6" Gong="Gong_NPJ">
+		<Esoterica>Gong_NPJ_6</Esoterica>
+		<DisplayName>丹术</DisplayName>
+		<Level>Qi</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_NPJ_6_1</li>
+			<li>Gong_NPJ_6_2</li>
+		</Layers>
+		
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_NPJ_6_1" Gong="Gong_NPJ">
+		<Esoterica>Gong_NPJ_6_1</Esoterica>
+		<DisplayName>丹术</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_NPJ_6_2" Gong="Gong_NPJ">
+		<Esoterica>Gong_NPJ_6_2</Esoterica>
+		<DisplayName>丹术</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_NPJ_11" Gong="Gong_NPJ">
+		<Esoterica>Gong_NPJ_11</Esoterica>
+		<DisplayName>通天卷</DisplayName>
+		<Level>Qi</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Gong_NPJ_6_2</li>
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+		
+	<Node Name="Gong_NPJ_2" Gong="Gong_NPJ">
+		<Esoterica>Gong_NPJ_2</Esoterica>
+		<DisplayName>天道酬勤卷</DisplayName>
+		<Level>Dan1</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+		
+	
+	<Node Name="Gong_NPJ_12" Gong="Gong_NPJ">
+		<Esoterica>Gong_NPJ_12</Esoterica>
+		<DisplayName>历行天下卷</DisplayName>
+		<Level>Dan1</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+
+	<Node Name="Gong_NPJ_8" Gong="Gong_NPJ">
+		<Esoterica>Gong_NPJ_8</Esoterica>
+		<DisplayName>地丹卷</DisplayName>
+		<Level>Dan2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_NPJ_8_1</li>
+		</Layers>
+		
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_NPJ_8_1" Gong="Gong_NPJ">
+		<Esoterica>Gong_NPJ_8_1</Esoterica>
+		<DisplayName>天丹卷</DisplayName>
+		<Level>None</Level>
+	</Node>
+		
+	<Node Name="Gong_NPJ_4" Gong="Gong_NPJ">
+		<Esoterica>Gong_NPJ_4</Esoterica>
+		<DisplayName>道化卷</DisplayName>
+		<Level>God</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>10</GodCount>
+	</Node>
+	
+	<Node Name="Gong_NPJ_14" Gong="Gong_NPJ">
+		<Esoterica>Gong_NPJ_14</Esoterica>
+		<DisplayName>天书卷</DisplayName>
+		<Level>God</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+			
+	<Node Name="Gong_NPJ_10" Gong="Gong_NPJ">
+		<Esoterica>Gong_NPJ_10</Esoterica>
+		<DisplayName>天地卷</DisplayName>
+		<Level>God2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_NPJ_5" Gong="Gong_NPJ">
+		<Esoterica>Gong_NPJ_5</Esoterica>
+		<DisplayName>涅槃卷</DisplayName>
+		<Level>God2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+		
+	<Node Name="Gong_NPJ_15" Gong="Gong_NPJ">
+		<Esoterica>Gong_NPJ_15</Esoterica>
+		<DisplayName>红尘仙</DisplayName>
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+
+</List></SkillTree> 

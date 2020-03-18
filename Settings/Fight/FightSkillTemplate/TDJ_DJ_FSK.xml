@@ -1,0 +1,1349 @@
+<FightSkills><List>
+	<Skill Name="TDJ_DJ_XKDSY"><!--伤害技能基础模板 -->
+		<DisplayName>虚空大手印</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>30</CD>
+		<LingCost>1000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>500</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>TDJ_DJ_XKDSY</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>12</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>4</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+
+	<Skill Name="TDJ_DJ_SDSS"><!--伤害技能基础模板 -->
+		<DisplayName>杀道圣术</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>60</CD>
+		<LingCost>5000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>680</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>TDJ_DJ_SDSS</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>15</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+	<Skill Name="TDJ_SJ_SQ_TQ"><!--伤害技能基础模板 -->
+		<DisplayName>天清</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>4</SingTime>
+		<CD>100</CD>
+		<LingCost>20000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>15000</Value>
+		<TargetCamp>Friendly</TargetCamp>
+		<ClassName>TDJ_SJ_SQ_TQ</ClassName>
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>48</HitEffect>
+
+	</Skill>
+
+
+	<Skill Name="TDJ_SJ_SQ_DQ"><!--护体真强基础模板 -->
+		<DisplayName>地格</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>4</SingTime>
+		<CD>100</CD>
+		<LingCost>8000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>1.5</Value>
+		<Value2>40</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>63</HitEffect>
+	</Skill>
+
+	<Skill Name="TDJ_SJ_SQ_Rc"><!--术法增强基础模板 -->
+		<DisplayName>人才</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Skill</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>4</SingTime>
+		<CD>100</CD>
+		<LingCost>8000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>4.5</Value>
+		<Value2>45</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>71</HitEffect>
+	</Skill>
+	
+	<Skill Name="TDJ_HL_HDLQ"><!--伤害技能基础模板 -->
+		<DisplayName>皇道龙气</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2.5</SingTime>
+		<CD>60</CD>
+		<LingCost>12000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>3800</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>TDJ_HL_HDLQ</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>10001</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>1</p2>
+			<p3>4</p3>
+			<p4>1</p4>
+		</Missile>
+	</Skill>
+
+
+	<Skill Name="TDJ_HL_ld"><!--伤害技能基础模板 -->
+		<DisplayName>六道轮回拳</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>5.5</SingTime>
+		<CD>90</CD>
+		<LingCost>30000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>1500</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>TDJ_HL_ld</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>33</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+
+	<Skill Name="TDJ_HL_TDQ"><!--伤害技能基础模板 -->
+		<DisplayName>天帝拳</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3</SingTime>
+		<CD>140</CD>
+		<LingCost>18000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>2500</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>51</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+
+	<Skill Name="JZM_J_F"><!--术法增强基础模板 --> 
+		<DisplayName>皆字秘法</DisplayName>
+		<IsTemplate>1</IsTemplate>
+		<Kind>Skill</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2.5</SingTime>
+		<CD>150</CD>
+		<LingCost>20000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>10</Value>
+		<Value2>30</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>71</HitEffect>
+	</Skill>
+	
+	
+	<Skill Name="JZM_J_D"><!--护体真强基础模板 --> 
+		<DisplayName>皆字秘盾</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2.5</SingTime>
+		<CD>150</CD>
+		<LingCost>20000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>10</Value>
+		<Value2>30</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>60</HitEffect>
+	</Skill>
+	
+	
+	<Skill Name="JZM_J_H"><!--恢复技能基础模板 --> 
+		<DisplayName>皆字秘复</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2.5</SingTime>
+		<CD>150</CD>
+		<LingCost>20000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>100000</Value>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>48</HitEffect>
+	</Skill>
+
+
+	<Skill Name="JZM_J_Z">
+		<DisplayName>皆字秘战</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2.5</SingTime>
+		<CD>150</CD>
+		<LingCost>20000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>10</Value>
+		<Value2>30</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>54</HitEffect>
+	</Skill>
+	
+	
+	<Skill Name="ZT_DJ_WW"><!--护体真强基础模板 -->
+		<DisplayName>无为</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3</SingTime>
+		<CD>70</CD>
+		<LingCost>7000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>4</Value>
+		<Value2>60</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>Random</SelectType>
+		<HitEffect>63</HitEffect>
+	</Skill>
+
+	
+	<Skill Name="ZT_DJ_BY"><!--术法增强基础模板 -->
+		<DisplayName>不言</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3</SingTime>
+		<CD>100</CD>
+		<LingCost>7500</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>0</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>ZT_DJ_BY</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>71</HitEffect>
+	</Skill>
+	
+	
+	<Skill Name="DJ_DYZR"><!--伤害技能基础模板 -->
+		<DisplayName>道韵自然</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3</SingTime>
+		<CD>66</CD>
+		<LingCost>1750</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>2500</Value>
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>48</HitEffect>
+
+	</Skill>
+
+	
+	<Skill Name="ZT_DJ_YY"><!--伤害技能基础模板 -->
+		<DisplayName>负阴抱阳</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>4</SingTime>
+		<CD>160</CD>
+		<LingCost>9000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>800</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>ZT_BZ</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>63</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+
+
+	<Skill Name="ZT_BZ"><!--护体真强基础模板 -->
+		<DisplayName>不争</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>100</CD>
+		<LingCost>16000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>6</Value>
+		<Value2>50</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>63</HitEffect>
+	</Skill>
+
+
+	<Skill Name="ZT_WL"><!--护体真强基础模板 -->
+		<DisplayName>无良</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>80</CD>
+		<LingCost>6000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>3</Value>
+		<Value2>70</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>63</HitEffect>
+	</Skill>
+
+
+	<Skill Name="DJTG_DD"><!--伤害技能基础模板 -->
+		<DisplayName>断德</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>200</CD>
+		<LingCost>6000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>900</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>DJTG_DD</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>89</MissileEffect>
+		<HitEffect>89</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="MB_CM"><!--伤害技能基础模板 -->
+		<DisplayName>沉默</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>200</CD>
+		<LingCost>6000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>300</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>MB_CM</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>89</MissileEffect>
+		<HitEffect>89</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="MB_ZTY"><!--伤害技能基础模板 -->
+		<DisplayName>我让你飞！</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>300</CD>
+		<LingCost>6000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>300</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>MB_ZTY</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>89</MissileEffect>
+		<HitEffect>89</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="DJTG_LS"><!--伤害技能基础模板 -->
+		<DisplayName>乱神</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>4</SingTime>
+		<CD>70</CD>
+		<LingCost>6000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>1100</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>DJTG_LS</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>64</MissileEffect>
+		<HitEffect>64</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+
+	<Skill Name="DJTG_DSS"><!--恢复技能基础模板 --> 
+		<DisplayName>第三杀阵：杀</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>128</CD>
+		<LingCost>11000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>1300</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>DJTG_DSS</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>48</MissileEffect>
+		<HitEffect>48</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>1</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+
+	<Skill Name="DJTG_DSZ">
+		<DisplayName>第三杀阵：阵</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2.5</SingTime>
+		<CD>180</CD>
+		<LingCost>18000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>8</Value>
+		<Value2>30</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>54</HitEffect>
+	</Skill>
+	
+	<Skill Name="DJTG_BSY"><!--伤害技能基础模板 -->
+		<DisplayName>仙化不死药</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3</SingTime>
+		<CD>120</CD>
+		<LingCost>1000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>9000</Value>
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>48</HitEffect>
+
+	</Skill>
+
+	<Skill Name="XHJ_YC"><!--伤害技能基础模板 -->
+		<DisplayName>瑶池</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>70</CD>
+		<LingCost>800</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>800</Value>
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>48</HitEffect>
+
+	</Skill>
+
+
+
+	<Skill Name="XHJ_XWLR"><!--护体真强基础模板 -->
+		<DisplayName>仙雾缭绕</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3.5</SingTime>
+		<CD>45</CD>
+		<LingCost>900</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>8.6</Value>
+		<Value2>30</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>63</HitEffect>
+	</Skill>
+
+
+	<Skill Name="XHJ_DJ_YCSS"><!--术法增强基础模板 -->
+		<DisplayName>瑶池圣术</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Skill</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3</SingTime>
+		<CD>60</CD>
+		<LingCost>4000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>6.5</Value>
+		<Value2>30</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>71</HitEffect>
+	</Skill>
+
+	<Skill Name="ZT_JTZ"><!--伤害技能基础模板 -->
+		<DisplayName>截天指</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>50</CD>
+		<LingCost>1000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>950</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>ZT_JTZ</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200002</MissileEffect>
+		<HitEffect>200002</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="ZT_KKRY"><!--术法增强基础模板 -->
+		<DisplayName>空空如也</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Skill</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3</SingTime>
+		<CD>90</CD>
+		<LingCost>4000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>4</Value>
+		<Value2>35</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+			<ClassName>ZT_KKRY</ClassName>
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>71</HitEffect>
+	</Skill>
+
+	<Skill Name="ZT_QXHY"><!--伤害技能基础模板 -->
+		<DisplayName>气虚化有</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>110</CD>
+		<LingCost>1000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>6000</Value>
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>48</HitEffect>
+
+	</Skill>
+
+
+	<Skill Name="ZT_XDLJ"><!--伤害技能基础模板 -->
+		<DisplayName>虚断两界</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>4.25</SingTime>
+		<CD>90</CD>
+		<LingCost>900</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>1666</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200003</MissileEffect>
+		<HitEffect>200003</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="ZT_XKJ"><!--伤害技能基础模板 -->
+		<DisplayName>虚空境</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>6</SingTime>
+		<CD>90</CD>
+		<LingCost>900</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>1000</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>63</MissileEffect>
+		<HitEffect>63</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+	
+	<Skill Name="ZT_WSJJMS"><!--伤害技能基础模板 -->
+		<DisplayName>无上禁忌秘术</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>5</SingTime>
+		<CD>20</CD>
+		<LingCost>100000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>200</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>ZT_WSJJMS</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>23</MissileEffect>
+		<HitEffect>60</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+
+
+	<Skill Name="TSJDB"><!--护体真强基础模板 -->
+		<DisplayName>徒手接帝兵</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.4</SingTime>
+		<CD>150</CD>
+		<LingCost>5000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>9</Value>
+		<Value2>40</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>63</HitEffect>
+	</Skill>
+	
+	<Skill Name="ZSZY"><!--伤害技能基础模板 -->
+		<DisplayName>只手镇压</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3</SingTime>
+		<CD>95</CD>
+		<LingCost>8000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>1200</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>ZSZY</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>300001</MissileEffect>
+		<HitEffect>300001</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="WGJK"><!--伤害技能基础模板 -->
+		<DisplayName>万古皆空</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>160</CD>
+		<LingCost>9999</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>2222</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>WGJK</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>81</MissileEffect>
+		<HitEffect>81</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="NZQK"><!--伤害技能基础模板 -->
+		<DisplayName>逆转乾坤</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>4</SingTime>
+		<CD>160</CD>
+		<LingCost>1000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>9000</Value>
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>48</HitEffect>
+
+	</Skill>
+	
+	<Skill Name="XLZD">
+		<DisplayName>玄龙正道</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>100</CD>
+		<LingCost>2000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>6</Value>
+		<Value2>30</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>54</HitEffect>
+	</Skill>
+	
+	<Skill Name="ZLGQ"><!--护体真强基础模板 -->
+		<DisplayName>真龙罡气</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>180</CD>
+		<LingCost>3000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>6.6</Value>
+		<Value2>60</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		<ClassName>ZLGQ</ClassName>
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>63</HitEffect>
+	</Skill>
+	
+	<Skill Name="LQSS">
+		<DisplayName>龙气爆裂</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3.5</SingTime>
+		<CD>150</CD>
+		<LingCost>5000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>8</Value>
+		<Value2>50</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>54</HitEffect>
+	</Skill>
+	
+	<Skill Name="NXFX">
+		<DisplayName>逆行伐仙</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2.5</SingTime>
+		<CD>600</CD>
+		<LingCost>50000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>15</Value>
+		<Value2>50</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		<ClassName>NXFX</ClassName>
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>54</HitEffect>
+	</Skill>
+	
+	<Skill Name="HYJ_DRXW"><!--伤害技能基础模板 -->
+		<DisplayName>堕日凶威</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3.5</SingTime>
+		<CD>30</CD>
+		<LingCost>2000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>1200</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>HYJ_DRXW</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>33</MissileEffect>
+		<HitEffect>33</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="HYJ_BCW"><!--伤害技能基础模板 -->
+		<DisplayName>百草丸</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>120</CD>
+		<LingCost>10</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>2000</Value>
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>48</HitEffect>
+
+	</Skill>
+	<Skill Name="HYJ_YYYY"><!--伤害技能基础模板 -->
+		<DisplayName>焰炎阎宴</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2</SingTime>
+		<CD>60</CD>
+		<LingCost>2500</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>500</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>HYJ_YYYY</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>36</MissileEffect>
+		<HitEffect>36</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="HYJ_YM"><!--伤害技能基础模板 -->
+		<DisplayName>阎魔</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>5</SingTime>
+		<CD>100</CD>
+		<LingCost>5500</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>1200</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>HYJ_YM</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>44</MissileEffect>
+		<HitEffect>44</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="HYJ_WJFX"><!--伤害技能基础模板 -->
+		<DisplayName>万界焚仙</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3</SingTime>
+		<CD>100</CD>
+		<LingCost>5000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>1600</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>HYJ_WJFX</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>200001</MissileEffect>
+		<HitEffect>200005</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="HYJ_YYHY"><!--术法增强基础模板 --> 
+		<DisplayName>炎炎火域</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2.5</SingTime>
+		<CD>110</CD>
+		<LingCost>12000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>0</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>HYJ_YYHY</ClassName>
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>71</HitEffect>
+	</Skill>
+	<Skill Name="HYJ_JYYR"><!--术法增强基础模板 --> 
+		<DisplayName>九阳耀界</DisplayName>
+		<IsTemplate>1</IsTemplate>
+		<Kind>Skill</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2.5</SingTime>
+		<CD>250</CD>
+		<LingCost>30000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>10</Value>
+		<Value2>30</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>71</HitEffect>
+	</Skill>
+	
+	<Skill Name="TTMG_WHSJ"><!--伤害技能基础模板 -->
+		<DisplayName>万化圣诀</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2.5</SingTime>
+		<CD>90</CD>
+		<LingCost>15000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>800</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>TTMG_WHSJ</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>42</MissileEffect>
+		<HitEffect>48</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="TTMG_ZWMDJ"><!--伤害技能基础模板 -->
+		<DisplayName>斩我明道诀</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>5.5</SingTime>
+		<CD>260</CD>
+		<LingCost>15000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>800</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>TTMG_ZWMDJ</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>56</MissileEffect>
+		<HitEffect>51</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="TTMG_YNHK"><!--伤害技能基础模板 -->
+		<DisplayName>一念花开</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3.5</SingTime>
+		<CD>120</CD>
+		<LingCost>35000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>1200</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>TTMG_YNHK</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>68</MissileEffect>
+		<HitEffect>33</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="TTMG_FXJ"><!--伤害技能基础模板 -->
+		<DisplayName>飞仙诀</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2.5</SingTime>
+		<CD>360</CD>
+		<LingCost>35000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>1800</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>TTMG_FXJ</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>79</MissileEffect>
+		<HitEffect>59</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="TTMG_SXC"><!--伤害技能基础模板 -->
+		<DisplayName>撒星辰成兵</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>2.5</SingTime>
+		<CD>120</CD>
+		<LingCost>35000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>1200</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>TTMG_SXC</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>87</MissileEffect>
+		<HitEffect>60</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="TTMG_JLTX"><!--术法增强基础模板 -->
+		<DisplayName>君临天下</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Skill</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>3</SingTime>
+		<CD>90</CD>
+		<LingCost>12500</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>8</Value>
+		<Value2>40</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>56</HitEffect>
+	</Skill>
+	
+	<Skill Name="TTMG_JF"><!--术法增强基础模板 --> 
+		<DisplayName>万法皆吞</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.5</SingTime>
+		<CD>180</CD>
+		<LingCost>20000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>0</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>TTMG_JF</ClassName>
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>71</HitEffect>
+	</Skill>
+	
+	
+	<Skill Name="TTMG_JR"><!--护体真强基础模板 --> 
+		<DisplayName>万盾皆融</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.5</SingTime>
+		<CD>180</CD>
+		<LingCost>20000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>0</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>TTMG_JR</ClassName>
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>60</HitEffect>
+	</Skill>
+	
+	
+	
+
+
+	<Skill Name="TTMG_JT">
+		<DisplayName>万器皆吞</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.5</SingTime>
+		<CD>180</CD>
+		<LingCost>20000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>0</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>TTMG_JT</ClassName>
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>54</HitEffect>
+	</Skill>
+	
+	
+	<Skill Name="TTMG_JH"><!--恢复技能基础模板 --> 
+		<DisplayName>万灵皆灵</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.5</SingTime>
+		<CD>150</CD>
+		<LingCost>20000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>100000</Value>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>48</HitEffect>
+	</Skill>
+	<Skill Name="TTMG_WH"><!--恢复技能基础模板 --> 
+		<DisplayName>万化天分</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1.5</SingTime>
+		<CD>150</CD>
+		<LingCost>20000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>1000</Value>
+		<TargetCamp>Friendly</TargetCamp>
+		<ClassName>TTMG_WH</ClassName>
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>48</HitEffect>
+	</Skill>
+	
+	
+	<Skill Name="ZT_TX"><!--伤害技能基础模板 -->
+		<DisplayName>灭魂</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>0</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>0</CD>
+		<LingCost>0</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>30</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>71</MissileEffect>
+		<HitEffect>71</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>4</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	<Skill Name="ZT_JP"><!--伤害技能基础模板 -->
+		<DisplayName>龙吟</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>0</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>0</CD>
+		<LingCost>0</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>60</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>300001</MissileEffect>
+		<HitEffect>300001</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>4</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+</List></FightSkills>

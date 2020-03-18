@@ -1,0 +1,93 @@
+<Defs><List>
+	<Def Name="Price_YC" Parent="Price_Base">
+		<Tag>School</Tag>
+		<Tag2>YC</Tag2>
+
+		<FabaoSpecial>
+			<li>
+				<Q Min="0" Max="12.5" />
+				<Rate Min="6" Max="12" />
+				<oitemname>Item_YYSY</oitemname>
+				<ostuffname>Item_LQ</ostuffname>
+				<BuyPrice Value="20000" />
+				<SalePrice Value="1000" />
+			</li>
+		</FabaoSpecial>
+	</Def>
+	<Def Name="Price_TXM" Parent="Price_Base">
+		<Tag>School</Tag>
+		<Tag2>TXM</Tag2>
+
+		<FabaoSpecial>
+			<li>
+				<Q Min="0" Max="12.5" />
+				<Rate Min="6" Max="12" />
+				<oitemname>Item_ZJST</oitemname>
+				<ostuffname>Item_SMG</ostuffname>
+				<BuyPrice Value="20000" />
+				<SalePrice Value="1000" />
+			</li>
+		</FabaoSpecial>
+	</Def>
+	<Def Name="Price_QSF" Parent="Price_Base">
+		<Tag>School</Tag>
+		<Tag2>QSF</Tag2>
+
+		<FabaoSpecial>
+			<li>
+				<Q Min="0" Max="12.5" />
+				<Rate Min="6" Max="12" />
+				<oitemname>Item_JTBYB</oitemname>
+				<ostuffname>Item_AL</ostuffname>
+				<BuyPrice Value="20000" />
+				<SalePrice Value="1000" />
+			</li>
+		</FabaoSpecial>
+	</Def>
+	<Def Name="Price_LXDT" Parent="Price_Base">
+		<Tag>School</Tag>
+		<Tag2>LXDT</Tag2>
+
+		<FabaoSpecial>
+			<li>
+				<Q Min="0" Max="12.5" />
+				<Rate Min="4" Max="12" />
+				<oitemname>Item_LingCrystal</oitemname>
+				<ostuffname>Item_BCY</ostuffname>
+				<BuyPrice Value="18000" />
+				<SalePrice Value="1000" />
+			</li>
+		</FabaoSpecial>
+	</Def>
+	<Def Name="Price_WLC" Parent="Price_Base">
+		<Tag>School</Tag>
+		<Tag2>WLC</Tag2>
+
+		<FabaoSpecial>
+			<li>
+				<Q Min="0" Max="12.5" />
+				<Rate Min="6" Max="12" />
+				<oitemname>Item_ST</oitemname>
+				<ostuffname>Item_WSXY</ostuffname>
+				<BuyPrice Value="20000" />
+				<SalePrice Value="1000" />
+			</li>
+		</FabaoSpecial>
+	</Def>
+	<Def Name="Price_TCGK" Parent="Price_Base">
+		<Tag>School</Tag>
+		<Tag2>TCGK</Tag2>
+
+		<FabaoSpecial>
+			<li>
+				<Q Min="0" Max="12.5" />
+				<Rate Min="6" Max="12" />
+				<oitemname>Item_XZ</oitemname>
+				<ostuffname>Item_WSXXY</ostuffname>
+				<BuyPrice Value="20000" />
+				<SalePrice Value="1000" />
+			</li>
+		</FabaoSpecial>
+	</Def>
+	
+</List></Defs>

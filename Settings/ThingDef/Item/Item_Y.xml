@@ -1,0 +1,1387 @@
+<ThingDefs><List>
+
+	
+	<ThingDef Type="Item" Name="Item_WSXY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\WSXY.PNG</TexPath>
+	<ThingName>No attribute source</ThingName>	
+	<Desc>The spirits generated in the era of heaven and earth and all living things are as amber-like, with a lot of essence of life and metal inside, which can help practice or provide energy for opening the door of the domain. Eat a small amount of practice speed and the corresponding attribute shield value.</Desc>
+	<Rate>6</Rate>
+	<Beauty>9</Beauty>
+	<ElementKind>Chaos</ElementKind>
+	<MaxStack>6999</MaxStack>
+	<Item Lable="LingStone">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="3000"/>
+					<SalePrice Value="300" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="300" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		
+		<PhysicalLables>
+			<li>Hard2</li>
+			<li>HighDensity2</li>
+	
+			<li>PhysicalLables_None</li>
+		
+		</PhysicalLables>
+		<NamePrefix>气，液，源</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "5"/>
+				<Item name = "Item_LingStone" count = "200"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			<Ling>25000</Ling>
+			<Modifier>ZT_WSXY</Modifier>
+			<Fesistance>0.2</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>60</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>5</Absorption>
+		<Accommodate>6000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Chaos</Kind>
+		<Value>6</Value>         
+		<Radius>3</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>10</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>EEE8AA</Color>
+	</Light>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_JSXY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\JSXY.PNG</TexPath>
+	<ThingName>Metallic source</ThingName>	
+	<Desc>The spirits generated in the era of heaven and earth and all living things are as amber-like, with a lot of essence of life and metal inside, which can help practice or provide energy for opening the door of the domain. Eat a small amount of practice speed and the corresponding attribute shield value.</Desc>
+	<Rate>6</Rate>
+	<Beauty>9</Beauty>
+	<ElementKind>Jin</ElementKind>
+	<MaxStack>6999</MaxStack>
+	<Item Lable="LingStone">
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="3000"/>
+					<SalePrice Value="300" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="300" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>Hard2</li>
+	
+			<li>Heavy2</li>
+			<li>PhysicalLables_Jin</li>
+		
+		</PhysicalLables>
+		<NamePrefix>气，液，源</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "5"/>
+				<Item name = "Item_StarEssence" count = "20"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			<Ling>25000</Ling>
+			<Modifier>ZT_JSXY</Modifier>
+			<Fesistance>0.2</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>60</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>5</Absorption>
+		<Accommodate>6000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>6</Value>         
+		<Radius>3</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>10</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>EEE8AA</Color>
+	</Light>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_MSXY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\MSXY.PNG</TexPath>
+	<ThingName>Wood property source</ThingName>	
+	<Desc>The spirits generated in the era of heaven and earth and all living things are as amber-like, with a lot of essence of life and wooden properties inside, which can help practice or provide energy for opening the door of the domain. Eat a small amount of practice speed and the corresponding attribute shield value.</Desc>
+	<Rate>6</Rate>
+	<Beauty>9</Beauty>
+	<ElementKind>Mu</ElementKind>
+	<MaxStack>6999</MaxStack>
+	<Item Lable="LingStone">
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="3000"/>
+					<SalePrice Value="300" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="300" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+	
+			
+			<li>PhysicalLables_Mu</li>
+			<li>Precise</li>
+	
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<NamePrefix>气，液，源</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "5"/>
+				<Item name = "Item_ParasolWood" count = "30"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			<Ling>25000</Ling>
+			<Modifier>ZT_MSXY</Modifier>
+			<Fesistance>0.2</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>60</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>5</Absorption>
+		<Accommodate>6000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>6</Value>         
+		<Radius>3</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>10</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>EEE8AA</Color>
+	</Light>
+	</ThingDef>
+
+
+	<ThingDef Type="Item" Name="Item_SSXY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\SSXY.PNG</TexPath>
+	<ThingName>Water property source</ThingName>	
+	<Desc>The spirits generated in the era of heaven and earth and all living things are like amber crystals, with a lot of life essence and water properties inside, which can help practice or provide energy for opening the door of the domain. Eat a small amount of practice speed and the corresponding attribute shield value.</Desc>
+	<Rate>6</Rate>
+	<Beauty>9</Beauty>
+	<ElementKind>Shui</ElementKind>
+	<MaxStack>6999</MaxStack>
+	<Item Lable="LingStone">
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="3000"/>
+					<SalePrice Value="300" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="300" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>Hard2</li>
+
+			<li>PhysicalLables_Shui</li>
+
+			<li>Liquid</li>
+	
+		</PhysicalLables>
+		<NamePrefix>气，液，源</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "5"/>
+				<Item name = "Item_SilverBlock" count = "150"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			<Ling>25000</Ling>
+			<Modifier>ZT_SSXY</Modifier>
+			<Fesistance>0.2</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>60</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>5</Absorption>
+		<Accommodate>6000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>6</Value>         
+		<Radius>3</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>10</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>7FFF00</Color>
+	</Light>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_HSXY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\HSXY.PNG</TexPath>
+	<ThingName>Fire Attribute Source</ThingName>	
+	<Desc>The spirits generated in the era of heaven and earth and all living things are as amber-like, with a lot of essence of life and fire properties inside, which can help practice or provide energy for opening the door of the domain. Eat a small amount of practice speed and the corresponding attribute shield value.</Desc>
+	<Rate>6</Rate>
+	<Beauty>9</Beauty>
+	<ElementKind>Huo</ElementKind>
+	<MaxStack>6999</MaxStack>
+	<Item Lable="LingStone">
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="3000"/>
+					<SalePrice Value="300" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="300" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>Hard2</li>
+		
+			<li>PhysicalLables_Huo</li>
+			
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<NamePrefix>气，液，源</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "5"/>
+				<Item name = "Item_CopperBlock" count = "150"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			<Ling>25000</Ling>
+			<Modifier>ZT_HSXY</Modifier>
+			<Fesistance>0.2</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>60</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>5</Absorption>
+		<Accommodate>6000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>6</Value>         
+		<Radius>3</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>10</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>CD5C5C</Color>
+	</Light>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_TSXY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\TSXY.PNG</TexPath>
+	<ThingName>Soil property source</ThingName>	
+	<Desc>The spirits generated in the era of heaven and earth and all living things are like amber crystals, with a lot of life essence and soil properties inside, which can help cultivation or provide energy for opening the door of the domain. Eat a small amount of practice speed and the corresponding attribute shield value.</Desc>
+	<Rate>6</Rate>
+	<Beauty>9</Beauty>
+	<ElementKind>Tu</ElementKind>
+	<MaxStack>6999</MaxStack>
+	<Item Lable="LingStone">
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="3000"/>
+					<SalePrice Value="300" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="300" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>Gravel</li>
+			
+			<li>PhysicalLables_Tu</li>
+			
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<NamePrefix>气，液，源</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingCrystal" count = "5"/>
+				<Item name = "Item_ExtremeJade" count = "20"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			<Ling>25000</Ling>
+			<Modifier>ZT_TSXY</Modifier>
+			<Fesistance>0.2</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>60</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>5</Absorption>
+		<Accommodate>6000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>6</Value>         
+		<Radius>3</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>10</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>4B0082</Color>
+	</Light>
+	</ThingDef>	
+		
+	<ThingDef Type="Item" Name="Item_WSXSY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\WSXSY.PNG</TexPath>
+	<ThingName>Attributeless Source</ThingName>	
+	<Desc>Divine source transformed from source through endless years and condensed. And increase a small amount of practice speed and the corresponding attribute shield value and spiritual root value and spiritual recovery speed</Desc>
+	<Rate>10</Rate>
+	<Beauty>36</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<MaxStack>6999</MaxStack>
+	<Item Lable="LingStone">
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="120000"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="120000" />
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="120000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>Precise</li>
+			<li>Hard2</li>
+	
+
+			<li>PhysicalLables_None</li>
+			
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<NamePrefix>神源,天精,玄气</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "10"/>
+				<Item name = "Item_LingCrystal" count = "60"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			<Ling>100000</Ling>
+			<Modifier>ZT_WSXSY</Modifier>
+			<Fesistance>0.5</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>120</AddionLing>
+		<AddionRadius>5</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>3</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>60000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>None</Kind>
+		<Value>12</Value>         
+		<Radius>5</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>12</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>F8F8FF</Color>
+	</Light>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_JSXSY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\JSXSY.PNG</TexPath>
+	<ThingName>Metallic Divine Source</ThingName>	
+	<Desc>Divine source transformed from source through endless years and condensed. And increase a small amount of practice speed and magic attack interval, and magic power.</Desc>
+	<Rate>10</Rate>
+	<Beauty>36</Beauty>
+	<ElementKind>Jin</ElementKind>
+	<MaxStack>6999</MaxStack>
+	<Item Lable="LingStone">
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="120000"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="120000" />
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="120000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>Hard2</li>
+			<li>HighDensity2</li>
+			<li>Heavy2</li>
+			<li>PhysicalLables_Jin</li>
+			
+		</PhysicalLables>
+		<NamePrefix>神源,天精,玄气</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_JSXY" count = "10"/>
+				<Item name = "Item_StarEssence" count = "60"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			<Ling>100000</Ling>
+			<Modifier>ZT_JSXSY</Modifier>
+			<Fesistance>0.5</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>120</AddionLing>
+		<AddionRadius>5</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>3</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>60000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>12</Value>         
+		<Radius>5</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>12</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>EEE8AA</Color>
+	</Light>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_MSXSY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\MSXSY.PNG</TexPath>
+	<ThingName>Wooden Source God Source</ThingName>	
+	<Desc>Divine source transformed from source through endless years and condensed. And increase a lot of practice speed and shield value.</Desc>
+	<Rate>10</Rate>
+	<Beauty>36</Beauty>
+	<ElementKind>Mu</ElementKind>
+	<MaxStack>6999</MaxStack>
+	<Item Lable="LingStone">
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="120000"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="120000" />
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="120000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>Hard2</li>
+			<li>HighDensity2</li>
+			<li>Heavy2</li>
+			<li>PhysicalLables_Mu</li>
+			
+		</PhysicalLables>
+		<NamePrefix>神源,天精,玄气</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_MSXY" count = "10"/>
+				<Item name = "Item_ParasolWood" count = "60"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			<Ling>100000</Ling>
+			<Modifier>ZT_MSXSY</Modifier>
+			<Fesistance>0.5</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>120</AddionLing>
+		<AddionRadius>5</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>3</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>60000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>12</Value>         
+		<Radius>5</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>12</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>EEE8AA</Color>
+	</Light>
+	</ThingDef>
+
+ 
+
+
+	<ThingDef Type="Item" Name="Item_SSXSY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\SSXSY.PNG</TexPath>
+	<ThingName>Water Source God Source</ThingName>	
+	<Desc>Divine source transformed from source through endless years and condensed. And increase a small amount of practice speed and magic magic maximum and recovery value.</Desc>
+	<Rate>10</Rate>
+	<Beauty>36</Beauty>
+	<ElementKind>Shui</ElementKind>
+	<MaxStack>6999</MaxStack>
+	<Item Lable="LingStone">
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="120000"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="120000" />
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="120000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>Hard2</li>
+			<li>HighDensity2</li>
+			<li>Heavy2</li>
+			<li>PhysicalLables_Shui</li>
+			
+		</PhysicalLables>
+		<NamePrefix>神源,天精,玄气</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_SSXY" count = "10"/>
+				<Item name = "HUO_LH" count = "30"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			<Ling>100000</Ling>
+			<Modifier>ZT_SSXSY</Modifier>
+			<Fesistance>0.5</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>120</AddionLing>
+		<AddionRadius>5</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>3</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>60000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>12</Value>         
+		<Radius>5</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>12</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>7FFF00</Color>
+	</Light>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_HSXSY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\HSXSY.PNG</TexPath>
+	<ThingName>Fire Source God Source</ThingName>	
+	<Desc>Divine source transformed from source through endless years and condensed. And improve a small amount of practice speed and magic cooling and magic power.</Desc>
+	<Rate>10</Rate>
+	<Beauty>36</Beauty>
+	<ElementKind>Huo</ElementKind>
+	<MaxStack>6999</MaxStack>
+	<Item Lable="LingStone">
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="120000"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="120000" />
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="120000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>Hard2</li>
+			<li>HighDensity2</li>
+			<li>Heavy2</li>
+			<li>PhysicalLables_Huo</li>
+			
+		</PhysicalLables>
+		<NamePrefix>神源,天精,玄气</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_HSXY" count = "10"/>
+				<Item name = "HUO_CH" count = "30"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			<Ling>100000</Ling>
+			<Modifier>ZT_HSXSY</Modifier>
+			<Fesistance>0.5</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>120</AddionLing>
+		<AddionRadius>5</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>3</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>60000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>12</Value>         
+		<Radius>5</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>12</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>CD5C5C</Color>
+	</Light>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_TSXSY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\TSXSY.PNG</TexPath>
+	<ThingName>Divine Source</ThingName>	
+	<Desc>Divine source transformed from source through endless years and condensed. And increase a small amount of practice speed and shield strength and road performance value.</Desc>
+	<Rate>10</Rate>
+	<Beauty>36</Beauty>
+	<ElementKind>Tu</ElementKind>
+	<MaxStack>6999</MaxStack>
+	<Item Lable="LingStone">
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="120000"/>
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="120000" />
+					<SalePrice Value="900" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="120000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+		<PhysicalLables>
+			<li>Gravel</li>
+			<li>HighDensity2</li>
+			<li>Heavy2</li>
+			<li>PhysicalLables_Tu</li>
+			
+		</PhysicalLables>
+		<NamePrefix>神源,天精,玄气</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_TSXY" count = "10"/>
+				<Item name = "Item_ExtremeJade" count = "60"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			<Ling>100000</Ling>
+			<Modifier>ZT_TSXSY</Modifier>
+			<Fesistance>0.5</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>120</AddionLing>
+		<AddionRadius>5</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>3</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>60000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>12</Value>         
+		<Radius>5</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>12</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>4B0082</Color>
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_WSXXY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\WSXXY.PNG</TexPath>
+	<ThingName>No Attribute Xianyuan</ThingName>	
+	<Desc>Immortal source transformed from endless years and condensed by the source. Consumption can restore 3 billion spiritual power.</Desc>
+	<Rate>12</Rate>
+	<Beauty>360</Beauty>
+	<NoElementKind>1</NoElementKind>
+	<ElementKind>None</ElementKind>
+	<MaxStack>1</MaxStack>
+	<Item Lable="LingStone">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="200000"/>
+					<SalePrice Value="3000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="200000" />
+					<SalePrice Value="3000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="200000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<PhysicalLables>
+			<li>Precise</li>
+		
+
+			<li>Heavy2</li>
+			<li>PhysicalLables_None</li>
+			<li>Smooth2</li>
+
+			<li>GreatThing_Ling</li>
+			<li>PhysicalLables_None</li>
+
+		</PhysicalLables>
+		<NamePrefix>仙源,仙汫</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_WSXY" count = "25"/>
+				<Item name = "Item_WSXSY" count = "10"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			
+			<Modifier>ZT_XY</Modifier>
+
+		</Elixir>
+	</Item>
+	
+	<StoryBnts>
+			<li Name="炼化" Desc="尝试炼化仙源。"  Appoint="2" Story="Story_Item_XY" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
+			
+	</StoryBnts>
+	
+	<Ling>
+		<AddionLing>250</AddionLing>
+		<AddionRadius>6</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>3</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>20</Absorption>
+		<Accommodate>600000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>None</Kind>
+		<Value>100</Value>         
+		<Radius>5</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	<Light>
+		<Value>12</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>F8F8FF</Color>
+	</Light>
+	</ThingDef>
+
+
+
+
+	<ThingDef Type="Item" Name="Item_JSXXY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\JSXXY.PNG</TexPath>
+	<ThingName>Metallic fairy</ThingName>	
+	<Desc>Immortal source transformed from endless years and condensed by the source. Consumption can restore 3 billion spiritual power.</Desc>
+	<Rate>12</Rate>
+	<Beauty>360</Beauty>
+	<ElementKind>Jin</ElementKind>
+	<MaxStack>1</MaxStack>
+	<Item Lable="LingStone">
+		<PhysicalLables>
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="200000"/>
+					<SalePrice Value="3000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="200000" />
+					<SalePrice Value="3000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="200000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+			<li>Hard2</li>
+
+
+			<li>PhysicalLables_Jin</li>
+
+
+			<li>Smooth2</li>
+			<li>Sharp</li>
+			<li>GreatThing_Ling</li>
+			<li>PhysicalLables_Jin</li>
+
+		</PhysicalLables>
+		<NamePrefix>仙源,仙汫</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_JSXY" count = "25"/>
+				<Item name = "Item_JSXSY" count = "10"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			
+			<Modifier>ZT_XY</Modifier>
+
+		</Elixir>
+	</Item>
+	
+	<StoryBnts>
+			<li Name="炼化" Desc="尝试炼化仙源。"  Appoint="2" Story="Story_Item_XY" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
+			
+	</StoryBnts>
+	
+	<Ling>
+		<AddionLing>250</AddionLing>
+		<AddionRadius>6</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>3</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>20</Absorption>
+		<Accommodate>600000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Jin</Kind>
+		<Value>100</Value>         
+		<Radius>5</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>12</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>EEE8AA</Color>
+	</Light>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_MSXXY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\MSXXY.PNG</TexPath>
+	<ThingName>Wood property fairy source</ThingName>	
+	<Desc>Immortal source transformed from endless years and condensed by the source. Consumption can restore 3 billion spiritual power.</Desc>
+	<Rate>12</Rate>
+	<Beauty>360</Beauty>
+	<ElementKind>Mu</ElementKind>
+	<MaxStack>1</MaxStack>
+	<Item Lable="LingStone">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="200000"/>
+					<SalePrice Value="3000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="200000" />
+					<SalePrice Value="3000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="200000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<PhysicalLables>
+			<li>Hard2</li>
+			<li>HighDensity2</li>
+
+			<li>PhysicalLables_Mu</li>
+
+			<li>GreatThing_Ling</li>
+			<li>PhysicalLables_Mu</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<NamePrefix>仙源,仙汫</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_MSXY" count = "25"/>
+				<Item name = "Item_MSXSY" count = "10"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			
+			<Modifier>ZT_XY</Modifier>
+
+		</Elixir>
+	</Item>
+	
+	<StoryBnts>
+			<li Name="炼化" Desc="尝试炼化仙源。"  Appoint="2" Story="Story_Item_XY" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
+			
+	</StoryBnts>
+	
+	<Ling>
+		<AddionLing>250</AddionLing>
+		<AddionRadius>6</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>3</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>20</Absorption>
+		<Accommodate>600000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>100</Value>         
+		<Radius>5</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>12</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>EEE8AA</Color>
+	</Light>
+	</ThingDef>
+
+ 
+
+
+	<ThingDef Type="Item" Name="Item_SSXXY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\SSXXY.PNG</TexPath>
+	<ThingName>Water property</ThingName>	
+	<Desc>Immortal source transformed from endless years and condensed by the source. Consumption can restore 3 billion spiritual power.</Desc>
+	<Rate>12</Rate>
+	<Beauty>360</Beauty>
+	<ElementKind>Shui</ElementKind>
+	<MaxStack>1</MaxStack>
+	<Item Lable="LingStone">
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="200000"/>
+					<SalePrice Value="3000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="200000" />
+					<SalePrice Value="3000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="200000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<PhysicalLables>
+			<li>Hard2</li>
+			<li>HighDensity2</li>
+			<li>Heavy2</li>
+			<li>PhysicalLables_Shui</li>
+			<li>Heavy2</li>
+			<li>PhysicalLables_Shui</li>
+			
+		</PhysicalLables>
+		<NamePrefix>仙源,仙汫</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_SSXSY" count = "10"/>
+				<Item name = "Item_SSXY" count = "25"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			
+			<Modifier>ZT_XY</Modifier>
+
+		</Elixir>
+	</Item>
+	
+	<StoryBnts>
+			<li Name="炼化" Desc="尝试炼化仙源。"  Appoint="2" Story="Story_Item_XY" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
+			
+	</StoryBnts>
+	<Ling>
+		<AddionLing>250</AddionLing>
+		<AddionRadius>6</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>3</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>20</Absorption>
+		<Accommodate>600000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Shui</Kind>
+		<Value>100</Value>         
+		<Radius>5</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>12</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>7FFF00</Color>
+	</Light>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_HSXXY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\HSXXY.PNG</TexPath>
+	<ThingName>Fire Properties Xianyuan</ThingName>	
+	<Desc>Immortal source transformed from endless years and condensed by the source. Consumption can restore 3 billion spiritual power.</Desc>
+	<Rate>12</Rate>
+	<Beauty>360</Beauty>
+	<ElementKind>Huo</ElementKind>
+	<MaxStack>1</MaxStack>
+	<Item Lable="LingStone">
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="200000"/>
+					<SalePrice Value="3000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="200000" />
+					<SalePrice Value="3000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="200000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<PhysicalLables>
+			<li>Hard2</li>
+			<li>HighDensity2</li>
+			<li>Heavy2</li>
+			<li>PhysicalLables_Huo</li>
+
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+		<NamePrefix>仙源,仙汫</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_HSXSY" count = "10"/>
+				<Item name = "Item_HSXY" count = "25"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			
+			<Modifier>ZT_XY</Modifier>
+
+		</Elixir>
+	</Item>
+	
+	<StoryBnts>
+			<li Name="炼化" Desc="尝试炼化仙源。"  Appoint="2" Story="Story_Item_XY" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
+			
+	</StoryBnts>
+	<Ling>
+		<AddionLing>250</AddionLing>
+		<AddionRadius>6</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>3</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>20</Absorption>
+		<Accommodate>600000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>100</Value>         
+		<Radius>5</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>12</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>CD5C5C</Color>
+	</Light>
+	</ThingDef>
+
+
+
+	<ThingDef Type="Item" Name="Item_TSXXY" Parent="RockBase">
+	<TexPath>Spr\Object\Y\TSXXY.PNG</TexPath>
+	<ThingName>Earth Properties</ThingName>	
+	<Desc>Immortal source transformed from endless years and condensed by the source. Consumption can restore 3 billion spiritual power.</Desc>
+	<Rate>12</Rate>
+	<Beauty>360</Beauty>
+	<ElementKind>Tu</ElementKind>
+	<MaxStack>1</MaxStack>
+	<Item Lable="LingStone">
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="200000"/>
+					<SalePrice Value="3000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="200000" />
+					<SalePrice Value="3000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="200000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<PhysicalLables>
+			<li>Gravel</li>
+			<li>HighDensity2</li>
+			<li>Heavy2</li>
+			<li>PhysicalLables_Tu</li>
+			<li>Blunt</li>
+	
+			<li>GreatThing_Ling</li>
+			
+		</PhysicalLables>
+		<NamePrefix>仙源,仙汫</NamePrefix>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_TSXY" count = "25"/>
+				<Item name = "Item_TSXSY" count = "10"/>
+			</CostItems>
+		</BeMade>
+		<Elixir>
+			
+			<Modifier>ZT_XY</Modifier>
+
+		</Elixir>
+	</Item>
+	<StoryBnts>
+			<li Name="炼化" Desc="尝试炼化仙源。"  Appoint="2" Story="Story_Item_XY" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
+			
+	</StoryBnts>
+	<Ling>
+		<AddionLing>250</AddionLing>
+		<AddionRadius>6</AddionRadius>
+		<AddionFailing>0.2</AddionFailing>
+		<AddionFailRadius>3</AddionFailRadius>
+		
+		<Attenuation>0.5</Attenuation>
+		<Absorption>20</Absorption>
+		<Accommodate>600000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>100</Value>         
+		<Radius>5</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	
+	<Light>
+		<Value>12</Value>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>2</Radius>
+		<Color>4B0082</Color>
+	</Light>
+	</ThingDef>
+
+	
+</List></ThingDefs>

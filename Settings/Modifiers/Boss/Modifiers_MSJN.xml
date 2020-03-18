@@ -1,0 +1,51 @@
+<ModifierDefs><List> 
+	
+  <Modifier Name="MSKC" Type="Normal">
+		<DisplayName>魔神开场buff</DisplayName>
+		<Desc>！。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>9000</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddV="-5"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="-0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="DTJFB" Type="Normal">
+		<DisplayName>单体减法宝栏</DisplayName>
+		<Desc>11。</Desc>
+		<MaxStack>5</MaxStack>
+		<Duration>900</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="-2"/><!--法宝数量6-->
+			
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="MS_QTCM" Type="Normal">
+		<DisplayName>群体沉默</DisplayName>
+		<Desc>12。</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>600</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="99999"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="99999"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="99999"/><!--术法吟唱时间加成 -1-->
+		</Properties>
+	</Modifier>
+	<Modifier Name="MS_DTQL" Type="Normal">
+		<DisplayName>单体强力</DisplayName>
+		<Desc>12。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="-0.8"/>
+			
+		</Properties>
+	</Modifier>
+	
+	
+</List></ModifierDefs>

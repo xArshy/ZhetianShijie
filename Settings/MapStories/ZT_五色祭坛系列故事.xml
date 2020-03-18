@@ -1,0 +1,69 @@
+<Stories><List>
+		
+	<Story Name="ZT_WSST"  Parent="BaseFillingStory">
+		<DisplayName>Five-color altar</DisplayName>
+		<Desc>[NAME]在[PLACE]It was heard that the five-colored altar not far from the ancient Forbidden City exudes a mysterious light. There seems to be something going on.</Desc>
+		<Selections>
+			<li>
+				<Display>The five-colored altar is unclear, is the station of the practitioners of the universe, or the emperor ’s eyes under the cloth of the universe, unspeakable, unspeakable.</Display>
+				<Condition>
+				<![CDATA[	
+				me:RandomInt(1,3) >= 2
+				]]>
+				</Condition>
+				<Tip>Good luck may destroy the door.</Tip>
+				<OKResult>
+			<![CDATA[	
+				story:RemoveBindItem();
+				local nR = me:RandomInt(1, 45); 
+				local nN = me:RandomInt(1,3);
+				local nt = me:RandomInt(1,4);
+				local nD = me:RandomFloat(0.2,1);
+				local nG = me:GetGLevel(1,12)
+				local tIL = {"Wood","Rock","Metal","Weapon"};
+				if nR <= 5 then
+					me:AddMsg(XT("[NAME]Near the five-colored altar, touch the east and the west, I go ,,, be[NAME]A large piece of five-colored god stone was picked up. Doomed you"));me:DropAwardItem("Item_WSSS",30);me:AddManyYaoShou(nil,nG*2,3,-1,"Item_PTZ");
+				elseif nR <= 16 then
+					me:AddMsg(XT("[NAME]Approaching the five-colored altar, several people floated in the sky."));
+					me:AddJoiners(nN,nt,nD,10,10,10,10,10);
+					me:AddJoiners(nN,nR,nD,10,10,10,10,10);
+				elseif nR <= 21 then
+					me:AddMsg(XT("[NAME]Some magic weapons were found in the altar."));me:DropRandomItem("FightFabao", 4, 12);
+				
+				elseif nR <= 24 then
+					me:AddMsg(XT("[NAME]On the side of the altar, I found a Sven Spectacled dog who kept choosing his head. Is this a special product of the earth? Sure enough, the world is full of wonders.[NAME]Find a town."));me:DropRandomItem(tIL[world:RandomInt(1,#tIL+1)], 7, 11, true);
+				elseif nR <= 28 then
+					me:AddMsg(XT("[NAME]When I saw a mysterious stone box in front of the altar, I found a magical power in it."));me:DropEsotericFromCache(story.ItemCache2, 1);
+				elseif nR <= 32 then
+					me:AddMsg(XT("[NAME]When I walked to the altar, I piously destroyed an old stone box in front of the altar, and found a secret book in it."));me:DropRandomItem("Esoterica",1);
+				elseif nR <= 37 then
+					 me:AddMsg(XT("[NAME]When praying in front of the altar, I was absent-minded, always felt that there was something on my knees, and my mind turned, and I started to dig, and I was actually dug[NAME]Found a lot of god iron."));
+					 me:DropAwardItem("Item_WSTJ",6); me:DropAwardItem("Item_ZYW",6); me:DropAwardItem("Item_JTBYB",6); me:DropAwardItem("Item_DLYJ",6); me:DropAwardItem("Item_XZ",6); 
+				elseif nR <= 40 then
+					 me:AddMsg(XT("[NAME]When praying in front of the altar, I was absent-minded, always felt that there was something on my knees, and my mind turned, and I started to dig, and I was actually dug[NAME]Found a lot of god iron."));
+					 me:DropAwardItem("Item_YYSY",6); me:DropAwardItem("Item_ZJST",6); me:DropAwardItem("Item_ST",6); me:DropAwardItem("Item_JTCYW",6); me:DropAwardItem("Item_YZBYB",6);
+				elseif nR <= 45 then
+						me:AddMsg(XT("[NAME]When praying in front of the altar, a magical power was found in it."));me:DropEsotericFromCache(story.ItemCache2, 1);
+				
+				end
+				]]>		
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+
+				me:AddMsg("[NAME]The five-colored altar was not found, and it was indeed secretly absorbed by the altar with a magic power of 25% as an sacrifice.");
+				me:ModifierProperty("NpcFight_FabaoPowerAddP",-0.25);story:FinishSecret()
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>Forget it, the five-color altar can't stand it.</Display>
+				<OKResult><![CDATA[	
+				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+</List></Stories>

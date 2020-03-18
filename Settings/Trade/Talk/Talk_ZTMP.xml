@@ -1,0 +1,80 @@
+<Defs><List>
+	<Def Name="Talk_ZTMP">
+		<Hate>
+			<li>If you come again, I will sacrifice the emperor soldiers!</li>
+			<li>I think your balance is the same as yours.</li>
+			<li>Your pockets are cleaner than your face, my god.</li>
+			<li>Are you afraid that you have not been beaten by the Holy Land?</li>
+		</Hate>
+		<Normal>
+			<li>Get what you need quickly.</li>
+			<li>Just one or two, is it necessary to do this?</li>
+		</Normal>
+		<Like>
+			<li>Yo, you are here.</li>
+			<li>Ok! It ’s you, do you remember the last time you had a drink with me at Drunk Fairy?</li>
+			<li>Oh my god, look who's here?</li>
+		</Like>
+		<Submiss>
+			<li>(Working) What do you want? I have everything. Do you want a lingerie?</li>
+			<li>I heard that the Holy Land is not very peaceful recently, but if you have money, you will be able to communicate with God.</li>
+			<li>Hey, you're here, and hurry up.</li>
+		</Submiss>
+		<ValueableTrade>
+			<li>It seems a bit overpriced, but you definitely don't care, right?</li>
+			<li>This bid. I think you can buy our holy place?</li>
+		</ValueableTrade>
+		<TryOkTrade>
+			<li>Tuck!</li>
+			<li>Hey, isn't it a bit more?</li>
+			<li>You bargain with me again, I'm on sale! !! !!</li>
+		</TryOkTrade>
+		<NoTrade>
+			<li>Are you here to smash the field?</li>
+			<li>No, this price? You look down on our treasures?</li>
+			<li>I even want to shoot our power to talk to you.</li>
+			<li>Hey! Will you count?</li>
+		</NoTrade>
+		<OkTrade>
+			<li>OK, come again next time!</li>
+			<li>First-hand money, first-hand goods, next time Yuan Shi cut out good things, call me.</li>
+		</OkTrade>
+		<GiftLike>
+			<li>Uh uh! I just want this stuff!</li>
+			<li>Actually know that I like this, it seems we are destined.</li>
+		</GiftLike>
+		<Task>
+			<li>Oops, it was just the right time.</li>
+			<li>Saved, saved, thank you in advance.</li>
+		</Task>
+		<TaskNeed>
+			<li>This is a good thing, but we are still missing something. Can you order more?</li>
+			<li>Thank you so much, but can anyone do it well? It's almost gone.</li>
+		</TaskNeed>
+		<LowValueGift>
+			<li>What kind of garbage is this?</li>
+			<li>Ok? Do not feed this to dogs.</li>
+			<li>(Throwing it to the ground) Come here, Ah Huang, do you like this?</li>
+		</LowValueGift>
+		<MidValueGift>
+			<li>This thing is ok, but for us we are useless for the time being.</li>
+			<li>(Nodded) It's okay, but we won't feel good about you for that.</li>
+			<li>(Stiff smile) It's a good thing. I took it and let the disciples share it. To be honest, I haven't changed my view on you because of this.</li>
+			<li>You are a good person!</li>
+		</MidValueGift>
+		<HighValueGift>
+			<li>Good stuff. But I will not appreciate you more for this.</li>
+			<li>It's so generous, the deity smiled, ah ha ha ha. Although it is precious, it is nothing special to me.</li>
+			<li>You are really atmospheric. However, such rare items are not very useful to me.</li>
+		</HighValueGift>
+		<NoEnoughFriendPoint>
+			<li>No, your face is too small.</li>
+			<li>Are you familiar with me? mock up?</li>
+		</NoEnoughFriendPoint>
+		<Invalid>
+			<li>What the hell? Not for sale!</li>
+			<li>You said I'm not your father, why should I sell you this? Forget it.</li>
+			<li>Want to be a son wow?</li>
+		</Invalid>
+	</Def>
+</List></Defs>

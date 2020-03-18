@@ -1,0 +1,46 @@
+<ModifierDefs><List>
+	<Modifier Name="Mibao_LD" Type="Normal">
+		<DisplayName>Shennong Pei</DisplayName>
+		<Desc>Like Shennong appendages.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+			<Skills>
+				<li Name="Medicine" LevelOver="15"/><!-- 岐黄 -->
+			</Skills>
+	</Modifier>
+	
+	<Modifier Name="Mibao_LD1" Type="Normal">
+		<DisplayName>Shennong Pei</DisplayName>
+		<Desc>Like Shennong appendages.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+			<Properties>
+			<li Name="DanMake_Speed" AddV="1"/>
+			<li Name="DanMake_YieldAddP" AddP="1"/>
+			
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Mibao_MS" Type="Normal">
+		<DisplayName>Manshusha</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+			<Properties>
+			<li Name="MindStateBaseValue" AddV="100"/>
+			<li Name="SpeedOfMindStateCoefficient" AddP="1"/>
+			
+		</Properties>
+	</Modifier>
+	
+	
+	
+</List></ModifierDefs>

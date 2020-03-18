@@ -1,0 +1,8 @@
+Group	Area	Name
+所属组	所属区域	植物名
+Normal	DisciplePlant	MSXZW
+Normal	DisciplePlant	JSXZW
+Normal	DisciplePlant	WSXZW
+Normal	DisciplePlant	SSXZW
+Normal	DisciplePlant	HSXZW
+Normal	DisciplePlant	TSXZW

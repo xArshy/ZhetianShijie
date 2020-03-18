@@ -1,0 +1,454 @@
+<Esotericas><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Esoterica Name="Gong_DJTG_LH_A1">
+		<DisplayName>Reincarnation</DisplayName>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\JSLH1.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>The celestial deity preached at the beginning of the century, the glorious pioneer of the celestial age.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]   Lifetime \nFive-dimensional attributes1 \nIncrease the basic spiritual value by 50 \nIncrease the life by 300[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_LH_1A</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJTG_LH_A1_1">
+		<DisplayName>Reincarnation</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\JSLH1.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>The world only confessed to the dead with evidence. But I don't know the double testimony of corpse and source.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    Second Life Body \nFive-dimensional attributes1 \nIncrease maximum psionic power 2000 \nAcquisition: Spiritualization \nAcquisition: Spirit Breath[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_LH_1A_1</Modifier>
+	<Magics>
+		<li>AbsorbLing_Aoe</li>
+		<li>BuidPuppet</li>
+		<li>SeachSoul</li>
+	</Magics>
+	
+	</Esoterica>
+	
+	<Esoterica Name="Gong_DJTG_LH_A1_2">
+		<DisplayName>Reincarnation</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\JSLH1.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>He has concealed many mysterious sermons in the late Taikoo period and participated in the war of Gods in the late Taikoo period.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    Third Life Body \nPlus Potential 3 \nPlus Spirit Recovery 2 \nPlus State of Mind[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_LH_1A_2</Modifier>
+	</Esoterica>
+	
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Esoterica Name="Gong_DJTG_LH_A2_WL">
+		<DisplayName>Unscrupulous</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\WL.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Boy, this is a murder weapon, you can't hold it back, let Dao surrender it.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]\nIncrease stealth value by 15 \nIncrease magic number by 1 \nAcquisition: \nNo good[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_LH_2A_WL</Modifier>
+		<Skills>
+			<li>ZT_WL</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Esoterica Name="Gong_DJTG_LH_A3">
+		<DisplayName>Fortune</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\JSY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Duan De's unique way of socializing.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]\nMagic number1\nImprove Qihai skill level 7\n Raise the limit level of the Imperial 7[/color][/size][/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_LH_3A</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_DJTG_LH_A3_1">
+		<DisplayName>Fortune</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\JSY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>Duan De's unique way of socializing.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]\nIncrease the maximum magic power of the magic weapon by 3 \nIncrease the magic magic recovery rate by 2 \nSignificantly increase the stealth value of 35[/color][/size][/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_LH_3A_1</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_DJTG_LH_A3_2">
+		<DisplayName>Fortune</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\JSY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>Duan De should also have a good relationship with the saint.</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]\nIncrease life by 500 \nDown by 50 \nIncrease maximum psionic power by 4000[/color][/size][/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_LH_3A_2</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Esoterica Name="Gong_DJTG_LH_B1">
+		<DisplayName>Reincarnation</DisplayName>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\JSLH2.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>It was most likely 200 years ago that the sky was covered, and it was very likely that he had dealt with the ruthless Emperor.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    Fourth Life Body \nFive-dimensional attributes1 \nPlus furnace ceiling 2500 \nPlus practice speed1[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_LH_1B</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJTG_LH_B1_1">
+		<DisplayName>Reincarnation</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\JSLH2.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>Duan Deben was a close friend of Emperor Ye Tian, ​​and his alternative sermon lived for fifteen thousand years, surpassing the ordinary imperial emperor.\n Of course I can't add you so much</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    Five generations \nplus life 300 \nplus maximum spiritual power 4 \nplus personal return 2[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_LH_1B_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJTG_LH_B1_2">
+		<DisplayName>Reincarnation</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\JSLH2.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>And Gou Chen Guxing, as far as possible reincarnation, alternative sermons.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]    Sixth Body \nPlus Shield Coefficient 1 \nPlus Shield Value 2.5 \nPlus Five Elements Damage Reduction 0.25[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_LH_1B_2</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="Gong_DJTG_DG_B1">
+		<DisplayName>Gendo</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\YD1.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>The second generation of Duan De demonstrated through Yuanshu, is the ancestor of Yuantian Master.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]   Yizhongtian \nLearned magical powers: multiple techniques of moving mountains and reclamation \nLearned magical powers: Fengshui magical powers \nLearned magical powers: Prayer for Heaven Sutra \nLearned magical powers: Wind Moon Fantasyland[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_DG_1B</Modifier>
+		<Magics>
+			<li>BuildMine</li>
+			<li>BuildLand</li>
+			<li>BuildSea</li>
+			<li>BuildLing</li>
+			<li>BuildLingWater</li>
+			<li>BuildFertileSoil</li>
+			<li>ClosedDoor_Gong1</li>
+			<li>BuildBody</li>
+			<li>FengshuiItemCreate</li>
+			<li>FengshuiItemOpen</li>
+			<li>PrayForSun</li>
+			<li>PrayForRainstorm</li>
+			<li>PrayForFohn</li>
+			<li>PrayForDustStorm</li>
+			<li>PrayForMiasma</li>
+			<li>PrayForLightningStorm</li>
+			<li>AbsorbGong_2</li>
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Gong_DJTG_DG_B2">
+		<DisplayName>Gendo</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\YD2.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>Accept the heaven and earth aura, the art of creation.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]    Double Sky \nPlus Sky Condemnation Value 30 \nPlus Alchemy Yield 2 \nAdd Alchemy Level Cap 10 \nLearn Two Fortune Telling Powers \nLearn Super Powers: Refining Spirit Crystals \nLearn Three Kinds of Tempering Powers[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_DG_2B</Modifier>
+		<Magics>
+			<li>Prophesy</li>
+			<li>Prophesy_MapStory</li>
+			<li>TianMoWu</li>
+			<li>LingCrystalMake</li>
+			<li>SoulCrystalYouPowerUp</li>
+			<li>SoulCrystalLingPowerUp</li>
+			<li>MakeSoulCrystal</li>
+		</Magics>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="Gong_DJTG_LH_B3_DD">
+		<DisplayName>Broken German</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\DD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>You can't be too dude.</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]\nPower of Additive Method 5 \nSubtraction Cooldown 0.2 \nMaximum Level of Additive Method 7 \nLearned[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_LH_3B_DD</Modifier>
+		<Skills>
+			<li>DJTG_DD</li>
+		</Skills>
+	</Esoterica>
+	
+	<!-- ==========================分割线========================== -->
+	
+	<Esoterica Name="Gong_DJTG_SJ_C1">
+		<DisplayName>Reincarnation</DisplayName>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\JSLH3.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Discuss the immortal medicine with Ye Tiandi without any evidence</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]   Seventh generation \nAdditional power5 \nNumber of magic powers1 \nReduce spell cost by 0.2[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_SJ_1C</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJTG_SJ_C1_1">
+		<DisplayName>Reincarnation</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\JSLH3.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>The Emperor of the Heavens was 550,000 years old. Ye Fan eighth should reasonably be seated, but there was no sign of becoming seated. This year, he went to see Duan De and funeral for the eighth time. 2333</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    The eighth    \n Increase the maximum shield level by 14\n lowering condemnation 60[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_SJ_1C_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJTG_SJ_C1_2">
+		<DisplayName>Reincarnation</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\JSLH3.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>After awakening, ascend to the red dust fairy. As far as you go. .</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]   Ninth Life \nMaximum Power of Additive Power3 \nAdditional Power of Power5 \nAdditional Power of Power6[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_SJ_1C_2</Modifier>
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_DJTG_SJ_C2_YQ">
+		<DisplayName>Rangu Shinto</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\LGSD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>One of the best in the chaos era Shinto cultivation system</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]\nNumber of magic weapons 1 \nIncrease personal rebirth 3 \nLearn Mystery: God of Chaos[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_SJ_2C_YQ</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_DJTG_SJ_C1_YQ_1">
+		<DisplayName>Rangu Shinto</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\LGSD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>One of the best in the chaos era Shinto cultivation system</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]\nIncrease the maximum spell skill level by 8 \nIncrease magic power4 \nIncrease magic number1[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_SJ_2C_YQ_1</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_DJTG_SJ_C1_YQ_2">
+		<DisplayName>Rangu Shinto</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\LGSD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>One of the best in the chaos era Shinto cultivation system</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]\nReduce the cooldown of spells by 0.5 \nIncrease the time of the arrival of the scourge 3000 \nIncrease the recovery speed of internal injuries 5[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_SJ_2c_YQ_2</Modifier>
+	</Esoterica>
+	
+		
+	<Esoterica Name="Gong_DJTG_SJ_C3">
+		<DisplayName>Hades</DisplayName>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\MH.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>The founder of the land government</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    Wraith \nMaximum bonus level is 8th level \nPlus exploratory exploration speed 5 \nDecrease scourge 30[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_SJ_3C</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJTG_SJ_C3_1">
+		<DisplayName>Hades</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\MH.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>The founder of the land government</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]    Overcast \nPlus Shield Coefficient1 \nReduces Mana Cost by 0.2 \nPlus Shield Strength Value2[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_SJ_3C_1</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_DJTG_HL_D1">
+		<DisplayName>Third Kill</DisplayName>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\DSSZ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>Engraved in the flesh, one of the strongest offensives in the past</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    Carnal array \nPlus Aura Recovery Speed ​​4 \nAdd Matrix Level 15 \nLearn Mystery: Third Kill Formation[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_HL_1D</Modifier>
+		<Skills>
+			<li>DJTG_DSS</li>
+			<li>DJTG_DSZ</li>
+		</Skills>
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_DJTG_HL_D2">
+		<DisplayName>Reincarnation</DisplayName>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\LHY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Duan De in the human world, the reincarnation of the ninth century, each life bears the ultimate fruit, and a reincarnation, and finally ninety-nine return to one.</Desc>
+		<GLevel>God</GLevel>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    Jiuyin \nPlus Refiner Success Rate \nPlus Refiner Speed ​​\nAdd Magical Tool Success Rate[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_HL_2D</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJTG_HL_D2_1">
+		<DisplayName>Reincarnation</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\LHY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>Duan De in the human world, the reincarnation of the ninth century, each life bears the ultimate fruit, and a reincarnation, and finally ninety-nine return to one.</Desc>
+		<GLevel>God2</GLevel>
+		<EffectDesc>[size=10][color=#D06508]    归一    \nRefiner Quality Bonus \nRefined Artifact Probability \nLearned[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_HL_2D_1</Modifier>
+		<Fabaos>
+			<li>DJTG_LHY</li>
+		</Fabaos>
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_DJTG_HL_ld">
+		<DisplayName>Immortal pill</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\BSY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>In the seventh century, the result of discussions with Ye Tiandi turned the immortal medicine into a secret technique.</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]\nAcquisition of Mystery: \nImmortal Elixir[/color][/size]</EffectDesc>
+		<Skills>
+			<li>DJTG_BSY</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_DJTG_XT_F1">
+		<DisplayName>Digging the ancestral grave</DisplayName>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\WZF.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>The sturdy life does not need to be explained. Duan fat man threatens people in a different way. He digs his ancestor's grave and digs his tomb with his mouth closed.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]        \nIncrease the spiritual power by a large margin 4 \nAdd the condemnation value 30 \nAdd the magic power 10[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_XT_1F</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJTG_XT_F1_1">
+		<DisplayName>Dig the tomb</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\WZF.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>The sturdy life does not need to be explained. Duan fat man threatens people in a different way. He digs his ancestor's grave and digs his tomb with his mouth closed.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]        \nPlus Heaven's Condemnation Value 50 \nAdditional Power of Power10 \nAdditional Power of Recovery 2[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_XT_1F_1</Modifier>
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_DJTG_XT_F2">
+		<DisplayName>Reincarnation causality</DisplayName>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\LHYG.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>The reincarnation of the Ninth Century brought a more powerful attribute improvement to Duan De.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Jin</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]       \nPlus Aura Recovery Speed ​​3 \nPlus Aura Maximum 4 \nMinus Condemnation 20[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_XT_2F</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_DJTG_XT_F2_1">
+		<DisplayName>Reincarnation causality</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\LHYG.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>The reincarnation of the Ninth Century brought a more powerful attribute improvement to Duan De.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]       \nPlus shield value 2 \nAdd bonus magic power recovery 2 \nMinus condemnation value 40[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_XT_2F_1</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_DJTG_XT_ZD">
+		<DisplayName>Red Dust Fairy</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_DJTG_DJ\ZT_DJTG_ZD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>100</Difficulty>
+		<Desc>Obtained the sermon, the reincarnation of the ninth, imprinted the nine reincarnation, and the assembly was positive.</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]\nJia Shou Yuan and Ling Hui Multiplier \nPlus Thirty Primal Distractions \nPlus Furnace Ding \nPlus Artifact Success Rate \nAdditional Power and Addition Power[/color][/size]</EffectDesc>
+		<Modifier>Gong_DJTG_XT_DZ</Modifier>
+		<GodSoulCount>30</GodSoulCount>
+	</Esoterica>
+	
+	
+	
+	
+</List></Esotericas>

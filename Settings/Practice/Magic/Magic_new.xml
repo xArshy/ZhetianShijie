@@ -1,0 +1,196 @@
+<Magics><List>
+	
+	
+	<Magic Name="CCXG1" Type="Class">
+		<DisplayName>Shoveling grass</DisplayName>
+		<Desc>Consume a lot of spiritual power to pull the minerals deep in the ground out of the ground.</Desc>
+		<Icon>Spr\Object\JN\ZT_HYJ\CCXG1.png</Icon>
+		<SelectMode>Single</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<SelectTarget>NoBuilding|InLight|Walkable</SelectTarget>
+		<ClassName>Magic_BuildMine</ClassName>
+		<TargetDesc>Please choose a clearing</TargetDesc>
+		<CostLing>100000</CostLing>
+	</Magic>
+	
+	
+	<Magic Name="BZM_LXCB" Type="Class">
+		<DisplayName>Thunder Breath</DisplayName>
+		<Desc>Consume a large amount of aura to cross a magic weapon once, and consume 250 years of life.</Desc>
+		<Icon>Spr\Object\JN\ZT_MJ\BZM_LXCB.png</Icon>
+		<Kind>None</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>36</Param1>
+		<CostLing>90000000</CostLing>
+		<CostAge>250</CostAge>
+		<Penalty>0</Penalty>
+		<SelectMode>Single</SelectMode>
+		<ClassName>BZM_LXSC</ClassName>
+		<SelectTarget>Item</SelectTarget>
+		<TargetDesc>Please choose a magic weapon.</TargetDesc>
+		<ItemCost>
+			<li name="Item_ThunderAir" count="1"/>
+		</ItemCost>
+	</Magic>
+	<Magic Name="BZM_WXCB" Type="Class">
+		<DisplayName>Shenyuan Quebing</DisplayName>
+		<Desc>Choose the same magic weapon, and consume all five attribute sources to strengthen it. (Sacrifice caster maximum aura value is 10%)</Desc>
+		<Icon>Spr\Object\JN\ZT_MJ\BZMWXCB.png</Icon>
+		<Kind>None</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>80</Param1>
+		<CostLing>1000000</CostLing>
+		<CostAge>1000</CostAge>
+		<Penalty>0</Penalty>
+		<SelectMode>Single</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<ClassName>BZM_WXCB</ClassName>
+		<SelectTarget>Item</SelectTarget>
+		<TargetDesc>Please choose a magic weapon.</TargetDesc>
+		<ItemCost>
+			<li name="Item_WSXSY" count="25"/>
+			<li name="Item_JSXSY" count="25"/>
+			<li name="Item_MSXSY" count="25"/>
+			<li name="Item_SSXSY" count="25"/>
+			<li name="Item_HSXSY" count="25"/>
+			<li name="Item_TSXSY" count="25"/>
+		</ItemCost>
+	</Magic>
+	
+	<Magic Name="TTMG_1_3" Type="Class">
+		<DisplayName>Swallow</DisplayName>
+		<Desc>Consume a large amount of Reiki to absorb a monk's furnace ceiling (10%) for your own use.</Desc>
+		<Icon>Spr\Object\JN\ZT_TTMG\TTMG.png</Icon>
+		<Kind>None</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>66</Param1>
+		<CostLing>50000</CostLing>
+		<CostAge>550</CostAge>
+		<Penalty>10</Penalty>
+		<ScoreBase>-500</ScoreBase>
+		<ScoreBad>500</ScoreBad>
+		<SelectMode>Single</SelectMode>
+		<ClassName>TTMG_1_3</ClassName>
+		<SelectTarget>Npc</SelectTarget>
+		<TargetDesc>Please choose a monk.</TargetDesc>
+		
+	</Magic>
+	<Magic Name="TTMG_2_1" Type="Class">
+		<DisplayName>Mortalization</DisplayName>
+		<Desc>Consume a small amount of Reiki to absorb the five-dimensionality of a monk for his own use.</Desc>
+		<Icon>Spr\Object\JN\ZT_TTMG\HZ.png</Icon>
+		<Kind>None</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>20</Param1>
+		<CostLing>10000</CostLing>
+		<CostAge>250</CostAge>
+		<ScoreBase>-500</ScoreBase>
+		<ScoreBad>500</ScoreBad>
+		<SelectMode>Single</SelectMode>
+		<ClassName>TTMG_2_1</ClassName>
+		<SelectTarget>Npc</SelectTarget>
+		<TargetDesc>Please choose a monk.</TargetDesc>
+		
+	</Magic>
+	<Magic Name="TTMG_2_2" Type="Class">
+		<DisplayName>Devouring the Origin</DisplayName>
+		<Desc>Absorbing a monk with a constitution can get a bonus of 10% of all attributes (combat attributes) up to 10 times.</Desc>
+		<Icon>Spr\Object\JN\ZT_TTMG\TCBY.png</Icon>
+		<Kind>None</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>20</Param1>
+		<CostLing>10000</CostLing>
+		<CostAge>250</CostAge>
+		<ScoreBase>-500</ScoreBase>
+		<ScoreBad>500</ScoreBad>
+		<SelectMode>Single</SelectMode>
+		<ClassName>TTMG_2_2</ClassName>
+		<SelectTarget>Npc</SelectTarget>
+		<TargetDesc>Please choose a monk.</TargetDesc>
+	</Magic>
+	<Magic Name="TTMG_5_1" Type="Class">
+		<DisplayName>Mingdao</DisplayName>
+		<Desc>Absorb Jindan, a monk, can absorb up to one billion Jindan Reiki.</Desc>
+		<Icon>Spr\Object\JN\ZT_TTMG\ZWMD.png</Icon>
+		<Kind>None</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>20</Param1>
+		<CostLing>100000</CostLing>
+		<CostAge>1000</CostAge>
+		<ScoreBase>-500</ScoreBase>
+		<ScoreBad>500</ScoreBad>
+		<SelectMode>Single</SelectMode>
+		<ClassName>TTMG_5_1</ClassName>
+		<SelectTarget>Npc</SelectTarget>
+		<TargetDesc>Please choose a monk.</TargetDesc>
+		
+	</Magic>
+	<Magic Name="TTMG_6_2" Type="Class">
+		<DisplayName>Immortal Fantasy</DisplayName>
+		<Desc>Absorb the origin of a constitutional monk and increase the upper limit of different skill levels.</Desc>
+		<Icon>Spr\Object\JN\ZT_TTMG\BMHJ.png</Icon>
+		<Kind>None</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>20</Param1>
+		<CostLing>100000</CostLing>
+		<CostAge>1000</CostAge>
+		<ScoreBase>-500</ScoreBase>
+		<ScoreBad>500</ScoreBad>
+		<SelectMode>Single</SelectMode>
+		<ClassName>TTMG_6_2</ClassName>
+		<SelectTarget>Npc</SelectTarget>
+		<TargetDesc>Please choose a monk.</TargetDesc>
+		
+	</Magic>
+	<Magic Name="TTMG_6_3" Type="Class">
+		<DisplayName>Immortal</DisplayName>
+		<Desc>Absorbing a monk's life percentage of 10 turns into his own life.</Desc>
+		<Icon>Spr\Object\JN\ZT_TTMG\BSBM.png</Icon>
+		<Kind>None</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>20</Param1>
+		<CostLing>100000</CostLing>
+		<ScoreBase>-500</ScoreBase>
+		<ScoreBad>500</ScoreBad>
+		<SelectMode>Single</SelectMode>
+		<ClassName>TTMG_6_3</ClassName>
+		<SelectTarget>Npc</SelectTarget>
+		<TargetDesc>Please choose a monk.</TargetDesc>
+		
+	</Magic>
+	<Magic Name="TTMG_11_2" Type="Class">
+		<DisplayName>The origin of the device</DisplayName>
+		<Desc>Absorb a magic weapon's attack attributes, thereby increasing the character's own magic weapon's attack attributes.</Desc>
+		<Icon>Spr\Object\JN\ZT_TTMG\QZBY.png</Icon>
+		<Kind>None</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>20</Param1>
+		<CostLing>100000</CostLing>
+		<CostAge>1000</CostAge>
+		<ScoreBase>-500</ScoreBase>
+		<ScoreBad>500</ScoreBad>
+		<SelectMode>Single</SelectMode>
+		<ClassName>TTMG_11_2</ClassName>
+		<SelectTarget>Item</SelectTarget>
+		<TargetDesc>Please choose a magic weapon.</TargetDesc>
+		
+	</Magic>
+	<Magic Name="TTMG_11_3" Type="Class">
+		<DisplayName>Origin of Law</DisplayName>
+		<Desc>Absorb a 10% magic power of a monk into your own magic power.</Desc>
+		<Icon>Spr\Object\JN\ZT_TTMG\FZBY.png</Icon>
+		<Kind>None</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>20</Param1>
+		<CostLing>100000</CostLing>
+		<CostAge>1000</CostAge>
+		<ScoreBase>-500</ScoreBase>
+		<ScoreBad>500</ScoreBad>
+		<SelectMode>Single</SelectMode>
+		<ClassName>TTMG_11_3</ClassName>
+		<SelectTarget>Npc</SelectTarget>
+		<TargetDesc>Please choose a monk.</TargetDesc>
+		
+	</Magic>
+	
+</List></Magics>

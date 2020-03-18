@@ -1,0 +1,658 @@
+<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="Huo_Base" Parent="HuoBase">   Name=模板代码
+
+
+	<MaxStack>1</MaxStack>  Maximum stacking
+
+	<Beauty>36</Beauty>   美观
+	<MaxHitPoints>6200</MaxHitPoints>  生命值
+	<ElementKind>Huo</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	
+	
+	<Element>
+		<Kind>Huo</Kind>   五行属性
+		<Value>12</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	
+	</ThingDef>
+
+	
+	<ThingDef Type="Item" Name="HUO_CH" Parent="HuoBase">   Name=模板代码
+	<ThingName>Red fire</ThingName> 名称
+	<TexPath>Spr\Object\DJ\CH.PNG</TexPath>  素材图片位置
+	<Desc>The outermost layer of fire in the fire domain can be increased by 100% magic power and 100% magic power after refining.</Desc>  说明
+	<MaxStack>1</MaxStack>  最大堆叠
+	<Rate>3</Rate>   品质
+	<Beauty>12</Beauty>   美观
+	<Item>
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="1000"/>
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="1000" />
+					<SalePrice Value="500" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="1000" />
+					<SalePrice Value="0" />
+				</li>
+				</Prices>
+		
+		<FabaoSuffix>赤火</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>PhysicalLables_Huo</li>
+			<li>GreatThing_Attack</li>
+
+		</PhysicalLables>
+		<BeMaterial>    
+			<NamePrefix>赤炎,红莲</NamePrefix>   制作物品前缀
+			<CostMultiplier>0.5</CostMultiplier>   消耗倍数，越低消耗越少
+ 
+			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
+			
+			<MaxHitPointsPerNum>30</MaxHitPointsPerNum>   
+			<AttackSpeedWhenBeMain>0.3</AttackSpeedWhenBeMain>   制作武器后攻击速度加成
+			<SharpDamageMultiplier>30</SharpDamageMultiplier>    制作武器后锋利伤害加成
+			<BluntDamageMultiplier>30</BluntDamageMultiplier>    制作武器后厚重伤害加成
+			<LingDamageMultiplier>30</LingDamageMultiplier>     制作武器后灵力伤害加成
+
+			<SharpDefenceMultiplier>30</SharpDefenceMultiplier>   制作武器后锋利伤害防御加成
+			<BluntDefenceMultiplier>30</BluntDefenceMultiplier>   制作武器后厚重伤害防御加成
+			<LingDefenceMultiplier>30</LingDefenceMultiplier>     制作武器后灵力伤害防御加成
+
+			<ColdInsulationMultiplier>30</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>150</HeatInsulationMultiplier>
+
+			<WorkSpeedCoefficientWhenBeMain>1</WorkSpeedCoefficientWhenBeMain>
+			
+			<LingNumberRate>0.3</LingNumberRate>   灵力转化品质？
+			
+
+			<BeautyWhenBeMain>30</BeautyWhenBeMain>    制作后美观
+			<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>     制作后五行属性强度
+			<RateWhenBeMain>3</RateWhenBeMain>    制作后品阶
+			
+			<WorktoMakeRate>-0.5</WorktoMakeRate>
+			<WorktoBuildRate>-0.5</WorktoBuildRate>
+		</BeMaterial>
+		
+	</Item>
+	<StoryBnts>
+			<li Name="Refining" Desc="Try to refine the red fire."  Appoint="2" Story="HUO_CH" Cost="5" Icon="Spr\Object\DJ\CH.PNG"/>
+	</StoryBnts>
+	
+	<Heat>
+		<Value>300</Value>
+		<Radius>5</Radius>
+		<RoomValue>150</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	
+	<Light>
+		<Value>12</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>FF0000</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="HUO_LH" Parent="HuoBase">   Name=模板代码
+	<ThingName>Blue fire</ThingName> 名称
+	<TexPath>Spr\Object\DJ\LH.PNG</TexPath>  素材图片位置
+	<Desc>The flame on the second floor of the fire domain has a temperature of up to six baidus. Refining can increase the upper limit of two spiritual powers and the upper limit of magic powers.</Desc>  说明
+	<MaxStack>1</MaxStack>  最大堆叠
+	<Rate>4</Rate>   品质
+	<Beauty>36</Beauty>   美观	
+	<Item>   所属类型 木材
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="1500"/>
+					<SalePrice Value="800" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="1500" />
+					<SalePrice Value="800" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="1500" />
+					<SalePrice Value="0" />
+				</li>
+				</Prices>
+		<FabaoSuffix>蓝焰,蓝炎,青烟</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMaterial>    
+			<NamePrefix>蓝焰,净焰</NamePrefix>   制作物品前缀
+			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
+			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
+			<MaxHitPointsPerNum>45</MaxHitPointsPerNum>   
+			<AttackSpeedWhenBeMain>0.45</AttackSpeedWhenBeMain>   制作武器后攻击速度加成
+			<SharpDamageMultiplier>45</SharpDamageMultiplier>    制作武器后锋利伤害加成
+			<BluntDamageMultiplier>45</BluntDamageMultiplier>    制作武器后厚重伤害加成
+			<LingDamageMultiplier>45</LingDamageMultiplier>     制作武器后灵力伤害加成
+			<SharpDefenceMultiplier>45</SharpDefenceMultiplier>   制作武器后锋利伤害防御加成
+			<BluntDefenceMultiplier>45</BluntDefenceMultiplier>   制作武器后厚重伤害防御加成
+			<LingDefenceMultiplier>45</LingDefenceMultiplier>     制作武器后灵力伤害防御加成
+			<ColdInsulationMultiplier>45</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>300</HeatInsulationMultiplier>
+			<WorkSpeedCoefficientWhenBeMain>1</WorkSpeedCoefficientWhenBeMain>
+			<LingNumberRate>0.45</LingNumberRate>   灵力转化品质
+			<BeautyWhenBeMain>45</BeautyWhenBeMain>    制作后美观
+			<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>     制作后五行属性强度
+			<RateWhenBeMain>4</RateWhenBeMain>    制作后品阶
+			<WorktoMakeRate>-0.5</WorktoMakeRate>
+			<WorktoBuildRate>-0.5</WorktoBuildRate>
+		</BeMaterial>
+	</Item>
+	<StoryBnts>
+			<li Name="Refining" Desc="Try to refine the blue fire."  Appoint="2" Story="HUO_LH" Cost="5" Icon="Spr\Object\DJ\LH.PNG"/>
+	</StoryBnts>
+	<Heat>
+		<Value>600</Value>
+		<Radius>5</Radius>
+		<RoomValue>300</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	
+	<Light>
+		<Value>14</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>6495ED</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="HUO_BH" Parent="HuoBase">   Name=模板代码
+	<ThingName>Milky flame</ThingName> 名称
+	<TexPath>Spr\Object\DJ\BH.PNG</TexPath>  素材图片位置
+	<Desc>The flame in the third layer of the fire domain has a temperature of up to nine hundred baidus. Refining can increase the recovery rate of three spiritual powers and the value of shield strength.</Desc>  说明
+	<MaxStack>1</MaxStack>  最大堆叠
+	<Rate>5</Rate>   品质
+	<Beauty>36</Beauty>   美观	
+	<Item>   所属类型 木材
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="2000"/>
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="2000" />
+					<SalePrice Value="1000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="2000" />
+					<SalePrice Value="0" />
+				</li>
+				</Prices>
+		<FabaoSuffix>白焰,白炎</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMaterial>    
+			<NamePrefix>虚炎,涤焰</NamePrefix>   制作物品前缀
+			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
+			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
+			<MaxHitPointsPerNum>60</MaxHitPointsPerNum>   
+			<AttackSpeedWhenBeMain>0.60</AttackSpeedWhenBeMain>   制作武器后攻击速度加成
+			<SharpDamageMultiplier>60</SharpDamageMultiplier>    制作武器后锋利伤害加成
+			<BluntDamageMultiplier>60</BluntDamageMultiplier>    制作武器后厚重伤害加成
+			<LingDamageMultiplier>60</LingDamageMultiplier>     制作武器后灵力伤害加成
+			<SharpDefenceMultiplier>60</SharpDefenceMultiplier>   制作武器后锋利伤害防御加成
+			<BluntDefenceMultiplier>60</BluntDefenceMultiplier>   制作武器后厚重伤害防御加成
+			<LingDefenceMultiplier>60</LingDefenceMultiplier>     制作武器后灵力伤害防御加成
+			<ColdInsulationMultiplier>60</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>450</HeatInsulationMultiplier>
+			<WorkSpeedCoefficientWhenBeMain>1</WorkSpeedCoefficientWhenBeMain>
+			<LingNumberRate>0.6</LingNumberRate>   灵力转化品质
+			<BeautyWhenBeMain>60</BeautyWhenBeMain>    制作后美观
+			<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>     制作后五行属性强度
+			<RateWhenBeMain>5</RateWhenBeMain>    制作后品阶
+			<WorktoMakeRate>-0.5</WorktoMakeRate>
+			<WorktoBuildRate>-0.5</WorktoBuildRate>
+		</BeMaterial>
+	</Item>
+	<StoryBnts>
+			<li Name="Refining" Desc="Try to refine the emulsion flame."  Appoint="2" Story="HUO_BH" Cost="5" Icon="Spr\Object\DJ\BH.PNG"/>
+	</StoryBnts>
+	<Heat>
+		<Value>900</Value>
+		<Radius>5</Radius>
+		<RoomValue>450</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Light>
+		<Value>16</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>E0FFFF</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="HUO_WH" Parent="HuoBase">   Name=模板代码
+	<ThingName>Black light flame</ThingName> 名称
+	<TexPath>Spr\Object\DJ\WH.PNG</TexPath>  素材图片位置
+	<Desc>The flame of the fourth layer of the fire domain has a temperature of up to 1,500 Baidu. Refining can reduce the consumption of the four percent magic method and increase the knockback value of the four percent magic weapon.</Desc>  说明
+	<MaxStack>1</MaxStack>  最大堆叠
+	<Rate>6</Rate>   品质
+	<Beauty>36</Beauty>   美观	
+	<Item>   所属类型 木材
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="3000"/>
+					<SalePrice Value="1500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="1500" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="0" />
+				</li>
+				</Prices>
+		<FabaoSuffix>乌光焰,冥炎</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMaterial>    
+			<NamePrefix>乌光焰,冥炎,暗阎</NamePrefix>   制作物品前缀
+			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
+			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
+			<MaxHitPointsPerNum>75</MaxHitPointsPerNum>   
+			<AttackSpeedWhenBeMain>0.75</AttackSpeedWhenBeMain>   制作武器后攻击速度加成
+			<SharpDamageMultiplier>75</SharpDamageMultiplier>    制作武器后锋利伤害加成
+			<BluntDamageMultiplier>75</BluntDamageMultiplier>    制作武器后厚重伤害加成
+			<LingDamageMultiplier>75</LingDamageMultiplier>     制作武器后灵力伤害加成
+			<SharpDefenceMultiplier>75</SharpDefenceMultiplier>   制作武器后锋利伤害防御加成
+			<BluntDefenceMultiplier>75</BluntDefenceMultiplier>   制作武器后厚重伤害防御加成
+			<LingDefenceMultiplier>75</LingDefenceMultiplier>     制作武器后灵力伤害防御加成
+			<ColdInsulationMultiplier>75</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>750</HeatInsulationMultiplier>
+			<WorkSpeedCoefficientWhenBeMain>1</WorkSpeedCoefficientWhenBeMain>
+			<LingNumberRate>0.75</LingNumberRate>   灵力转化品质
+			<BeautyWhenBeMain>75</BeautyWhenBeMain>    制作后美观
+			<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>     制作后五行属性强度
+			<RateWhenBeMain>6</RateWhenBeMain>    制作后品阶
+			<WorktoMakeRate>-0.5</WorktoMakeRate>
+			<WorktoBuildRate>-0.5</WorktoBuildRate>
+		</BeMaterial>
+	</Item>
+	<StoryBnts>
+			<li Name="Refining" Desc="Try to refine the flame."  Appoint="2" Story="HUO_WH" Cost="5" Icon="Spr\Object\DJ\WH.PNG"/>
+	</StoryBnts>
+	<Heat>
+		<Value>1500</Value>
+		<Radius>5</Radius>
+		<RoomValue>750</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Light>
+		<Value>20</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>212121</Color>   光颜色
+	</Light>
+	</ThingDef>
+		
+	<ThingDef Type="Item" Name="HUO_JH" Parent="HuoBase">   Name=模板代码
+	<ThingName>Golden flame</ThingName> 名称
+	<TexPath>Spr\Object\DJ\JH.PNG</TexPath>  素材图片位置
+	<Desc>The flames of the fifth floor of the fire domain have a temperature of up to two thousand degrees. Refining can increase the interval between five magic weapon attacks and a large number of Daoxing values.</Desc>  说明
+	<MaxStack>1</MaxStack>  最大叠
+	<Rate>9</Rate>   品质
+	<Beauty>36</Beauty>   美观	
+	<Item>   所属类型 木材
+	<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="4000"/>
+					<SalePrice Value="2000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="4000" />
+					<SalePrice Value="2000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="4000" />
+					<SalePrice Value="0" />
+				</li>
+				</Prices>
+		<FabaoSuffix>金焰,圣炎</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMaterial>    
+			<NamePrefix>金焰,圣炎,明焰</NamePrefix>   制作物品前缀
+			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
+			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
+			<MaxHitPointsPerNum>90</MaxHitPointsPerNum>   
+			<AttackSpeedWhenBeMain>0.90</AttackSpeedWhenBeMain>   制作武器后攻击速度加成
+			<SharpDamageMultiplier>90</SharpDamageMultiplier>    制作武器后锋利伤害加成
+			<BluntDamageMultiplier>90</BluntDamageMultiplier>    制作武器后厚重伤害加成
+			<LingDamageMultiplier>90</LingDamageMultiplier>     制作武器后灵力伤害加成
+			<SharpDefenceMultiplier>90</SharpDefenceMultiplier>   制作武器后锋利伤害防御加成
+			<BluntDefenceMultiplier>90</BluntDefenceMultiplier>   制作武器后厚重伤害防御加成
+			<LingDefenceMultiplier>90</LingDefenceMultiplier>     制作武器后灵力伤害防御加成
+			<ColdInsulationMultiplier>90</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>900</HeatInsulationMultiplier>
+			<WorkSpeedCoefficientWhenBeMain>1</WorkSpeedCoefficientWhenBeMain>
+			<LingNumberRate>0.9</LingNumberRate>   灵力转化品质
+			<BeautyWhenBeMain>90</BeautyWhenBeMain>    制作后美观
+			<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>     制作后五行属性强度
+			<RateWhenBeMain>6</RateWhenBeMain>    制作后品阶
+			<WorktoMakeRate>-0.5</WorktoMakeRate>
+			<WorktoBuildRate>-0.5</WorktoBuildRate>
+		</BeMaterial>
+	</Item>
+	<StoryBnts>
+			<li Name="Refining" Desc="Try to refine the golden flame."  Appoint="2" Story="HUO_JH" Cost="5" Icon="Spr\Object\DJ\JH.PNG"/>
+	</StoryBnts>
+	<Heat>
+		<Value>2000</Value>
+		<Radius>5</Radius>
+		<RoomValue>1200</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Light>
+		<Value>24</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>CDCD00</Color>   光颜色
+	</Light>
+	</ThingDef>
+		
+	<ThingDef Type="Item" Name="HUO_ZH" Parent="HuoBase">   Name=模板代码
+	<ThingName>Ziqi Donglai</ThingName> 名称
+	<TexPath>Spr\Object\DJ\ZH.PNG</TexPath>  素材图片位置
+	<Desc>The flame of the sixth floor of the fire domain has a temperature of up to three thousand degrees. Refining can increase the value of six furnaces and reduce a large amount of condemnation.</Desc>  说明
+	<MaxStack>1</MaxStack>  最大叠
+	<Rate>9</Rate>   品质
+	<Beauty>36</Beauty>   美观	
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="6000"/>
+					<SalePrice Value="4000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="6000" />
+					<SalePrice Value="4000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="6000" />
+					<SalePrice Value="0" />
+				</li>
+				</Prices>
+		<FabaoSuffix>紫焰,紫炎,紫气</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMaterial>    
+			<NamePrefix>紫焰,紫炎,紫气</NamePrefix>   制作物品前缀
+			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
+			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
+			<MaxHitPointsPerNum>120</MaxHitPointsPerNum>   
+			<AttackSpeedWhenBeMain>1.20</AttackSpeedWhenBeMain>   制作武器后攻击速度加成
+			<SharpDamageMultiplier>120</SharpDamageMultiplier>    制作武器后锋利伤害加成
+			<BluntDamageMultiplier>120</BluntDamageMultiplier>    制作武器后厚重伤害加成
+			<LingDamageMultiplier>120</LingDamageMultiplier>     制作武器后灵力伤害加成
+			<SharpDefenceMultiplier>120</SharpDefenceMultiplier>   制作武器后锋利伤害防御加成
+			<BluntDefenceMultiplier>120</BluntDefenceMultiplier>   制作武器后厚重伤害防御加成
+			<LingDefenceMultiplier>120</LingDefenceMultiplier>     制作武器后灵力伤害防御加成
+			<ColdInsulationMultiplier>120</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>1200</HeatInsulationMultiplier>
+			<WorkSpeedCoefficientWhenBeMain>1</WorkSpeedCoefficientWhenBeMain>
+			<LingNumberRate>1.20</LingNumberRate>   灵力转化品质
+			<BeautyWhenBeMain>120</BeautyWhenBeMain>    制作后美观
+			<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>     制作后五行属性强度
+			<RateWhenBeMain>9</RateWhenBeMain>    制作后品阶
+			<WorktoMakeRate>-0.5</WorktoMakeRate>
+			<WorktoBuildRate>-0.5</WorktoBuildRate>
+		</BeMaterial>
+	</Item>
+	<StoryBnts>
+			<li Name="Refining" Desc="Try the purple air to the east."  Appoint="2" Story="HUO_ZH" Cost="5" Icon="Spr\Object\DJ\ZH.PNG"/>
+	</StoryBnts>
+	<Heat>
+		<Value>3000</Value>
+		<Radius>5</Radius>
+		<RoomValue>1800</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Light>
+		<Value>24</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>5D478B</Color>   光颜色
+	</Light>
+	</ThingDef>
+		
+	<ThingDef Type="Item" Name="HUO_WSSH" Parent="HuoBase">   Name=模板代码
+	<ThingName>Five-Colored Fog</ThingName> 名称
+	<TexPath>Spr\Object\DJ\WSSH.PNG</TexPath>  素材图片位置
+	<Desc>The flame of the seventh floor of the fire domain has a temperature of up to 4,500 Baidu. Refining can increase the magic power of seven magic treasures and the bonus of all spells.</Desc>  说明
+	<MaxStack>1</MaxStack>  最大叠
+	<Rate>10</Rate>   品质
+	<Beauty>36</Beauty>   美观	
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="8000"/>
+					<SalePrice Value="4000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="8000" />
+					<SalePrice Value="4000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="8000" />
+					<SalePrice Value="0" />
+				</li>
+				</Prices>
+		<FabaoSuffix>五色神炎,五彩天火,五色真炎</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMaterial>    
+			<NamePrefix>五色神炎,五彩天火,五色真炎</NamePrefix>   制作物品前缀
+			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
+			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
+			<MaxHitPointsPerNum>160</MaxHitPointsPerNum>   
+			<AttackSpeedWhenBeMain>1.60</AttackSpeedWhenBeMain>   制作武器后攻击速度加成
+			<SharpDamageMultiplier>160</SharpDamageMultiplier>    制作武器后锋利伤害加成
+			<BluntDamageMultiplier>160</BluntDamageMultiplier>    制作武器后厚重伤害加成
+			<LingDamageMultiplier>160</LingDamageMultiplier>     制作武器后灵力伤害加成
+			<SharpDefenceMultiplier>160</SharpDefenceMultiplier>   制作武器后锋利伤害防御加成
+			<BluntDefenceMultiplier>160</BluntDefenceMultiplier>   制作武器后厚重伤害防御加成
+			<LingDefenceMultiplier>160</LingDefenceMultiplier>     制作武器后灵力伤害防御加成
+			<ColdInsulationMultiplier>160</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>3000</HeatInsulationMultiplier>
+			<WorkSpeedCoefficientWhenBeMain>1</WorkSpeedCoefficientWhenBeMain>
+			<LingNumberRate>1.60</LingNumberRate>   灵力转化品质
+			<BeautyWhenBeMain>160</BeautyWhenBeMain>    制作后美观
+			<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>     制作后五行属性强度
+			<RateWhenBeMain>10</RateWhenBeMain>    制作后品阶
+			<WorktoMakeRate>-0.5</WorktoMakeRate>
+			<WorktoBuildRate>-0.5</WorktoBuildRate>
+		</BeMaterial>
+	</Item>
+	<StoryBnts>
+			<li Name="Refining" Desc="Try the five-color mist."  Appoint="2" Story="HUO_WCSH" Cost="5" Icon="Spr\Object\DJ\WSSH.PNG"/>
+	</StoryBnts>
+	<Heat>
+		<Value>4500</Value>
+		<Radius>5</Radius>
+		<RoomValue>3000</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Light>
+		<Value>30</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>E0E0E0</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="HUO_QCSH" Parent="HuoBase">   Name=模板代码
+	<ThingName>Colorful Flame Fog</ThingName> 名称
+	<TexPath>Spr\Object\DJ\QCSH.PNG</TexPath>  素材图片位置
+	<Desc>The flames of the eight layers of the fire domain have a temperature of up to 6,000 degrees. Refining can increase the full attribute bonus of eight magic weapons.</Desc>  说明
+	<MaxStack>1</MaxStack>  最大叠
+	<Rate>11</Rate>   品质
+	<Beauty>36</Beauty>   美观	
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="10000"/>
+					<SalePrice Value="8000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="10000" />
+					<SalePrice Value="8000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="10000" />
+					<SalePrice Value="0" />
+				</li>
+				</Prices>
+		<FabaoSuffix>七色神炎,虹彩真火,七色真炎</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Huo</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Attack</li>
+		</PhysicalLables>
+		<BeMaterial>    
+			<NamePrefix>七色神炎,虹彩真火,七色真炎</NamePrefix>   制作物品前缀
+			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
+			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
+			<MaxHitPointsPerNum>200</MaxHitPointsPerNum>   
+			<AttackSpeedWhenBeMain>2</AttackSpeedWhenBeMain>   制作武器后攻击速度加成
+			<SharpDamageMultiplier>200</SharpDamageMultiplier>    制作武器后锋利伤害加成
+			<BluntDamageMultiplier>200</BluntDamageMultiplier>    制作武器后厚重伤害加成
+			<LingDamageMultiplier>200</LingDamageMultiplier>     制作武器后灵力伤害加成
+			<SharpDefenceMultiplier>200</SharpDefenceMultiplier>   制作武器后锋利伤害防御加成
+			<BluntDefenceMultiplier>200</BluntDefenceMultiplier>   制作武器后厚重伤害防御加成
+			<LingDefenceMultiplier>200</LingDefenceMultiplier>     制作武器后灵力伤害防御加成
+			<ColdInsulationMultiplier>200</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>3000</HeatInsulationMultiplier>
+			<WorkSpeedCoefficientWhenBeMain>1</WorkSpeedCoefficientWhenBeMain>
+			<LingNumberRate>2</LingNumberRate>   灵力转化品质
+			<BeautyWhenBeMain>200</BeautyWhenBeMain>    制作后美观
+			<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>     制作后五行属性强度
+			<RateWhenBeMain>11</RateWhenBeMain>    制作后品阶
+			<WorktoMakeRate>-0.5</WorktoMakeRate>
+			<WorktoBuildRate>-0.5</WorktoBuildRate>
+		</BeMaterial>
+	</Item>
+	<StoryBnts>
+			<li Name="Refining" Desc="Try the colorful mist."  Appoint="2" Story="HUO_QCSH" Cost="5" Icon="Spr\Object\DJ\QCSH.PNG"/>
+	</StoryBnts>
+	<Heat>
+		<Value>6000</Value>
+		<Radius>5</Radius>
+		<RoomValue>5000</RoomValue>
+		<Failing>0.6</Failing>
+		<FailRadius>1</FailRadius>
+	</Heat>
+	<Light>
+		<Value>36</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>8A8A8A</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+	
+</List></ThingDefs>

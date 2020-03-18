@@ -1,0 +1,664 @@
+<ModifierDefs><List>
+	<Modifier Name="ZTDrug_AL" Type="Normal">
+		<DisplayName>Dark lotus</DisplayName>
+		<Desc>After eating, the five elements will reduce injury by 1% and resistance by 60%. Side effects are deducted from the 10,000 magic power cap.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.01"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.01"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.01"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.01"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.01"/>
+			<li Name="NpcLingMaxValue" AddV="-10000"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="ZTDrug_YYC" Type="Normal">
+		<DisplayName>Yin Yang grass</DisplayName>
+		<Desc>After eating, the bonus is 4 times the speed of practice for 5 days, and the side effects will lead to more hunger.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>3000</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="4"/>
+			<li Name="NutritionConsumeConstant" AddP="2"/>
+			<li Name="NutritionToJingYuanK" AddV="-0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_YMC" Type="Normal">
+		<DisplayName>Cinnamon leaf</DisplayName>
+		<Desc>After taking a little deduction, reduce the time of the arrival of Tianjie by 1000s and increase the maximum spiritual power by 3000</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>-1,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="3000"/>
+			<li Name="NeckCountdownAddV" AddV="-1000"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_JMY" Type="Normal">
+		<DisplayName>Jingmingye</DisplayName>
+		<Desc>Take to increase the success rate of breaking the bottleneck by 0.1, and gain 5000 spiritual power increase, side effects reduce the speed of practice 2</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="5000"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="-2"/>
+			<li Name="PracticeRateAddPFromDan" AddV="0.1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_SMG" Type="Normal">
+		<DisplayName>Shuang Ming Guo</DisplayName>
+		<Desc>It lasts for 300s after eating, which can reduce the number of road trips by 100 points. After the duration, it is unconscious for ten days due to intense yin and yang impact.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>300</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<EndModifier>ZTDrug_SMG1</EndModifier>
+		<Properties>
+			<li Name="AbilityLvAddV" AddV="-100"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_SMG1" Type="Normal">
+		<DisplayName>Shuangminggu side effects</DisplayName>
+		<MaxStack>999</MaxStack>
+		<Duration>6000</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Damages>
+			<li Part="Brain" Damage="LostSoul"/>
+		</Damages>
+	</Modifier>
+	<Modifier Name="ZTDrug_HYY" Type="Normal">
+		<DisplayName>Mixed leaves</DisplayName>
+		<Desc>Immune to all injuries within half a day after taking it, and after the duration is over, the quarterly spiritual power cap is deducted.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>300</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<EndModifier>ZTDrug_HYY1</EndModifier>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="9999"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="9999"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="9999"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="9999"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="9999"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_HYY1" Type="Normal">
+		<DisplayName>Mixed leaves</DisplayName>
+		<MaxStack>9999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="-0.1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_SYC" Type="Normal">
+		<DisplayName>Sanyangchun</DisplayName>
+		<Desc>Taking it for 10 days will double the speed of practice and reduce side effects by 1 point.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<EndModifier>ZTDrug_SYC1</EndModifier>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_SYC1" Type="Normal">
+		<DisplayName>Sanyangchun side effects</DisplayName>
+		<MaxStack>9999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,-1,0</BaseFive>
+	</Modifier>
+	<Modifier Name="ZTDrug_JC" Type="Normal">
+		<DisplayName>Sword cluster</DisplayName>
+		<Desc>After taking it, increase the power of 1.5 basic magic weapon, and at the same time take damage from sword Qi in the sword cluster.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" BAddV="1.5"/>
+		</Properties>
+		<Damages>
+			<li Part="TheWholeBody" Damage="LingSpillsInjury_Sp"/>
+		</Damages>
+	</Modifier>
+	<Modifier Name="ZTDrug_SJG" Type="Normal">
+		<DisplayName>Death Root</DisplayName>
+		<Desc>After taking it, the advent time of thunderbolt was reduced by 3600s, and the intensity of 60 thunderbolt was increased for 5 days. After the duration, it was reduced by 90 lines, and the practice speed was increased by 0.5 times permanently.</Desc>
+		<MaxStack>9999</MaxStack>
+		<Duration>3600</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<EndModifier>ZTDrug_SJG1</EndModifier>
+		<Properties>
+			<li Name="NeckCountdownAddV" AddV="-3600"/>
+			<li Name="GodPenaltyAddV" AddV="60"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_SJG1" Type="Normal">
+		<DisplayName>Death Root Side Effects</DisplayName>
+		<MaxStack>9999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
+			<li Name="AbilityLvAddV" AddV="-90"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_SLS" Type="Normal">
+		<DisplayName>Dead bamboo shoots</DisplayName>
+		<Desc>Stunned for 3 days after taking it, summoned the enemy to beat themselves, why? I do not know.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<EndModifier>ZTDrug_SJG1</EndModifier>
+		<LuaClassName>modifier_SLS</LuaClassName>
+	</Modifier>
+	<Modifier Name="ZTDrug_SLS1" Type="Normal">
+		<DisplayName>Dead bamboo shoots</DisplayName>
+		<Desc>Stunned for 3 days after taking it, summoned the enemy to beat themselves, why? I do not know.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Damages>
+			<li Part="Brain" Damage="LostSoul"/>
+		</Damages>
+	</Modifier>
+	<Modifier Name="ZTDrug_DCC" Type="Normal">
+		<DisplayName>Tuft grass</DisplayName>
+		<Desc>After taking it, the spiritual recovery value is increased by 0.5 points.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="0.5"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_TSZG" Type="Normal">
+		<DisplayName>Iron twig</DisplayName>
+		<Desc>After eating, increase the shield value by 0.1 and reduce the training rate of side effects by 0.2.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.1"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="-0.2"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_ZWX" Type="Normal">
+		<DisplayName>Purple MSI</DisplayName>
+		<Desc>Get some mysterious heritage after taking it.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		 <LuaClassName>modifier_ZWX</LuaClassName>
+	</Modifier>
+	<Modifier Name="ZTDrug_SXM" Type="Normal">
+		<DisplayName>Shen Xue Mu</DisplayName>
+		<Desc>Get 10% bonus on properties after taking it.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		 <Properties>
+				<li Name="MaxAge" AddV="1000"/><!--寿元-->
+				<li Name="MindStateBaseValue" AddV="10"/><!--心情基础值-->
+				<li Name="IntelligenceSkillEXPConstant" AddP="0.3"/><!--学习速度-->
+				<li Name="VisionRadius" AddP="0.1"/><!--感知范围-->
+				<li Name="MoveSpeed" AddP="0.1"/><!--移动速度-->
+				<li Name="RecoveryPower" AddP="0.1"/><!--自然恢复力-->
+				<li Name="MagicDamageRecoveryPowerAddV" AddV="0.1"/><!--内门伤自然恢复力-->
+				<li Name="FatigueConsumeConstant" AddP="-0.1"/><!--精力消耗速度加成-->
+				<li Name="NutritionConsumeConstant" AddP="-0.1"/><!--食物消耗速度加成-->
+				<li Name="WaterConsumeConstant" AddP="-0.1"/><!--饮水消耗速度加成-->
+				<li Name="HappyConsumeConstant" AddP="-0.1"/><!--娱乐消耗速度加成-->
+				<li Name="ToleranceTMin" AddV="-10"/><!--最低极限温度-->
+				<li Name="ToleranceTMax" AddV="10"/><!--最高极限温度-->
+				<li Name="ComfyTMin" AddV="-10"/><!--最低舒适温度-->
+				<li Name="ComfyTMax" AddV="10"/><!--最高舒适温度-->
+				<li Name="PainTolerance" AddV="1"/><!--疼痛忍受极限-->
+				<li Name="IntelligenceSkillEXPConstant" AddP="0.1"/><!--学习速度加成-->
+				<li Name="PracticeFoodConsumeConstant" AddP="0.1"/><!--精元消耗速度-->
+				<li Name="FatigueConsumeConstant" AddP="-0.1"/><!--精力消耗速度-->
+				
+				战斗
+				<li Name="NpcFight_BaseHitChance" AddV="0.1"/><!--战斗命中-->
+				<li Name="NpcFight_BaseDodgeChance" AddV="0.1"/><!--战斗闪避-->
+				<li Name="NpcFight_FabaoPowerAddP" AddP="0.1"/><!--法宝威力加成-->
+				<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.1"/><!--法宝灵气恢复速度加成-->
+				<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.1"/><!--法宝灵气最大值加成-->
+				<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="0.1"/><!--法宝击退距离加成-->
+				<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.1"/><!--法宝飞行速度加成-->
+				<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0.1"/><!--法宝转向速度加成-->
+				<li Name="NpcFight_FabaoRepelResistanceAddV" AddP="0.1"/><!--法宝击退距离抗性-->
+				<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="0.1"/><!--法宝拖尾长度加成-->
+				<li Name="NpcFight_SpellLingCostAddP" AddP="-0.1"/><!--术法灵气消耗加成-->
+				<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/><!--术法吟唱时间加成-->
+				<li Name="NpcFight_SpellPowerAddP" AddP="0.1"/><!--术法伤害加成-->
+				<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.1"/><!--术法冷却时间加成-->
+				<li Name="NpcFight_ShieldConversionRate" AddP="0.1"/><!--护盾强度加值-->
+				<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.1"/><!--护盾强度加成-->
+				<li Name="NpcFight_FabaoNum" AddV="1"/><!--法宝数量-->
+				
+				
+				修行
+				<li Name="PracticeRateAddPFromDan" AddP="0.1"/><!--Bottleneck breakthrough probability bonus coefficient-->
+				<li Name="ExperienceNeckTimeCostCoefficient" AddP="-0.1"/><!--历练型瓶颈时间放大系数-->
+				<li Name="PotentialOfBasepracticeAddValue" AddV="0.1"/><!--潜力值-->
+				<li Name="GodPenaltyAddV" AddV="10"/><!--天谴，正的加天谴的。-->
+				<li Name="MaxAccumulativeLingAddV" AddV="1000"/><!--炉鼎值-->
+				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.1"/><!--瓶颈突破概率加成系数-->
+				<li Name="InspirationCoefficient" AddP="0.1"/><!--领悟悟性-->
+				<li Name="LingAbsorbSpeed" AddP="0.1"/><!--灵气吸收速度-->
+				<li Name="NpcLingMaxValue" AddV="10000"/><!--基础灵气最大值-->
+				<li Name="WorldMapFlySpeed" AddP="0.1"/><!--历练飞行速度-->
+				<li Name="WorldMapFlySpeedAddP" AddP="-0.1"/><!--历练飞行速度加成-->
+				<li Name="ExperiencePrestigeAddP" AddP="0.1"/><!--历练型声望放大系数-->
+				<li Name="EsotericaNum" AddV="99"/><!--Number of cheats-->
+				<li Name="AbilityLvAddV" AddV="20"/><!--Daoxian-->
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_JHZ" Type="Normal">
+		<DisplayName>Soul Diffuser</DisplayName>
+		<Desc>Stunned for 9 days after taking it. After waking up, she increased her consciousness by 2 points, and she had a maximum of 20 spiritual power.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>5400</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<EndModifier>ZTDrug_JHZ1</EndModifier>
+		<Damages>
+			<li Part="Brain" Damage="LostSoul"/>
+		</Damages>
+	</Modifier>
+	<Modifier Name="ZTDrug_HYC" Type="Normal">
+		<DisplayName>Thick source grass</DisplayName>
+		<Desc>After taking it, increase the five-dimensional attributes by 1 point.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+	</Modifier>
+	<Modifier Name="ZTDrug_JY" Type="Normal">
+		<DisplayName>Thick source grass</DisplayName>
+		<Desc>Increases Spirit Recovery by 50 within a short time after consumption for 3 days</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>	
+		<li Name="LingAbsorbSpeed" AddV="50"/><!--基础灵气最大值-->	
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_LYBX" Type="Normal">
+		<DisplayName>Six leaf white beard</DisplayName>
+		<Desc>Increase mood basic value 20 and improve mood stability for 3 days after eating</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>	
+		<li Name="MindStateBaseValue" AddV="20"/><!--基础灵气最大值-->	
+		<li Name="SpeedOfMindStateCoefficient" AddV="10"/><!--基础灵气最大值-->	
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_LHY" Type="Normal">
+		<DisplayName>Lin Hanye</DisplayName>
+		<Desc>Increases the power of surgery by 2 times for 4 days after consumption, and reduces the power of surgery by 4 for 6 days.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>2400</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<EndModifier>ZTDrug_LHY1</EndModifier>
+		<Properties>	
+		<li Name="NpcFight_SpellPowerAddP" AddP="2"/><!--基础灵气最大值-->	
+		
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_LHY1" Type="Normal">
+		<DisplayName>Lin Hanye</DisplayName>
+	
+		<MaxStack>1</MaxStack>
+		<Duration>3600</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>	
+		<li Name="NpcFight_SpellPowerAddP" AddP="-4"/><!--基础灵气最大值-->	
+		
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_HG" Type="Normal">
+		<DisplayName>Magic mushroom</DisplayName>
+		<Desc>After taking 6,000 yuan, you will directly break through a realm.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<EndModifier>ZTDrug_HG</EndModifier>
+		<Damages>
+			<li Part="Brain" Damage="LostSoul"/>
+		</Damages>
+	</Modifier>
+	<Modifier Name="ZTDrug_JHZ1" Type="Normal">
+		<DisplayName>Soul Diffuser</DisplayName>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>2,0,0,0,0</BaseFive>
+		 <Properties>	
+		<li Name="NpcLingMaxValue" AddP="0.2"/><!--基础灵气最大值-->	
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_CL" Type="Normal">
+		<DisplayName>Red lotus</DisplayName>
+		<Desc>After taking it permanently increase the magic power by 10% and reduce the magic power by 20%</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		 <Properties>	
+		<li Name="NpcFight_FabaoPowerAddP" AddP="-0.2"/><!--基础灵气最大值-->	
+		<li Name="NpcFight_SpellPowerAddP" AddP="0.1"/><!--基础灵气最大值-->	
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_FX" Type="Normal">
+		<DisplayName>Burning fairy</DisplayName>
+		<Desc>After taking it permanently increase the magic power by 10% and reduce the magic power by 20%</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		 <Properties>	
+		<li Name="NpcFight_FabaoPowerAddP" AddP="0.1"/><!--基础灵气最大值-->	
+		<li Name="NpcFight_SpellPowerAddP" AddP="-0.2"/><!--基础灵气最大值-->	
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_XYC" Type="Normal">
+		<DisplayName>Clover</DisplayName>
+		<Desc>Permanently increase combat level 1 after consumption, reduce side effects by level 1</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>2400</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Skills>	
+		<li Name="Fight" LevelOver="1"/>
+		<li Name="FightSkill" LevelOver="-1"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="ZTDrug_FXY" Type="Normal">
+		<DisplayName>Feng Xiye</DisplayName>
+		<Desc>Permanently increase the magic skill level by 1 and reduce the magic weapon level by 1</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>2400</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Skills>	
+		<li Name="Fabao" LevelOver="-1"/>
+		<li Name="FightSkill" LevelOver="1"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="ZTDrug_GJZ" Type="Normal">
+		<DisplayName>Tricky bamboo</DisplayName>
+		<Desc>She died completely after taking it.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Damages>
+			<li Part="Brain" Damage="LostSoul"/>
+		</Damages>
+	</Modifier>
+	<Modifier Name="ZTDrug_LX" Type="Normal">
+		<DisplayName>Old beard</DisplayName>
+		<Desc>After taking it, it will permanently increase the life expectancy by 200 yuan and increase the thunder value by 10.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		 <Properties>	
+		<li Name="MaxAge" AddV="200"/><!--基础灵气最大值-->	
+		<li Name="GodPenaltyAddV" AddV="10"/><!--基础灵气最大值-->	
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_CBS" Type="Normal">
+		<DisplayName>Changbai ginseng</DisplayName>
+		<Desc>After taking it, it will permanently increase 300 yuan</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		 <Properties>	
+		<li Name="MaxAge" AddV="300"/><!--基础灵气最大值-->	
+		
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_ZRH" Type="Normal">
+		<DisplayName>Velvet flowers</DisplayName>
+		<Desc>Increase combat dodge by 50% within 1 day after taking it.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>600</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		 <Properties>	
+		<li Name="NpcFight_BaseDodgeChance" AddV="0.5"/><!--基础灵气最大值-->	
+		</Properties>
+	</Modifier>
+	<Modifier Name="ZTDrug_YS" Type="Normal">
+		<DisplayName>Youshen</DisplayName>
+		<Desc>After taking it, it will permanently reduce the life of 200 yuan and reduce the value of 10 thunder.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		 <Properties>	
+		<li Name="MaxAge" AddV="-200"/><!--基础灵气最大值-->	
+		<li Name="GodPenaltyAddV" AddV="-10"/><!--基础灵气最大值-->	
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="ZTDrug_JM1" Type="Normal">
+		<DisplayName>One of the nine</DisplayName>
+		<Desc>After eating, it will add 600 years of life, reduce 50 road trips, reduce 25 thunderstorms, and increase the reduction of 0.1 metal damage.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="600"/>
+			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="GodPenaltyAddV" AddV="-25"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.1"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZTDrug_JM2" Type="Normal">
+		<DisplayName>One of the nine</DisplayName>
+		<Desc>After eating, it will add 600 years of life, reduce 50 road trips, reduce 25 thunderstorms, and increase the damage reduction of 0.1 wood.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="600"/>
+			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="GodPenaltyAddV" AddV="-25"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.1"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZTDrug_JM3" Type="Normal">
+		<DisplayName>One of the nine</DisplayName>
+		<Desc>After eating, it will add 600 years of life, reduce 50 road trips, reduce 25 thunderstorms, and increase the water damage reduction by 0.1.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="600"/>
+			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="GodPenaltyAddV" AddV="-25"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.1"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZTDrug_JM4" Type="Normal">
+		<DisplayName>One of the nine</DisplayName>
+		<Desc>After eating, it will add 600 years of life, reduce 50 road trips, reduce 25 thunder, and increase fire damage reduction by 0.1.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="600"/>
+			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="GodPenaltyAddV" AddV="-25"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.1"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZTDrug_JM5" Type="Normal">
+		<DisplayName>One of the nine</DisplayName>
+		<Desc>After eating it, it will add 600 years of life, reduce 50 road trips, reduce 25 thunderstorms, and increase the damage reduction of 0.1 soil properties.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="600"/>
+			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="GodPenaltyAddV" AddV="-25"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.1"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZTDrug_JM6" Type="Normal">
+		<DisplayName>One of the nine</DisplayName>
+		<Desc>After eating, it will add 600 years of life, reduce 50 road trips, reduce 25 thunderstorms, and increase the shield strength coefficient by 0.1.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="600"/>
+			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="GodPenaltyAddV" AddV="-25"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.1"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZTDrug_JM7" Type="Normal">
+		<DisplayName>One of the nine</DisplayName>
+		<Desc>After eating, it will add 600 years of life, reduce 50 lines, reduce 25 thunder and increase the power of 5 magic weapons.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="600"/>
+			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="GodPenaltyAddV" AddV="-25"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="5"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZTDrug_JM8" Type="Normal">
+		<DisplayName>One of the nine</DisplayName>
+		<Desc>After eating, it will add 600 years of life, reduce 50 lines, reduce 25 thunder and increase the power of 5 spells.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="600"/>
+			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="GodPenaltyAddV" AddV="-25"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="5"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZTDrug_JM9" Type="Normal">
+		<DisplayName>One of the nine</DisplayName>
+		<Desc>After eating, it will add 600 years of life, reduce 50 road trips, reduce 25 thunder and calamity, increase the spiritual power by 5 times, and absorb 5 times.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="600"/>
+			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="GodPenaltyAddV" AddV="-25"/>
+			<li Name="NpcLingMaxValue" AddP="5"/>
+			<li Name="LingAbsorbSpeed" AddP="5"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZTDrug_JM" Type="Normal">
+		<DisplayName>Nine Mysterious Pills</DisplayName>
+		<Desc>Add 6000 years of life after eating, reduce 500 road trips, reduce 250 thunderbolts, increase the spiritual power 10 times, absorb 10 times the magic power, increase the power of 10 spells, increase the power of 10 spells, and increase the strength factor of 1 The five elements reduce injuries by 0.5.</Desc>
+		<MaxStack>999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="10000"/>
+			<li Name="AbilityLvAddV" AddV="-1500"/><!--道行加值-->
+			<li Name="GodPenaltyAddV" AddV="-250"/>
+			<li Name="NpcLingMaxValue" AddP="10"/>
+			<li Name="LingAbsorbSpeed" AddP="10"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="10"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="10"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="1"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.5"/>
+		</Properties>
+	</Modifier> 
+</List></ModifierDefs>

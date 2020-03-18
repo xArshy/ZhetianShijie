@@ -1,0 +1,366 @@
+<SkillTree><List>
+	<Node Name="Gong_THJ_LH_A1" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_LH_A1</Esoterica>
+		<DisplayName>皇朝传承</DisplayName>
+		<Level>Qi</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_THJ_LH_A1_1</li>
+			<li>Gong_THJ_LH_A1_2</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_THJ_LH_A1_1" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_LH_A1_1</Esoterica>
+		<DisplayName>皇朝传承</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_THJ_LH_A1_2" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_LH_A1_2</Esoterica>
+		<DisplayName>皇朝传承</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_THJ_LH_A2_XKDSY" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_LH_A2_XKDSY</Esoterica>
+		<DisplayName>玄龙正道</DisplayName>
+		<Level>Qi</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>1000</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_THJ_LH_A3" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_LH_A3</Esoterica>
+		<DisplayName>器韵龙道</DisplayName>
+		<Level>Qi</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_THJ_LH_A3_1</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_THJ_LH_A3_1" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_LH_A3_1</Esoterica>
+		<DisplayName>器韵龙道</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+		<Node Name="Gong_THJ_LH_B1" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_LH_B1</Esoterica>
+		<DisplayName>龙气蕴神</DisplayName>
+		<Level>Dan1</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_THJ_LH_B1_1</li>
+			<li>Gong_THJ_LH_B1_2</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_THJ_LH_B1_1" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_LH_B1_1</Esoterica>
+		<DisplayName>龙气蕴神</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_THJ_LH_B1_2" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_LH_B1_2</Esoterica>
+		<DisplayName>龙气蕴神</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_THJ_LH_B3_SDSS" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_LH_B3_SDSS</Esoterica>
+		<DisplayName>真龙护体</DisplayName>
+		<Level>Dan1</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,8,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_THJ_DG_B1" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_DG_B1</Esoterica>
+		<DisplayName>皇脉寻龙</DisplayName>
+		<Level>Dan1</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	<Node Name="Gong_THJ_SJ_C1" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_SJ_C1</Esoterica>
+		<DisplayName>四极龙胎</DisplayName>
+		<Level>Dan2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_THJ_SJ_C1_1</li>
+			<li>Gong_THJ_SJ_C1_2</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_THJ_SJ_C1_1" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_SJ_C1_1</Esoterica>
+		<DisplayName>四极龙胎</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_THJ_SJ_C1_2" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_SJ_C1_2</Esoterica>
+		<DisplayName>四极龙胎</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	
+	
+	<Node Name="Gong_THJ_SJ_C3" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_SJ_C3</Esoterica>
+		<DisplayName>气蕴龙体</DisplayName>
+		<Level>Dan2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_THJ_SJ_C3_1</li>
+		</Layers>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,9,0,9,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_THJ_SJ_C3_1" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_SJ_C3_1</Esoterica>
+		<DisplayName>气蕴龙体</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_THJ_HL_D1" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_HL_D1</Esoterica>
+		<DisplayName>太皇经化龙篇</DisplayName>
+		<Level>God</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_THJ_HL_D1_1</li>
+			<li>Gong_THJ_HL_D1_2</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,9</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_THJ_HL_D1_1" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_HL_D1_1</Esoterica>
+		<DisplayName>太皇经化龙篇</DisplayName>
+		<Level>None</Level>
+	</Node>
+	<Node Name="Gong_THJ_HL_D1_2" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_HL_D1_2</Esoterica>
+		<DisplayName>太皇经化龙篇</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_THJ_HL_D2" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_HL_D2</Esoterica>
+		<DisplayName>太皇圣剑</DisplayName>
+		<Level>God</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_THJ_HL_D2_1</li>
+		</Layers>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_THJ_HL_D2_1" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_HL_D2_1</Esoterica>
+		<DisplayName>太皇圣剑</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	<Node Name="Gong_THJ_HL_ld" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_HL_ld</Esoterica>
+		<DisplayName>龙气圣术</DisplayName>
+		<Level>God</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>10,10,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_THJ_XT_F1" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_XT_F1</Esoterica>
+		<DisplayName>太皇刻图</DisplayName>
+		<Level>God2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_THJ_XT_F1_1</li>
+		</Layers>
+		<PreUnit>
+			<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,9</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	<Node Name="Gong_THJ_XT_F1_1" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_XT_F1_1</Esoterica>
+		<DisplayName>太皇刻图</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+
+	
+	<Node Name="Gong_THJ_XT_TDQ" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_TDQ</Esoterica>
+		<DisplayName>逆行伐仙</DisplayName>
+		<Level>God2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_THJ_XT_ZD" Gong="Gong_THJ">
+		<Esoterica>Gong_THJ_XT_ZD</Esoterica>
+		<DisplayName>红尘仙</DisplayName>
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+			<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--	<li></li>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+</List></SkillTree> 

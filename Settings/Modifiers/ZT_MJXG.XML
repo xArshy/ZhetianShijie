@@ -1,0 +1,271 @@
+<ModifierDefs><List>
+	
+	<!-- ==========================技能1========================== -->
+	<Modifier Name="ZT_JZM_L" Type="Normal">
+		<DisplayName>Pro Secret</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="150"/>
+			<li Name="MindStateBaseValue" AddV="150"/>
+			<li Name="SpeedOfMindStateCoefficient" AddV="150"/>
+			
+			<li Name="SpeedOfMindStateCoefficientByMoods" AddV="-1.5"/>
+			
+			<li Name="PainTolerance" AddV="-1.5"/>
+		</Properties>
+		<Skills>
+			<li Name="Barrier" LevelOver="15"/>
+		</Skills>
+		
+	</Modifier>
+	
+	<Modifier Name="ZT_JZM_Z" Type="Normal">
+		<DisplayName>Secretaries</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="PracticeFoodRecoveryConstant" AddP="5"/>
+			<li Name="RecoveryPower" AddP="15"/>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="15"/>
+		
+			<li Name="ToleranceTMin" AddV="-1500"/>
+			<li Name="ToleranceTMax" AddV="1500"/>
+			<li Name="MaxHp" AddV="3000"/>
+			<li Name="MaxAge" AddV="1000"/>
+			<li Name="LingAbsorbSpeed" AddP="5"/>
+			
+		</Properties>
+		<Skills>
+			<li Name="Medicine" LevelOver="15"/>
+		</Skills>
+	</Modifier>
+	
+	
+	<Modifier Name="ZT_JZM_X" Type="Normal">
+		<DisplayName>行字秘</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MoveSpeed" AddP="30"/>
+			<li Name="WorldMapFlySpeed" AddP="20"/>
+			<li Name="WorldMapFlySpeedAddP" AddP="20"/>
+		
+			<li Name="ExperienceFindSpeedAddV" AddV="0.5"/>
+			<li Name="LeadExperienceAddtion" AddV="10"/>
+			
+			<li Name="NpcFight_BaseDodgeChance" AddV="1"/>
+			
+		</Properties>
+		<Skills>
+			<li Name="Fight" LevelOver="15"/>
+		</Skills>
+	</Modifier>
+	
+	
+	<Modifier Name="ZT_JZM_D" Type="Normal">
+		<DisplayName>斗字秘</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="5"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="10"/>
+			<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="10"/>
+		
+			<li Name="NpcFight_SpellPowerAddP" AddP="10"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddV="-5"/>
+
+		</Properties>
+		<Skills>
+			<li Name="FightSkill" LevelOver="15"/>
+		</Skills>
+	</Modifier>
+	
+	
+	<Modifier Name="ZT_JZM_ZHEN" Type="Normal">
+		<DisplayName>阵字秘</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_ZhenKeyPointNum" AddV="5"/>
+			<li Name="NpcFight_ZhenEnginePower" AddV="6"/>
+			
+		</Properties>
+		<Skills>
+			<li Name="Zhen" LevelOver="5"/>
+			<li Name="Zhen" Level="10"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="ZT_JZM_B" Type="Normal">
+		<DisplayName>兵字秘</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		
+		<Skills>
+			<li Name="Manual" LevelOver="15"/>
+			
+		</Skills>
+	</Modifier>
+	
+	
+	
+	<Modifier Name="ZT_JZM_Q" Type="Normal">
+		<DisplayName>前字秘</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>5,0.0,0,0,-1</BaseFive>
+		<Properties>
+			<li Name="PracticeRateAddPFromDan" AddP="1.5"/>
+			<li Name="GodPenaltyAddV" AddV="-150"/>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="10"/>
+			
+		</Properties>
+
+	</Modifier>
+	
+	
+	<Modifier Name="ZT_JZM_S" Type="Normal">
+		<DisplayName>数字秘</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0.0,0,0,2</BaseFive>
+		<Properties>
+			<li Name="MaxAccumulativeLingAddV" AddV="2000"/>
+
+		</Properties>
+		
+	</Modifier>
+	
+	<Modifier Name="ZT_PM1" Type="Normal">
+		<DisplayName>天涯重剑</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0.0,0,0,2</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="3"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="3"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="3"/>
+		</Properties>
+		
+	</Modifier>
+	<Modifier Name="ZT_PM2" Type="Normal">
+		<DisplayName>太虚神法</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0.0,0,0,2</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="3"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.5"/>
+			<li Name="NpcFight_BaseDodgeChance" AddP="0.5"/>
+		</Properties>
+		
+	</Modifier>
+	
+	<Modifier Name="MJ_ZJJ" Type="Normal">
+		<DisplayName>重剑诀</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0.0,0,0,0</BaseFive>
+		<Skills>
+			<li Name="Fabao" LevelOver="7"/>
+		</Skills>
+		
+	</Modifier>
+	<Modifier Name="MJ_YMZD" Type="Normal">
+		<DisplayName>炎灭真典</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0.0,0,0,0</BaseFive>
+		<Skills>
+			<li Name="FightSkill" LevelOver="7"/>
+		</Skills>
+		
+	</Modifier>
+	<Modifier Name="MJ_JGYD" Type="Normal">
+		<DisplayName>金罡要典</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0.0,0,0,0</BaseFive>
+		<Skills>
+			<li Name="Barrier" LevelOver="7"/>
+		</Skills>
+		
+	</Modifier>
+	<Modifier Name="MJ_XC" Type="Normal">
+		<DisplayName>星淬</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0.0,0,0,0</BaseFive>
+		<Properties>
+				自然属性
+				<li Name="MaxAge" AddV="20"/><!--寿元-->
+				<li Name="MindStateBaseValue" AddV="10"/><!--心情基础值-->
+				<li Name="IntelligenceSkillEXPConstant" AddP="0.15"/><!--学习速度-->
+				<li Name="VisionRadius" AddP="0.15"/><!--感知范围-->
+				<li Name="MoveSpeed" AddP="0.15"/><!--移动速度-->
+				<li Name="RecoveryPower" AddP="0.15"/><!--自然恢复力-->
+				<li Name="MagicDamageRecoveryPowerAddV" AddV="0.25"/><!--内门伤自然恢复力-->
+				<li Name="FatigueConsumeConstant" AddP="-0.15"/><!--精力消耗速度加成-->
+				<li Name="NutritionConsumeConstant" AddP="-0.15"/><!--食物消耗速度加成-->
+				<li Name="WaterConsumeConstant" AddP="-0.15"/><!--饮水消耗速度加成-->
+				<li Name="HappyConsumeConstant" AddP="-0.15"/><!--娱乐消耗速度加成-->
+				<li Name="ToleranceTMin" AddV="-1"/><!--最低极限温度-->
+				<li Name="ToleranceTMax" AddV="10"/><!--最高极限温度-->
+				<li Name="ComfyTMin" AddV="-2"/><!--最低舒适温度-->
+				<li Name="ComfyTMax" AddV="10"/><!--最高舒适温度-->
+				<li Name="PainTolerance" AddV="2"/><!--疼痛忍受极限-->
+				<li Name="IntelligenceSkillEXPConstant" AddP="0.15"/><!--学习速度加成-->
+				<li Name="PracticeFoodConsumeConstant" AddP="0.5"/><!--精元消耗速度-->
+				<li Name="FatigueConsumeConstant" AddP="-0.25"/><!--精力消耗速度-->
+				
+				战斗
+				<li Name="NpcFight_BaseHitChance" AddV="0.5"/><!--战斗命中-->
+				<li Name="NpcFight_BaseDodgeChance" AddV="0.5"/><!--战斗闪避-->
+				<li Name="NpcFight_FabaoPowerAddP" AddP="0.15"/><!--法宝威力加成-->
+				<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.15"/><!--法宝灵气恢复速度加成-->
+				<li Name="NpcFight_FabaoCoolDownAddP" AddP="-0.15"/><!--法宝攻击间隔加成-->
+				<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.15"/><!--法宝灵气最大值加成-->
+				<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="1"/><!--法宝击退距离加成-->
+				<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.25"/><!--法宝飞行速度加成-->
+				<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0.25"/><!--法宝转向速度加成-->
+				<li Name="NpcFight_FabaoRepelResistanceAddV" AddP="0.5"/><!--法宝击退距离抗性-->
+				<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="1.5"/><!--法宝拖尾长度加成-->
+				<li Name="NpcFight_SpellLingCostAddP" AddP="-0.1"/><!--术法灵气消耗加成-->
+				<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/><!--术法吟唱时间加成-->
+				<li Name="NpcFight_SpellPowerAddP" AddP="0.25"/><!--术法伤害加成-->
+				<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.1"/><!--术法冷却时间加成-->
+				<li Name="NpcFight_ShieldConversionRate" AddV="0.4"/><!--护盾强度加值-->
+				<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.25"/><!--护盾强度加成-->
+
+		</Properties>
+	</Modifier>
+	<Modifier Name="MJ_STYH" Type="Normal">
+		<DisplayName>苦海秘境</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddV="100"/><!--基础灵气最大值 10000-->
+			<li Name="LingAbsorbSpeed" AddP="10"/>
+			
+		</Properties>
+		<Skills>
+			<li Name="Medicine" LevelOver="15"/>
+		</Skills>
+	</Modifier>
+	
+</List></ModifierDefs>

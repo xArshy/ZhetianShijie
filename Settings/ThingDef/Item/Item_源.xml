@@ -1,0 +1,1649 @@
+<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="Item_DJHJ" Parent="MaterialBase">   
+	<ThingName>Road Robbery Gold</ThingName> 名称
+	<TexPath>Spr\Object\CL\DJHJ.PNG</TexPath>  素材图片位置
+	<Desc>The immortal gold material used for sacrificing the extreme weapons is golden and transparent.</Desc>  说明
+	<MaxStack>999</MaxStack>  最大堆叠
+	<Rate>12</Rate>   品质
+	<Beauty>66</Beauty>   美观
+	<MaxHitPoints>1200</MaxHitPoints>  生命值
+	<ElementKind>Jin</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="90000"/>
+					<SalePrice Value="160000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="90000" />
+					<SalePrice Value="160000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="160000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		
+		<FabaoSuffix>道劫,黄金</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>Sharp</li>
+			<li>Smooth2</li>
+			<li>Hard2</li>
+			<li>Heavy1</li>
+			
+		</PhysicalLables>
+		<BeMaterial>    
+			<NamePrefix>道劫,黄金</NamePrefix>   制作物品前缀
+			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少
+ 
+			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
+			
+			<MaxHitPointsPerNum>150</MaxHitPointsPerNum>   
+			<AttackSpeedWhenBeMain>-1</AttackSpeedWhenBeMain>   制作武器后攻击速度加成
+			<SharpDamageMultiplier>180</SharpDamageMultiplier>    制作武器后锋利伤害加成
+			<BluntDamageMultiplier>70</BluntDamageMultiplier>    制作武器后厚重伤害加成
+			<LingDamageMultiplier>500</LingDamageMultiplier>     制作武器后灵力伤害加成
+
+			<SharpDefenceMultiplier>50</SharpDefenceMultiplier>   制作武器后锋利伤害防御加成
+			<BluntDefenceMultiplier>50</BluntDefenceMultiplier>   制作武器后厚重伤害防御加成
+			<LingDefenceMultiplier>90</LingDefenceMultiplier>     制作武器后灵力伤害防御加成
+
+			<ColdInsulationMultiplier>10</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>30</HeatInsulationMultiplier>
+
+			<WorkSpeedCoefficientWhenBeMain>1</WorkSpeedCoefficientWhenBeMain>
+		
+			<ColdInsulationMultiplier>1</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>1</HeatInsulationMultiplier>
+			
+			<LingNumberRate>0.9</LingNumberRate>   灵力转化品质？
+			
+
+			<BeautyWhenBeMain>150</BeautyWhenBeMain>    制作后美观
+			<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>     制作后五行属性强度
+			<RateWhenBeMain>12</RateWhenBeMain>    制作后品阶
+			
+			<WorktoMakeRate>-0.5</WorktoMakeRate>
+			<WorktoBuildRate>-0.5</WorktoBuildRate>
+		</BeMaterial>
+		
+	</Item>
+	<Ling>
+		<AddionLing>30</AddionLing>    聚灵除以十
+		<AddionRadius>2</AddionRadius>  聚灵范围
+		<AddionFailing>0.8</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0.06</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>500</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Jin</Kind>   五行属性
+		<Value>20</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>EEEE00</Color>   光颜色
+	</Light>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_HXCJ" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Phoenix Blood Red Gold</ThingName> 名称
+	<TexPath>Spr\Object\CL\HXCJ.PNG</TexPath>  素材图片位置
+	<Desc>The immortal gold material used for sacrificing the extreme path weapon is extremely sunny, just to the extreme, red as phoenix blood, born with the phoenix pattern, and Ye Fan once obtained a piece left by Emperor Hengyu from the early restricted area.</Desc>  说明
+	<MaxStack>999</MaxStack>  最大堆叠
+	<Rate>12</Rate>   品质
+	<Beauty>66</Beauty>   美观
+	<MaxHitPoints>1200</MaxHitPoints>  生命值
+	<ElementKind>Huo</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="90000"/>
+					<SalePrice Value="160000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="90000" />
+					<SalePrice Value="160000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="160000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<FabaoSuffix>凰血,赤金</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Attack</li>
+			<li>SmallThing</li>
+			<li>Heavy1</li>
+			
+		</PhysicalLables>
+		<BeMaterial>    
+			<NamePrefix>凰血,赤金</NamePrefix>   制作物品前缀
+			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少
+ 
+			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
+			
+			<MaxHitPointsPerNum>180</MaxHitPointsPerNum>   
+			<AttackSpeedWhenBeMain>6</AttackSpeedWhenBeMain>   制作武器后攻击速度加成
+			<SharpDamageMultiplier>190</SharpDamageMultiplier>    制作武器后锋利伤害加成
+			<BluntDamageMultiplier>30</BluntDamageMultiplier>    制作武器后厚重伤害加成
+			<LingDamageMultiplier>530</LingDamageMultiplier>     制作武器后灵力伤害加成
+
+			<SharpDefenceMultiplier>120</SharpDefenceMultiplier>   制作武器后锋利伤害防御加成
+			<BluntDefenceMultiplier>50</BluntDefenceMultiplier>   制作武器后厚重伤害防御加成
+			<LingDefenceMultiplier>130</LingDefenceMultiplier>     制作武器后灵力伤害防御加成
+
+			<ColdInsulationMultiplier>10</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>30</HeatInsulationMultiplier>
+
+			<WorkSpeedCoefficientWhenBeMain>1</WorkSpeedCoefficientWhenBeMain>
+		
+			<ColdInsulationMultiplier>1</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>1</HeatInsulationMultiplier>
+			
+			<LingNumberRate>1.1</LingNumberRate>   灵力转化品质？
+			
+
+			<BeautyWhenBeMain>150</BeautyWhenBeMain>    制作后美观
+			<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>     制作后五行属性强度
+			<RateWhenBeMain>12</RateWhenBeMain>    制作后品阶
+			
+			<WorktoMakeRate>-0.5</WorktoMakeRate>
+			<WorktoBuildRate>-0.5</WorktoBuildRate>
+		</BeMaterial>
+		
+	</Item>
+	<Ling>
+		<AddionLing>30</AddionLing>    聚灵除以十
+		<AddionRadius>2</AddionRadius>  聚灵范围
+		<AddionFailing>0.8</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0.06</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>500</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Jin</Kind>   五行属性
+		<Value>20</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>FF0000</Color>   光颜色
+	</Light>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_LWHJ" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Dragon pattern black gold</ThingName> 名称
+	<TexPath>Spr\Object\CL\LWHJ.PNG</TexPath>  素材图片位置
+	<Desc>The immortal gold material used for sacrificing the jidao weapon is black and crystalline, and is naturally inscribed with the dragon pattern of the avenue.</Desc>  说明
+	<MaxStack>999</MaxStack>  最大堆叠
+	<Rate>12</Rate>   品质
+	<Beauty>66</Beauty>   美观
+	<MaxHitPoints>1200</MaxHitPoints>  生命值
+	<ElementKind>Chaos</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="90000"/>
+					<SalePrice Value="160000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="90000" />
+					<SalePrice Value="160000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="160000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		
+		<FabaoSuffix>龙刻,龙纹,黑金</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Fly</li>
+			<li>Sharp</li>
+			<li>Heavy1</li>
+			
+		</PhysicalLables>
+		<BeMaterial>    
+			<NamePrefix>龙刻,龙纹,黑金</NamePrefix>   制作物品前缀
+			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
+			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
+			
+			<MaxHitPointsPerNum>70</MaxHitPointsPerNum>   
+			<AttackSpeedWhenBeMain>6</AttackSpeedWhenBeMain>   制作武器后攻击速度加成
+			<SharpDamageMultiplier>130</SharpDamageMultiplier>    制作武器后锋利伤害加成
+			<BluntDamageMultiplier>40</BluntDamageMultiplier>    制作武器后厚重伤害加成
+			<LingDamageMultiplier>400</LingDamageMultiplier>     制作武器后灵力伤害加成
+
+			<SharpDefenceMultiplier>50</SharpDefenceMultiplier>   制作武器后锋利伤害防御加成
+			<BluntDefenceMultiplier>50</BluntDefenceMultiplier>   制作武器后厚重伤害防御加成
+			<LingDefenceMultiplier>100</LingDefenceMultiplier>     制作武器后灵力伤害防御加成
+
+			<ColdInsulationMultiplier>10</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>30</HeatInsulationMultiplier>
+
+			<WorkSpeedCoefficientWhenBeMain>1</WorkSpeedCoefficientWhenBeMain>
+		
+			<ColdInsulationMultiplier>1</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>1</HeatInsulationMultiplier>
+			
+			<LingNumberRate>0.9</LingNumberRate>   灵力转化品质？
+			
+
+			<BeautyWhenBeMain>150</BeautyWhenBeMain>    制作后美观
+			<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>     制作后五行属性强度
+			<RateWhenBeMain>12</RateWhenBeMain>    制作后品阶
+			
+			<WorktoMakeRate>-0.5</WorktoMakeRate>
+			<WorktoBuildRate>-0.5</WorktoBuildRate>
+		</BeMaterial>
+		
+	</Item>
+	<Ling>
+		<AddionLing>30</AddionLing>    聚灵除以十
+		<AddionRadius>2</AddionRadius>  聚灵范围
+		<AddionFailing>0.8</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0.06</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>500</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Chaos</Kind>   五行属性
+		<Value>20</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>4D4D4D</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_YHQJ" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Feather green gold</ThingName> 名称
+	<TexPath>Spr\Object\CL\YHQJ.PNG</TexPath>  素材图片位置
+	<Desc>The sacred gold material used for sacrificing extreme path weapons has a layer of ripples like wings, like a flying fairy.</Desc>  说明
+	<MaxStack>999</MaxStack>  最大堆叠
+	<Rate>12</Rate>   品质
+	<Beauty>66</Beauty>   美观
+	<MaxHitPoints>1200</MaxHitPoints>  生命值
+	<ElementKind>Mu</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="90000"/>
+					<SalePrice Value="160000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="90000" />
+					<SalePrice Value="160000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="160000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		
+		<FabaoSuffix>羽化,飞升,青金</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>Precise</li>
+			<li>Hard2</li>
+			<li>Sharp</li>
+			<li>Heavy1</li>
+			
+		</PhysicalLables>
+		<BeMaterial>    
+			<NamePrefix>羽化,飞升,青金</NamePrefix>   制作物品前缀
+			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
+			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
+			
+			<MaxHitPointsPerNum>70</MaxHitPointsPerNum>   
+			<AttackSpeedWhenBeMain>4</AttackSpeedWhenBeMain>   制作武器后攻击速度加成
+			<SharpDamageMultiplier>100</SharpDamageMultiplier>    制作武器后锋利伤害加成
+			<BluntDamageMultiplier>110</BluntDamageMultiplier>    制作武器后厚重伤害加成
+			<LingDamageMultiplier>600</LingDamageMultiplier>     制作武器后灵力伤害加成
+
+			<SharpDefenceMultiplier>30</SharpDefenceMultiplier>   制作武器后锋利伤害防御加成
+			<BluntDefenceMultiplier>30</BluntDefenceMultiplier>   制作武器后厚重伤害防御加成
+			<LingDefenceMultiplier>120</LingDefenceMultiplier>     制作武器后灵力伤害防御加成
+
+			<ColdInsulationMultiplier>10</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>30</HeatInsulationMultiplier>
+
+			<WorkSpeedCoefficientWhenBeMain>1</WorkSpeedCoefficientWhenBeMain>
+		
+			<ColdInsulationMultiplier>1</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>1</HeatInsulationMultiplier>
+			
+			<LingNumberRate>1.2</LingNumberRate>   灵力转化品质？
+			
+
+			<BeautyWhenBeMain>150</BeautyWhenBeMain>    制作后美观
+			<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>     制作后五行属性强度
+			<RateWhenBeMain>12</RateWhenBeMain>    制作后品阶
+			
+			<WorktoMakeRate>-0.5</WorktoMakeRate>
+			<WorktoBuildRate>-0.5</WorktoBuildRate>
+		</BeMaterial>
+		
+	</Item>
+	<Ling>
+		<AddionLing>30</AddionLing>    聚灵除以十
+		<AddionRadius>2</AddionRadius>  聚灵范围
+		<AddionFailing>0.8</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0.06</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>500</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Mu</Kind>   五行属性
+		<Value>20</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>7FFFD4</Color>   光颜色
+	</Light>
+	</ThingDef>
+			
+	<ThingDef Type="Item" Name="Item_SHZJ" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Miracle Purple Gold</ThingName> 名称
+	<TexPath>Spr\Object\CL\SHZJ.PNG</TexPath>  素材图片位置
+	<Desc>The immortal gold material used for sacrificial jidao weaponry is as brilliant as a purple diamond, exuding a dreamlike brilliance.</Desc>  说明
+	<MaxStack>999</MaxStack>  最大堆叠
+	<Rate>12</Rate>   品质
+	<Beauty>66</Beauty>   美观
+	<MaxHitPoints>1200</MaxHitPoints>  生命值
+	<ElementKind>Mu</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="90000"/>
+					<SalePrice Value="160000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="90000" />
+					<SalePrice Value="160000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="160000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<FabaoSuffix>神印,神恒,紫金</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>PhysicalLables_Mu</li>
+			<li>Hard2</li>
+			<li>Elastic</li>
+			<li>GreatThing_AttackLow</li>
+			
+		</PhysicalLables>
+		<BeMaterial>    
+			<NamePrefix>神印,神恒,紫金</NamePrefix>   制作物品前缀
+			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
+			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
+			
+			<MaxHitPointsPerNum>110</MaxHitPointsPerNum>   
+			<AttackSpeedWhenBeMain>2</AttackSpeedWhenBeMain>   制作武器后攻击速度加成
+			<SharpDamageMultiplier>70</SharpDamageMultiplier>    制作武器后锋利伤害加成
+			<BluntDamageMultiplier>180</BluntDamageMultiplier>    制作武器后厚重伤害加成
+			<LingDamageMultiplier>500</LingDamageMultiplier>     制作武器后灵力伤害加成
+
+			<SharpDefenceMultiplier>20</SharpDefenceMultiplier>   制作武器后锋利伤害防御加成
+			<BluntDefenceMultiplier>90</BluntDefenceMultiplier>   制作武器后厚重伤害防御加成
+			<LingDefenceMultiplier>100</LingDefenceMultiplier>     制作武器后灵力伤害防御加成
+
+			<ColdInsulationMultiplier>10</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>30</HeatInsulationMultiplier>
+
+			<WorkSpeedCoefficientWhenBeMain>1</WorkSpeedCoefficientWhenBeMain>
+		
+			<ColdInsulationMultiplier>1</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>1</HeatInsulationMultiplier>
+			
+			<LingNumberRate>1</LingNumberRate>   灵力转化品质？
+			
+
+			<BeautyWhenBeMain>150</BeautyWhenBeMain>    制作后美观
+			<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>     制作后五行属性强度
+			<RateWhenBeMain>12</RateWhenBeMain>    制作后品阶
+			
+			<WorktoMakeRate>-0.5</WorktoMakeRate>
+			<WorktoBuildRate>-0.5</WorktoBuildRate>
+		</BeMaterial>
+		
+	</Item>
+	<Ling>
+		<AddionLing>30</AddionLing>    聚灵除以十
+		<AddionRadius>2</AddionRadius>  聚灵范围
+		<AddionFailing>0.8</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0.06</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>500</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Tu</Kind>   五行属性
+		<Value>20</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>68228B</Color>   光颜色
+	</Light>
+	</ThingDef>
+			
+	<ThingDef Type="Item" Name="Item_YHLJ" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Eternal Blue Gold</ThingName> 名称
+	<TexPath>Spr\Object\CL\YHLJ.PNG</TexPath>  素材图片位置
+	<Desc>The sacred gold material used for sacrificing the jidao weapon is as brilliant as dream, blue light flowing, like the most dazzling star in the universe.</Desc>  说明
+	<MaxStack>999</MaxStack>  最大堆叠
+	<Rate>12</Rate>   品质
+	<Beauty>66</Beauty>   美观
+	<MaxHitPoints>1200</MaxHitPoints>  生命值
+	<ElementKind>Shui</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="90000"/>
+					<SalePrice Value="160000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="90000" />
+					<SalePrice Value="160000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="160000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<FabaoSuffix>永,永恒,蓝金</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>PhysicalLables_Shui</li>
+			<li>Light2</li>
+			<li>LowDensity2</li>
+			<li>HighDensity2</li>
+			
+		</PhysicalLables>
+		<BeMaterial>    
+			<NamePrefix>永,永恒,蓝金</NamePrefix>   制作物品前缀
+			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
+			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
+			
+			<MaxHitPointsPerNum>130</MaxHitPointsPerNum>   
+			<AttackSpeedWhenBeMain>4</AttackSpeedWhenBeMain>   制作武器后攻击速度加成
+			<SharpDamageMultiplier>100</SharpDamageMultiplier>    制作武器后锋利伤害加成
+			<BluntDamageMultiplier>70</BluntDamageMultiplier>    制作武器后厚重伤害加成
+			<LingDamageMultiplier>660</LingDamageMultiplier>     制作武器后灵力伤害加成
+
+			<SharpDefenceMultiplier>70</SharpDefenceMultiplier>   制作武器后锋利伤害防御加成
+			<BluntDefenceMultiplier>50</BluntDefenceMultiplier>   制作武器后厚重伤害防御加成
+			<LingDefenceMultiplier>180</LingDefenceMultiplier>     制作武器后灵力伤害防御加成
+
+			<ColdInsulationMultiplier>10</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>30</HeatInsulationMultiplier>
+
+			<WorkSpeedCoefficientWhenBeMain>1</WorkSpeedCoefficientWhenBeMain>
+		
+			<ColdInsulationMultiplier>1</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>1</HeatInsulationMultiplier>
+			
+			<LingNumberRate>1.9</LingNumberRate>   灵力转化品质？
+			
+
+			<BeautyWhenBeMain>150</BeautyWhenBeMain>    制作后美观
+			<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>     制作后五行属性强度
+			<RateWhenBeMain>12</RateWhenBeMain>    制作后品阶
+			
+			<WorktoMakeRate>-0.5</WorktoMakeRate>
+			<WorktoBuildRate>-0.5</WorktoBuildRate>
+		</BeMaterial>
+		
+	</Item>
+	<Ling>
+		<AddionLing>30</AddionLing>    聚灵除以十
+		<AddionRadius>2</AddionRadius>  聚灵范围
+		<AddionFailing>0.8</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0.06</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>500</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Shui</Kind>   五行属性
+		<Value>20</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>0000EE</Color>   光颜色
+	</Light>
+	</ThingDef>
+			
+	<ThingDef Type="Item" Name="Item_XLLJ" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Fairy Tear Green Gold</ThingName> 名称
+	<TexPath>Spr\Object\CL\XLLJ.PNG</TexPath>  素材图片位置
+	<Desc>The sacred gold material used for sacrificing the jidao weapon is as brilliant as dream, blue light flowing, like the most dazzling star in the universe.</Desc>  说明
+	<MaxStack>999</MaxStack>  最大堆叠
+	<Rate>12</Rate>   品质
+	<Beauty>66</Beauty>   美观
+	<MaxHitPoints>1200</MaxHitPoints>  生命值
+	<ElementKind>Mu</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="90000"/>
+					<SalePrice Value="160000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="90000" />
+					<SalePrice Value="160000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="160000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<FabaoSuffix>仙泣,仙泪,绿金</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>PhysicalLables_Mu</li>
+			<li>Smooth2</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Knock</li>
+			
+		</PhysicalLables>
+		<BeMaterial>    
+			<NamePrefix>仙泣,仙泪,绿金</NamePrefix>   制作物品前缀
+			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
+			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
+			
+			<MaxHitPointsPerNum>130</MaxHitPointsPerNum>   
+			<AttackSpeedWhenBeMain>4</AttackSpeedWhenBeMain>   制作武器后攻击速度加成
+			<SharpDamageMultiplier>100</SharpDamageMultiplier>    制作武器后锋利伤害加成
+			<BluntDamageMultiplier>70</BluntDamageMultiplier>    制作武器后厚重伤害加成
+			<LingDamageMultiplier>660</LingDamageMultiplier>     制作武器后灵力伤害加成
+
+			<SharpDefenceMultiplier>70</SharpDefenceMultiplier>   制作武器后锋利伤害防御加成
+			<BluntDefenceMultiplier>50</BluntDefenceMultiplier>   制作武器后厚重伤害防御加成
+			<LingDefenceMultiplier>180</LingDefenceMultiplier>     制作武器后灵力伤害防御加成
+
+			<ColdInsulationMultiplier>10</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>30</HeatInsulationMultiplier>
+
+			<WorkSpeedCoefficientWhenBeMain>1</WorkSpeedCoefficientWhenBeMain>
+		
+			<ColdInsulationMultiplier>1</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>1</HeatInsulationMultiplier>
+			
+			<LingNumberRate>1.9</LingNumberRate>   灵力转化品质？
+			
+
+			<BeautyWhenBeMain>150</BeautyWhenBeMain>    制作后美观
+			<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>     制作后五行属性强度
+			<RateWhenBeMain>12</RateWhenBeMain>    制作后品阶
+			
+			<WorktoMakeRate>-0.5</WorktoMakeRate>
+			<WorktoBuildRate>-0.5</WorktoBuildRate>
+		</BeMaterial>
+		
+	</Item>
+	<Ling>
+		<AddionLing>30</AddionLing>    聚灵除以十
+		<AddionRadius>2</AddionRadius>  聚灵范围
+		<AddionFailing>0.8</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0.06</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>500</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Mu</Kind>   五行属性
+		<Value>20</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>00CD00</Color>   光颜色
+	</Light>
+	</ThingDef>
+				
+	<ThingDef Type="Item" Name="Item_XHEQ" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Xuanhuang qi</ThingName> 名称
+	<TexPath>Spr\Object\CL\XHEQ.PNG</TexPath>  素材图片位置
+	<Desc>The essence of the initial overflow of heaven and earth is the mother of all things, the treasure of the refiner. Its essence is more precious and unique in the world</Desc>  说明
+	<MaxStack>99</MaxStack>  最大堆叠
+	<Rate>12</Rate>   品质
+	<Beauty>66</Beauty>   美观
+	<MaxHitPoints>1200</MaxHitPoints>  生命值
+	<ElementKind>Chaos</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="90000"/>
+					<SalePrice Value="160000" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="90000" />
+					<SalePrice Value="160000" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="160000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<FabaoSuffix>玄,黄,母气</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+	
+			<li>PhysicalLables_None</li>
+
+			<li>Heavy2</li>
+			<li>Heavy2</li>
+			<li>Heavy2</li>
+		</PhysicalLables>
+		<BeMaterial>    
+			<NamePrefix>玄,黄,母气</NamePrefix>   制作物品前缀
+			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
+			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
+			
+			<MaxHitPointsPerNum>230</MaxHitPointsPerNum>   
+			<AttackSpeedWhenBeMain>-2</AttackSpeedWhenBeMain>   制作武器后攻击速度加成
+			<SharpDamageMultiplier>70</SharpDamageMultiplier>    制作武器后锋利伤害加成
+			<BluntDamageMultiplier>200</BluntDamageMultiplier>    制作武器后厚重伤害加成
+			<LingDamageMultiplier>300</LingDamageMultiplier>     制作武器后灵力伤害加成
+
+			<SharpDefenceMultiplier>70</SharpDefenceMultiplier>   制作武器后锋利伤害防御加成
+			<BluntDefenceMultiplier>250</BluntDefenceMultiplier>   制作武器后厚重伤害防御加成
+			<LingDefenceMultiplier>100</LingDefenceMultiplier>     制作武器后灵力伤害防御加成
+
+			<ColdInsulationMultiplier>10</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>30</HeatInsulationMultiplier>
+
+			<WorkSpeedCoefficientWhenBeMain>1</WorkSpeedCoefficientWhenBeMain>
+		
+			<ColdInsulationMultiplier>1</ColdInsulationMultiplier>
+			<HeatInsulationMultiplier>1</HeatInsulationMultiplier>
+			
+			<LingNumberRate>1.9</LingNumberRate>   灵力转化品质？
+			
+
+			<BeautyWhenBeMain>150</BeautyWhenBeMain>    制作后美观
+			<ElementPowerWhenBeMain>12</ElementPowerWhenBeMain>     制作后五行属性强度
+			<RateWhenBeMain>12</RateWhenBeMain>    制作后品阶
+			
+			<WorktoMakeRate>-0.5</WorktoMakeRate>
+			<WorktoBuildRate>-0.5</WorktoBuildRate>
+		</BeMaterial>
+		
+	</Item>
+	<Ling>
+		<AddionLing>30</AddionLing>    聚灵除以十
+		<AddionRadius>2</AddionRadius>  聚灵范围
+		<AddionFailing>0.8</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		
+		<Attenuation>0.06</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>500</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Chaos</Kind>   五行属性
+		<Value>20</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>EEEE00</Color>   光颜色
+	</Light>
+	</ThingDef>
+					
+	<ThingDef Type="Item" Name="Item_XHJC" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Xuanhuang Essence</ThingName> 名称
+	<TexPath>Spr\Object\CL\XHJC.PNG</TexPath>  素材图片位置
+	<Desc>The essence of the initial overflow of heaven and earth is the essence of motherhood of all things, unique in the world</Desc>  说明
+	<MaxStack>1</MaxStack>  最大堆叠
+	<Rate>12</Rate>   品质
+	<Beauty>66</Beauty>   美观
+	<MaxHitPoints>5200</MaxHitPoints>  生命值
+	<ElementKind>Chaos</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="250000"/>
+					<SalePrice Value="600" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="250000" />
+					<SalePrice Value="600" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="250000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		
+		<FabaoSuffix>玄,黄,母气</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>PhysicalLables_None</li>
+			<li>Heavy2</li>
+			<li>Heavy2</li>
+			<li>Heavy2</li>
+			<li>Heavy2</li>
+			<li>Heavy2</li>
+			<li>Heavy2</li>
+		</PhysicalLables>
+	</Item >
+	
+	<Element>
+		<Kind>Chaos</Kind>   五行属性
+		<Value>20</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>EEEE00</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ZJST" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Bauhinia God Copper</ThingName> 名称
+	<TexPath>Spr\Object\CL\ZJST.PNG</TexPath>  素材图片位置
+	<Desc>Refiner God</Desc>  说明
+	<MaxStack>99</MaxStack>  最大堆叠
+	<Rate>6</Rate>   品质
+	<Beauty>66</Beauty>   美观
+	<MaxHitPoints>5200</MaxHitPoints>  生命值
+	<ElementKind>Tu</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>10</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="6400"/>
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		
+		<FabaoSuffix>神铜,紫荆</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>Precise</li>
+			<li>Heavy2</li>
+		</PhysicalLables>
+	</Item >
+	
+	<Element>
+		<Kind>Tu</Kind>   五行属性
+		<Value>9</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>FF83FA</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ST" Parent="MaterialBase">   Name=模板代码
+	<ThingName>God iron</ThingName> 名称
+	<TexPath>Spr\Object\CL\ST.PNG</TexPath>  素材图片位置
+	<Desc>Superior refiner material</Desc>  说明
+	<MaxStack>99</MaxStack>  最大堆叠
+	<Rate>6</Rate>   品质
+	<Beauty>23</Beauty>   美观
+	<MaxHitPoints>5200</MaxHitPoints>  生命值
+	<ElementKind>Jin</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>10</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="6400"/>
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		
+		<FabaoSuffix>神铁</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>PhysicalLables_Jin</li>
+			<li>Smooth2</li>
+		</PhysicalLables>
+	</Item >
+	
+	<Element>
+		<Kind>Jin</Kind>   五行属性
+		<Value>9</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>F5F5F5</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_DLYJ" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Da Luo Yin Jing</ThingName> 名称
+	<TexPath>Spr\Object\CL\DLYJ.PNG</TexPath>  素材图片位置
+	<Desc>One of the nine heavenly jade, saint-level materials</Desc>  说明
+	<MaxStack>99</MaxStack>  最大堆叠
+	<Rate>9</Rate>   品质
+	<Beauty>23</Beauty>   美观
+	<MaxHitPoints>5200</MaxHitPoints>  生命值
+	<ElementKind>Jin</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>10</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="6400"/>
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<FabaoSuffix>大罗银精</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>PhysicalLables_Jin</li>
+			<li>Smooth2</li>
+			<li>Hard2</li>
+		</PhysicalLables>
+	</Item >
+	
+	<Element>
+		<Kind>Jin</Kind>   五行属性
+		<Value>12</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>F5F5F5</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_XZ" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Blood diamond</ThingName> 名称
+	<TexPath>Spr\Object\CL\XZ.PNG</TexPath>  素材图片位置
+	<Desc>One of the nine heavenly gods, saint-level material</Desc>  说明
+	<MaxStack>99</MaxStack>  最大堆叠
+	<Rate>9</Rate>   品质
+	<Beauty>23</Beauty>   美观
+	<MaxHitPoints>5200</MaxHitPoints>  生命值
+	<ElementKind>Huo</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>10</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="6400"/>
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		
+		<FabaoSuffix>血钻</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>Heavy1</li>
+			<li>Smooth2</li>
+			<li>Soft2</li>
+		</PhysicalLables>
+	</Item >
+	
+	<Element>
+		<Kind>Huo</Kind>   五行属性
+		<Value>12</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>FF3030</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ZYW" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Purple Jade King</ThingName> 名称
+	<TexPath>Spr\Object\CL\ZYW.PNG</TexPath>  素材图片位置
+	<Desc>One of the nine heavenly gods, saint-level material</Desc>  说明
+	<MaxStack>99</MaxStack>  最大堆叠
+	<Rate>9</Rate>   品质
+	<Beauty>23</Beauty>   美观
+	<MaxHitPoints>5200</MaxHitPoints>  生命值
+	<ElementKind>Tu</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>10</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="6400"/>
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<FabaoSuffix>紫玉王</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>Heavy1</li>
+			<li>HighDensity2</li>
+			<li>Soft2</li>
+		</PhysicalLables>
+	</Item >
+	
+	<Element>
+		<Kind>Tu</Kind>   五行属性
+		<Value>12</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>FF00FF</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_YYSY" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Silver Moon God Jade</ThingName> 名称
+	<TexPath>Spr\Object\CL\YYSY.PNG</TexPath>  素材图片位置
+	<Desc>One of the nine heavenly gods, saint-level material</Desc>  说明
+	<MaxStack>99</MaxStack>  最大堆叠
+	<Rate>9</Rate>   品质
+	<Beauty>23</Beauty>   美观
+	<MaxHitPoints>5200</MaxHitPoints>  生命值
+	<ElementKind>Shui</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>10</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="6400"/>
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<FabaoSuffix>银月,神玉</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>Smooth2</li>
+			<li>HighDensity2</li>
+			<li>Soft2</li>
+		</PhysicalLables>
+	</Item >
+	
+	<Element>
+		<Kind>Shui</Kind>   五行属性
+		<Value>12</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>F0F8FF</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ZYSY" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Purple Flame God Jade</ThingName> 名称
+	<TexPath>Spr\Object\CL\ZYSY.PNG</TexPath>  素材图片位置
+	<Desc>One of the nine heavenly gods, saint-level material</Desc>  说明
+	<MaxStack>99</MaxStack>  最大堆叠
+	<Rate>9</Rate>   品质
+	<Beauty>23</Beauty>   美观
+	<MaxHitPoints>5200</MaxHitPoints>  生命值
+	<ElementKind>Huo</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>10</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="6400"/>
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<FabaoSuffix>紫焰,神玉</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>Smooth2</li>
+			<li>GreatThing_AttackLow</li>
+			<li>Soft2</li>
+		</PhysicalLables>
+	</Item >
+	
+	<Element>
+		<Kind>Huo</Kind>   五行属性
+		<Value>12</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>E066FF</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="Item_JTCYW" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Jiutian Red Jade King</ThingName> 名称
+	<TexPath>Spr\Object\CL\JTCYW.PNG</TexPath>  素材图片位置
+	<Desc>One of the nine heavenly gods, saint-level material</Desc>  说明
+	<MaxStack>99</MaxStack>  最大堆叠
+	<Rate>9</Rate>   品质
+	<Beauty>23</Beauty>   美观
+	<MaxHitPoints>5200</MaxHitPoints>  生命值
+	<ElementKind>Huo</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>10</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="6400"/>
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<FabaoSuffix>九天赤玉,神玉</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>GreatThing_Knock</li>
+			<li>GreatThing_AttackLow</li>
+			<li>Soft2</li>
+		</PhysicalLables>
+	</Item >
+	
+	<Element>
+		<Kind>Huo</Kind>   五行属性
+		<Value>12</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>EE3B3B</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="Item_JTBYB" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Jiutian White Jade Wall</ThingName> 名称
+	<TexPath>Spr\Object\CL\BYB.PNG</TexPath>  素材图片位置
+	<Desc>One of the nine heavenly gods, saint-level material</Desc>  说明
+	<MaxStack>99</MaxStack>  最大堆叠
+	<Rate>9</Rate>   品质
+	<Beauty>23</Beauty>   美观
+	<MaxHitPoints>5200</MaxHitPoints>  生命值
+	<ElementKind>None</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>10</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="6400"/>
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<FabaoSuffix>九天白玉壁,神玉</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>Smooth2</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+	</Item >
+	
+	<Element>
+		<Kind>None</Kind>   五行属性
+		<Value>12</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>E0FFFF</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_YZBYB" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Goat fat white jade iron</ThingName> 名称
+	<TexPath>Spr\Object\CL\YZ.PNG</TexPath>  素材图片位置
+	<Desc>One of the nine heavenly gods, saint-level material</Desc>  说明
+	<MaxStack>99</MaxStack>  最大堆叠
+	<Rate>9</Rate>   品质
+	<Beauty>23</Beauty>   美观
+	<MaxHitPoints>5200</MaxHitPoints>  生命值
+	<ElementKind>None</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>10</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="6400"/>
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<FabaoSuffix>白玉,神铁</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>Smooth2</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+	</Item >
+	
+	<Element>
+		<Kind>None</Kind>   五行属性
+		<Value>12</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>E0FFFF</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+		
+	<ThingDef Type="Item" Name="Item_WSTJ" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Five-color iron</ThingName> 名称
+	<TexPath>Spr\Object\CL\WSTJ.PNG</TexPath>  素材图片位置
+	<Desc>Saint-level material</Desc>  说明
+	<MaxStack>99</MaxStack>  最大堆叠
+	<Rate>9</Rate>   品质
+	<Beauty>23</Beauty>   美观
+	<MaxHitPoints>5200</MaxHitPoints>  生命值
+	<ElementKind>None</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>10</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="6400"/>
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<FabaoSuffix>五色神铁</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Knock</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+	</Item >
+	
+	<Element>
+		<Kind>None</Kind>   五行属性
+		<Value>12</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>242424</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+		
+	<ThingDef Type="Item" Name="Item_JTBLSY" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Nine days blue sky jade</ThingName> 名称
+	<TexPath>Spr\Object\CL\JTBLSY.PNG</TexPath>  素材图片位置
+	<Desc>One of the nine heavenly gods, saint-level material</Desc>  说明
+	<MaxStack>99</MaxStack>  最大堆叠
+	<Rate>9</Rate>   品质
+	<Beauty>23</Beauty>   美观
+	<MaxHitPoints>5200</MaxHitPoints>  生命值
+	<ElementKind>Mu</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   所属类型 木材
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>10</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="6400"/>
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="240" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="6400" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		<FabaoSuffix>九天碧落,神玉</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>Smooth2</li>
+			<li>GreatThing_Rot</li>
+			<li>GreatThing_Ling</li>
+		</PhysicalLables>
+	</Item >
+	
+	<Element>
+		<Kind>Mu</Kind>   五行属性
+		<Value>12</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>C0FF3E</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_HDS" Parent="MaterialBase">   Name=模板代码
+	<ThingName>Chaos Stone</ThingName> 名称
+	<TexPath>Spr\Object\CL\HDS.PNG</TexPath>  素材图片位置
+	<Desc>Emperor-level items are said to increase practice speed.</Desc>  说明
+	<MaxStack>99</MaxStack>  最大堆叠
+	<Rate>12</Rate>   品质
+	<Beauty>23</Beauty>   美观
+	<MaxHitPoints>5200</MaxHitPoints>  生命值
+	<ElementKind>Chaos</ElementKind>   五行属性
+	<Flammability>   燃烧性
+		<Flammability>0</Flammability>   易燃几率
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>   燃点
+	</Flammability>
+	<Item>   
+		<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="115400"/>
+					<SalePrice Value="540" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="115400" />
+					<SalePrice Value="1240" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="115400" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>	
+		
+		<FabaoSuffix>混沌石</FabaoSuffix>   法宝前缀
+		<PhysicalLables>   炼宝加成
+			<li>PhysicalLables_Jin</li>
+			<li>PhysicalLables_Mu</li>
+			<li>PhysicalLables_Shui</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Tu</li>
+			<li>PhysicalLables_None</li>
+			<li>PhysicalLables_Jin</li>
+			<li>PhysicalLables_Mu</li>
+			<li>PhysicalLables_Shui</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Tu</li>
+			<li>PhysicalLables_None</li>
+			<li>PhysicalLables_Jin</li>
+			<li>PhysicalLables_Mu</li>
+			<li>PhysicalLables_Shui</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Tu</li>
+			<li>PhysicalLables_None</li>
+			<li>PhysicalLables_Jin</li>
+			<li>PhysicalLables_Mu</li>
+			<li>PhysicalLables_Shui</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Tu</li>
+			<li>PhysicalLables_None</li>
+			<li>PhysicalLables_Jin</li>
+			<li>PhysicalLables_Mu</li>
+			<li>PhysicalLables_Shui</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Tu</li>
+			<li>PhysicalLables_None</li>
+			<li>PhysicalLables_Jin</li>
+			<li>PhysicalLables_Mu</li>
+			<li>PhysicalLables_Shui</li>
+			<li>PhysicalLables_Huo</li>
+			<li>PhysicalLables_Tu</li>
+			<li>PhysicalLables_None</li>
+		</PhysicalLables>
+		<Equip>
+			<ToolModifier>HDS</ToolModifier>
+		</Equip>
+	</Item >
+	
+	<Element>
+		<Kind>Chaos</Kind>   五行属性
+		<Value>12</Value>         五行强度
+		<Radius>3</Radius>    影响范围
+		<Failing>0.8</Failing>
+		<FailRadius>2</FailRadius>
+	</Element>
+	<Light>
+		<Value>10</Value>    发光强度
+		<Failing>0</Failing>
+		<FailRadius>2</FailRadius>
+		<Radius>5</Radius>
+		<Color>4F4F4F</Color>   光颜色
+	</Light>
+	</ThingDef>
+	
+</List></ThingDefs>

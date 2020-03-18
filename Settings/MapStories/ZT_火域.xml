@@ -1,0 +1,824 @@
+<Stories><List>
+	
+	
+	<Story Name="Treasure_HY"  Parent="BaseFillingStory">
+		<DisplayName>Fire domain</DisplayName>
+		<Desc>[NAME]I know that the fire domain is not a peaceful place. In the rumors, the ninth layer of fire area burned a true immortal to death.</Desc>
+		
+		<Selections>
+			<li>
+				<Display>Go in and see</Display>
+				<Condition>
+				<![CDATA[	
+				story.Place == "Place_HY"
+				]]>
+				</Condition>
+				<Tip>explore</Tip>
+				<OKResult><![CDATA[	
+				me:TriggerStory("ZT_HY");
+				]]>
+				</OKResult>
+				<NOResult><![CDATA[	
+				me:AddMsg("[NAME]Just when I wanted to get closer, I realized that the fire area is getting farther and farther away, and then I realized that this is the illusion often mentioned by the elders.");
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>Not interested.</Display> 
+				<OKResult><![CDATA[	
+					me:AddMsg("[NAME]I feel that this is not a domain of fire, but an illusion.");
+
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="ZT_HY"  Parent="BaseFillingStory">
+		<DisplayName>Fire domain</DisplayName>
+		<Desc>[NAME]Standing in front of the fire, smelled a taste of roasting himself.</Desc>
+		<Selections>
+			<li>
+				<Display>1st Layer (500C, carrying bodhi seeds or evasion >= to 300%)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetProperty("ToleranceTMax") >= 500
+				]]>
+				</Condition>
+				<OKResult><![CDATA[	
+				if me:GetGLevel() >= 3 then
+				me:AddMsg("[NAME]Relying on oneself for fear of red fire, saying[NAME]Secretly burned the packaging of the elixir taken on the road.");
+					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetProperty("NpcFight_BaseDodgeChance") >= 3 then
+						me:AddMsg("[NAME]Brushing your phone while meditating in a heavy fire? No, look at the cheats. Suddenly, she was so happy that she got a red fire with a wave of her hand.");
+						me:DropAwardItem("HUO_CH",1);me.npcObj.PropertyMgr:AddAge(10);
+					else 
+					 me:AddMsg("[NAME]The retreat in a heavy fire area had nothing to cook except to bake it a bit.");
+					end
+				end
+				]]>
+				</OKResult>
+				<NOResult><![CDATA[	
+				me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn't stand it and left in a hurry.");
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>2nd Layer (650C, carrying bodhi or qi protection level >= than 15)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetProperty("ToleranceTMax") >= 650
+				]]>
+				</Condition>
+				<OKResult><![CDATA[	
+				if me:GetGLevel() >= 3 then
+				me:AddMsg("[NAME]Relying on self-cultivation has no fear of blue fire, talking[NAME]Secretly burned the packaging of two elixir taken on the road.");
+					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetSkillLevel("Barrier") >= 15 then
+						me:AddMsg("[NAME]Roast chicken wings while retreating in the double fire field? No, look at the cheats. Suddenly, she was so happy that she got a blue fire with a wave of her hand.");
+						me:DropAwardItem("HUO_LH",1);me.npcObj.PropertyMgr:AddAge(20);
+					else 
+					 me:AddMsg("[NAME]The retreat in the area of ​​double fire did not get anything except to bake two matures.");
+					end
+				end
+				]]>
+				</OKResult>
+				<NOResult><![CDATA[	
+				me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn't stand it and left in a hurry.");
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>3rd Layer(1000C, carrying bodhi seeds or DaoHang > 90)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetProperty("ToleranceTMax") >= 1000
+				]]>
+				</Condition>
+				<OKResult><![CDATA[	
+				if me:GetGLevel() >= 6 then
+				me:AddMsg("[NAME]Relying on myself to be fearless of the fire in the third layer of fire, talking[NAME]Secretly burned the packaging of the three elixir taken on the road.");
+					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetDaoHang() > 90 then
+						me:AddMsg("[NAME]After meditating for thirty years in the Three Fires Realm, when I felt very fragrant, I suddenly felt that my butt was burning.[NAME]回家。");
+						me:DropAwardItem("HUO_BH",1);me.npcObj.PropertyMgr:AddAge(30);
+					else 
+					 me:AddMsg("[NAME]The meditative retreat in the triple fire domain did nothing except to bake it three times.");
+					 me:AddDamage("Huo_MarrowDry","Spine",0.5,XT("火域反噬"));
+					 me:AddDamage("Huo_MarrowDry","RightRibs4",0.5,XT("火域反噬"));
+					 me:AddDamage("Huo_MarrowDry","LeftRibs4",0.5,XT("火域反噬"));
+					 me:AddDamage("Huo_MarrowDry","RightRibs3",0.5,XT("火域反噬"));
+					 me:AddDamage("Huo_MarrowDry","LeftRibs3",0.5,XT("火域反噬"));
+					 me:AddDamage("Huo_MarrowDry","RightRibs2",0.5,XT("火域反噬"));
+					end
+				end
+				]]>
+				</OKResult>
+				<NOResult><![CDATA[	
+				me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn't stand it and left in a hurry.");me:AddDamage("Huo_MarrowDry","Spine",0.1,XT("火域反噬"));
+					 me:AddDamage("Huo_MarrowDry","RightRibs4",0.15,XT("火域反噬"));
+					 me:AddDamage("Huo_MarrowDry","LeftRibs4",0.15,XT("火域反噬"));
+					 me:AddDamage("Huo_MarrowDry","RightRibs3",0.15,XT("火域反噬"));
+					 me:AddDamage("Huo_MarrowDry","LeftRibs3",0.15,XT("火域反噬"));
+					 me:AddDamage("Huo_MarrowDry","RightRibs2",0.15,XT("火域反噬"));
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>4th Layer (1700C, carrying bodhi seeds or DaoHang > 150)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetProperty("ToleranceTMax") >= 1700
+				]]>
+				</Condition>
+				<OKResult><![CDATA[	
+				if me:GetGLevel() >= 6 then
+				me:AddMsg("[NAME]By virtue of self-cultivation, it is possible to take the fire of the fourth floor of the fire zone to take a bath,[NAME]Leaning into the fire, I heard only moans.");
+					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetDaoHang() > 150 then
+						me:AddMsg("[NAME]For 40 years of retreat in the quadruple fire zone,[NAME]Suddenly remembering the one in the setting sun, she couldn't help but linger for a while. Forty years, like a day, Wuguang Shenhuo couldn't stand it.");
+						me:DropAwardItem("HUO_WH",1);me.npcObj.PropertyMgr:AddAge(40);
+					else 
+					 me:AddMsg("[NAME]The retreat in the quadruple fire domain got nothing except toasting himself in the middle.");
+					 me:AddDamage("Huo_VisceralBurn","Kidney",0.9,XT("火域反噬"));
+					 me:AddDamage("Huo_VisceralBurn","Spleen",0.9,XT("火域反噬"));
+					 me:AddDamage("Huo_VisceralBurn","Lung",0.9,XT("火域反噬"));
+					 me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("火域反噬"));
+
+					 
+					end
+				end
+				]]>
+				</OKResult>
+				<NOResult><![CDATA[	
+				me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn't stand it and left in a hurry.");
+					me:AddDamage("Huo_VisceralBurn","Kidney",0.6,XT("火域反噬"));
+					 me:AddDamage("Huo_VisceralBurn","Spleen",0.6,XT("火域反噬"));
+					 me:AddDamage("Huo_VisceralBurn","Lung",0.6,XT("火域反噬"));
+					 me:AddDamage("Huo_VisceralBurn","Genitals",0.5,XT("火域反噬"));
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>5th Layer (2100C, carrying bodhi seeds can get items or qi >= 5 million)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetProperty("ToleranceTMax") >= 2100
+				]]>
+				</Condition>
+				<OKResult><![CDATA[	
+				if me:GetGLevel() >= 6 then
+				me:AddMsg("[NAME]Personally, the fire in the fifth layer of fire domain is just the degree of tickling.[NAME]I rushed into it without thinking. I only heard intermittent help coming out");
+					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetProperty("NpcLingMaxValue") >= 5000000 then
+						me:AddMsg("[NAME]Fifty years of barbecuing in the Wuzhong fire area, I suddenly felt something, shook the charcoal ash on my body, reached out, and a golden flame was[NAME]拿走。");
+						me:DropAwardItem("HUO_JH",1);me.npcObj.PropertyMgr:AddAge(50);
+					else 
+					 me:AddMsg("[NAME]The retreat in the area of ​​five fires had nothing to do except to bake himself half cooked.");
+					 me:AddDamage("Huo_BurnOfPain","Hips",1,XT("火域反噬"));
+					 me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","Hips",1,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","LeftForearm",1,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","LeftThigh",1,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","LeftFoot",1,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","LeftForearm",1,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","Throat",1,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","Face",1,XT("火域反噬"));
+					 
+					end
+				end
+				]]>
+				</OKResult>
+				<NOResult><![CDATA[	
+				 me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn't stand it and left in a hurry.");
+				 me:AddDamage("Huo_BurnOfPain","Hips",1,XT("火域反噬"));
+				 me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("火域反噬"));
+				 me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("火域反噬"));
+				 me:AddDamage("Huo_BurnOfPain","LeftForearm",1,XT("火域反噬"));
+				 me:AddDamage("Huo_BurnOfPain","LeftThigh",1,XT("火域反噬"));
+				 me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("火域反噬"));
+				
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>6th Layer (3100C, carrying bodhi seeds or qi >= 100 million)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetProperty("ToleranceTMax") >= 3100
+				]]>
+				</Condition>
+				<OKResult><![CDATA[	
+				if me:GetGLevel() >= 9 then
+				me:AddMsg("[NAME]Looking at this group of guys purple, they were eager to try, but unfortunately did not bring soap.");
+					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetProperty("NpcLingMaxValue") >= 100000000 then
+						me:AddMsg("[NAME]I found soap for sixty years in the area of ​​six fires. No, it was sixty years of purple fire.[NAME]Found a ball of soap-like purple fire.");
+						me:DropAwardItem("HUO_ZH",1);me.npcObj.PropertyMgr:AddAge(60);
+					else 
+					 me:AddMsg("[NAME]The retreat in the area of ​​six fires had nothing to do except to bake it six minutes.");me:AddDamage("DiffEnergyInvade","UpperElixirField",6,XT("Fireback"));
+					 me:AddDamage("DiffEnergyInvade","LowerElixirField",6,XT("火域反噬"));
+					 me:AddDamage("DiffEnergyInvade","RenChannel",6,XT("火域反噬"));
+					 me:AddDamage("DiffEnergyInvade","DuChannel",6,XT("火域反噬"));
+					 me:AddDamage("DiffEnergyInvade","YinHeelChannel",6,XT("火域反噬"));
+					 me:AddDamage("DiffEnergyInvade","YangWeiChannel",6,XT("火域反噬"));
+					 me:AddDamage("DiffEnergyInvade","ChongChannel",6,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","Hips",4,XT("火域反噬"));
+					 me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("火域反噬"));
+					 me:AddDamage("Huo_VisceralBurn","Genitals",4,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","Hips",4,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","LeftShoulder",4,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",4,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","LeftForearm",4,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","LeftThigh",4,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","LeftFoot",4,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","LeftForearm",4,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","Throat",4,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","Face",4,XT("火域反噬"));
+					end
+				end
+				]]>
+				</OKResult>
+				<NOResult><![CDATA[	
+				me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn't stand it and left in a hurry.");
+				me:AddDamage("DiffEnergyInvade","UpperElixirField",6,XT("Fireback"));
+				me:AddDamage("DiffEnergyInvade","LowerElixirField",6,XT("火域反噬"));
+				me:AddDamage("DiffEnergyInvade","RenChannel",6,XT("火域反噬"));
+				me:AddDamage("DiffEnergyInvade","DuChannel",6,XT("火域反噬"));
+				me:AddDamage("DiffEnergyInvade","YinHeelChannel",6,XT("火域反噬"));
+				me:AddDamage("DiffEnergyInvade","YangWeiChannel",6,XT("火域反噬"));
+				me:AddDamage("DiffEnergyInvade","ChongChannel",6,XT("火域反噬"));
+				me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("火域反噬"));
+				
+				]]></NOResult>
+			</li>
+			
+			<li>
+				<Display>7th Layer (4800C, carrying bodhi seeds or furnace tripods with an upper limit greater than 10,000)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetProperty("ToleranceTMax") >= 4800
+				]]>
+				</Condition>
+				<OKResult><![CDATA[	
+				if me:GetGLevel() >= 9 then
+				me:AddMsg("[NAME]Frightened by the seven layers of fire domain and dazzling flames, I could not help remembering that this area of ​​fire had once been trained to death.");
+					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetProperty("MaxAccumulativeLingAddV") >= 10000 then
+						me:AddMsg("[NAME]Achieving a hundred years of meditation in the colorful fire, in addition to acquiring the five-color fire, has also improved his ability to recover from internal injuries.");
+						me:DropAwardItem("HUO_WSSH",1);me.npcObj.PropertyMgr:AddAge(100);me:ModifierProperty("MagicDamageRecoveryPowerAddV",5);
+					else 
+					 me:AddMsg("[NAME]Failing to install 13 in the colorful fire, almost died, and got nothing.");me:AddDamage("Huo_HeartBurn","Heart",9,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","Hips",1,XT("火域反噬"));
+					 me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","Hips",1,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("火域反噬"));
+					 me:AddDamage("Huo_BurnOfPain","LeftForearm",1,XT("火域反噬"));
+					 
+					end
+				end
+				]]>
+				</OKResult>
+				<NOResult><![CDATA[	
+				me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn't stand it and left in a hurry.");me:AddDamgeFromCache(story.DamageCache,4,6);
+				me:AddDamage("DiffEnergyInvade","UpperElixirField",6,XT("火域反噬"));
+				me:AddDamage("DiffEnergyInvade","LowerElixirField",6,XT("火域反噬"));
+				me:AddDamage("DiffEnergyInvade","RenChannel",6,XT("火域反噬"));
+				me:AddDamage("DiffEnergyInvade","LowerElixirField",6,XT("火域反噬"));
+				me:AddDamage("DiffEnergyInvade","RenChannel",6,XT("火域反噬"));
+				me:AddDamage("DiffEnergyInvade","DuChannel",6,XT("火域反噬"));
+				me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("火域反噬"));
+				]]></NOResult>
+			</li>
+			
+			<li>
+				<Display>8th Layer (6500C, carrying bodhi seeds or qi protection >= forty)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetProperty("ToleranceTMax") >= 6500
+				]]>
+				</Condition>
+				<OKResult><![CDATA[	
+				if me:GetGLevel() >= 11 then
+				me:AddMsg("[NAME]Frightened by the seven layers of fire domain and dazzling flames, I could not help remembering that this area of ​​fire had once been trained to death.");
+					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetSkillLevel("Barrier") >= 40 then
+						me:AddMsg("[NAME]I have realized more than one hundred years of meditation in the colorful magical fire. In addition to obtaining the seven-colored magical fire, I have doubled my magic power.");
+						me:DropAwardItem("HUO_QCSH",1);me.npcObj.PropertyMgr:AddAge(160);me:ModifierProperty("NpcFight_FabaoPowerAddP",1);
+					else 
+					 me:AddMsg("[NAME]I tried to swim in the colorful fire, and almost died, but I got nothing.");
+						me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("火域反噬"));
+						me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("火域反噬"));
+						me:AddDamage("Huo_BurnOfPain","LeftForearm",1,XT("火域反噬"));
+						me:AddDamage("Huo_BurnOfPain","LeftThigh",1,XT("火域反噬"));
+						me:AddDamage("Huo_HeartBurn","Heart",9,XT("火域反噬"));
+					end
+				end
+				]]>
+				</OKResult>
+				<NOResult><![CDATA[	
+				me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn't stand it and left in a hurry.");
+					me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("火域反噬"));
+					me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("火域反噬"));
+					me:AddDamage("Huo_BurnOfPain","LeftForearm",1,XT("火域反噬"));
+					me:AddDamage("Huo_BurnOfPain","LeftThigh",1,XT("火域反噬"));
+					me:AddDamage("Huo_BurnOfPain","LeftFoot",1,XT("火域反噬"));
+					me:AddDamage("Huo_BurnOfPain","LeftForearm",1,XT("火域反噬"));
+					me:AddDamage("Huo_BurnOfPain","Throat",1,XT("火域反噬"));
+					me:AddDamage("Huo_BurnOfPain","Face",1,XT("火域反噬"));
+				    me:AddDamage("Huo_MarrowDry","Spine",0.1,XT("火域反噬"));
+				    me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("火域反噬"));
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>9th Layer (not installed, die when you enter, really)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetProperty("ToleranceTMax") >= 9500
+				]]>
+				</Condition>
+				<OKResult><![CDATA[	
+				if me:GetGLevel() >= 11 then
+				me:AddMsg("[NAME]Frightened by the seven layers of fire domain and dazzling flames, I could not help remembering that this area of ​​fire had once been trained to death.");
+					if me:RandomInt(1, 3) == 1 then
+						me:AddMsg("[NAME]Do not believe in evil, fortunately the author left him a line, so in order to reward[NAME]Unbelief, the author decided to cremate him.");
+						me:AddDamage("Huo_HeartBurn","Heart",9,XT("火域反噬"));
+					else 
+					 me:AddMsg("[NAME]I really do n’t believe in evil. I still came in. There ’s no way.[NAME]Fearless, so improved[NAME]Magic magic power is doubled.");
+					 me:ModifierProperty("NpcFight_FabaoMaxLingAddP",1);
+					end
+				end
+				]]>
+				</OKResult>
+				<NOResult><![CDATA[	
+				me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn’t stand it and was burned to death.");me:AddDamage("Huo_HeartBurn","Heart",9,XT("火域反噬"));
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>Not interested..</Display> 
+				<OKResult><![CDATA[	
+					me:AddMsg("[NAME]I feel that this is not a domain of fire, but an illusion.");
+
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+		<Story Name="HUO_CH">
+		<DisplayName>Divine Fire Quenching Body</DisplayName>
+		<Desc>Refining the fire of the fire domain, each flame will be improved to different degrees, can be quenched, can strengthen magic weapons. If the realm is insufficient, it will be back bitten.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Come on, it's all about to die anyway. (Three hundred road trips)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetProperty("ToleranceTMax") >= 500
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[	
+				local itemobj = story:GetBindThing()
+					if me:GetGLevel() >= 3 and me:GetDaoHang() > 300 then
+							me:AddMsg(XT("[NAME]Sitting in the same place and starting to refine the red fire, all the hot flames melted into[NAME]Body."));
+							me:ModifierProperty("NpcFight_FabaoPowerAddP",0.01);me:ModifierProperty("NpcFight_SpellPowerAddP",0.01);
+						else
+							me:AddMsg(XT("[NAME]When refining the red fire, it seemed that the high temperature of the red fire was forgotten, and as a result, the sun root was burned out.")); me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("神火反噬"));
+							end
+				story:RemoveBindItem();
+				]]>	
+				</OKResult>
+				<NOResult><![CDATA[	
+				me:AddMsg("[NAME]I just wanted to refine the red fire, but I didn't have this ability, and was instantly burned into slag.");
+				me:AddDamage("Huo_BurnOfPain","Hips",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","RightShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","RightHand",1,XT("神火反噬"));
+				story:RemoveBindItem();
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>give up</Display>
+				<OKResult>	
+				me:AddMsg(XT("[NAME]I feel that my skin is not thick enough, and I am afraid that I will not cook it well."))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+		<Story Name="HUO_LH">
+		<DisplayName>Divine Fire Quenching Body</DisplayName>
+		<Desc>Refining the fire of the fire domain, each flame will be improved to different degrees, can be quenched, can strengthen magic weapons. If the realm is insufficient, it will be back bitten.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Come on, it's all about to die anyway. (Four hundred road trips)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetProperty("ToleranceTMax") >= 650
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[	
+				local itemobj = story:GetBindThing()
+					if me:GetGLevel() >= 3 and me:GetDaoHang() > 400 then
+							me:AddMsg(XT("[NAME]Sitting in the same place and starting to refine the blue fire, all the hot flames melted into[NAME]Body."));
+							me:ModifierProperty("NpcLingMaxValue",0.02);me:ModifierProperty("NpcFight_FabaoMaxLingAddP",0.02);
+						else
+							me:AddMsg(XT("[NAME]When refining the blue fire, it seemed that the high temperature of the blue fire was forgotten, and as a result, the Yanggen was burned out."));me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("神火反噬"));
+							end
+				story:RemoveBindItem();
+				]]>	
+				</OKResult>
+				<NOResult><![CDATA[	
+				me:AddMsg("[NAME]I just wanted to refine the blue fire, but I didn't have this ability, and was burned into slag instantly.");
+				me:AddDamage("Huo_BurnOfPain","Hips",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","RightShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","RightHand",1,XT("神火反噬"));
+				story:RemoveBindItem();
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>give up</Display>
+				<OKResult>	
+				me:AddMsg(XT("[NAME]I feel that my skin is not thick enough, and I am afraid that I will not cook it well."))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+		<Story Name="HUO_BH">
+		<DisplayName>Divine Fire Quenching Body</DisplayName>
+		<Desc>Refining the fire of the fire domain, each flame will be improved to different degrees, can be quenched, can strengthen magic weapons. If the realm is insufficient, it will be back bitten.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Come on, it's all about to die anyway. (500 road trips)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetProperty("ToleranceTMax") >= 1000
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[	
+				local itemobj = story:GetBindThing()
+					if me:GetGLevel() >= 3 and me:GetDaoHang() > 500 then
+							me:AddMsg(XT("[NAME]Sitting in the same place and starting to refine the milky white flame, all the hot flames melted into[NAME]Body."));
+							me:ModifierProperty("NpcFight_FabaoLingRecoverAddP",0.03);me:ModifierProperty("NpcFight_ShieldConversionRate",0.03);
+						else
+							me:AddMsg(XT("[NAME]When refining the milky white flame, it seemed that the high temperature of the milky white flame was forgotten, and as a result, the sun root was burned out."));me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("神火反噬"));
+						end
+				story:RemoveBindItem();
+				]]>	
+				</OKResult>
+				<NOResult><![CDATA[	
+				me:AddMsg("[NAME]I just wanted to refine the milky white flame, but I didn't have this ability, and was instantly burned into slag.");
+				me:AddDamage("Huo_BurnOfPain","Hips",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","RightShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","RightHand",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftForearm",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftThigh",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftFoot",1,XT("神火反噬"));
+				story:RemoveBindItem();
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>give up</Display>
+				<OKResult>	
+				me:AddMsg(XT("[NAME]I feel that my skin is not thick enough, and I am afraid that I will not cook it well."))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+		<Story Name="HUO_WH">
+		<DisplayName>Divine Fire Quenching Body</DisplayName>
+		<Desc>Refining the fire of the fire domain, each flame will be improved to different degrees, can be quenched, can strengthen magic weapons. If the realm is insufficient, it will be back bitten.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Come on, it's all about to die anyway. (Six hundred road trips, above Dandan)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetProperty("ToleranceTMax") >= 1600
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[	
+				local itemobj = story:GetBindThing()
+					if me:GetGLevel() >= 6 and me:GetDaoHang() > 600 then
+							me:AddMsg(XT("[NAME]When absorbing the flame of black light, I suddenly thought of gluten brother. The tiger's body was shocked and absorbed."));
+							me:ModifierProperty("NpcFight_SpellLingCostAddP",-0.04);me:ModifierProperty("NpcFight_FabaoRepelDistanceAddV",0.04);
+						else
+							me:AddMsg(XT("[NAME]When absorbing the flame of black light, I felt a little hot and unbearable."));
+							me:AddDamage("Huo_VisceralBurn","Kidney",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Head",0.8,XT("神火反噬"));
+						end
+				story:RemoveBindItem();
+				]]>	
+				</OKResult>
+				<NOResult><![CDATA[	
+				me:AddMsg("[NAME]I just wanted to refine Wuguang Shenhuo, but it was burned as carbon ash.");
+				me:AddDamage("Huo_VisceralBurn","Head",2,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","Face",3,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","RightShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","RightHand",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftForearm",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftThigh",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftFoot",1,XT("神火反噬"));
+				story:RemoveBindItem();
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>give up</Display>
+				<OKResult>	
+				me:AddMsg(XT("[NAME]I feel that my skin is not thick enough, and I am afraid that I will not cook it well."))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+		<Story Name="HUO_JH">
+		<DisplayName>Divine Fire Quenching Body</DisplayName>
+		<Desc>Refining the fire of the fire domain, each flame will be improved to different degrees, can be quenched, can strengthen magic weapons. If the realm is insufficient, it will be back bitten.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Come on, it's all about to die anyway. (A thousand road trips, above Dandan)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetProperty("ToleranceTMax") >= 2300
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[	
+				local itemobj = story:GetBindThing()
+					if me:GetGLevel() >= 6 and me:GetDaoHang() > 1000 then
+							me:AddMsg(XT("[NAME]Looking calmly at the golden magic fire in front of me, I suddenly wanted to eat chicken wings, I don't know if the door downstairs didn't open."));
+							me:ModifierProperty("AbilityLvAddV",-30);me:ModifierProperty("NpcFight_FabaoRepelDistanceAddV",0.05);
+						else
+							me:AddMsg(XT("[NAME]When absorbing the golden god fire, I remembered that when Ye Tiandi preached, he had to have at least one hundred and fifty ways to absorb, and it was too late to remember."));
+							me:AddDamage("Huo_VisceralBurn","Kidney",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Head",0.8,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Liver",0.8,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Brain",0.8,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Lung",0.8,XT("神火反噬"));
+						end
+				story:RemoveBindItem();
+				]]>	
+				</OKResult>
+				<NOResult><![CDATA[	
+				me:AddMsg("[NAME]When I first wanted to refine the golden god fire, it was burned as char.");
+				me:AddDamage("Huo_VisceralBurn","Head",2,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","Face",3,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","RightShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","RightHand",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftForearm",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftThigh",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftFoot",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Head",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Liver",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Brain",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Lung",1,XT("神火反噬"));
+				story:RemoveBindItem();
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>give up</Display>
+				<OKResult>	
+				me:AddMsg(XT("[NAME]I feel that my skin is not thick enough, and I am afraid that I will not cook it well."))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+		<Story Name="HUO_ZH">
+		<DisplayName>Divine Fire Quenching Body</DisplayName>
+		<Desc>Refining the fire of the fire domain, each flame will be improved to different degrees, can be quenched, can strengthen magic weapons. If the realm is insufficient, it will be back bitten.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Come on, it's all about to die anyway. (One thousand and nineteen trips, Jindan and above, with a bodhi seed)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetProperty("ToleranceTMax") >= 3300
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[	
+				local itemobj = story:GetBindThing()
+					if me:GetGLevel() >= 9 and me:GetDaoHang() > 1900 and me:CheckItemEquptCount("Item_PTZ") == 1 then
+							me:AddMsg(XT("[NAME]Looking at the purple fire in front of me, I suddenly remembered something about last night and my neighbor, and couldn't help smiling."));
+							me:ModifierProperty("MaxAccumulativeLingAddV",90);me:ModifierProperty("GodPenaltyAddV",-30);
+						else
+							me:AddMsg(XT("[NAME]When I came to the east to absorb the purple qi, I remembered some overtime. I thought that the emperor could only resist with the bodhi, I didn't."));
+							me:AddDamage("Huo_VisceralBurn","Kidney",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Head",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Liver",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Brain",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Lung",1,XT("神火反噬"));
+						end
+				story:RemoveBindItem();
+				]]>	
+				</OKResult>
+				<NOResult><![CDATA[	
+				story:RemoveBindItem();
+				me:AddMsg("[NAME]When I first wanted to refine the purple magic fire, it was burned as char.");
+				me:AddDamage("Huo_VisceralBurn","Head",2,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","Face",3,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","RightShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","RightHand",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftForearm",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftThigh",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftFoot",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Head",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Liver",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Brain",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Lung",1,XT("神火反噬"));
+				
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>give up</Display>
+				<OKResult>	
+				me:AddMsg(XT("[NAME]I feel that my skin is not thick enough, and I am afraid that I will not cook it well."))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+		<Story Name="HUO_WCSH">
+		<DisplayName>Divine Fire Quenching Body</DisplayName>
+		<Desc>Refining the fire of the fire domain, each flame will be improved to different degrees, can be quenched, can strengthen magic weapons. If the realm is insufficient, it will be back bitten.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Come on, it's all about to die anyway. (2,500 lines, above Jin Dan, bring a bodhi seed)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetProperty("ToleranceTMax") >= 4800
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[	
+				local itemobj = story:GetBindThing()
+					if me:GetGLevel() >= 9 and me:GetDaoHang() > 2500 and me:CheckItemEquptCount("Item_PTZ") == 1 then
+							me:AddMsg(XT("[NAME]Looking at this colorful fire, I felt a burst of cyanosis, but risk is opportunity and I'm fighting! ."));
+							me:ModifierProperty("NpcFight_FabaoLingRecoverAddP",0.07);me:ModifierProperty("NpcFight_SpellLingCostAddP",-0.05);
+							me:ModifierProperty("NpcFight_SpellCastTimeAddP",-0.05);me:ModifierProperty("NpcFight_SpellCoolDownAddP",-0.05);me:ModifierProperty("NpcFight_SpellPowerAddP",0.05);
+							
+						else
+							me:AddMsg(XT("[NAME]Looking at this colorful fire, I felt a burst of cyanosis, but risk is opportunity and I'm fighting! Ah, dead."));
+							me:AddDamage("Huo_VisceralBurn","Kidney",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Head",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Liver",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Brain",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Lung",1,XT("神火反噬"));
+							me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
+							me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("神火反噬"));
+							me:AddDamage("Huo_BurnOfPain","LeftForearm",1,XT("神火反噬"));
+							me:AddDamage("Huo_BurnOfPain","LeftThigh",1,XT("神火反噬"));
+							me:AddDamage("Huo_BurnOfPain","LeftFoot",1,XT("神火反噬"));
+							me:AddDamage("Huo_BurnOfPain","LeftForearm",1,XT("神火反噬"));
+							me:AddDamage("Huo_BurnOfPain","Throat",1,XT("神火反噬"));
+							me:AddDamage("Huo_MarrowDry","Spine",1,XT("神火反噬"));
+				
+						end
+				story:RemoveBindItem();
+				]]>	
+				</OKResult>
+				<NOResult><![CDATA[	
+				story:RemoveBindItem();
+				me:AddMsg("[NAME]When I first wanted to refine the colorful fire, it was burned as carbon ash.");
+				me:AddDamage("Huo_VisceralBurn","Head",2,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","Face",3,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","RightShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","RightHand",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftForearm",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftThigh",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftFoot",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Head",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Liver",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Brain",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Lung",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Kidney",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","Throat",1,XT("神火反噬"));
+				me:AddDamage("Huo_MarrowDry","Spine",1,XT("神火反噬"));
+				
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>give up</Display>
+				<OKResult>	
+				me:AddMsg(XT("[NAME]I feel that my skin is not thick enough, and I am afraid that I will not cook it well."))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+		<Story Name="HUO_QCSH">
+		<DisplayName>Divine Fire Quenching Body</DisplayName>
+		<Desc>Refining the fire of the fire domain, each flame will be improved to different degrees, can be quenched, can strengthen magic weapons. If the realm is insufficient, it will be back bitten.</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>Come on, it's all about to die anyway. (Three thousand roads, above the dragon, bring a bodhi)</Display>
+				<Condition>
+				<![CDATA[	
+				me:GetProperty("ToleranceTMax") >= 7000
+				]]>
+				</Condition>
+				<OKResult>
+				<![CDATA[	
+				local itemobj = story:GetBindThing()
+					if me:GetGLevel() >= 11 and me:GetDaoHang() > 3000 and me:CheckItemEquptCount("Item_PTZ") == 1 then
+							me:AddMsg(XT("[NAME]Looking at this colorful fire, I feel a burst of cyanosis, but risk is opportunity, and I have fight! ."));
+							me:ModifierProperty("NpcFight_FabaoPowerAddP",0.08);me:ModifierProperty("NpcFight_FabaoLingRecoverAddP",0.08);
+							me:ModifierProperty("NpcFight_FabaoLingRecoverK",0.08);me:ModifierProperty("NpcFight_FabaoMaxLingAddP",0.08);
+							me:ModifierProperty("NpcFight_FabaoRepelDistanceAddV",0.08);me:ModifierProperty("NpcFight_FabaoFlySpeedAddP",0.08);
+							me:ModifierProperty("NpcFight_FabaoTurnSpeedAddP",0.08);me:ModifierProperty("NpcFight_FabaoRepelResistanceAddV",0.08);
+							
+							
+						else
+							me:AddMsg(XT("[NAME]Looking at this colorful fire, I feel a burst of cyanosis, but risk is opportunity, and I have fight! Ah, dead."));
+							me:AddDamage("Huo_VisceralBurn","Kidney",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Head",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Liver",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Brain",1,XT("神火反噬"));
+							me:AddDamage("Huo_VisceralBurn","Lung",1,XT("神火反噬"));
+							me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
+							me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("神火反噬"));
+							me:AddDamage("Huo_BurnOfPain","LeftForearm",1,XT("神火反噬"));
+							me:AddDamage("Huo_BurnOfPain","LeftThigh",1,XT("神火反噬"));
+							me:AddDamage("Huo_BurnOfPain","LeftFoot",1,XT("神火反噬"));
+							me:AddDamage("Huo_BurnOfPain","LeftForearm",1,XT("神火反噬"));
+							me:AddDamage("Huo_BurnOfPain","Throat",1,XT("神火反噬"));
+							me:AddDamage("Huo_MarrowDry","Spine",1,XT("神火反噬"));
+				
+						end
+				story:RemoveBindItem();
+				]]>	
+				</OKResult>
+				<NOResult><![CDATA[	
+				story:RemoveBindItem();
+				me:AddMsg("[NAME]When I first wanted to refine the colorful god fire, but was burned as char.");
+				me:AddDamage("Huo_VisceralBurn","Head",2,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","Face",3,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","RightShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","RightHand",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftForearm",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftThigh",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","LeftFoot",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Head",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Liver",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Brain",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Lung",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Kidney",1,XT("神火反噬"));
+				me:AddDamage("Huo_VisceralBurn","Genitals",1,XT("神火反噬"));
+				me:AddDamage("Huo_BurnOfPain","Throat",1,XT("神火反噬"));
+				me:AddDamage("Huo_MarrowDry","Spine",1,XT("神火反噬"));
+				
+				]]></NOResult>
+			</li>
+			<li>
+				<Display>give up</Display>
+				<OKResult>	
+				me:AddMsg(XT("[NAME]I feel that my skin is not thick enough, and I am afraid that I will not cook it well."))
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+</List></Stories>

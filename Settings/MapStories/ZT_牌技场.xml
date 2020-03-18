@@ -1,0 +1,855 @@
+<Stories><List>
+	
+	<Story Name="PJC"  Parent="BaseFillingStory">
+		<DisplayName>gambling</DisplayName>
+		<Desc>[NAME]Cut the stone, the consciousness drifted into a gamble in the node of the other world. The rules of the gambling game are as follows: the two sides get two Daoyun, one bright and one dark, 1 point can be counted as 11 points (you decide how to use it), and the remaining 2 to 10 points are calculated according to the size of the board. And 10 will get Xianyu. If the other party does not have 1 and 10, they will get the highest reward directly. If the other party's Mingyun is 1, you can consider buying insurance. The insurance life is the general value of the life required by Cut Stone. Then get back the insurance Shouyuan and get the highest reward directly. If the other party is not Xianyu, continue to gamble. Players who have not won Xianyu can continue to ask for rhyme, and close the Taoyun in their hands to 21 points. At 21 o'clock, we will directly deduct the shou yuan required for double cut stones and end the gambling. If it is not exceeded, we will decide that we will no longer need Tao Yun, and the two sides will compare the size.</Desc>
+		<Selections>
+			<li>
+				<Display>Let it go.</Display> 
+				<OKResult><![CDATA[
+					local tN = {1,2,3,4,5,6,7,8,9,10};
+					local nR = me:RandomInt(1,(#tN+1));
+					local nQ = tN[nR];
+					world:SetWorldFlag(167,nQ);
+					table.remove(tN,nR);
+					nR = me:RandomInt(1,(#tN+1));
+					nQ = tN[nR];
+					world:SetWorldFlag(166,nQ);
+					local tJ = {1,2,3,4,5,6,7,8,9,10};
+					local nH = me:RandomInt(1,(#tN+1));
+					local nG = tN[nR];
+					world:SetWorldFlag(168,nG);
+					table.remove(tJ,nH);
+					nH = me:RandomInt(1,(#tJ+1));
+					nG = tJ[nH];
+					world:SetWorldFlag(169,nG);
+					local num166 = world:GetWorldFlag(166)
+					local num167 = world:GetWorldFlag(167)
+					local num168 = world:GetWorldFlag(168)
+					local num169 = world:GetWorldFlag(169)
+					me:AddMsg(string.format(XT("[NAME]The two Daoyun drawn are:%s,%s。"), tostring(num166), tostring(num167)));
+					me:AddMsg(string.format(XT("The implied meaning of the home is:%s。"), tostring(num168)));
+					if num166 == 1 and num167 == 10 then
+						me:TriggerStory("XY1");
+					elseif num166 == 10 and num167 == 1 then
+						me:TriggerStory("XY1");
+					else
+						me:TriggerStory("JX");
+					end
+				]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>go away</Display> 
+				<OKResult>me:AddMsg(XT("[NAME]After thinking about it, gambling hurts, let ’s go quickly and consume Shou Yuan, so it ’s consumed, buy a lesson."));</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+		
+	<Story Name="XY1"  Parent="BaseFillingStory">
+		<DisplayName>gambling</DisplayName>
+		<Desc>[NAME]I won the immortal realm. If the other party does not have the immortal realm, I will get the highest reward directly. If the other party's Mingyun is 1 or 10, you can consider buying insurance. Xianyu, then get back the insurance Shouyuan and get the highest reward directly. If the other party is not Xianyu, continue to gamble</Desc>
+		<Selections>
+			<li>
+				<Display>I'm afraid of a hammer when there is a fairyland</Display> 
+				<OKResult><![CDATA[
+					if num168 == 1 and num169 ==10 then
+						me:AddMsg("[NAME]So arrogant? It is unexpected that the opponent is really Xianyu. Lose everything.");me:TriggerStory("PJCML");
+					elseif num168 == 10 and num169 == 1 then
+					me:AddMsg("[NAME]So arrogant? It is unexpected that the opponent is really Xianyu. Lose everything.");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]Won");me:TriggerStory("PJCML");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>The other party Ming Yun has 1 or 10, buy insurance.</Display> 
+				<OKResult><![CDATA[
+					if num168 == 1 and num169 ==10 then
+						me:AddMsg("[NAME]Seeing the other side of the fairyland, I felt a sigh in my heart, but fortunately I left a bottom to win directly, almost fortunately I did not lose all the underpants.");me:TriggerStory("PJCML");
+					elseif num168 == 10 and num169 == 1 then
+						me:AddMsg("[NAME]Seeing the other side of the fairyland, I felt a sigh in my heart, but fortunately I left a bottom to win directly, almost fortunately I did not lose all the underpants.");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]Lost underpants are gone.");me:TriggerStory("PJCML");
+					end
+				]]></OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="JX"  Parent="BaseFillingStory">
+		<DisplayName>Gambling in stone</DisplayName>
+		<Desc>[NAME]I continued the gambling, I do n’t know[NAME]What are you going to do?</Desc>
+		<Selections>
+			<li>
+				<Display>Give me rhyme</Display> 
+				<OKResult><![CDATA[
+					local tN = {1,2,3,4,5,6,7,8,9,10};
+					local nR = me:RandomInt(1,(#tN+1));
+					local nQ = tN[nR];
+					world:SetWorldFlag(177,nQ);
+					
+					local tJ = {1,2,3,4,5,6,7,8,9,10};
+					local nH = me:RandomInt(1,(#tN+1));
+					local nG = tN[nR];
+					world:SetWorldFlag(178,nG);
+					
+					local num166 = world:GetWorldFlag(166)
+					local num167 = world:GetWorldFlag(167)
+					local num168 = world:GetWorldFlag(168)
+					local num169 = world:GetWorldFlag(169)
+					local num177 = world:GetWorldFlag(177)
+					local num178 = world:GetWorldFlag(178)
+					
+					me:AddMsg(string.format(XT("[NAME]The three Daoyun drawn were:%s,%s,%s。"), tostring(num166), tostring(num167), tostring(num177)));
+					me:AddMsg(string.format(XT("The two Mingyuns drawn by the opponent are:%s,%s"), tostring(num168), tostring(num169)));
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169))
+					if nT >= 22 then
+						me:AddMsg("[NAME]The obtained rhyme exceeded the endurance of the node, and the brain buzzed, and the consciousness was damaged to some extent.");me:AddDamage("Destroy","Brain",0.5,XT("Burst of consciousness"));
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]Good luck, actually waited until the opposite side exceeded the tolerance of the node, and successfully won.");
+					else 
+						me:TriggerStory("JX1");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Convert 1 rhyme to 11 rhymes, and then open the card (default is to convert only 1 to 11))</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + 10)
+					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 then
+						me:AddMsg("[NAME]Obviously there is no 1, trying to lie to me, too much.");
+						me:AddDamage("Destroy","Brain",1,XT("Burst of consciousness"));
+						nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167))
+					end
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169))
+					if world:GetWorldFlag(168) == 1 or world:GetWorldFlag(169) == 1 then
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + 10)
+							if math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + 10) > 21 then
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169))
+							else 
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + 10)
+							end
+					else
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169))
+					end
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("The sum of the two rhymes is:%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= 22 then
+						me:AddMsg("[NAME]The obtained rhyme exceeded the endurance of the node, and the brain buzzed, and the consciousness was damaged to some extent.");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));me:TriggerStory("PJCML");
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]Good luck, actually waited until the opposite side exceeded the tolerance of the node first, and successfully won");me:TriggerStory("PJCML");
+					elseif nT >= nY then
+						me:AddMsg("[NAME]赢了。");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");me:TriggerStory("PJCML");
+
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>Just open the card</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169))
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("The sum of the two rhymes is:%s,%s。"), tostring(num596), tostring(num597)));
+					if num168 == 1 and num169 ==10 then
+						me:AddMsg("[NAME]So arrogant? It was not expected that the opponent was actually Xianyu. Lose everything.");me:TriggerStory("PJCML");
+					elseif num168 == 10 and num169 == 1 then
+					me:AddMsg("[NAME]So arrogant? It is unexpected that the opponent is actually a fairyland. Lose everything.");me:TriggerStory("PJCML");
+					elseif  nT >= nY then
+						me:AddMsg("[NAME]赢了。");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]Bai spent Shouyuan.");me:TriggerStory("PJCML");
+						
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	<Story Name="JX1"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]继续了赌局，不知道[NAME]打算如何是好。。</Desc>
+		<Selections>
+			<li>
+				<Display>给我道韵</Display> 
+				<OKResult><![CDATA[
+					local tN = {1,2,3,4,5,6,7,8,9,10};
+					local nR = me:RandomInt(1,(#tN+1));
+					local nQ = tN[nR];
+					world:SetWorldFlag(187,nQ);
+					
+					local tJ = {1,2,3,4,5,6,7,8,9,10};
+					local nH = me:RandomInt(1,(#tN+1));
+					local nG = tN[nR];
+					world:SetWorldFlag(188,nG);
+					
+					local num166 = world:GetWorldFlag(166)
+					local num167 = world:GetWorldFlag(167)
+					local num168 = world:GetWorldFlag(168)
+					local num169 = world:GetWorldFlag(169)
+					local num177 = world:GetWorldFlag(177)
+					local num178 = world:GetWorldFlag(178)
+					local num187 = world:GetWorldFlag(187)
+					local num188 = world:GetWorldFlag(188)
+					
+					me:AddMsg(string.format(XT("[NAME]抽到的四张道韵分别为：%s,%s,%s,%s。"), tostring(num166), tostring(num167), tostring(num177), tostring(num187)));
+					me:AddMsg(string.format(XT("对家抽到的三张明蕴为：%s,%s,%s"), tostring(num168), tostring(num169), tostring(num178)));
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178))
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));me:TriggerStory("PJCML");
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获胜。");me:TriggerStory("PJCML");
+					else 
+						me:TriggerStory("JX2");me:TriggerStory("PJCML");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + 10)
+					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 then
+						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
+						me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+						nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177))
+					end
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178))
+					if world:GetWorldFlag(168) == 1 or world:GetWorldFlag(169) == 1 or world:GetWorldFlag(178) == 1 then
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + 10)
+							if math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + 10) > 21 then
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178))
+							else 
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + 10)
+							end
+					else
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178))
+					end
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));me:TriggerStory("PJCML");
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获胜。");me:TriggerStory("PJCML");
+					elseif nT >= nY then
+						me:AddMsg("[NAME]赢了。");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");me:TriggerStory("PJCML");
+
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>直接开牌吧</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178))
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= nY then
+						me:AddMsg("[NAME]赢了。");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");me:TriggerStory("PJCML");
+						
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="JX2"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]继续了赌局，不知道[NAME]打算如何是好。。</Desc>
+		<Selections>
+			<li>
+				<Display>给我道韵</Display> 
+				<OKResult><![CDATA[
+					local tN = {1,2,3,4,5,6,7,8,9,10};
+					local nR = me:RandomInt(1,(#tN+1));
+					local nQ = tN[nR];
+					world:SetWorldFlag(197,nQ);
+					
+					local tJ = {1,2,3,4,5,6,7,8,9,10};
+					local nH = me:RandomInt(1,(#tN+1));
+					local nG = tN[nR];
+					world:SetWorldFlag(198,nG);
+					
+					local num166 = world:GetWorldFlag(166)
+					local num167 = world:GetWorldFlag(167)
+					local num168 = world:GetWorldFlag(168)
+					local num169 = world:GetWorldFlag(169)
+					local num177 = world:GetWorldFlag(177)
+					local num178 = world:GetWorldFlag(178)
+					local num187 = world:GetWorldFlag(187)
+					local num188 = world:GetWorldFlag(188)
+					local num197 = world:GetWorldFlag(197)
+					local num198 = world:GetWorldFlag(198)
+					
+					me:AddMsg(string.format(XT("[NAME]抽到的五张道韵分别为：%s,%s,%s,%s,%s。"), tostring(num166), tostring(num167), tostring(num177), tostring(num187), tostring(num197)));
+					me:AddMsg(string.format(XT("对家抽到的四张明蕴为：%s,%s,%s,%s。"), tostring(num168), tostring(num169), tostring(num178), tostring(num188)));
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188))
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));me:TriggerStory("PJCML");
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获胜。");me:TriggerStory("PJCML");
+					else 
+						me:TriggerStory("JX3");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + 10)
+					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 then
+						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
+						me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+						nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187))
+					end
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188))
+					if world:GetWorldFlag(168) == 1 or world:GetWorldFlag(169) == 1 or world:GetWorldFlag(178) == 1 or world:GetWorldFlag(188) == 1 then
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + 10)
+							if math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + 10) > 21 then
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188))
+							else 
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + 10)
+							end
+					else
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188))
+					end
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));me:TriggerStory("PJCML");
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获胜。");me:TriggerStory("PJCML");
+					elseif nT >= nY then
+						me:AddMsg("[NAME]赢了。");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");me:TriggerStory("PJCML");
+
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>直接开牌吧</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188))
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= nY then
+						me:AddMsg("[NAME]赢了。");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");me:TriggerStory("PJCML");
+						
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="JX3"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]继续了赌局，不知道[NAME]打算如何是好。。</Desc>
+		<Selections>
+			<li>
+				<Display>给我道韵</Display> 
+				<OKResult><![CDATA[
+					local tN = {1,2,3,4,5,6,7,8,9,10};
+					local nR = me:RandomInt(1,(#tN+1));
+					local nQ = tN[nR];
+					world:SetWorldFlag(207,nQ);
+					
+					local tJ = {1,2,3,4,5,6,7,8,9,10};
+					local nH = me:RandomInt(1,(#tN+1));
+					local nG = tN[nR];
+					world:SetWorldFlag(208,nG);
+					
+					local num166 = world:GetWorldFlag(166)
+					local num167 = world:GetWorldFlag(167)
+					local num168 = world:GetWorldFlag(168)
+					local num169 = world:GetWorldFlag(169)
+					local num177 = world:GetWorldFlag(177)
+					local num178 = world:GetWorldFlag(178)
+					local num187 = world:GetWorldFlag(187)
+					local num188 = world:GetWorldFlag(188)
+					local num197 = world:GetWorldFlag(197)
+					local num198 = world:GetWorldFlag(198)
+					local num207 = world:GetWorldFlag(207)
+					local num208 = world:GetWorldFlag(208)
+					
+					me:AddMsg(string.format(XT("[NAME]抽到的六张道韵分别为：%s,%s,%s,%s,%s,%s。"), tostring(num166), tostring(num167), tostring(num177), tostring(num187), tostring(num197), tostring(num207)));
+					me:AddMsg(string.format(XT("对家抽到的五张明蕴为：%s,%s,%s,%s,%s。"), tostring(num168), tostring(num169), tostring(num178), tostring(num188), tostring(num198)));
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188))
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));me:TriggerStory("PJCML");
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获胜。");me:TriggerStory("PJCML");
+					else 
+						me:TriggerStory("JX4");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + 10)
+					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 then
+						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
+						me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+						nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197))
+					end
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198))
+					if world:GetWorldFlag(168) == 1 or world:GetWorldFlag(169) == 1 or world:GetWorldFlag(178) == 1 or world:GetWorldFlag(188) == 1 or world:GetWorldFlag(198) == 1 then
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + 10)
+							if math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + 10) > 21 then
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198))
+							else 
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + 10)
+							end
+					else
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198))
+					end
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));me:TriggerStory("PJCML");
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获胜。");me:TriggerStory("PJCML");
+					elseif nT >= nY then
+						me:AddMsg("[NAME]赢了。");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");me:TriggerStory("PJCML");
+
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>直接开牌吧</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198))
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= nY then
+						me:AddMsg("[NAME]赢了。");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");me:TriggerStory("PJCML");
+						
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+		<Story Name="JX4"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]继续了赌局，不知道[NAME]打算如何是好。。</Desc>
+		<Selections>
+			<li>
+				<Display>给我道韵</Display> 
+				<OKResult><![CDATA[
+					local tN = {1,2,3,4,5,6,7,8,9,10};
+					local nR = me:RandomInt(1,(#tN+1));
+					local nQ = tN[nR];
+					world:SetWorldFlag(217,nQ);
+					
+					local tJ = {1,2,3,4,5,6,7,8,9,10};
+					local nH = me:RandomInt(1,(#tN+1));
+					local nG = tN[nR];
+					world:SetWorldFlag(218,nG);
+					
+					local num166 = world:GetWorldFlag(166)
+					local num167 = world:GetWorldFlag(167)
+					local num168 = world:GetWorldFlag(168)
+					local num169 = world:GetWorldFlag(169)
+					local num177 = world:GetWorldFlag(177)
+					local num178 = world:GetWorldFlag(178)
+					local num187 = world:GetWorldFlag(187)
+					local num188 = world:GetWorldFlag(188)
+					local num197 = world:GetWorldFlag(197)
+					local num198 = world:GetWorldFlag(198)
+					local num207 = world:GetWorldFlag(207)
+					local num208 = world:GetWorldFlag(208)
+					local num217 = world:GetWorldFlag(217)
+					local num218 = world:GetWorldFlag(218)
+					
+					me:AddMsg(string.format(XT("[NAME]抽到的七张道韵分别为：%s,%s,%s,%s,%s,%s,%s。"), tostring(num166), tostring(num167), tostring(num177), tostring(num187), tostring(num197), tostring(num207), tostring(num217)));
+					me:AddMsg(string.format(XT("对家抽到的六张明蕴为：%s,%s,%s,%s,%s,%s。"), tostring(num168), tostring(num169), tostring(num178), tostring(num188), tostring(num198), tostring(num208)));
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188)) + world:GetWorldFlag(198) + world:GetWorldFlag(208))
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));me:TriggerStory("PJCML");
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获胜。");me:TriggerStory("PJCML");
+					else 
+						me:TriggerStory("JX5");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + 10)
+					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 and world:GetWorldFlag(207) > 1 then
+						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
+						me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+						nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207))
+					end
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208))
+					if world:GetWorldFlag(168) == 1 or world:GetWorldFlag(169) == 1 or world:GetWorldFlag(178) == 1 or world:GetWorldFlag(188) == 1 or world:GetWorldFlag(198) == 1 or world:GetWorldFlag(208) == 1 then
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + 10)
+							if math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + 10) > 21 then
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208))
+							else 
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + 10)
+							end
+					else
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208))
+					end
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));me:TriggerStory("PJCML");
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获胜。");me:TriggerStory("PJCML");
+					elseif nT >= nY then
+						me:AddMsg("[NAME]赢了。");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");me:TriggerStory("PJCML");
+
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>直接开牌吧</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208))
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= nY then
+						me:AddMsg("[NAME]赢了。");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");me:TriggerStory("PJCML");
+						
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+		<Story Name="JX5"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]继续了赌局，不知道[NAME]打算如何是好。。</Desc>
+		<Selections>
+			<li>
+				<Display>给我道韵</Display> 
+				<OKResult><![CDATA[
+					local tN = {1,2,3,4,5,6,7,8,9,10};
+					local nR = me:RandomInt(1,(#tN+1));
+					local nQ = tN[nR];
+					world:SetWorldFlag(227,nQ);
+					
+					local tJ = {1,2,3,4,5,6,7,8,9,10};
+					local nH = me:RandomInt(1,(#tN+1));
+					local nG = tN[nR];
+					world:SetWorldFlag(228,nG);
+					
+					local num166 = world:GetWorldFlag(166)
+					local num167 = world:GetWorldFlag(167)
+					local num168 = world:GetWorldFlag(168)
+					local num169 = world:GetWorldFlag(169)
+					local num177 = world:GetWorldFlag(177)
+					local num178 = world:GetWorldFlag(178)
+					local num187 = world:GetWorldFlag(187)
+					local num188 = world:GetWorldFlag(188)
+					local num197 = world:GetWorldFlag(197)
+					local num198 = world:GetWorldFlag(198)
+					local num207 = world:GetWorldFlag(207)
+					local num208 = world:GetWorldFlag(208)
+					local num217 = world:GetWorldFlag(217)
+					local num218 = world:GetWorldFlag(218)
+					local num217 = world:GetWorldFlag(227)
+					local num218 = world:GetWorldFlag(228)
+					
+					me:AddMsg(string.format(XT("[NAME]抽到的八张道韵分别为：%s,%s,%s,%s,%s,%s,%s,%s。"), tostring(num166), tostring(num167), tostring(num177), tostring(num187), tostring(num197), tostring(num207), tostring(num217), tostring(num227)));
+					me:AddMsg(string.format(XT("对家抽到的七张明蕴为：%s,%s,%s,%s,%s,%s,%s。"), tostring(num168), tostring(num169), tostring(num178), tostring(num188), tostring(num198), tostring(num208), tostring(num218)));
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188)) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218))
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));me:TriggerStory("PJCML");
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获胜。");me:TriggerStory("PJCML");
+					else 
+						me:TriggerStory("JX6");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + 10)
+					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 and world:GetWorldFlag(207) > 1 and world:GetWorldFlag(217) > 1 then
+						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
+						me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+						nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217))
+					end
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218))
+					if world:GetWorldFlag(168) == 1 or world:GetWorldFlag(169) == 1 or world:GetWorldFlag(178) == 1 or world:GetWorldFlag(188) == 1 or world:GetWorldFlag(198) == 1 or world:GetWorldFlag(208) == 1 or world:GetWorldFlag(218) == 1 then
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + 10)
+							if math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + 10) > 21 then
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218))
+							else 
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + 10)
+							end
+					else
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218))
+					end
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));me:TriggerStory("PJCML");
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获胜。");me:TriggerStory("PJCML");
+					elseif nT >= nY then
+						me:AddMsg("[NAME]赢了。");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");me:TriggerStory("PJCML");
+
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>直接开牌吧</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218))
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= nY then
+						me:AddMsg("[NAME]赢了。");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");me:TriggerStory("PJCML");
+						
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+		<Story Name="JX6"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]继续了赌局，不知道[NAME]打算如何是好。。</Desc>
+		<Selections>
+			<li>
+				<Display>给我道韵</Display> 
+				<OKResult><![CDATA[
+					local tN = {1,2,3,4,5,6,7,8,9,10};
+					local nR = me:RandomInt(1,(#tN+1));
+					local nQ = tN[nR];
+					world:SetWorldFlag(237,nQ);
+					
+					local tJ = {1,2,3,4,5,6,7,8,9,10};
+					local nH = me:RandomInt(1,(#tN+1));
+					local nG = tN[nR];
+					world:SetWorldFlag(238,nG);
+					
+					local num166 = world:GetWorldFlag(166)
+					local num167 = world:GetWorldFlag(167)
+					local num168 = world:GetWorldFlag(168)
+					local num169 = world:GetWorldFlag(169)
+					local num177 = world:GetWorldFlag(177)
+					local num178 = world:GetWorldFlag(178)
+					local num187 = world:GetWorldFlag(187)
+					local num188 = world:GetWorldFlag(188)
+					local num197 = world:GetWorldFlag(197)
+					local num198 = world:GetWorldFlag(198)
+					local num207 = world:GetWorldFlag(207)
+					local num208 = world:GetWorldFlag(208)
+					local num217 = world:GetWorldFlag(217)
+					local num218 = world:GetWorldFlag(218)
+					local num217 = world:GetWorldFlag(227)
+					local num218 = world:GetWorldFlag(228)
+					local num217 = world:GetWorldFlag(237)
+					local num218 = world:GetWorldFlag(238)
+					
+					me:AddMsg(string.format(XT("[NAME]抽到的九张道韵分别为：%s,%s,%s,%s,%s,%s,%s,%s,%s。"), tostring(num166), tostring(num167), tostring(num177), tostring(num187), tostring(num197), tostring(num207), tostring(num217), tostring(num227), tostring(num237)));
+					me:AddMsg(string.format(XT("对家抽到的八张明蕴为：%s,%s,%s,%s,%s,%s,%s,%s。"), tostring(num168), tostring(num169), tostring(num178), tostring(num188), tostring(num198), tostring(num208), tostring(num218), tostring(num228)));
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227) + world:GetWorldFlag(237))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188)) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228))
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));me:TriggerStory("PJCML");
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获胜。");me:TriggerStory("PJCML");
+					else 
+						me:TriggerStory("JX7");
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227) + 10)
+					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 and world:GetWorldFlag(207) > 1 and world:GetWorldFlag(217) > 1 and world:GetWorldFlag(227) > 1 then
+						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
+						me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+						nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227))
+					end
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228))
+					if world:GetWorldFlag(168) == 1 or world:GetWorldFlag(169) == 1 or world:GetWorldFlag(178) == 1 or world:GetWorldFlag(188) == 1 or world:GetWorldFlag(198) == 1  or world:GetWorldFlag(208) == 1 or world:GetWorldFlag(218) == 1 or world:GetWorldFlag(228) == 1 then
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + 10)
+							if math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + 10) > 21 then
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228))
+							else 
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + 10)
+							end
+					else
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228))
+					end
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));me:TriggerStory("PJCML");
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获胜。");me:TriggerStory("PJCML");
+					elseif nT >= nY then
+						me:AddMsg("[NAME]赢了。");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");me:TriggerStory("PJCML");
+
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>直接开牌吧</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228))
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= nY then
+						me:AddMsg("[NAME]赢了。");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");me:TriggerStory("PJCML");
+						
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	<Story Name="JX7"  Parent="BaseFillingStory">
+		<DisplayName>石中赌局</DisplayName>
+		<Desc>[NAME]继续了赌局，不知道[NAME]打算如何是好。。</Desc>
+		<Selections>
+			<li>
+				<Display>给我道韵</Display> 
+				<OKResult><![CDATA[
+					me:AddMsg("大佬就冲你这个人品，东西给你了。");me:TriggerStory("PJCML");
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227) + world:GetWorldFlag(237)+ 10)
+					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 and world:GetWorldFlag(207) > 1 and world:GetWorldFlag(217) > 1 and world:GetWorldFlag(227) > 1 and world:GetWorldFlag(237) > 1 then
+						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
+						me:AddDamage("Destroy","Brain",1,XT("神识炸裂"));
+						nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227) + world:GetWorldFlag(237))
+					end
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228))
+					if world:GetWorldFlag(168) == 1 or world:GetWorldFlag(169) == 1 or world:GetWorldFlag(178) == 1 or world:GetWorldFlag(188) == 1 or world:GetWorldFlag(198) == 1 or world:GetWorldFlag(208) == 1 or world:GetWorldFlag(218) == 1 or world:GetWorldFlag(228) == 1 or world:GetWorldFlag(238) == 1 then
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + world:GetWorldFlag(238) + 10)
+							if math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + world:GetWorldFlag(238) + 10) > 21 then
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + world:GetWorldFlag(238))
+							else 
+								 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + world:GetWorldFlag(238) + 10)
+							end
+					else
+						 nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + world:GetWorldFlag(238))
+					end
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= 22 then
+						me:AddMsg("[NAME]获得的道韵超过了该结点的承受能力，脑中一整嗡鸣，神识受到了一定地伤害。");me:AddDamage("Destroy","Brain",0.5,XT("神识炸裂"));me:TriggerStory("PJCML");
+					elseif nY >= 22 then
+						me:AddMsg("[NAME]运气不错，居然等到了对面先超出过结点的承受能力，成功获胜。");me:TriggerStory("PJCML");
+					elseif nT >= nY then
+						me:AddMsg("[NAME]赢了。");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");me:TriggerStory("PJCML");
+
+					end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>直接开牌吧</Display> 
+				<OKResult><![CDATA[
+					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227) + world:GetWorldFlag(237))
+					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + world:GetWorldFlag(238))
+					local num596 = nT
+					local num597 = nY
+					me:AddMsg(string.format(XT("双方道韵之和分别为：%s,%s。"), tostring(num596), tostring(num597)));
+					if nT >= nY then
+						me:AddMsg("[NAME]赢了。");me:TriggerStory("PJCML");
+					else
+						me:AddMsg("[NAME]白消耗了寿元。");me:TriggerStory("PJCML");
+						
+					end
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+	
+</List></Stories>

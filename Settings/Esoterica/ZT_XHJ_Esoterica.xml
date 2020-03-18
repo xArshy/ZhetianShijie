@@ -1,0 +1,523 @@
+<Esotericas><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Esoterica Name="Gong_XHJ_LH_A1">
+		<DisplayName>瑶池仙境</DisplayName>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\YCXJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>瑶池，神话中昆仑山上的池名，是西皇母所住的地方。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n加五维\n加灵力最大值\n加参悟值领悟系数\n习得秘术：瑶池[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_LH_1A</Modifier>
+		<Skills>
+			<li>XHJ_YC</li>
+		</Skills>
+	</Esoterica>
+	<Esoterica Name="Gong_XHJ_LH_A1_1">
+		<DisplayName>瑶池仙境</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\YCXJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>瑶池，神话中昆仑山上的池名，是西皇母所住的地方。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n加个人灵气\n加个人回灵[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_LH_1A_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_XHJ_LH_A1_2">
+		<DisplayName>瑶池仙境</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\YCXJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>瑶池，神话中昆仑山上的池名，是西皇母所住的地方。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加潜力\n加法宝回灵倍率\n加心境[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_LH_1A_2</Modifier>
+	</Esoterica>
+	
+	
+	<!-- ==========================技能2========================== -->
+	
+	<Esoterica Name="Gong_XHJ_LH_A2">
+		<DisplayName>霞雾缭绕</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\XWLR.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>瑶池如仙境，常有仙雾朦胧。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]\n加炼丹等级\n习得神通：造化灵土\n习得  秘术：霞雾缭绕[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_LH_2A</Modifier>
+		<Skills>
+			<li>XHJ_XWLR</li>
+		</Skills>
+		<Magics>
+			
+			<li>BuildLing</li>
+			
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Gong_XHJ_LH_A2_1">
+		<DisplayName>霞雾缭绕</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\XWLR.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>瑶池如仙境，常有仙雾朦胧。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]\n加护盾值\n习得神通：赋灵术\n习得神通：甘露术[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_LH_2A_1</Modifier>
+		
+		<Magics>
+			<li>BuidPuppet</li>
+			<li>BuildRain</li>
+			
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Gong_XHJ_LH_A2_2">
+		<DisplayName>霞雾缭绕</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\XWLR.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>瑶池如仙境，常有仙雾朦胧。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]\n加五维属性\n提高修炼速度\n减低天谴值[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_LH_2A_2</Modifier>
+		
+	</Esoterica>
+	
+	<!-- ==========================技能3========================== -->
+	
+	<Esoterica Name="Gong_XHJ_LH_A3">
+		<DisplayName>仙韵</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\XY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>瑶池修行，大部分以女修为主。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]\n提升灵气最大值\n提高寿命\n提高灵气恢复速度[/color][/size][/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_LH_3A</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_XHJ_LH_A3_1">
+		<DisplayName>仙韵</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\XY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>瑶池修行，大部分以女修为主。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]\n大幅提升魅力值\n提高寿命\n大幅提高炼丹等级上限[/color][/size][/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_LH_3A_1</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Esoterica Name="Gong_XHJ_LH_B1">
+		<DisplayName>西皇经道宫卷</DisplayName>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\ZT_XHJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>西皇，西方天神也。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n加炉鼎值2000\n加机缘1\n加魅力1[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_LH_1B</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_XHJ_LH_B1_1">
+		<DisplayName>西皇经道宫卷</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\ZT_XHJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>又西三百五十里，曰西皇之山</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天     \n加炼丹技能等级上限10\n加炼丹速度加成1[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_LH_1B_1</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_XHJ_LH_B1_2">
+		<DisplayName>西皇经道宫卷</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\ZT_XHJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>五行神藏，勾天设体，引动精气神，布散到全身，外达于皮毛，吐纳天地本源，蕴含勃勃生机。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    三重天    \n加灵力恢复50\n加额外炼丹加成4[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_LH_1B_2</Modifier>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="Gong_XHJ_DG_B1">
+		<DisplayName>迩言翼</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\EYY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>迩，近也，近言而善，易以进人。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n加炼丹速度\n加炼丹成功率\n习得神通：灵粹之法及清心咒\n习得神通：灵犀咒及心印诀\n习得神通：风月幻境[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_DG_1B</Modifier>
+		<Magics>
+			<li>LingXiZhou</li>
+			<li>XinYinJue</li>
+			<li>SoulCrystalLingPowerUp</li>
+			<li>AbsorbGong_2</li>
+			<li>AbsorbGong_8</li>
+			
+		</Magics>
+	</Esoterica>
+	<Esoterica Name="Gong_XHJ_DG_B2">
+		<DisplayName>迩言翼</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\EYY.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>迩，近也，近言而善，易以进人。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n减低天谴值\n加炼丹产量\n习得再造术\n习得神通：醍醐灌顶\n习得神通：九阴真水界[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_DG_2B</Modifier>
+		<Magics>
+			<li>PrayForZhenShuiJieJie_Gong1</li>
+			<li>Healing_Intelligence</li>
+			<li>BuildBody</li>
+			
+		</Magics>
+	</Esoterica>
+	
+	<!-- ==========================技能5========================== -->
+	
+	<Esoterica Name="Gong_XHJ_LH_B3_YCSS">
+		<DisplayName>瑶池圣术</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\YCSS.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>瑶池专修的提高法术威能的技能。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]\n加法术威力\n降法术冷却 \n习得  神通和秘术：\n瑶池圣术[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_LH_3B_YCSS</Modifier>
+		<Skills>
+			<li>XHJ_DJ_YCSS</li>
+		</Skills>
+		<Magics>
+			<li>YCSS</li>
+		</Magics>
+	</Esoterica>
+	
+	<!-- ==========================分割线========================== -->
+	
+	<Esoterica Name="Gong_XHJ_SJ_C1">
+		<DisplayName>玉女传道宝卷</DisplayName>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\YNCD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>内敛心玄，外张神形。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]   上卷    \n加领悟悟性\n法宝数量\n加法宝威力[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_SJ_1C</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_XHJ_SJ_C1_1">
+		<DisplayName>玉女传道宝卷</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\YNCD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>内敛心玄，外张神形。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]   下卷    \n提高心境\n加水属性护盾值\n加护盾强度度[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_SJ_1C_1</Modifier>
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_XHJ_SJ_C2_YQ">
+		<DisplayName>无极瑶池老母丹经宝卷</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\WJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>瑶池令了金母名，找齐凰胎归家中</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]\n习得  丹方：黄芽秘丹方\n天格[/color][/size]</EffectDesc>
+		<Dans>
+			<li>BasePracticeDrug</li><!-- 筑基丹 -->
+			<li>Dan_Restore</li><!-- 归源散 -->
+			<li>Dan_Defense</li><!-- 真罡丹 -->
+			<li>Dan_CalmDown</li><!-- 清心丹 -->
+			<li>Dan_Happiness</li><!-- 极乐丹 -->
+			<li>Dan_LostSoul</li><!-- 摄神丹 -->
+			<li>Dan_PracticeRate</li><!-- 黄庭丹 -->
+			<li>Dan_PracticeSpeed</li><!-- 黄芽丹 -->
+			<li>Dan_Thin</li><!-- 塑身丹 -->
+			<li>Dan_Fat</li><!-- 壮体丹 -->
+			<li>Dan_DredgeQi</li><!-- 理气丹 -->
+			<li>Dan_DredgeQi1</li><!-- 通脉散 -->
+			<li>Dan_WuLingSan</li><!-- 五灵散 -->
+			<li>Dan_CureFiveElementDamage</li><!-- 五方化伤丹 -->
+			<li>Dan_CureShuiDamage</li><!-- 庚金万化丹 -->
+			<li>Dan_CureShuiDamage</li><!-- 碧春丹 -->
+			<li>Dan_CureShuiDamage</li><!-- 天一承气散 -->
+			<li>Dan_CureShuiDamage</li><!-- 火真丹 -->
+			<li>Dan_CureShuiDamage</li><!-- 定坤丹 -->
+			<li>Dan_NoHunger2</li><!-- 辟谷丹 -->
+			<li>Dan_NoHunger1</li><!-- 兵粮丸 -->
+			<li>Dan_NoHunger</li><!-- 饮气丹 -->
+			<li>Dan_ShuigYuan</li><!-- 精元丹 -->
+			<li>Dan_ShuigYuan2</li><!-- 参芝九窍丸 -->
+			<li>Dan_ShuigYuan3</li><!-- 血竭散 -->
+			<li>Dan_Ling</li><!-- 聚灵丹 -->
+			<li>Dan_Ling2</li><!-- 紫阳丹 -->
+			<li>Dan_Ling3</li><!-- 万灵散 -->
+			<li>Dan_HundredRefine</li><!-- 九转金丹 -->
+			<li>Dan_ExtremeLofty</li><!-- 造化神丹 -->
+			<li>Dan_IncreaseLife1</li><!-- 长生丹 -->
+			<li>Dan_IncreaseLife2</li><!-- 玄牝续命散 -->
+			<li>Dan_IncreaseLife3</li><!-- 五极灵丹 -->
+			<li>Dan_IncreaseLife4</li><!-- 再造金丹 -->
+			<li>Dan_IncreaseLife5</li><!-- 未来星宿化劫丹 -->
+			<li>Dan_IncreaseNeckCountdown1</li><!-- 乾元避劫丹 -->
+			<li>Dan_IncreaseNeckCountdown2</li><!-- 碧血丹青 -->
+			</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_XHJ_SJ_C1_YQ_1">
+		<DisplayName>无极瑶池老母丹经宝卷</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\WJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>瑶池令了金母名，找齐凰胎归家中</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]\n习得  丹方：金蚕卧丹发[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Dan_FiveBase1</li><!-- 通天丸 -->
+			<li>Dan_FiveBase2</li><!-- 纳地丸 -->
+			<li>Dan_FiveBase3</li><!-- 逸仙丸 -->
+			<li>Dan_FiveBase4</li><!-- 明通丸 -->
+			<li>Dan_FiveBase5</li><!-- 神佑丸 -->
+			<li>Dan_FiveBaseFromLife</li><!-- 五毒五蕴五炁神丹 -->
+			<li>Dan_Soul1</li><!-- 神泣丹 -->
+			<li>Dan_Soul2</li><!-- 通玄丹 -->
+			<li>Dan_Soul3</li><!-- 凝珀丹 -->
+			<li>Dan_Soul4</li><!-- 燃魂丹 -->
+			<li>Dan_SwordBall</li><!-- 剑丸 -->
+			<li>Dan_TreeEXP</li><!-- 天道神丹 -->
+			<li>Dan_LunHui1</li><!-- 封印的记忆：星途闪耀 -->
+			<li>Dan_ReBorn</li><!-- 玄牝重生丹 -->
+			<li>Dan_LingYuanZhong</li><!-- 灵源种 -->
+			<li>Dan_LingYuanSha</li><!-- 造化玉砂 -->
+			<li>Dan_LongDan1</li><!-- 龙魂真灵丹 -->
+			<li>Dan_FengDan1</li><!-- 凤魂真灵丹 -->
+			<li>Dan_ZhuLongDan1</li><!-- 阴阳真灵丹 -->
+			<li>Dan_FenShen1</li><!-- 盘古元神丹 -->
+			<li>Dan_FenShen2</li><!-- 造化同心丹 -->
+			<li>Dan_FenShen3</li><!-- 裂神丹 -->
+			<li>Dan_LingYuanZhong</li><!-- 灵源种 -->
+			<li>Dan_LingYuanSha</li><!-- 灵源砂 -->
+			
+		</Dans>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_XHJ_SJ_C1_YQ_2">
+		<DisplayName>无极瑶池老母丹经宝卷</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\WJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>瑶池令了金母名，找齐凰胎归家中</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]n习得  丹方：无极瑶池老母丹经宝卷[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Item_Dan_1</li>
+			<li>Item_Dan_2</li>
+			<li>Item_Dan_3</li>
+			<li>Item_Dan_PTMY</li>
+			<li>Item_Dan_BCY</li>
+			<li>Item_Dan_HYD</li>
+			<li>Item_MY</li>
+			<li>Item_Dan_SYD</li>
+		</Dans>
+	</Esoterica>
+	
+		
+	<Esoterica Name="Gong_XHJ_SJ_C3">
+		<DisplayName>离宫别窟</DisplayName>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\BJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>瑶池特有的心法之一，能够极大提高灵气和历练速度</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]        \n加历练速度\n加个人灵气\n加个人回灵[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_SJ_3C</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_XHJ_SJ_C3_1">
+		<DisplayName>离宫别窟</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\BJ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>瑶池特有的心法之一，能够极大提高灵气和历练速度</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]       \n加法术威力\n加法术冷却时间\n加潜力值[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_SJ_3C_1</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_XHJ_HL_D2">
+		<DisplayName>西皇塔</DisplayName>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\XHT.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>仙泪绿金所铸神塔，塔出，人灭。</Desc>
+		<GLevel>God</GLevel>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    器胚    \n加炼器成功率\n加炼器速度\n加神器成功率[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_HL_2D</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_XHJ_HL_D2_1">
+		<DisplayName>西皇塔</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\XHT.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>仙泪绿金所铸神塔，塔出，人灭。</Desc>
+		<GLevel>God2</GLevel>
+		<EffectDesc>[size=10][color=#D06508]    塔成    \n炼器品质加成\n炼成神器概率\n习得 极道帝兵：西皇塔[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_HL_2D_1</Modifier>
+		<Fabaos>
+			<li>XHJ_XHT</li>
+		</Fabaos>
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_XHJ_HL_ld">
+		<DisplayName>仙境道纹</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\YCDW.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>蕴含天道的极强大阵，主稳定性。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]\n习得  阵法：仙境道纹\n 提高护盾等级上限\n 提高阵法负荷[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_HL_SS</Modifier>
+		<ZhenNodes>
+			<li>ZT_xjdw</li>
+			<li>ZT_xjdw3</li>
+			<li>ZT_fx</li>
+			<li>ZT_dy</li>
+			<li>ZT_x1</li>
+			<li>ZT_x2</li>
+			<li>ZT_xj1</li>
+			<li>ZT_xj2</li>
+			<li>ZT_dw1</li>
+			<li>ZT_dw2</li>
+			<li>ZT_xj3</li>
+			<li>ZT_xj4</li>
+			<li>ZT_dw3</li>
+			<li>ZT_dw4</li>
+			<li>ZT_d1</li>
+			<li>ZT_d2</li>
+			<li>ZT_w1</li>
+			<li>ZT_w2</li>
+			<li>ZT_j1</li>
+			<li>ZT_j2</li>
+			<li>ZT_xjdw1</li>
+			<li>ZT_xjdw2</li>
+			<li>ZT_xjd1</li>
+			<li>ZT_xjd2</li>
+			<li>ZT_xyd1</li>
+			<li>ZT_xyd2</li>
+		</ZhenNodes>
+		
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_XHJ_XT_F2">
+		<DisplayName>仙瑶</DisplayName>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\X.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<Desc>仙池水边，佳人倩影，可曾落笔为素银。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Shui</Element>
+		<Type>Gong</Type>
+		<EffectDesc>[size=10][color=#D06508]    一重天    \n加阵法等级上限\n加灵气最大值\n加炉鼎[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_XT_2F</Modifier>
+	</Esoterica>
+	<Esoterica Name="Gong_XHJ_XT_F2_1">
+		<DisplayName>仙瑶</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\X.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<Desc>仙池水边，佳人倩影，可曾落笔为素银。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]    二重天    \n加水属性伤害减免\n减天谴值\n加阵法等级[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_XT_2F_1</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_XHJ_TDQ">
+		<DisplayName>九窍玲珑丹</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\JQ.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>25</Difficulty>
+		<Desc>开通人体九窍，分出九道元神</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]\n习得  丹方：九窍玲珑丹[/color][/size]</EffectDesc>
+		<Dans>
+			<li>Item_Dan_JQLLD</li>
+		</Dans>
+		<GodSoulCount>9</GodSoulCount>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_XHJ_XT_ZD">
+		<DisplayName>红尘仙</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Object\JN\ZT_XHJ_DJ\ZT_XHJ_ZD.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>100</Difficulty>
+		<Desc>红尘证道，瑶池仙中仙，身在人间仙境，感悟天地。</Desc>
+		<GLevel>God2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]\n加寿元和加回灵倍率\n加三十道元神分神\n加炉鼎\n加神器成功率\n加术法威力和加法宝威力[/color][/size]</EffectDesc>
+		<Modifier>Gong_XHJ_XT_DZ</Modifier>
+		<GodSoulCount>30</GodSoulCount>
+	</Esoterica>
+	
+	
+	
+	
+</List></Esotericas>

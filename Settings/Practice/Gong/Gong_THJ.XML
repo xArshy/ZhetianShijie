@@ -1,0 +1,421 @@
+<Gongs><List>
+	<Gong Name="Gong_THJ">   
+		<DisplayName>Tai Huang Jing</DisplayName>
+		<Desc>Owned by the Daxia royal family in Zhongzhou, created by the emperor, the "Dragon Book" is the strongest of all the emperor books.</Desc>
+		<SelectDesc>The practice of this method is extremely difficult. There are many realms on each level and it takes a lot of time to complement the natural treasures. Hope to be careful. Do you want to choose this practice?</SelectDesc>
+		<FiveBaseNeed>6,9,4,7,8</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>Jin</ElementKind>
+
+		<Skill> <!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>chumo</li>
+			<li>jiangdao</li>
+			<li>guanding</li>
+			<li>ciqi</li>
+			<li>kaiguang</li>
+			<li>cuiti</li>
+			<li>bihu</li>
+		</Skill>
+		<Hide>1</Hide>
+		<Stages>
+			<Stage Name="Stage1" Level="3">
+				<DisplayName>Round sea</DisplayName>
+				<Desc>分别是开辟苦海——修成命泉——架设神桥——到达彼岸。</Desc>
+				<Value>240000</Value>
+				<Necks>
+					<Neck Location="0.25" Kind="Chance">
+						<DisplayName>苦海</DisplayName>
+						<Desc>遮蔽生命之轮的无尽磨难之海。修行的门槛。度过则开启修仙大道。</Desc>
+						<CostTime>200</CostTime>
+						<SuccessChange>0.025</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_JSXY"/>
+							<Item name="Item_SG" count = "2"/>
+						</ItemCost>
+						<AddModifier>Gong_Thunder1</AddModifier>
+					</Neck>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>命泉</DisplayName>
+						<Desc>修行的目的之一便是要完全度尽苦海，将它化成生命甘泉。</Desc>
+						<CostTime>200</CostTime>
+						<SuccessChange>0.2</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_JSXY"/>
+							<Item name="Item_Fruit" count = "22"/>
+						</ItemCost>
+					</Neck>
+					<Neck Location="0.75" Kind="Chance">
+						<DisplayName>神桥</DisplayName>
+						<Desc>苦海度之不尽，只好苦海中创生，在枯寂中酝酿勃勃生机，苦海中铸神桥。</Desc>
+						<CostTime>500</CostTime>
+						<SuccessChange>1</SuccessChange>
+						
+						<ItemCost>
+							<Item name="Item_JSXSY"/>
+							<Item name="Item_EarthEssence_1" count = "2"/>
+						</ItemCost>
+						<AddModifier>ZT_TDJ_LH</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Explore">
+						<DisplayName>彼岸</DisplayName>
+						<Desc>祭成天桥，寻到根本，神桥如虹而至，强渡苦海成功，到达彼岸</Desc>
+						<ExploreValue>3</ExploreValue>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage3" Level="6">
+			
+				<DisplayName>道宫秘境</DisplayName>
+				<Desc>道宫中的五尊神祗，与其有莫大关联，可衍生道力，化出生机，实乃养命之地。</Desc>
+				<Value>1000000</Value>
+				<Necks>
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>心之神藏</DisplayName>
+						<Desc>修道先修心，心脉强盛，精气化灵。[color=#D06508]\n突破失败可能会受伤。[/color]</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_ShuiEssence"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Huo_HeartBurn" Rate="1"/>
+							<li PartKind="Meridian" Name="Huo_BurnOfPain" Rate="0.9"/>
+						</Damages>
+						<AddModifier>ZT_TDJ_xin</AddModifier>
+					</Neck>
+					<Neck Location="0.4" Kind="Chance">
+						<DisplayName>脾之神藏</DisplayName>
+						<Desc>心属火，脾胃属土。心阳、命火正常则能助长，资生脾胃的阳气。[color=#D06508]\n突破失败可能会受伤。[/color]</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_MuEssence"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Mu_VitalityDevour1" Rate="1"/>
+							<li PartKind="Meridian" Name="Mu_Failure" Rate="0.9"/>
+						</Damages>
+						<AddModifier>ZT_TDJ_pi</AddModifier>
+					</Neck>
+					<Neck Location="0.6" Kind="Chance">
+						<DisplayName>肺之神藏</DisplayName>
+						<Desc>气归于肺，肺朝百脉，输精于皮毛，肺有金之精，制割立断。[color=#D06508]\n突破失败可能会受伤。[/color]</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_MuEssence"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Jin_SwordLight1" Rate="1"/>
+							<li PartKind="Meridian" Name="Jin_SwordLight2" Rate="0.9"/>
+						</Damages>
+						<AddModifier>ZT_TDJ_fei</AddModifier>
+					</Neck>
+					<Neck Location="0.8" Kind="Chance">
+						<DisplayName>肾之神藏</DisplayName>
+						<Desc>肾主水，以阳开阴合来维持人体水液平衡;肾主骨生髓,肾气充沛则骨坚齿固，脑充发荣。[color=#D06508]\n突破失败可能会受伤。[/color]</Desc>
+						<CostTime>300</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<FailedChangeAdd>0.1</FailedChangeAdd>
+						<ItemCost>
+							<Item name="Item_TuEssence"/>
+						</ItemCost>
+						<Damages>
+							<li PartKind="Meridian" Name="Shui_ColdBlood1" Rate="1"/>
+							<li PartKind="Meridian" Name="Shui_ColdPoison" Rate="0.9"/>
+						</Damages>
+						<AddModifier>ZT_TDJ_shen</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>肝之神藏</DisplayName>
+						<Desc>肝属木，肝肾同源，肾精可滋养肝血.</Desc>
+						<ItemCost>
+							<Item name="Item_JinEssence"/>
+						</ItemCost>
+						<AddModifier>Gong_Gold_TDJ</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage4" Level="9">
+				<DisplayName>四极秘境</DisplayName>
+				<Desc>修内而后修外。修四肢百骸。</Desc>
+				<Value>6480000</Value>
+				<Necks>
+					
+					<Neck Location="0.25" Kind="Thunder">
+						<DisplayName>四象劫</DisplayName>
+						<Desc>初入秘境，天地间反噬到来，度过劫难仙途在望，反之灰飞烟灭。。</Desc>
+						<ThunderValue>36000</ThunderValue>
+						<NeckCountdown>4900</NeckCountdown>
+					</Neck>
+					
+					<Neck Location="0.5" Kind="Thunder">
+						<DisplayName>四极劫</DisplayName>
+						<Desc>天地四方，天道不容！</Desc>
+						<ThunderValue>78000</ThunderValue>
+						<NeckCountdown>4900</NeckCountdown>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.75" Kind="Thunder">
+						<DisplayName>身陨劫</DisplayName>
+						<Desc>锻造神体，天降雷劫阻成道。</Desc>
+						<ThunderValue>98000</ThunderValue>
+						<NeckCountdown>4900</NeckCountdown>
+					</Neck>
+
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>化龙劫</DisplayName>
+						<Desc>自封神通，返璞归真之中，元婴出现，打破肉身之牢笼，此谓之地仙境界。[color=#D06508]\n此瓶颈悟性越高，越难突破。[/color]</Desc>
+						<ThunderValue>120000</ThunderValue>
+						<NeckCountdown>4900</NeckCountdown>
+						<AddModifier>Gong_Thunder_TDJ</AddModifier>
+					</Neck>
+					
+				</Necks>
+			</Stage>	
+			
+			<Stage Name="Stage5" Level="11">
+				<DisplayName>化龙境</DisplayName>
+				<Desc></Desc>
+				<Value>42320000</Value>
+				<Necks>
+					
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>化龙一变</DisplayName>
+						<Desc>化龙九变，九变化龙，每一变都是脱胎换骨的变化，到达化龙八变即为各地的大长老，化龙九变登仙台。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_Dan_HundredRefine"/>
+							<Item name="Item_LQ" count = "9"/>
+						</ItemCost>
+						<AddModifier>ZT_TDJ_HL</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.3" Kind="Chance">
+						<DisplayName>化龙二变</DisplayName>
+						<Desc>化龙九变，九变化龙，每一变都是脱胎换骨的变化，到达化龙八变即为各地的大长老，化龙九变登仙台。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_Dan_HundredRefine"/>
+							<Item name="Item_LQ" count = "9"/>
+						</ItemCost>
+						<AddModifier>ZT_TDJ_HL</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.4" Kind="Chance">
+						<DisplayName>化龙三变</DisplayName>
+						<Desc>化龙九变，九变化龙，每一变都是脱胎换骨的变化，到达化龙八变即为各地的大长老，化龙九变登仙台。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_Dan_HundredRefine"/>
+							<Item name="Item_LQ" count = "9"/>
+						</ItemCost>
+						<AddModifier>ZT_TDJ_HL</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>化龙四变</DisplayName>
+						<Desc>化龙九变，九变化龙，每一变都是脱胎换骨的变化，到达化龙八变即为各地的大长老，化龙九变登仙台。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_Dan_HundredRefine"/>
+							<Item name="Item_LQ" count = "9"/>
+						</ItemCost>
+						<AddModifier>ZT_TDJ_HL</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.6" Kind="Chance">
+						<DisplayName>化龙五变</DisplayName>
+						<Desc>化龙九变，九变化龙，每一变都是脱胎换骨的变化，到达化龙八变即为各地的大长老，化龙九变登仙台。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_Dan_HundredRefine"/>
+							<Item name="Item_LQ" count = "9"/>
+						</ItemCost>
+						<AddModifier>ZT_TDJ_HL</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.7" Kind="Chance">
+						<DisplayName>化龙六变</DisplayName>
+						<Desc>化龙九变，九变化龙，每一变都是脱胎换骨的变化，到达化龙八变即为各地的大长老，化龙九变登仙台。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_Dan_HundredRefine"/>
+							<Item name="Item_LQ" count = "9"/>
+						</ItemCost>
+						<AddModifier>ZT_TDJ_HL</AddModifier>
+					</Neck>
+					
+					
+					<Neck Location="0.8" Kind="Chance">
+						<DisplayName>化龙七变</DisplayName>
+						<Desc>化龙九变，九变化龙，每一变都是脱胎换骨的变化，到达化龙八变即为各地的大长老，化龙九变登仙台。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_Dan_HundredRefine"/>
+							<Item name="Item_LQ" count = "9"/>
+						</ItemCost>
+						<AddModifier>ZT_TDJ_HL</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.9" Kind="Chance">
+						<DisplayName>化龙八变</DisplayName>
+						<Desc>化龙九变，九变化龙，每一变都是脱胎换骨的变化，到达化龙八变即为各地的大长老，化龙九变登仙台。</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_Dan_HundredRefine"/>
+							<Item name="Item_LQ" count = "9"/>
+						</ItemCost>
+						<AddModifier>ZT_TDJ_HL</AddModifier>
+					</Neck>
+					
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>化龙九变</DisplayName>
+						<Desc>化龙九变，九变化龙，每一变都是脱胎换骨的变化，到达化龙八变即为各地的大长老，化龙九变登仙台。</Desc>
+						<ThunderValue>6000000</ThunderValue>
+						<NeckCountdown>4900</NeckCountdown>
+						<AddModifier>ZT_TDJ_HL</AddModifier>
+					</Neck>
+					
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage6" Level="12">
+				<DisplayName>仙台</DisplayName>
+				<Desc>屹立仙台，成仙在望。耗时很长。</Desc>
+				<Value>676000000</Value>
+				<Necks>
+					<Neck Location="0.1" Kind="Chance">
+						<DisplayName>半步大能</DisplayName>
+						<Desc>圣地或者荒古世家处在第一台阶大成的太上长老，也就是绝顶的长老。[color=#D06508]\n此瓶颈失败后，需回到上一个境界再次突破。[/color]</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.05</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="67600000"/>
+						</ResourceCost>
+						<AddModifier>ZT_TDJ_XT</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>大能</DisplayName>
+						<Desc>圣主级别或者一些大教里面教主级别，还有中州的皇主级别。[color=#D06508]\n此瓶颈失败后，需回到上一个境界再次突破。[/color]</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.05</SuccessChange>
+						<FailedChangeAdd>0.05</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="67600000"/>
+						</ResourceCost>
+						<AddModifier>ZT_TDJ_XT</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.3" Kind="Thunder">
+						<DisplayName>王者</DisplayName>
+						<Desc>仙三斩道，斩去逆己大道。</Desc>
+						<ThunderValue>5280000</ThunderValue>
+						<NeckCountdown>9900</NeckCountdown>
+						<AddModifier>Gong_Thunder_TDJ</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.4" Kind="Chance">
+						<DisplayName>半圣</DisplayName>
+						<Desc>超越王者大成级别的存在，也是我们主角目前的战力，全力出手，可屠圣人。[color=#D06508]\n此瓶颈失败后，需回到上一个境界再次突破。[/color]</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.01</SuccessChange>
+						<FailedChangeAdd>0.04</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="67600000"/>
+						</ResourceCost>
+						<AddModifier>ZT_TDJ_XT</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>圣人</DisplayName>
+						<Desc>亦是圣贤，圣人，太古前的就加上古之。[color=#D06508]\n此瓶颈失败后，需回到上一个境界再次突破。[/color]</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.01</SuccessChange>
+						<FailedChangeAdd>0.04</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="67600000"/>
+						</ResourceCost>
+						<AddModifier>ZT_TDJ_XT</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.6" Kind="Chance">
+						<DisplayName>圣人王</DisplayName>
+						<Desc>顾名思义，圣人之中的王者。[color=#D06508]\n此瓶颈失败后，需回到上一个境界再次突破。[/color]</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.01</SuccessChange>
+						<FailedChangeAdd>0.04</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="67600000"/>
+						</ResourceCost>
+						<AddModifier>ZT_TDJ_XT</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.7" Kind="Chance">
+						<DisplayName>大圣</DisplayName>
+						<Desc>斗战胜佛，浑拓，卫易，老疯子和老太婆，盖九幽，乾仑，人魔  等等..[color=#D06508]\n此瓶颈失败后，需回到上一个境界再次突破。[/color]</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.01</SuccessChange>
+						<FailedChangeAdd>0.04</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="67600000"/>
+						</ResourceCost>
+						<AddModifier>ZT_TDJ_XT</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.8" Kind="Chance">
+						<DisplayName>准帝</DisplayName>
+						<Desc>一念之间，世间万物无不为之战栗。[color=#D06508]\n此瓶颈失败后，需回到上一个境界再次突破。[/color]</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.01</SuccessChange>
+						<FailedChangeAdd>0.04</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="67600000"/>
+						</ResourceCost>
+						<AddModifier>ZT_TDJ_XT</AddModifier>
+					</Neck>
+					
+					<Neck Location="0.9" Kind="Chance">
+						<DisplayName>大帝</DisplayName>
+						<Desc>如神祗一般，莅临人间，所到之处，万族顶礼膜拜。[color=#D06508]\n此瓶颈失败后，需回到上一个境界再次突破。[/color]</Desc>
+						<CostTime>50</CostTime>
+						<SuccessChange>0.005</SuccessChange>
+						<FailedChangeAdd>0.005</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="67600000"/>
+						</ResourceCost>
+						<AddModifier>ZT_TDJ_XT</AddModifier>
+					</Neck>
+					
+					<Neck Location="1" Kind="God">
+						<DisplayName>红尘仙</DisplayName>
+						<Desc>天地间反噬到来，度过劫难仙途在望，反之灰飞烟灭。</Desc>
+						<ThunderValue>100000000</ThunderValue>
+						<NeckCountdown>9000</NeckCountdown>
+						<AddModifier>ZT_TDJ_ZD</AddModifier>
+					</Neck>
+					
+				</Necks>
+			</Stage>
+			
+		</Stages>
+	</Gong>
+</List></Gongs>

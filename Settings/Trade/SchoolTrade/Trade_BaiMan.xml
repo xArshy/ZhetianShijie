@@ -1,0 +1,387 @@
+<Defs><List>
+	<Def Name="100" Price="Price_YC" Talk="Talk_ZTMP">
+		<AllRandomCount>3</AllRandomCount>
+		<LikeFriendPoint>1</LikeFriendPoint>
+		<LikeRelation>200</LikeRelation>
+		<SaleOnly>
+			<li ItemName="Item_LingStone">
+				<ItemName>Item_LingStone</ItemName>
+			</li>
+		</SaleOnly>	
+		<Goods> 
+			<Pool V="ZTMPN" Count="2"/>
+			<Pool V="ZTMPR" Count="2"/>
+			<Pool V="ZTMPSR" Count="2"/>
+			<Pool V="ZTMPSSR" Count="2"/>
+			<Pool V="KunLunEso" Count="1"/>
+			<Pool V="KunLunMibao" Count="1"/>
+		</Goods>
+
+		<Rent>
+			<li GLevel="7" Scale="1">
+				<InitTradeCount>
+					<Count Min="8" Max="10"/>
+					<CountLimit>300</CountLimit>
+					<ExchangeLimit>40</ExchangeLimit>
+				</InitTradeCount>
+				<Condition>
+					<NeedRank>Friendly</NeedRank>
+				</Condition>
+				<BuyPrice Value="1200"/>
+				<RentDay>3</RentDay>
+				<LostFriendPoint>5</LostFriendPoint>
+				<LostRelation>200</LostRelation>
+			</li>
+		</Rent>
+		
+		<Gong>
+			<Count>3</Count>
+			<ResetDay>10</ResetDay>
+			<BuyPrice Value="10000" FriendPoint="1"/>
+			<Condition>
+				<NeedRank>Respect</NeedRank>
+			</Condition>
+		</Gong>
+		
+		<StayPermission>
+			<Condition>
+				<NeedRank>Neutral</NeedRank>
+			</Condition>
+			
+			<BuyPrice Value="2000"/>
+			<BuyPriceNeutral Value="2000"/>
+			<BuyPriceFriendly Value="500"/>
+			<BuyPriceRespect Value="50"/>
+		</StayPermission>
+	</Def>
+		<Def Name="101" Price="Price_TXM" Talk="Talk_ZTMP">
+		<AllRandomCount>3</AllRandomCount>
+		<LikeFriendPoint>1</LikeFriendPoint>
+		<LikeRelation>200</LikeRelation>
+		<SaleOnly>
+			<li ItemName="Item_LingStone">
+				<ItemName>Item_LingStone</ItemName>
+			</li>
+		</SaleOnly>	
+		<Goods> 
+			<Pool V="ZTMPN" Count="2"/>
+			<Pool V="ZTMPR" Count="2"/>
+			<Pool V="ZTMPSR" Count="2"/>
+			<Pool V="ZTMPSSR" Count="2"/>
+			<Pool V="KunLunEso" Count="1"/>
+			<Pool V="KunLunMibao" Count="1"/>
+		</Goods>
+
+		<Rent>
+			<li GLevel="6" Scale="1">
+				<InitTradeCount>
+					<Count Min="6" Max="10"/>
+					<CountLimit>300</CountLimit>
+					<ExchangeLimit>40</ExchangeLimit>
+				</InitTradeCount>
+				<Condition>
+					<NeedRank>Friendly</NeedRank>
+				</Condition>
+				<BuyPrice Value="1200"/>
+				<RentDay>3</RentDay>
+				<LostFriendPoint>5</LostFriendPoint>
+				<LostRelation>200</LostRelation>
+			</li>
+		</Rent>
+		
+		<Gong>
+			<Count>3</Count>
+			<ResetDay>10</ResetDay>
+			<BuyPrice Value="8000" FriendPoint="1"/>
+			<Condition>
+				<NeedRank>Respect</NeedRank>
+			</Condition>
+		</Gong>
+		
+		<StayPermission>
+			<Condition>
+				<NeedRank>Neutral</NeedRank>
+			</Condition>
+			
+			<BuyPrice Value="1400"/>
+			<BuyPriceNeutral Value="1400"/>
+			<BuyPriceFriendly Value="300"/>
+			<BuyPriceRespect Value="10"/>
+		</StayPermission>
+	</Def>
+	<Def Name="102" Price="Price_LXDT" Talk="Talk_ZTMP">
+		<AllRandomCount>3</AllRandomCount>
+		<LikeFriendPoint>1</LikeFriendPoint>
+		<LikeRelation>200</LikeRelation>
+		<SaleOnly>
+			<li ItemName="Item_LingStone">
+				<ItemName>Item_LingStone</ItemName>
+			</li>
+		</SaleOnly>	
+		<Goods> 
+			<Pool V="ZTMPN" Count="2"/>
+			<Pool V="ZTMPR" Count="2"/>
+			<Pool V="ZTMPSR" Count="2"/>
+			<Pool V="ZTMPSSR" Count="2"/>
+			<Pool V="KunLunEso" Count="1"/>
+			<Pool V="KunLunMibao" Count="1"/>
+		</Goods>
+
+		<Rent>
+			<li GLevel="6" Scale="1">
+				<InitTradeCount>
+					<Count Min="5" Max="10"/>
+					<CountLimit>300</CountLimit>
+					<ExchangeLimit>40</ExchangeLimit>
+				</InitTradeCount>
+				<Condition>
+					<NeedRank>Friendly</NeedRank>
+				</Condition>
+				<BuyPrice Value="1200"/>
+				<RentDay>3</RentDay>
+				<LostFriendPoint>5</LostFriendPoint>
+				<LostRelation>200</LostRelation>
+			</li>
+		</Rent>
+		
+		<Gong>
+			<Count>3</Count>
+			<ResetDay>10</ResetDay>
+			<BuyPrice Value="4000" FriendPoint="1"/>
+			<Condition>
+				<NeedRank>Respect</NeedRank>
+			</Condition>
+		</Gong>
+		
+		<StayPermission>
+			<Condition>
+				<NeedRank>Neutral</NeedRank>
+			</Condition>
+			
+			<BuyPrice Value="400"/>
+			<BuyPriceNeutral Value="400"/>
+			<BuyPriceFriendly Value="30"/>
+			<BuyPriceRespect Value="20"/>
+		</StayPermission>
+	</Def>
+	<Def Name="103" Price="Price_TCGK" Talk="Talk_ZTMP">
+		<AllRandomCount>3</AllRandomCount>
+		<LikeFriendPoint>1</LikeFriendPoint>
+		<LikeRelation>200</LikeRelation>
+		<SaleOnly>
+			<li ItemName="Item_LingStone">
+				<ItemName>Item_LingStone</ItemName>
+			</li>
+		</SaleOnly>	
+		<Goods> 
+			<Pool V="ZTMPN" Count="2"/>
+			<Pool V="ZTMPR" Count="2"/>
+			<Pool V="ZTMPSR" Count="2"/>
+			<Pool V="ZTMPSSR" Count="2"/>
+			<Pool V="KunLunEso" Count="1"/>
+			<Pool V="KunLunMibao" Count="1"/>
+		</Goods>
+
+		<Rent>
+			<li GLevel="6" Scale="1">
+				<InitTradeCount>
+					<Count Min="8" Max="10"/>
+					<CountLimit>300</CountLimit>
+					<ExchangeLimit>40</ExchangeLimit>
+				</InitTradeCount>
+				<Condition>
+					<NeedRank>Friendly</NeedRank>
+				</Condition>
+				<BuyPrice Value="1200"/>
+				<RentDay>3</RentDay>
+				<LostFriendPoint>5</LostFriendPoint>
+				<LostRelation>200</LostRelation>
+			</li>
+		</Rent>
+		
+		<Gong>
+			<Count>3</Count>
+			<ResetDay>10</ResetDay>
+			<BuyPrice Value="8000" FriendPoint="1"/>
+			<Condition>
+				<NeedRank>Respect</NeedRank>
+			</Condition>
+		</Gong>
+		
+		<StayPermission>
+			<Condition>
+				<NeedRank>Neutral</NeedRank>
+			</Condition>
+			
+			<BuyPrice Value="2000"/>
+			<BuyPriceNeutral Value="2000"/>
+			<BuyPriceFriendly Value="500"/>
+			<BuyPriceRespect Value="200"/>
+		</StayPermission>
+	</Def>
+	<Def Name="104" Price="Price_HGJD" Talk="Talk_ZTMP">
+		<AllRandomCount>3</AllRandomCount>
+		<LikeFriendPoint>1</LikeFriendPoint>
+		<LikeRelation>200</LikeRelation>
+		<SaleOnly>
+			<li ItemName="Item_LingStone">
+				<ItemName>Item_LingStone</ItemName>
+			</li>
+		</SaleOnly>	
+		<Goods> 
+			<Pool V="ZTMPN" Count="2"/>
+			<Pool V="ZTMPR" Count="2"/>
+			<Pool V="ZTMPSR" Count="2"/>
+			<Pool V="ZTMPSSR" Count="2"/>
+			<Pool V="KunLunEso" Count="1"/>
+			<Pool V="KunLunMibao" Count="1"/>
+		</Goods>
+
+		<Rent>
+			<li GLevel="6" Scale="1">
+				<InitTradeCount>
+					<Count Min="8" Max="10"/>
+					<CountLimit>300</CountLimit>
+					<ExchangeLimit>40</ExchangeLimit>
+				</InitTradeCount>
+				<Condition>
+					<NeedRank>Friendly</NeedRank>
+				</Condition>
+				<BuyPrice Value="1200"/>
+				<RentDay>3</RentDay>
+				<LostFriendPoint>5</LostFriendPoint>
+				<LostRelation>200</LostRelation>
+			</li>
+		</Rent>
+		
+		<Gong>
+			<Count>3</Count>
+			<ResetDay>10</ResetDay>
+			<BuyPrice Value="8000" FriendPoint="1"/>
+			<Condition>
+				<NeedRank>Respect</NeedRank>
+			</Condition>
+		</Gong>
+		
+		<StayPermission>
+			<Condition>
+				<NeedRank>Neutral</NeedRank>
+			</Condition>
+			
+			<BuyPrice Value="2000"/>
+			<BuyPriceNeutral Value="2000"/>
+			<BuyPriceFriendly Value="500"/>
+			<BuyPriceRespect Value="200"/>
+		</StayPermission>
+	</Def>
+	<Def Name="105" Price="Price_WLC" Talk="Talk_ZTMP">
+		<AllRandomCount>3</AllRandomCount>
+		<LikeFriendPoint>1</LikeFriendPoint>
+		<LikeRelation>200</LikeRelation>
+		<SaleOnly>
+			<li ItemName="Item_LingStone">
+				<ItemName>Item_LingStone</ItemName>
+			</li>
+		</SaleOnly>	
+		<Goods> 
+			<Pool V="ZTMPN" Count="2"/>
+			<Pool V="ZTMPR" Count="2"/>
+			<Pool V="ZTMPSR" Count="2"/>
+			<Pool V="ZTMPSSR" Count="2"/>
+			<Pool V="KunLunEso" Count="1"/>
+			<Pool V="KunLunMibao" Count="1"/>
+		</Goods>
+
+		<Rent>
+			<li GLevel="6" Scale="1">
+				<InitTradeCount>
+					<Count Min="8" Max="10"/>
+					<CountLimit>300</CountLimit>
+					<ExchangeLimit>40</ExchangeLimit>
+				</InitTradeCount>
+				<Condition>
+					<NeedRank>Friendly</NeedRank>
+				</Condition>
+				<BuyPrice Value="1200"/>
+				<RentDay>3</RentDay>
+				<LostFriendPoint>5</LostFriendPoint>
+				<LostRelation>200</LostRelation>
+			</li>
+		</Rent>
+		
+		<Gong>
+			<Count>3</Count>
+			<ResetDay>10</ResetDay>
+			<BuyPrice Value="8000" FriendPoint="1"/>
+			<Condition>
+				<NeedRank>Respect</NeedRank>
+			</Condition>
+		</Gong>
+		
+		<StayPermission>
+			<Condition>
+				<NeedRank>Neutral</NeedRank>
+			</Condition>
+			
+			<BuyPrice Value="2000"/>
+			<BuyPriceNeutral Value="2000"/>
+			<BuyPriceFriendly Value="500"/>
+			<BuyPriceRespect Value="200"/>
+		</StayPermission>
+	</Def>
+	<Def Name="103" Price="Price_QSF" Talk="Talk_ZTMP">
+		<AllRandomCount>3</AllRandomCount>
+		<LikeFriendPoint>1</LikeFriendPoint>
+		<LikeRelation>200</LikeRelation>
+		<SaleOnly>
+			<li ItemName="Item_LingStone">
+				<ItemName>Item_LingStone</ItemName>
+			</li>
+		</SaleOnly>	
+		<Goods> 
+			<Pool V="ZTMPN" Count="2"/>
+			<Pool V="ZTMPR" Count="2"/>
+			<Pool V="ZTMPSR" Count="2"/>
+			<Pool V="ZTMPSSR" Count="2"/>
+			<Pool V="KunLunEso" Count="1"/>
+			<Pool V="KunLunMibao" Count="1"/>
+		</Goods>
+
+		<Rent>
+			<li GLevel="6" Scale="1">
+				<InitTradeCount>
+					<Count Min="8" Max="10"/>
+					<CountLimit>300</CountLimit>
+					<ExchangeLimit>40</ExchangeLimit>
+				</InitTradeCount>
+				<Condition>
+					<NeedRank>Friendly</NeedRank>
+				</Condition>
+				<BuyPrice Value="1200"/>
+				<RentDay>3</RentDay>
+				<LostFriendPoint>5</LostFriendPoint>
+				<LostRelation>200</LostRelation>
+			</li>
+		</Rent>
+		
+		<Gong>
+			<Count>3</Count>
+			<ResetDay>10</ResetDay>
+			<BuyPrice Value="8000" FriendPoint="1"/>
+			<Condition>
+				<NeedRank>Respect</NeedRank>
+			</Condition>
+		</Gong>
+		
+		<StayPermission>
+			<Condition>
+				<NeedRank>Neutral</NeedRank>
+			</Condition>
+			
+			<BuyPrice Value="2000"/>
+			<BuyPriceNeutral Value="2000"/>
+			<BuyPriceFriendly Value="500"/>
+			<BuyPriceRespect Value="200"/>
+		</StayPermission>
+	</Def>
+</List></Defs>

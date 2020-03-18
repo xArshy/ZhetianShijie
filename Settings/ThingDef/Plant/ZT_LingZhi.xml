@@ -1,0 +1,539 @@
+<ThingDefs><List>
+	<ThingDef Type="Plant" Name="LingZhiBase" Parent="TreeBase">
+	<ThingName></ThingName>
+	<Desc></Desc>
+	
+	<Rate>12</Rate>
+	<SelectAble>1</SelectAble>
+	<CastShadow>0</CastShadow>
+	<Beauty>25</Beauty>
+	<UseHitPoints>1</UseHitPoints>
+	<MaxHitPoints>9000</MaxHitPoints>
+	<BlockLight>1</BlockLight>
+	<ColliderKind>Across</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1],
+		[1,3,1],
+		[1,1,1],
+		</Data>
+	</Collider>
+	<Flammability>
+		<Flammability>-10</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>9999</BurningPoint>
+	</Flammability>
+	
+	<Plant Kind="HighPlant">
+		
+		<WildClusterSizeRangemin>0</WildClusterSizeRangemin>
+		<WildClusterSizeRangemax>0</WildClusterSizeRangemax>
+		<WildClusterRadius>0</WildClusterRadius>
+		
+		<WitherAble>0</WitherAble>
+		<!-- 
+		<HarvestDays>1120</HarvestDays>
+		<GrowDays>560</GrowDays> -->
+		
+		<GrowDays>112</GrowDays>
+		
+		<RestBegin>0</RestBegin>
+		<RestEnd>0</RestEnd>
+		
+		<VisualSizeMin>0.2</VisualSizeMin>
+		<VisualSizeMax>1</VisualSizeMax>		
+		
+		<TempMin>-120</TempMin>
+		<TempMax>200</TempMax>
+		<FertilityMin>1.6</FertilityMin>
+		<FertilityMax>3</FertilityMax>
+		<LingMin>200</LingMin>
+		<LingMax>2000</LingMax>
+		<GrowGlowMin>20</GrowGlowMin>
+		<GrowGlowMax>140</GrowGlowMax>	
+		
+		<BaseLingCost>0.004</BaseLingCost>
+		<YunYangInterval>0</YunYangInterval>
+		<LingShaSpeedCoefficient>0.2</LingShaSpeedCoefficient>
+	</Plant>
+	
+	<Harvest>
+		<HarvestWork>50</HarvestWork> 
+		<DropWork>300</DropWork>   	
+		<HarvestValueMin>1</HarvestValueMin>  
+		<LogValueMin>0</LogValueMin>
+		<HarvestFailable>0</HarvestFailable>  
+	</Harvest>
+	
+	<Fertility>
+		<Value>1</Value>
+		<Radius>5</Radius>
+		<FailRadius>1</FailRadius>
+		<Failing>0.9</Failing>
+		<SkipSelf>1</SkipSelf>
+	</Fertility>
+	
+	<Ling>
+		<AddionLing>80</AddionLing>
+		<AddionRadius>5</AddionRadius>
+		<AddionFailing>0.9</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		<SkipSelf>2</SkipSelf>
+		
+		<Attenuation>0.5</Attenuation>
+		<Absorption>0.5</Absorption>
+		<Accommodate>400</Accommodate>
+	</Ling>
+	</ThingDef>
+
+	<ThingDef Type="Plant" Name="ZTLingZhi_ZLBSY" Parent="LingZhiBase">
+	<ThingName>Blue Dragon Undead</ThingName>
+	<Desc>The golden fruit is like a dragon, with a dragon ball in its mouth, and the whole fruit also has an autonomous consciousness. It can escape from the tree when a stranger approaches.</Desc>
+	<TexPath>Spr\Object\Plant\001.PNG</TexPath>
+	<Scale>3</Scale>
+	<ElementKind>Mu</ElementKind>
+	<Plant> 
+		<TexLing>
+			<GrowTex1>Spr\Object\Plant\001.PNG</GrowTex1>
+		</TexLing>
+		<SnowRenderData>
+			<x>2.8</x>
+			<y>2.8</y>
+			<z>2</z>
+		</SnowRenderData>
+		
+		
+		<HarvestDays>280</HarvestDays>
+		<LingMin>49</LingMin>
+		<LingMax>5500</LingMax>
+		<TempMin>200</TempMin>
+		<TempMax>9999</TempMax>
+		<ElementRange>
+			<ElementKind>Mu</ElementKind>
+			<Min>1</Min>
+			<Max>2</Max>
+		</ElementRange>	
+
+		<LingShaSpeed>-0.002</LingShaSpeed>
+		<LingZhiR>5</LingZhiR>
+		<JiaoGanModifierGT0>Modifier_LingZhi_GT0_Mu</JiaoGanModifierGT0>
+		<JiaoGanModifierLT0>Modifier_LingZhi_LT0_Mu</JiaoGanModifierLT0> 
+	</Plant>
+	
+	<Light>
+		<Value>360</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>DAA520</Color>
+	</Light>
+	
+	<Harvest>
+		<HarvestTag>
+			<li>Cut</li>
+			<li>StandCollection</li>
+		</HarvestTag>
+
+		<HarvestItems>
+			<li>
+				<ThingDef>Item_MuEssence</ThingDef>
+				<Count>4</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_MSXY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_LZ</ThingDef>
+				<Count>1</Count>
+				<Rate>0.15</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_LQ</ThingDef>
+				<Count>1</Count>
+				<Rate>0.25</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ZLJX</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+		</HarvestItems>
+		
+		<DropItems>
+			<li>
+				<ThingDef>Item_Wood</ThingDef>
+				<Count>1</Count>
+			</li>
+		</DropItems>  
+	</Harvest>
+</ThingDef>
+
+	<ThingDef Type="Plant" Name="ZTLingZhi_BSSHY" Parent="LingZhiBase">
+	<ThingName>Undead Phoenix Tree</ThingName>
+	<Desc>Suzaku is one of the four spirits in the ancient Chinese mythology. It originated from the worship of ancient stars. It is the southern god representing Emperor Yan and the seven places in the south. It is separated from the gossip and the main fire of the five elements. Summer in the four seasons.</Desc>
+	<TexPath>Spr\Object\Plant\BSSHY.PNG</TexPath>
+	<Scale>2</Scale>
+	<ElementKind>Huo</ElementKind>
+	<Plant> 
+		<TexLing>
+			<GrowTex1>Spr\Object\Plant\BSSHY.PNG</GrowTex1>
+		</TexLing>
+		<SnowRenderData>
+			<x>2.8</x>
+			<y>2.8</y>
+			<z>2</z>
+		</SnowRenderData>
+		
+		
+		<HarvestDays>280</HarvestDays>
+		<LingMin>49</LingMin>
+		<LingMax>5500</LingMax>
+		<TempMin>200</TempMin>
+		<TempMax>9999</TempMax>
+		<ElementRange>
+			<ElementKind>Huo</ElementKind>
+			<Min>1</Min>
+			<Max>2</Max>
+		</ElementRange>	
+
+		<LingShaSpeed>-0.002</LingShaSpeed>
+		<LingZhiR>5</LingZhiR>
+		<JiaoGanModifierGT0>Modifier_LingZhi_GT0_Huo</JiaoGanModifierGT0>
+		<JiaoGanModifierLT0>Modifier_LingZhi_LT0_Huo</JiaoGanModifierLT0> 
+	</Plant>
+	
+	
+	<Heat>
+		<Value>500</Value>
+		<RoomValue>600</RoomValue>
+		<Radius>5</Radius>
+		<FailRadius>1</FailRadius>
+		<Failing>0.9</Failing>
+		<SkipSelf>1</SkipSelf>
+	</Heat>
+	
+	<Light>
+		<Value>360</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>DAA520</Color>
+	</Light>
+	
+	<Harvest>
+		<HarvestTag>
+			<li>Cut</li>
+			<li>StandCollection</li>
+		</HarvestTag>
+
+		<HarvestItems>
+			<li>
+				<ThingDef>Item_HuoEssence</ThingDef>
+				<Count>4</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_HSXY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SFND</ThingDef>
+				<Count>1</Count>
+				<Rate>0.15</Rate>
+			</li>
+			
+			<li>
+				<ThingDef>Item_SHJX</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+		</HarvestItems>
+		
+		<DropItems>
+			<li>
+				<ThingDef>Item_Wood</ThingDef>
+				<Count>1</Count>
+			</li>
+		</DropItems>  
+	</Harvest>
+</ThingDef>
+
+
+	<ThingDef Type="Plant" Name="ZTLingZhi_BSHLY" Parent="LingZhiBase">
+	<ThingName>Undead Yellow Dragon Tree</ThingName>
+	<Desc>The central, Tuye, and its emperor Huangdi, the latter of the earth, hold the rope and make the Quartet. Its god is the town star, its beast Huanglong, its sound palace, and its day.</Desc>
+	<TexPath>Spr\Object\Plant\BSHLY.PNG</TexPath>
+	<Scale>2</Scale>
+	<ElementKind>Tu</ElementKind>
+	<Plant> 
+		<TexLing>
+			<GrowTex1>Spr\Object\Plant\BSHLY.PNG</GrowTex1>
+		</TexLing>
+		<SnowRenderData>
+			<x>2.8</x>
+			<y>2.8</y>
+			<z>2</z>
+		</SnowRenderData>
+		
+		
+		<HarvestDays>280</HarvestDays>
+		<LingMin>49</LingMin>
+		<LingMax>5500</LingMax>
+		<TempMin>200</TempMin>
+		<TempMax>9999</TempMax>
+		<ElementRange>
+			<ElementKind>Tu</ElementKind>
+			<Min>1</Min>
+			<Max>2</Max>
+		</ElementRange>	
+
+		<LingShaSpeed>-0.002</LingShaSpeed>
+		<LingZhiR>5</LingZhiR>
+		<JiaoGanModifierGT0>Modifier_LingZhi_GT0_Tu</JiaoGanModifierGT0>
+		<JiaoGanModifierLT0>Modifier_LingZhi_LT0_Tu</JiaoGanModifierLT0> 
+	</Plant>
+	
+	
+	<Heat>
+		<Value>500</Value>
+		<RoomValue>600</RoomValue>
+		<Radius>5</Radius>
+		<FailRadius>1</FailRadius>
+		<Failing>0.9</Failing>
+		<SkipSelf>1</SkipSelf>
+	</Heat>
+	
+	<Light>
+		<Value>360</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>DAA520</Color>
+	</Light>
+	
+	<Harvest>
+		<HarvestTag>
+			<li>Cut</li>
+			<li>StandCollection</li>
+		</HarvestTag>
+
+		<HarvestItems>
+			<li>
+				<ThingDef>Item_TuEssence</ThingDef>
+				<Count>4</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TSXY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_HLND</ThingDef>
+				<Count>1</Count>
+				<Rate>0.15</Rate>
+			</li>
+			
+			<li>
+				<ThingDef>Item_HLJX</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+		</HarvestItems>
+		
+		<DropItems>
+			<li>
+				<ThingDef>Item_Wood</ThingDef>
+				<Count>1</Count>
+			</li>
+		</DropItems>  
+	</Harvest>
+</ThingDef>
+
+<ThingDef Type="Plant" Name="ZTLingZhi_BSXWY" Parent="LingZhiBase">
+	<ThingName>Undead basalt tree</ThingName>
+	<Desc>Xuanwu changed from 28 stars in the world: fighting, bull, female, virtual, dangerous, room, wall. In ancient times, people interpreted Xuanwu in the following ways: 'Xuanwu' means turtle. ".</Desc>
+	<TexPath>Spr\Object\Plant\BSXWY.PNG</TexPath>
+	<Scale>2</Scale>
+	<ElementKind>Shui</ElementKind>
+	<Plant> 
+		<TexLing>
+			<GrowTex1>Spr\Object\Plant\BSXWY.PNG</GrowTex1>
+		</TexLing>
+		<SnowRenderData>
+			<x>2.8</x>
+			<y>2.8</y>
+			<z>2</z>
+		</SnowRenderData>
+		
+		
+		<HarvestDays>280</HarvestDays>
+		<LingMin>49</LingMin>
+		<LingMax>5500</LingMax>
+		<TempMin>200</TempMin>
+		<TempMax>9999</TempMax>
+		<ElementRange>
+			<ElementKind>Shui</ElementKind>
+			<Min>1</Min>
+			<Max>2</Max>
+		</ElementRange>	
+
+		<LingShaSpeed>-0.002</LingShaSpeed>
+		<LingZhiR>5</LingZhiR>
+		<JiaoGanModifierGT0>Modifier_LingZhi_GT0_Shui</JiaoGanModifierGT0>
+		<JiaoGanModifierLT0>Modifier_LingZhi_LT0_Shui</JiaoGanModifierLT0> 
+	</Plant>
+	
+	
+	<Heat>
+		<Value>500</Value>
+		<RoomValue>600</RoomValue>
+		<Radius>5</Radius>
+		<FailRadius>1</FailRadius>
+		<Failing>0.9</Failing>
+		<SkipSelf>1</SkipSelf>
+	</Heat>
+	
+	<Light>
+		<Value>360</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>DAA520</Color>
+	</Light>
+	
+	<Harvest>
+		<HarvestTag>
+			<li>Cut</li>
+			<li>StandCollection</li>
+		</HarvestTag>
+
+		<HarvestItems>
+			<li>
+				<ThingDef>Item_ShuiEssence</ThingDef>
+				<Count>4</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SSXY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_XWND</ThingDef>
+				<Count>1</Count>
+				<Rate>0.15</Rate>
+			</li>
+			
+			<li>
+				<ThingDef>Item_XWJX</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+		</HarvestItems>
+		
+		<DropItems>
+			<li>
+				<ThingDef>Item_Wood</ThingDef>
+				<Count>1</Count>
+			</li>
+		</DropItems>  
+	</Harvest>
+</ThingDef>
+<ThingDef Type="Plant" Name="ZTLingZhi_BSBHY" Parent="LingZhiBase">
+	<ThingName>Undead White Tiger Medicine</ThingName>
+	<Desc>The king is benevolent but not harmed, but the white tiger sees it. White tigers, beasts too. Tiger and white, sloping like snow, without hair, Xiao is thriving. In the past, he called Gonghua to visit the country of Shaanxi.</Desc>
+	<TexPath>Spr\Object\Plant\BSBHY.PNG</TexPath>
+	<Scale>2</Scale>
+	<ElementKind>Jin</ElementKind>
+	<Plant> 
+		<TexLing>
+			<GrowTex1>Spr\Object\Plant\BSBHY.PNG</GrowTex1>
+		</TexLing>
+		<SnowRenderData>
+			<x>2.8</x>
+			<y>2.8</y>
+			<z>2</z>
+		</SnowRenderData>
+		
+		
+		<HarvestDays>280</HarvestDays>
+		<LingMin>49</LingMin>
+		<LingMax>5500</LingMax>
+		<TempMin>200</TempMin>
+		<TempMax>9999</TempMax>
+		<ElementRange>
+			<ElementKind>Jin</ElementKind>
+			<Min>1</Min>
+			<Max>2</Max>
+		</ElementRange>	
+
+		<LingShaSpeed>-0.002</LingShaSpeed>
+		<LingZhiR>5</LingZhiR>
+		<JiaoGanModifierGT0>Modifier_LingZhi_GT0_Jin</JiaoGanModifierGT0>
+		<JiaoGanModifierLT0>Modifier_LingZhi_LT0_Jin</JiaoGanModifierLT0> 
+	</Plant>
+	
+	
+	<Heat>
+		<Value>500</Value>
+		<RoomValue>600</RoomValue>
+		<Radius>5</Radius>
+		<FailRadius>1</FailRadius>
+		<Failing>0.9</Failing>
+		<SkipSelf>1</SkipSelf>
+	</Heat>
+	
+	<Light>
+		<Value>360</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>3</Radius>
+		<Color>DAA520</Color>
+	</Light>
+	
+	<Harvest>
+		<HarvestTag>
+			<li>Cut</li>
+			<li>StandCollection</li>
+		</HarvestTag>
+
+		<HarvestItems>
+			<li>
+				<ThingDef>Item_JinEssence</ThingDef>
+				<Count>4</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JSXY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_BHND</ThingDef>
+				<Count>1</Count>
+				<Rate>0.15</Rate>
+			</li>
+			
+			<li>
+				<ThingDef>Item_BHJX</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+		</HarvestItems>
+		
+		<DropItems>
+			<li>
+				<ThingDef>Item_Wood</ThingDef>
+				<Count>1</Count>
+			</li>
+		</DropItems>  
+	</Harvest>
+</ThingDef>
+</List></ThingDefs>

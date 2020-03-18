@@ -1,0 +1,334 @@
+<ModifierDefs><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Modifier Name="Gong_DJ_1A" Type="Normal">
+		<DisplayName>Tao Jing</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,0,0,0</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="2"/><!--潜力值2-->
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJ_1A_1" Type="Normal">
+		<DisplayName>Tao Jing</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ZhenEnginePower" AddV="20"/>
+		</Properties>
+		<Skills>
+		<li Name="Zhen" Level="5"/>
+			<li Name="Zhen" LevelOver="10"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_DJ_1A_2" Type="Normal">
+		<DisplayName>Tao Jing</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>
+			<li Name="NpcLingMaxValue" AddV="1500"/>
+			<li Name="MindStateBaseValue" AddV="50"/>
+		</Properties>
+	</Modifier>
+	<!-- ==========================技能2========================== -->
+		
+	<Modifier Name="Gong_DJ_2A" Type="Normal">
+		<DisplayName>German classics</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="MaxAccumulativeLingAddV" AddV="1500"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJ_2A_1" Type="Normal">
+		<DisplayName>德经</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="-15"/>
+			<li Name="NpcLingMaxValue" AddV="1000"/>
+			<li Name="LingAbsorbSpeed" AddP="2"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJ_2A_2" Type="Normal">
+		<DisplayName>德经</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="2"/>
+			<li Name="MindStateBaseValue" AddV="40"/>
+			<li Name="MaxAge" AddV="800"/>
+		</Properties>
+	</Modifier>
+	<!-- ==========================技能3========================== -->
+	<Modifier Name="Gong_DJ_1B" Type="Normal">
+		<DisplayName>以本为精</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="20"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="3"/><!--术法伤害加成-->
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.2"/><!--术法冷却时间加成-->
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_DJ_1B_1" Type="Normal">
+		<DisplayName>以物为粗</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="3"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.2"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="6"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Modifier Name="Gong_DJ_2B" Type="Normal">
+		<DisplayName>道常无</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,2</BaseFive>
+		<Properties>
+			<li Name="MaxAccumulativeLingAddV" AddV="2000"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="1.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJ_2B_1" Type="Normal">
+		<DisplayName>道常有</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			
+			<li Name="NpcFight_ZhenKeyPointNum" AddV="3"/><!--阵法规模-->
+			<li Name="NpcFight_ZhenEnginePower" AddV="32"/><!--阵法负荷能力-->
+		</Properties>
+		<Skills>
+			<li Name="Qi" Level="4"/>
+			<li Name="Qi" LevelOver="8"/>
+			
+		</Skills>
+	</Modifier>
+	
+	<!-- ==========================技能5========================== -->
+	
+		<Modifier Name="Gong_DJ_3B" Type="Normal">
+		<DisplayName>处无为之事</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SuccessRateAddV" AddP="1"/>
+			<li Name="FabaoMake_SpeedAddV" AddV="4"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-0.5"/>
+			<li Name="DanMake_SpeedAddV" AddV="4"/>
+			<li Name="DanMake_SuccessRate" AddP="1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJ_3B_1" Type="Normal">
+		<DisplayName>行不言之教</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Skills>
+			<li Name="Medicine" Level="15"/>
+			<li Name="Manual" Level="15"/>
+			<li Name="Medicine" LevelOver="20"/>
+			<li Name="Manual" LevelOver="20"/>
+		</Skills>
+		<Properties>
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="4"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-0.5"/>
+			<li Name="DanMake_YieldAddP" AddP="0.5"/>
+
+		</Properties>
+	</Modifier>
+	
+	
+	
+	
+	<Modifier Name="Gong_DJ_1C" Type="Normal">
+		<DisplayName>守一</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,1,1</BaseFive>
+		<Skills>
+			<li Name="Zhen" Level="6"/>
+			<li Name="Zhen" LevelOver="8"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_DJ_1C_2" Type="Normal">
+		<DisplayName>坐忘</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Skills>
+			
+			<li Name="Zhen" LevelOver="12"/>
+		</Skills>
+	</Modifier>
+	
+	<!-- ==========================分割线========================== -->
+
+	<Modifier Name="Gong_DJ_3C" Type="Normal">
+		<DisplayName>专气致柔</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2"/>
+			<li Name="NpcFight_ZhenEnginePower" AddV="40"/>
+			<li Name="LingAbsorbSpeed" AddP="4"/> 
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJ_3C_1" Type="Normal">
+		<DisplayName>涤除玄鉴</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ZhenKeyPointNum" AddP="2"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="6"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="6"/> 
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_DJ_HL_1D" Type="Normal">
+		<DisplayName>人法地</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="4"/>
+			<li Name="LingAbsorbSpeed" AddP="2"/>
+			<li Name="NpcFight_FabaoRepelResistanceAddV" AddV="5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJ_HL_1D_1" Type="Normal">
+		<DisplayName>地法天</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="-40"/>
+			<li Name="AbilityLvAddV" AddV="-50"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.25"/>
+
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJ_HL_1D_2" Type="Normal">
+		<DisplayName>天法道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="2"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_DJ_HL_2D" Type="Normal">
+		<DisplayName>名道金书</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="1"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="1"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.2"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_DJ_HL_2D_1" Type="Normal">
+		<DisplayName>名道金书</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.2"/>
+			<li Name="FabaoMake_QualityAddV" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_DJ_XT_1F" Type="Normal">
+		<DisplayName>大音希声</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="3"/>
+			<li Name="LingAbsorbSpeed" AddP="4"/>
+			
+		</Properties>
+		<Skills>
+			<li Name="Zhen" Level="10"/>
+			<li Name="Zhen" LevelOver="20"/>
+			
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_DJ_XT_1F_1" Type="Normal">
+		<DisplayName>大象无形</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.5"/><!--护盾强度加值-->
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="1.5"/><!--护盾强度加成-->
+			<li Name="NpcLingMaxValue" AddP="4"/>
+		</Properties>
+	</Modifier>
+	
+	
+	<Modifier Name="Gong_DJ_XT_DZ" Type="Normal">
+		<DisplayName>红尘仙</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="10"/>
+			<li Name="MaxAge" AddV="5000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="10000"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="20"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="20"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.9"/>
+		</Properties>
+	</Modifier>
+	
+	
+</List></ModifierDefs>

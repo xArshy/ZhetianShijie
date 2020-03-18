@@ -1,0 +1,341 @@
+<ModifierDefs><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Modifier Name="Gong_HYJ_LH_1A" Type="Normal">
+		<DisplayName>Refining Nether</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,2,0,0,0</BaseFive>
+		<Properties>
+			
+			<li Name="NpcFight_ZhenEnginePower" AddV="25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_HYJ_LH_1A_1" Type="Normal">
+		<DisplayName>Refining Nether</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="2000"/>
+			<li Name="LingAbsorbSpeed" AddP="1.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_HYJ_LH_1A_2" Type="Normal">
+		<DisplayName>Refining Nether</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="3"/>
+			<li Name="NpcLingMaxValue" BAddV="30"/>
+			<li Name="MindStateBaseValue" AddV="30"/>
+		</Properties>
+	</Modifier>
+	<!-- ==========================技能2========================== -->
+	<Modifier Name="Gong_HYJ_DRXW" Type="Normal">
+		<DisplayName>Fierce</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="5"/>
+			
+		</Properties>
+		<Skills>
+			<li Name="FightSkill" LevelOver="10"/>
+			<li Name="FightSkill" Level="5"/>
+		</Skills>
+		
+	</Modifier>
+	
+	
+	<!-- ==========================技能3========================== -->
+	<Modifier Name="Gong_HYJ_LH_3A" Type="Normal">
+		<DisplayName>离火神炉</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="4"/>
+		</Properties>
+		<Skills>
+			<li Name="Manual" LevelOver="5"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="Gong_HYJ_LH_3A_1" Type="Normal">
+		<DisplayName>离火神炉</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="3000"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.5"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_HYJ_LH_3A_2" Type="Normal">
+		<DisplayName>离火神炉</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="3"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Modifier Name="Gong_HYJ_LH_1B" Type="Normal">
+		<DisplayName>地皇</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,2</BaseFive>
+		<Properties>
+			<li Name="MaxAccumulativeLingAddV" AddV="5000"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_HYJ_LH_1B_1" Type="Normal">
+		<DisplayName>地皇</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,2,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="5000"/>
+			
+		</Properties>
+		<Skills>
+			<li Name="FightSkill" LevelOver="5"/>
+			<li Name="FightSkill" Level="5"/>
+		</Skills>
+	</Modifier>
+	
+	<!-- ==========================技能5========================== -->
+	
+		<Modifier Name="Gong_HYJ_DG_1B" Type="Normal">
+		<DisplayName>铲草兴锄</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="3"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_HYJ_DG_2B" Type="Normal">
+		<DisplayName>铲草兴锄</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="4"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.5"/>
+		</Properties>
+	</Modifier>
+	
+	
+	
+	
+	<Modifier Name="Gong_HYJ_LH_3B_SDSS" Type="Normal">
+		<DisplayName>赤练金丹</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="4"/>
+			
+		</Properties>
+		<Skills>
+			<li Name="Qi" LevelOver="8"/>
+			<li Name="Qi" Level="5"/>
+		</Skills>
+	</Modifier>
+	
+	
+	<!-- ==========================分割线========================== -->
+	
+	<Modifier Name="Gong_HYJ_SJ_1C" Type="Normal">
+		<DisplayName>恒宇经四极卷</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,0,1,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="5"/> 
+		</Properties>
+		<Skills>
+			<li Name="FightSkill" LevelOver="10"/>
+			<li Name="FightSkill" Level="5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_HYJ_SJ_1C_1" Type="Normal">
+		<DisplayName>恒宇经四极卷</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.25"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_HYJ_SJ_1C_2" Type="Normal">
+		<DisplayName>恒宇经四极卷</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="3"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="10"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.25"/><!--术法灵气消耗加成 -1-->
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_HYJ_SJ_3C" Type="Normal">
+		<DisplayName>炎焚九地</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.5"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.5"/> 
+		</Properties>
+		<Skills>
+			<li Name="FightSkill" LevelOver="10"/>
+			<li Name="FightSkill" Level="5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_HYJ_SJ_3C_1" Type="Normal">
+		<DisplayName>炎焚九地</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.5"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.5"/> 
+		</Properties>
+		<Skills>
+			<li Name="FightSkill" Level="10"/>
+			<li Name="FightSkill" Level="5"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="Gong_HYJ_HL_1D" Type="Normal">
+		<DisplayName>炎帝</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="1"/>
+			<li Name="NpcLingMaxValue" AddP="4"/>
+			
+		</Properties>
+		<Skills>
+			<li Name="FightSkill" LevelOver="10"/>
+			<li Name="FightSkill" Level="5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_HYJ_HL_1D_1" Type="Normal">
+		<DisplayName>炎帝</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="-30"/>
+			
+			<li Name="NpcFight_SpellPowerAddP" AddP="10"/>
+			
+		</Properties>
+	</Modifier>
+	
+	
+	<Modifier Name="Gong_HYJ_HL_2D" Type="Normal">
+		<DisplayName>恒宇神炉</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="1"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="1"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.2"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_HYJ_HL_2D_1" Type="Normal">
+		<DisplayName>恒宇神炉</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="9"/>
+			<li Name="FabaoMake_QualityAddV" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_HYJ_XT_1F" Type="Normal">
+		<DisplayName>九阳悬天</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="4"/>
+		</Properties>
+		<Skills>
+			<li Name="FightSkill" LevelOver="10"/>
+			<li Name="FightSkill" Level="5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_HYJ_XT_1F_1" Type="Normal">
+		<DisplayName>九阳悬天</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToMu" AddP="0.5"/>
+			<li Name="NpcFight_ShieldConversionRate" AddV="1"/>
+		</Properties>
+	</Modifier>
+	
+	
+	
+	<Modifier Name="Gong_HYJ_XT_DZ" Type="Normal">
+		<DisplayName>红尘仙</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="10"/>
+			<li Name="MaxAge" AddV="5000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="10000"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="20"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="20"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.9"/>
+		</Properties>
+	</Modifier>
+	
+	
+</List></ModifierDefs>

@@ -1,0 +1,12 @@
+<Defs><List>
+	<Def Name="zhaolanwsst">
+		<DisplayName>异世界寻人</DisplayName>
+		<Desc>在此地，将各个异世界的人召唤而来。一次消耗100影响值。</Desc>
+		<Cost>
+			<Influence>100</Influence>
+		</Cost>
+		<CD>1</CD> <!-- 单位是天 -->
+		<Lua>GameUlt.ZhaoLanwsst(region)</Lua> <!-- 效果就是跑个lua脚本 -->
+		<Icon>Spr\outspread\WSJT\TJZ.png</Icon>
+	</Def>
+</List></Defs>

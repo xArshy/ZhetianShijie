@@ -1,0 +1,14 @@
+<MoodDefs><List>
+
+	<Mood Name="Dan_PTMY" Group="BottleNeck">
+		<DisplayName>Recasting Xianlu</DisplayName>
+		<Desc>Under the healing effect of the secret medicine, Xianlu was recast Practice is hopeful.</Desc>
+		<StoryDesc>I am immersed in the joy of returning to Xianxian Road</StoryDesc>
+		<Sync>1</Sync>
+		<MaxStack>2</MaxStack>
+		<StackRatio>1.4</StackRatio>
+		<Value>90</Value>
+		<Duration>12</Duration>
+	</Mood>
+	
+</List></MoodDefs>
