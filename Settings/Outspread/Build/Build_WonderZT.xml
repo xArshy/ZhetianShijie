@@ -8,9 +8,9 @@
 		</BuildCondition>
 		<BuildDay>5</BuildDay>
 		<Immortal>1</Immortal>
-		<DisplayName>天凰山</DisplayName>
-		<Desc>相处，此山是不死天皇曾经的居所，未曾靠近便能感受到天凰之息。天皇晚年将收集的大多数神材都放于此地。</Desc>
-		<Effect>前来历练有几率获得帝兵材料。</Effect>
+		<DisplayName>Tianhuang Mountain</DisplayName>
+		<Desc>Getting along, this mountain is the residence of the undead Emperor, and you can feel the breath of the Phoenix without ever approaching. The Emperor placed most of the sacred materials collected in his later years here.</Desc>
+		<Effect>There is a chance to obtain Emperor materials when coming to experience.</Effect>
 		
 		<Icon>Spr\outspread\WSJT\TFS.png</Icon>
 		<FreePuppet>2</FreePuppet>

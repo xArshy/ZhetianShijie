@@ -1,7 +1,7 @@
 <RaceDefs><List>
 
 <RaceDef Name="Boss_MS1">
-	<DisplayName>六岁肥</DisplayName>
+	<DisplayName>Six-year-old fat</DisplayName>
 	<Mod>Mod/Npc/BossLong/Base</Mod>
 	<RaceType>Boss</RaceType>
 	<Revive>0</Revive>
@@ -73,7 +73,7 @@
 		</li>
 		<li Name="longjiao">
 			<Local>biped Head</Local>
-			<DisplayName>龙角</DisplayName>
+			<DisplayName>Dragon Horn</DisplayName>
 			<Ling>35000000</Ling>
 			<Modifier>Boss_MS_Part</Modifier>
 			<FightModifier>Boss_MSPartFight</FightModifier>
@@ -87,7 +87,7 @@
 		</li>
 		<li Name="longzhua1">
 			<Local>biped L Forearm</Local>
-			<DisplayName>龙左前爪</DisplayName>
+			<DisplayName>Dragon left front paw</DisplayName>
 			<Ling>25000</Ling>
 			<Modifier>Boss_MS_Part</Modifier>
 			<FightModifier>Boss_MSPartFight</FightModifier>
@@ -124,7 +124,7 @@
 		</li>
 		<li Name="longzhua2">
 			<Local>biped_bone24</Local>
-			<DisplayName>龙右前爪</DisplayName>
+			<DisplayName>Right front paw</DisplayName>
 			<Ling>25000</Ling>
 			<Modifier>Boss_MS_Part</Modifier>
 			<FightModifier>Boss_MSPartFight</FightModifier>
@@ -161,7 +161,7 @@
 		</li>
 		<li Name="longzhua3">
 			<Local>biped_bone55</Local>
-			<DisplayName>龙左后爪</DisplayName>
+			<DisplayName>Dragon left hind paw</DisplayName>
 			<Ling>25000</Ling>
 			<Modifier>Boss_MS_Part</Modifier>
 			<FightModifier>Boss_MSPartFight</FightModifier>
@@ -198,7 +198,7 @@
 		</li>
 		<li Name="longzhua4">
 			<Local>biped_bone74</Local>
-			<DisplayName>龙右后爪</DisplayName>
+			<DisplayName>Right hind paw</DisplayName>
 			<Ling>25000</Ling>
 			<Modifier>Boss_MS_Part</Modifier>
 			<FightModifier>Boss_MSPartFight</FightModifier>
@@ -235,7 +235,7 @@
 		</li>
 		<li Name="nilin">
 			<Local>biped_bone126</Local>
-			<DisplayName>逆鳞</DisplayName>
+			<DisplayName>Inverse scale</DisplayName>
 			<Ling>300000</Ling>
 			<Modifier>Boss_MS_Part</Modifier>
 			<FightModifier>Boss_MSPartFight</FightModifier>

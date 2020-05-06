@@ -1,0 +1,235 @@
+<ModifierDefs><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Modifier Name="Gong_YTS_LH_1A" Type="Normal">
+		<DisplayName>Tan Yuan Deeply Forbidden</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="4"/>
+			<li Name="LingAbsorbSpeed" AddP="4"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="2400"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_YTS_LH_1A_1" Type="Normal">
+		<DisplayName>Tan Yuan Deeply Forbidden</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="4"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="4"/>
+			<li Name="MindStateBaseValue" AddV="40"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_YTS_LH_1A_2" Type="Normal">
+		<DisplayName>谭源深禁</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="600"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="4"/>
+			<li Name="MindStateBaseValue" AddV="60"/>
+		</Properties>
+	</Modifier>
+	<!-- ==========================技能2========================== -->
+	<!-- ==========================技能3========================== -->
+	<Modifier Name="Gong_YTS_LH_3A" Type="Normal">
+		<DisplayName>源本创身</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.25"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="1"/>
+			<li Name="NpcFight_SneakValue" AddV="20"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_YTS_LH_3A_1" Type="Normal">
+		<DisplayName>源本创身</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="2"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.2"/>
+			<li Name="GodPenaltyAddV" AddV="-50"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_YTS_LH_3A_2" Type="Normal">
+		<DisplayName>源本创身</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddV="30"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="2500"/>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="3"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Modifier Name="Gong_YTS_LH_1B" Type="Normal">
+		<DisplayName>源术聚源</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2"/>
+		</Properties>
+	</Modifier>
+	
+	
+	<!-- ==========================技能5========================== -->
+	
+		<Modifier Name="Gong_YTS_DG_1B" Type="Normal">
+		<DisplayName>源天书</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="1"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="0.25"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_YTS_DG_2B" Type="Normal">
+		<DisplayName>源天书</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="4"/>
+			<li Name="GodPenaltyAddV" AddV="50"/>
+		</Properties>
+		<Skills>
+			<li Name="Zhen" LevelOver="10"/>
+			
+		</Skills>
+	</Modifier>
+	
+	
+	
+	
+	<!-- ==========================分割线========================== -->
+	
+	<Modifier Name="Gong_YTS_SJ_1C" Type="Normal">
+		<DisplayName>源术神源</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="3"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="3"/> 
+		</Properties>
+	</Modifier>
+	
+	
+	<Modifier Name="Gong_YTS_SJ_3C" Type="Normal">
+		<DisplayName>源术纳体</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="2"/>
+			<li Name="LingAbsorbSpeed" AddP="2"/> 
+		</Properties>
+	</Modifier>
+	
+	
+	<Modifier Name="Gong_YTS_HL_1D" Type="Normal">
+		<DisplayName>源术造仙</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="6"/>
+			
+		</Properties>
+		<Skills>
+			<li Name="Zhen" LevelOver="15"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="Gong_YTS_HL_dl" Type="Normal">
+		<DisplayName>源书淬身</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="4"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.2"/>
+			
+		</Properties>
+		<Skills>
+			<li Name="Zhen" LevelOver="15"/>
+		</Skills>
+	</Modifier>
+	
+
+	
+	<Modifier Name="Gong_YTS_XT_1F" Type="Normal">
+		<DisplayName>源术天道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="1"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="1"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.2"/>
+		</Properties>
+		<Skills>
+			<li Name="Barrier" LevelOver="10"/>
+			<li Name="Barrier" Level="5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_YTS_XT_1F_1" Type="Normal">
+		<DisplayName>源术天道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.2"/>
+			<li Name="FabaoMake_QualityAddV" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	
+	
+	<Modifier Name="Gong_YTS_XT_DZ" Type="Normal">
+		<DisplayName>红尘仙</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="50"/>
+			<li Name="MaxAge" AddV="5000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="1500"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="20"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="20"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.9"/>
+		</Properties>
+	</Modifier>
+	
+	
+</List></ModifierDefs>

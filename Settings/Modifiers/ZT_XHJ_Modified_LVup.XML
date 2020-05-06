@@ -1,0 +1,332 @@
+<ModifierDefs><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Modifier Name="Gong_XHJ_LH_1A" Type="Normal">
+		<DisplayName>瑶池仙境</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="3"/>
+			<li Name="InspirationCoefficient" AddV="1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_XHJ_LH_1A_1" Type="Normal">
+		<DisplayName>瑶池仙境</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="4"/>
+			<li Name="LingAbsorbSpeed" AddP="2"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_XHJ_LH_1A_2" Type="Normal">
+		<DisplayName>瑶池仙境</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="3"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="3"/>
+			<li Name="MindStateBaseValue" AddV="50"/>
+		</Properties>
+	</Modifier>
+	<!-- ==========================技能2========================== -->
+	<Modifier Name="Gong_XHJ_LH_2A" Type="Normal">
+		<DisplayName>霞雾缭绕</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,2,0</BaseFive>
+		<Skills>
+			<li Name="Medicine" LevelOver="15"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_XHJ_LH_2A_1" Type="Normal">
+		<DisplayName>霞雾缭绕</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,2,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.15"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_XHJ_LH_2A_2" Type="Normal">
+		<DisplayName>霞雾缭绕</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="2"/>
+			<li Name="GodPenaltyAddV" AddV="-20"/>
+		</Properties>
+	</Modifier>
+	
+	
+	
+	<!-- ==========================技能3========================== -->
+	<Modifier Name="Gong_XHJ_LH_3A" Type="Normal">
+		<DisplayName>仙韵</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,2</BaseFive>
+		<BanBodyParts>
+			<li>Genitals</li>
+		</BanBodyParts>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddV="50"/>
+			<li Name="LingAbsorbSpeed" AddP="3"/>
+			<li Name="MaxAge" AddV="40"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_XHJ_LH_3A_1" Type="Normal">
+		<DisplayName>仙韵</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,9,0,2</BaseFive>
+		<Skills>
+			<li Name="Medicine" LevelOver="15"/>
+		</Skills>
+		<Properties>
+			<li Name="MaxAge" AddV="40"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Modifier Name="Gong_XHJ_LH_1B" Type="Normal">
+		<DisplayName>西皇经道宫卷</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,1,0,1</BaseFive>
+		<Properties>
+			<li Name="MaxAccumulativeLingAddV" AddV="2000"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_XHJ_LH_1B_1" Type="Normal">
+		<DisplayName>西皇经道宫卷</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,2</BaseFive>
+		<Properties>
+			<li Name="DanMake_Speed" AddP="1"/>
+			
+		</Properties>
+		<Skills>
+			<li Name="Medicine" LevelOver="10"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_XHJ_LH_1B_2" Type="Normal">
+		<DisplayName>西皇经道宫卷</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="4"/>
+			<li Name="DanMake_YieldAddP" AddP="1.5"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能5========================== -->
+	
+		<Modifier Name="Gong_XHJ_DG_1B" Type="Normal">
+		<DisplayName>迩言翼</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="DanMake_SpeedAddV" AddV="4"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_XHJ_DG_2B" Type="Normal">
+		<DisplayName>迩言翼</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,2</BaseFive>
+		<Properties>
+			<li Name="DanMake_Yield" AddP="6"/>
+			<li Name="GodPenaltyAddV" AddV="-20"/>
+		</Properties>
+	</Modifier>
+	
+	
+	
+	
+	<Modifier Name="Gong_XHJ_LH_3B_YCSS" Type="Normal">
+		<DisplayName>瑶池圣术</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,2,0,2</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="4"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.3"/>
+		</Properties>
+	</Modifier>
+	
+	
+	<!-- ==========================分割线========================== -->
+	
+	<Modifier Name="Gong_XHJ_SJ_1C" Type="Normal">
+		<DisplayName>玉女传道宝卷</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="InspirationCoefficient" AddV="1"/>
+			<li Name="NpcFight_FabaoNum" AddP="1"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="3"/> 
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_XHJ_SJ_1C_1" Type="Normal">
+		<DisplayName>玉女传道宝卷</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="30"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="1"/>
+		</Properties>
+		
+	</Modifier>
+	
+	
+	<Modifier Name="Gong_XHJ_SJ_3C" Type="Normal">
+		<DisplayName>离宫别窟</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="ExperienceFindSpeedAddV" AddV="2"/>
+			<li Name="NpcLingMaxValue" AddP="5"/>
+			<li Name="LingAbsorbSpeed" AddP="5"/> 
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_XHJ_SJ_3C_1" Type="Normal">
+		<DisplayName>离宫别窟</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="3"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddV="-0.5"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="5"/> 
+		</Properties>
+		
+	</Modifier>
+	
+	<Modifier Name="Gong_XHJ_HL_SS" Type="Normal">
+		<DisplayName>仙境道纹</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ZhenEnginePower" AddV="46"/><!--阵法负荷能力-->
+			
+		</Properties>
+		
+		<Skills>
+			<li Name="Barrier" LevelOver="12"/>
+			<li Name="Barrier" Level="6"/>
+		</Skills>
+	</Modifier>
+	
+	
+	<Modifier Name="Gong_XHJ_HL_2D" Type="Normal">
+		<DisplayName>西皇塔</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="1"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="1"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.2"/>
+		</Properties>
+		
+	</Modifier>
+	<Modifier Name="Gong_XHJ_HL_2D_1" Type="Normal">
+		<DisplayName>西皇塔</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.2"/>
+			<li Name="FabaoMake_QualityAddV" AddP="0.5"/>
+		</Properties>
+		
+	</Modifier>
+	
+	
+	<Modifier Name="Gong_XHJ_XT_2F" Type="Normal">
+		<DisplayName>仙瑶</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="6"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="1500"/>
+		</Properties>
+		<Skills>
+			<li Name="Zhen" LevelOver="10"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_XHJ_XT_2F_1" Type="Normal">
+		<DisplayName>仙瑶</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="-50"/><!--天谴，正的加天谴的。-50 50-->
+			<li Name="NpcFight_ShieldResistanceToShui" AddP="1.5"/>
+
+		</Properties>
+		<Skills>
+			<li Name="Zhen" Level="10"/>
+		</Skills>
+	</Modifier>
+	
+	
+	<Modifier Name="Gong_XHJ_XT_DZ" Type="Normal">
+		<DisplayName>红尘仙</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="10"/>
+			<li Name="MaxAge" AddV="5000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="10000"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="20"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="20"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.9"/>
+		</Properties>
+	</Modifier>
+	
+	
+</List></ModifierDefs>

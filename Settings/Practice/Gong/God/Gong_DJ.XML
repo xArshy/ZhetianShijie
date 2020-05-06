@@ -1,8 +1,8 @@
 ﻿<Gongs><List>
 	<Gong Name="Gong_DJG">   
-		<DisplayName>道经（神国）</DisplayName>
-		<Desc>遮天小说中出现的第一本帝经，也是流传最为广泛的帝经，是九天尊之一的道德天尊创立的。道经的轮海卷是所有帝经中最强的。</Desc>
-		<SelectDesc>此功法修炼起来每一层的时间都需要比较久，也叫稳固和扎实际，但却是大多数人证道的不二之选。是否要选择修习此功法？</SelectDesc>
+		<DisplayName>Taoist scriptures (kingdom)</DisplayName>
+		<Desc>The first emperor's scripture appeared in Zhutian's novel, which is also the most widely circulated, was created by one of the nine heavenly deities. The Tao Haijuan is the strongest of all the Emperors.</Desc>
+		<SelectDesc>It takes a long time to cultivate each layer of this exercise. It is also called solid and practical, but it is the best choice for most people to testify. Do you want to choose this practice?</SelectDesc>
 		<FiveBaseNeed>6,6,6,6,6</FiveBaseNeed>
 		<SkillSetName></SkillSetName>
 		<GongKind>God</GongKind>
@@ -30,7 +30,7 @@
 		<Hide>1</Hide>
 		<Stages>
 			<Stage Name="Stage1" Level="3">
-				<DisplayName>轮海境</DisplayName>
+				<DisplayName>Round sea</DisplayName>
 				<Desc>分别是开辟苦海——修成命泉——架设神桥——到达彼岸。</Desc>
 				<Value>240000</Value>
 				<Necks>

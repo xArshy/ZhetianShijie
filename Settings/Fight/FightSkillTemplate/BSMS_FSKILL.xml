@@ -54,7 +54,7 @@
 		</Missile>	
 	</Skill>
 	<Skill Name="MS_QTCM">
-		<DisplayName>群体沉默</DisplayName>
+		<DisplayName>Group silence</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<Element>None</Element>
@@ -82,7 +82,7 @@
 	</Skill>	
 	
 	<Skill Name="MS_DTQL"><!--龙怒结束后对驱散天气者的伤害-->
-		<DisplayName>单体强力技能</DisplayName>
+		<DisplayName>Individual Power Skills</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<Element>None</Element>

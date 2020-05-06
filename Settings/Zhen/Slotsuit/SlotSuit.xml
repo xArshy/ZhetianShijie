@@ -1,0 +1,367 @@
+<Defs><List>
+
+	<Def Name="zt_XJDW" DisplayName="仙境道纹" Base="0">
+		<Conditions>
+			<li A="Lv4_X" B="Lv4_X" Count="3" />
+			<li A="Lv4_J" B="Lv4_J" Count="3" />
+			<li A="Lv4_D" B="Lv4_D" Count="3" />
+			<li A="Lv4_W" B="Lv4_W" Count="3" />
+		</Conditions>
+		<SuitEffect>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>御器能力额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>FabaoAtkPowerAddv</TypeExtra>
+				<fParam1>35</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>术法能力额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>MagicPowerAddv</TypeExtra>
+				<fParam1>35</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>护御能力额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>SheildAddv</TypeExtra>
+				<fParam1>99</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法效率额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>ReduceCostAddv</TypeExtra>
+				<fParam1>99</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>运转能力额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>SkillCooldownAddv</TypeExtra>
+				<fParam1>69</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>稳定度额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>StabilityAddv</TypeExtra>
+				<fParam1>75</fParam1>
+			</li>
+			
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法规模额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>NpcNodeCountNumPowerupAddv</TypeExtra>
+				<fParam1>3</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法负荷额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>NpcZhenPressurePowerupAddv</TypeExtra>
+				<fParam1>69</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法灵机上限额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>NpcZhenPointAddv</TypeExtra>
+				<fParam1>3</fParam1>
+			</li>
+		</SuitEffect>
+	</Def>
+	
+	
+	<Def Name="zt_XJ" DisplayName="仙境" Base="0">
+		<Conditions>
+			<li A="Lv4_X" B="Lv4_X" Count="2" />
+			<li A="Lv4_J" B="Lv4_J" Count="2" />
+		</Conditions>
+		<SuitEffect>
+			
+			<li>
+				<DisplayName></DisplayName>
+				<Description>护御能力额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>SheildAddv</TypeExtra>
+				<fParam1>39</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法效率额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>ReduceCostAddv</TypeExtra>
+				<fParam1>39</fParam1>
+			</li>
+			
+			
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法规模额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>NpcNodeCountNumPowerupAddv</TypeExtra>
+				<fParam1>2</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法负荷额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>NpcZhenPressurePowerupAddv</TypeExtra>
+				<fParam1>29</fParam1>
+			</li>
+			
+		</SuitEffect>
+	</Def>
+	
+	<Def Name="zt_DW" DisplayName="道纹" Base="0">
+		<Conditions>
+			<li A="Lv4_D" B="Lv4_D" Count="2" />
+			<li A="Lv4_W" B="Lv4_W" Count="2" />
+		</Conditions>
+		<SuitEffect>
+			
+			<li>
+				<DisplayName></DisplayName>
+				<Description>御器能力额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>FabaoAtkPowerAddv</TypeExtra>
+				<fParam1>20</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>术法能力额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>MagicPowerAddv</TypeExtra>
+				<fParam1>20</fParam1>
+			</li>
+			
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法负荷额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>NpcZhenPressurePowerupAddv</TypeExtra>
+				<fParam1>29</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法灵机上限额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>NpcZhenPointAddv</TypeExtra>
+				<fParam1>1</fParam1>
+			</li>
+		</SuitEffect>
+	</Def>
+	
+	<Def Name="zt_YMSC" DisplayName="阴冥杀场" Base="0">
+		<Conditions>
+			<li A="Lv4_Y" B="Lv4_Y" Count="3" />
+			<li A="Lv4_M" B="Lv4_M" Count="3" />
+			<li A="Lv4_S" B="Lv4_S" Count="3" />
+			<li A="Lv4_C" B="Lv4_C" Count="3" />
+		</Conditions>
+		<SuitEffect>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>御器能力额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>FabaoAtkPowerAddv</TypeExtra>
+				<fParam1>75</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>术法能力额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>MagicPowerAddv</TypeExtra>
+				<fParam1>75</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>护御能力额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>SheildAddv</TypeExtra>
+				<fParam1>39</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法效率额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>ReduceCostAddv</TypeExtra>
+				<fParam1>69</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>运转能力额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>SkillCooldownAddv</TypeExtra>
+				<fParam1>39</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>稳定度额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>StabilityAddv</TypeExtra>
+				<fParam1>45</fParam1>
+			</li>
+			
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法规模额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>NpcNodeCountNumPowerupAddv</TypeExtra>
+				<fParam1>1</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法负荷额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>NpcZhenPressurePowerupAddv</TypeExtra>
+				<fParam1>29</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法灵机上限额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>NpcZhenPointAddv</TypeExtra>
+				<fParam1>2</fParam1>
+			</li>
+		</SuitEffect>
+	</Def>
+	
+	
+	<Def Name="zt_YM" DisplayName="阴冥" Base="0">
+		<Conditions>
+			<li A="Lv4_Y" B="Lv4_Y" Count="2" />
+			<li A="Lv4_M" B="Lv4_M" Count="2" />
+		</Conditions>
+		<SuitEffect>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>御器能力额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>FabaoAtkPowerAddv</TypeExtra>
+				<fParam1>75</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>术法能力额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>MagicPowerAddv</TypeExtra>
+				<fParam1>75</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>护御能力额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>SheildAddv</TypeExtra>
+				<fParam1>39</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法效率额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>ReduceCostAddv</TypeExtra>
+				<fParam1>69</fParam1>
+			</li>
+		</SuitEffect>
+	</Def>
+	
+	<Def Name="zt_SC" DisplayName="杀场" Base="0">
+		<Conditions>
+			<li A="Lv4_S" B="Lv4_S" Count="1" />
+			<li A="Lv4_C" B="Lv4_C" Count="1" />
+		</Conditions>
+		<SuitEffect>
+				<li>
+				<DisplayName></DisplayName>
+				<Description>稳定度额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>StabilityAddv</TypeExtra>
+				<fParam1>45</fParam1>
+			</li>
+			
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法规模额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>NpcNodeCountNumPowerupAddv</TypeExtra>
+				<fParam1>1</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法负荷额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>NpcZhenPressurePowerupAddv</TypeExtra>
+				<fParam1>29</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法灵机上限额外增加</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>NpcZhenPointAddv</TypeExtra>
+				<fParam1>2</fParam1>
+			</li>
+		</SuitEffect>
+	</Def>
+	
+	
+	<Def Name="SlotSuit_SpZhen_FX" DisplayName="封仙六禁" Base="0">
+		<HideInUi>1</HideInUi>
+		<SuitEffect>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法规模提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>NpcNodeCountNumPowerupAddp</TypeExtra>
+				<fParam1>1</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法负荷提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>NpcZhenPressurePowerupAddp</TypeExtra>
+				<fParam1>0.5</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>御器能力额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>FabaoAtkPowerAddv</TypeExtra>
+				<fParam1>99</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>术法能力额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>MagicPowerAddv</TypeExtra>
+				<fParam1>99</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>护御能力额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>SheildAddv</TypeExtra>
+				<fParam1>99</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>稳定度额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>StabilityAddv</TypeExtra>
+				<fParam1>99</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>阵法效率额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>ReduceCostAddv</TypeExtra>
+				<fParam1>99</fParam1>
+			</li>
+		</SuitEffect>
+	</Def>
+	
+</List></Defs>
+	

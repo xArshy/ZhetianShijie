@@ -1,7 +1,7 @@
 <ModifierDefs><List>
 	<Modifier Name="ZTDrug_AL" Type="Normal">
 		<DisplayName>Dark lotus</DisplayName>
-		<Desc>After eating, the five elements will reduce injury by 1% and resistance by 60%. Side effects are deducted from the 10,000 magic power cap.</Desc>
+		<Desc>After eating, gain resistance to the five elements by 1% and Pill resistance by 60%. Side effect lose 10,000 max qi</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>1</Display>
@@ -28,12 +28,12 @@
 		<Properties>
 			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="4"/>
 			<li Name="NutritionConsumeConstant" AddP="2"/>
-			<li Name="NutritionToJingYuanK" AddV="-0.5"/>
+			<li Name="NutritionToJingageK" AddV="-0.5"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="ZTDrug_YMC" Type="Normal">
 		<DisplayName>Cinnamon leaf</DisplayName>
-		<Desc>After taking a little deduction, reduce the time of the arrival of Tianjie by 1000s and increase the maximum spiritual power by 3000</Desc>
+		<Desc>After taking reduce the time of the arrival of Tribulation by 1000s and increase the maximum qi power by 3000</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>1</Display>
@@ -45,7 +45,7 @@
 	</Modifier>
 	<Modifier Name="ZTDrug_JMY" Type="Normal">
 		<DisplayName>Jingmingye</DisplayName>
-		<Desc>Take to increase the success rate of breaking the bottleneck by 0.1, and gain 5000 spiritual power increase, side effects reduce the speed of practice 2</Desc>
+		<Desc>Take to increase the success rate of breaking the bottleneck by 0.1, and gain 5000 maximum qi increase, side effects reduce the speed of practice 2</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>1</Display>
@@ -81,7 +81,7 @@
 	</Modifier>
 	<Modifier Name="ZTDrug_HYY" Type="Normal">
 		<DisplayName>Mixed leaves</DisplayName>
-		<Desc>Immune to all injuries within half a day after taking it, and after the duration is over, the quarterly spiritual power cap is deducted.</Desc>
+		<Desc>Immune to all injuries within half a day after taking it, and after the duration is over, the quarterly qi cap is deducted.</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>300</Duration>
 		<Display>1</Display>
@@ -296,7 +296,7 @@
 	</Modifier>
 	<Modifier Name="ZTDrug_JHZ" Type="Normal">
 		<DisplayName>Soul Diffuser</DisplayName>
-		<Desc>Stunned for 9 days after taking it. After waking up, she increased her consciousness by 2 points, and she had a maximum of 20 spiritual power.</Desc>
+		<Desc>Stunned for 9 days after taking it. After waking up, she increased her consciousness by 2 points, and she had a maximum of 20 qi.</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>5400</Duration>
 		<Display>1</Display>
@@ -365,7 +365,7 @@
 	</Modifier>
 	<Modifier Name="ZTDrug_HG" Type="Normal">
 		<DisplayName>Magic mushroom</DisplayName>
-		<Desc>After taking 6,000 yuan, you will directly break through a realm.</Desc>
+		<Desc>After taking 6,000 age, you will directly break through a realm.</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>1</Display>
@@ -439,7 +439,7 @@
 	</Modifier>
 	<Modifier Name="ZTDrug_GJZ" Type="Normal">
 		<DisplayName>Tricky bamboo</DisplayName>
-		<Desc>She died completely after taking it.</Desc>
+		<Desc>Tricky bamboo is known to give brain damage if eaten.</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>1</Display>
@@ -451,7 +451,7 @@
 	</Modifier>
 	<Modifier Name="ZTDrug_LX" Type="Normal">
 		<DisplayName>Old beard</DisplayName>
-		<Desc>After taking it, it will permanently increase the life expectancy by 200 yuan and increase the thunder value by 10.</Desc>
+		<Desc>After taking it, it will permanently increase the life expectancy by 200 age and increase the thunder value by 10.</Desc>
 		<MaxStack>999</MaxStack>
 		<Duration>-1</Duration>
 		<Display>1</Display>
@@ -464,7 +464,7 @@
 	</Modifier>
 	<Modifier Name="ZTDrug_CBS" Type="Normal">
 		<DisplayName>Changbai ginseng</DisplayName>
-		<Desc>After taking it, it will permanently increase 300 yuan</Desc>
+		<Desc>After taking it, it will permanently increase 300 age</Desc>
 		<MaxStack>999</MaxStack>
 		<Duration>-1</Duration>
 		<Display>1</Display>
@@ -489,7 +489,7 @@
 	</Modifier>
 	<Modifier Name="ZTDrug_YS" Type="Normal">
 		<DisplayName>Youshen</DisplayName>
-		<Desc>After taking it, it will permanently reduce the life of 200 yuan and reduce the value of 10 thunder.</Desc>
+		<Desc>After taking it, it will permanently reduce the life of 200 age and reduce the value of 10 thunder.</Desc>
 		<MaxStack>999</MaxStack>
 		<Duration>-1</Duration>
 		<Display>1</Display>
@@ -623,7 +623,7 @@
 	</Modifier> 
 	<Modifier Name="ZTDrug_JM9" Type="Normal">
 		<DisplayName>One of the nine</DisplayName>
-		<Desc>After eating, it will add 600 years of life, reduce 50 road trips, reduce 25 thunder and calamity, increase the spiritual power by 5 times, and absorb 5 times.</Desc>
+		<Desc>After eating, it will add 600 years of life, reduce 50 road trips, reduce 25 thunder and calamity, increase the qi by 5 times, and absorb 5 times.</Desc>
 		<MaxStack>999</MaxStack>
 		<Duration>-1</Duration>
 		<Display>1</Display>
@@ -639,7 +639,7 @@
 	</Modifier> 
 	<Modifier Name="ZTDrug_JM" Type="Normal">
 		<DisplayName>Nine Mysterious Pills</DisplayName>
-		<Desc>Add 6000 years of life after eating, reduce 500 road trips, reduce 250 thunderbolts, increase the spiritual power 10 times, absorb 10 times the magic power, increase the power of 10 spells, increase the power of 10 spells, and increase the strength factor of 1 The five elements reduce injuries by 0.5.</Desc>
+		<Desc>Add 6000 years of life after eating, reduce 500 road trips, reduce 250 thunderbolts, increase the qi 10 times, absorb 10 times the magic power, increase the power of 10 spells, increase the power of 10 spells, and increase the strength factor of 1 The five elements reduce injuries by 0.5.</Desc>
 		<MaxStack>999</MaxStack>
 		<Duration>-1</Duration>
 		<Display>1</Display>

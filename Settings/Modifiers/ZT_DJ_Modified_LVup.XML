@@ -51,7 +51,7 @@
 		</Properties>
 	</Modifier>
 	<Modifier Name="Gong_DJ_2A_1" Type="Normal">
-		<DisplayName>德经</DisplayName>
+		<DisplayName>German classics</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -63,7 +63,7 @@
 		</Properties>
 	</Modifier>
 	<Modifier Name="Gong_DJ_2A_2" Type="Normal">
-		<DisplayName>德经</DisplayName>
+		<DisplayName>German classics</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -76,7 +76,7 @@
 	</Modifier>
 	<!-- ==========================技能3========================== -->
 	<Modifier Name="Gong_DJ_1B" Type="Normal">
-		<DisplayName>以本为精</DisplayName>
+		<DisplayName>Taking the book as the essence</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -89,7 +89,7 @@
 	</Modifier>
 	
 	<Modifier Name="Gong_DJ_1B_1" Type="Normal">
-		<DisplayName>以物为粗</DisplayName>
+		<DisplayName>Take things as rough</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -104,7 +104,7 @@
 	<!-- ==========================技能4========================== -->
 	
 	<Modifier Name="Gong_DJ_2B" Type="Normal">
-		<DisplayName>道常无</DisplayName>
+		<DisplayName>Dao Changwu</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -115,7 +115,7 @@
 		</Properties>
 	</Modifier>
 	<Modifier Name="Gong_DJ_2B_1" Type="Normal">
-		<DisplayName>道常有</DisplayName>
+		<DisplayName>Often</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -135,7 +135,7 @@
 	<!-- ==========================技能5========================== -->
 	
 		<Modifier Name="Gong_DJ_3B" Type="Normal">
-		<DisplayName>处无为之事</DisplayName>
+		<DisplayName>Do nothing</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -149,7 +149,7 @@
 		</Properties>
 	</Modifier>
 	<Modifier Name="Gong_DJ_3B_1" Type="Normal">
-		<DisplayName>行不言之教</DisplayName>
+		<DisplayName>Do not speak</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -172,7 +172,7 @@
 	
 	
 	<Modifier Name="Gong_DJ_1C" Type="Normal">
-		<DisplayName>守一</DisplayName>
+		<DisplayName>Moriichi</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -183,7 +183,7 @@
 		</Skills>
 	</Modifier>
 	<Modifier Name="Gong_DJ_1C_2" Type="Normal">
-		<DisplayName>坐忘</DisplayName>
+		<DisplayName>Sit and forget</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -197,7 +197,7 @@
 	<!-- ==========================分割线========================== -->
 
 	<Modifier Name="Gong_DJ_3C" Type="Normal">
-		<DisplayName>专气致柔</DisplayName>
+		<DisplayName>Desire to be soft</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -209,7 +209,7 @@
 		</Properties>
 	</Modifier>
 	<Modifier Name="Gong_DJ_3C_1" Type="Normal">
-		<DisplayName>涤除玄鉴</DisplayName>
+		<DisplayName>Remove</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -222,7 +222,7 @@
 	</Modifier>
 	
 	<Modifier Name="Gong_DJ_HL_1D" Type="Normal">
-		<DisplayName>人法地</DisplayName>
+		<DisplayName>Legally</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -234,7 +234,7 @@
 		</Properties>
 	</Modifier>
 	<Modifier Name="Gong_DJ_HL_1D_1" Type="Normal">
-		<DisplayName>地法天</DisplayName>
+		<DisplayName>Difatian</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -247,7 +247,7 @@
 		</Properties>
 	</Modifier>
 	<Modifier Name="Gong_DJ_HL_1D_2" Type="Normal">
-		<DisplayName>天法道</DisplayName>
+		<DisplayName>Heaven law</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -259,7 +259,7 @@
 	</Modifier>
 	
 	<Modifier Name="Gong_DJ_HL_2D" Type="Normal">
-		<DisplayName>名道金书</DisplayName>
+		<DisplayName>Ming Dao Jin Shu</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -272,7 +272,7 @@
 		</Properties>
 	</Modifier>
 	<Modifier Name="Gong_DJ_HL_2D_1" Type="Normal">
-		<DisplayName>名道金书</DisplayName>
+		<DisplayName>Ming Dao Jin Shu</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -284,7 +284,7 @@
 	</Modifier>
 	
 	<Modifier Name="Gong_DJ_XT_1F" Type="Normal">
-		<DisplayName>大音希声</DisplayName>
+		<DisplayName>Loud sound</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -301,7 +301,7 @@
 		</Skills>
 	</Modifier>
 	<Modifier Name="Gong_DJ_XT_1F_1" Type="Normal">
-		<DisplayName>大象无形</DisplayName>
+		<DisplayName>Elephant invisible</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -315,7 +315,7 @@
 	
 	
 	<Modifier Name="Gong_DJ_XT_DZ" Type="Normal">
-		<DisplayName>红尘仙</DisplayName>
+		<DisplayName>Red Dust Fairy</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>

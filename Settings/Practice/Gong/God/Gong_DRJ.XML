@@ -1,8 +1,8 @@
 ﻿<Gongs><List>
 	<Gong Name="Gong_DRJ">   
-		<DisplayName>渡人经</DisplayName>
-		<Desc>北都泉曲府。中有万鬼群。但欲遏人算。断绝人命门。阿人歌洞章。以摄北罗酆。束诵祅魔精。斩馘六鬼锋。诸天气荡荡。我道日兴隆。</Desc>
-		<SelectDesc>此功法为辅助型功法，术法能力较强。</SelectDesc>
+		<DisplayName>Crossing</DisplayName>
+		<Desc>North Capital Quanqu House. There are thousands of ghosts. But want to curb the calculation. Cut off the gate of life. Arengedong chapter. Take the North Luo. Bunch of magpie spirit. Cut off six ghost fronts. The weather is turbulent. I am prospering.</Desc>
+		<SelectDesc>This method is an auxiliary type of method, which has strong skill.</SelectDesc>
 		<FiveBaseNeed>9,-1,5,8,8</FiveBaseNeed>
 		<SkillSetName></SkillSetName>
 		<GongKind>God</GongKind>

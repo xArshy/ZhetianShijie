@@ -1,0 +1,409 @@
+<ZhenNodeDefs><List>
+	<!-- 阵枢 -->
+	<Def Name="ZT_xjdw" DisplayName="Wonderland Road Pattern" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>zt_XJDW</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="Lv4_X" Pos="0"/>
+			<li SlotName="Lv4_J" Pos="1"/>
+			<li SlotName="Lv4_D" Pos="2"/>
+			<li SlotName="Lv4_W" Pos="3"/>
+			
+		</Slot>
+	</Def>
+	
+	<Def Name="ZT_xjdw3" DisplayName="Wonderland road pattern _3" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>zt_XJDW</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="Lv4_X" Pos="1"/>
+			<li SlotName="Lv4_J" Pos="2"/>
+			<li SlotName="Lv4_D" Pos="4"/>
+			<li SlotName="Lv4_W" Pos="5"/>
+			
+		</Slot>
+	</Def>
+	
+	<Def Name="ZT_fx" DisplayName="Flying fairy" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>zt_XJ</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="Lv4_X" Pos="0"/>
+			<li SlotName="Lv4_X" Pos="2"/>
+			<li SlotName="Lv4_J" Pos="3"/>
+			<li SlotName="Lv4_J" Pos="5"/>
+			
+		</Slot>
+	</Def>
+		<Def Name="ZT_dy" DisplayName="Dao Yun" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>zt_DW</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="Lv4_D" Pos="0"/>
+			<li SlotName="Lv4_D" Pos="2"/>
+			<li SlotName="Lv4_W" Pos="3"/>
+			<li SlotName="Lv4_W" Pos="5"/>
+			
+		</Slot>
+	</Def>
+	
+	<!-- 阵眼 -->
+	<Def Name="ZT_x1" DisplayName="Fairy_1" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_X" Pos="0"/>
+			
+			
+		</Slot>
+	</Def>
+	<Def Name="ZT_x2" DisplayName="Fairy_2" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_X" Pos="4"/>
+			<li SlotName="Lv4_D" Pos="2"/>
+			
+		</Slot>
+	</Def>
+	
+	
+	<Def Name="ZT_d1" DisplayName="Road_1" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_D" Pos="5"/>
+			<li SlotName="Lv4_J" Pos="2"/>
+			
+		</Slot>
+	</Def>
+	<Def Name="ZT_d2" DisplayName="Road_2" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_D" Pos="1"/>
+			
+		</Slot>
+	</Def>
+	<Def Name="ZT_j1" DisplayName="境_1" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_J" Pos="0"/>
+			
+		</Slot>
+	</Def>
+	<Def Name="ZT_j2" DisplayName="境_2" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_J" Pos="3"/>
+			
+		</Slot>
+	</Def>
+	<Def Name="ZT_w1" DisplayName="纹_1" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_W" Pos="2"/>
+			
+		</Slot>
+	</Def>
+	<Def Name="ZT_w2" DisplayName="纹_2" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_W" Pos="3"/>
+			
+		</Slot>
+	</Def>
+	<Def Name="ZT_xj1" DisplayName="仙境_1" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_X" Pos="0"/>
+			<li SlotName="Lv4_J" Pos="3"/>
+		</Slot>
+	</Def>
+	<Def Name="ZT_xj2" DisplayName="仙境_2" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_X" Pos="2"/>
+			<li SlotName="Lv4_J" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="ZT_xj4" DisplayName="仙境4" Main="0" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>zt_1</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="Lv4_X" Pos="1"/>
+			<li SlotName="Lv4_J" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="ZT_xj3" DisplayName="仙境3" Main="0" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>zt_1</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="Lv4_X" Pos="0"/>
+			<li SlotName="Lv4_J" Pos="3"/>
+		</Slot>
+	</Def>
+	
+	<Def Name="ZT_dw1" DisplayName="道纹_1" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_W" Pos="0"/>
+			<li SlotName="Lv4_D" Pos="3"/>
+		</Slot>
+	</Def>
+	<Def Name="ZT_dw2" DisplayName="道纹_2" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_D" Pos="2"/>
+			<li SlotName="Lv4_W" Pos="5"/>
+		</Slot>
+	</Def>
+	<Def Name="ZT_dw3" DisplayName="道纹_3" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_W" Pos="1"/>
+			<li SlotName="Lv4_D" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="ZT_dw4" DisplayName="道纹_4" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_D" Pos="0"/>
+			<li SlotName="Lv4_W" Pos="2"/>
+		</Slot>
+	</Def>
+	
+	
+	
+	
+	
+	<Def Name="ZT_xjd1" DisplayName="仙境道1" Main="0" Base="2">
+		<Lv>4</Lv>
+		
+		<Slot>
+			<li SlotName="Lv4_X" Pos="1"/>
+			<li SlotName="Lv4_J" Pos="4"/>
+			<li SlotName="Lv4_D" Pos="3"/>
+		</Slot>
+	</Def>
+	<Def Name="ZT_xjd2" DisplayName="仙境道2" Main="0" Base="2">
+		<Lv>4</Lv>
+		
+		<Slot>
+			<li SlotName="Lv4_X" Pos="2"/>
+			<li SlotName="Lv4_J" Pos="4"/>
+			<li SlotName="Lv4_W" Pos="5"/>
+		</Slot>
+	</Def>
+	
+	<Def Name="ZT_xyd1" DisplayName="仙韵道_1" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_X" Pos="1"/>
+			<li SlotName="Lv4_W" Pos="5"/>
+			<li SlotName="Lv4_D" Pos="4"/>
+		</Slot>
+	</Def>
+	<Def Name="ZT_xydd2" DisplayName="仙韵道_2" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_J" Pos="0"/>
+			<li SlotName="Lv4_D" Pos="2"/>
+			<li SlotName="Lv4_W" Pos="3"/>
+		</Slot>
+	</Def>
+	
+	
+	
+	<Def Name="ZT_xjdw1" DisplayName="仙境道纹_1" Main="0" Base="2">
+		<Lv>4</Lv>
+		
+		<Slot>
+			<li SlotName="Lv4_X" Pos="1"/>
+			<li SlotName="Lv4_J" Pos="2"/>
+			<li SlotName="Lv4_D" Pos="4"/>
+			<li SlotName="Lv4_W" Pos="5"/>
+			
+		</Slot>
+	</Def>
+	<Def Name="ZT_xjdw2" DisplayName="仙境道纹_2" Main="0" Base="2">
+		<Lv>4</Lv>
+		
+		<Slot>
+			<li SlotName="Lv4_X" Pos="0"/>
+			<li SlotName="Lv4_J" Pos="3"/>
+			<li SlotName="Lv4_D" Pos="2"/>
+			<li SlotName="Lv4_W" Pos="5"/>
+			
+		</Slot>
+	</Def>
+	
+	<Def Name="ZT_YMSC" DisplayName="阴冥杀场" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>zt_YMSC</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="Lv4_Y" Pos="0"/>
+			<li SlotName="Lv4_M" Pos="1"/>
+			<li SlotName="Lv4_S" Pos="2"/>
+			<li SlotName="Lv4_C" Pos="3"/>
+			
+		</Slot>
+	</Def>
+	
+	<Def Name="ZT_YMSC3" DisplayName="阴冥杀场_3" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>zt_YMSC</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="Lv4_Y" Pos="1"/>
+			<li SlotName="Lv4_M" Pos="2"/>
+			<li SlotName="Lv4_S" Pos="4"/>
+			<li SlotName="Lv4_C" Pos="5"/>
+			
+		</Slot>
+	</Def>
+	
+	<Def Name="ZT_YM" DisplayName="阴冥" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>zt_YM</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="Lv4_Y" Pos="0"/>
+			<li SlotName="Lv4_Y" Pos="2"/>
+			<li SlotName="Lv4_M" Pos="3"/>
+			<li SlotName="Lv4_M" Pos="5"/>
+			
+		</Slot>
+	</Def>
+		<Def Name="ZT_SC" DisplayName="杀阵" Main="1" Base="2">
+		<Lv>4</Lv>
+		<SlotSuits>
+			<li>zt_SC</li>
+		</SlotSuits>
+		<Slot>
+			<li SlotName="Lv4_S" Pos="0"/>
+			<li SlotName="Lv4_S" Pos="2"/>
+			<li SlotName="Lv4_C" Pos="3"/>
+			<li SlotName="Lv4_C" Pos="5"/>
+			
+		</Slot>
+	</Def>
+	
+	<!-- 阵眼 -->
+	<Def Name="ZT_Y" DisplayName="阴" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_Y" Pos="0"/>
+			
+			
+		</Slot>
+	</Def>
+	
+		<Def Name="ZT_M" DisplayName="冥" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_M" Pos="0"/>
+			
+			
+		</Slot>
+	</Def>	
+	<Def Name="ZT_S" DisplayName="杀" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_S" Pos="0"/>
+			
+			
+		</Slot>
+	</Def>
+		<Def Name="ZT_C" DisplayName="场" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_C" Pos="0"/>
+			
+			
+		</Slot>
+	</Def>
+	
+	<Def Name="ZT_YS" DisplayName="阴刹" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_Y" Pos="4"/>
+			<li SlotName="Lv4_S" Pos="2"/>
+			
+		</Slot>
+	</Def>
+	<Def Name="ZT_YM" DisplayName="阴冥" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_Y" Pos="4"/>
+			<li SlotName="Lv4_M" Pos="2"/>
+			
+		</Slot>
+	</Def>
+	<Def Name="ZT_MS" DisplayName="冥阵" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_M" Pos="4"/>
+			<li SlotName="Lv4_S" Pos="2"/>
+			
+		</Slot>
+	</Def>
+	<Def Name="ZT_MC" DisplayName="冥狱" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_M" Pos="4"/>
+			<li SlotName="Lv4_C" Pos="2"/>
+			
+		</Slot>
+	</Def>
+	
+	<Def Name="ZT_YMS" DisplayName="阴冥刹" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_Y" Pos="4"/>
+			<li SlotName="Lv4_M" Pos="2"/>
+			<li SlotName="Lv4_S" Pos="5"/>
+			
+		</Slot>
+	</Def>
+	<Def Name="ZT_YMC" DisplayName="阴冥狱" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_Y" Pos="3"/>
+			<li SlotName="Lv4_M" Pos="5"/>
+			<li SlotName="Lv4_C" Pos="1"/>
+			
+		</Slot>
+	</Def>
+	<Def Name="ZT_YSC" DisplayName="阴司殿" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_Y" Pos="4"/>
+			<li SlotName="Lv4_S" Pos="2"/>
+			<li SlotName="Lv4_C" Pos="0"/>
+		</Slot>
+	</Def>
+	<Def Name="ZT_MSC" DisplayName="冥帝阁" Main="0" Base="2">
+		<Lv>4</Lv>
+		<Slot>
+			<li SlotName="Lv4_M" Pos="3"/>
+			<li SlotName="Lv4_C" Pos="5"/>
+			<li SlotName="Lv4_S" Pos="1"/>
+		</Slot>
+	</Def>
+	
+	
+	
+</List></ZhenNodeDefs>

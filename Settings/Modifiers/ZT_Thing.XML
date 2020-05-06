@@ -1,0 +1,203 @@
+<ModifierDefs><List>
+	
+	<Modifier Name="ZT_WSXY" Type="Normal">
+		<DisplayName>Source gas surround</DisplayName>
+		<Desc>The source is used to absorb a large amount of life essence in the source gas, and to increase the speed of practice and the corresponding attribute shield value.</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="1"/>
+			<li Name="LingAbsorbSpeed" AddP="0.15"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.05"/>
+			<li Name="MaxAge" AddV="10"/>
+		</Properties>
+		
+	</Modifier> 
+	
+	<Modifier Name="ZT_JSXY" Type="Normal">
+		<DisplayName>Gold source gas surround</DisplayName>
+		<Desc>The source is used to absorb a large amount of life essence in the source gas, and to increase the speed of practice and the corresponding attribute shield value.</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="1"/>
+			<li Name="LingAbsorbSpeed" AddP="0.15"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddP="0.05"/>
+			<li Name="MaxAge" AddV="10"/>
+		</Properties>
+		
+	</Modifier> 
+	
+	
+	<Modifier Name="ZT_MSXY" Type="Normal">
+		<DisplayName>Wood-sourcegas surround</DisplayName>
+		<Desc>The source is used to absorb a large amount of life essence in the source gas, and to increase the speed of practice and the corresponding attribute shield value.</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="1"/>
+			<li Name="LingAbsorbSpeed" AddP="0.15"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddP="0.05"/>
+			<li Name="MaxAge" AddV="10"/>
+		</Properties>
+		
+	</Modifier> 
+	
+	
+	<Modifier Name="ZT_SSXY" Type="Normal">
+		<DisplayName>Water-gas surround</DisplayName>
+		<Desc>The source is used to absorb a large amount of life essence in the source gas, and to increase the speed of practice and the corresponding attribute shield value.</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="1"/>
+			<li Name="LingAbsorbSpeed" AddP="0.15"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddP="0.05"/>
+			<li Name="MaxAge" AddV="10"/>
+		</Properties>
+		
+	</Modifier> 
+	
+	
+	<Modifier Name="ZT_HSXY" Type="Normal">
+		<DisplayName>火源气环绕</DisplayName>
+		<Desc>利用源修炼，吸收源气中的大量生命精华，并提升少量的修行速度与相应属性护盾值。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="1"/>
+			<li Name="LingAbsorbSpeed" AddP="0.15"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddP="0.05"/>
+			<li Name="MaxAge" AddV="10"/>
+		</Properties>
+		
+	</Modifier> 
+	
+	
+	<Modifier Name="ZT_TSXY" Type="Normal">
+		<DisplayName>土源气环绕</DisplayName>
+		<Desc>利用源修炼，吸收源气中的大量生命精华，并提升少量的修行速度与相应属性护盾值。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="1"/>
+			<li Name="LingAbsorbSpeed" AddP="0.15"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddP="0.05"/>
+			<li Name="MaxAge" AddV="10"/>
+		</Properties>
+		
+	</Modifier> 
+	
+	
+	
+	<Modifier Name="ZT_WSXSY" Type="Normal">
+		<DisplayName>神源气环绕</DisplayName>
+		<Desc>利用源修炼，吸收源气中的大量生命精华，并提升少量的修行速度与相应属性护盾值与灵力根本值和灵力恢复速度。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="0.15"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="5"/>
+			<li Name="LingAbsorbSpeed" AddP="0.3"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.1"/>
+			<li Name="MaxAge" AddV="10"/>
+		</Properties>
+		
+	</Modifier> 
+	
+	
+	<Modifier Name="ZT_JSXSY" Type="Normal">
+		<DisplayName>金神源气环绕</DisplayName>
+		<Desc>利用源修炼，吸收源气中的大量生命精华，并提升少量的修行速度与法宝攻击间隔，和法宝威力。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="5"/>
+			<li Name="LingAbsorbSpeed" AddP="0.3"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.15"/>
+			<li Name="MaxAge" AddV="20"/>
+			<li Name="NpcFight_FabaoCoolDownAddP" AddP="0.1"/>
+		</Properties>
+		
+	</Modifier> 
+	
+	
+	<Modifier Name="ZT_MSXSY" Type="Normal">
+		<DisplayName>木神源气环绕</DisplayName>
+		<Desc>利用源修炼，吸收源气中的大量生命精华，并提升大量的修行速度与护盾值。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="90"/>
+			<li Name="LingAbsorbSpeed" AddP="0.3"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddP="0.1"/>
+			<li Name="MaxAge" AddV="20"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="0.25"/>
+		</Properties>
+		
+	</Modifier> 
+	
+	
+	<Modifier Name="ZT_SSXSY" Type="Normal">
+		<DisplayName>水神源气环绕</DisplayName>
+		<Desc>利用源修炼，吸收源气中的大量生命精华，并提升少量的修行速度与法宝灵力最大值和恢复值。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="5"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.2"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddP="0.1"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.2"/>
+			<li Name="MaxAge" AddV="20"/>
+		</Properties>
+		
+		
+	</Modifier> 
+	
+	
+	<Modifier Name="ZT_HSXSY" Type="Normal">
+		<DisplayName>火神源气环绕</DisplayName>
+		<Desc>利用源修炼，吸收源气中的大量生命精华，并提升少量的修行速度与术法冷却和术法威力。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="5"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="0.3"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddP="0.1"/>
+			<li Name="MaxAge" AddP="10"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.2"/>
+		</Properties>
+		
+		
+	</Modifier> 
+	
+	
+	<Modifier Name="ZT_TSXSY" Type="Normal">
+		<DisplayName>土神源气环绕</DisplayName>
+		<Desc>利用源修炼，吸收源气中的大量生命精华，并提升少量的修行速度与护盾强度和道行值。</Desc>
+		<MaxStack>10</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="5"/>
+			<li Name="AbilityLvAddV" AddV="10"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddP="0.1"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.2"/>
+			<li Name="MaxAge" AddP="10"/>
+		</Properties>
+		
+	</Modifier> 
+	
+	
+</List></ModifierDefs>

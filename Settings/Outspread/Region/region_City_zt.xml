@@ -1,7 +1,7 @@
 <Defs><List>
 	<Def Name="WSST" Parent="HeYin">
-		<DisplayName>五色祭坛</DisplayName>
-		<Desc>此地为五色祭坛，可派出弟子发掘其中的物资。</Desc>
+		<DisplayName>Five-color altar</DisplayName>
+		<Desc>This place is a five-color altar, and disciples can be sent to discover the supplies.</Desc>
 		<Landform>
 			<li>Forest</li>
 		</Landform>
@@ -27,8 +27,8 @@
 		
 	</Def>
 	<Def Name="YZZ" Parent="HeYin">
-		<DisplayName>云泽州</DisplayName>
-		<Desc>青蛟王的秘密洞府，同时也是附近的大洲，以湖泽为多，但同样适合人居住。</Desc>
+		<DisplayName>Yunze Prefecture</DisplayName>
+		<Desc>The Qing's secret cave house is also a nearby continent. Most of it is Huze, but it is also suitable for human habitation.</Desc>
 		<Landform>
 			<li>Aqua</li>
 		</Landform>
@@ -54,8 +54,8 @@
 		
 	</Def>
 	<Def Name="ZJC" Parent="HeYin">
-		<DisplayName>张家村</DisplayName>
-		<Desc>北域源天师一脉的后人，地处北域，因而矿脉居多。</Desc>
+		<DisplayName>Zhangjiacun</DisplayName>
+		<Desc>The descendants of the source of the Heavenly Master of the North Region are located in the North Region, so the mine veins are mostly.</Desc>
 		<Landform>
 			<li>Mountain</li>
 		</Landform>

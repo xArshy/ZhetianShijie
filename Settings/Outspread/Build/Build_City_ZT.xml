@@ -7,12 +7,12 @@
 			</Symbols>
 		</BuildCondition>
 		
-		<DisplayName>太极阵</DisplayName>
+		<DisplayName>Tai Chi array</DisplayName>
 		<BuildType>Point</BuildType>
 		<BuildDay>1</BuildDay>
 		
 		<Icon>Spr\outspread\WSJT\TJZ.png</Icon>
-		<Desc>太极阵，用五色神石修复五色祭坛后，可召唤九龙拉棺，造收异世界的弟子。</Desc>
+		<Desc>Taiji array, after repairing the five-color altar with five-color god stones, can summon Jiulong coffin to create disciples in a different world.</Desc>
 		
 		<UnlockSkill>
 			<li>zhaolanwsst</li>

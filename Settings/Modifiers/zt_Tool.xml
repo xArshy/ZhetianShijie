@@ -1,0 +1,360 @@
+<ModifierDefs><List>
+	<Modifier Name="ZT_BHZ" Type="Normal">
+		<DisplayName>Cold beads</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<Properties>
+			<li Name="ToleranceTMin" AddV="-2000"/><!--最低极限温度-->
+		</Properties>
+	</Modifier> 
+	<Modifier Name="MB_QSYL" Type="Normal">
+		<DisplayName>Seven Colors</DisplayName>
+		<Desc>Carriers, increase the strength of 20 points and 5 shields and 1 shield factor.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.2"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.2"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.2"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.2"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.2"/>
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.1"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZT_ML" Type="Normal">
+		<DisplayName>Life sickle</DisplayName>
+		<Desc>Carrier, increase the condemnation value by 50 days, and reduce the advent time of the thunderstorm by 900s. And increase the stealth value by 50 points, while increasing the training speed.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="50"/>
+			<li Name="NeckCountdownAddV" AddV="-900"/>
+			<li Name="NpcFight_SneakValue" AddV="50"/>
+			<li Name="WorldMapFlySpeedAddP" AddP="1"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="MT" Type="Normal">
+		<DisplayName>Devil</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<Skills>
+			<li Name="Qi" LevelOver="35"/>
+			<li Name="Zhen" LevelOver="35"/>
+			<li Name="FightSkill" LevelOver="35"/>
+			<li Name="Fight" LevelOver="35"/>
+			<li Name="Barrier" LevelOver="35"/>
+			<li Name="Fabao" LevelOver="35"/>
+		</Skills>
+	</Modifier> 
+	
+	<Modifier Name="ZT_LQ" Type="Normal">
+		<DisplayName>True Dragon Breath</DisplayName>
+		<Desc></Desc>
+		<MaxStack>3</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.5"/><!--法宝威力加成-->
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.5"/><!--法宝灵气恢复速度加成-->
+				<li Name="NpcFight_FabaoCoolDownAddP" AddP="-0.5"/><!--法宝攻击间隔加成-->
+				<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.25"/><!--法宝灵气最大值加成-->
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="ZT_LZ" Type="Normal">
+		<DisplayName>True Dragon Ball</DisplayName>
+		<Desc></Desc>
+		<MaxStack>2</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="2"/>
+			<li Name="MindStateBaseValue" AddV="50"/><!--心情基础值50-->
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZT_SF" Type="Normal">
+		<DisplayName>Shenfeng Neitan</DisplayName>
+		<Desc></Desc>
+		<MaxStack>2</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="0.5"/><!--术法伤害加成3-->
+			<li Name="MindStateBaseValue" AddV="50"/><!--心情基础值50-->
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZT_HL" Type="Normal">
+		<DisplayName>Huanglong fierce</DisplayName>
+		<Desc></Desc>
+		<MaxStack>2</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_ZhenEnginePower" AddV="25"/><!--术法伤害加成3-->
+			<li Name="MindStateBaseValue" AddV="50"/><!--心情基础值50-->
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZT_XW" Type="Normal">
+		<DisplayName>Spirit Wave</DisplayName>
+		<Desc></Desc>
+		<MaxStack>2</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="0.5"/><!--灵气吸收速度5-->
+			<li Name="MindStateBaseValue" AddV="50"/><!--心情基础值50-->
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZT_BH" Type="Normal">
+		<DisplayName>White tiger roars</DisplayName>
+		<Desc></Desc>
+		<MaxStack>2</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="1"/><!--灵气吸收速度5-->
+			<li Name="MindStateBaseValue" AddV="50"/><!--心情基础值50-->
+		</Properties>
+	</Modifier> 
+	
+	
+	<Modifier Name="ZT_ZTF" Type="Normal">
+		<DisplayName>Veil</DisplayName>
+		<Desc></Desc>
+		<MaxStack>3</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<BaseFive>0,0,4,0,0</BaseFive>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="50"/><!--心情基础值50-->
+		
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="ZT_BHW" Type="Normal">
+		<DisplayName>Refuge from fire</DisplayName>
+		<Desc>Raise the maximum temperature limit briefly.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1200</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="ToleranceTMax" AddV="7500"/><!--最高极限温度-->
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="ZTHSZD" Type="Normal">
+		<DisplayName>Way of nursing</DisplayName>
+		<Desc>Increases shield strength by 50% when worn.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.25"/><!--最高极限温度-->
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZTTZY" Type="Normal">
+		<DisplayName>Seal of Heaven</DisplayName>
+		<Desc>Reduces the 20-dot rune charge when worn.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_ZhenEnginePower" AddV="-80"/><!--阵法负荷能力-20-->
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZTDZY" Type="Normal">
+		<DisplayName>Earth Seal</DisplayName>
+		<Desc>Increases damage by 50% when worn.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" AddP="0.5"/><!--术法伤害加成3-->
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZTYMZD" Type="Normal">
+		<DisplayName>Ghost Town</DisplayName>
+		<Desc>Enhancement enhances mood when worn.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="150"/><!--心情基础值50-->
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZTFHJ" Type="Normal">
+		<DisplayName>Phoenix Robbery</DisplayName>
+		<Desc>Enhances your mood with 50 and 5 points of charm when worn.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,5,0,0</BaseFive>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="150"/><!--心情基础值50-->
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGSF" Type="Normal">
+		<DisplayName>Chaos Rune</DisplayName>
+		<Desc>Reduce the wearer's condemnation value for two hundred days when wearing it.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="-200"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="HDS" Type="Normal">
+		<DisplayName>Chaos is too early</DisplayName>
+		<Desc>When wearing, increase the wearer's practice speed by 50% and reduce the condemnation value by 20.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="-20"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="ZT_tc" Type="Normal">
+		<DisplayName>Ancient times</DisplayName>
+		<Desc>Cut more stones, and became infected with the curse.</Desc>
+		<MaxStack>9999</MaxStack>
+		<Duration>1000</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NeckCountdownAddV" AddV="-100"/>
+			<li Name="GodPenaltyAddV" AddV="5"/>
+		</Properties>
+		<Moods>
+				<li>TCHM</li>
+			</Moods>
+	</Modifier>
+	<Modifier Name="Gan" Type="Normal">
+		<DisplayName>狗 Golden Dog Eye</DisplayName>
+		<Desc>I chose a junk stone and cut out junk. More and more angry. .</Desc>
+		<MaxStack>9999</MaxStack>
+		<Duration>100</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="SpeedOfMindStateCoefficient" AddV="-0.75"/>
+			<li Name="SpeedOfMindStateCoefficientByMoods" AddV="2"/>
+		</Properties>
+		<Moods>
+				<li>Gan</li>
+			</Moods>
+	</Modifier>
+	<Modifier Name="ZT_Q" Type="Normal">
+		<DisplayName>I'm so angry</DisplayName>
+		<Desc>The stone was cut first by others. . Hematemesis. . Missing the nine secrets.</Desc>
+		<MaxStack>9999</MaxStack>
+		<Duration>100</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="SpeedOfMindStateCoefficient" AddV="-0.55"/>
+			<li Name="SpeedOfMindStateCoefficientByMoods" AddV="1"/>
+		</Properties>
+		<Moods>
+				<li>ZT_Q</li>
+			</Moods>
+	</Modifier>
+	<Modifier Name="JMDB" Type="Normal">
+		<DisplayName>Pirated books</DisplayName>
+		<Desc>. . I did not expect to practice piracy for a long time.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-0.5"/>
+		</Properties>
+		<Moods>
+				<li>DB</li>
+		</Moods>
+	</Modifier>
+	<Modifier Name="TWEH" Type="Normal">
+		<DisplayName>Kidney deficiency bad news</DisplayName>
+		<Desc>What exactly is my generation?</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>6000</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="-1.5"/>
+		</Properties>
+		<Moods>
+				<li>TWEH</li>
+		</Moods>
+	</Modifier>
+	<Modifier Name="ZT_XJ" Type="Normal">
+		<DisplayName>Fairyland feel</DisplayName>
+		<Desc>Cultivation! I want to enter the fairyland</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>9000</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1.5"/>
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.5"/>
+		</Properties>
+		<Moods>
+				<li>XJ</li>
+		</Moods>
+	</Modifier>
+	
+	<Modifier Name="ZT_SYLG" Type="Normal">
+		<DisplayName>Shiyin keel</DisplayName>
+		<Desc>When wearing, due to the erosion of its yin, the wearer's root bones, perception, and consciousness will be reduced to zero.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<BaseFive>-10,-10,-10,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ShieldResistanceToShui" AddP="0.25"/><!--最低极限温度-->
+		</Properties>
+		<Skills>
+			<li Name="Barrier" LevelOver="15"/>
+		</Skills>
+	</Modifier> 
+	<Modifier Name="ZT_CYLG" Type="Normal">
+		<DisplayName>Pure Yin Keel</DisplayName>
+		<Desc>The wearer receives Yang Qi to nourish his five-dimensional increase greatly, and strengthens the magic weapon's attack power, his qi feeling and magic weapon's rebirth effect.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<BaseFive>8,8,8,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="5"/><!--最低极限温度-->
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="2"/><!--最低极限温度-->
+		</Properties>
+		<Skills>
+			<li Name="Qi" LevelOver="15"/>
+		</Skills>
+	</Modifier> 
+	
+</List></ModifierDefs>

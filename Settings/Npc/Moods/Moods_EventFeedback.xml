@@ -1,36 +1,36 @@
 <MoodDefs><List>
 	
 	<Mood Name="wsss">
-		<DisplayName>吃石头，你也太饥不择食了</DisplayName>
-		<Desc>真香警告？</Desc>
-		<StoryDesc>虽然石头加属性。。但是还是很不爽。</StoryDesc>
+		<DisplayName>You ’re too hungry to eat stones</DisplayName>
+		<Desc>Really fragrant warning?</Desc>
+		<StoryDesc>Although the stone adds attributes. . But still unhappy.</StoryDesc>
 		<MaxStack>3</MaxStack>
 		<StackRatio>0.6</StackRatio>
 		<Value>-30</Value>
 		<Duration>0.5</Duration>
 	</Mood>
 	<Mood Name="TCHM">
-		<DisplayName>太初红毛</DisplayName>
-		<Desc>最近睡觉，老梦到红毛怪物在门口哀嚎。。。怎么回事呢。</Desc>
-		<StoryDesc>总感觉最近自己被人诅咒了。</StoryDesc>
+		<DisplayName>Too early red hair</DisplayName>
+		<Desc>Recently sleeping, I dreamed that the red-haired monster was mourning at the door. . . What is going on</Desc>
+		<StoryDesc>I always feel cursed recently。</StoryDesc>
 		<MaxStack>9999</MaxStack>
 		<StackRatio>0.5</StackRatio>
 		<Value>-20</Value>
 		<Duration>0.5</Duration>
 	</Mood>
 	<Mood Name="Gan">
-		<DisplayName>瞎了狗眼</DisplayName>
-		<Desc>哎，都怪自己瞎了眼，挑错石头。</Desc>
-		<StoryDesc>被石头中气息所伤，有点疼。</StoryDesc>
+		<DisplayName>Blind dog eyes</DisplayName>
+		<Desc>Hey, I blame myself for being blind and picking the wrong stone.</Desc>
+		<StoryDesc>Injured by the breath in the stones, it hurts a little.</StoryDesc>
 		<MaxStack>9999</MaxStack>
 		<StackRatio>0.5</StackRatio>
 		<Value>-10</Value>
 		<Duration>0.5</Duration>
 	</Mood>
 	<Mood Name="DB">
-		<DisplayName>打击盗版</DisplayName>
-		<Desc>哎，都怪自己瞎了眼，带着一本盗版的秘籍。</Desc>
-		<StoryDesc>因为盗版秘籍而感到愤怒</StoryDesc>
+		<DisplayName>Fight against piracy</DisplayName>
+		<Desc>Hey, I blame myself for being blind, with a pirated cheat book.</Desc>
+		<StoryDesc>Get angry over piracy</StoryDesc>
 		<MaxStack>9999</MaxStack>
 		<StackRatio>0.5</StackRatio>
 		<Value>-15</Value>

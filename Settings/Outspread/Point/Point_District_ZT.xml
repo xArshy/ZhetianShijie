@@ -1,7 +1,7 @@
 <Defs><List>
 
 	<Def Name="Point_WSST" Parent="Point_LingBase">
-		<DisplayName>五色神坛</DisplayName>
+		<DisplayName>Five-color altar</DisplayName>
 		<BuildSymbols>
 			<li>Stone</li>
 		</BuildSymbols>
@@ -17,7 +17,7 @@
 	</Def>
 	
 	<Def Name="Point_YSKC">
-		<DisplayName>源石矿场</DisplayName>
+		<DisplayName>Source quarry</DisplayName>
 		<BuildSymbols>
 			<li>Stone</li>
 		</BuildSymbols>

@@ -1,0 +1,3 @@
+﻿ID	Race	Grades	Sex	Name	Desc	BeginYear	Perception	Physique	Charisma	Intelligence	Luck	Fight	Qi	SocialContact	Medicine	Cooking	Building	Farming	Mining	Art	Manual	DouFa	DanQi	Fabao	FightSkill	Barrier	Zhen	F1	F2	F3	F4	F5	F6	IsCreat
+ID	种族	阶段 0童年 1成年 2重大事件 	性别 0均可 1男 2女	名字	描述	触发开始年份	感知	体质	魅力	悟性	运气	战斗	气感	社交 （所有技能等级后面可以附加,X。X为热爱程度 1为热爱 2为痴迷）	医术	厨艺	建筑	农事	采掘	艺术	制造	斗法	丹器	御物	术法	护体	阵法	特性1	特性2	特性3	特性4	特性5	特性6
+1033263623	Human	1	0	一念花开	未成帝前星空古路弹指灭数十族。号称无冕之皇银血古族星空祖地一脉的至尊大杀天下，横扫万域，狠人大帝将之一掌拍碎，更是祭出一道封魔图，直接将此族封印。\n狠人大帝惊才绝艳，孤傲一生，天上地下唯我独尊，诸域神主共俯首，诸天万界各种大道都臣服，傲视古今未来，击毙过血肉之躯的大成圣灵，更是深入七大禁区，斩杀当中的无上存在，她君临天下的时候，天下慑服，万灵俱寂，没有一人敢挑战，整片世界都匍匐在她的脚下，称得上古来的独尊。	0	0	0	0	0	0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0	0,0							2

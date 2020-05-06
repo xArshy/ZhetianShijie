@@ -3,11 +3,11 @@
 	<!-- ==========================技能1========================== -->
 	
 	<Esoterica Name="Gong_TTMG_1">
-		<DisplayName>吞天魔功</DisplayName>
+		<DisplayName>Devour the Magic</DisplayName>
 		<Icon>Spr\Object\JN\ZT_TTMG\TTMG.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>15</Difficulty>
-		<Desc>出生时不如凡体，后来自创《吞天魔功》吞噬诸多王体，第一世不如凡体的体质证道成帝</Desc>
+		<Desc>Not as good as mortal at birth, and later created his own "Swallowing Heavenly Magic" to devour many kings.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
 		<Type>Gong</Type>

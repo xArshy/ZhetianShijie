@@ -135,7 +135,7 @@
 </RaceDef>
 
 <RaceDef Name="ZTSnake" Parent="JYBase">
-	<DisplayName>蛇</DisplayName>
+	<DisplayName>snake</DisplayName>
 	<Mod>Mod/Npc/JYSnake/Base</Mod>
 	<NameGeneratorPrefix>JYAnimal/Prefix_Snake.txt</NameGeneratorPrefix>
 	<RaceType>Animal</RaceType>
@@ -264,7 +264,7 @@
 </RaceDef>
 
 <RaceDef Name="JYLongpuNight" Parent="JYBase">
-	<DisplayName>龙之仆役(夜)</DisplayName>
+	<DisplayName>Dragon Servant (Night)</DisplayName>
 	<Mod>Mod/Npc/Longzhipuyi_night/Base</Mod>
 	<RaceType>Animal</RaceType>
 	<Revive>0</Revive>
@@ -319,7 +319,7 @@
 </RaceDef>
 
 <RaceDef Name="JYLongpuDay" Parent="JYLongpuNight">
-	<DisplayName>龙之仆役(昼)</DisplayName>
+	<DisplayName>Servant of the Dragon (Day)</DisplayName>
 	<Mod>Mod/Npc/Longzhipuyi_day/Base</Mod>
 	<NormalAttack>JYLongPu_Day_NormalAttack</NormalAttack>
 	<BaseP>
@@ -337,7 +337,7 @@
 </RaceDef>
 
 	<RaceDef Name="ZTLH">
-	<DisplayName>百纹虎</DisplayName>
+	<DisplayName>Mottled Tiger</DisplayName>
 	<Mod>Mod/Npc/Monster/tirger/tirger.fbx</Mod>
 	<RaceType>Boss</RaceType>
 	<Revive>1</Revive>
@@ -390,7 +390,7 @@
 	</BaseP>
 </RaceDef>
 	<RaceDef Name="ZTLH1">
-	<DisplayName>斑斓虎</DisplayName>
+	<DisplayName>Spotted tiger</DisplayName>
 	<Mod>Mod/Npc/Monster/tirger/tirger.fbx</Mod>
 	<RaceType>Animal</RaceType>
 	<Revive>1</Revive>
@@ -443,12 +443,12 @@
 </RaceDef>
 
 <RaceDef Name="ZTLH2">
-	<DisplayName>中薪虎</DisplayName>
+	<DisplayName>Middle salary tiger</DisplayName>
 	<Mod>Mod/Npc/Monster/tirger/tirger.fbx</Mod>
 	<RaceType>Animal</RaceType>
 	<Revive>1</Revive>
-	<MaleName>雄</MaleName>
-	<FemaleName>雌</FemaleName>
+	<MaleName>male</MaleName>
+	<FemaleName>female</FemaleName>
 	<NormalAttack>zt_Tirger_NormalAttack</NormalAttack>
 	<Body>QuadrupedBody</Body>
 	<FreeLength>2.9</FreeLength>
@@ -495,7 +495,7 @@
 	</BaseP>
 </RaceDef>
 <RaceDef Name="JYZhuLongENian" Parent="JYLongpuNight">
-	<DisplayName>恶念龙形</DisplayName>
+	<DisplayName>Evil Thought Dragon</DisplayName>
 	<Mod>Mod/Npc/Longzhipuyi_Dark/Base</Mod>
 	<NormalAttack>JYLongPu_Night_NormalAttack</NormalAttack>
 	<LingKill>1</LingKill>
@@ -517,7 +517,7 @@
 
 
 <RaceDef Name="JYZhuLongENian" Parent="JYLongpuNight">
-	<DisplayName>恶念龙形</DisplayName>
+	<DisplayName>Evil Thought Dragon</DisplayName>
 	<Mod>Mod/Npc/Longzhipuyi_Dark/Base</Mod>
 	<NormalAttack>JYLongPu_Night_NormalAttack</NormalAttack>
 	<LingKill>1</LingKill>
@@ -538,7 +538,7 @@
 </RaceDef>
 
 <RaceDef Name="JYZhuLongShanNian" Parent="JYLongpuNight">
-	<DisplayName>善念龙形</DisplayName>
+	<DisplayName>Good Thought Dragon</DisplayName>
 	<Mod>Mod/Npc/Longzhipuyi_Light/Base</Mod>
 	<NormalAttack>JYLongPu_Day_NormalAttack</NormalAttack>
 	<FightDriver>Shannian</FightDriver>

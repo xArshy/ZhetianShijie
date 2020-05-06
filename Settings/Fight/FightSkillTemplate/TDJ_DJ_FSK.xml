@@ -1,6 +1,6 @@
 <FightSkills><List>
 	<Skill Name="TDJ_DJ_XKDSY"><!--伤害技能基础模板 -->
-		<DisplayName>虚空大手印</DisplayName>
+		<DisplayName>Void Mark</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -26,7 +26,7 @@
 
 
 	<Skill Name="TDJ_DJ_SDSS"><!--伤害技能基础模板 -->
-		<DisplayName>杀道圣术</DisplayName>
+		<DisplayName>Sacred Art</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -51,7 +51,7 @@
 	</Skill>
 
 	<Skill Name="TDJ_SJ_SQ_TQ"><!--伤害技能基础模板 -->
-		<DisplayName>天清</DisplayName>
+		<DisplayName>Tianqing</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Health</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -71,7 +71,7 @@
 
 
 	<Skill Name="TDJ_SJ_SQ_DQ"><!--护体真强基础模板 -->
-		<DisplayName>地格</DisplayName>
+		<DisplayName>Geography</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Sheild</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -90,7 +90,7 @@
 	</Skill>
 
 	<Skill Name="TDJ_SJ_SQ_Rc"><!--术法增强基础模板 -->
-		<DisplayName>人才</DisplayName>
+		<DisplayName>Talent</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Skill</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -109,7 +109,7 @@
 	</Skill>
 	
 	<Skill Name="TDJ_HL_HDLQ"><!--伤害技能基础模板 -->
-		<DisplayName>皇道龙气</DisplayName>
+		<DisplayName>Royal Road Dragon</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -135,7 +135,7 @@
 
 
 	<Skill Name="TDJ_HL_ld"><!--伤害技能基础模板 -->
-		<DisplayName>六道轮回拳</DisplayName>
+		<DisplayName>Six reincarnation punches</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -161,7 +161,7 @@
 
 
 	<Skill Name="TDJ_HL_TDQ"><!--伤害技能基础模板 -->
-		<DisplayName>天帝拳</DisplayName>
+		<DisplayName>Tiandiquan</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -187,7 +187,7 @@
 
 
 	<Skill Name="JZM_J_F"><!--术法增强基础模板 --> 
-		<DisplayName>皆字秘法</DisplayName>
+		<DisplayName>ZigZag</DisplayName>
 		<IsTemplate>1</IsTemplate>
 		<Kind>Skill</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -207,7 +207,7 @@
 	
 	
 	<Skill Name="JZM_J_D"><!--护体真强基础模板 --> 
-		<DisplayName>皆字秘盾</DisplayName>
+		<DisplayName>All Words Shield</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Sheild</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -227,7 +227,7 @@
 	
 	
 	<Skill Name="JZM_J_H"><!--恢复技能基础模板 --> 
-		<DisplayName>皆字秘复</DisplayName>
+		<DisplayName>All words</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Health</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -246,7 +246,7 @@
 
 
 	<Skill Name="JZM_J_Z">
-		<DisplayName>皆字秘战</DisplayName>
+		<DisplayName>Secret Battle</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Fabao</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -266,7 +266,7 @@
 	
 	
 	<Skill Name="ZT_DJ_WW"><!--护体真强基础模板 -->
-		<DisplayName>无为</DisplayName>
+		<DisplayName>Inaction</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Sheild</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -286,7 +286,7 @@
 
 	
 	<Skill Name="ZT_DJ_BY"><!--术法增强基础模板 -->
-		<DisplayName>不言</DisplayName>
+		<DisplayName>Say nothing</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -305,7 +305,7 @@
 	
 	
 	<Skill Name="DJ_DYZR"><!--伤害技能基础模板 -->
-		<DisplayName>道韵自然</DisplayName>
+		<DisplayName>Tao Yun Natural</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Health</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -325,7 +325,7 @@
 
 	
 	<Skill Name="ZT_DJ_YY"><!--伤害技能基础模板 -->
-		<DisplayName>负阴抱阳</DisplayName>
+		<DisplayName>Negative yin yang</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -352,7 +352,7 @@
 
 
 	<Skill Name="ZT_BZ"><!--护体真强基础模板 -->
-		<DisplayName>不争</DisplayName>
+		<DisplayName>Indisputable</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Sheild</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -372,7 +372,7 @@
 
 
 	<Skill Name="ZT_WL"><!--护体真强基础模板 -->
-		<DisplayName>无良</DisplayName>
+		<DisplayName>Unscrupulous</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Sheild</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -392,7 +392,7 @@
 
 
 	<Skill Name="DJTG_DD"><!--伤害技能基础模板 -->
-		<DisplayName>断德</DisplayName>
+		<DisplayName>Broken German</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -416,7 +416,7 @@
 		</Missile>
 	</Skill>
 	<Skill Name="MB_CM"><!--伤害技能基础模板 -->
-		<DisplayName>沉默</DisplayName>
+		<DisplayName>silence</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -440,7 +440,7 @@
 		</Missile>
 	</Skill>
 	<Skill Name="MB_ZTY"><!--伤害技能基础模板 -->
-		<DisplayName>我让你飞！</DisplayName>
+		<DisplayName>I let you fly！</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -464,7 +464,7 @@
 		</Missile>
 	</Skill>
 	<Skill Name="DJTG_LS"><!--伤害技能基础模板 -->
-		<DisplayName>乱神</DisplayName>
+		<DisplayName>Chaos</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -490,7 +490,7 @@
 
 
 	<Skill Name="DJTG_DSS"><!--恢复技能基础模板 --> 
-		<DisplayName>第三杀阵：杀</DisplayName>
+		<DisplayName>Third Kill: Kill</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -516,7 +516,7 @@
 
 
 	<Skill Name="DJTG_DSZ">
-		<DisplayName>第三杀阵：阵</DisplayName>
+		<DisplayName>Third Killing: Array</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Fabao</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -535,7 +535,7 @@
 	</Skill>
 	
 	<Skill Name="DJTG_BSY"><!--伤害技能基础模板 -->
-		<DisplayName>仙化不死药</DisplayName>
+		<DisplayName>Immortal pill</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Health</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -554,7 +554,7 @@
 	</Skill>
 
 	<Skill Name="XHJ_YC"><!--伤害技能基础模板 -->
-		<DisplayName>瑶池</DisplayName>
+		<DisplayName>Yaochi</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Health</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -575,7 +575,7 @@
 
 
 	<Skill Name="XHJ_XWLR"><!--护体真强基础模板 -->
-		<DisplayName>仙雾缭绕</DisplayName>
+		<DisplayName>Fairy mist</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Sheild</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -595,7 +595,7 @@
 
 
 	<Skill Name="XHJ_DJ_YCSS"><!--术法增强基础模板 -->
-		<DisplayName>瑶池圣术</DisplayName>
+		<DisplayName>Yaochi Holy Art</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Skill</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -614,7 +614,7 @@
 	</Skill>
 
 	<Skill Name="ZT_JTZ"><!--伤害技能基础模板 -->
-		<DisplayName>截天指</DisplayName>
+		<DisplayName>Jeopardy</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -639,7 +639,7 @@
 	</Skill>
 	
 	<Skill Name="ZT_KKRY"><!--术法增强基础模板 -->
-		<DisplayName>空空如也</DisplayName>
+		<DisplayName>Empty</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Skill</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -658,7 +658,7 @@
 	</Skill>
 
 	<Skill Name="ZT_QXHY"><!--伤害技能基础模板 -->
-		<DisplayName>气虚化有</DisplayName>
+		<DisplayName>Qi deficiency has</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Health</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -678,7 +678,7 @@
 
 
 	<Skill Name="ZT_XDLJ"><!--伤害技能基础模板 -->
-		<DisplayName>虚断两界</DisplayName>
+		<DisplayName>False world</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -701,7 +701,7 @@
 		</Missile>
 	</Skill>
 	<Skill Name="ZT_XKJ"><!--伤害技能基础模板 -->
-		<DisplayName>虚空境</DisplayName>
+		<DisplayName>Void</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -726,7 +726,7 @@
 
 	
 	<Skill Name="ZT_WSJJMS"><!--伤害技能基础模板 -->
-		<DisplayName>无上禁忌秘术</DisplayName>
+		<DisplayName>Supreme Taboo</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -752,7 +752,7 @@
 
 
 	<Skill Name="TSJDB"><!--护体真强基础模板 -->
-		<DisplayName>徒手接帝兵</DisplayName>
+		<DisplayName>Receiving Imperial Soldiers Freehand</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Sheild</Kind>
 		<ShowInUI>1</ShowInUI>
@@ -771,7 +771,7 @@
 	</Skill>
 	
 	<Skill Name="ZSZY"><!--伤害技能基础模板 -->
-		<DisplayName>只手镇压</DisplayName>
+		<DisplayName>Hand suppression</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
 		<ShowInUI>1</ShowInUI>

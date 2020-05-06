@@ -1,0 +1,24 @@
+<Defs><List>
+	
+	<Def Name="Lv4_X" DisplayName="仙">
+	</Def>
+	<Def Name="Lv4_J" DisplayName="境">
+	</Def>
+	
+	
+	<Def Name="Lv4_D" DisplayName="道">
+	</Def>
+	<Def Name="Lv4_W" DisplayName="纹">
+	</Def>
+
+	<Def Name="Lv4_Y" DisplayName="阴">
+	</Def>
+	<Def Name="Lv4_M" DisplayName="冥">
+	</Def>
+	
+	
+	<Def Name="Lv4_S" DisplayName="杀">
+	</Def>
+	<Def Name="Lv4_C" DisplayName="场">
+	</Def>
+</List></Defs>

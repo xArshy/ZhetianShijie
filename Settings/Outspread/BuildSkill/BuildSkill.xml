@@ -1,7 +1,7 @@
 <Defs><List>
 	<Def Name="zhaolanwsst">
-		<DisplayName>异世界寻人</DisplayName>
-		<Desc>在此地，将各个异世界的人召唤而来。一次消耗100影响值。</Desc>
+		<DisplayName>Finding People in Another World</DisplayName>
+		<Desc>Here, people from different worlds are summoned. Consumes 100 influence at a time.</Desc>
 		<Cost>
 			<Influence>100</Influence>
 		</Cost>

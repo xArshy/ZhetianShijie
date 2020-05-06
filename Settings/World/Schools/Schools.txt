@@ -1,0 +1,8 @@
+ID	Name	Desc	Level	Rank	Gong	Miji	GLevel	GrandMaster	BasePower	UnLockBuilding	ZhenInfo	ZhenName
+499 Unavailable	Martial name	Introduction	Martial arts level 1 village 2 pie 3 cave days	"Righteousness 0 The evil is unknown 1,-1 Right and wrong  2 to 4: positive -2 to -4 evil"	Martial arts method Randomly fill in the entity Martial arts cheats Average realm Patriarch Basic strength Buildings unlocked after conquest Matrix formation information Matrix formation name
+100	Yaochi Holy Land Holy Land, located in the Northern Territory. The disciples are mostly women, and they have never been in conflict with the world	3	3	Western King		5	Queen Mother West	40000			
+101	Taixuanmen is a large faction located in the eastern part of the Wei Dynasty.	3	1		Star quench	4	Tai Xuan real person	25000			
+102	Lingxu Cave Sky	3	0			5	Lingxuzi	20000			
+103	Taichu Ancient Mine "The Taigu Early Mine is located in the eastern and northern wasteland. It was created by the ancient emperor such as the Kirin ancient emperor. It is the first of the seven restricted areas of life and it existed at the beginning of the myth."	3	-1			5	麒麟古皇	40000					
+105	Wanlong Nest	The royal family, who had sealed human and monster before Taikoo, had to move the family back to the ancestor because of the revenge of the human and monster. The ancient emperor's secret technique has Dragon Yin moving for nine days and so on. Its ancestor died in the battle of Fei Xing Xing Xian Lu and died against Ye Fan.	3	-2			5	Wanlong ancient emperor	38000			
+106	Qi Shifu The first school in Zhongzhou may be related to extraterritorial. Opened once every 10,000 years, recruit top five young monks for training	3	2			5	House owner	35000			

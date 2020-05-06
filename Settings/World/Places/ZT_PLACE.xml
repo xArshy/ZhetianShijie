@@ -1,0 +1,774 @@
+<Places><List>
+	
+
+	<Place Name="Place_HGJD_1" Parent="Place_Level2Base">
+		<Location X="1166" Y="670"/>
+		<Scale>0.19</Scale>
+		<Icon>Spr\Building\HGJD.png</Icon>
+		<DisplayName>Forbidden Land</DisplayName>
+		<Desc>The barren ancient forbidden area is a forbidden area of ​​life in the sky-covered world. The barren master is inhabited in it, and he will wake up from time to time. Once he wakes up, it will be bloody. Another danger is Shou Yuan, who is constantly losing in every minute and every minute in the Forbidden City.</Desc>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>DustPlace</Weather>
+			<PowerLevel>25</PowerLevel>
+		<Events><!-- 嗯-->
+
+			<li Name="Story" Rate="0.8"/>
+			<li Name="Treasure" Rate="0.5"/>
+			<li Name="Find" Rate="2.5"/>
+
+
+		</Events>
+		<Secret>
+			<li Name="Story" Rate="1"/>
+			<li Name="Secret" Rate="1"/>
+		</Secret>
+		<Produce>
+			<li>
+				<ThingDef>Item_SHQ</ThingDef>
+				<Count>1</Count>
+				<Rate>0.05</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SG</ThingDef>
+				<Count>1</Count>
+				<Rate>0.05</Rate>
+			</li>
+			
+		</Produce>
+	</Place>
+	
+	<Place Name="Place_TCGK" Parent="Place_Level2Base">
+		<Location X="185" Y="326"/>
+		<Scale>0.19</Scale>
+		<Icon>Spr\Building\TCGK.png</Icon>
+		<DisplayName>Taichu Ancient Mine</DisplayName>
+		<Desc>The name of the beginning of the ether is enough to indicate its ancient age, and it is impossible to speculate how long it has existed. It is said that before the endless years, the Taichu Ancient Mine was the most famous one in Donghuang, the source, the mine, and later dug out ominous things, and it became one of the seven restricted areas of life.</Desc>
+			<School>103</School>
+			<Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>LingUpWave_Big</Weather>
+			<PowerLevel>25</PowerLevel>
+		<Events><!-- 嗯-->
+			<li Name="Visit" Rate="5"/>
+			<li Name="Story" Rate="0.8"/>
+			<li Name="Treasure" Rate="0.5"/>
+			<li Name="Find" Rate="3"/>
+		</Events>
+		
+		<Secret>
+	
+			<li Name="Secret" Rate="1"/>
+			<li Name="Story" Rate="1"/>
+		</Secret>
+		<Produce>
+			
+			<li>
+				<ThingDef>Item_YZBYB</ThingDef>
+				<Count>3</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JTBYB</ThingDef>
+				<Count>3</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JTCYW</ThingDef>
+				<Count>3</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ZYSY</ThingDef>
+				<Count>3</Count>
+				<Rate>1</Rate>
+			</li>
+				<li>
+				<ThingDef>Item_YYSY</ThingDef>
+				<Count>3</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ZYW</ThingDef>
+				<Count>3</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_XZ</ThingDef>
+				<Count>3</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_DLYJ</ThingDef>
+				<Count>3</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ST</ThingDef>
+				<Count>3</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_ZJST</ThingDef>
+				<Count>3</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_WSTJ</ThingDef>
+				<Count>3</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JTBLSY</ThingDef>
+				<Count>3</Count>
+				<Rate>1</Rate>
+			</li>
+		</Produce>
+	</Place>
+	
+	<Place Name="Place_HY" Parent="Place_Level2Base">
+		<Location X="885" Y="756"/>
+		<Scale>0.17</Scale>
+		<Icon>Spr\Building\HY.png</Icon>
+		<DisplayName>Fire domain</DisplayName>
+		<Desc>The fire field, the average monk dare not approach, but when the extreme monk refining, it is bound to be here as the first choice, the flame here has mysterious power, can help shape the apparatus, imprint the truth and reason. Of course, it can also be quenched.</Desc>
+			<Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>Weather_Magic_ZhenHuoJieJie</Weather>
+			<PowerLevel>12</PowerLevel>
+		<Events><!-- 嗯-->
+			<li Name="Story" Rate="0.8"/>
+			<li Name="Treasure" Rate="1.5"/>
+
+		</Events>
+		
+		<Secret>
+	
+			<li Name="Secret" Rate="1"/>
+			<li Name="Story" Rate="1"/>
+		</Secret>
+		<Produce>
+			<li>
+				<ThingDef>Item_HSXY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.6</Rate>
+			</li>
+			
+		</Produce>
+	</Place>
+	
+	
+	<Place Name="Place_YC" Parent="Place_Level2Base">
+		<Location X="275" Y="666"/>
+		<Scale>0.19</Scale>
+		<Icon>Spr\Building\YC.png</Icon>
+		<DisplayName>Yaochi Holy Land</DisplayName>
+		<Desc>Most of the sacred places for spiritual practice founded by the Mother of the West are mostly females, and most of their insiders are mainly meditatives. They do not participate in mundane disputes.</Desc>
+		<School>100</School>
+			<Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>LingUpWave_Sp</Weather>
+			<PowerLevel>21</PowerLevel>
+		<Events><!-- 嗯-->
+			<li Name="Visit" Rate="5"/>
+			<li Name="Story" Rate="0.8"/>
+			<li Name="Treasure" Rate="0.5"/>
+			<li Name="Find" Rate="2.5"/>
+			<li Name="BadFight" Rate="0.8"/>
+			<li Name="Secret" Rate="2"/>
+
+		</Events>
+		
+		
+		<Secret>
+		
+			<li Name="Secret" Rate="1"/>
+	
+			<li Name="Story" Rate="5"/>
+	
+		</Secret>
+		<Produce>
+			<li>
+				<ThingDef>Item_SSXY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.6</Rate>
+			</li>
+			
+			<li>
+				<ThingDef>Item_Dan_PT</ThingDef>
+				<Count>1</Count>
+				<Rate>0.8</Rate>
+			</li>
+			
+			<li>
+				<ThingDef>Item_SSXSY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+		</Produce>
+	</Place>
+	
+	<Place Name="Place_SC" Parent="Place_Level1Base">
+		<Location X="170" Y="495"/>
+		<Scale>0.21</Scale>
+		<Icon>Spr\Building\SC.png</Icon>
+		<DisplayName>Holy city</DisplayName>
+		<Desc>The holy city of the Northern Territory, the absolute center, is as famous as the Taichu Ancient Mine on this red land. The residents of the Northern Territory regard it as a godland.</Desc>
+		<ExploreNum>12</ExploreNum>
+			<Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>SunnyDay</Weather>
+			<PowerLevel>16</PowerLevel>
+		<Events><!-- 嗯-->
+			<li Name="Story" Rate="1"/>
+			<li Name="Join" Rate="1"/>
+			<li Name="GoodFight" Rate="1"/>
+			<li Name="BadFight" Rate="0.8"/>
+			<li Name="Find" Rate="2"/>
+			<li Name="Secret" Rate="2"/>
+			
+			<li Name="Treasure" Rate="0.5"/>
+		</Events>
+		<ExploreNum>35</ExploreNum>
+		<Secret>
+			<li Name="Secret" Rate="1"/>
+			<li Name="Find" Rate="5"/>
+			<li Name="Story" Rate="25"/>
+		</Secret>
+		<Produce>
+			<li>
+				<ThingDef>Item_WSXY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+			
+			<li>
+				<ThingDef>Item_JSXY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+	
+			<li>
+				<ThingDef>Item_MSXY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+
+			<li>
+				<ThingDef>Item_SSXY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+		
+			<li>
+				<ThingDef>Item_HSXY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+			
+			<li>
+				<ThingDef>Item_TSXY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+			
+		</Produce>
+		<Children>
+			<li>Place_HLC</li>
+			</Children>
+	</Place>
+	
+	<Place Name="Place_HLC" Parent="Place_Level2Base">
+		<Location X="210" Y="485"/>
+		<Scale>0.125</Scale>
+		<Icon>Spr\Building\HLC.png</Icon>
+		<DisplayName>Hualongchi</DisplayName>
+		<Desc>Clouds and mist dangled in the palace, holy breath was blown on the face, the underground was raging, and holy power flowed, of course, there was a compelling coercion.</Desc>
+		<Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>DenseFog</Weather>
+			<PowerLevel>12</PowerLevel>
+		<Events><!-- 嗯-->
+			<li Name="GoodFight" Rate="1"/>
+			<li Name="BadFight" Rate="0.8"/>
+			<li Name="Find" Rate="2"/>
+			<li Name="Story" Rate="1"/>
+		</Events>
+		<ExploreNum>15</ExploreNum>
+		<Produce>
+			<li>
+				<ThingDef>Item_LQ</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			
+			
+		</Produce>
+
+	</Place>
+	
+	
+	<Place Name="Place_TXM" Parent="Place_Level2Base">
+		<Location X="1105" Y="379"/>
+		<Scale>0.15</Scale>
+		<Icon>Spr\Building\TXM.png</Icon>
+		<DisplayName>Tai Xuanfeng</DisplayName>
+		<Desc>Among the endless immortal mountains, 108 main peaks represent 108 inheritances. . . The author says too much.</Desc>
+		<School>101</School>
+		<Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>Rainstorm</Weather>
+			<PowerLevel>18</PowerLevel>
+		<Events><!-- 嗯-->
+			<li Name="Visit" Rate="5"/>
+			<li Name="Story" Rate="0.8"/>
+			<li Name="Treasure" Rate="0.5"/>
+			<li Name="BadFight" Rate="0.8"/>
+			<li Name="Find" Rate="1"/>
+			<li Name="Secret" Rate="2"/>
+		</Events>
+		
+		
+		<Secret>
+		
+			<li Name="Secret" Rate="1"/>
+			<li Name="Story" Rate="5"/>
+	
+		</Secret>
+		<Produce>
+			
+			<li>
+				<ThingDef>Item_LingCrystal</ThingDef>
+				<Count>10</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_LingStone</ThingDef>
+				<Count>50</Count>
+				<Rate>1</Rate>
+			</li>
+			
+			
+		</Produce>
+	</Place>
+	
+	
+	
+	<Place Name="Place_LXDT" Parent="Place_Level2Base">
+		<Location X="1189" Y="580"/>
+		<Scale>0.2</Scale>
+		<Icon>Spr\Building\LXDT.png</Icon>
+		<DisplayName>Lingxu Dongtian</DisplayName>
+		<Desc>Yandi, two thousand miles from north to south, and three thousand miles from east to west. One of the six cave days in Yanzhijing, Lingxu cave days, is also the beginning of the practice of Ye Fan and Pombo.</Desc>
+		<School>102</School>
+		<Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>ColdWaveInSummer</Weather>
+			<PowerLevel>14</PowerLevel>
+		<Events><!-- 嗯-->
+		
+			<li Name="Visit" Rate="5"/>
+			<li Name="Story" Rate="0.8"/>
+			<li Name="Treasure" Rate="0.5"/>
+			<li Name="BadFight" Rate="0.8"/>
+			<li Name="Find" Rate="2"/>
+			<li Name="Secret" Rate="2"/>
+
+		</Events>
+		
+		<ExploreNum>25</ExploreNum>
+		<Secret>
+		
+			<li Name="Secret" Rate="1"/>
+
+			<li Name="Story" Rate="5"/>
+	
+		</Secret>
+		<Produce>
+			<li>
+				<ThingDef>Item_Dan_BCY</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			
+		</Produce>
+		<Children>
+			<li>Place_YDF</li>
+		</Children>
+	</Place>
+	<Place Name="Place_YDF" Parent="Place_Level2Base">  <!--隐居的高人-->
+		<Location X="1029" Y="600"/>
+		<Scale>0.2</Scale>
+		<Icon>Spr\Building\YDF.png</Icon>
+		<DisplayName>Yaodi Grave</DisplayName>
+		<Desc>The burial place of the last emperor of the Donghuang Demon Clan has hidden murder.</Desc>
+			<Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>PermanentNight</Weather>
+			<PowerLevel>12</PowerLevel>
+		<Events><!-- 嗯-->
+		
+			
+			<li Name="Story" Rate="0.8"/>
+			<li Name="Treasure" Rate="0.5"/>
+			<li Name="BadFight" Rate="0.8"/>
+			<li Name="Find" Rate="2"/>
+			<li Name="Secret" Rate="2"/>
+
+		</Events>
+		<Produce>
+			<li>
+				<ThingDef>Item_ExtremeJade</ThingDef>
+				<Count>4</Count>
+				<Rate>1</Rate>
+			</li>
+			
+		</Produce>
+		<ExploreNum>25</ExploreNum>
+	</Place>
+	
+	
+	
+	<Place Name="Place_QTXD" Parent="Place_Level2Base">
+		<Location X="766" Y="800"/>
+		<Scale>0.3</Scale>
+		<Icon>Spr\Building\QTXD.png</Icon>
+		<DisplayName>Bronze Immortal Hall</DisplayName>
+		<Desc>A huge bronze hall, extremely powerful, is almost comparable to a small town, it is magnificent, it has not collapsed, it is still intact, and it is green and rusty on the top. Desolate feeling. .</Desc>
+		<Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>LightningStorm</Weather>
+			<PowerLevel>16</PowerLevel>
+		<Events><!-- 嗯-->
+
+			<li Name="Story" Rate="0.8"/>
+			<li Name="Treasure" Rate="0.5"/>
+			<li Name="Find" Rate="2.5"/>
+
+
+		</Events>
+		<ExploreNum>36</ExploreNum>
+		<Secret>
+			<li Name="Secret" Rate="1"/>
+			<li Name="Find" Rate="5"/>
+			<li Name="Story" Rate="25"/>
+		</Secret>
+		<Produce>
+			<li>
+				<ThingDef>Item_XHEQ</ThingDef>
+				<Count>1</Count>
+				<Rate>0.8</Rate>
+			</li>
+		
+		</Produce>
+		<Children>
+			<li>Place_XH</li>
+		</Children>
+	</Place>
+	
+	
+	<Place Name="Place_XH" Parent="Place_Level2Base">  <!--隐居的高人-->
+		<Location X="766" Y="850"/>
+		<Scale>0.15</Scale>
+		<Icon>Spr\Building\XH.png</Icon>
+		<DisplayName>"Yellow River</DisplayName>
+		<Desc>Ye Fan and Ji Ziyue found the river of Xuanhuang motherhood after escaping from the Bronze Immortal Hall.</Desc>
+		<Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>Rainstorm_Long</Weather>
+			<PowerLevel>6</PowerLevel>
+		 <Events>
+			
+			<li Name="Find" Rate="0.9"/>
+          </Events>
+		  <ExploreNum>15</ExploreNum>
+		<Produce>
+			<li>
+				<ThingDef>Item_XHJC</ThingDef>
+				<Count>1</Count>
+				<Rate>0.4</Rate>
+			</li>
+		
+		</Produce>
+	</Place>
+	
+	
+	<Place Name="Place_WSST" Parent="Place_Level1Base">
+		<Location X="1211" Y="480"/>
+		<Scale>0.13</Scale>
+		<Icon>Spr\Building\WSST.png</Icon>
+		<DisplayName>Five-color altar</DisplayName>
+		<Desc>The beginning and end of everything, is the most mysterious building in the entire world of the sky.</Desc>
+		
+		 <Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>HeavySnow</Weather>
+			<PowerLevel>9</PowerLevel>
+		 <Events>
+			<li Name="Story" Rate="0.8"/>
+			<li Name="Treasure" Rate="0.5"/>
+			<li Name="Find" Rate="5"/>
+          </Events>
+		<Secret>
+			<li Name="Story" Rate="1"/>
+			<li Name="Secret" Rate="1"/>
+			<li Name="Find" Rate="1"/>
+		</Secret>
+		<Produce>
+			<li>
+				<ThingDef>Item_WSTJ</ThingDef>
+				<Count>3</Count>
+				<Rate>0.8</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_PTZ</ThingDef>
+				<Count>1</Count>
+				<Rate>0.2</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_WSSS</ThingDef>
+				<Count>15</Count>
+				<Rate>1</Rate>
+			</li>
+		</Produce>
+	</Place>
+	
+	<Place Name="Place_ZJC" Parent="Place_Level2Base">
+		<Location X="545" Y="550"/>
+		<Scale>0.2</Scale>
+		<Icon>Spr\Building\ZJC.png</Icon>
+		<DisplayName>Zhangjiacun</DisplayName>
+		<Desc>The orphan of the source of the ancient heavenly master.</Desc>
+		<Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>HeavyRain</Weather>
+			<PowerLevel>6</PowerLevel>
+		
+		 <Events>
+			<li Name="Story" Rate="0.8"/>
+			<li Name="Treasure" Rate="0.5"/>
+			<li Name="Find" Rate="2"/>
+          </Events>
+		  <ExploreNum>23</ExploreNum>
+		<Secret>
+			<li Name="Story" Rate="1"/>
+			<li Name="Secret" Rate="1"/>
+			<li Name="Find" Rate="10"/>
+		</Secret>
+		<Children>
+			<li>Place_ZS</li>
+		</Children>
+		<Produce>
+			<li>
+				<ThingDef>Item_YS1</ThingDef>
+				<Count>5</Count>
+				<Rate>0.8</Rate>
+			</li>
+			
+		</Produce>
+	</Place>
+	<Place Name="Place_ZS" Parent="Place_Level2Base">
+		<Location X="505" Y="539"/>
+		<Scale>0.4</Scale>
+		<Icon>Spr\Building\ZS.png</Icon>
+		<DisplayName>Purple Mountain</DisplayName>
+		<Desc>Emperor Wu Shi lived in his old age, although he was not dead.</Desc>
+			<Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>HeavyRain</Weather>
+			<PowerLevel>19</PowerLevel>
+		
+		 <Events>
+			<li Name="Story" Rate="0.8"/>
+			<li Name="Treasure" Rate="0.5"/>
+			<li Name="Find" Rate="2"/>
+          </Events>
+		  <ExploreNum>23</ExploreNum>
+		<Secret>
+			<li Name="Story" Rate="1"/>
+			<li Name="Secret" Rate="1"/>
+			<li Name="Find" Rate="10"/>
+		</Secret>
+		<Produce>
+			<li>
+				<ThingDef>Item_HST</ThingDef>
+				<Count>15</Count>
+				<Rate>0.8</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_TSXY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_JSXY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
+			</li>
+		</Produce>
+	</Place>
+
+	<Place Name="Place_YZZ" Parent="Place_Level2Base">
+		<Location X="701" Y="680"/>
+		<Scale>0.1</Scale>
+		<Icon>Spr\Building\YZZ.png</Icon>
+		<DisplayName>Yunze Prefecture</DisplayName>
+		<Desc>The Yunze Prefecture is just like its name. Daze is everywhere.</Desc>
+		 <Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>Overcast</Weather>
+			<PowerLevel>18</PowerLevel>
+		 
+		 <Events>
+			<li Name="Story" Rate="0.8"/>
+			<li Name="Treasure" Rate="0.5"/>
+			<li Name="Find" Rate="5"/>
+          </Events>
+		<Secret>
+			<li Name="Story" Rate="1"/>
+			<li Name="Secret" Rate="1"/>
+			<li Name="Find" Rate="1"/>
+		</Secret>
+		<Produce>
+			<li>
+				<ThingDef>Item_MSXY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.6</Rate>
+			</li>
+			
+			<li>
+				<ThingDef>Item_YYSY</ThingDef>
+				<Count>2</Count>
+				<Rate>0.8</Rate>
+			</li>
+		</Produce>
+	</Place>
+	
+	<Place Name="Place_DDLQ" Parent="Place_Level2Base">
+		<Location X="1381" Y="640"/>
+		<Scale>0.13</Scale>
+		<Icon>Spr\Building\DDLQ.png</Icon>
+		<DisplayName>Tomb of the great emperor</DisplayName>
+		<Desc>This building is made of golden jade, glittering and yellow, bright and transparent, crystal clear and magical.</Desc>
+		 <Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>Overcast</Weather>
+			<PowerLevel>15</PowerLevel>
+		 <Events>
+			<li Name="Treasure" Rate="0.5"/>
+			<li Name="Find" Rate="5"/>
+          </Events>
+		<Secret>
+			<li Name="Story" Rate="1"/>
+			<li Name="Secret" Rate="1"/>
+			<li Name="Find" Rate="1"/>
+		</Secret>
+		<Produce>
+			<li>
+				<ThingDef>Item_WSTJ</ThingDef>
+				<Count>2</Count>
+				<Rate>0.8</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_StarEssence</ThingDef>
+				<Count>4</Count>
+				<Rate>1</Rate>
+			</li>
+			
+			<li>
+				<ThingDef>Item_JSXY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.6</Rate>
+			</li>
+			
+		</Produce>
+	</Place>
+
+	<Place Name="Place_WLC" Parent="Place_Level2Base">
+		<Location X="1021" Y="80"/>
+		<Scale>0.13</Scale>
+		<Icon>Spr\Building\WLC.png</Icon>
+		<DisplayName>Wanlong Nest</DisplayName>
+		<Desc>In the depths of the Arctic Icefield, in the endless snow-capped mountains, there are hidden the ancient people who had slept a million years ago.</Desc>
+		<School>105</School>
+		<Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>ColdWave</Weather>
+			<PowerLevel>25</PowerLevel>		
+		<Events>
+		 <li Name="Visit" Rate="5"/>
+			<li Name="Story" Rate="0.8"/>
+			<li Name="Treasure" Rate="0.5"/>
+			<li Name="Find" Rate="5"/>
+          </Events>
+		<Secret>
+			<li Name="Story" Rate="1"/>
+			<li Name="Secret" Rate="1"/>
+			<li Name="Find" Rate="1"/>
+		</Secret>
+		<Produce>
+			<li>
+				<ThingDef>Item_JTBYB</ThingDef>
+				<Count>5</Count>
+				<Rate>0.8</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_YHLJ</ThingDef>
+				<Count>1</Count>
+				<Rate>0.2</Rate>
+			</li>
+		</Produce>
+	</Place>
+	<Place Name="Place_QSF" Parent="Place_Level2Base">
+		<Location X="1021" Y="380"/>
+		<Scale>0.25</Scale>
+		<Icon>Spr\Building\QSF.png</Icon>
+		<DisplayName>Kisfu</DisplayName>
+		<Desc>The first school in Zhongzhou may be related to outside the region. Opened once every ten thousand years, recruit top five young monks for training.</Desc>
+		<School>106</School>
+		<Class></Class>
+			<Biome></Biome>
+			<Snow>0</Snow>
+			<Weather>ColdWave</Weather>
+			<PowerLevel>25</PowerLevel>		
+		<Events>
+			<li Name="Story" Rate="0.8"/>
+			<li Name="Treasure" Rate="0.5"/>
+			<li Name="Find" Rate="5"/>
+          </Events>
+		<Secret>
+			<li Name="Story" Rate="1"/>
+			<li Name="Secret" Rate="1"/>
+			<li Name="Find" Rate="1"/>
+		</Secret>
+		<Produce>
+			<li>
+				<ThingDef>Item_WDCY</ThingDef>
+				<Count>1</Count>
+				<Rate>0.01</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_MY</ThingDef>
+				<Count>10</Count>
+				<Rate>0.1</Rate>
+			</li>
+		</Produce>
+	</Place>
+	
+</List></Places>

@@ -1,0 +1,338 @@
+<ModifierDefs><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Modifier Name="Gong_XKJ_LH_1A" Type="Normal">
+		<DisplayName>大道至简</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,0,0,0,2</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="2"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_XKJ_LH_1A_1" Type="Normal">
+		<DisplayName>大道至简</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="1500"/>
+			<li Name="WorldMapFlySpeedAddP" AddP="2"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_XKJ_LH_1A_2" Type="Normal">
+		<DisplayName>大道至简</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,1</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="3"/>
+			<li Name="LingAbsorbSpeed" AddP="2"/>
+			<li Name="MindStateBaseValue" AddV="30"/>
+		</Properties>
+	</Modifier>
+	<!-- ==========================技能2========================== -->
+	<Modifier Name="Gong_XKJ_LH_2A_XKDSY" Type="Normal">
+		<DisplayName>虚空大手印</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,0,0,0,0</BaseFive>
+		<Skills>
+			<li Name="Fight" LevelOver="10"/>
+			<li Name="Fight" Level="5"/>
+		</Skills>
+		
+	</Modifier>
+	
+	
+	<!-- ==========================技能3========================== -->
+	<Modifier Name="Gong_XKJ_LH_3A" Type="Normal">
+		<DisplayName>消万物</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="2000"/>
+			<li Name="LingAbsorbSpeed" AddP="3"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_XKJ_LH_3A_1" Type="Normal">
+		<DisplayName>化万物</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="4000"/>
+			
+			<li Name="MaxAge" AddV="1200"/>
+		</Properties>
+		<Skills>
+			<li Name="FightSkill" LevelOver="7"/>
+			<li Name="FightSkill" Level="4"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_XKJ_LH_3A_2" Type="Normal">
+		<DisplayName>协万物</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="-40"/>
+			<li Name="LingAbsorbSpeed" AddP="3"/>
+			
+
+		</Properties>
+
+	</Modifier>
+	<!-- ==========================技能4========================== -->
+	
+	<Modifier Name="Gong_XKJ_LH_1B" Type="Normal">
+		<DisplayName>大虚空术</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAccumulativeLingAddV" AddV="3500"/>
+			<li Name="MoveSpeed" AddV="20"/>
+			<li Name="ExperiencePrestigeAddP" AddP="5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_XKJ_LH_1B_1" Type="Normal">
+		<DisplayName>大虚空术</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="4"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="4"/>
+			
+		</Properties>
+		<Skills>
+			<li Name="Fabao" LevelOver="7"/>
+			<li Name="Fabao" Level="4"/>
+		</Skills>
+	</Modifier>
+
+	
+	<!-- ==========================技能5========================== -->
+	
+	
+	
+	<Modifier Name="Gong_XKJ_LH_3B_SDSS" Type="Normal">
+		<DisplayName>截天指</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="1"/>
+			<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="4"/> 
+		</Properties>
+	</Modifier>
+	
+	
+	<!-- ==========================分割线========================== -->
+	
+	<Modifier Name="Gong_XKJ_SJ_1C" Type="Normal">
+		<DisplayName>空间风暴</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,2</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="2"/>
+			<li Name="NpcFight_FabaoNum" AddP="1"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="4"/> 
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_XKJ_SJ_1C_1" Type="Normal">
+		<DisplayName>空间风暴</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddP="1"/>
+			<li Name="GodPenaltyAddV" AddV="-20"/>
+		</Properties>
+		<Skills>
+			<li Name="Fabao" LevelOver="10"/>
+			<li Name="Fabao" Level="5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_XKJ_SJ_1C_2" Type="Normal">
+		<DisplayName>空间风暴</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.4"/><!--护盾强度加值2-->
+			<li Name="NpcFight_SpellPowerAddP" AddP="5"/>
+		</Properties>
+		<Skills>
+			<li Name="FightSkill" Level="10"/>
+			<li Name="FightSkill" Level="5"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="Gong_XKJ_SJ_3C" Type="Normal">
+		<DisplayName>虚断两界</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="4"/>
+			<li Name="NpcLingMaxValue" AddP="3"/>
+			<li Name="LingAbsorbSpeed" AddP="2"/> 
+		</Properties>
+		<Skills>
+			<li Name="Fight" LevelOver="10"/>
+			<li Name="Fight" Level="5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_XKJ_SJ_3C_1" Type="Normal">
+		<DisplayName>虚断两界</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="1"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="4"/> 
+		</Properties>
+		<Skills>
+			<li Name="Fight" Level="5"/>
+			<li Name="Fight" LevelOver="10"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="Gong_XKJ_HL_1D" Type="Normal">
+		<DisplayName>无虚空间</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ZhenEnginePower" AddV="40"/><!--阵法负荷能力-20-->
+			<li Name="NpcFight_FabaoPowerAddP" AddP="4"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="4"/> 
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_XKJ_HL_1D_1" Type="Normal">
+		<DisplayName>无虚空间</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>2,2,2,2,2</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ZhenEnginePower" AddV="30"/><!--阵法负荷能力-20-->
+			<li Name="NpcFight_FabaoNum" AddP="1"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="6"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_XKJ_HL_1D_2" Type="Normal">
+		<DisplayName>无虚空间</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="4"/><!--阵法负荷能力-20-->
+		</Properties>
+		<Skills>
+			<li Name="Fabao" LevelOver="10"/>
+			<li Name="FightSkill" LevelOver="10"/>
+			<li Name="Fabao" Level="5"/>
+			<li Name="FightSkill" Level="5"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="Gong_XKJ_HL_2D" Type="Normal">
+		<DisplayName>虚空镜</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="1"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="1"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.2"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_XKJ_HL_2D_1" Type="Normal">
+		<DisplayName>虚空镜</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.2"/>
+			<li Name="FabaoMake_QualityAddV" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_XKJ_XT_1F" Type="Normal">
+		<DisplayName>虚空大道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="2"/>
+			<li Name="NpcFight_FabaoNum" AddP="1"/>
+		</Properties>
+		<Skills>
+			<li Name="Barrier" LevelOver="5"/>
+			<li Name="Barrier" Level="2"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_XKJ_XT_1F_1" Type="Normal">
+		<DisplayName>虚空大道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.5"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddP="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddP="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddP="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddP="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddP="0.5"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="1.5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_XKJ_XT_DZ" Type="Normal">
+		<DisplayName>红尘仙</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="10"/>
+			<li Name="MaxAge" AddV="5000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="10000"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="20"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="20"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.9"/>
+		</Properties>
+	</Modifier>
+	
+	
+</List></ModifierDefs>

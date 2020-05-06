@@ -1,0 +1,345 @@
+<ModifierDefs><List>
+	
+	<!-- ==========================技能1========================== -->
+	
+	<Modifier Name="Gong_THJ_LH_1A" Type="Normal">
+		<DisplayName>皇朝传承</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,2,0,0,0</BaseFive>
+		<Properties>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="2"/>
+			<li Name="InspirationCoefficient" AddV="0.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_THJ_LH_1A_1" Type="Normal">
+		<DisplayName>皇朝传承</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="1800"/>
+			<li Name="LingAbsorbSpeed" AddP="1.5"/>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_THJ_LH_1A_2" Type="Normal">
+		<DisplayName>皇朝传承</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="50"/>
+		</Properties>
+		<Skills>
+			<li Name="Fight" LevelOver="10"/>
+			<li Name="Fight" Level="5"/>
+		</Skills>
+	</Modifier>
+	<!-- ==========================技能2========================== -->
+	<Modifier Name="Gong_THJ_LH_2A_XKDSY" Type="Normal">
+		<DisplayName>玄龙正道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="5"/><!--法宝击退距离加成-->
+			
+			<li Name="NpcFight_FabaoRepelResistanceAddV" AddV="5"/><!--法宝击退距离抗性-->
+		</Properties>
+		
+	</Modifier>
+	
+	
+	<!-- ==========================技能3========================== -->
+	<Modifier Name="Gong_THJ_LH_3A" Type="Normal">
+		<DisplayName>器韵龙道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.25"/>
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="3"/>
+		</Properties>
+		<Skills>
+			<li Name="Fabao" Level="10"/>
+			<li Name="Fabao" Level="5"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="Gong_THJ_LH_3A_1" Type="Normal">
+		<DisplayName>器韵龙道</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,2,2,2</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="3000"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="4"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="4"/>
+		</Properties>
+	</Modifier>
+	
+	<!-- ==========================技能4========================== -->
+	
+	<Modifier Name="Gong_THJ_LH_1B" Type="Normal">
+		<DisplayName>龙气蕴神</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAccumulativeLingAddV" AddV="2500"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="5"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_THJ_LH_1B_1" Type="Normal">
+		<DisplayName>龙气蕴神</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,2,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="4"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="3"/>
+			
+		</Properties>
+		<Skills>
+			<li Name="Fabao" LevelOver="7"/>
+			<li Name="Fabao" Level="3"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_THJ_LH_1B_2" Type="Normal">
+		<DisplayName>龙气蕴神</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,2,0,0</BaseFive>
+		<Properties>
+			<li Name="MaxAccumulativeLingAddV" AddV="3000"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.5"/>
+		</Properties>
+		<Skills>
+			<li Name="Fabao" LevelOver="13"/>
+			<li Name="Fabao" Level="7"/>
+		</Skills>
+	</Modifier>
+	
+	<!-- ==========================技能5========================== -->
+	
+		<Modifier Name="Gong_THJ_DG_1B" Type="Normal">
+		<DisplayName>皇脉寻龙</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,1,1</BaseFive>
+		<Properties>
+			<li Name="GodPenaltyAddV" AddV="-25"/><!--天谴，正的加天谴的。-->
+			<li Name="WorldMapFlySpeedAddP" AddP="0.5"/><!--历练飞行速度加成-->
+		</Properties>
+	</Modifier>
+	
+	
+	
+	
+	
+	<Modifier Name="Gong_THJ_LH_3B_SDSS" Type="Normal">
+		<DisplayName>真龙护体</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="1.5"/>
+			<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="4"/> 
+			<li Name="NpcFight_FabaoRepelResistanceAddV" AddV="4"/><!--法宝击退距离抗性-->
+		</Properties>
+	</Modifier>
+	
+	
+	<!-- ==========================分割线========================== -->
+	
+	<Modifier Name="Gong_THJ_SJ_1C" Type="Normal">
+		<DisplayName>四极龙胎</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="4"/><!--法宝灵气恢复速度加成3-->
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_THJ_SJ_1C_1" Type="Normal">
+		<DisplayName>四极龙胎</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			
+			<li Name="LingAbsorbSpeed" AddP="2"/>
+		</Properties>
+		<Skills>
+			<li Name="Fabao" LevelOver="5"/>
+			<li Name="Fabao" Level="2"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_THJ_SJ_1C_2" Type="Normal">
+		<DisplayName>四极龙胎</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+		</Properties>
+		<Skills>
+			<li Name="Fabao" LevelOver="10"/>
+			<li Name="Fabao" Level="5"/>
+		</Skills>
+	</Modifier>
+	
+	<Modifier Name="Gong_THJ_SJ_3C" Type="Normal">
+		<DisplayName>气蕴龙体</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="4"/>
+			<li Name="LingAbsorbSpeed" AddP="2"/> 
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_THJ_SJ_3C_1" Type="Normal">
+		<DisplayName>气蕴龙体</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			
+			<li Name="NpcFight_FabaoPowerAddP" AddP="6"/><!--法宝威力加成-->
+			<li Name="NpcFight_FabaoCoolDownAddP" AddP="-0.5"/><!--法宝攻击间隔加成-->
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_THJ_HL_1D" Type="Normal">
+		<DisplayName>太皇经化龙篇</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="5"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="2"/>
+			
+		</Properties>
+		<Skills>
+			<li Name="Fabao" LevelOver="10"/>
+			<li Name="Fabao" Level="5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_THJ_HL_1D_1" Type="Normal">
+		<DisplayName>太皇经化龙篇</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="1"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="4"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_THJ_HL_1D_2" Type="Normal">
+		<DisplayName>太皇经化龙篇</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="6"/>
+			<li Name="NpcFight_FabaoRepelResistanceAddV" AddV="5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_THJ_HL_2D" Type="Normal">
+		<DisplayName>太皇圣剑</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_SpeedAddV" AddV="1"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="1"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.2"/>
+			
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong_THJ_HL_2D_1" Type="Normal">
+		<DisplayName>太皇圣剑</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.2"/>
+			<li Name="FabaoMake_QualityAddV" AddP="0.5"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Gong_THJ_XT_1F" Type="Normal">
+		<DisplayName>太皇刻图</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="2"/>	
+		</Properties>
+		<Skills>
+			<li Name="Fabao" LevelOver="10"/>
+			<li Name="Fabao" Level="5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong_THJ_XT_1F_1" Type="Normal">
+		<DisplayName>太皇刻图</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="6"/>
+		</Properties>
+		<Skills>
+			<li Name="Fabao" LevelOver="10"/>
+			<li Name="Fabao" Level="5"/>
+		</Skills>
+	</Modifier>
+	
+	
+	<Modifier Name="Gong_THJ_XT_DZ" Type="Normal">
+		<DisplayName>红尘仙</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,0,0</BaseFive>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="10"/>
+			<li Name="MaxAge" AddV="5000"/>
+			<li Name="MaxAccumulativeLingAddV" AddV="10000"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="20"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="20"/>
+			<li Name="FabaoMake_TwelveRateChance" AddV="0.9"/>
+		</Properties>
+	</Modifier>
+	
+	
+</List></ModifierDefs>

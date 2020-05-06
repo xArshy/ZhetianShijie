@@ -72,27 +72,27 @@
 		<Desc>The unique technique of connotation of magic in the Emperor's Scriptures uses dragon gas to raise vessels.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>Jin</Element>
-		<EffectDesc>[size=10][color=#D06508]\n提升法宝等级10\n提高炼器品质\n提高护盾值3[/color][/size][/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]\nIncrease magic level 10 \ nImprove refiner quality \ nImprove shield value 3[/color][/size][/color][/size]</EffectDesc>
 		<Modifier>Gong_THJ_LH_3A</Modifier>
 	</Esoterica>
 	
 	<Esoterica Name="Gong_THJ_LH_A3_1">
-		<DisplayName>器韵龙道</DisplayName>
+		<DisplayName>Qi Yun Long Dao</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_THJ\QYLD.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>太皇经中独特的蕴养法宝之术，以龙气养器。</Desc>
+		<Desc>The unique connotation technique in the Emperor's Scriptures uses dragon gas to raise vessels.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>Jin</Element>
-		<EffectDesc>[size=10][color=#D06508]\n大幅提升灵气最大值3000\n提高法宝灵气容量4\n大幅提高法宝灵气恢复速度4[/color][/size][/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]\nGreatly increase the maximum Reiki 3000 \ nIncrease Magic Aura capacity 4 \ nImprove Magic Aura recovery speed 4[/color][/size][/color][/size]</EffectDesc>
 		<Modifier>Gong_THJ_LH_3A_1</Modifier>
 	</Esoterica>
 	
 	<!-- ==========================技能4========================== -->
 	
 	<Esoterica Name="Gong_THJ_LH_B1">
-		<DisplayName>龙气蕴神</DisplayName>
+		<DisplayName>Dragon spirit</DisplayName>
 		<Icon>Spr\Object\JN\ZT_THJ\LQYS.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>15</Difficulty>
@@ -104,7 +104,7 @@
 		<Modifier>Gong_THJ_LH_1B</Modifier>
 	</Esoterica>
 	<Esoterica Name="Gong_THJ_LH_B1_1">
-		<DisplayName>龙气蕴神</DisplayName>
+		<DisplayName>Dragon spirit</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_THJ\LQYS.png</Icon>
 		<StarLevel>2</StarLevel>
@@ -116,7 +116,7 @@
 		<Modifier>Gong_THJ_LH_1B_1</Modifier>
 	</Esoterica>
 	<Esoterica Name="Gong_THJ_LH_B1_2">
-		<DisplayName>龙气蕴神</DisplayName>
+		<DisplayName>Dragon spirit</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_THJ\LQYS.png</Icon>
 		<StarLevel>2</StarLevel>
@@ -131,12 +131,12 @@
 	<!-- ==========================技能5========================== -->
 	
 	<Esoterica Name="Gong_THJ_DG_B1">
-		<DisplayName>皇脉寻龙</DisplayName>
+		<DisplayName>Huang Mai Xun Long</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_THJ\HMXL.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>15</Difficulty>
-		<Desc>纳皇朝特有的造化之术。</Desc>
+		<Desc>Na's unique creation。</Desc>
 		<GLevel>Dan1</GLevel>
 		<Element>Tu</Element>
 		<EffectDesc>[size=10][color=#D06508]    一重天    \n降低天谴值25\n提高历练速度\n习得两个算命神通\n习得神通：移山造海\n习得神通：炼制灵晶\n习得三种淬炼神通[/color][/size]</EffectDesc>
@@ -158,7 +158,7 @@
 	<!-- ==========================技能5========================== -->
 	
 	<Esoterica Name="Gong_THJ_LH_B3_SDSS">
-		<DisplayName>真龙护体</DisplayName>
+		<DisplayName>True Dragon Guard</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_THJ\ZLHT.png</Icon>
 		<StarLevel>2</StarLevel>
@@ -176,11 +176,11 @@
 	<!-- ==========================分割线========================== -->
 	
 	<Esoterica Name="Gong_THJ_SJ_C1">
-		<DisplayName>四极龙胎</DisplayName>
+		<DisplayName>Quadrupole</DisplayName>
 		<Icon>Spr\Object\JN\ZT_THJ\SJLT.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>15</Difficulty>
-		<Desc>恒宇神炉百炼化虚空</Desc>
+		<Desc>Hengyu Sacred Furnace</Desc>
 		<GLevel>Dan2</GLevel>
 		<Element>Huo</Element>
 		<Type>Gong</Type>
@@ -188,19 +188,19 @@
 		<Modifier>Gong_THJ_SJ_1C</Modifier>
 	</Esoterica>
 	<Esoterica Name="Gong_THJ_SJ_C1_1">
-		<DisplayName>四极龙胎</DisplayName>
+		<DisplayName>Quadrupole</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_THJ\SJLT.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>压踏万古道不同</Desc>
+		<Desc>Depressing the Old Road is different</Desc>
 		<GLevel>Dan2</GLevel>
 		<Element>Huo</Element>
 		<EffectDesc>[size=10][color=#D06508]    二重天    \n灵力恢复速度2\n加法宝等级五级\n加五维属性[/color][/size]</EffectDesc>
 		<Modifier>Gong_THJ_SJ_1C_1</Modifier>
 	</Esoterica>
 	<Esoterica Name="Gong_THJ_SJ_C1_2">
-		<DisplayName>四极龙胎</DisplayName>
+		<DisplayName>Quadrupole</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_THJ\SJLT.png</Icon>
 		<StarLevel>2</StarLevel>
