@@ -1,65 +1,64 @@
-﻿local tbTable = GameMain:GetMod("MagicHelper");--获取神通模块 这里不要动
-local tbMagic = tbTable:GetMagic("BZM_LXCB");--创建一个新的神通class
+﻿local tbTable = GameMain:GetMod("MagicHelper")--Get the magical power module
+local tbMagic = tbTable:GetMagic("BZM_LXCB")--Create a new supernatural class
 
---注意-
---神通脚本运行的时候有两个固定变量
---self.bind 执行神通的npcObj
---self.magic 当前神通的数据，也就是定义在xml里的数据
+--[[ NOTE ]]--
+--There are two fixed variables when the supernatural script runs
+	--self.bind executes supernatural npcObj
+	--self.magic The current magical data, that is, the data defined in xml
 
 function tbMagic:Init()
 end
 
---神通是否可用
+--Is magical power available
 function tbMagic:EnableCheck(npc)
-	return true;
+	return true
 end
 
 
---目标合法检测 首先会通过magic的SelectTarget过滤，然后再通过这里过滤
---IDs是一个List<int> 如果目标是非对象，里面的值就是地点key，如果目标是物体，值就是对象ID，否则为nil
---IsThing 目标类型是否为物体
+--Target legal detection will first filter through Magic's SelectTarget, then filter through here
+--IDs is a List <int> If the target is a non-object, the value inside is the location key, if the target is an object, the value is the object ID, otherwise nil
+--IsThing whether the target type is an object
 function tbMagic:TargetCheck(key, t)	
-	if t.IsFaBao == true then
-		return true;
+	if t.IsFaBao then
+		return true
 	else
-		return false;
+		return false
 	end
 end
 
 
---开始施展神通
+--Start to perform magical powers
 function tbMagic:MagicEnter(IDs, IsThing)
-	self.targetId = IDs[0];--获取目标信息
+	self.targetId = IDs[0]--获取目标信息
 end
 
---神通施展过程中，需要返回值
---返回值  0继续 1成功并结束 -1失败并结束
+--During the magical power, the return value is required
+--Return value 0 continue 1 succeed and end -1 fail and end
 function tbMagic:MagicStep(dt, duration)	
-	self:SetProgress(duration/self.magic.Param1);--设置施展进度 主要用于UI显示 这里使用了参数1作为施法时间
-	if duration >=self.magic.Param1  then
-		return 1;	
+	self:SetProgress(duration/self.magic.Param1)
+	--Set the casting progress, mainly used for UI display. Parameter 1 is used as the casting time.
+	if duration >= self.magic.Param1  then
+		return 1	
 	end
-	return 0;
+	return 0
 end
 
---施展完成/失败 success是否成功
+--The completion / failure of success is successful
 function tbMagic:MagicLeave(success)
-	if success == true then		
-		local target = ThingMgr:FindThingByID(self.targetId);
-	if target ~= nil then
-		target.Fabao:AddGodCount(1);
+	if success then		
+		local target = ThingMgr:FindThingByID(self.targetId)
+		if target then
+			target.Fabao:AddGodCount(1)
 		end
 	end
 end
 
-
-
---存档 如果没有返回空 有就返回Table(KV)
+--Archive If not empty, return Table (KV)
 function tbMagic:OnGetSaveData()
 	
 end
 
---读档 tbData是存档数据 IDs和IsThing同进入
+--Reading tbData is the same as entering the archived data IDs and IsThing
 function tbMagic:OnLoadData(tbData,IDs, IsThing)	
-	self.targetId = IDs[0];--获取目标信息
+	self.targetId = IDs[0]--Get target information
 end
