@@ -30,7 +30,7 @@ function SC:SCHLC()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
     local npcitems = npc.Bag.m_lisItems -- Get list of items on NPC
-    for i = 0, npcitems.Count-1 do -- Remove NPC Body items
+    for i = 0, npcitems.Count - 1 do -- Remove NPC Body items
         ThingMgr:RemoveThing(npcitems[0])
     end
     local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- Get random weapons
@@ -93,7 +93,7 @@ function SC:SCHLC1()
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
     local npcitems = npc.Bag.m_lisItems -- Get list of items on NPC
-    for i = 0, npcitems.Count-1 do -- Delete NPC body items
+    for i = 0, npcitems.Count - 1 do -- Delete NPC body items
         ThingMgr:RemoveThing(npcitems[0])
     end
     local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
@@ -109,7 +109,7 @@ function SC:SCHLC1()
     end
     local count = 0
     while count < 6 do
-        local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12,10)
+        local fabao = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 12, 12, 10)
         fabao.Fabao.PS[1] = math.max(fabao.Fabao.PS[1], 3) * 3
         fabao.Fabao:AddGodCount(0)
         npc:EquipItem(fabao)
@@ -156,7 +156,7 @@ function SC:SWFS()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
     local npcitems = npc.Bag.m_lisItems -- Get list of items on NPC
-    for i = 0, npcitems.Count-1 do -- Delete NPC body items
+    for i = 0, npcitems.Count - 1 do -- Delete NPC body items
         ThingMgr:RemoveThing(npcitems[0])
     end
     local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
@@ -165,8 +165,7 @@ function SC:SWFS()
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
-    local fabaoname = 
-    {
+    local fabaoname = {
         "Fighting Dragon",
         "Heavenly Power",
         "Taixu God King",
@@ -175,7 +174,16 @@ function SC:SWFS()
         "Purple Dragon King Wrath"
     }
     for i = 1, 6, 1 do
-        local item = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 0, 12, 100, "HUO_QCSH", "Item_StarEssence", 10)
+        local item =
+            CS.XiaWorld.ItemRandomMachine.RandomFabao(
+            CS.XiaWorld.g_emItemLable.FightFabao,
+            0,
+            12,
+            100,
+            "HUO_QCSH",
+            "Item_StarEssence",
+            10
+        )
         npc.map:DropItem(item, npc.Key, true, true, false, true, 5)
         item:SetName(fabaoname[i])
         item.Fabao:SetProperty(CS.XiaWorld.Fight.g_emFaBaoP.AttackPower, 6600)
@@ -214,7 +222,6 @@ function SC:SWFS1()
                 npc.PropertyMgr.Practice:AddPractice(90000000)
                 npc.PropertyMgr.Practice:BrokenNeck()
             end
-        
         end
     end
     npc.PropertyMgr.Practice:MakeGold(100000000)
@@ -230,7 +237,7 @@ function SC:SWFS1()
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
     npc.Equip:UnEquipItem(CS.XiaWorld.g_emEquipType.AtkFabao, false)
     local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count-1 do -- 删除NPC 身上物品
+    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
         ThingMgr:RemoveThing(npcitems[0])
     end
     local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
@@ -239,8 +246,7 @@ function SC:SWFS1()
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
-    local fabaoname = 
-    {
+    local fabaoname = {
         "Fighting Dragon",
         "Heavenly Power",
         "Taixu God King",
@@ -249,7 +255,16 @@ function SC:SWFS1()
         "Purple Dragon King Wrath"
     }
     for i = 1, 6, 1 do
-        local item = CS.XiaWorld.ItemRandomMachine.RandomFabao(CS.XiaWorld.g_emItemLable.FightFabao, 0, 12, 100, "Item_LQ", "Item_StarEssence", 10)
+        local item =
+            CS.XiaWorld.ItemRandomMachine.RandomFabao(
+            CS.XiaWorld.g_emItemLable.FightFabao,
+            0,
+            12,
+            100,
+            "Item_LQ",
+            "Item_StarEssence",
+            10
+        )
         npc.map:DropItem(item, npc.Key, true, true, false, true, 5)
         item:SetName(fabaoname[i])
         item.Fabao:SetProperty(CS.XiaWorld.Fight.g_emFaBaoP.AttackPower, 5000)
@@ -288,7 +303,7 @@ function SC:ST()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
     local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count-1 do -- 删除NPC 身上物品
+    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
         ThingMgr:RemoveThing(npcitems[0])
     end
     local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
@@ -343,7 +358,7 @@ function SC:ST1()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 4)
     local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count-1 do -- 删除NPC 身上物品
+    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
         ThingMgr:RemoveThing(npcitems[0])
     end
     local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器

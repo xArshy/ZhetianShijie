@@ -50,7 +50,8 @@ end
 function XG:LXDT2()
     local zj = me.npcObj
     zj:LeaveMapExplore()
-    zj:LeaveFlying()    for i = 1, 9, 3 do
+    zj:LeaveFlying()
+    for i = 1, 9, 3 do
         local npc = CS.XiaWorld.NpcRandomMechine.RandomNpc("Human")
         NpcMgr:AddNpc(npc, 1000 + 150 * i, Map, CS.XiaWorld.Fight.g_emFightCamp.Enemy)
         ThingMgr:EquptNpc(npc, 5, CS.XiaWorld.g_emNpcRichLable.Normal)
@@ -67,14 +68,10 @@ function XG:LXDT2()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
         for i = 1, 9, 3 do
             local npc = CS.XiaWorld.NpcRandomMechine.RandomNpc("Human")
-
             NpcMgr:AddNpc(npc, 1000 + 150 * i, Map, CS.XiaWorld.Fight.g_emFightCamp.Enemy)
-
             ThingMgr:EquptNpc(npc, 5, CS.XiaWorld.g_emNpcRichLable.Normal)
-
             npc:AddTitle("Disciples in Lingxu Cave", 0, CS.XiaWorld.g_emNpcTitleType.Normal, 3)
             npc.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(), 12)
-
             npc.PropertyMgr:AddFeature("ZTofBody")
             npc.BodyColor = 4
             npc:AddLing(9999999)
@@ -90,16 +87,13 @@ end
 
 function XG:LXDT3()
     local npc = CS.XiaWorld.NpcRandomMechine.RandomNpc("Human")
-
     NpcMgr:AddNpc(npc, 1000, Map, CS.XiaWorld.Fight.g_emFightCamp.Enemy)
-
     ThingMgr:EquptNpc(npc, 5, CS.XiaWorld.g_emNpcRichLable.Normal)
     npc:SetName("Ye Fan")
     npc.PropertyMgr:AddFeature("GodBody")
     npc.LuaHelper:AddTitle("Elder Eucharist", "The first Eucharist to break the curse after the ancient times", 4)
     npc.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(), 12)
     npc.PropertyMgr.Practice:RandomTree()
-
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
     npc.BodyColor = 4
     npc:AddLing(9999999)
@@ -322,9 +316,9 @@ function XG:JJHFF2()
     NpcMgr:AddNpc(npc, 1100, Map, CS.XiaWorld.Fight.g_emFightCamp.Enemy)
 
     ThingMgr:EquptNpc(npc, 9, CS.XiaWorld.g_emNpcRichLable.Normal)
-    npc:SetName("Mai")
+    npc:SetName("Maiden")
     npc.PropertyMgr:AddFeature("ZTofBody")
-    npc.LuaHelper:AddTitle("Mysterious Mai Man", "。。。。", 3)
+    npc.LuaHelper:AddTitle("Mysterious Maiden", "。。。。", 3)
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
     npc.BodyColor = 4
@@ -369,7 +363,7 @@ function XG:JJHFF2()
     ThingMgr:EquptNpc(npc, 9, CS.XiaWorld.g_emNpcRichLable.Normal)
     npc:SetName("Linen head")
     npc.PropertyMgr:AddFeature("ZTofBody")
-    npc.LuaHelper:AddTitle("Mysterious Mai Man", "。。。。", 3)
+    npc.LuaHelper:AddTitle("Mysterious Maiden", "。。。。", 3)
     npc.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(), 12)
     npc.PropertyMgr.Practice:RandomTree()
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -413,9 +407,9 @@ function XG:JJHFF2()
     NpcMgr:AddNpc(npc, 1020, Map, CS.XiaWorld.Fight.g_emFightCamp.Enemy)
 
     ThingMgr:EquptNpc(npc, 9, CS.XiaWorld.g_emNpcRichLable.Normal)
-    npc:SetName("Mai")
+    npc:SetName("Maiden")
     npc.PropertyMgr:AddFeature("ZTofBody")
-    npc.LuaHelper:AddTitle("Mysterious Mai Man", "。。。。", 3)
+    npc.LuaHelper:AddTitle("Mysterious Maiden", "。。。。", 3)
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
     npc.BodyColor = 4
     npc:AddLing(9999999)
@@ -524,9 +518,9 @@ function XG:JJHFF()
     NpcMgr:AddNpc(npc, 1210, Map, CS.XiaWorld.Fight.g_emFightCamp.Enemy)
 
     ThingMgr:EquptNpc(npc, 9, CS.XiaWorld.g_emNpcRichLable.Normal)
-    npc:SetName("Mai")
+    npc:SetName("Maiden")
     npc.PropertyMgr:AddFeature("ZTofBody")
-    npc.LuaHelper:AddTitle("Mysterious Mai Man", "。。。。", 3)
+    npc.LuaHelper:AddTitle("Mysterious Maiden", "。。。。", 3)
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
     npc.BodyColor = 4
@@ -573,7 +567,7 @@ function XG:JJHFF()
     npc.PropertyMgr:AddFeature("ZTofBody")
     npc.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(), 12)
     npc.PropertyMgr.Practice:RandomTree()
-    npc.LuaHelper:AddTitle("Mysterious Mai Man", "。。。。", 3)
+    npc.LuaHelper:AddTitle("Mysterious Maiden", "。。。。", 3)
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
     npc.BodyColor = 4
     npc:AddLing(9999999)
@@ -615,9 +609,9 @@ function XG:JJHFF()
     NpcMgr:AddNpc(npc, 1110, Map, CS.XiaWorld.Fight.g_emFightCamp.Enemy)
 
     ThingMgr:EquptNpc(npc, 9, CS.XiaWorld.g_emNpcRichLable.Normal)
-    npc:SetName("麻衣人")
+    npc:SetName("Maiden")
     npc.PropertyMgr:AddFeature("ZTofBody")
-    npc.LuaHelper:AddTitle("神秘麻衣人", "。。。。", 3)
+    npc.LuaHelper:AddTitle("Mysterious Maiden", "。。。。", 3)
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
     npc.BodyColor = 4
     npc:AddLing(9999999)
@@ -658,7 +652,7 @@ end
 
 function XG:KQWDF()
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("姜家圣主")
+    npc:SetName("Lord Jiang Family")
     npc.PropertyMgr:AddFeature("ZTofBody")
     npc.PropertyMgr:AddModifier("ZT_ALL")
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -714,7 +708,7 @@ function XG:KQWDF()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("瑶光圣主")
+    npc:SetName("Lord Yaoguang")
     npc.PropertyMgr:AddFeature("ZTofBody")
     npc.PropertyMgr:AddModifier("ZT_ALL")
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -781,7 +775,7 @@ function XG:KQWDF()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("姬家圣主")
+    npc:SetName("Lord Ji Family")
     npc.PropertyMgr:AddFeature("ZTofBody")
     npc.PropertyMgr:AddModifier("ZT_ALL")
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -849,7 +843,7 @@ function XG:KQWDF()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("姚曦")
+    npc:SetName("Yao Xi")
     npc.PropertyMgr:AddFeature("ZTofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Female)
@@ -905,7 +899,7 @@ function XG:KQWDF()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("瑶光圣子")
+    npc:SetName("Yaoguang Shengzi")
     npc.PropertyMgr:AddFeature("ZTofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -962,7 +956,7 @@ function XG:KQWDF()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("姬皓月")
+    npc:SetName("Ji Haoyue")
     npc.PropertyMgr:AddFeature("KingofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -1021,7 +1015,7 @@ end
 
 function XG:YXYG()
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("姚曦")
+    npc:SetName("Yao Xi")
     npc.PropertyMgr:AddFeature("ZTofBody")
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Female)
 
@@ -1090,7 +1084,7 @@ end
 
 function XG:KQWDF2()
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("姚曦")
+    npc:SetName("Yao Xi")
     npc.PropertyMgr:AddFeature("ZTofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Female)
@@ -1147,7 +1141,7 @@ function XG:KQWDF2()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("瑶光圣子")
+    npc:SetName("Yaoguang Shengzi")
     npc.PropertyMgr:AddFeature("ZTofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -1204,7 +1198,7 @@ function XG:KQWDF2()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("姬皓月")
+    npc:SetName("Ji Haoyue")
     npc.PropertyMgr:AddFeature("KingofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -1263,7 +1257,7 @@ end
 
 function XG:DDLQ()
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("姚曦")
+    npc:SetName("Yao Xi")
     npc.PropertyMgr:AddFeature("ZTofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Female)
@@ -1319,7 +1313,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("瑶光圣子")
+    npc:SetName("Yaoguang Shengzi")
     npc.PropertyMgr:AddFeature("ZTofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -1376,7 +1370,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("姬皓月")
+    npc:SetName("Ji Haoyue")
     npc.PropertyMgr:AddFeature("KingofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -1432,7 +1426,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("瑶光圣子")
+    npc:SetName("Yaoguang Shengzi")
     npc.PropertyMgr:AddFeature("ZTofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -1489,7 +1483,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("金翅小鹏王")
+    npc:SetName("Golden Wing King Xiaopeng")
     npc.PropertyMgr:AddFeature("ZTofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -1546,7 +1540,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("姜家圣体")
+    npc:SetName("Jiang Family Eucharist")
     npc.PropertyMgr:AddFeature("ZTofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -1603,7 +1597,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("太初圣子")
+    npc:SetName("The First Son")
     npc.PropertyMgr:AddFeature("ZTofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -1660,7 +1654,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("太初圣女")
+    npc:SetName("Virgin")
     npc.PropertyMgr:AddFeature("ZTofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Female)
@@ -1717,7 +1711,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("阴阳圣子")
+    npc:SetName("Yin Yang Sheng Zi")
     npc.PropertyMgr:AddFeature("ZTofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -1774,7 +1768,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("阴阳圣女")
+    npc:SetName("Yin Yang Sheng Nuo")
     npc.PropertyMgr:AddFeature("ZTofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Female)
@@ -1831,7 +1825,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("大衍圣女")
+    npc:SetName("The Great Virgin")
     npc.PropertyMgr:AddFeature("ZTofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Female)
@@ -1888,7 +1882,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("幻灭宫弟子")
+    npc:SetName("Disciple of The Palace")
     npc.PropertyMgr:AddFeature("ZTofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -2721,7 +2715,7 @@ end
 
 function XG:YSJC()
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("金翅小鹏王")
+    npc:SetName("Golden Wing King Xiaopeng")
     npc.PropertyMgr:AddFeature("ZTofBody")
     npc.LuaHelper:AddTitle("天鹏之躯", "以龙象为食，以天鹏极速出名。", 4)
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -2770,7 +2764,7 @@ end
 
 function XG:YSJC1()
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("金翅小鹏王")
+    npc:SetName("Golden Wing King Xiaopeng")
     npc.PropertyMgr:AddFeature("ZTofBody")
     npc.LuaHelper:AddTitle("天鹏之躯", "以龙象为食，以天鹏极速出名。", 4)
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -6834,7 +6828,7 @@ function XG:JJDN1()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     for i = 2, 8, 3 do
         npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-        npc:SetName("姬家大能")
+        npc:SetName("Ji Family Power")
         npc.PropertyMgr:AddFeature("ZTofBody")
         npc.PropertyMgr:AddModifier("ZT_ALL")
         npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -6892,7 +6886,7 @@ function XG:JJDN1()
             if count == 0 then
                 local data = {
                     Kind = CS.XiaWorld.Fight.g_emFabaoSpecialAbility.HitCountAddSubColdDown,
-                    Desc = "虚空经：每攻击21次减少10s术法cd",
+                    Desc = "Void Warp: Decrease 10s spell cd for every 21 attacks",
                     nParam1 = "21",
                     fParam1 = "10"
                 }
@@ -6901,7 +6895,7 @@ function XG:JJDN1()
             if count == 1 then
                 local data = {
                     Kind = CS.XiaWorld.Fight.g_emFabaoSpecialAbility.HitCountCostSkill,
-                    Desc = "虚空大手印：每攻击30次释放一次虚空大手印",
+                    Desc = "Void Large Fingerprint: The Void Large Fingerprint is released every 30 attacks",
                     nParam1 = "30",
                     fParam1 = "TDJ_DJ_XKDSY"
                 }
