@@ -1,44 +1,44 @@
 <Esotericas><List>
 	
-	<!-- ==========================技能1========================== -->
+	<!-- ==========================Skill 1========================== -->
 	
 	<Esoterica Name="Gong_XKJ_LH_A1">
-		<DisplayName>大道至简</DisplayName>
+		<DisplayName>Avenue to Jane</DisplayName>
 		<Icon>Spr\Object\JN\ZT_XKJ\DDZJ.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>15</Difficulty>
-		<Desc>空间之道在于，静为动，动亦有静。</Desc>
+		<Desc>The way of space lies in that static is dynamic, and there is also static.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
 		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    一重天    \n加机缘1\n加神识1\n加潜力2\n习得神通：空间漫游[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    A Heavy Heaven \nPlus Opportunity 1 \nPlus Divine Awareness 1 \nPlus Potential 2 \nLearn Magic: Space Roaming[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_LH_1A</Modifier>
 		<Magics>
 			<li>ZT_DDZJ</li>
 		</Magics>
 	</Esoterica>
 	<Esoterica Name="Gong_XKJ_LH_A1_1">
-		<DisplayName>大道至简</DisplayName>
+		<DisplayName>Avenue to Jane</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\DDZJ.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>空间之道在于，静为动，动亦有静</Desc>
+		<Desc>The way of space is that static is dynamic, and there is static</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
-		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性1\n加历练速度2\n加个人灵力最大值1500[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    Double Days \n plus five-dimensional attribute 1 \n plus experience speed 2 \n plus personal spiritual maximum 1500[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_LH_1A_1</Modifier>
 	</Esoterica>
 	<Esoterica Name="Gong_XKJ_LH_A1_2">
-		<DisplayName>大道至简</DisplayName>
+		<DisplayName>Avenue to Jane</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\DDZJ.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>空间之道在于，静为动，动亦有静。</Desc>
+		<Desc>The way of space lies in that static is dynamic, and there is also static.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
-		<EffectDesc>[size=10][color=#D06508]    三重天    \n加潜力3\n加灵力恢复2\n加心境[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    Triple Heaven \nPlus Potential 3 \nPlus Spirit Power Recovery 2 \nPlus Mood[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_LH_1A_2</Modifier>
 	</Esoterica>
 	
@@ -46,15 +46,15 @@
 	<!-- ==========================技能2========================== -->
 	
 	<Esoterica Name="Gong_XKJ_LH_A2_XKDSY">
-		<DisplayName>虚空大手印</DisplayName>
+		<DisplayName>Void Handprint</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_DJ_XKDSY.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>15</Difficulty>
-		<Desc>虚空经中不传之秘技，于虚空之中，迅速凝结一个巨大的手印。</Desc>
+		<Desc>The secret technique that is not passed on in the Void Suddenly condenses a huge handprint in the Void.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
-		<EffectDesc>[size=10][color=#D06508] \n加神识1\n加战斗等级上限10\n习得  秘术：\n虚空大手印（每次使用永久打散目标10000灵力值上限）[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508] \nIncrease Divine Consciousness 1 \nAdd battle level upper limit 10 \nAcquired Mystery: \nVoid Great Handprint (Each time you permanently break the target 10000 spiritual power limit)[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_LH_2A_XKDSY</Modifier>
 		<Skills>
 			<li>TDJ_DJ_XKDSY</li>
@@ -64,41 +64,41 @@
 	<!-- ==========================技能3========================== -->
 	
 	<Esoterica Name="Gong_XKJ_LH_A3">
-		<DisplayName>消万物</DisplayName>
+		<DisplayName>Consumers</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\WW.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>15</Difficulty>
-		<Desc>以空间为粮，以万物养灵。</Desc>
+		<Desc>Take space as food and raise spirits with everything.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
-		<EffectDesc>[size=10][color=#D06508]\n提升灵气最大值2000\n提高灵气恢复速度2\n习得神通；空间化劫（每次使用增加200寿元5点天谴）[/color][/size][/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]\nIncrease the maximum value of Reiki 2000 \nImprove the recovery speed of Reiki 2 \nLearn magical powers; Spatialization (add 200 life yuan 5 points per day to use)[/color][/size][/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_LH_3A</Modifier>
 	</Esoterica>
 	
 	<Esoterica Name="Gong_XKJ_LH_A3_1">
-		<DisplayName>化万物</DisplayName>
+		<DisplayName>All things</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\WW.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>以空间为粮，以万物养灵。。</Desc>
+		<Desc>Take space as food and raise spirits with everything. .</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
-		<EffectDesc>[size=10][color=#D06508]\n大幅提升灵气最大值4000\n提高寿命1200\n大幅提高法术技能等级极限7[/color][/size][/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]\nGreatly increase the maximum Aura 4000 \nLong life 1200 \nGreatly increase the spell skill level limit 7[/color][/size][/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_LH_3A_1</Modifier>
 	</Esoterica>
 	
 		<Esoterica Name="Gong_XKJ_LH_A3_2">
-		<DisplayName>协万物</DisplayName>
+		<DisplayName>Xiewuwu</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\WW.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>以空间为粮，以万物养灵。</Desc>
+		<Desc>Take space as food and raise spirits with everything.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
-		<EffectDesc>[size=10][color=#D06508]\n减低天谴值40\n提高灵力恢复3\n习得神通：化伤术 再造术[/color][/size][/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]\nDecrease the value of Heaven's Condemnation by 40 \nIncrease Spirit Recovery 3 \nAcquisition of Supernatural Power: Rejuvenation and Reconstruction[/color][/size][/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_LH_3A_2</Modifier>
 		<Magics>
 			<li>Healing_Damage</li>
@@ -108,27 +108,27 @@
 	<!-- ==========================技能4========================== -->
 	
 	<Esoterica Name="Gong_XKJ_LH_B1">
-		<DisplayName>大虚空术</DisplayName>
+		<DisplayName>Great Void</DisplayName>
 		<Icon>Spr\Object\JN\ZT_XKJ\DXKS.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>15</Difficulty>
-		<Desc>鬼神莫测，极其玄奥，修炼到极致，可以穿越虚空，无法捕捉身影，名副其实的神出鬼没，在通常情况下，可占据绝对的主动。。</Desc>
+		<Desc>Ghosts and gods are unpredictable, extremely mysterious, and extremely refined, they can pass through the void, unable to capture the figure, and the veritable gods haunt the ghosts. Under normal circumstances, they can take absolute initiative. .</Desc>
 		<GLevel>Dan1</GLevel>
 		<Element>None</Element>
 		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    一重天    \n加炉鼎值3500\n加移动速度20\n加历练声望系数值5[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    A heavy day \nPlus furnace value 3500 \nPlus movement speed 20 \nPlus experience reputation factor value 5[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_LH_1B</Modifier>
 	</Esoterica>
 	<Esoterica Name="Gong_XKJ_LH_B1_1">
-		<DisplayName>大虚空术</DisplayName>
+		<DisplayName>Great Void</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\DXKS.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>鬼神莫测，极其玄奥，修炼到极致，可以穿越虚空，无法捕捉身影，名副其实的神出鬼没，在通常情况下，可占据绝对的主动。</Desc>
+		<Desc>Ghosts and gods are unpredictable, extremely mysterious, and extremely refined, they can pass through the void, unable to capture the figure, and the veritable gods haunt the ghosts. Under normal circumstances, they can take absolute initiative.</Desc>
 		<GLevel>Dan1</GLevel>
 		<Element>Mu</Element>
-		<EffectDesc>[size=10][color=#D06508]    二重天    \n加法宝威力4\n加术法威力4\n法宝等级上限7[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    Double sky    \nBonus Power 4 \n Bonus Power 4 \nMagic Level 7[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_LH_1B_1</Modifier>
 	</Esoterica>
 	
@@ -140,15 +140,15 @@
 	<!-- ==========================技能5========================== -->
 	
 	<Esoterica Name="Gong_XKJ_LH_B3_SDSS">
-		<DisplayName>截天指</DisplayName>
+		<DisplayName>Cut off</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\JTZ.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>15</Difficulty>
-		<Desc>该指乃是虚空经中的一门绝学，威力奇大，奥妙无穷。</Desc>
+		<Desc>The finger is a unique skill in the Void Scripture, which is extremely powerful and endless.</Desc>
 		<GLevel>Dan1</GLevel>
 		<Element>None</Element>
-		<EffectDesc>[size=10][color=#D06508]\n加法宝回灵倍率2\n加法宝击退距离4 \n习得  秘术：\n截天指[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]\nReinforced Magic Regeneration Multiplier 2 \nAdditional Repelled Knockback Distance 4 \nLearned Mystery: \nIntercept[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_LH_3B_SDSS</Modifier>
 		<Skills>
 			<li>ZT_JTZ</li>
@@ -158,53 +158,53 @@
 	<!-- ==========================分割线========================== -->
 	
 	<Esoterica Name="Gong_XKJ_SJ_C1">
-		<DisplayName>空间风暴</DisplayName>
+		<DisplayName>Space storm</DisplayName>
 		<Icon>Spr\Object\JN\ZT_XKJ\KJFB.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>15</Difficulty>
-		<Desc>达到极度的虚空，以静制动，以无攻有。</Desc>
+		<Desc>Reaching the extreme void, with static braking, without attack.</Desc>
 		<GLevel>Dan2</GLevel>
 		<Element>None</Element>
 		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    一重天    \n加个人灵力值2\n法宝数量1\n加法宝威力4[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    A heavy day    \nAdd personal spiritual value 2 \nNumber of magic weapons 1 \nAdd magic weapon power 4[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_SJ_1C</Modifier>
 	</Esoterica>
 	<Esoterica Name="Gong_XKJ_SJ_C1_1">
-		<DisplayName>空间风暴</DisplayName>
+		<DisplayName>Space storm</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\KJFB.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>达到极度的虚空，以静制动，以无攻有。</Desc>
+		<Desc>Reaching the extreme void, with static braking, without attack.</Desc>
 		<GLevel>Dan2</GLevel>
 		<Element>None</Element>
-		<EffectDesc>[size=10][color=#D06508]    二重天    \n法宝数量1\n加御器等级十级\n减低天谴值20[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    Double sky    \nThe number of magic weapons is 1 \n plus the tenth level of the weapon level \n reduces the value of the condemnation by 20[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_SJ_1C_1</Modifier>
 	</Esoterica>
 	<Esoterica Name="Gong_XKJ_SJ_C1_2">
-		<DisplayName>空间风暴</DisplayName>
+		<DisplayName>Space storm</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\KJFB.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>达到极度的虚空，以静制动，以无攻有。</Desc>
+		<Desc>Reaching the extreme void, with static braking, without attack.</Desc>
 		<GLevel>Dan2</GLevel>
 		<Element>None</Element>
-		<EffectDesc>[size=10][color=#D06508]    三重天    \n加护盾强度2\n加术法威力4\n加术法等级10[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    Triple sky    \nIncrease shield strength 2 \nAdd spell power 4 \nAdd spell level 10[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_SJ_1C_2</Modifier>
 	</Esoterica>
 	
 	
 	<Esoterica Name="Gong_XKJ_SJ_C2_YQ">
-		<DisplayName>气虚化有</DisplayName>
+		<DisplayName>Qi deficiency</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\QXHY.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>15</Difficulty>
-		<Desc>大道如测，万物之宗，和光同尘。。。。</Desc>
+		<Desc>The avenue is unpredictable, the ancestor of all things, and the light and dust. . . .</Desc>
 		<GLevel>Dan2</GLevel>
 		<Element>None</Element>
-		<EffectDesc>[size=10][color=#D06508]\n习得  神通：\n气虚化修[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]\nAcquired Supernatural Power: \nQi Huaxu[/color][/size]</EffectDesc>
 		<Magics>
 			<li>ZT_QXHX</li>
 			<li>BuildBody</li>
@@ -212,30 +212,30 @@
 	</Esoterica>
 	
 	<Esoterica Name="Gong_XKJ_SJ_C1_YQ_1">
-		<DisplayName>气虚化有</DisplayName>
+		<DisplayName>Qi deficiency</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\QXHY.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>大道如测，万物之宗，和光同尘。。。。</Desc>
+		<Desc>The avenue is unpredictable, the ancestor of all things, and the light and dust. . . .</Desc>
 		<GLevel>Dan2</GLevel>
 		<Element>None</Element>
-		<EffectDesc>[size=10][color=#D06508]\n习得  秘术：\n气虚化有[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]\nLearned Mystery: \nQi has[/color][/size]</EffectDesc>
 		<Skills>
 			<li>ZT_QXHY</li>
 		</Skills>
 	</Esoterica>
 	
 	<Esoterica Name="Gong_XKJ_SJ_C1_YQ_2">
-		<DisplayName>气虚化有</DisplayName>
+		<DisplayName>Qi deficiency</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\QXHY.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>大道如测，万物之宗，和光同尘。。。。</Desc>
+		<Desc>The avenue is unpredictable, the ancestor of all things, and the light and dust. . . .</Desc>
 		<GLevel>Dan2</GLevel>
 		<Element>None</Element>
-		<EffectDesc>[size=10][color=#D06508]n习得  秘术：\n空空如也[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]nLearned Mystery: \nEmpty[/color][/size]</EffectDesc>
 		<Skills>
 			<li>ZT_KKRY</li>
 		</Skills>
@@ -243,27 +243,27 @@
 	
 		
 	<Esoterica Name="Gong_XKJ_SJ_C3">
-		<DisplayName>虚断两界</DisplayName>
+		<DisplayName>Imaginary two realms</DisplayName>
 		<Icon>Spr\Object\JN\ZT_XKJ\XDLJ.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>15</Difficulty>
-		<Desc>虚空经的禁忌篇秘术，曾将轮回海一位至尊的肉身与元神分割，融化与虚无中。</Desc>
+		<Desc>The taboo esoteric technique of the Void Sutra once divided the supreme physical body of the reincarnation sea from the Yuanshen, melting and vanity.</Desc>
 		<GLevel>Dan2</GLevel>
 		<Element>None</Element>
 		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    实凝    \n加法宝威力4\n加个人灵气3\n加个人回灵2[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    Real Condensation \nAdd Magic Power 4 \nAdd Personal Aura 3 \nAdd Personal Healing 2[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_SJ_3C</Modifier>
 	</Esoterica>
 	<Esoterica Name="Gong_XKJ_SJ_C3_1">
-		<DisplayName>虚断两界</DisplayName>
+		<DisplayName>Imaginary two realms</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\XDLJ.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>15</Difficulty>
-		<Desc>虚空经的禁忌篇秘术，曾将轮回海一位至尊的肉身与元神分割，融化与虚无中</Desc>
+		<Desc>The taboo secret technique of the Void Sutra, once divided the supreme body of the reincarnation sea from the Yuanshen, melting and vanity</Desc>
 		<GLevel>Dan2</GLevel>
 		<Element>None</Element>
-		<EffectDesc>[size=10][color=#D06508]    虚断   \n加法术威力4\n加护盾强度值2\n战斗等级上限10\n习得秘术：虚断两界[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    False Break \nPlus Spell Power 4 \nPlus Shield Strength 2 \nMaximum Battle Level 10 \nLearned Mysteries: False Break Two Realms[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_SJ_3C_1</Modifier>
 		<Skills>
 			<li>ZT_XDLJ</li>
@@ -271,62 +271,62 @@
 	</Esoterica>
 	
 	<Esoterica Name="Gong_XKJ_HL_D1">
-		<DisplayName>无虚空间</DisplayName>
+		<DisplayName>No virtual space</DisplayName>
 		<Icon>Spr\Object\JN\ZT_XKJ\WXKJ.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>20</Difficulty>
-		<Desc>极尽空间之道，与空间合二为一，吾就是道，道便是我。</Desc>
+		<Desc>The way of the most space, and the space into one, I am the way, the way is me.</Desc>
 		<GLevel>God</GLevel>
 		<Element>Jin</Element>
 		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]        \n加灵气恢复速度2\n加灵气最大值3\n战斗等级上限10[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]        \nAdd Aura Recovery Speed ​​2 \nAdd Aura Max 3 \nMaximum Battle Level 10[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_HL_1D</Modifier>
 	</Esoterica>
 	<Esoterica Name="Gong_XKJ_HL_D1_1">
-		<DisplayName>无虚空间</DisplayName>
+		<DisplayName>No virtual space</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\WXKJ.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>极尽空间之道，与空间合二为一，吾就是道，道便是我。</Desc>
+		<Desc>The way of the most space, and the space into one, I am the way, the way is me.</Desc>
 		<GLevel>God</GLevel>
 		<Element>Jin</Element>
-		<EffectDesc>[size=10][color=#D06508]        \n加阵法负荷能力30\n加术法威力4\n加法宝威力4[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]        \nArray load capacity 30 \nAdd spell power 4 \nAdd spell power 4[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_HL_1D_1</Modifier>
 	</Esoterica>
 	<Esoterica Name="Gong_XKJ_HL_D1_2">
-		<DisplayName>无虚空间</DisplayName>
+		<DisplayName>No virtual space</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\WXKJ.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>极尽空间之道，与空间合二为一，吾就是道，道便是我。</Desc>
+		<Desc>The way of the most space, and the space into one, I am the way, the way is me.</Desc>
 		<GLevel>Dan2</GLevel>
 		<Element>Jin</Element>
-		<EffectDesc>[size=10][color=#D06508]        \n加法术等级极限10\n加法宝灵力最大值4\n加法宝等级上限10[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]        \nMax spell level limit 10 \nMaximum magic power 4 \nMaximum spell level 10[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_HL_1D_2</Modifier>
 	</Esoterica>
 	
 	<Esoterica Name="Gong_XKJ_HL_D2">
-		<DisplayName>虚空镜</DisplayName>
+		<DisplayName>Void Mirror</DisplayName>
 		<Icon>Spr\Object\JN\ZT_XKJ\XKJ.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>15</Difficulty>
-		<Desc>一尊古朴的铜镜，似带着无尽的威能，一丝丝混沌气息流转而出。</Desc>
+		<Desc>A quaint bronze mirror, with seemingly endless power, traces of chaotic breath flowing out.</Desc>
 		<GLevel>God</GLevel>
 		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    器胚    \n加炼器成功率\n加炼器速度\n加神器成功率[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    Embryo \nSmelter success rate \nSmelter speed \nAdd artifact success rate[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_HL_2D</Modifier>
 	</Esoterica>
 	<Esoterica Name="Gong_XKJ_HL_D2_1">
-		<DisplayName>虚空镜</DisplayName>
+		<DisplayName>Void Mirror</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\XKJ.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>15</Difficulty>
-		<Desc>一尊古朴的铜镜，似带着无尽的威能，一丝丝混沌气息流转而出。</Desc>
+		<Desc>A quaint bronze mirror, with seemingly endless power, traces of chaotic breath flowing out.</Desc>
 		<GLevel>God2</GLevel>
-		<EffectDesc>[size=10][color=#D06508]    镜成    \n炼器品质加成\n炼成神器概率\n习得 极道帝兵：虚空镜[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    Mirror Cheng \nRefining Tool Quality Bonus \nProbability of Refining Artifact \nAcquisition Extreme Emperor: Void Mirror[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_HL_2D_1</Modifier>
 		<Fabaos>
 			<li>TDJ_XKJ</li>
@@ -338,55 +338,55 @@
 	
 	
 	<Esoterica Name="Gong_XKJ_XT_F1">
-		<DisplayName>虚空大道</DisplayName>
+		<DisplayName>Void Avenue</DisplayName>
 		<Icon>Spr\Object\JN\ZT_XKJ\XKDD.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>20</Difficulty>
-		<Desc>证道虚空，掌控虚空之极尽，独战苍穹动虚空。。</Desc>
+		<Desc>Prove the void, control the void to the limit, and fight the sky alone. .</Desc>
 		<GLevel>God2</GLevel>
 		<Element>None</Element>
 		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    一重天    \n加灵气恢复速度3\n加护盾等级上限5\n加法宝数量1[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    A Heavy Sky \nPlus Aura Recovery Speed ​​3 \nPlus Shield Level Cap 5 \nPlus Number of Magic Power[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_XT_1F</Modifier>
 	</Esoterica>
 	<Esoterica Name="Gong_XKJ_XT_F1_1">
-		<DisplayName>虚空大道</DisplayName>
+		<DisplayName>Void Avenue</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\XKDD.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>证道虚空，掌控虚空之极尽，独战苍穹动虚空。。</Desc>
+		<Desc>Prove the void, control the void to the limit, and fight the sky alone. .</Desc>
 		<GLevel>God2</GLevel>
 		<Element>None</Element>
-		<EffectDesc>[size=10][color=#D06508]    二重天    \n加全属性伤害减免0.5\n减低术法消耗0.25\n加法宝恢复2\n习得 秘术：虚空境（每次命中减少敌人0.15攻击命中）[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    Double Sky \nAdditional damage reduction of 0.5 \nReduction of spell cost 0.25 \nAdditional magic recovery 2 \nLearned Mystery: Void (Each hit reduces enemy hit by 0.15)[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_XT_1F_1</Modifier>
 	</Esoterica>
 	
 	<Esoterica Name="Gong_XKJ_TDQ">
-		<DisplayName>无上禁忌秘术</DisplayName>
+		<DisplayName>Supreme Taboo</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XKJ\WSJJMS.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>45</Difficulty>
-		<Desc>属于终极秘篇中的内容，使用者身前绽放九彩（做不到），那是虚空之花在展开，虚空静止，时间静止，镇压永恒。</Desc>
+		<Desc>It belongs to the content of the ultimate secret, the user is blooming nine colors in front of him (can't do it), that is, the flower of the void is unfolding, the void is still, the time is still, and the suppression is eternal.</Desc>
 		<GLevel>God2</GLevel>
 		<Element>None</Element>
-		<EffectDesc>[size=10][color=#D06508]\n习得  秘术：\n无上禁忌秘术（消耗1800年的寿元，摧毁第一个法宝，对目标额外造成法宝威力10倍的伤害,只属于虚空经的秘术。）[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]\nLearned Mysteries: \nSupreme Taboo Mysteries (It consumes 1800 years of Shou Yuan, destroys the first magic weapon, and causes an additional 10 times the power of the magic weapon to the target. It is only a mystery of the Void Scripture.)[/color][/size]</EffectDesc>
 		<Skills>
 			<li>ZT_WSJJMS</li>
 		</Skills>
 	</Esoterica>
 	
 	<Esoterica Name="Gong_XKJ_XT_ZD">
-		<DisplayName>红尘仙</DisplayName>
+		<DisplayName>Red Dust Fairy</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_ZD.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>100</Difficulty>
-		<Desc>万法皆同道，虚空之界，亦有仙之界。仙之人，自在世间。</Desc>
+		<Desc>All methods are the same, and there is also a realm of immortality. The fairy is free in the world.</Desc>
 		<GLevel>God2</GLevel>
 		<Element>None</Element>
-		<EffectDesc>[size=10][color=#D06508]\n加寿元和加回灵倍率\n加三十道元神分神\n加炉鼎\n加神器成功率\n加术法威力和加法宝威力[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]\nIncrease Shouyuan and Add Spirit Multiplier \nAdd Thirty Dao Yuan Divine Distraction \nAdd Furnace Tripod \nAdd Artifact Success Rate \nAdd Spell Power and Add Spell Power[/color][/size]</EffectDesc>
 		<Modifier>Gong_XKJ_XT_DZ</Modifier>
 		<GodSoulCount>30</GodSoulCount>
 	</Esoterica>
