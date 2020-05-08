@@ -6715,7 +6715,7 @@ function XG:JJDN()
             if count == 1 then
                 local data = {
                     Kind = CS.XiaWorld.Fight.g_emFabaoSpecialAbility.HitCountCostSkill,
-                    Desc = "虚空大手印：每攻击30次释放一次虚空大手印",
+                    Desc = "Great Void Hand Seal：Unleash Great Void Hand Seal every 30 attacks",
                     nParam1 = "30",
                     fParam1 = "TDJ_DJ_XKDSY"
                 }
@@ -6801,7 +6801,7 @@ function XG:JJDN1()
         if count == 1 then
             local data = {
                 Kind = CS.XiaWorld.Fight.g_emFabaoSpecialAbility.HitCountCostSkill,
-                Desc = "虚空大手印：每攻击15次释放一次虚空大手印",
+                Desc = "Great Void Hand Seal：Unleash Great Void Hand Seal every 15 attacks",
                 nParam1 = "15",
                 fParam1 = "TDJ_DJ_XKDSY"
             }
@@ -6895,7 +6895,7 @@ function XG:JJDN1()
             if count == 1 then
                 local data = {
                     Kind = CS.XiaWorld.Fight.g_emFabaoSpecialAbility.HitCountCostSkill,
-                    Desc = "Void Large Fingerprint: The Void Large Fingerprint is released every 30 attacks",
+                    Desc = "Great Void Hand Seal：Unleash Great Void Hand Seal every 30 attacks",
                     nParam1 = "30",
                     fParam1 = "TDJ_DJ_XKDSY"
                 }
