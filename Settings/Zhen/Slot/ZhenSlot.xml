@@ -1,177 +1,144 @@
-<ZhenSlotDefs><List>
-	
-	<Def Name="Lv4_X" DisplayName="Immortal">
-		<Lv>4</Lv>
-		<SlotType>Lv4_X</SlotType> 
-		<Effect>
-	
-			<li Type="StabilityBasev" Value="5" />
-		</Effect>
-		<CoreEffect>
-		
-			<li Type="StabilityAddp" Value="0.6" />
-		</CoreEffect>
-	</Def>
-	<Def Name="Lv4_J" DisplayName="territory">
-		<Lv>4</Lv>
-		<SlotType>Lv4_J</SlotType> 
-		<Effect>
-			
-			<li Type="SheildBasev" Value="5" />
-			
-		</Effect>
-		<CoreEffect>
-			
-			<li Type="SheildAddp" Value="0.6" />
-			
-		</CoreEffect>
-	</Def>
-	
-	
-	
-	
-	<Def Name="Lv4_D" DisplayName="Road">
-		<Lv>4</Lv>
-		<SlotType>Lv4_D</SlotType> 
-		<Effect>
-			<li Type="MagicPowerBasev" Value="5" />
-			
-		</Effect>
-		<CoreEffect>
-			<li Type="MagicPowerAddp" Value="0.9" />
-			
-		</CoreEffect>
-	</Def>
-	<Def Name="Lv4_W" DisplayName="Pattern">
-		<Lv>4</Lv>
-		<SlotType>Lv4_W</SlotType> 
-		<Effect>
-			<li Type="NpcZhenPressurePowerupBasep" Value="-2" />
-		</Effect>
-		<CoreEffect>
-			
-			<li Type="NpcZhenPressurePowerupAddp" Value="-1" />
-		</CoreEffect>
-	</Def>
-	
-	<Def Name="Lv4_Y" DisplayName="Overcast">
-		<Lv>4</Lv>
-		<SlotType>Lv4_Y</SlotType> 
-		<Effect>
-			<li Type="MagicPowerBasev" Value="5" />
-		</Effect>
-		<CoreEffect>
-			<li Type="MagicPowerAddp" Value="3" />
-		</CoreEffect>
-	</Def>
-	<Def Name="Lv4_M" DisplayName="deep">
-		<Lv>4</Lv>
-		<SlotType>Lv4_M</SlotType> 
-		<Effect>
-			<li Type="SkillCooldownBasev" Value="-5" />
-		</Effect>
-		<CoreEffect>
-			<li Type="SkillCooldownAddp" Value="-1" />
-		</CoreEffect>
-	</Def>
-	
-	
-	
-	
-	<Def Name="Lv4_S" DisplayName="kill">
-		<Lv>4</Lv>
-		<SlotType>Lv4_S</SlotType> 
-		<Effect>
-			<li Type="FabaoAtkPowerBasev" Value="5" />
-		
-		</Effect>
-		<CoreEffect>
-			<li Type="FabaoAtkPowerAddp" Value="3" />
-			
-		</CoreEffect>
-	</Def>
-	<Def Name="Lv4_C" DisplayName="field">
-		<Lv>4</Lv>
-		<SlotType>Lv4_C</SlotType> 
-		<Effect>
-			
-			<li Type="StabilityBasev" Value="4" />
-		</Effect>
-		<CoreEffect>
-			
-			<li Type="StabilityAddp" Value="2" />
-		</CoreEffect>
-	</Def>
-	
-	<Def Name="Lv3_W" DisplayName="Mix">
-		<Lv>3</Lv>
-		<SlotType>Lv3_W</SlotType> 
-		<Effect>
-			
-			<li Type="StabilityBasev" Value="3" />
-		</Effect>
-		<CoreEffect>
-			
-			<li Type="StabilityAddp" Value="1" />
-		</CoreEffect>
-	</Def>
-	<Def Name="Lv3_J" DisplayName="金">
-		<Lv>3</Lv>
-		<SlotType>Lv3_J</SlotType> 
-		<Effect>
-			
-			<li Type="FabaoAtkPowerBasev" Value="3" />
-		</Effect>
-		<CoreEffect>
-			
-			<li Type="FabaoAtkPowerAddp" Value="0.6" />
-		</CoreEffect>
-	</Def>
-	<Def Name="Lv3_M" DisplayName="木">
-		<Lv>3</Lv>
-		<SlotType>Lv3_M</SlotType> 
-		<Effect>
-			
-			<li Type="ReduceCostBasev" Value="4" />
-		</Effect>
-		<CoreEffect>
-			
-			<li Type="ReduceCostAddp" Value="0.6" />
-		</CoreEffect>
-	</Def>
-	<Def Name="Lv3_S" DisplayName="水">
-		<Lv>3</Lv>
-		<SlotType>Lv3_S</SlotType> 
-		<Effect>
-			<li Type="SheildBasev" Value="4" />
-		</Effect>
-		<CoreEffect>
-			<li Type="SheildAddp" Value="0.6" />
-		</CoreEffect>
-	</Def>
-	<Def Name="Lv3_H" DisplayName="火">
-		<Lv>3</Lv>
-		<SlotType>Lv3_H</SlotType> 
-		<Effect>
-			<li Type="MagicPowerBasev" Value="3" />
-		</Effect>
-		<CoreEffect>
-			<li Type="MagicPowerAddp" Value="0.6" />
-		</CoreEffect>
-	</Def>
-	<Def Name="Lv3_T" DisplayName="土">
-		<Lv>3</Lv>
-		<SlotType>Lv3_T</SlotType> 
-		<Effect>
-			
-			<li Type="NpcZhenPressurePowerupBasep" Value="-4" />
-		</Effect>
-		<CoreEffect>
-			
-			<li Type="NpcZhenPressurePowerupAddp" Value="-1" />
-		</CoreEffect>
-	</Def>
-	
-	
-	
-</List></ZhenSlotDefs>
+<ZhenSlotDefs>
+    <List>
+        <Def Name="Lv4_X" DisplayName="Immortal">
+            <Lv>4</Lv>
+            <SlotType>Lv4_X</SlotType>
+            <Effect>
+                <li Type="StabilityBasev" Value="5" />
+            </Effect>
+            <CoreEffect>
+                <li Type="StabilityAddp" Value="0.6" />
+            </CoreEffect>
+        </Def>
+        <Def Name="Lv4_J" DisplayName="Territory">
+            <Lv>4</Lv>
+            <SlotType>Lv4_J</SlotType>
+            <Effect>
+                <li Type="SheildBasev" Value="5" />
+            </Effect>
+            <CoreEffect>
+                <li Type="SheildAddp" Value="0.6" />
+            </CoreEffect>
+        </Def>
+        <Def Name="Lv4_D" DisplayName="Road">
+            <Lv>4</Lv>
+            <SlotType>Lv4_D</SlotType>
+            <Effect>
+                <li Type="MagicPowerBasev" Value="5" />
+            </Effect>
+            <CoreEffect>
+                <li Type="MagicPowerAddp" Value="0.9" />
+            </CoreEffect>
+        </Def>
+        <Def Name="Lv4_W" DisplayName="Pattern">
+            <Lv>4</Lv>
+            <SlotType>Lv4_W</SlotType>
+            <Effect>
+                <li Type="NpcZhenPressurePowerupBasep" Value="-2" />
+            </Effect>
+            <CoreEffect>
+                <li Type="NpcZhenPressurePowerupAddp" Value="-1" />
+            </CoreEffect>
+        </Def>
+        <Def Name="Lv4_Y" DisplayName="Overcast">
+            <Lv>4</Lv>
+            <SlotType>Lv4_Y</SlotType>
+            <Effect>
+                <li Type="MagicPowerBasev" Value="5" />
+            </Effect>
+            <CoreEffect>
+                <li Type="MagicPowerAddp" Value="3" />
+            </CoreEffect>
+        </Def>
+        <Def Name="Lv4_M" DisplayName="Deep">
+            <Lv>4</Lv>
+            <SlotType>Lv4_M</SlotType>
+            <Effect>
+                <li Type="SkillCooldownBasev" Value="-5" />
+            </Effect>
+            <CoreEffect>
+                <li Type="SkillCooldownAddp" Value="-1" />
+            </CoreEffect>
+        </Def>
+        <Def Name="Lv4_S" DisplayName="Kill">
+            <Lv>4</Lv>
+            <SlotType>Lv4_S</SlotType>
+            <Effect>
+                <li Type="FabaoAtkPowerBasev" Value="5" />
+            </Effect>
+            <CoreEffect>
+                <li Type="FabaoAtkPowerAddp" Value="3" />
+            </CoreEffect>
+        </Def>
+        <Def Name="Lv4_C" DisplayName="Field">
+            <Lv>4</Lv>
+            <SlotType>Lv4_C</SlotType>
+            <Effect>
+                <li Type="StabilityBasev" Value="4" />
+            </Effect>
+            <CoreEffect>
+                <li Type="StabilityAddp" Value="2" />
+            </CoreEffect>
+        </Def>
+        <Def Name="Lv3_W" DisplayName="Mix">
+            <Lv>3</Lv>
+            <SlotType>Lv3_W</SlotType>
+            <Effect>
+                <li Type="StabilityBasev" Value="3" />
+            </Effect>
+            <CoreEffect>
+                <li Type="StabilityAddp" Value="1" />
+            </CoreEffect>
+        </Def>
+        <Def Name="Lv3_J" DisplayName="Metal">
+            <Lv>3</Lv>
+            <SlotType>Lv3_J</SlotType>
+            <Effect>
+                <li Type="FabaoAtkPowerBasev" Value="3" />
+            </Effect>
+            <CoreEffect>
+                <li Type="FabaoAtkPowerAddp" Value="0.6" />
+            </CoreEffect>
+        </Def>
+        <Def Name="Lv3_M" DisplayName="Wood">
+            <Lv>3</Lv>
+            <SlotType>Lv3_M</SlotType>
+            <Effect>
+                <li Type="ReduceCostBasev" Value="4" />
+            </Effect>
+            <CoreEffect>
+                <li Type="ReduceCostAddp" Value="0.6" />
+            </CoreEffect>
+        </Def>
+        <Def Name="Lv3_S" DisplayName="Water">
+            <Lv>3</Lv>
+            <SlotType>Lv3_S</SlotType>
+            <Effect>
+                <li Type="SheildBasev" Value="4" />
+            </Effect>
+            <CoreEffect>
+                <li Type="SheildAddp" Value="0.6" />
+            </CoreEffect>
+        </Def>
+        <Def Name="Lv3_H" DisplayName="Fire">
+            <Lv>3</Lv>
+            <SlotType>Lv3_H</SlotType>
+            <Effect>
+                <li Type="MagicPowerBasev" Value="3" />
+            </Effect>
+            <CoreEffect>
+                <li Type="MagicPowerAddp" Value="0.6" />
+            </CoreEffect>
+        </Def>
+        <Def Name="Lv3_T" DisplayName="Earth">
+            <Lv>3</Lv>
+            <SlotType>Lv3_T</SlotType>
+            <Effect>
+                <li Type="NpcZhenPressurePowerupBasep" Value="-4" />
+            </Effect>
+            <CoreEffect>
+                <li Type="NpcZhenPressurePowerupAddp" Value="-1" />
+            </CoreEffect>
+        </Def>
+    </List>
+</ZhenSlotDefs>
