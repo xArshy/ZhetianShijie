@@ -152,7 +152,7 @@
 		<Icon>Spr\Object\CL\MY.PNG</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>0</Difficulty>
-		<Desc>Recorded Dan Fang who made Mingyuan.</Desc>
+		<Desc>Recorded Pill Mingyuan.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
 		<Type>Dan</Type>
@@ -419,7 +419,7 @@
 		</Places>
 	</Esoterica>
 	<Esoterica Name="ZT_GWSTSFYX">
-		<DisplayName>Dare to ask God if there is a fairy</DisplayName>
+		<DisplayName>Dare to ask God if there is an immortal</DisplayName>
 		<Icon>Spr\Object\JN\ZT_MJ\ZTDD.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>0</Difficulty>
@@ -427,7 +427,7 @@
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
 		<Type>None</Type>
-		<EffectDesc>After learning, you can unlock the Bronze Fairy Hall \nThe Bronze Fairy Hall, a more mysterious place in the heavenly world, can gain Xuanhuang Qi through experience, and gain attribute enhancement through secrets.</EffectDesc>
+		<EffectDesc>After learning, you can unlock the Bronze Immortal Hall \nThe Bronze Immortal Hall, a more mysterious place in the heavenly world, can gain Xuanhuang Qi through experience, and gain attribute enhancement through secrets.</EffectDesc>
 		<Places>
 			<li>Place_QTXD</li>
 		</Places>
@@ -657,7 +657,7 @@
 		<Icon>Spr\Object\JN\ZT_MJ\ZTDF.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>0</Difficulty>
-		<Desc>Recorded all Dan Fang.</Desc>
+		<Desc>Recorded all Pills .</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
 		<Type>Dan</Type>
@@ -732,7 +732,7 @@
 		<Icon>Spr\Object\JN\ZT_MJ\FXLJ.png</Icon>
 		<StarLevel>1</StarLevel>
 		<Difficulty>1</Difficulty>
-		<Desc>It records the supreme array of powers in Yuan Tianshu, and it is said that it once suppressed a fairy.</Desc>
+		<Desc>It records the supreme array of powers in Yuan Tianshu, and it is said that it once suppressed a Immortal.</Desc>
 		<EffectDesc>Massively increase the load capacity of the matrix method \nIncrease the size of the matrix method \nUnlock the ancient array: \nFengxian Liuban</EffectDesc>
 		<ZhenShapes>
 			<li Name="封仙六禁"> 

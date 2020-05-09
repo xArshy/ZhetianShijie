@@ -836,11 +836,11 @@
 		<Desc>Learn all Pills</Desc>
 		<Selections>
 			<li>
-				<Display>Want to unlock all Dan Fang, no problem but nothing for nothing. (Challenge true enemies)</Display> 
+				<Display>Want to unlock all Pills, no problem but nothing for nothing. (Challenge true enemies)</Display> 
 				<OKResult>
 				<![CDATA[	
 				if World.DayCount <= 99 then
-					me:AddMsg("[NAME]Get a book to unlock all Dan Fang, too arrogant on the way back to the martial arts, swaggering around, attracting a wave of robbers.");
+					me:AddMsg("[NAME]Get a book to unlock all pills, too arrogant on the way back to the martial arts, swaggering around, attracting a wave of robbers.");
 					me:DropEsoteric("ZTDF");
 					me:AddEnemy(16,0)me:AddEnemy(16,0)
 					story:FinishSecret();

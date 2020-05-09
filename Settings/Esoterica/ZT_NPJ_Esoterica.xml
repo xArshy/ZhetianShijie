@@ -218,7 +218,7 @@
 		<GLevel>God</GLevel>
 		<Element>Tu</Element>
 		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    \n Learned Dahua Volume All Dan Fang[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    \n Learned Dahua Volume All Pills[/color][/size]</EffectDesc>
 		<Dans>
 			<li>NP_DHD</li>
 			<li>NP_DHDJ</li>
@@ -241,10 +241,10 @@
 		<Icon>Spr\Object\JN\ZT_NPJ\TS.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>20</Difficulty>
-		<Desc>No words and no trace, white paper fairy constant.</Desc>
+		<Desc>No words and no trace, white paper Immortal constant.</Desc>
 		<GLevel>God</GLevel>
 		<Element>Mu</Element>
-		<EffectDesc>[size=10][color=#D06508]\n Acquired Heaven Book Volume All Dan Fang[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]\n Acquired Heaven Book Volume All Pills [/color][/size]</EffectDesc>
 		<Dans>
 			<li>NP_TSD</li>
 			<li>NP_TSD1</li>
@@ -290,7 +290,7 @@
 	
 	
 	<Esoterica Name="Gong_NPJ_15">
-		<DisplayName>Red Dust Fairy</DisplayName>
+		<DisplayName>Red Dust Immortal</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_NPJ\ZT_TDJ_ZD.png</Icon>
 		<StarLevel>2</StarLevel>
