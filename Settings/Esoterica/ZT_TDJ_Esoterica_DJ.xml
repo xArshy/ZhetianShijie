@@ -445,7 +445,7 @@
 		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_TG.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>55</Difficulty>
-		<Desc>The boxing power is strong, and it is necessary to penetrate the sky and reverse the force of cutting the fairy. This is the most terrible boxing method of ancient heaven.</Desc>
+		<Desc>The boxing power is strong, and it is necessary to penetrate the sky and reverse the force of cutting the Immortal. This is the most terrible boxing method of ancient heaven.</Desc>
 		<GLevel>God2</GLevel>
 		<Element>None</Element>
 		<EffectDesc>[size=10][color=#D06508]\nLearn Mystery: \nTiandiquan[/color][/size]</EffectDesc>
@@ -455,12 +455,12 @@
 	</Esoterica>
 	
 	<Esoterica Name="Gong_TDJ_XT_ZD">
-		<DisplayName>Red Dust Fairy</DisplayName>
+		<DisplayName>Red Dust Immortal</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_TDJ_ZD.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>100</Difficulty>
-		<Desc>The boxing force is strong and supreme, and it is necessary to penetrate the sky and reverse the force of cutting fairy. This is the most terrible boxing method of ancient heaven.</Desc>
+		<Desc>The boxing force is strong and supreme, and it is necessary to penetrate the sky and reverse the force of cutting Immortal. This is the most terrible boxing method of ancient heaven.</Desc>
 		<GLevel>God2</GLevel>
 		<Element>None</Element>
 		<EffectDesc>[size=10][color=#D06508]\nPlus Shou Yuan and Ling Hui Magnification \nAdd Thirty Yuanshen Distraction \nAdd Furnace Ding \nAdd Artifact Success Rate \nAdditional Power and Addition Power[/color][/size]</EffectDesc>

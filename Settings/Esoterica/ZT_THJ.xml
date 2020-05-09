@@ -11,7 +11,7 @@
 		<GLevel>Qi</GLevel>
 		<Element>Jin</Element>
 		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    Yitiantian \ nPlus root bone 2 \ nPotential value 2 \ nAdded savvy value comprehension coefficient 0.5 \ n Learned the magic power: Longhang Avenue (16 times the speed of practice)[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    Yitiantian \nPlus root bone 2 \nPotential value 2 \nAdded savvy value comprehension coefficient 0.5 \n Learned the magic power: Longhang Avenue (16 times the speed of practice)[/color][/size]</EffectDesc>
 		<Modifier>Gong_THJ_LH_1A</Modifier>
 		<Magics>
 			<li>LXDD</li>
@@ -26,7 +26,7 @@
 		<Desc>The immortal dynasty founded by the emperor, the imperial dynasty, is the most powerful.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>Jin</Element>
-		<EffectDesc>[size=10][color=#D06508]   Double Sky \ nAdd the number of magic treasures 1 \ nAdd personal aura 1800 \ nAdd personal return 1.5[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]   Double Sky \nAdd the number of magic treasures 1 \nAdd personal aura 1800 \nAdd personal return 1.5[/color][/size]</EffectDesc>
 		<Modifier>Gong_THJ_LH_1A_1</Modifier>
 	</Esoterica>
 	<Esoterica Name="Gong_THJ_LH_A1_2">
@@ -38,7 +38,7 @@
 		<Desc>The immortal dynasty founded by the emperor, the imperial dynasty, is the most powerful.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>Jin</Element>
-		<EffectDesc>[size=10][color=#D06508]    Triple Sky \ nPlus Battle Level 10 Level \ nPlus State of Mind[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    Triple Sky \nPlus Battle Level 10 Level \nPlus State of Mind[/color][/size]</EffectDesc>
 		<Modifier>Gong_THJ_LH_1A_2</Modifier>
 	</Esoterica>
 	
@@ -54,7 +54,7 @@
 		<Desc>The dragon's energy will rise, and the strongest will condense the image of the dragon and the body surface.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>Jin</Element>
-		<EffectDesc>[size=10][color=#D06508]\nAdding magic weapon repellence resistance 5 \ nImproving magic weapon repellence ability 5 \ nAcquisition: \ nXuanlong Zhengdao[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]\nAdding magic weapon repellence resistance 5 \nImproving magic weapon repellence ability 5 \nAcquisition: \nXuanlong Zhengdao[/color][/size]</EffectDesc>
 		<Modifier>Gong_THJ_LH_2A_XKDSY</Modifier>
 		<Skills>
 			<li>XLZD</li>
@@ -72,7 +72,7 @@
 		<Desc>The unique technique of connotation of magic in the Emperor's Scriptures uses dragon gas to raise vessels.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>Jin</Element>
-		<EffectDesc>[size=10][color=#D06508]\nIncrease magic level 10 \ nImprove refiner quality \ nImprove shield value 3[/color][/size][/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]\nIncrease magic level 10 \nImprove refiner quality \nImprove shield value 3[/color][/size][/color][/size]</EffectDesc>
 		<Modifier>Gong_THJ_LH_3A</Modifier>
 	</Esoterica>
 	
@@ -85,7 +85,7 @@
 		<Desc>The unique connotation technique in the Emperor's Scriptures uses dragon gas to raise vessels.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>Jin</Element>
-		<EffectDesc>[size=10][color=#D06508]\nGreatly increase the maximum Reiki 3000 \ nIncrease Magic Aura capacity 4 \ nImprove Magic Aura recovery speed 4[/color][/size][/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]\nGreatly increase the maximum Reiki 3000 \nIncrease Magic Aura capacity 4 \nImprove Magic Aura recovery speed 4[/color][/size][/color][/size]</EffectDesc>
 		<Modifier>Gong_THJ_LH_3A_1</Modifier>
 	</Esoterica>
 	

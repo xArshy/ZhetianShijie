@@ -30,7 +30,7 @@ end
 --Start to perform magical powers
 function tbMagic:MagicEnter(IDs, IsThing)
     self.targetId = IDs[0]
- --获取目标信息
+ --Get target information
 end
 
 --During the magical power, the return value is required
