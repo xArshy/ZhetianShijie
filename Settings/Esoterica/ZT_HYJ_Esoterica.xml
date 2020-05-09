@@ -195,7 +195,7 @@
 		<Desc>Dao Gong condenses Wudaoshenwan, which can increase 100% of different attributes for one day.</Desc>
 		<GLevel>Dan1</GLevel>
 		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]\nIncrease Spirit Recovery Speed ​​4 \nMaximum Aura Level 8 \nLearn Danfang: Daomong Shenmaru[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]\nIncrease Spirit Recovery Speed ​​4 \nMaximum Aura Level 8 \nLearn Pill Recipe: Daomong Shenmaru[/color][/size]</EffectDesc>
 		<Modifier>Gong_HYJ_LH_3B_SDSS</Modifier>
 		<Dans>
 			<li>Dan_XZSZ</li>

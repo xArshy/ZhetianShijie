@@ -3,7 +3,7 @@
 	"DisplayName": "Shrouding The Heavens",
 	"GameVersion": 0.97361,
 	"Version": 10.627,
-	"Desc": "[Author]\n Ball Ba Dam\n[Introduction]\nIn view of the extremely poor experience of many newcomers after using this mod, I can only say [color=#ff0000]unsubscribe[/color],\nthis mod is slightly pervert,Mainly based on the metamorphosis of the enemy. Please learn the correct operation of the task manager before playing.\n ~Shrouding The Heavens\n\nTranslators: \n Zamori\n Kanna~Chan",
+	"Desc": "[Author]\n Ball Ba Dam\n[Introduction]\nIn view of the extremely poor experience of many newcomers after using this mod, I can only say [color=#ff0000]unsubscribe[/color], this mod is slightly pervert. Mainly based on the metamorphosis of the enemy. Please learn how to use the task manager before playing.\n ~Shrouding The Heavens\n\nTranslators: \n   Zamori\n   Kanna~Chan",
 	"Author": "AChineseSomeone",
 	"UIPackage": "UI/Sample",
 	"ID": "1887351675",
@@ -19,7 +19,7 @@
 		"Integrated",
 		"ExcludeRealmsHeaven"
 	],
-	"IncreasedDesc": "Fixed the known secret treasure model bug,\nMade [color=#00ff00]3 new treasures[/color] customized by group friends,\nModified the problem that the opening time lapse will be 10x, and now after 80 days the time lapse rate will be 9 times,every 20 days added 1.\nAdded some chat bubbles, if you have good suggestions, you can find the Shrouding The Heavens group, and then Aite Me, I am relatively busy recently, there will be no major content updates.",
+	"IncreasedDesc": "- Fixed the known secret treasure model bug,\n- Made [color=#00ff00]3 new treasures[/color] customized by group friends,\n- Modified the problem that the opening time lapse will be 10x, and now after 80 days the time lapse rate will be 9 times,every 20 days added 1.\n- Added some chat bubbles, if you have good suggestions, you can find the Shrouding The Heavens group, and then Aite Me, I am relatively busy recently, there will be no major content updates.",
 	"IsInsideCreat": false,
 	"Previews": [],
 	"ParentModInfo": null

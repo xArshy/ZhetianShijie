@@ -257,7 +257,7 @@
 	
 	<Story Name="ZT_MJ_ZH"  Parent="BaseFillingStory">
 		<DisplayName>Dan Fang Cheats</DisplayName>
-		<Desc>[NAME]in[PLACE]A lost Danfang cheat was found nearby</Desc>
+		<Desc>[NAME]in[PLACE]A lost Secret Pill was found nearby</Desc>
 		<Selections>
 			<li>
 				<Display>Dan Fang? let me see. (Alchemy level 15)</Display>

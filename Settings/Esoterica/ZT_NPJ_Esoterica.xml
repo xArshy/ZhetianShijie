@@ -266,7 +266,7 @@
 		<Desc>Nirvana is reborn, and fire feathers burn the sky.</Desc>
 		<GLevel>God2</GLevel>
 		<Element>Jin</Element>
-		<EffectDesc>[size=10][color=#D06508] \n learn Nirvana roll all Danfang.[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508] \n learn Nirvana roll all Pills.[/color][/size]</EffectDesc>
 		<Dans>
 			<li>NP_NPD</li>
 		</Dans>
@@ -281,7 +281,7 @@
 		<Desc>The magic tricks reach the sky, the magic weapon shakes the ground.</Desc>
 		<GLevel>God</GLevel>
 		<Element>Mu</Element>
-		<EffectDesc>[size=10][color=#D06508]\n heaven and earth roll all Danfang.[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]\n heaven and earth roll all Pills.[/color][/size]</EffectDesc>
 		<Dans>
 			<li>NP_TJD</li>
 			<li>NP_THD</li>

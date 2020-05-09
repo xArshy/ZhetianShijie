@@ -148,7 +148,7 @@
 	</Esoterica>
 	
 	<Esoterica Name="MJ_MY">
-		<DisplayName>Mingyuan Danfang</DisplayName>
+		<DisplayName>Mingyuan Pill</DisplayName>
 		<Icon>Spr\Object\CL\MY.PNG</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>0</Difficulty>
@@ -156,7 +156,7 @@
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
 		<Type>Dan</Type>
-		<EffectDesc>After learning, you can learn all the Danfang.</EffectDesc>
+		<EffectDesc>After learning, you can concoct all the Pills.</EffectDesc>
 		<Dans>
 			<li>Item_MY</li><!-- 筑基丹 -->
 		</Dans>
@@ -175,15 +175,15 @@
 		</Dans>
 	</Esoterica>
 	<Esoterica Name="MJ_ZH">
-		<DisplayName>Zhenghuo Danfang</DisplayName>
+		<DisplayName>Zhenghuo Pill</DisplayName>
 		<Icon>Spr\Object\JN\ZT_MJ\ZH.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>0</Difficulty>
-		<Desc>Danfang was recorded to increase the maximum temperature.</Desc>
+		<Desc>Pill was recorded to increase the maximum temperature.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
 		<Type>Dan</Type>
-		<EffectDesc>After learning, you can learn all the Danfang.</EffectDesc>
+		<EffectDesc>After learning, you can concoct all the Pills.</EffectDesc>
 		<Dans>
 			<li>Item_Dan_BHW1</li><!-- 筑基丹 -->
 			<li>Item_Dan_BHW2</li><!-- 归源散 -->
@@ -609,11 +609,11 @@
 		<Icon>Spr\Object\JN\ZT_MJ\ZTFL.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>0</Difficulty>
-		<Desc>记录了所有的符篆。</Desc>
+		<Desc>All the talismans are recorded.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
 		<Type>None</Type>
-		<EffectDesc>After learning, you can get all runes.</EffectDesc>
+		<EffectDesc>After learning, you can get all talismans.</EffectDesc>
 		<Spells>
 			<li>Spell_MoveSpeed1</li><!-- 轻身符 -->
 			<li>Spell_TempLow1</li><!-- 避寒符 -->
@@ -653,7 +653,7 @@
 	</Esoterica>
 	
 	<Esoterica Name="ZTDF">
-		<DisplayName>Tianyi Danfang</DisplayName>
+		<DisplayName>Tianyi Pill</DisplayName>
 		<Icon>Spr\Object\JN\ZT_MJ\ZTDF.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>0</Difficulty>
@@ -661,7 +661,7 @@
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
 		<Type>Dan</Type>
-		<EffectDesc>After learning, you can learn all the Danfang.</EffectDesc>
+		<EffectDesc>After learning, you can concoct all the Pills.</EffectDesc>
 		<Dans>
 			<li>BasePracticeDrug</li><!-- 筑基丹 -->
 			<li>Dan_Restore</li><!-- 归源散 -->

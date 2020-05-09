@@ -832,8 +832,8 @@
 		</Selections>
 	</Story>
 	<Story Name="ZT_DF"  Parent="BaseFillingStory">
-		<DisplayName>Tianyi Danfang</DisplayName>
-		<Desc>Learn all Danfang。</Desc>
+		<DisplayName>Tianyi Pill</DisplayName>
+		<Desc>Learn all Pills</Desc>
 		<Selections>
 			<li>
 				<Display>Want to unlock all Dan Fang, no problem but nothing for nothing. (Challenge true enemies)</Display> 
@@ -846,7 +846,7 @@
 					story:FinishSecret();
 				
 				elseif World.DayCount <= 1000 then
-				me:AddMsg("[NAME]Get a book that unlocks all the Danfangs, and thinks of a powerful true fairy");
+				me:AddMsg("[NAME]Get a book that unlocks all the Pills, and thinks of a powerful true immortal");
 				GameMain:GetMod("XG"):YSTZ();
 				me:DropEsoteric("ZTDF");
 				story:FinishSecret();
