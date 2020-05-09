@@ -1,6 +1,6 @@
 <Gongs><List>
 	<Gong Name="Gong_THJ">   
-		<DisplayName>Tai Huang Jing</DisplayName>
+		<DisplayName>The Imperial Sutra</DisplayName>
 		<Desc>Owned by the Daxia royal family in Zhongzhou, created by the emperor, the "Dragon Book" is the strongest of all the emperor books.</Desc>
 		<SelectDesc>The practice of this method is extremely difficult. There are many realms on each level and it takes a lot of time to complement the natural treasures. Hope to be careful. Do you want to choose this practice?</SelectDesc>
 		<FiveBaseNeed>6,9,4,7,8</FiveBaseNeed>

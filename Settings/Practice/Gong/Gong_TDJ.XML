@@ -1,6 +1,6 @@
 <Gongs><List>
 	<Gong Name="Gong_TDJ">   
-		<DisplayName>Tiandi Jing</DisplayName>
+		<DisplayName>Path of Emperor Tian</DisplayName>
 		<Desc>Emperor Ye Tianxiong was a rough man, a heroic hero, and he overwhelmed his contemporaries. After becoming emperor, he issued the strongest voice: "I am the emperor, and I want to suppress all enemies." He chose to raise a hundred classics in a furnace, followed the path of self-cultivation, and set himself on the road to emperor himself, paving the way for the immortal. The "Tiandi Jing" is published</Desc>
 		<SelectDesc>The practice of this method is extremely difficult. There are many realms on each level and it takes a lot of time to complement the natural treasures. Hope to be careful. Do you want to choose this practice?</SelectDesc>
 		<FiveBaseNeed>9,9,6,7,0</FiveBaseNeed>
