@@ -35,75 +35,75 @@
 			<BaseFive>6,9,7,7,6</BaseFive>
 			<Skills>
 				
-				<li Name="Fabao" Level="25"/><!-- 法宝 30-->
-				<li Name="DouFa" Level="25"/><!-- 斗法 30-->
-				<li Name="Barrier" Level="27"/><!-- 护盾 30-->
-				<li Name="Zhen" Level="15"/><!-- 阵法 30-->
-				<li Name="FightSkill" Level="15"/><!-- 术法 30-->
-				<li Name="DanQi" Level="10"/><!-- 丹器 30-->
-				<li Name="Fight" Level="25"/><!-- 御物 30-->
-				<li Name="Qi" Level="28"/><!-- 气感 30-->
+				<li Name="Fabao" Level="25"/><!-- magic weapon 30-->
+				<li Name="DouFa" Level="25"/><!-- Fighting 30-->
+				<li Name="Barrier" Level="27"/><!-- Shield 30-->
+				<li Name="Zhen" Level="15"/><!-- Formation 30-->
+				<li Name="FightSkill" Level="15"/><!-- Technique 30-->
+				<li Name="DanQi" Level="10"/><!-- Pill 30-->
+				<li Name="Fight" Level="25"/><!-- Imperial 30-->
+				<li Name="Qi" Level="28"/><!-- Breath 30-->
 
 				
-				<li Name="Medicine" Level="110"/><!-- 岐黄 -->
-				<li Name="Cooking" Level="110"/><!-- 烹饪 -->
-				<li Name="Building" Level="110"/><!-- 建筑 -->
-				<li Name="Farming" Level="110"/><!-- 农事 -->
-				<li Name="Mining" Level="110"/><!-- 采掘 -->
-				<li Name="Art" Level="110"/><!-- 巧匠 -->
-				<li Name="Manual" Level="110"/><!-- 制造 -->
+				<li Name="Medicine" Level="110"/><!-- Qi Huang -->
+				<li Name="Cooking" Level="110"/><!-- cooking -->
+				<li Name="Building" Level="110"/><!-- building -->
+				<li Name="Farming" Level="110"/><!-- farm work -->
+				<li Name="Mining" Level="110"/><!-- mining -->
+				<li Name="Art" Level="110"/><!-- Artisan -->
+				<li Name="Manual" Level="110"/><!-- Manufacturing -->
 
-				<li Name="Fight" LevelOver="14"/><!-- 御物20 -->
-				<li Name="Qi" LevelOver="16"/><!-- 气感 20-->
-				<li Name="Fabao" LevelOver="14"/><!-- 法宝 20-->
-				<li Name="DouFa" LevelOver="14"/><!-- 斗法 20-->
-				<li Name="FightSkill" LevelOver="10"/><!-- 术法 20-->
-				<li Name="DanQi" LevelOver="10"/><!-- 丹器 20-->
-				<li Name="Barrier" LevelOver="18"/><!-- 护盾 20-->
-				<li Name="Zhen" LevelOver="10"/><!-- 阵法 20-->
+				<li Name="Fight" LevelOver="14"/><!-- Royal 20 -->
+				<li Name="Qi" LevelOver="16"/><!-- Breath 20-->
+				<li Name="Fabao" LevelOver="14"/><!-- magic weapon 20-->
+				<li Name="DouFa" LevelOver="14"/><!-- Fighting 20-->
+				<li Name="FightSkill" LevelOver="10"/><!-- Technique 20-->
+				<li Name="DanQi" LevelOver="10"/><!-- Pill 20-->
+				<li Name="Barrier" LevelOver="18"/><!-- Shield 20-->
+				<li Name="Zhen" LevelOver="10"/><!-- Formation 20-->
 			</Skills>
 			<Properties>
-				自然属性
-				<li Name="MaxAge" AddV="750"/><!--寿元1000-->
-				<li Name="BaseEmotionAddV" AddV="38"/><!--心情基础值50-->
-				<li Name="IntelligenceSkillEXPConstant" AddP="0.7"/><!--学习速度1-->
+				Natural attributes
+				<li Name="MaxAge" AddV="750"/><!--Shouyuan 1000-->
+				<li Name="BaseEmotionAddV" AddV="38"/><!--Mood base value 50-->
+				<li Name="IntelligenceSkillEXPConstant" AddP="0.7"/><!--Learning speed 1-->
 				<li Name="RecoveryPower" AddP="8"/><!--自然恢复力10-->
-				<li Name="MagicDamageRecoveryPowerAddV" AddV="3.8"/><!--内门伤自然恢复力5-->
-				<li Name="FatigueConsumeConstant" AddP="-0.5"/><!--精力消耗速度加成1-->
-				<li Name="NutritionConsumeConstant" AddP="-0.5"/><!--食物消耗速度加成1-->
-				<li Name="WaterConsumeConstant" AddP="-0.5"/><!--饮水消耗速度加成1-->
-				<li Name="HappyConsumeConstant" AddP="-0.5"/><!--娱乐消耗速度加成1-->
-				<li Name="ToleranceTMin" AddV="-150"/><!--最低极限温度-200-->
-				<li Name="ToleranceTMax" AddV="150"/><!--最高极限温度200-->
-				<li Name="ComfyTMin" AddV="-150"/><!--最低舒适温度-->
-				<li Name="ComfyTMax" AddV="150"/><!--最高舒适温度-->
-				<li Name="PainTolerance" AddV="8"/><!--疼痛忍受极限10-->
-				<li Name="PracticeFoodConsumeConstant" AddP="3.2"/><!--精元消耗速度4-->
-				<li Name="FatigueConsumeConstant" AddP="-1"/><!--精力消耗速度 -2-->
+				<li Name="MagicDamageRecoveryPowerAddV" AddV="3.8"/><!--Natural recovery of internal door injuries 5-->
+				<li Name="FatigueConsumeConstant" AddP="-0.5"/><!--Energy consumption speed bonus 1-->
+				<li Name="NutritionConsumeConstant" AddP="-0.5"/><!--Food consumption speed bonus 1-->
+				<li Name="WaterConsumeConstant" AddP="-0.5"/><!--Drinking water consumption speed bonus 1-->
+				<li Name="HappyConsumeConstant" AddP="-0.5"/><!--Entertainment consumption speed bonus 1-->
+				<li Name="ToleranceTMin" AddV="-150"/><!--Minimum temperature limit-200-->
+				<li Name="ToleranceTMax" AddV="150"/><!--Maximum temperature limit 200-->
+				<li Name="ComfyTMin" AddV="-150"/><!--Minimum comfort temperature-->
+				<li Name="ComfyTMax" AddV="150"/><!--Maximum comfort temperature-->
+				<li Name="PainTolerance" AddV="8"/><!--Pain endurance limit 10-->
+				<li Name="PracticeFoodConsumeConstant" AddP="3.2"/><!--Sperm consumption speed 4-->
+				<li Name="FatigueConsumeConstant" AddP="-1"/><!--Energy consumption speed -2-->
 				
 				战斗
-				<li Name="NpcFight_BaseHitChance" AddV="0.7"/><!--战斗命中1-->
-				<li Name="NpcFight_FabaoPowerAddP" AddP="1.5"/><!--法宝威力加成3-->
-				<li Name="NpcFight_FabaoLingRecoverAddP" AddP="1.5"/><!--法宝灵气恢复速度加成3-->
+				<li Name="NpcFight_BaseHitChance" AddV="0.7"/><!--Battle Hit 1-->
+				<li Name="NpcFight_FabaoPowerAddP" AddP="1.5"/><!--Magic Power 3-->
+				<li Name="NpcFight_FabaoLingRecoverAddP" AddP="1.5"/><!--Magical Aura Recovery Speed ​​Bonus 3-->
 				
-				<li Name="NpcFight_FabaoMaxLingAddP" AddP="2.4"/><!--法宝灵气最大值加成3-->
-				<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="2.4"/><!--法宝击退距离加成3-->
-				<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.5"/><!--法宝飞行速度加成1-->
-				<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="1"/><!--法宝转向速度加成3-->
-				<li Name="NpcFight_FabaoRepelResistanceAddV" AddV="1.5"/><!--法宝击退距离抗性3-->
-				<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="1.2"/><!--法宝拖尾长度加成2-->
-				<li Name="NpcFight_SpellLingCostAddP" AddP="-0.1"/><!--术法灵气消耗加成 -1-->
-				<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/><!--术法吟唱时间加成 -1-->
-				<li Name="NpcFight_SpellPowerAddP" AddP="1.6"/><!--术法伤害加成3-->
-				<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.2"/><!--术法冷却时间加成 -1-->
-				<li Name="NpcFight_ShieldConversionRate" AddV="1.2"/><!--护盾强度加值2-->
-				<li Name="NpcFight_ShieldConversionRateAddP" AddP="3.6"/><!--护盾强度加成20-->
-				<li Name="NpcFight_ZhenKeyPointNum" AddV="1"/><!--阵法规模2-->
-				<li Name="NpcFight_ZhenEnginePower" AddV="10"/><!--阵法负荷能力-20-->
-				<li Name="NpcFight_FabaoNum" AddV="1"/><!--法宝数量6-->
+				<li Name="NpcFight_FabaoMaxLingAddP" AddP="2.4"/><!--Magic aura maximum bonus 3-->
+				<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="2.4"/><!--Magic weapon knockback distance bonus 3-->
+				<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.5"/><!--Magic weapon flight speed bonus 1-->
+				<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="1"/><!--Magic weapon steering speed bonus 3-->
+				<li Name="NpcFight_FabaoRepelResistanceAddV" AddV="1.5"/><!--Magic weapon knockback distance resistance 3-->
+				<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="1.2"/><!--Magic weapon tail length bonus 2-->
+				<li Name="NpcFight_SpellLingCostAddP" AddP="-0.1"/><!--Spell Aura consumption bonus -1-->
+				<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/><!--Singing time bonus -1-->
+				<li Name="NpcFight_SpellPowerAddP" AddP="1.6"/><!--Spell damage bonus 3-->
+				<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.2"/><!--Spell cooldown bonus -1-->
+				<li Name="NpcFight_ShieldConversionRate" AddV="1.2"/><!--Shield Strength Bonus 2-->
+				<li Name="NpcFight_ShieldConversionRateAddP" AddP="3.6"/><!--Shield strength bonus 20-->
+				<li Name="NpcFight_ZhenKeyPointNum" AddV="1"/><!--Array size 2-->
+				<li Name="NpcFight_ZhenEnginePower" AddV="10"/><!--Array load capacity-20-->
+				<li Name="NpcFight_FabaoNum" AddV="1"/><!--Number of magic weapons 6-->
 				
 				
-				修行
+				Practice
 				<li Name="PracticeRateAddPFromDan" AddV="-0.5"/><!--瓶颈突破概率加成系数1-->
 				<li Name="ExperienceNeckTimeCostCoefficient" AddP="-0.5"/><!--历练型瓶颈时间放大系数1-->
 				<li Name="PotentialOfBasepracticeAddValue" AddV="4.1"/><!--潜力值5-->
@@ -121,7 +121,7 @@
 				<li Name="AbilityLvAddV" AddV="41"/><!--道行加值-50 50-->
 
 
-				神道修行
+				Shinto practice
 				<li Name="GodCity_MaxResident" AddV="10000000"/><!--神民数量上限 5000000 20000000-->
 				<li Name="GodCity_MaxCoreBeliever" AddV="10"/><!--核心信徒上限 5 15-->
 				
@@ -138,7 +138,7 @@
 	<Feature Name="StinkyBody" Type="Normal">	
 		<DisplayName>Heavenly Blood</DisplayName>
 		<Desc>Cangtian domineering blood, known as hegemony, the enemy of the Eucharist.</Desc>
-		<Close><!--亲近特性-->
+		<Close><!--Intimacy-->
 			<li>StinkyBody</li>
 		</Close>
 		<Opposition><!--对立的特性-->
