@@ -250,7 +250,7 @@
 		<Icon>Spr\Object\JN\ZT_DJTG_DJ\JSLH3.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>After awakening, ascend to the red dust fairy. As far as you go. .</Desc>
+		<Desc>After awakening, ascend to the red dust Immortal. As far as you go. .</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>Jin</Element>
 		<EffectDesc>[size=10][color=#D06508]   Ninth Life \nMaximum Power of Additive Power3 \nAdditional Power of Power5 \nAdditional Power of Power6[/color][/size]</EffectDesc>
@@ -435,7 +435,7 @@
 	</Esoterica>
 	
 	<Esoterica Name="Gong_DJTG_XT_ZD">
-		<DisplayName>Red Dust Fairy</DisplayName>
+		<DisplayName>Red Dust Immortal</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_DJTG_DJ\ZT_DJTG_ZD.png</Icon>
 		<StarLevel>2</StarLevel>

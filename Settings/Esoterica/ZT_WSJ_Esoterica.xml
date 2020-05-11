@@ -11,7 +11,7 @@
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
 		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    One Heavy Sky \ nPlus Rootbone 2 \ nPlus Divine Consciousness 2 \ nIncreases the maximum shield level 5 \ nPlus Life 600 \ nLearned Supernatural: Bitter Sea Wave[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    One Heavy Sky \nPlus Rootbone 2 \nPlus Divine Consciousness 2 \nIncreases the maximum shield level 5 \nPlus Life 600 \nLearned Supernatural: Bitter Sea Wave[/color][/size]</EffectDesc>
 		<Modifier>Gong_WSJ_LH_1A</Modifier>
 		<Magics>
 			<li>KHBT</li>
