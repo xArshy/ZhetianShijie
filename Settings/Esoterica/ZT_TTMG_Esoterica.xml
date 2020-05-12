@@ -1,6 +1,6 @@
 <Esotericas><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Esoterica Name="Gong_TTMG_1">
 		<DisplayName>Devour the Magic</DisplayName>
@@ -53,7 +53,7 @@
 	</Esoterica>
 	
 	
-	<!-- ==========================技能2========================== -->
+	
 	
 	<Esoterica Name="Gong_TTMG_2">
 		<DisplayName>吞噬本源</DisplayName>
@@ -87,7 +87,7 @@
 		</Magics>
 	</Esoterica>
 	
-	<!-- ==========================技能3========================== -->
+	
 	
 	<Esoterica Name="Gong_TTMG_3">
 		<DisplayName>万化圣诀</DisplayName>
@@ -106,7 +106,7 @@
 	</Esoterica>
 	
 	
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Esoterica Name="Gong_TTMG_4">
 		<DisplayName>化立魔胎</DisplayName>
@@ -134,7 +134,7 @@
 	</Esoterica>
 	
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 	<Esoterica Name="Gong_TTMG_5">
 		<DisplayName>斩我明道诀</DisplayName>
@@ -156,7 +156,7 @@
 	</Esoterica>
 	
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 	<Esoterica Name="Gong_TTMG_6">
 		<DisplayName>不灭天功</DisplayName>
@@ -208,7 +208,7 @@
 	</Esoterica>
 	
 	
-	<!-- ==========================分割线========================== -->
+	
 	
 	<Esoterica Name="Gong_TTMG_7">
 		<DisplayName>度神诀</DisplayName>
@@ -245,7 +245,7 @@
 		</Magics>
 	</Esoterica>
 	
-		<!-- ==========================分割线========================== -->
+		
 	
 	<Esoterica Name="Gong_TTMG_8">
 		<DisplayName>吞天魔盖</DisplayName>
@@ -278,7 +278,7 @@
 		</Fabaos>
 	</Esoterica>
 	
-	<!-- ==========================分割线========================== -->	
+	
 		
 	<Esoterica Name="Gong_TTMG_9">
 		<DisplayName>一念花开</DisplayName>

@@ -18,7 +18,7 @@
 		<Duration>900</Duration>
 		<Display>1</Display>
 		<Properties>
-			<li Name="NpcFight_FabaoNum" AddV="-2"/><!--法宝数量6-->
+			<li Name="NpcFight_FabaoNum" AddV="-2"/>
 			
 		</Properties>
 	</Modifier>
@@ -32,7 +32,7 @@
 		<Properties>
 			<li Name="NpcFight_SpellLingCostAddP" AddP="99999"/>
 			<li Name="NpcFight_SpellCoolDownAddP" AddP="99999"/>
-			<li Name="NpcFight_SpellCastTimeAddP" AddP="99999"/><!--术法吟唱时间加成 -1-->
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="99999"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="MS_DTQL" Type="Normal">

@@ -1,6 +1,6 @@
 <Esotericas><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Esoterica Name="Gong_XKJ_LH_A1">
 		<DisplayName>大道至简</DisplayName>
@@ -43,7 +43,7 @@
 	</Esoterica>
 	
 	
-	<!-- ==========================技能2========================== -->
+	
 	
 	<Esoterica Name="Gong_XKJ_LH_A2_XKDSY">
 		<DisplayName>虚空大手印</DisplayName>
@@ -61,7 +61,7 @@
 		</Skills>
 	</Esoterica>
 	
-	<!-- ==========================技能3========================== -->
+	
 	
 	<Esoterica Name="Gong_XKJ_LH_A3">
 		<DisplayName>消万物</DisplayName>
@@ -105,7 +105,7 @@
 			<li>BuildBody</li>
 		</Magics>
 	</Esoterica>
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Esoterica Name="Gong_XKJ_LH_B1">
 		<DisplayName>大虚空术</DisplayName>
@@ -133,11 +133,11 @@
 	</Esoterica>
 	
 	
-	<!-- ==========================技能5========================== -->
 	
 	
 	
-	<!-- ==========================技能5========================== -->
+	
+	
 	
 	<Esoterica Name="Gong_XKJ_LH_B3_SDSS">
 		<DisplayName>截天指</DisplayName>
@@ -155,7 +155,7 @@
 		</Skills>
 	</Esoterica>
 	
-	<!-- ==========================分割线========================== -->
+	
 	
 	<Esoterica Name="Gong_XKJ_SJ_C1">
 		<DisplayName>空间风暴</DisplayName>

@@ -1,6 +1,6 @@
 <Esotericas><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Esoterica Name="Gong_TDJ_LH_A1">
 		<DisplayName>Tao Jinglunhai</DisplayName>
@@ -43,7 +43,7 @@
 	</Esoterica>
 	
 	
-	<!-- ==========================技能2========================== -->
+	
 	
 	<Esoterica Name="Gong_TDJ_LH_A2_XKDSY">
 		<DisplayName>Void Mark</DisplayName>
@@ -61,7 +61,7 @@
 		</Skills>
 	</Esoterica>
 	
-	<!-- ==========================技能3========================== -->
+	
 	
 	<Esoterica Name="Gong_TDJ_LH_A3">
 		<DisplayName>sea ​​of ​​bitterness</DisplayName>
@@ -89,7 +89,7 @@
 		<Modifier>Gong_TDJ_LH_3A_1</Modifier>
 	</Esoterica>
 	
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Esoterica Name="Gong_TDJ_LH_B1">
 		<DisplayName>Xi Jing Jing Dao Mian Juan</DisplayName>
@@ -128,7 +128,7 @@
 		<Modifier>Gong_TDJ_LH_1B_2</Modifier>
 	</Esoterica>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 	<Esoterica Name="Gong_TDJ_DG_B1">
 		<DisplayName>Yuantianshu</DisplayName>
@@ -177,7 +177,7 @@
 		</Magics>
 	</Esoterica>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 	<Esoterica Name="Gong_TDJ_LH_B3_SDSS">
 		<DisplayName>Sacred Art</DisplayName>
@@ -195,7 +195,7 @@
 		</Skills>
 	</Esoterica>
 	
-	<!-- ==========================分割线========================== -->
+	
 	
 	<Esoterica Name="Gong_TDJ_SJ_C1">
 		<DisplayName>Heng Yu Jing Qu</DisplayName>

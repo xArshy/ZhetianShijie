@@ -18,7 +18,7 @@
 		<ElementKind>None</ElementKind>
 		
 		<Collider>
-			<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+			
 			<Data>
 			[3]
 			</Data>
@@ -125,16 +125,16 @@
 	</ShadowSize>
 	<ColliderKind>ThrowOver</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		[7],
 		[1],
 		</Data>
 		<OffsetGroup>
-			<li><x>0</x><y>0.75</y></li><!--后-->
-			<li><x>0.5</x><y>0.2</y></li><!--右-->
-			<li><x>0</x><y>-0.4</y></li><!--前-->
-			<li><x>-0.5</x><y>0.2</y></li><!--左-->
+			<li><x>0</x><y>0.75</y></li>
+			<li><x>0.5</x><y>0.2</y></li>
+			<li><x>0</x><y>-0.4</y></li>
+			<li><x>-0.5</x><y>0.2</y></li>
 		</OffsetGroup>
 		<WorkOffset>
 			<li Index="0" X="0" Y="-0.3" Ang="179" Dir="Down"/>

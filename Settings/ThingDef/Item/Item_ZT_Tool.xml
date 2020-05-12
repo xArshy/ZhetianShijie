@@ -23,7 +23,7 @@
 	<Item  Lable="Tool">
 		<NotFengshuiItem>0</NotFengshuiItem>
 		<FuelMultiplier>1</FuelMultiplier>
-		<!-- 
+		
 		<BeMade>
 			<WorkToMake>1</WorkToMake>
 			<Quality>0</Quality>
@@ -45,7 +45,7 @@
 			</CostItems>
 		</BeMade> 
 		
-		-->
+		
 		<BeMaterial>
 			<NamePrefix></NamePrefix>
 			<CostMultiplier>1</CostMultiplier>
@@ -132,12 +132,12 @@
 			<li>MT</li>
 		</PhysicalLables>
 			
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<ToolModifier>MT</ToolModifier>
 			
@@ -207,12 +207,12 @@
 					<Item name = "Item_Water" count = "1600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<ToolModifier>ZTHSZD</ToolModifier>
 			
@@ -283,12 +283,12 @@
 					<Item name = "Item_Water" count = "1600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<ToolModifier>ZTTZY</ToolModifier>
 			
@@ -352,12 +352,12 @@
 					<Item name = "Item_Water" count = "1600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<ToolModifier>ZTDZY</ToolModifier>
 			
@@ -421,12 +421,12 @@
 					<Item name = "Item_Water" count = "1600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<ToolModifier>ZTYMZD</ToolModifier>
 			
@@ -490,12 +490,12 @@
 					<Item name = "Item_Water" count = "1600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<ToolModifier>ZTFHJ</ToolModifier>
 		</Equip>
@@ -558,12 +558,12 @@
 					<Item name = "Item_Water" count = "1200"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<ToolModifier>LGSF</ToolModifier>
 		</Equip>
@@ -631,12 +631,12 @@
 					
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<ToolModifier>ZT_SYLG</ToolModifier>
 		</Equip>
@@ -708,12 +708,12 @@
 					
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<ToolModifier>ZT_CYLG</ToolModifier>
 		</Equip>
@@ -775,12 +775,12 @@
 					
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<ToolModifier>ZT_CYLG</ToolModifier>
 		</Equip>
@@ -830,12 +830,12 @@
 		</PhysicalLables>
 		
 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<ToolModifier>JMDB</ToolModifier>
 		</Equip>

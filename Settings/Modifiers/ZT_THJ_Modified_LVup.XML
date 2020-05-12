@@ -1,6 +1,6 @@
 <ModifierDefs><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Modifier Name="Gong_THJ_LH_1A" Type="Normal">
 		<DisplayName>皇朝传承</DisplayName>
@@ -39,7 +39,7 @@
 			<li Name="Fight" Level="5"/>
 		</Skills>
 	</Modifier>
-	<!-- ==========================技能2========================== -->
+	
 	<Modifier Name="Gong_THJ_LH_2A_XKDSY" Type="Normal">
 		<DisplayName>玄龙正道</DisplayName>
 		<MaxStack>0</MaxStack>
@@ -47,15 +47,15 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="5"/><!--法宝击退距离加成-->
+			<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="5"/>
 			
-			<li Name="NpcFight_FabaoRepelResistanceAddV" AddV="5"/><!--法宝击退距离抗性-->
+			<li Name="NpcFight_FabaoRepelResistanceAddV" AddV="5"/>
 		</Properties>
 		
 	</Modifier>
 	
 	
-	<!-- ==========================技能3========================== -->
+	
 	<Modifier Name="Gong_THJ_LH_3A" Type="Normal">
 		<DisplayName>器韵龙道</DisplayName>
 		<MaxStack>0</MaxStack>
@@ -85,7 +85,7 @@
 		</Properties>
 	</Modifier>
 	
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Modifier Name="Gong_THJ_LH_1B" Type="Normal">
 		<DisplayName>龙气蕴神</DisplayName>
@@ -131,7 +131,7 @@
 		</Skills>
 	</Modifier>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 		<Modifier Name="Gong_THJ_DG_1B" Type="Normal">
 		<DisplayName>皇脉寻龙</DisplayName>
@@ -140,8 +140,8 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,1,1</BaseFive>
 		<Properties>
-			<li Name="GodPenaltyAddV" AddV="-25"/><!--天谴，正的加天谴的。-->
-			<li Name="WorldMapFlySpeedAddP" AddP="0.5"/><!--历练飞行速度加成-->
+			<li Name="GodPenaltyAddV" AddV="-25"/>
+			<li Name="WorldMapFlySpeedAddP" AddP="0.5"/>
 		</Properties>
 	</Modifier>
 	
@@ -158,12 +158,12 @@
 		<Properties>
 			<li Name="NpcFight_FabaoLingRecoverK" AddV="1.5"/>
 			<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="4"/> 
-			<li Name="NpcFight_FabaoRepelResistanceAddV" AddV="4"/><!--法宝击退距离抗性-->
+			<li Name="NpcFight_FabaoRepelResistanceAddV" AddV="4"/>
 		</Properties>
 	</Modifier>
 	
 	
-	<!-- ==========================分割线========================== -->
+	
 	
 	<Modifier Name="Gong_THJ_SJ_1C" Type="Normal">
 		<DisplayName>四极龙胎</DisplayName>
@@ -173,7 +173,7 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
 			<li Name="NpcFight_FabaoNum" AddV="1"/>
-			<li Name="NpcFight_FabaoMaxLingAddP" AddP="4"/><!--法宝灵气恢复速度加成3-->
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="4"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="Gong_THJ_SJ_1C_1" Type="Normal">
@@ -225,8 +225,8 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
 			
-			<li Name="NpcFight_FabaoPowerAddP" AddP="6"/><!--法宝威力加成-->
-			<li Name="NpcFight_FabaoCoolDownAddP" AddP="-0.5"/><!--法宝攻击间隔加成-->
+			<li Name="NpcFight_FabaoPowerAddP" AddP="6"/>
+			<li Name="NpcFight_FabaoCoolDownAddP" AddP="-0.5"/>
 		</Properties>
 	</Modifier>
 	

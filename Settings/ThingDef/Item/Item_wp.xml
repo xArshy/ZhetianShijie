@@ -24,12 +24,12 @@
 					<Item name = "Item_JSXY" count = "15"/>
 			</CostItems>
 		</BeMade> 		
-	<!--	<Rot>
+	
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>220</Damage>
 			<AttackSpeed>1</AttackSpeed>
@@ -78,12 +78,12 @@
 					<Item name = "Item_Water" count = "100"/>
 			</CostItems>
 		</BeMade> 		
-	<!--	<Rot>
+	
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>250</Damage>
 			<AttackSpeed>1</AttackSpeed>
@@ -131,12 +131,12 @@
 					<Item name = "Item_Water" count = "100"/>
 			</CostItems>
 		</BeMade> 		
-	<!--	<Rot>
+	
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>250</Damage>
 			<AttackSpeed>1</AttackSpeed>
@@ -182,12 +182,12 @@
 					<Item name = "Item_Water" count = "1000"/>
 			</CostItems>
 		</BeMade> 		
-	<!--	<Rot>
+	
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>250</Damage>
 			<AttackSpeed>1</AttackSpeed>
@@ -233,12 +233,12 @@
 					<Item name = "Item_Water" count = "1000"/>
 			</CostItems>
 		</BeMade> 		
-	<!--	<Rot>
+	
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>250</Damage>
 			<AttackSpeed>1</AttackSpeed>
@@ -283,12 +283,12 @@
 					<Item name = "Item_Water" count = "1000"/>
 			</CostItems>
 		</BeMade> 		
-	<!--	<Rot>
+	
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>250</Damage>
 			<AttackSpeed>2</AttackSpeed>
@@ -337,12 +337,12 @@
 					<Item name = "Item_Water" count = "1000"/>
 			</CostItems>
 		</BeMade> 		
-	<!--	<Rot>
+	
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>250</Damage>
 			<AttackSpeed>1</AttackSpeed>
@@ -388,12 +388,12 @@
 					<Item name = "Item_Water" count = "1000"/>
 			</CostItems>
 		</BeMade> 		
-	<!--	<Rot>
+	
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>250</Damage>
 			<AttackSpeed>1</AttackSpeed>
@@ -440,12 +440,12 @@
 					<Item name = "Item_Water" count = "1000"/>
 			</CostItems>
 		</BeMade> 		
-	<!--	<Rot>
+	
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>450</Damage>
 			<AttackSpeed>1</AttackSpeed>
@@ -499,12 +499,12 @@
 					<Item name = "Item_Water" count = "100"/>
 			</CostItems>
 		</BeMade> 		
-	<!--	<Rot>
+	
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>108</Damage>
 			<AttackSpeed>1</AttackSpeed>
@@ -563,12 +563,12 @@
 					<Item name = "Item_XianDaoXieNian" count = "1"/>
 			</CostItems>
 		</BeMade> 		
-	<!--	<Rot>
+	
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>720</Damage>
 			<AttackSpeed>10</AttackSpeed>
@@ -626,12 +626,12 @@
 					<Item name = "Item_XianDaoXieNian" count = "1"/>
 			</CostItems>
 		</BeMade> 		
-	<!--	<Rot>
+	
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>555</Damage>
 			<AttackSpeed>0.5</AttackSpeed>
@@ -699,12 +699,12 @@
 					<Item name = "Item_Water" count = "1000"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>999</Damage>
 			<AttackSpeed>1</AttackSpeed>
@@ -766,12 +766,12 @@
 					<Item name = "Item_TSXY" count = "50"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>666</Damage>
 			<AttackSpeed>19</AttackSpeed>
@@ -836,12 +836,12 @@
 					<Item name = "Item_Water" count = "600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>369</Damage>
 			<AttackSpeed>12</AttackSpeed>
@@ -903,12 +903,12 @@
 					<Item name = "Item_Water" count = "600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>569</Damage>
 			<AttackSpeed>-5</AttackSpeed>
@@ -966,12 +966,12 @@
 					<Item name = "Item_Water" count = "900"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>269</Damage>
 			<AttackSpeed>3</AttackSpeed>
@@ -1033,12 +1033,12 @@
 					<Item name = "Item_Water" count = "1600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>435</Damage>
 			<AttackSpeed>2</AttackSpeed>
@@ -1099,12 +1099,12 @@
 					<Item name = "Item_Water" count = "600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>769</Damage>
 			<AttackSpeed>3</AttackSpeed>
@@ -1168,12 +1168,12 @@
 					<Item name = "Item_Water" count = "600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>369</Damage>
 			<AttackSpeed>9</AttackSpeed>
@@ -1232,12 +1232,12 @@
 					<Item name = "Item_Water" count = "600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>469</Damage>
 			<AttackSpeed>5</AttackSpeed>
@@ -1299,12 +1299,12 @@
 					<Item name = "Item_Water" count = "600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>469</Damage>
 			<AttackSpeed>5</AttackSpeed>
@@ -1366,12 +1366,12 @@
 					<Item name = "Item_Water" count = "600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>869</Damage>
 			<AttackSpeed>5</AttackSpeed>
@@ -1430,12 +1430,12 @@
 					<Item name = "Item_Water" count = "600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>222</Damage>
 			<AttackSpeed>1</AttackSpeed>
@@ -1493,12 +1493,12 @@
 					<Item name = "Item_Water" count = "666"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>1000</Damage>
 			<AttackSpeed>-1</AttackSpeed>
@@ -1558,12 +1558,12 @@
 					<Item name = "Item_Water" count = "600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>1000</Damage>
 			<AttackSpeed>-1</AttackSpeed>
@@ -1624,12 +1624,12 @@
 					<Item name = "Item_Water" count = "1600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>300</Damage>
 			<AttackSpeed>-1</AttackSpeed>
@@ -1690,12 +1690,12 @@
 					<Item name = "Item_Water" count = "1600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>300</Damage>
 			<AttackSpeed>-1</AttackSpeed>
@@ -1758,12 +1758,12 @@
 					<Item name = "Item_Water" count = "1600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>300</Damage>
 			<AttackSpeed>-1</AttackSpeed>
@@ -1830,12 +1830,12 @@
 					<Item name = "Item_Water" count = "1600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>300</Damage>
 			<AttackSpeed>-1</AttackSpeed>
@@ -1903,12 +1903,12 @@
 					<Item name = "Item_Water" count = "1600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>300</Damage>
 			<AttackSpeed>-1</AttackSpeed>
@@ -1972,12 +1972,12 @@
 					<Item name = "Item_Water" count = "1600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>300</Damage>
 			<AttackSpeed>-1</AttackSpeed>
@@ -2040,12 +2040,12 @@
 					<Item name = "Item_Water" count = "1600"/>
 			</CostItems>
 		</BeMade> 		
-		<!--<Rot>
+		
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>300</Damage>
 			<AttackSpeed>-1</AttackSpeed>
@@ -2121,12 +2121,12 @@
 					<Item name = "Item_TuEssence" count = "30"/>
 			</CostItems>
 		</BeMade> 		
-	<!--	<Rot>
+	
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>720</Damage>
 			<AttackSpeed>10</AttackSpeed>
@@ -2188,12 +2188,12 @@
 					<Item name = "Item_JinEssence" count = "10"/>
 			</CostItems>
 		</BeMade> 		
-	<!--	<Rot>
+	
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>320</Damage>
 			<AttackSpeed>10</AttackSpeed>
@@ -2262,12 +2262,12 @@
 					
 			</CostItems>
 		</BeMade> 		
-	<!--	<Rot>
+	
 			<RotSpeed>0.0005</RotSpeed>
 			<DaysToRotStart>0</DaysToRotStart>
 			<TempMin>10</TempMin>
 			<LingMax>0</LingMax>
-		</Rot>-->
+		</Rot>
 		<Equip>
 			<Damage>320</Damage>
 			<AttackSpeed>10</AttackSpeed>

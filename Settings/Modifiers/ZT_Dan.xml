@@ -200,7 +200,7 @@
 			<li Name="NutritionToJingYuanK" AddV="1.5"/>
 			<li Name="DeepPracticeSpeedSpecialCoefficient" AddV="-2"/>
 			<li Name="AbilityLvAddV" AddV="-30"/>
-			<li Name="GodPenaltyAddV" AddV="-15"/><!--Condemnation, positive condemnation.-->
+			<li Name="GodPenaltyAddV" AddV="-15"/>
 
 		</Properties>
 
@@ -227,63 +227,63 @@
 
 		<BaseFive>2,2,2,2,2</BaseFive>
 		<Properties>
-				<li Name="MaxAge" AddV="3000"/><!--寿元-->
-				<li Name="MindStateBaseValue" AddV="10"/><!--心情基础值-->
-				<li Name="IntelligenceSkillEXPConstant" AddP="0.3"/><!--学习速度-->
-				<li Name="VisionRadius" AddP="0.3"/><!--感知范围-->
-				<li Name="MoveSpeed" AddP="0.3"/><!--移动速度-->
-				<li Name="RecoveryPower" AddP="0.3"/><!--自然恢复力-->
-				<li Name="MagicDamageRecoveryPowerAddV" AddV="0.6"/><!--内门伤自然恢复力-->
-				<li Name="FatigueConsumeConstant" AddP="-0.2"/><!--精力消耗速度加成-->
-				<li Name="NutritionConsumeConstant" AddP="-0.2"/><!--食物消耗速度加成-->
-				<li Name="WaterConsumeConstant" AddP="-0.2"/><!--饮水消耗速度加成-->
-				<li Name="HappyConsumeConstant" AddP="-0.2"/><!--娱乐消耗速度加成-->
-				<li Name="ToleranceTMin" AddV="-10"/><!--最低极限温度-->
-				<li Name="ToleranceTMax" AddV="10"/><!--最高极限温度-->
-				<li Name="ComfyTMin" AddV="-10"/><!--最低舒适温度-->
-				<li Name="ComfyTMax" AddV="10"/><!--最高舒适温度-->
-				<li Name="PainTolerance" AddV="2"/><!--疼痛忍受极限-->
-				<li Name="IntelligenceSkillEXPConstant" AddP="0.1"/><!--学习速度加成-->
-				<li Name="PracticeFoodConsumeConstant" AddP="0.5"/><!--精元消耗速度-->
-				<li Name="FatigueConsumeConstant" AddP="-0.25"/><!--精力消耗速度-->
+				<li Name="MaxAge" AddV="3000"/>
+				<li Name="MindStateBaseValue" AddV="10"/>
+				<li Name="IntelligenceSkillEXPConstant" AddP="0.3"/>
+				<li Name="VisionRadius" AddP="0.3"/>
+				<li Name="MoveSpeed" AddP="0.3"/>
+				<li Name="RecoveryPower" AddP="0.3"/>
+				<li Name="MagicDamageRecoveryPowerAddV" AddV="0.6"/>
+				<li Name="FatigueConsumeConstant" AddP="-0.2"/>
+				<li Name="NutritionConsumeConstant" AddP="-0.2"/>
+				<li Name="WaterConsumeConstant" AddP="-0.2"/>
+				<li Name="HappyConsumeConstant" AddP="-0.2"/>
+				<li Name="ToleranceTMin" AddV="-10"/>
+				<li Name="ToleranceTMax" AddV="10"/>
+				<li Name="ComfyTMin" AddV="-10"/>
+				<li Name="ComfyTMax" AddV="10"/>
+				<li Name="PainTolerance" AddV="2"/>
+				<li Name="IntelligenceSkillEXPConstant" AddP="0.1"/>
+				<li Name="PracticeFoodConsumeConstant" AddP="0.5"/>
+				<li Name="FatigueConsumeConstant" AddP="-0.25"/>
 				
 				战斗
-				<li Name="NpcFight_BaseHitChance" AddV="0.5"/><!--战斗命中-->
-				<li Name="NpcFight_BaseDodgeChance" AddV="0.5"/><!--战斗闪避-->
-				<li Name="NpcFight_FabaoPowerAddP" AddP="0.25"/><!--法宝威力加成-->
-				<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.25"/><!--法宝灵气恢复速度加成-->
-				<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.25"/><!--法宝灵气最大值加成-->
-				<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="0.25"/><!--法宝击退距离加成-->
-				<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.25"/><!--法宝飞行速度加成-->
-				<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0.25"/><!--法宝转向速度加成-->
-				<li Name="NpcFight_FabaoRepelResistanceAddV" AddP="0.25"/><!--法宝击退距离抗性-->
-				<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="0.5"/><!--法宝拖尾长度加成-->
-				<li Name="NpcFight_SpellLingCostAddP" AddP="-0.1"/><!--术法灵气消耗加成-->
-				<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/><!--术法吟唱时间加成-->
-				<li Name="NpcFight_SpellPowerAddP" AddP="0.5"/><!--术法伤害加成-->
-				<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.1"/><!--术法冷却时间加成-->
-				<li Name="NpcFight_ShieldConversionRate" AddP="0.5"/><!--护盾强度加值-->
-				<li Name="NpcFight_ShieldConversionRateAddP" AddV="1"/><!--护盾强度加成-->
-				<li Name="NpcFight_ZhenKeyPointNum" AddV="1"/><!--阵法规模-->
-				<li Name="NpcFight_ZhenEnginePower" AddV="1"/><!--阵法负荷能力-->
-				<li Name="NpcFight_FabaoNum" AddV="1"/><!--法宝数量-->
+				<li Name="NpcFight_BaseHitChance" AddV="0.5"/>
+				<li Name="NpcFight_BaseDodgeChance" AddV="0.5"/>
+				<li Name="NpcFight_FabaoPowerAddP" AddP="0.25"/>
+				<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.25"/>
+				<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.25"/>
+				<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="0.25"/>
+				<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.25"/>
+				<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0.25"/>
+				<li Name="NpcFight_FabaoRepelResistanceAddV" AddP="0.25"/>
+				<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="0.5"/>
+				<li Name="NpcFight_SpellLingCostAddP" AddP="-0.1"/>
+				<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/>
+				<li Name="NpcFight_SpellPowerAddP" AddP="0.5"/>
+				<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.1"/>
+				<li Name="NpcFight_ShieldConversionRate" AddP="0.5"/>
+				<li Name="NpcFight_ShieldConversionRateAddP" AddV="1"/>
+				<li Name="NpcFight_ZhenKeyPointNum" AddV="1"/>
+				<li Name="NpcFight_ZhenEnginePower" AddV="1"/>
+				<li Name="NpcFight_FabaoNum" AddV="1"/>
 				
 				
 				修行
-				<li Name="PracticeRateAddPFromDan" AddP="0.2"/><!--瓶颈突破概率加成系数-->
-				<li Name="ExperienceNeckTimeCostCoefficient" AddP="-0.5"/><!--历练型瓶颈时间放大系数-->
-				<li Name="PotentialOfBasepracticeAddValue" AddV="0.5"/><!--潜力值-->
-				<li Name="GodPenaltyAddV" AddV="20"/><!--天谴，正的加天谴的。-->
-				<li Name="MaxAccumulativeLingAddV" AddV="10000"/><!--炉鼎值-->
-				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/><!--瓶颈突破概率加成系数-->
-				<li Name="InspirationCoefficient" AddP="0.5"/><!--领悟悟性-->
-				<li Name="LingAbsorbSpeed" AddP="1"/><!--灵气吸收速度-->
-				<li Name="NpcLingMaxValue" AddV="10000"/><!--基础灵气最大值-->
-				<li Name="WorldMapFlySpeed" AddP="0.5"/><!--历练飞行速度-->
-				<li Name="WorldMapFlySpeedAddP" AddP="-0.5"/><!--历练飞行速度加成-->
-				<li Name="ExperiencePrestigeAddP" AddP="0.5"/><!--历练型声望放大系数-->
-				<li Name="EsotericaNum" AddV="99"/><!--秘籍数量限制-->
-				<li Name="AbilityLvAddV" AddV="90"/><!--道行加值-->
+				<li Name="PracticeRateAddPFromDan" AddP="0.2"/>
+				<li Name="ExperienceNeckTimeCostCoefficient" AddP="-0.5"/>
+				<li Name="PotentialOfBasepracticeAddValue" AddV="0.5"/>
+				<li Name="GodPenaltyAddV" AddV="20"/>
+				<li Name="MaxAccumulativeLingAddV" AddV="10000"/>
+				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
+				<li Name="InspirationCoefficient" AddP="0.5"/>
+				<li Name="LingAbsorbSpeed" AddP="1"/>
+				<li Name="NpcLingMaxValue" AddV="10000"/>
+				<li Name="WorldMapFlySpeed" AddP="0.5"/>
+				<li Name="WorldMapFlySpeedAddP" AddP="-0.5"/>
+				<li Name="ExperiencePrestigeAddP" AddP="0.5"/>
+				<li Name="EsotericaNum" AddV="99"/>
+				<li Name="AbilityLvAddV" AddV="90"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="ZT_ZLJX" Type="Normal">
@@ -295,11 +295,11 @@
 
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-				<li Name="MaxAge" AddV="1200"/><!--寿元-->
-				<li Name="NpcFight_ShieldConversionRate" AddV="5"/><!--护盾强度加值-->
-				<li Name="GodPenaltyAddV" AddV="-45"/><!--天谴，正的加天谴的。-->
+				<li Name="MaxAge" AddV="1200"/>
+				<li Name="NpcFight_ShieldConversionRate" AddV="5"/>
+				<li Name="GodPenaltyAddV" AddV="-45"/>
 				
-				<li Name="AbilityLvAddV" AddV="50"/><!--道行加值-->
+				<li Name="AbilityLvAddV" AddV="50"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="ZT_SHJX" Type="Normal">
@@ -311,11 +311,11 @@
 
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-				<li Name="MaxAge" AddV="1500"/><!--寿元-->
-				<li Name="NpcFight_SpellPowerAddP" AddP="1.5"/><!--护盾强度加值-->
-				<li Name="GodPenaltyAddV" AddV="-45"/><!--天谴，正的加天谴的。-->
+				<li Name="MaxAge" AddV="1500"/>
+				<li Name="NpcFight_SpellPowerAddP" AddP="1.5"/>
+				<li Name="GodPenaltyAddV" AddV="-45"/>
 				
-				<li Name="AbilityLvAddV" AddV="50"/><!--道行加值-->
+				<li Name="AbilityLvAddV" AddV="50"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="ZT_HLJX" Type="Normal">
@@ -327,11 +327,11 @@
 
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-				<li Name="MaxAge" AddV="1000"/><!--寿元-->
-				<li Name="MaxAccumulativeLingAddV" AddV="5000"/><!--护盾强度加值-->
-				<li Name="GodPenaltyAddV" AddV="-45"/><!--天谴，正的加天谴的。-->
+				<li Name="MaxAge" AddV="1000"/>
+				<li Name="MaxAccumulativeLingAddV" AddV="5000"/>
+				<li Name="GodPenaltyAddV" AddV="-45"/>
 				
-				<li Name="AbilityLvAddV" AddV="50"/><!--道行加值-->
+				<li Name="AbilityLvAddV" AddV="50"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="ZT_XWJX" Type="Normal">
@@ -343,11 +343,11 @@
 
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-				<li Name="MaxAge" AddV="1800"/><!--寿元-->
-				<li Name="LingAbsorbSpeed" AddP="1.5"/><!--灵气吸收速度5-->
-				<li Name="GodPenaltyAddV" AddV="-45"/><!--天谴，正的加天谴的。-->
+				<li Name="MaxAge" AddV="1800"/>
+				<li Name="LingAbsorbSpeed" AddP="1.5"/>
+				<li Name="GodPenaltyAddV" AddV="-45"/>
 				
-				<li Name="AbilityLvAddV" AddV="50"/><!--道行加值-->
+				<li Name="AbilityLvAddV" AddV="50"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="ZT_BHJX" Type="Normal">
@@ -359,11 +359,11 @@
 
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-				<li Name="MaxAge" AddV="900"/><!--寿元-->
-				<li Name="NpcFight_FabaoPowerAddP" AddP="2"/><!--法宝威力加成3-->
-				<li Name="GodPenaltyAddV" AddV="-45"/><!--天谴，正的加天谴的。-->
+				<li Name="MaxAge" AddV="900"/>
+				<li Name="NpcFight_FabaoPowerAddP" AddP="2"/>
+				<li Name="GodPenaltyAddV" AddV="-45"/>
 				
-				<li Name="AbilityLvAddV" AddV="50"/><!--道行加值-->
+				<li Name="AbilityLvAddV" AddV="50"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="Dan_BHW1" Type="Normal">
@@ -375,7 +375,7 @@
 		<Sync>1</Sync>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="ToleranceTMax" AddV="300"/><!--最高极限温度-->
+			<li Name="ToleranceTMax" AddV="300"/>
 		</Properties>
 	</Modifier> 
 	
@@ -388,7 +388,7 @@
 		<Sync>1</Sync>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="ToleranceTMax" AddV="1000"/><!--最高极限温度-->
+			<li Name="ToleranceTMax" AddV="1000"/>
 		</Properties>
 	</Modifier> 
 	
@@ -401,7 +401,7 @@
 		<Sync>1</Sync>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="ToleranceTMax" AddV="1500"/><!--最高极限温度-->
+			<li Name="ToleranceTMax" AddV="1500"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="Dan_SYD" Type="Normal">
@@ -422,7 +422,7 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<LuaClassName>ZT_XY</LuaClassName>
 	</Modifier>
-	<!--涅槃经丹药-->
+	
 	<Modifier Name="NP_XWD" Type="Normal">
 		<DisplayName>Nirvana</DisplayName>
 		<Desc>After taking it, increase it by 4000.</Desc>
@@ -630,7 +630,7 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<LuaClassName>NP_JTD</LuaClassName>
 	</Modifier>
-	<!--气海卷-->
+	
 	<Modifier Name="NP_QHD1" Type="Normal">
 		<DisplayName>Qihai</DisplayName>
 		<Desc>After taking it, increase the maximum spiritual power by 5000.</Desc>
@@ -847,7 +847,7 @@
 			<li Name="LingAbsorbSpeed" AddV="300"/>
 		</Properties>
 	</Modifier>
-	<!--通天卷-->
+	
 	<Modifier Name="NP_TYD" Type="Normal">
 		<DisplayName>Sky Eye Pro</DisplayName>
 		<Desc>Increases practice speed for the duration</Desc>
@@ -899,10 +899,10 @@
 		<Duration>1800</Duration>
 		<Display>1</Display>
 		<Properties>
-			<li Name="PracticeFoodConsumeConstant" AddP="10"/><!--精元消耗速度4-->
-				<li Name="FatigueConsumeConstant" AddP="1"/><!--精力消耗速度 -2-->
-				<li Name="PracticeFoodRecoveryConstant" AddV="-1"/><!--精元补充加成 -2-->
-				<li Name="NutritionToJingYuanK" AddP="-0.02"/><!--精元消耗速度4-->
+			<li Name="PracticeFoodConsumeConstant" AddP="10"/>
+				<li Name="FatigueConsumeConstant" AddP="1"/>
+				<li Name="PracticeFoodRecoveryConstant" AddV="-1"/>
+				<li Name="NutritionToJingYuanK" AddP="-0.02"/>
 				
 		</Properties>
 	</Modifier>
@@ -913,10 +913,10 @@
 		<Duration>5400</Duration>
 		<Display>1</Display>
 		<Properties>
-			<li Name="PracticeFoodConsumeConstant" AddP="10"/><!--精元消耗速度4-->
-				<li Name="FatigueConsumeConstant" AddP="1"/><!--精力消耗速度 -2-->
-				<li Name="NutritionToJingYuanK" AddP="-0.02"/><!--精元消耗速度4-->
-				<li Name="PracticeFoodRecoveryConstant" AddV="-1"/><!--精元补充加成 -2-->
+			<li Name="PracticeFoodConsumeConstant" AddP="10"/>
+				<li Name="FatigueConsumeConstant" AddP="1"/>
+				<li Name="NutritionToJingYuanK" AddP="-0.02"/>
+				<li Name="PracticeFoodRecoveryConstant" AddV="-1"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="NP_TYD13" Type="Normal">
@@ -926,10 +926,10 @@
 		<Duration>9000</Duration>
 		<Display>1</Display>
 		<Properties>
-			<li Name="PracticeFoodConsumeConstant" AddP="10"/><!--精元消耗速度4-->
-				<li Name="FatigueConsumeConstant" AddP="1"/><!--精力消耗速度 -2-->
-				<li Name="NutritionToJingYuanK" AddP="-0.02"/><!--精元消耗速度4-->
-				<li Name="PracticeFoodRecoveryConstant" AddV="-1"/><!--精元补充加成 -2-->
+			<li Name="PracticeFoodConsumeConstant" AddP="10"/>
+				<li Name="FatigueConsumeConstant" AddP="1"/>
+				<li Name="NutritionToJingYuanK" AddP="-0.02"/>
+				<li Name="PracticeFoodRecoveryConstant" AddV="-1"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="NP_TYD14" Type="Normal">
@@ -939,10 +939,10 @@
 		<Duration>18000</Duration>
 		<Display>1</Display>
 		<Properties>
-			<li Name="PracticeFoodConsumeConstant" AddP="10"/><!--精元消耗速度4-->
-				<li Name="FatigueConsumeConstant" AddP="1"/><!--精力消耗速度 -2-->
-				<li Name="NutritionToJingYuanK" AddP="-0.02"/><!--精元消耗速度4-->
-				<li Name="PracticeFoodRecoveryConstant" AddV="-1"/><!--精元补充加成 -2-->
+			<li Name="PracticeFoodConsumeConstant" AddP="10"/>
+				<li Name="FatigueConsumeConstant" AddP="1"/>
+				<li Name="NutritionToJingYuanK" AddP="-0.02"/>
+				<li Name="PracticeFoodRecoveryConstant" AddV="-1"/>
 		</Properties>
 	</Modifier>
 	
@@ -1327,9 +1327,9 @@
 		<Display>1</Display>
 		<Skills>
 			
-				<li Name="Fight" LevelOver="20"/><!-- 御物20 -->
+				<li Name="Fight" LevelOver="20"/>
 				
-				<li Name="Fabao" LevelOver="20"/><!-- 法宝 20-->
+				<li Name="Fabao" LevelOver="20"/>
 				
 			</Skills>
 	</Modifier>
@@ -1340,8 +1340,8 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Skills>
-				<li Name="Medicine" LevelOver="20"/><!-- 岐黄 -->
-				<li Name="Zhen" LevelOver="20"/><!-- 阵法 20-->
+				<li Name="Medicine" LevelOver="20"/>
+				<li Name="Zhen" LevelOver="20"/>
 			</Skills>
 	</Modifier>
 	<Modifier Name="NP_TDJ2" Type="Normal">
@@ -1352,9 +1352,9 @@
 		<Display>1</Display>
 		<Skills>
 			
-				<li Name="Qi" LevelOver="20"/><!-- 气感 20-->
+				<li Name="Qi" LevelOver="20"/>
 				
-				<li Name="DanQi" LevelOver="20"/><!-- 丹器 20-->
+				<li Name="DanQi" LevelOver="20"/>
 				
 			</Skills>
 	</Modifier>
@@ -1366,8 +1366,8 @@
 		<Display>1</Display>
 		<Skills>
 				
-				<li Name="DouFa" LevelOver="20"/><!-- 斗法 20-->
-				<li Name="FightSkill" LevelOver="20"/><!-- 术法 20-->
+				<li Name="DouFa" LevelOver="20"/>
+				<li Name="FightSkill" LevelOver="20"/>
 				
 			</Skills>
 	</Modifier>
@@ -1379,8 +1379,8 @@
 		<Display>1</Display>
 		<Skills>
 				
-				<li Name="Manual" LevelOver="20"/><!-- 制造 -->
-				<li Name="Barrier" LevelOver="20"/><!-- 护盾 20-->
+				<li Name="Manual" LevelOver="20"/>
+				<li Name="Barrier" LevelOver="20"/>
 
 			</Skills>
 	</Modifier>
@@ -1391,17 +1391,17 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Skills>
-				<li Name="DouFa" LevelOver="30"/><!-- 斗法 20-->
-				<li Name="FightSkill" LevelOver="30"/><!-- 术法 20-->
-				<li Name="Manual" LevelOver="30"/><!-- 制造 -->
-				<li Name="Barrier" LevelOver="30"/><!-- 护盾 20-->
-				<li Name="Qi" LevelOver="30"/><!-- 气感 20-->
-				<li Name="Medicine" LevelOver="30"/><!-- 岐黄 -->
-				<li Name="Zhen" LevelOver="30"/><!-- 阵法 20-->
-				<li Name="DanQi" LevelOver="30"/><!-- 丹器 20-->
-				<li Name="Fight" LevelOver="30"/><!-- 御物20 -->
+				<li Name="DouFa" LevelOver="30"/>
+				<li Name="FightSkill" LevelOver="30"/>
+				<li Name="Manual" LevelOver="30"/>
+				<li Name="Barrier" LevelOver="30"/>
+				<li Name="Qi" LevelOver="30"/>
+				<li Name="Medicine" LevelOver="30"/>
+				<li Name="Zhen" LevelOver="30"/>
+				<li Name="DanQi" LevelOver="30"/>
+				<li Name="Fight" LevelOver="30"/>
 				
-				<li Name="Fabao" LevelOver="30"/><!-- 法宝 20-->
+				<li Name="Fabao" LevelOver="30"/>
 			</Skills>
 	</Modifier>
 	<Modifier Name="NP_DHD" Type="Normal">

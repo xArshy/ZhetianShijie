@@ -540,7 +540,7 @@
 		<Desc>天地间随处可见无主护法。供奉此护法可以提高护体技能等级。</Desc>
 		<Modifier>Modifier_Guard_Base_22</Modifier>
 	</Def>
-	<!-- 
+	
 	<Def Name="Guard_Base_23">
 		<DisplayName>水精</DisplayName>
 		<Names>流</Names>
@@ -677,5 +677,5 @@
 		<Icon>Res/Sprs/ui/xrui_bg39</Icon>
 		<Desc>天地间随处可见无主护法。供奉此护法可以提高寿命，术法威力。</Desc>
 		<Modifier>Modifier_Guard_Base_40</Modifier>
-	</Def> -->
+	</Def> 
 </List></GodGuardDefs>

@@ -1,4 +1,4 @@
---蛟龙技能暴雨术
+龙技能暴雨术
 local tbTable = GameMain:GetMod("_SkillAction")
 local tbSkill = tbTable:GetSkill("jiaolong_baoyu")
 

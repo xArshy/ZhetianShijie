@@ -32,7 +32,7 @@ function tbSkill:Cast()
     fabao.Fabao:SetProperty(CS.XiaWorld.Fight.g_emFaBaoP.KnockBackAddition, 50)
     fabao.Fabao:SetProperty(CS.XiaWorld.Fight.g_emFaBaoP.LingRecover, 4000)
     self.bind:EquipItem(fabao)
-    --self.bind.Bag:AddItem(fabao);
+    
     local data1 = {
         Kind = CS.XiaWorld.Fight.g_emFabaoSpecialAbility.AtkRateDamageAddp,
         Desc = "Demon God：5% chance to cause 1000x damage to enemy magic weapon",

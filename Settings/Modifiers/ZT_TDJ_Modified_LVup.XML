@@ -1,6 +1,6 @@
 <ModifierDefs><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Modifier Name="Gong_TDJ_LH_1A" Type="Normal">
 		<DisplayName>道经轮海篇</DisplayName>
@@ -9,7 +9,7 @@
 		<Display>0</Display>
 		<BaseFive>1,1,0,0,0</BaseFive>
 		<Properties>
-			<li Name="PotentialOfBasepracticeAddValue" AddV="2"/><!--潜力值2-->
+			<li Name="PotentialOfBasepracticeAddValue" AddV="2"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="Gong_TDJ_LH_1A_1" Type="Normal">
@@ -37,7 +37,7 @@
 			<li Name="MindStateBaseValue" AddV="50"/>
 		</Properties>
 	</Modifier>
-	<!-- ==========================技能2========================== -->
+	
 	<Modifier Name="Gong_TDJ_LH_2A_XKDSY" Type="Normal">
 		<DisplayName>虚空大手印</DisplayName>
 		<MaxStack>0</MaxStack>
@@ -52,7 +52,7 @@
 	</Modifier>
 	
 	
-	<!-- ==========================技能3========================== -->
+	
 	<Modifier Name="Gong_TDJ_LH_3A" Type="Normal">
 		<DisplayName>苦海</DisplayName>
 		<MaxStack>0</MaxStack>
@@ -81,7 +81,7 @@
 		</Properties>
 	</Modifier>
 	
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Modifier Name="Gong_TDJ_LH_1B" Type="Normal">
 		<DisplayName>西皇经道宫卷</DisplayName>
@@ -120,7 +120,7 @@
 		</Properties>
 	</Modifier>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 		<Modifier Name="Gong_TDJ_DG_1B" Type="Normal">
 		<DisplayName>源天书</DisplayName>
@@ -166,7 +166,7 @@
 	</Modifier>
 	
 	
-	<!-- ==========================分割线========================== -->
+	
 	
 	<Modifier Name="Gong_TDJ_SJ_1C" Type="Normal">
 		<DisplayName>恒宇经四极卷</DisplayName>
@@ -202,7 +202,7 @@
 		<Properties>
 			<li Name="PotentialOfBasepracticeAddValue" AddV="3"/>
 			<li Name="NpcFight_SpellPowerAddP" AddP="10"/>
-			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.25"/><!--术法灵气消耗加成 -1-->
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.25"/>
 		</Properties>
 	</Modifier>
 	

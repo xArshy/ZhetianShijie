@@ -1,6 +1,6 @@
 <Esotericas><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Esoterica Name="Gong_DJTG_LH_A1">
 		<DisplayName>Reincarnation</DisplayName>
@@ -47,7 +47,7 @@
 	</Esoterica>
 	
 	
-	<!-- ==========================技能2========================== -->
+	
 	
 	<Esoterica Name="Gong_DJTG_LH_A2_WL">
 		<DisplayName>Unscrupulous</DisplayName>
@@ -65,7 +65,7 @@
 		</Skills>
 	</Esoterica>
 	
-	<!-- ==========================技能3========================== -->
+	
 	
 	<Esoterica Name="Gong_DJTG_LH_A3">
 		<DisplayName>Fortune</DisplayName>
@@ -106,7 +106,7 @@
 		<Modifier>Gong_DJTG_LH_3A_2</Modifier>
 	</Esoterica>
 	
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Esoterica Name="Gong_DJTG_LH_B1">
 		<DisplayName>Reincarnation</DisplayName>
@@ -145,7 +145,7 @@
 		<Modifier>Gong_DJTG_LH_1B_2</Modifier>
 	</Esoterica>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 	<Esoterica Name="Gong_DJTG_DG_B1">
 		<DisplayName>Gendo</DisplayName>
@@ -200,7 +200,7 @@
 		</Magics>
 	</Esoterica>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 	<Esoterica Name="Gong_DJTG_LH_B3_DD">
 		<DisplayName>Broken German</DisplayName>
@@ -218,7 +218,7 @@
 		</Skills>
 	</Esoterica>
 	
-	<!-- ==========================分割线========================== -->
+	
 	
 	<Esoterica Name="Gong_DJTG_SJ_C1">
 		<DisplayName>Reincarnation</DisplayName>

@@ -664,7 +664,7 @@
 		<SuccessRate>0.1</SuccessRate>
 		<Count>4</Count>
 	</Dan>
-	<!-- ======================伏羲1分割线====================== -->
+	
 	<Dan Name="Item_JMBSY">
 		<Normal>0</Normal>
 		<ItemName>Item_JMBSY</ItemName>

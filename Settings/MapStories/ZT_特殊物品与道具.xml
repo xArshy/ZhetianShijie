@@ -7,7 +7,7 @@
 			<li>
 				<Display>Worship</Display> 
 				<OKResult>
-				<![CDATA[
+				[CDATA[
 				local nR = me:RandomInt(1, 100);
 				local nT = me:RandomInt(1, 80);
 				if world:GetWorldFlag(566) + 3 < world.DayCount then
@@ -337,7 +337,7 @@
 			<li>
 				<Display>Tianzhidao is insufficient to make up for it。</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				
 				local nR = me:GetGLevel(1,12) 
 				if nR >= 12 then 
@@ -370,7 +370,7 @@
 			
 			<li>
 				<Display>Recast Fairy Road</Display> 
-				<DisplayCondition><![CDATA[	
+				<DisplayCondition>[CDATA[	
 				me.npcObj:CheckSpecialFlag(CS.XiaWorld.g_emNpcSpecailFlag.FLAG_PRACTICEDIE) == 1
 				story:RemoveBindItem();
 				]]>
@@ -391,7 +391,7 @@
 			<li>
 				<Display>Come on, it's all about to die anyway. (More than the dragon period and the same attributes)</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				local itemobj = story:GetBindThing()
 				local nE = 0
 				if itemobj.ElementKind == g_emElementKind.None then
@@ -460,7 +460,7 @@
 			<li>
 				<Display>Go in</Display> 
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				story:RemoveBindItem();
 				me:AddMsg("[NAME]Get a cheat book to unlock new locations, plus gifts from the author and a wave of enemies");
 				me:DropRandomItem("Esoterica");me:DropRandomItem("FightFabao", 6, 12);
@@ -486,7 +486,7 @@
 			<li>
 				<Display>Go in Chou Chou (Bodhi seeds are available only for the first time,)</Display> 
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				story:RemoveBindItem();
 				me:AddMsg("[NAME]Get a cheat book to unlock new locations, plus gifts from the author and a wave of enemies");
 				me:AddEnemy(3,1.5)
@@ -514,7 +514,7 @@
 			<li>
 				<Display>Go in 瞅瞅 (obtain bronze bronze hall location unlocked)</Display> 
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				story:RemoveBindItem();
 				me:AddMsg("[NAME]Get a cheat book to unlock new locations, plus gifts from the author and a wave of enemies");
 				me:AddEnemy(6,1.5)
@@ -539,7 +539,7 @@
 			<li>
 				<Display>Go in again</Display> 
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				
 				me:AddMsg("[NAME]Get a cheat book to unlock new locations, plus gifts from the author and a wave of enemies");
 				me:AddEnemy(6,1.5)
@@ -563,7 +563,7 @@
 			<li>
 				<Display>Go in</Display> 
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				
 				me:AddMsg("[NAME]Get a cheat book to unlock new locations, plus gifts from the author and a wave of enemies");
 				me:AddEnemy(6,1.5)
@@ -587,7 +587,7 @@
 			<li>
 				<Display>进去瞅瞅</Display> 
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				
 				me:AddMsg("[NAME]获得一本解锁新地点的秘籍，还有作者送的礼物和一波敌人");
 				me:AddEnemy(9,1.5)
@@ -611,7 +611,7 @@
 			<li>
 				<Display>进去瞅瞅</Display> 
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				
 				me:AddMsg("[NAME]获得一本解锁新地点的秘籍，还有作者送的礼物和一波敌人");
 				me:AddEnemy(12,1.5)
@@ -638,7 +638,7 @@
 			<li>
 				<Display>进去瞅瞅</Display> 
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				
 				me:AddMsg("[NAME]获得一本解锁新地点的秘籍，还有作者送的礼物和一波敌人");
 				me:AddEnemy(14,1.5)
@@ -665,7 +665,7 @@
 			<li>
 				<Display>Go in and out.</Display> 
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				
 				me:AddMsg("[NAME]Get a copy of unlocking a new location, along with a gift from the author and a wave of enemies");
 				me:AddEnemy(18,1.5)
@@ -689,7 +689,7 @@
 			<li>
 				<Display>Go in and out.</Display> 
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				
 				me:AddMsg("[NAME]Get a copy of unlocking a new location, along with a gift from the author and a wave of enemies");
 				me:AddEnemy(18,1.5)
@@ -713,7 +713,7 @@
 			<li>
 				<Display>进去瞅瞅</Display> 
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				story:RemoveBindItem();
 				me:AddMsg("[NAME]获得一本解锁新地点的秘籍，还有作者送的礼物和一波敌人");
 				me:AddEnemy(24,0.5)
@@ -737,7 +737,7 @@
 			<li>
 				<Display>进去瞅瞅</Display> 
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				story:RemoveBindItem();
 				me:AddMsg("[NAME]获得一本解锁新地点的秘籍，还有作者送的礼物和一波敌人");
 				me:AddEnemy(64,0.5)
@@ -761,7 +761,7 @@
 			<li>
 				<Display>Go in and out.</Display> 
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				me:AddMsg("[NAME]Get a copy to unlock a new location");
 				me:AddSchoolScore(1,50);
 				me:DropEsoteric("ZT_P");
@@ -787,7 +787,7 @@
 			<li>
 				<Display>Go in and out.</Display> 
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				story:RemoveBindItem();
 				me:AddMsg("[NAME]Get a copy of unlocking a new location, along with a gift from the author and a wave of enemies");
 				me:AddEnemy(16,1.5)
@@ -811,7 +811,7 @@
 			<li>
 				<Display>build connection</Display> 
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				
 				if me:CheckFeature("GodBody") == true then
 				me:AddMsg("[NAME]Part of the mind image is gone. Entering Qinglian, sinking into this corpse, he seemed to be out of his soul. / n "Why is this happening. I came into the other person's body ..., ..." / n [NAME] Don't know why this happened, which surprised him quite. / n Since ancient times. People don't know what happens when the two Eucharist meet. Because this kind of physique is so rare, the long years have passed. Their understanding is even more limited. / n Hard to imagine. [NAME] encountered this inexplicable encounter with a Eucharist skeleton.");
@@ -838,7 +838,7 @@
 			<li>
 				<Display>Want to unlock all Pills, no problem but nothing for nothing. (Challenge true enemies)</Display> 
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				if World.DayCount <= 99 then
 					me:AddMsg("[NAME]Get a book to unlock all pills, too arrogant on the way back to the martial arts, swaggering around, attracting a wave of robbers.");
 					me:DropEsoteric("ZTDF");
@@ -872,7 +872,7 @@
 			<li>
 				<Display>See map</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 					
 					if me:GetSkillLevel("Zhen") >= 20 then
 						me:AddMsg(XT("[NAME]With some enlightenment, what did you learn from the map?"));
@@ -893,7 +893,7 @@
 			<li>
 				<Display>Refined Dragon Ball</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 					if me:GetGLevel() >= 11 and me:GetSkillLevel("Barrier") >= 30 then
 						me:AddMsg(XT("[NAME]Absorbed all the essence in Dragon Ball, and feel like I'm fat again"));
 						me:ModifierProperty("NpcFight_ShieldConversionRate",10);me:ModifierProperty("NpcFight_ShieldConversionRateAddP",-0.1);
@@ -927,7 +927,7 @@
 			<li>
 				<Display>Refining Nedan</Display>
 				<OKResult>
-				<![CDATA[
+				[CDATA[
 					story:RemoveBindItem();				
 					if me:GetGLevel() >= 11 and me:GetSkillLevel("FightSkill") >= 30 then
 						me:AddMsg(XT("[NAME]Absorbed all the essence of Nedan and felt like I was a bit fat again"));
@@ -963,7 +963,7 @@
 			<li>
 				<Display>Refining Nedan</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 					story:RemoveBindItem();
 					if me:GetGLevel() >= 11 and me:GetSkillLevel("Zhen") >= 30 then
 						me:AddMsg(XT("[NAME]Absorbed all the essence of Nedan and felt like I was a bit fat again"));
@@ -1000,7 +1000,7 @@
 			<li>
 				<Display>Refining Nedan</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				story:RemoveBindItem();
 					if me:GetGLevel() >= 11 and me:GetSkillLevel("Qi") >= 30 then
 						me:AddMsg(XT("[NAME]Absorbed all the essence of Nedan and felt like I was a bit fat again"));
@@ -1035,7 +1035,7 @@
 			<li>
 				<Display>Refining Nedan</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 					story:RemoveBindItem();
 					if me:GetGLevel() >= 11 and me:GetSkillLevel("Fabao") >= 30 then
 						me:AddMsg(XT("[NAME]Absorbed all the essence of Nedan and felt like I was a bit fat again"));
@@ -1071,7 +1071,7 @@
 			<li>
 				<Display>Refining Burning Immortal War Constitution Pills</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 						local npcmgr = me.npcObj.PropertyMgr;
 						me:AddMsg(XT("[NAME]Absorbed all the essence of the Constitution Pill, and finally gained the ability to burn the immortal warfare"));
 						npcmgr:AddFeature("FSfBody");
@@ -1101,7 +1101,7 @@
 			<li>
 				<Display>Arakuji(5000 sect rep and attacked)</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				
 						if me:GetSchoolScore(0) >= 1 then
 						me:AddMsg(XT("Ancient family, located in the southern region. The ancient scriptures of the clan are "The Void Sutra", which contains stunts of great emptiness, large fingerprints of emptiness, cutting fingers, congenital futility, etc"));
@@ -1130,7 +1130,7 @@
 			<li>
 				<Display>Aragon Ginger House(6000 sect rep and attacked)</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 					
 					if me:GetSchoolScore(0) >= 1 then
 						me:AddMsg(XT("The ancient family, located in the Northern Territory, has a great relationship with the Holy Emperor Shennong. The ancient scripture of the clan is "Hengyu Jing""));
@@ -1154,7 +1154,7 @@
 			<li>
 				<Display>Yaochi Holy Land(6500 sect rep and attacked)</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				if me:GetSchoolScore(0) >= 1 then
 					story:RemoveBindItem();
 						me:AddMsg(XT("The Holy Land is located in the Northern Territory. The disciples are mostly women, and they have never been in conflict with the world"));
@@ -1178,7 +1178,7 @@
 			<li>
 				<Display>Zhongzhou Dynasty(4500 sect rep and attacked)</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				if me:GetSchoolScore(0) >= 1 then
 					story:RemoveBindItem();
 					
@@ -1202,7 +1202,7 @@
 			<li>
 				<Display>Rebuilding the heaven(9999 sect rep and attacked)</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				if me:GetSchoolScore(0) >= 1 then
 					story:RemoveBindItem();
 					
@@ -1233,7 +1233,7 @@
 			<li>
 				<Display>All beings(1500 sect rep and attacked)</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				if me:GetSchoolScore(0) >= 1 then
 					story:RemoveBindItem();
 					
@@ -1257,7 +1257,7 @@
 			<li>
 				<Display>Kingdom of God(1000 sect rep and attacked)</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				if me:GetSchoolScore(0) >= 1 then
 					story:RemoveBindItem();
 					
@@ -1281,7 +1281,7 @@
 			<li>
 				<Display>Grave Robbery(3000 sect rep and attacked)</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				if me:GetSchoolScore(0) >= 1 then
 					story:RemoveBindItem();
 					
@@ -1305,7 +1305,7 @@
 			<li>
 				<Display>No beginning and no end(6000 sect rep and attacked)</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				if me:GetSchoolScore(0) >= 1 then
 					story:RemoveBindItem();
 					
@@ -1349,7 +1349,7 @@
 			</li>
 			<li>
 				<Display>Leave</Display>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				me:AddMsg(XT("[NAME]Don't want to do anything, just leave here."));
 				]]>
 				</OKResult>

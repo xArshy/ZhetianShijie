@@ -10,10 +10,10 @@
 			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
 		</Properties>
 		<Skills>
-				<li Name="Medicine" LevelOver="10"/><!-- 御物 -->
-				<li Name="Medicine" Level="10"/><!-- 御物 -->
-				<li Name="DanQi" LevelOver="10"/><!-- 丹器 -->
-				<li Name="DanQi" Level="10"/><!-- 丹器 -->
+				<li Name="Medicine" LevelOver="10"/>
+				<li Name="Medicine" Level="10"/>
+				<li Name="DanQi" LevelOver="10"/>
+				<li Name="DanQi" Level="10"/>
 		</Skills>
 	</Modifier>
 	<Modifier Name="Gong_NPJ_6_B" Type="Normal">
@@ -43,8 +43,8 @@
 			
 		</Properties>
 		<Skills>
-				<li Name="Barrier" LevelOver="10"/><!-- 护盾 -->
-				<li Name="Barrier" Level="10"/><!-- 护盾 -->
+				<li Name="Barrier" LevelOver="10"/>
+				<li Name="Barrier" Level="10"/>
 		</Skills>
 	</Modifier>
 
@@ -58,10 +58,10 @@
 			<li Name="DanMake_SpeedAddV" AddV="5"/>
 		</Properties>
 		<Skills>
-				<li Name="Medicine" LevelOver="10"/><!-- 御物 -->
-				<li Name="Medicine" Level="10"/><!-- 御物 -->
-				<li Name="DanQi" LevelOver="10"/><!-- 丹器 -->
-				<li Name="DanQi" Level="10"/><!-- 丹器 -->
+				<li Name="Medicine" LevelOver="10"/>
+				<li Name="Medicine" Level="10"/>
+				<li Name="DanQi" LevelOver="10"/>
+				<li Name="DanQi" Level="10"/>
 		</Skills>
 	</Modifier>
 	<Modifier Name="Gong_NPJ_8_B" Type="Normal">
@@ -74,10 +74,10 @@
 			<li Name="DanMake_YieldAddP" AddP="5"/>
 		</Properties>
 		<Skills>
-				<li Name="Medicine" LevelOver="10"/><!-- 御物 -->
-				<li Name="Medicine" Level="10"/><!-- 御物 -->
-				<li Name="DanQi" LevelOver="10"/><!-- 丹器 -->
-				<li Name="DanQi" Level="10"/><!-- 丹器 -->
+				<li Name="Medicine" LevelOver="10"/>
+				<li Name="Medicine" Level="10"/>
+				<li Name="DanQi" LevelOver="10"/>
+				<li Name="DanQi" Level="10"/>
 				
 				
 		</Skills>

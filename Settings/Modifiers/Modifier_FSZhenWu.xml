@@ -10,7 +10,7 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
 			<li Name="MaxAge" AddV="900"/>
-			<li Name="NpcFight_SpellPowerAddP" AddP="2"/><!--术法伤害加成3-->
+			<li Name="NpcFight_SpellPowerAddP" AddP="2"/>
 		</Properties>
 	</Modifier> 
 	
@@ -23,8 +23,8 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="GodPenaltyAddV" AddV="-20"/><!--天谴，正的加天谴的。-50 50-->
-			<li Name="NpcFight_ShieldConversionRate" AddP="5"/><!--护盾强度加值2-->
+			<li Name="GodPenaltyAddV" AddV="-20"/>
+			<li Name="NpcFight_ShieldConversionRate" AddP="5"/>
 		</Properties>
 	</Modifier> 
 	
@@ -37,8 +37,8 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="PotentialOfBasepracticeAddValue" AddV="3"/><!--潜力值5-->
-			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.2"/><!--术法灵气消耗加成 -1-->
+			<li Name="PotentialOfBasepracticeAddValue" AddV="3"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.2"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="SP_FSZhenWu_20" Type="New">
@@ -50,8 +50,8 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="NpcFight_FabaoNum" AddV="1"/><!--法宝数量6-->
-			<li Name="MindStateBaseValue" AddV="20"/><!--心情基础值50-->
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
+			<li Name="MindStateBaseValue" AddV="20"/>
 		</Properties>
 	</Modifier> 
 	
@@ -65,7 +65,7 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
 			<li Name="NpcFight_SneakValue" AddV="15"/>
-			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="1.5"/><!--法宝灵气恢复速度加成3-->
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="1.5"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="SP_FSZhenWu_22" Type="New">
@@ -103,7 +103,7 @@
 		<Display>0</Display>
 		<BaseFive>3,3,3,3,3</BaseFive>
 		<Properties>
-			<li Name="MaxAccumulativeLingAddV" AddV="250"/><!--炉鼎值1000-->
+			<li Name="MaxAccumulativeLingAddV" AddV="250"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="SP_FSZhenWu_25" Type="New">
@@ -144,8 +144,8 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="RecoveryPower" AddP="4"/><!--自然恢复力10-->
-				<li Name="MagicDamageRecoveryPowerAddV" AddV="1"/><!--内门伤自然恢复力5-->
+			<li Name="RecoveryPower" AddP="4"/>
+				<li Name="MagicDamageRecoveryPowerAddV" AddV="1"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="SP_FSZhenWu_28" Type="New">
@@ -157,8 +157,8 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="DanMake_SpeedAddV" AddV="5"/><!--自然恢复力10-->
-				<li Name="DanMake_YieldAddP" AddP="1"/><!--内门伤自然恢复力5-->
+			<li Name="DanMake_SpeedAddV" AddV="5"/>
+				<li Name="DanMake_YieldAddP" AddP="1"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="SP_FSZhenWu_29" Type="New">
@@ -170,8 +170,8 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="MiningYieldEfficiency" AddP="2"/><!--自然恢复力10-->
-				<li Name="MiningSpeed" AddP="2"/><!--内门伤自然恢复力5-->
+			<li Name="MiningYieldEfficiency" AddP="2"/>
+				<li Name="MiningSpeed" AddP="2"/>
 				<li Name="MadeQualityAddValue" AddV="2"/>
 			<li Name="SmithingSpeed" AddP="2"/>
 			<li Name="HandworkSpeed" AddP="2"/>
@@ -187,8 +187,8 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="MaxAccumulativeLingAddV" AddV="300"/><!--自然恢复力10-->
-				<li Name="AbilityLvAddV" AddV="-50"/><!--内门伤自然恢复力5-->
+			<li Name="MaxAccumulativeLingAddV" AddV="300"/>
+				<li Name="AbilityLvAddV" AddV="-50"/>
 				<li Name="NeckCountdownAddV" AddV="-2000"/>
 		</Properties>
 	</Modifier> 
@@ -201,9 +201,9 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,2,0</BaseFive>
 		<Properties>
-			<li Name="WorldMapFlySpeed" AddP="1"/><!--历练飞行速度-->
-				<li Name="WorldMapFlySpeedAddP" AddP="1.1"/><!--历练飞行速度加成 3-->
-				<li Name="ExperiencePrestigeAddP" AddP="1"/><!--历练型声望放大系数 3-->
+			<li Name="WorldMapFlySpeed" AddP="1"/>
+				<li Name="WorldMapFlySpeedAddP" AddP="1.1"/>
+				<li Name="ExperiencePrestigeAddP" AddP="1"/>
 		</Properties>
 	</Modifier> 
 </List></ModifierDefs>

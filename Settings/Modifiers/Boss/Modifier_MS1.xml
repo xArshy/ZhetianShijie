@@ -7,7 +7,7 @@
 		<Display>0</Display>
 		<Properties>
 			<li Name="NpcLingMaxValue" AddP="500"/>
-			<li Name="LingAbsorbSpeed" AddP="50"/><!--灵气吸收速度5-->
+			<li Name="LingAbsorbSpeed" AddP="50"/>
 		</Properties>
 	</Modifier> 
 	
@@ -42,7 +42,7 @@
 			<li Name="NpcFight_ShieldResistanceToJin" AddV="1"/>
 			<li Name="NpcFight_ShieldResistanceToShui" AddV="1"/>		
 			<li Name="NpcFight_ShieldResistanceToTu" AddV="1"/>	
-			<li Name="LingAbsorbSpeed" AddP="100"/><!--灵气吸收速度5-->			
+			<li Name="LingAbsorbSpeed" AddP="100"/>
 		</Properties>
 	</Modifier> 
 	
@@ -72,7 +72,7 @@
 		<Properties>
 			<li Name="NpcFight_ShieldConversionRate" AddV="125"/>
 			<li Name="NpcFight_ShieldConversionRateAddP" AddP="1.5"/>
-			<li Name="LingAbsorbSpeed" AddP="20"/><!--灵气吸收速度5-->
+			<li Name="LingAbsorbSpeed" AddP="20"/>
 		</Properties>
 	</Modifier> 
 	
@@ -108,7 +108,7 @@
 	</Modifier> 
 
 
-	<Modifier Name="Boss_Jiaolong_LongNu" Type="Normal"><!--龙怒-->
+	<Modifier Name="Boss_Jiaolong_LongNu" Type="Normal">
 		<DisplayName>龙怒</DisplayName>
 		<Desc>妖龙进入愤怒状态，全属性提高。</Desc>
 		<MaxStack>1</MaxStack>
@@ -130,7 +130,7 @@
 		</Properties>
 	</Modifier> 
 	
-	<Modifier Name="Boss_Jiaolong_Longxi" Type="Normal"><!--龙吸BUFF 挂在对象身上的-->
+	<Modifier Name="Boss_Jiaolong_Longxi" Type="Normal">
 		<DisplayName>龙吸术</DisplayName>
 		<Desc>妖龙深深地吸了一口气，角色身体内的水分正在快速流失！</Desc>
 		<MaxStack>1</MaxStack>
@@ -186,7 +186,7 @@
 		</EffectBind>
 	</Modifier> 
 	
-	<Modifier Name="Boss_Jiaolong_fanshi" Type="Normal"><!--龙吸BUFF 挂在对象身上的-->
+	<Modifier Name="Boss_Jiaolong_fanshi" Type="Normal">
 		<DisplayName>噬-蛟龙反噬</DisplayName>
 		<Desc>一段时间之后将反噬其法宝，法宝灵气削减一半，火属性的法宝效果翻倍，土属性法宝效果减半。</Desc>
 		<MaxStack>1</MaxStack>
@@ -224,7 +224,7 @@
 			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.2"/>
 			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.2"/>		
 			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.2"/>	
-			<li Name="LingAbsorbSpeed" AddP="10"/><!--灵气吸收速度5-->			
+			<li Name="LingAbsorbSpeed" AddP="10"/>
 		</Properties>
 	</Modifier> 
 </List></ModifierDefs>

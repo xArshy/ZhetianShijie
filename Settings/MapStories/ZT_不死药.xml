@@ -8,7 +8,7 @@
 			<li>
 				<Display>Taking immortal medicine (edible from the age of nine thousand years old, shield skill above 40)</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 					local NL = me.npcObj.Age
 					story:RemoveBindItem();
 					if me:GetGLevel() >= 11 and me:GetSkillLevel("Barrier") >= 40 and NL >=9003 then
@@ -39,7 +39,7 @@
 			<li>
 				<Display>Forget it, I think about it and eat you next time.</Display>
 				<OKResult>
-					<![CDATA[	
+					[CDATA[	
 				if world:GetWorldFlag(555) + 120 < world.DayCount then
 				me:AddMsg(XT("[NAME]Still decided to give up the Qinglong immortal."))
 				world:SetWorldFlag(555,world.DayCount);me:DropAwardItem("Item_LZ",1);
@@ -62,7 +62,7 @@
 			<li>
 				<Display>Consumption of undead medicine,(Skill level 40 or above)</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 					local NL = me.npcObj.Age
 					story:RemoveBindItem();
 					if me:GetGLevel() >= 11 and me:GetSkillLevel("FightSkill") >= 40 and NL >=9003 then
@@ -91,7 +91,7 @@
 			<li>
 				<Display>Forget it, I think about it and eat you next time.</Display>
 				<OKResult>
-					<![CDATA[	
+					[CDATA[	
 				if world:GetWorldFlag(556) + 120 < world.DayCount then
 				me:AddMsg(XT("[NAME]Still decided to give up eating this immortal phoenix medicine."))
 				world:SetWorldFlag(556,world.DayCount);me:DropAwardItem("Item_SFND",1);
@@ -113,7 +113,7 @@
 			<li>
 				<Display>Consumption of undead medicine,(Matrix skills over forty)</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 					local NL = me.npcObj.Age
 					story:RemoveBindItem();
 					if me:GetGLevel() >= 11 and me:GetSkillLevel("Zhen") >= 40 and NL >=9003 then
@@ -142,7 +142,7 @@
 			<li>
 				<Display>Forget it, I think about it and eat you next time.</Display>
 				<OKResult>
-					<![CDATA[	
+					[CDATA[	
 				if world:GetWorldFlag(557) + 120 < world.DayCount then
 				me:AddMsg(XT("[NAME]Still decided to give up eating this immortal Huanglong medicine."))
 				world:SetWorldFlag(557,world.DayCount);me:DropAwardItem("Item_HLND",1);
@@ -164,7 +164,7 @@
 			<li>
 				<Display>Consumption of undead medicine,(Sensing skills above level 40)</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 					local NL = me.npcObj.Age
 					story:RemoveBindItem();
 					if me:GetGLevel() >= 11 and me:GetSkillLevel("Qi") >= 40 and NL >=9003 then
@@ -193,7 +193,7 @@
 			<li>
 				<Display>算了，我考虑考虑，下次吃你。</Display>
 				<OKResult>
-					<![CDATA[	
+					[CDATA[	
 				if world:GetWorldFlag(558) + 120 < world.DayCount then
 				me:AddMsg(XT("[NAME]Still decided to give up eating this undead basalt medicine."))
 				world:SetWorldFlag(558,world.DayCount);me:DropAwardItem("Item_XWND",1);
@@ -214,7 +214,7 @@
 			<li>
 				<Display>Consumption of undead medicine,Emperor skill level 40 or above)</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 					local NL = me.npcObj.Age
 					story:RemoveBindItem();
 					if me:GetGLevel() >= 11 and me:GetSkillLevel("Fabao") >= 40 and NL >=9003 then
@@ -243,7 +243,7 @@
 			<li>
 				<Display>Forget it, I think about it and eat you next time.</Display>
 				<OKResult>
-					<![CDATA[	
+					[CDATA[	
 				if world:GetWorldFlag(559) + 120 < world.DayCount then
 				me:AddMsg(XT("[NAME]Still decided to give up eating this immortal white tiger medicine."))
 				world:SetWorldFlag(559,world.DayCount);me:DropAwardItem("Item_BHND",1);

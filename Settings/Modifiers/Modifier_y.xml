@@ -36,25 +36,25 @@
 		<Display>0</Display>
 		<Skills>
 				
-				<li Name="Fabao" Level="1"/><!-- 法宝 -->
-				<li Name="DouFa" Level="1"/><!-- 斗法 -->
-				<li Name="Barrier" Level="1"/><!-- 护盾 -->
-				<li Name="Zhen" Level="1"/><!-- 阵法 -->
-				<li Name="FightSkill" Level="1"/><!-- 术法 -->
-				<li Name="DanQi" Level="1"/><!-- 丹器 -->
+				<li Name="Fabao" Level="1"/>
+				<li Name="DouFa" Level="1"/>
+				<li Name="Barrier" Level="1"/>
+				<li Name="Zhen" Level="1"/>
+				<li Name="FightSkill" Level="1"/>
+				<li Name="DanQi" Level="1"/>
 				<li Name="Medicine" Level="1"/>
 				<li Name="Manual" Level="1"/>
-				<li Name="Fight" Level="1"/><!-- 御物 -->
-				<li Name="Qi" Level="1"/><!-- 气感 -->
+				<li Name="Fight" Level="1"/>
+				<li Name="Qi" Level="1"/>
 
-				<li Name="Fight" LevelOver="1"/><!-- 御物 -->
-				<li Name="Qi" LevelOver="1"/><!-- 气感 -->
-				<li Name="Fabao" LevelOver="1"/><!-- 法宝 -->
-				<li Name="DouFa" LevelOver="1"/><!-- 斗法 -->
-				<li Name="Barrier" LevelOver="1"/><!-- 护盾 -->
-				<li Name="Zhen" LevelOver="1"/><!-- 阵法 -->
-				<li Name="FightSkill" LevelOver="1"/><!-- 术法 -->
-				<li Name="DanQi" LevelOver="1"/><!-- 丹器 -->
+				<li Name="Fight" LevelOver="1"/>
+				<li Name="Qi" LevelOver="1"/>
+				<li Name="Fabao" LevelOver="1"/>
+				<li Name="DouFa" LevelOver="1"/>
+				<li Name="Barrier" LevelOver="1"/>
+				<li Name="Zhen" LevelOver="1"/>
+				<li Name="FightSkill" LevelOver="1"/>
+				<li Name="DanQi" LevelOver="1"/>
 				<li Name="Medicine" LevelOver="1"/>
 				<li Name="Manual" LevelOver="1"/>
 			</Skills>

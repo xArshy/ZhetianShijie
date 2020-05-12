@@ -5,8 +5,8 @@
 		<Cost>
 			<Influence>100</Influence>
 		</Cost>
-		<CD>1</CD> <!-- 单位是天 -->
-		<Lua>GameUlt.ZhaoLanwsst(region)</Lua> <!-- 效果就是跑个lua脚本 -->
+		<CD>1</CD> 
+		<Lua>GameUlt.ZhaoLanwsst(region)</Lua> 
 		<Icon>Spr\outspread\WSJT\TJZ.png</Icon>
 	</Def>
 </List></Defs>

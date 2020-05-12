@@ -1,6 +1,6 @@
 <Esotericas><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Esoterica Name="Gong_YTS_LH_A1">
 		<DisplayName>谭源深禁</DisplayName>
@@ -40,11 +40,11 @@
 	</Esoterica>
 	
 	
-	<!-- ==========================技能2========================== -->
 	
 	
 	
-	<!-- ==========================技能3========================== -->
+	
+	
 	
 	<Esoterica Name="Gong_YTS_LH_A3">
 		<DisplayName>源本创身</DisplayName>
@@ -84,7 +84,7 @@
 		<Modifier>Gong_YTS_LH_3A_1</Modifier>
 	</Esoterica>
 	
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Esoterica Name="Gong_YTS_LH_B1">
 		<DisplayName>源术聚源</DisplayName>
@@ -103,7 +103,7 @@
 	</Esoterica>
 	
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 	<Esoterica Name="Gong_YTS_DG_B1">
 		<DisplayName>源天书</DisplayName>
@@ -152,10 +152,10 @@
 		</Magics>
 	</Esoterica>
 	
-	<!-- ==========================技能5========================== -->
 	
 	
-	<!-- ==========================分割线========================== -->
+	
+	
 	
 	<Esoterica Name="Gong_YTS_SJ_C1">
 		<DisplayName>源术神源</DisplayName>
@@ -244,73 +244,73 @@
 		<EffectDesc>[size=10][color=#D06508]        \n加炼器成功率\n加炼器速度\n加神器成功率[/color][/size]</EffectDesc>
 		<Modifier>Gong_YTS_XT_1F</Modifier>
 		<Magics>
-			<li>BuildMine</li><!-- 造山术 -->
-			<li>BuildLand</li><!-- 造陆术 -->
-			<li>BuildSea</li><!-- 开湖术 -->
-			<li>BuildLing</li><!-- 造化灵土 -->
-			<li>BuildLingWater</li><!-- 造化灵池 -->
-			<li>BuildFertileSoil</li><!-- 造化沃土 -->
-			<li>RebornSelf</li><!-- 玄牝重生法 -->
-			<li>BuidPuppet</li><!-- 赋灵术 -->
-			<li>MakePuppet</li><!-- 御灵术 -->
-			<li>PlantGrowUp</li><!-- 御木诀 -->
-			<li>ClosedDoor</li><!-- 入定之术 -->
-			<li>Healing_Damage</li><!-- 化伤术 -->
-			<li>BuildBody</li><!-- 再造术 -->
-			<li>AbsorbGong_1</li><!-- 鼎炉吸真术 -->
-			<li>AbsorbGong_2</li><!-- 风月幻境 -->
-			<li>AbsorbGong_3</li><!-- 摄神御鬼大法 -->
-			<li>AbsorbGong_4</li><!-- 天魔化身术 -->
-			<li>AbsorbGong_5</li><!-- 他化自在大法 -->
-			<li>AbsorbGong_6</li><!-- 魂体寄生 -->
-			<li>AbsorbGong_7</li><!-- 献祭 -->
-			<li>AbsorbGong_8</li><!-- 清心咒 -->
-			<li>AbsorbGong_9_1</li><!-- 天心正法 -->
-			<li>AbsorbGong_9_2</li><!-- 天魔解体大法 -->
-			<li>AbsorbGong_10</li><!-- 慧剑斩念 -->
-			<li>AbsorbLing_Live</li><!-- 冥灵真法 -->
-			<li>AbsorbLing_Body</li><!-- 天妖化血术 -->
-			<li>AbsorbLing_Thing</li><!-- 托体同山诀 -->
-			<li>AbsorbLing_Item</li><!-- 吸星掌 -->
-			<li>AbsorbLing_Aoe</li><!-- 灵息诀 -->
-			<li>RobBodyLow</li><!-- 阴神夺舍 -->
-			<li>RobBodyHigh</li><!-- 阳神夺舍 -->
-			<li>LingStoneMake</li><!-- 炼制灵石之术 -->
-			<li>LingCrystalMake</li><!-- 炼制灵晶之术 -->
-			<li>SeachSoul</li><!-- 搜魂大法 -->
-			<li>MakeSoulCrystal</li><!-- 凝珀诀 -->
-			<li>SoulCrystalYouPowerUp</li><!-- 幽淬之法 -->
-			<li>SoulCrystalLingPowerUp</li><!-- 灵淬之法 -->
-			<li>Prophesy</li><!-- 周天神算 -->
-			<li>Prophesy_MapStory</li><!-- 大衍神算 -->
-			<li>PrayForRain</li><!-- 求雨术 -->
-			<li>PrayForSun</li><!-- 驱云诀 -->
-			<li>PrayForRainstorm</li><!-- 暴雨术 -->
-			<li>PrayForFohn</li><!-- 焚风术 -->
-			<li>PrayForDustStorm</li><!-- 尘暴术 -->
-			<li>PrayForMiasma</li><!-- 毒瘴术 -->
-			<li>PrayForLightningStorm</li><!-- 雷暴术 -->
-			<li>Healing_Physique</li><!-- 伐毛洗髓之术 -->
-			<li>Healing_Intelligence</li><!-- 醍醐灌顶之术 -->
-			<li>Healing_Charisma</li><!-- 再造形神之术 -->
-			<li>Healing_Perception</li><!-- 开天眼之术 -->
-			<li>FengshuiItemOpen</li><!-- 风水鉴定 -->
-			<li>BuildRain</li><!-- 甘霖术 -->
-			<li>LingXiZhou</li><!-- 灵犀咒 -->
-			<li>XinYinJue</li><!-- 心印诀 -->
-			<li>TianMoWu</li><!-- 天魔舞 -->
-			<li>WuYinKeShen</li><!-- 五印刻神 -->
-			<li>ClosedDoor_Gong1</li><!-- 水镜观心定 -->
-			<li>ClosedDoor_Gong4</li><!-- 玉清定境 -->
-			<li>AbsorbGong_1_Gong9</li><!-- 元央归息法 -->
-			<li>AbsorbGong_2_Gong7</li><!-- 如意幻境 -->
-			<li>AbsorbGong_3_Gong11</li><!-- 九幽炼神 -->
-			<li>PlantGrowUp_Gong1</li><!-- 天霖诀 -->
-			<li>PlantGrowUp_Gong9</li><!-- 万木回春 -->
-			<li>PrayForZhenShuiJieJie_Gong1</li><!-- 九阴真水界 -->
-			<li>PrayForZhenHuoJieJie_Gong10</li><!-- 九阳真火界 -->
-			<li>PrayForBeiDouJianJie_Gong8</li><!-- 北斗剑界 -->
-			<li>FenShenZhiShu</li><!-- 分神之术 -->
+			<li>BuildMine</li>
+			<li>BuildLand</li>
+			<li>BuildSea</li>
+			<li>BuildLing</li>
+			<li>BuildLingWater</li>
+			<li>BuildFertileSoil</li>
+			<li>RebornSelf</li>
+			<li>BuidPuppet</li>
+			<li>MakePuppet</li>
+			<li>PlantGrowUp</li>
+			<li>ClosedDoor</li>
+			<li>Healing_Damage</li>
+			<li>BuildBody</li>
+			<li>AbsorbGong_1</li>
+			<li>AbsorbGong_2</li>
+			<li>AbsorbGong_3</li>
+			<li>AbsorbGong_4</li>
+			<li>AbsorbGong_5</li>
+			<li>AbsorbGong_6</li>
+			<li>AbsorbGong_7</li>
+			<li>AbsorbGong_8</li>
+			<li>AbsorbGong_9_1</li>
+			<li>AbsorbGong_9_2</li>
+			<li>AbsorbGong_10</li>
+			<li>AbsorbLing_Live</li>
+			<li>AbsorbLing_Body</li>
+			<li>AbsorbLing_Thing</li>
+			<li>AbsorbLing_Item</li>
+			<li>AbsorbLing_Aoe</li>
+			<li>RobBodyLow</li>
+			<li>RobBodyHigh</li>
+			<li>LingStoneMake</li>
+			<li>LingCrystalMake</li>
+			<li>SeachSoul</li>
+			<li>MakeSoulCrystal</li>
+			<li>SoulCrystalYouPowerUp</li>
+			<li>SoulCrystalLingPowerUp</li>
+			<li>Prophesy</li>
+			<li>Prophesy_MapStory</li>
+			<li>PrayForRain</li>
+			<li>PrayForSun</li>
+			<li>PrayForRainstorm</li>
+			<li>PrayForFohn</li>
+			<li>PrayForDustStorm</li>
+			<li>PrayForMiasma</li>
+			<li>PrayForLightningStorm</li>
+			<li>Healing_Physique</li>
+			<li>Healing_Intelligence</li>
+			<li>Healing_Charisma</li>
+			<li>Healing_Perception</li>
+			<li>FengshuiItemOpen</li>
+			<li>BuildRain</li>
+			<li>LingXiZhou</li>
+			<li>XinYinJue</li>
+			<li>TianMoWu</li>
+			<li>WuYinKeShen</li>
+			<li>ClosedDoor_Gong1</li>
+			<li>ClosedDoor_Gong4</li>
+			<li>AbsorbGong_1_Gong9</li>
+			<li>AbsorbGong_2_Gong7</li>
+			<li>AbsorbGong_3_Gong11</li>
+			<li>PlantGrowUp_Gong1</li>
+			<li>PlantGrowUp_Gong9</li>
+			<li>PrayForZhenShuiJieJie_Gong1</li>
+			<li>PrayForZhenHuoJieJie_Gong10</li>
+			<li>PrayForBeiDouJianJie_Gong8</li>
+			<li>FenShenZhiShu</li>
 		</Magics>
 	</Esoterica>
 	<Esoterica Name="Gong_YTS_XT_F1_1">
@@ -346,21 +346,21 @@
 		<Element>Tu</Element>
 		<EffectDesc>[size=10][color=#D06508]\n习得 所有秘术\n习得阵图 封仙六禁[/color][/size]</EffectDesc>
 		<Skills>
-			<li>DamageSkill_1</li><!-- 先天罡气 -->
-			<li>DamageSkill_2</li><!-- 烈焰决 -->
-			<li>DamageSkill_3</li><!-- 庚金神雷 -->
-			<li>DamageSkill_4</li><!-- 元磁灭绝神光 -->
-			<li>HealthSkill_Gong1_1</li><!-- 天水化伤术 -->
-			<li>FabaoSkill_Gong3_1</li><!-- 神剑共鸣 -->
-			<li>DamageSkill_Gong4_1</li><!-- 玉清太虚神雷 -->
-			<li>SheildSkill_Gong4_1</li><!-- 厚土之盾 -->
-			<li>HealthSkill_Gong4_1</li><!-- 回春诀 -->
-			<li>SheildSkill_Gong5_1</li><!-- 凝血神盾 -->
-			<li>DamageSkill_Gong7_1</li><!-- 斩念剑 -->
-			<li>FabaoSkill_Gong8_1</li><!-- 北极剑煞 -->
-			<li>HealthSkill_Gong9_1</li><!-- 逆转轮回 -->
-			<li>SkillSkill_Gong10_1</li><!-- 焚日真法 -->
-			<li>SheildSkill_Gong11_1</li><!-- 太虚神盾 -->
+			<li>DamageSkill_1</li>
+			<li>DamageSkill_2</li>
+			<li>DamageSkill_3</li>
+			<li>DamageSkill_4</li>
+			<li>HealthSkill_Gong1_1</li>
+			<li>FabaoSkill_Gong3_1</li>
+			<li>DamageSkill_Gong4_1</li>
+			<li>SheildSkill_Gong4_1</li>
+			<li>HealthSkill_Gong4_1</li>
+			<li>SheildSkill_Gong5_1</li>
+			<li>DamageSkill_Gong7_1</li>
+			<li>FabaoSkill_Gong8_1</li>
+			<li>HealthSkill_Gong9_1</li>
+			<li>SkillSkill_Gong10_1</li>
+			<li>SheildSkill_Gong11_1</li>
 		</Skills>
 		<Fabaos>
 			<li>Item_FXLJZhenTu</li>

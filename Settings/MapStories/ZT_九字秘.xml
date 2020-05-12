@@ -7,13 +7,13 @@
 			<li>
 				<Display>A probe into the exact (four-thirds of a probability, the above-the-world realm)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetGLevel() >= 6 and me:RandomInt(1, 4) == 1
 				]]>
 				</Condition>
 				<Tip>Half of the tao palace environment may find the chance, the probability of one-fourth. Can't go low.</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				me:AddMsg("[NAME]With also see the past repair and good luck, get the word secret.");
 				me:AddSchoolScore(1,200);
 				
@@ -22,7 +22,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				<![CDATA[	
+				[CDATA[	
 
 				me:AddMsg("[NAME]Broke out a wave, so that the word secret can not see the repair, so the word secret ran, right, ran, but also to return[NAME]Left a book of other secrets, sighed, had to leave.");
 				me:AddSchoolScore(1,-30);
@@ -34,7 +34,7 @@
 			
 			<li>
 				<Display>Come on, let's go.</Display>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				me:AddMsg("[NAME]Head long whistling, so what use, it is time to go.");
 				]]>
 				</OKResult>
@@ -49,13 +49,13 @@
 			<li>
 				<Display>A probe into the end (one in two probability)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetGLevel() >= 4 and me:RandomInt(1, 2) == 1
 				]]>
 				</Condition>
 				<Tip>Tao Palace poor but can find the chance, the probability of one-fourth can not get you to go to the group.</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				me:AddMsg("[NAME]With a still see the past repair and general luck, to obtain the word secret.");
 	
 				me:DropEsoteric("ZT_JZM_L");
@@ -64,7 +64,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				<![CDATA[	
+				[CDATA[	
 
 				me:AddMsg("[NAME]The repair and bad luck are amazing ah, my day of so many years of practice is how to live, so say,[NAME]Except for a random book, hey, it's not a good time to call you gone.")
 				me:AddSchoolScore(1,-20);
@@ -76,7 +76,7 @@
 			
 			<li>
 				<Display>Come on, let's go.</Display>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				me:AddMsg("[NAME]Head long whistling, so what use, it is time to go.");
 				]]>
 				</OKResult>
@@ -91,13 +91,13 @@
 			<li>
 				<Display>A probe into the end (experience speed is greater than 5, god is greater than 9, insight is greater than 9)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetGLevel() >= 3 
 				]]>
 				</Condition>
 				<Tip>Round sea may find the edge, tell me really I lower the probability,</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				if me:GetProperty("WorldMapFlySpeed") >= 5 or me:GetPerception() >= 9 and me:GetIntelligence() >= 9 then
 				me:AddMsg("[NAME]With their own good foundation ability, watching the old madman's feet, actually have a lot to gain, learned the word secret.");
 				me:DropEsoteric("ZT_JZM_X");
@@ -110,7 +110,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				<![CDATA[	
+				[CDATA[	
 
 				me:AddMsg("[NAME]With a still see the past repair and general luck, simply can not get the word secret, it ran to find the old madman, you dare to follow?");
 				me:AddSchoolScore(1,-20);
@@ -122,7 +122,7 @@
 			
 			<li>
 				<Display>Come on, let's go.</Display>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				me:AddMsg("[NAME]Head long whistling, so what use, it is time to go.");
 				]]>
 				</OKResult>
@@ -137,13 +137,13 @@
 			<li>
 				<Display>Check it out (Spell Level 28)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetGLevel() >= 6 and me:GetSkillLevel("FightSkill") >= 28
 				]]>
 				</Condition>
 				<Tip>The opportunity can only be found in Daomingjing</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				me:AddMsg("[NAME]Run the aura in your body, don't be lucky, I look at your spell ability, you break through the formation, and you get the word secret.");
 	
 				me:DropEsoteric("ZT_JZM_D");
@@ -152,7 +152,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				<![CDATA[	
+				[CDATA[	
 
 				me:AddMsg("[NAME]With the luck that can't exist and the skill is so poor, you can't find the word secret. It's there, you just can't get it.");
 				me:AddSchoolScore(1,-20);
@@ -164,7 +164,7 @@
 			
 			<li>
 				<Display>Forget it, let's go.</Display>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
 				]]>
 				</OKResult>
@@ -179,13 +179,13 @@
 			<li>
 				<Display>How to say it is also Jiubi, I'll go down. (Matrix 25)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetGLevel() >= 8 and me:GetSkillLevel("Zhen") >= 25
 				]]>
 				</Condition>
 				<Tip>The opportunity can only be found in Daomingjing</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				me:AddMsg("[NAME]After running the aura in the body, he found that he was[NAME]What kind of aura is it?");
 				me:DropEsoteric("ZT_JZM_ZHEN");
 				me:AddSchoolScore(1,200);
@@ -193,7 +193,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				<![CDATA[	
+				[CDATA[	
 
 				me:AddMsg("[NAME]Have you learned the matrix? Just want to get a secret copy? Ok?");
 				me:AddSchoolScore(1,-20);
@@ -205,7 +205,7 @@
 			
 			<li>
 				<Display>Forget it, let's go.</Display>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
 				]]>
 				</OKResult>
@@ -220,13 +220,13 @@
 			<li>
 				<Display>Formation? Any good stuff? (Matrix 10)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetGLevel() >= 6 and me:GetSkillLevel("Zhen") >= 10
 				]]>
 				</Condition>
 				<Tip>Four opportunities to find opportunities</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				me:AddMsg("[NAME]After running the aura in the body, he found that he was[NAME]What kind of aura is it?");
 				me:DropEsoteric("ZT_YMSC");me:DropAwardItem("Item_FXLJZhenTu", 1);
 				me:AddSchoolScore(1,100);
@@ -234,7 +234,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				<![CDATA[	
+				[CDATA[	
 
 				me:AddMsg("[NAME]Have you learned the matrix? Just want to get a cheat? Ok?");
 				me:AddSchoolScore(1,-20);
@@ -246,7 +246,7 @@
 			
 			<li>
 				<Display>Forget it, let's go.</Display>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
 				]]>
 				</OKResult>
@@ -262,13 +262,13 @@
 			<li>
 				<Display>Pills? let me see. (Alchemy level 15)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetGLevel() >= 6 and me:GetSkillLevel("Medicine") >= 15
 				]]>
 				</Condition>
 				<Tip>Four opportunities to find opportunities</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				me:AddMsg("[NAME]After running the aura in the body, he found that he was[NAME]What is your alchemy ability?");
 				me:DropEsoteric("MJ_ZH");
 				me:AddSchoolScore(1,100);
@@ -276,7 +276,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				<![CDATA[	
+				[CDATA[	
 
 				me:AddMsg("[NAME]Have you learned alchemy skills? Just want to get a cheat? Ok?");
 				me:AddSchoolScore(1,-20);
@@ -288,7 +288,7 @@
 			
 			<li>
 				<Display>Forget it, let's go.</Display>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
 				]]>
 				</OKResult>
@@ -304,13 +304,13 @@
 			<li>
 				<Display>This nine secret is also very good, right. (One-third probability)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetGLevel() >= 3 and me:RandomInt(1, 3) == 1
 				]]>
 				</Condition>
 				<Tip>The opportunity can only be found in Daomingjing</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				me:AddMsg("[NAME]Turn your aura in your body, okay, stop and give it to you.");
 				me:DropEsoteric("ZT_JZM_Q");
 				me:AddSchoolScore(1,200);
@@ -318,7 +318,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				<![CDATA[	
+				[CDATA[	
 
 				me:AddMsg("[NAME]You, see if this one-quarter probability is true. In the future, play less games that require European style, and leave it to Xiuxian Simulator?");
 				me:AddSchoolScore(1,-20);
@@ -330,7 +330,7 @@
 			
 			<li>
 				<Display>Forget it, let's go.</Display>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
 				]]>
 				</OKResult>
@@ -347,13 +347,13 @@
 			<li>
 				<Display>It ’s a pity that I did n’t get the nine secrets. (Quarter probability)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetGLevel() >= 9 and me:RandomInt(1, 4) == 1
 				]]>
 				</Condition>
 				<Tip>You can find the chance in Hualongjing</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				me:AddMsg("[NAME]You're out of luck. Hurry up and draw a prize.");
 				me:DropEsoteric("ZT_JZM_S");
 				me:AddSchoolScore(1,200);
@@ -361,7 +361,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				<![CDATA[	
+				[CDATA[	
 
 				me:AddMsg("[NAME]It's okay. It's the luck of you, the loss of your life.");
 				me:AddSchoolScore(1,-20);
@@ -373,7 +373,7 @@
 			
 			<li>
 				<Display>Forget it, let's go.</Display>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
 				]]>
 				</OKResult>
@@ -389,13 +389,13 @@
 			<li>
 				<Display>This Jiubi didn't get it, really really a pity brother. (Each attribute level is 30 or higher)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetGLevel() >= 9
 				]]>
 				</Condition>
 				<Tip>Four opportunities to find opportunities</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				if me:GetSkillLevel("Fabao") >= 30 and me:GetSkillLevel("DouFa") >= 30 and me:GetSkillLevel("Barrier") >= 30 and me:GetSkillLevel("Zhen") >= 30 and me:GetSkillLevel("FightSkill") >= 30 and me:GetSkillLevel("Fight") >= 30 then
 				me:AddMsg("[NAME]The strength is high, the secrets are just random.");
 				me:DropEsoteric("ZT_JZM_J");
@@ -409,7 +409,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				<![CDATA[	
+				[CDATA[	
 
 				me:AddMsg("[NAME]It ’s okay. It ’s the luck of you, the loss of your life, another day you have enough strength to come again, or you just humiliate yourself.");
 				me:AddSchoolScore(1,-20);story:FinishSecret()
@@ -419,7 +419,7 @@
 			
 			<li>
 				<Display>Forget it, let's go.</Display>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
 				]]>
 				</OKResult>
@@ -434,13 +434,13 @@
 			<li>
 				<Display>Leap into the puddle. (Class 40)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetGLevel() >= 9
 				]]>
 				</Condition>
 				<Tip>Above the four-pole realm, the level of the refiner is 40 or higher</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				if me:GetSkillLevel("Manual") >= 40 then
 				me:AddMsg("[NAME]The skill of the refining device is already in full swing, and it is only the icing on the cake to get a soldier secret.");
 				me:DropEsoteric("ZT_JZM_B");
@@ -454,7 +454,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				<![CDATA[	
+				[CDATA[	
 
 				me:AddMsg("[NAME]It ’s okay. It ’s not normal. Strength is a hard condition.");
 				me:AddSchoolScore(1,-20);story:FinishSecret()
@@ -464,7 +464,7 @@
 			
 			<li>
 				<Display>Forget it, let's go.</Display>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
 				]]>
 				</OKResult>

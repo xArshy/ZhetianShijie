@@ -1,6 +1,6 @@
 <ModifierDefs><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Modifier Name="Gong_DJ_1A" Type="Normal">
 		<DisplayName>Tao Jing</DisplayName>
@@ -9,7 +9,7 @@
 		<Display>0</Display>
 		<BaseFive>1,1,0,0,0</BaseFive>
 		<Properties>
-			<li Name="PotentialOfBasepracticeAddValue" AddV="2"/><!--潜力值2-->
+			<li Name="PotentialOfBasepracticeAddValue" AddV="2"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="Gong_DJ_1A_1" Type="Normal">
@@ -38,7 +38,7 @@
 			<li Name="MindStateBaseValue" AddV="50"/>
 		</Properties>
 	</Modifier>
-	<!-- ==========================技能2========================== -->
+	
 		
 	<Modifier Name="Gong_DJ_2A" Type="Normal">
 		<DisplayName>German classics</DisplayName>
@@ -74,7 +74,7 @@
 			<li Name="MaxAge" AddV="800"/>
 		</Properties>
 	</Modifier>
-	<!-- ==========================技能3========================== -->
+	
 	<Modifier Name="Gong_DJ_1B" Type="Normal">
 		<DisplayName>Taking the book as the essence</DisplayName>
 		<MaxStack>0</MaxStack>
@@ -83,8 +83,8 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
 			<li Name="MindStateBaseValue" AddV="20"/>
-			<li Name="NpcFight_SpellPowerAddP" AddP="3"/><!--术法伤害加成-->
-			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.2"/><!--术法冷却时间加成-->
+			<li Name="NpcFight_SpellPowerAddP" AddP="3"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.2"/>
 		</Properties>
 	</Modifier>
 	
@@ -101,7 +101,7 @@
 		</Properties>
 	</Modifier>
 	
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Modifier Name="Gong_DJ_2B" Type="Normal">
 		<DisplayName>Dao Changwu</DisplayName>
@@ -122,8 +122,8 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
 			
-			<li Name="NpcFight_ZhenKeyPointNum" AddV="3"/><!--阵法规模-->
-			<li Name="NpcFight_ZhenEnginePower" AddV="32"/><!--阵法负荷能力-->
+			<li Name="NpcFight_ZhenKeyPointNum" AddV="3"/>
+			<li Name="NpcFight_ZhenEnginePower" AddV="32"/>
 		</Properties>
 		<Skills>
 			<li Name="Qi" Level="4"/>
@@ -132,7 +132,7 @@
 		</Skills>
 	</Modifier>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 		<Modifier Name="Gong_DJ_3B" Type="Normal">
 		<DisplayName>Do nothing</DisplayName>
@@ -194,7 +194,7 @@
 		</Skills>
 	</Modifier>
 	
-	<!-- ==========================分割线========================== -->
+	
 
 	<Modifier Name="Gong_DJ_3C" Type="Normal">
 		<DisplayName>Desire to be soft</DisplayName>
@@ -307,8 +307,8 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="NpcFight_ShieldConversionRate" AddV="0.5"/><!--护盾强度加值-->
-			<li Name="NpcFight_ShieldConversionRateAddP" AddP="1.5"/><!--护盾强度加成-->
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.5"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="1.5"/>
 			<li Name="NpcLingMaxValue" AddP="4"/>
 		</Properties>
 	</Modifier>

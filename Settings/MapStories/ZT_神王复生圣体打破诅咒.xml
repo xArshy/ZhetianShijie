@@ -7,12 +7,12 @@
 			<li>
 				<Display>Go and watch, just take a look.</Display> 
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetGLevel() >= 6
 				]]>
 				</Condition>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				if world:GetWorldFlag(570) == 0 then
 					me:AddMsg("[NAME]Despite this strength, I do n’t want to participate in the war,[NAME]I feel like I have my own story, so I do n’t need to participate in it.[NAME]The shield strength has been increased by forty percent.");
 					me:ModifierProperty("NpcFight_ShieldConversionRateAddP",0.4);
@@ -22,14 +22,14 @@
 				story:FinishSecret();
 					]]>
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				me:AddMsg("[NAME]Lack of strength does not qualify for watching.");
 				]]></NOResult>
 			</li>
 			<li>
 				<Display>Help the Eucharist. (There is a risk of collapse)</Display> 
 				<OKResult>
-				<![CDATA[
+				[CDATA[
 				if me:GetGLevel() <= 9 then
 					me:AddMsg("[NAME]The strength is not very strong, but anyway, he helped the body to shout a few 666 on the side. I did not expect that he was not only rewarded by the King of God, but was also followed by some unscrupulous people.");
 					me:AddEnemy(24,0)me:AddEnemy(22,0)
@@ -123,7 +123,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				<![CDATA[	
+				[CDATA[	
 				me:AddMsg("[NAME]The strength is average, although it is intentional but inadequate. Although it has been pursued by some factions, it has also gained something.");
 						me:DropAwardItem("Item_WSXY",5);
 						me:DropAwardItem("Item_Hemostatics",10);
@@ -138,7 +138,7 @@
 				<Display>Do n’t let the Eucharist do the wish</Display> 
 				
 				<OKResult>
-				<![CDATA[
+				[CDATA[
 				if me:GetGLevel() <= 9 then
 				me:AddMsg("[NAME]Strength generally also wants to stop the Eucharist from breaking the curse, and the result is naturally the attack of the Eucharist and the King of God.");
 						me:DropAwardItem("Item_WSXSY",20);me:DropAwardItem("Item_JSXSY",20);me:DropAwardItem("Item_MSXSY",20);me:DropAwardItem("Item_SSXSY",20);me:DropAwardItem("Item_HSXSY",20);me:DropAwardItem("Item_TSXSY",20);
@@ -180,12 +180,12 @@
 			<li>
 				<Display>Go and watch, just take a look.</Display> 
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetGLevel() >= 6
 				]]>
 				</Condition>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				if world:GetWorldFlag(569) == 0 then
 					me:AddMsg("[NAME]Despite this strength, I do n’t want to participate in the war,[NAME]I feel like I have my own story, so I do n’t need to participate in it.[NAME]Mana cost has been reduced by forty percent.");
 					me:ModifierProperty("NpcFight_SpellLingCostAddP",-0.4);
@@ -195,19 +195,19 @@
 				story:FinishSecret();
 					]]>
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				me:AddMsg("[NAME]Lack of strength does not qualify for watching.");
 				]]></NOResult>
 			</li>
 			<li>
 				<Display>Help the God King to defend against all enemies. (Be prepared to fight with the Twin Kings of Zhongzhou, and your strength will increase as you trigger the spiritual realm.)</Display> 
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetGLevel() >= 6
 				]]>
 				</Condition>
 				<OKResult>
-				<![CDATA[
+				[CDATA[
 				if me:GetGLevel() <= 9 then
 					me:AddMsg("[NAME]The strength is not very strong, but it is also worthy of its contribution to the god king in the gap. Get rewards directly, of course you have to enjoy it");
 					me:AddEnemy(24,0)me:AddEnemy(30,0)me:AddEnemy(22,0)GameMain:GetMod("SC"):SCHLC1();
@@ -304,7 +304,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				<![CDATA[	
+				[CDATA[	
 				me:AddMsg("[NAME]The strength is average, although it is intentional but inadequate. Although it has been pursued by some factions, it has also gained something.");
 						me:DropAwardItem("Item_WSXY",10);
 						me:DropAwardItem("Item_Hemostatics",30);
@@ -320,7 +320,7 @@
 			<li>
 				<Display>Stop the resurrection of God King! (Very strong, it may be destroyed at any time. Of course, the crisis is accompanied by benefits and I will give it to you. If you have any life, it depends on you.)</Display> 
 				<OKResult>
-				<![CDATA[
+				[CDATA[
 				if me:GetGLevel() <= 9 then
 				me:AddMsg("[NAME]The strength is average but it is still decided to assassinate the god king, which is terrible, but unfortunately he did not wait for the king to sit down and wait for the king's anger to come.");
 						me:DropAwardItem("Item_WSXSY",20);me:DropAwardItem("Item_JSXSY",20);me:DropAwardItem("Item_MSXSY",20);me:DropAwardItem("Item_SSXSY",20);me:DropAwardItem("Item_HSXSY",20);me:DropAwardItem("Item_TSXSY",20);

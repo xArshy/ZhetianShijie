@@ -42,7 +42,7 @@
 		<Values>
 			<li Name="Miniscule" Value="0,1" Desc="2x growth rate and 2x yield"/>
 			<li Name="Low" Value="-0.25,0.5" Desc="1.5x growth rate and 1.5x yield"/>
-			<li Name="Normal" Value="-0.5,0" Desc="1x growth rate and 1x yield"/> <!--GrowAddp,DropAddp-->
+			<li Name="Normal" Value="-0.5,0" Desc="1x growth rate and 1x yield"/> 
 		</Values>
 	</Label>
 	<Label Name="BaseMood">

@@ -9,7 +9,7 @@
 
 				<Tip>You have to have at least quadrupole and a little luck.</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				local nR = me:GetPhysique(1,9) 
 				local nX = me:GetPerception(1,9)
 				local nb = me:GetCharisma(1,9)
@@ -31,7 +31,7 @@
 
 				<Tip>It's dangerous, easy to die, and equally rewarding.</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				local nR = me:GetPhysique(1,9) 
 				local nX = me:GetPerception(1,9)
 				local nb = me:GetCharisma(1,9)
@@ -52,7 +52,7 @@
 				<Display>Dragon Blood.</Display>
 				<Tip>It's dangerous, easy to die, and equally rewarding.</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				story:RemoveBindItem();
 				local nR = me:GetPhysique(1,9) 
 				local nX = me:GetPerception(1,9)
@@ -75,7 +75,7 @@
 				<Display>Fallen Ridge.</Display>
 				<Tip>It's dangerous, easy to die, and equally rewarding.</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				story:RemoveBindItem();
 				local nR = me:GetPhysique(1,9) 
 				local nX = me:GetPerception(1,9)
@@ -97,7 +97,7 @@
 				<Display>Chiyue Cave.</Display>
 				<Tip>It's dangerous, easy to die, and equally rewarding.</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				story:RemoveBindItem();
 				local nR = me:GetPhysique(1,9) 
 				local nX = me:GetPerception(1,9)
@@ -122,7 +122,7 @@
 				<Display>Too early mysterious fog.</Display>
 				<Tip>It's dangerous, easy to die, and equally rewarding.</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				story:RemoveBindItem();
 				local nR = me:GetPhysique(1,9) 
 				local nX = me:GetPerception(1,9)
@@ -148,7 +148,7 @@
 				<Display>Scarlet plain.</Display>
 				<Tip>It's dangerous, easy to die, and equally rewarding.</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				story:RemoveBindItem();
 				local nR = me:GetPhysique(1,9) 
 				local nX = me:GetPerception(1,9)
@@ -172,7 +172,7 @@
 				<Display>Shenyuan Waterfall.</Display>
 				<Tip>It's dangerous, easy to die, and equally rewarding.</Tip>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				story:RemoveBindItem();
 				local nR = me:GetPhysique(1,9) 
 				local nX = me:GetPerception(1,9)
@@ -193,7 +193,7 @@
 			</li>
 			<li>
 				<Display>Forget it, I don't want to be part of the source.</Display>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
 				]]>
 				</OKResult>

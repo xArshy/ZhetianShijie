@@ -1,6 +1,6 @@
 <ModifierDefs><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Modifier Name="Gong_HYJ_LH_1A" Type="Normal">
 		<DisplayName>Refining Nether</DisplayName>
@@ -36,7 +36,7 @@
 			<li Name="MindStateBaseValue" AddV="30"/>
 		</Properties>
 	</Modifier>
-	<!-- ==========================技能2========================== -->
+	
 	<Modifier Name="Gong_HYJ_DRXW" Type="Normal">
 		<DisplayName>Fierce</DisplayName>
 		<MaxStack>0</MaxStack>
@@ -55,7 +55,7 @@
 	</Modifier>
 	
 	
-	<!-- ==========================技能3========================== -->
+	
 	<Modifier Name="Gong_HYJ_LH_3A" Type="Normal">
 		<DisplayName>离火神炉</DisplayName>
 		<MaxStack>0</MaxStack>
@@ -94,7 +94,7 @@
 		</Properties>
 	</Modifier>
 	
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Modifier Name="Gong_HYJ_LH_1B" Type="Normal">
 		<DisplayName>地皇</DisplayName>
@@ -122,7 +122,7 @@
 		</Skills>
 	</Modifier>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 		<Modifier Name="Gong_HYJ_DG_1B" Type="Normal">
 		<DisplayName>铲草兴锄</DisplayName>
@@ -166,7 +166,7 @@
 	</Modifier>
 	
 	
-	<!-- ==========================分割线========================== -->
+	
 	
 	<Modifier Name="Gong_HYJ_SJ_1C" Type="Normal">
 		<DisplayName>恒宇经四极卷</DisplayName>
@@ -202,7 +202,7 @@
 		<Properties>
 			<li Name="PotentialOfBasepracticeAddValue" AddV="3"/>
 			<li Name="NpcFight_SpellPowerAddP" AddP="10"/>
-			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.25"/><!--术法灵气消耗加成 -1-->
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.25"/>
 		</Properties>
 	</Modifier>
 	

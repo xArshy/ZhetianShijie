@@ -1,6 +1,6 @@
 <Esotericas>
     <List>
-        <!--==========================Skills 1==========================-->
+        
         <Esoterica Name="Gong_DJ_A1">
             <DisplayName>Tao Jing</DisplayName>
             <Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_DJ.png</Icon>
@@ -46,7 +46,7 @@
                 Speed ​​1 \nPlus Mind State 50[/color][/size]</EffectDesc>
             <Modifier>Gong_DJ_1A_2</Modifier>
         </Esoterica>
-        <!--==========================Skills 2==========================-->
+        
         <Esoterica Name="Gong_DJ_A2">
             <DisplayName>German classics</DisplayName>
             <Icon>Spr\Object\JN\ZT_TDJ_DJ\ZT_DJ.png</Icon>
@@ -91,7 +91,7 @@
                 state of mind[/color][/size]</EffectDesc>
             <Modifier>Gong_DJ_2A_2</Modifier>
         </Esoterica>
-        <!--==========================Skills 3==========================-->
+        
         <Esoterica Name="Gong_DJ_B1">
             <DisplayName>Taking the book as the essence</DisplayName>
             <Hide>2</Hide>
@@ -136,7 +136,7 @@
                 <li>Prophesy</li>
             </Magics>
         </Esoterica>
-        <!--==========================Skills 4==========================-->
+        
         <Esoterica Name="Gong_DJ_B2">
             <DisplayName>Often</DisplayName>
             <Icon>Spr\Object\JN\ZT_DJ\DCY.png</Icon>
@@ -163,7 +163,7 @@
                 scale 3 \nAdditional load 32[/color][/size]</EffectDesc>
             <Modifier>Gong_DJ_2B_1</Modifier>
         </Esoterica>
-        <!--==========================Skills 5==========================-->
+        
         <Esoterica Name="Gong_DJ_B3">
             <DisplayName>Do nothing</DisplayName>
             <Hide>2</Hide>
@@ -198,7 +198,7 @@
                 <li>ZT_DJ_BY</li>
             </Skills>
         </Esoterica>
-        <!--==========================Skills 6==========================-->
+        
         <Esoterica Name="Gong_DJ_C1">
             <DisplayName>Moriichi</DisplayName>
             <Hide>2</Hide>
@@ -288,7 +288,7 @@
             <EffectDesc>[size=10][color=#D06508]\nBreakthrough the Limit of Matrix 6 [/color][/size]</EffectDesc>
             <Modifier>Gong_DJ_1C_2</Modifier>
         </Esoterica>
-        <!--====================================================-->
+        
         <Esoterica Name="Gong_DJ_SJ_C2_YQ">
             <DisplayName>Tianqing</DisplayName>
             <Hide>2</Hide>

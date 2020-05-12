@@ -1,6 +1,6 @@
 ﻿<Esotericas><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Esoterica Name="Gong_WSJ_LH_A1">
 		<DisplayName>Eucharist</DisplayName>
@@ -95,7 +95,7 @@
 		</Magics>
 	</Esoterica>
 
-	<!-- ==========================技能2========================== -->
+	
 	
 	<Esoterica Name="Gong_WSJ_LH_B1">
 		<DisplayName>西皇经道宫卷</DisplayName>
@@ -160,7 +160,7 @@
 		<Modifier>Gong_WSJ_LH_2B_1</Modifier>
 	</Esoterica>
 	
-	<!-- ==========================技能3========================== -->
+	
 	
 	<Esoterica Name="Gong_WSJ_HL_C1">
 		<DisplayName>只手镇压</DisplayName>
@@ -221,7 +221,7 @@
 	</Esoterica>
 	
 
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Esoterica Name="Gong_WSJ_YS_1D">
 		<DisplayName>无始钟</DisplayName>
@@ -297,7 +297,7 @@
 		</Skills>
 	</Esoterica>
 
-	<!-- ==========================技能5========================== -->
+	
 
 	<Esoterica Name="Gong_WSJ_XT_1D">
 		<DisplayName>谁为峰</DisplayName>

@@ -1,6 +1,6 @@
 <Esotericas><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Esoterica Name="Gong_NPJ_1">
 		<DisplayName>Angry</DisplayName>
@@ -105,7 +105,7 @@
 	</Esoterica>
 	
 	
-	<!-- ==========================技能2========================== -->
+	
 	
 	<Esoterica Name="Gong_NPJ_2">
 		<DisplayName>Payroll</DisplayName>
@@ -154,7 +154,7 @@
 		</Dans>
 	</Esoterica>
 	
-	<!-- ==========================技能3========================== -->
+	
 	<Esoterica Name="Gong_NPJ_8">
 		<DisplayName>Didan roll</DisplayName>
 		<Hide>2</Hide>
@@ -255,7 +255,7 @@
 		</Dans>
 	</Esoterica>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 	<Esoterica Name="Gong_NPJ_5">
 		<DisplayName>Nirvana</DisplayName>

@@ -9,22 +9,22 @@
 			<li>
 				<Display>Go in and see</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				story.Place == "Place_HY"
 				]]>
 				</Condition>
 				<Tip>explore</Tip>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				me:TriggerStory("ZT_HY");
 				]]>
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				me:AddMsg("[NAME]Just when I wanted to get closer, I realized that the fire area is getting farther and farther away, and then I realized that this is the illusion often mentioned by the elders.");
 				]]></NOResult>
 			</li>
 			<li>
 				<Display>Not interested.</Display> 
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 					me:AddMsg("[NAME]I feel that this is not a domain of fire, but an illusion.");
 
 				]]>
@@ -40,11 +40,11 @@
 			<li>
 				<Display>1st Layer (500C, carrying bodhi seeds or evasion >= to 300%)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetProperty("ToleranceTMax") >= 500
 				]]>
 				</Condition>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				if me:GetGLevel() >= 3 then
 				me:AddMsg("[NAME]Relying on oneself for fear of red fire, saying[NAME]Secretly burned the packaging of the elixir taken on the road.");
 					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetProperty("NpcFight_BaseDodgeChance") >= 3 then
@@ -56,18 +56,18 @@
 				end
 				]]>
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn't stand it and left in a hurry.");
 				]]></NOResult>
 			</li>
 			<li>
 				<Display>2nd Layer (650C, carrying bodhi or qi protection level >= than 15)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetProperty("ToleranceTMax") >= 650
 				]]>
 				</Condition>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				if me:GetGLevel() >= 3 then
 				me:AddMsg("[NAME]Relying on self-cultivation has no fear of blue fire, talking[NAME]Secretly burned the packaging of two elixir taken on the road.");
 					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetSkillLevel("Barrier") >= 15 then
@@ -79,18 +79,18 @@
 				end
 				]]>
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn't stand it and left in a hurry.");
 				]]></NOResult>
 			</li>
 			<li>
 				<Display>3rd Layer(1000C, carrying bodhi seeds or DaoHang > 90)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetProperty("ToleranceTMax") >= 1000
 				]]>
 				</Condition>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				if me:GetGLevel() >= 6 then
 				me:AddMsg("[NAME]Relying on myself to be fearless of the fire in the third layer of fire, talking[NAME]Secretly burned the packaging of the three elixir taken on the road.");
 					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetDaoHang() > 90 then
@@ -108,7 +108,7 @@
 				end
 				]]>
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn't stand it and left in a hurry.");me:AddDamage("Huo_MarrowDry","Spine",0.1,XT("火域反噬"));
 					 me:AddDamage("Huo_MarrowDry","RightRibs4",0.15,XT("火域反噬"));
 					 me:AddDamage("Huo_MarrowDry","LeftRibs4",0.15,XT("火域反噬"));
@@ -120,11 +120,11 @@
 			<li>
 				<Display>4th Layer (1700C, carrying bodhi seeds or DaoHang > 150)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetProperty("ToleranceTMax") >= 1700
 				]]>
 				</Condition>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				if me:GetGLevel() >= 6 then
 				me:AddMsg("[NAME]By virtue of self-cultivation, it is possible to take the fire of the fourth floor of the fire zone to take a bath,[NAME]Leaning into the fire, I heard only moans.");
 					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetDaoHang() > 150 then
@@ -142,7 +142,7 @@
 				end
 				]]>
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn't stand it and left in a hurry.");
 					me:AddDamage("Huo_VisceralBurn","Kidney",0.6,XT("火域反噬"));
 					 me:AddDamage("Huo_VisceralBurn","Spleen",0.6,XT("火域反噬"));
@@ -153,11 +153,11 @@
 			<li>
 				<Display>5th Layer (2100C, carrying bodhi seeds can get items or qi >= 5 million)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetProperty("ToleranceTMax") >= 2100
 				]]>
 				</Condition>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				if me:GetGLevel() >= 6 then
 				me:AddMsg("[NAME]Personally, the fire in the fifth layer of fire domain is just the degree of tickling.[NAME]I rushed into it without thinking. I only heard intermittent help coming out");
 					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetProperty("NpcLingMaxValue") >= 5000000 then
@@ -181,7 +181,7 @@
 				end
 				]]>
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				 me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn't stand it and left in a hurry.");
 				 me:AddDamage("Huo_BurnOfPain","Hips",1,XT("火域反噬"));
 				 me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("火域反噬"));
@@ -195,11 +195,11 @@
 			<li>
 				<Display>6th Layer (3100C, carrying bodhi seeds or qi >= 100 million)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetProperty("ToleranceTMax") >= 3100
 				]]>
 				</Condition>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				if me:GetGLevel() >= 9 then
 				me:AddMsg("[NAME]Looking at this group of guys purple, they were eager to try, but unfortunately did not bring soap.");
 					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetProperty("NpcLingMaxValue") >= 100000000 then
@@ -229,7 +229,7 @@
 				end
 				]]>
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn't stand it and left in a hurry.");
 				me:AddDamage("DiffEnergyInvade","UpperElixirField",6,XT("Fireback"));
 				me:AddDamage("DiffEnergyInvade","LowerElixirField",6,XT("火域反噬"));
@@ -246,11 +246,11 @@
 			<li>
 				<Display>7th Layer (4800C, carrying bodhi seeds or furnace tripods with an upper limit greater than 10,000)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetProperty("ToleranceTMax") >= 4800
 				]]>
 				</Condition>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				if me:GetGLevel() >= 9 then
 				me:AddMsg("[NAME]Frightened by the seven layers of fire domain and dazzling flames, I could not help remembering that this area of ​​fire had once been trained to death.");
 					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetProperty("MaxAccumulativeLingAddV") >= 10000 then
@@ -269,7 +269,7 @@
 				end
 				]]>
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn't stand it and left in a hurry.");me:AddDamgeFromCache(story.DamageCache,4,6);
 				me:AddDamage("DiffEnergyInvade","UpperElixirField",6,XT("火域反噬"));
 				me:AddDamage("DiffEnergyInvade","LowerElixirField",6,XT("火域反噬"));
@@ -284,11 +284,11 @@
 			<li>
 				<Display>8th Layer (6500C, carrying bodhi seeds or qi protection >= forty)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetProperty("ToleranceTMax") >= 6500
 				]]>
 				</Condition>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				if me:GetGLevel() >= 11 then
 				me:AddMsg("[NAME]Frightened by the seven layers of fire domain and dazzling flames, I could not help remembering that this area of ​​fire had once been trained to death.");
 					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetSkillLevel("Barrier") >= 40 then
@@ -305,7 +305,7 @@
 				end
 				]]>
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn't stand it and left in a hurry.");
 					me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("火域反噬"));
 					me:AddDamage("Huo_BurnOfPain","LeftPostbrachium",1,XT("火域反噬"));
@@ -322,11 +322,11 @@
 			<li>
 				<Display>9th Layer (not installed, die when you enter, really)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetProperty("ToleranceTMax") >= 9500
 				]]>
 				</Condition>
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 				if me:GetGLevel() >= 11 then
 				me:AddMsg("[NAME]Frightened by the seven layers of fire domain and dazzling flames, I could not help remembering that this area of ​​fire had once been trained to death.");
 					if me:RandomInt(1, 3) == 1 then
@@ -339,13 +339,13 @@
 				end
 				]]>
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				me:AddMsg("[NAME]Just when I wanted to get closer, I felt a buzz. . I couldn’t stand it and was burned to death.");me:AddDamage("Huo_HeartBurn","Heart",9,XT("火域反噬"));
 				]]></NOResult>
 			</li>
 			<li>
 				<Display>Not interested..</Display> 
-				<OKResult><![CDATA[	
+				<OKResult>[CDATA[	
 					me:AddMsg("[NAME]I feel that this is not a domain of fire, but an illusion.");
 
 				]]>
@@ -363,12 +363,12 @@
 			<li>
 				<Display>Come on, it's all about to die anyway. (Three hundred road trips)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetProperty("ToleranceTMax") >= 500
 				]]>
 				</Condition>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				local itemobj = story:GetBindThing()
 					if me:GetGLevel() >= 3 and me:GetDaoHang() > 300 then
 							me:AddMsg(XT("[NAME]Sitting in the same place and starting to refine the red fire, all the hot flames melted into[NAME]Body."));
@@ -379,7 +379,7 @@
 				story:RemoveBindItem();
 				]]>	
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				me:AddMsg("[NAME]I just wanted to refine the red fire, but I didn't have this ability, and was instantly burned into slag.");
 				me:AddDamage("Huo_BurnOfPain","Hips",1,XT("神火反噬"));
 				me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
@@ -407,12 +407,12 @@
 			<li>
 				<Display>Come on, it's all about to die anyway. (Four hundred road trips)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetProperty("ToleranceTMax") >= 650
 				]]>
 				</Condition>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				local itemobj = story:GetBindThing()
 					if me:GetGLevel() >= 3 and me:GetDaoHang() > 400 then
 							me:AddMsg(XT("[NAME]Sitting in the same place and starting to refine the blue fire, all the hot flames melted into[NAME]Body."));
@@ -423,7 +423,7 @@
 				story:RemoveBindItem();
 				]]>	
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				me:AddMsg("[NAME]I just wanted to refine the blue fire, but I didn't have this ability, and was burned into slag instantly.");
 				me:AddDamage("Huo_BurnOfPain","Hips",1,XT("神火反噬"));
 				me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
@@ -451,12 +451,12 @@
 			<li>
 				<Display>Come on, it's all about to die anyway. (500 road trips)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetProperty("ToleranceTMax") >= 1000
 				]]>
 				</Condition>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				local itemobj = story:GetBindThing()
 					if me:GetGLevel() >= 3 and me:GetDaoHang() > 500 then
 							me:AddMsg(XT("[NAME]Sitting in the same place and starting to refine the milky white flame, all the hot flames melted into[NAME]Body."));
@@ -467,7 +467,7 @@
 				story:RemoveBindItem();
 				]]>	
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				me:AddMsg("[NAME]I just wanted to refine the milky white flame, but I didn't have this ability, and was instantly burned into slag.");
 				me:AddDamage("Huo_BurnOfPain","Hips",1,XT("神火反噬"));
 				me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("神火反噬"));
@@ -500,12 +500,12 @@
 			<li>
 				<Display>Come on, it's all about to die anyway. (Six hundred road trips, above Dandan)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetProperty("ToleranceTMax") >= 1600
 				]]>
 				</Condition>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				local itemobj = story:GetBindThing()
 					if me:GetGLevel() >= 6 and me:GetDaoHang() > 600 then
 							me:AddMsg(XT("[NAME]When absorbing the flame of black light, I suddenly thought of gluten brother. The tiger's body was shocked and absorbed."));
@@ -519,7 +519,7 @@
 				story:RemoveBindItem();
 				]]>	
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				me:AddMsg("[NAME]I just wanted to refine Wuguang Shenhuo, but it was burned as carbon ash.");
 				me:AddDamage("Huo_VisceralBurn","Head",2,XT("神火反噬"));
 				me:AddDamage("Huo_BurnOfPain","Face",3,XT("神火反噬"));
@@ -553,12 +553,12 @@
 			<li>
 				<Display>Come on, it's all about to die anyway. (A thousand road trips, above Dandan)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetProperty("ToleranceTMax") >= 2300
 				]]>
 				</Condition>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				local itemobj = story:GetBindThing()
 					if me:GetGLevel() >= 6 and me:GetDaoHang() > 1000 then
 							me:AddMsg(XT("[NAME]Looking calmly at the golden magic fire in front of me, I suddenly wanted to eat chicken wings, I don't know if the door downstairs didn't open."));
@@ -575,7 +575,7 @@
 				story:RemoveBindItem();
 				]]>	
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				me:AddMsg("[NAME]When I first wanted to refine the golden god fire, it was burned as char.");
 				me:AddDamage("Huo_VisceralBurn","Head",2,XT("神火反噬"));
 				me:AddDamage("Huo_BurnOfPain","Face",3,XT("神火反噬"));
@@ -613,12 +613,12 @@
 			<li>
 				<Display>Come on, it's all about to die anyway. (One thousand and nineteen trips, Jindan and above, with a bodhi seed)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetProperty("ToleranceTMax") >= 3300
 				]]>
 				</Condition>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				local itemobj = story:GetBindThing()
 					if me:GetGLevel() >= 9 and me:GetDaoHang() > 1900 and me:CheckItemEquptCount("Item_PTZ") == 1 then
 							me:AddMsg(XT("[NAME]Looking at the purple fire in front of me, I suddenly remembered something about last night and my neighbor, and couldn't help smiling."));
@@ -635,7 +635,7 @@
 				story:RemoveBindItem();
 				]]>	
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				story:RemoveBindItem();
 				me:AddMsg("[NAME]When I first wanted to refine the purple magic fire, it was burned as char.");
 				me:AddDamage("Huo_VisceralBurn","Head",2,XT("神火反噬"));
@@ -674,12 +674,12 @@
 			<li>
 				<Display>Come on, it's all about to die anyway. (2,500 lines, above Jin Dan, bring a bodhi seed)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetProperty("ToleranceTMax") >= 4800
 				]]>
 				</Condition>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				local itemobj = story:GetBindThing()
 					if me:GetGLevel() >= 9 and me:GetDaoHang() > 2500 and me:CheckItemEquptCount("Item_PTZ") == 1 then
 							me:AddMsg(XT("[NAME]Looking at this colorful fire, I felt a burst of cyanosis, but risk is opportunity and I'm fighting! ."));
@@ -707,7 +707,7 @@
 				story:RemoveBindItem();
 				]]>	
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				story:RemoveBindItem();
 				me:AddMsg("[NAME]When I first wanted to refine the colorful fire, it was burned as carbon ash.");
 				me:AddDamage("Huo_VisceralBurn","Head",2,XT("神火反噬"));
@@ -750,12 +750,12 @@
 			<li>
 				<Display>Come on, it's all about to die anyway. (Three thousand roads, above the dragon, bring a bodhi)</Display>
 				<Condition>
-				<![CDATA[	
+				[CDATA[	
 				me:GetProperty("ToleranceTMax") >= 7000
 				]]>
 				</Condition>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				local itemobj = story:GetBindThing()
 					if me:GetGLevel() >= 11 and me:GetDaoHang() > 3000 and me:CheckItemEquptCount("Item_PTZ") == 1 then
 							me:AddMsg(XT("[NAME]Looking at this colorful fire, I feel a burst of cyanosis, but risk is opportunity, and I have fight! ."));
@@ -786,7 +786,7 @@
 				story:RemoveBindItem();
 				]]>	
 				</OKResult>
-				<NOResult><![CDATA[	
+				<NOResult>[CDATA[	
 				story:RemoveBindItem();
 				me:AddMsg("[NAME]When I first wanted to refine the colorful god fire, but was burned as char.");
 				me:AddDamage("Huo_VisceralBurn","Head",2,XT("神火反噬"));

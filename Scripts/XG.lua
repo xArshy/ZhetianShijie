@@ -332,13 +332,13 @@ function XG:JJHFF2()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -378,13 +378,13 @@ function XG:JJHFF2()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -422,13 +422,13 @@ function XG:JJHFF2()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -534,13 +534,13 @@ function XG:JJHFF()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -580,13 +580,13 @@ function XG:JJHFF()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -624,13 +624,13 @@ function XG:JJHFF()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -737,13 +737,13 @@ function XG:KQWDF()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -804,13 +804,13 @@ function XG:KQWDF()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -861,13 +861,13 @@ function XG:KQWDF()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -917,13 +917,13 @@ function XG:KQWDF()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -974,13 +974,13 @@ function XG:KQWDF()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -1043,13 +1043,13 @@ function XG:YXYG()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -1103,13 +1103,13 @@ function XG:KQWDF2()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -1159,13 +1159,13 @@ function XG:KQWDF2()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -1216,13 +1216,13 @@ function XG:KQWDF2()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -1275,13 +1275,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -1331,13 +1331,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -1388,13 +1388,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -1444,13 +1444,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -1501,13 +1501,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -1558,13 +1558,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -1615,13 +1615,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -1672,13 +1672,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -1729,13 +1729,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -1786,13 +1786,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -1843,13 +1843,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -2029,13 +2029,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -2080,13 +2080,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -2131,13 +2131,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -2180,13 +2180,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -2228,13 +2228,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -2276,13 +2276,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -2324,13 +2324,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -2372,13 +2372,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -2420,13 +2420,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -2469,13 +2469,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -2517,13 +2517,13 @@ function XG:DDLQ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -2619,13 +2619,13 @@ function XG:YSTZ()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -2680,13 +2680,13 @@ function XG:YSTZ1()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 4)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -2729,13 +2729,13 @@ function XG:YSJC()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -2778,13 +2778,13 @@ function XG:YSJC1()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -2830,13 +2830,13 @@ function XG:YSQD1()
     npc.PropertyMgr.Practice:MakeGold(1500000)
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -2859,13 +2859,13 @@ function XG:YSQD1()
         npc.PropertyMgr.Practice:MakeGold(1500000)
         npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-        local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-        for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+        local npcitems = npc.Bag.m_lisItems 
+        for i = 0, npcitems.Count - 1 do 
             ThingMgr:RemoveThing(npcitems[0])
         end
-        local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-        local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-        local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+        local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+        local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+        local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
         npc:EquipItem(item1)
         npc:EquipItem(item2)
         npc:EquipItem(item3)
@@ -3110,13 +3110,13 @@ function XG:YYGX()
     npc:AddLing(999999999)
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -3172,13 +3172,13 @@ function XG:YYGX()
     npc:AddLing(999999999)
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -3235,13 +3235,13 @@ function XG:YYGX()
     npc:AddLing(999999999)
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -3297,13 +3297,13 @@ function XG:YYGX()
     npc:AddLing(999999999)
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -3359,13 +3359,13 @@ function XG:YYGX()
     npc:AddLing(999999999)
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -3428,13 +3428,13 @@ function XG:LFZ()
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
     npc.Equip:UnEquipItem(CS.XiaWorld.g_emEquipType.AtkFabao, false)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -3535,13 +3535,13 @@ function XG:HZ()
     npc.LuaHelper:LearnEsoteric("Gong_TTMG_13")
     npc.LuaHelper:LearnEsoteric("Gong_TTMG_12")
     npc.LuaHelper:LearnEsoteric("Gong_TTMG_11")
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -3658,13 +3658,13 @@ function XG:HZ()
     npc.Equip:UnEquipItem(CS.XiaWorld.g_emEquipType.AtkFabao, false)
 
     local fabaoname = {"七日回魂丹", "万古丸", "行纵天下", "万三峰域", "天涯遗孤", "天璇圣丹"}
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -3776,13 +3776,13 @@ function XG:HZ()
     npc.FightBody.AttackTime = 10000
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -3835,13 +3835,13 @@ function XG:Lqnq()
     npc:AddLing(999999999)
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
     npc.Equip:UnEquipItem(CS.XiaWorld.g_emEquipType.AtkFabao, false)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -3921,13 +3921,13 @@ function XG:Lqnq()
     npc:AddLing(999999999)
 
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -3983,13 +3983,13 @@ function XG:Lqnq()
     npc.FightBody.AttackTime = 10000
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -4046,13 +4046,13 @@ function XG:Lqnq()
     npc.FightBody.AttackTime = 10000
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -4109,13 +4109,13 @@ function XG:Lqnq()
     npc.FightBody.AttackTime = 10000
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -4170,13 +4170,13 @@ function XG:Lqnq()
     npc.FightBody.AttackTime = 10000
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -4233,13 +4233,13 @@ function XG:CLLD()
     npc.FightBody.AttackTime = 10000
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -4300,13 +4300,13 @@ function XG:TTMG1()
     npc.FightBody.AttackTime = 10000
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -4364,13 +4364,13 @@ function XG:TTMG1()
     npc.FightBody.AttackTime = 10000
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -4429,13 +4429,13 @@ function XG:TTMG1()
     npc.FightBody.AttackTime = 10000
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -4497,13 +4497,13 @@ function XG:TTMG2()
     npc.FightBody.AttackTime = 10000
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -4563,13 +4563,13 @@ function XG:TTMG2()
     npc.FightBody.AttackTime = 10000
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -4629,13 +4629,13 @@ function XG:TTMG2()
     npc.FightBody.AttackTime = 10000
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -4695,13 +4695,13 @@ function XG:TTMG2()
     npc.FightBody.AttackTime = 10000
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -4761,13 +4761,13 @@ function XG:TTMG2()
     npc.FightBody.AttackTime = 10000
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -4883,13 +4883,13 @@ function XG:TTMG2()
     npc.FightBody.AttackTime = 10000
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -4949,13 +4949,13 @@ function XG:TTMG2()
     npc.FightBody.AttackTime = 10000
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -5016,13 +5016,13 @@ function XG:TTMG2()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -5083,13 +5083,13 @@ function XG:TTMG2()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -5153,13 +5153,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -5220,13 +5220,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -5287,13 +5287,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -5354,13 +5354,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -5421,13 +5421,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -5487,13 +5487,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -5554,13 +5554,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -5620,13 +5620,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -5687,13 +5687,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -5754,13 +5754,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -5818,13 +5818,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -5882,13 +5882,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -5946,13 +5946,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -6010,13 +6010,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -6074,13 +6074,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -6138,13 +6138,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -6202,13 +6202,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -6266,13 +6266,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -6330,13 +6330,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -6395,13 +6395,13 @@ function XG:TTMG3()
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -6546,13 +6546,13 @@ function XG:XJGZ()
         npc.PropertyMgr.Practice:MakeGold(35000000)
         npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-        local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-        for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+        local npcitems = npc.Bag.m_lisItems 
+        for i = 0, npcitems.Count - 1 do 
             ThingMgr:RemoveThing(npcitems[0])
         end
-        local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-        local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-        local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+        local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+        local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+        local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
         npc:EquipItem(item1)
         npc:EquipItem(item2)
         npc:EquipItem(item3)
@@ -6605,13 +6605,13 @@ function XG:XJGZ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
         npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
 
-        local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-        for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+        local npcitems = npc.Bag.m_lisItems 
+        for i = 0, npcitems.Count - 1 do 
             ThingMgr:RemoveThing(npcitems[0])
         end
-        local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-        local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-        local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+        local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+        local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+        local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
         npc:EquipItem(item1)
         npc:EquipItem(item2)
         npc:EquipItem(item3)
@@ -6675,13 +6675,13 @@ function XG:JJDN()
         npc.FightBody.AttackTime = 10000
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
         npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-        local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-        for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+        local npcitems = npc.Bag.m_lisItems 
+        for i = 0, npcitems.Count - 1 do 
             ThingMgr:RemoveThing(npcitems[0])
         end
-        local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-        local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-        local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+        local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+        local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+        local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
         npc:EquipItem(item1)
         npc:EquipItem(item2)
         npc:EquipItem(item3)
@@ -6761,13 +6761,13 @@ function XG:JJDN1()
     npc.FightBody.AttackTime = 10000
     npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-    local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-    for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+    local npcitems = npc.Bag.m_lisItems 
+    for i = 0, npcitems.Count - 1 do 
         ThingMgr:RemoveThing(npcitems[0])
     end
-    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+    local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+    local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+    local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
     npc:EquipItem(item1)
     npc:EquipItem(item2)
     npc:EquipItem(item3)
@@ -6855,13 +6855,13 @@ function XG:JJDN1()
         npc.FightBody.AttackTime = 10000
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
         npc.PropertyMgr:SetPropertyOverwrite("NpcFight_FabaoNum", 6)
-        local npcitems = npc.Bag.m_lisItems -- 获取NPC身上物品列表
-        for i = 0, npcitems.Count - 1 do -- 删除NPC 身上物品
+        local npcitems = npc.Bag.m_lisItems 
+        for i = 0, npcitems.Count - 1 do 
             ThingMgr:RemoveThing(npcitems[0])
         end
-        local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) -- 获取随机武器
-        local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) -- 获取随机衣服
-        local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) -- 获取随机裤子
+        local item1 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Weapon, 0, 12, 100) 
+        local item2 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Clothes, 0, 12, 100) 
+        local item3 = CS.XiaWorld.ItemRandomMachine.RandomItem(CS.XiaWorld.g_emItemLable.Trousers, 0, 12, 100) 
         npc:EquipItem(item1)
         npc:EquipItem(item2)
         npc:EquipItem(item3)

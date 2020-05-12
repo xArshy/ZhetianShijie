@@ -1,6 +1,6 @@
 <ModifierDefs><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Modifier Name="Gong_XHJ_LH_1A" Type="Normal">
 		<DisplayName>瑶池仙境</DisplayName>
@@ -36,7 +36,7 @@
 			<li Name="MindStateBaseValue" AddV="50"/>
 		</Properties>
 	</Modifier>
-	<!-- ==========================技能2========================== -->
+	
 	<Modifier Name="Gong_XHJ_LH_2A" Type="Normal">
 		<DisplayName>霞雾缭绕</DisplayName>
 		<MaxStack>0</MaxStack>
@@ -71,7 +71,7 @@
 	
 	
 	
-	<!-- ==========================技能3========================== -->
+	
 	<Modifier Name="Gong_XHJ_LH_3A" Type="Normal">
 		<DisplayName>仙韵</DisplayName>
 		<MaxStack>0</MaxStack>
@@ -102,7 +102,7 @@
 		</Properties>
 	</Modifier>
 	
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Modifier Name="Gong_XHJ_LH_1B" Type="Normal">
 		<DisplayName>西皇经道宫卷</DisplayName>
@@ -140,7 +140,7 @@
 		</Properties>
 	</Modifier>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 		<Modifier Name="Gong_XHJ_DG_1B" Type="Normal">
 		<DisplayName>迩言翼</DisplayName>
@@ -181,7 +181,7 @@
 	</Modifier>
 	
 	
-	<!-- ==========================分割线========================== -->
+	
 	
 	<Modifier Name="Gong_XHJ_SJ_1C" Type="Normal">
 		<DisplayName>玉女传道宝卷</DisplayName>
@@ -243,7 +243,7 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="NpcFight_ZhenEnginePower" AddV="46"/><!--阵法负荷能力-->
+			<li Name="NpcFight_ZhenEnginePower" AddV="46"/>
 			
 		</Properties>
 		
@@ -302,7 +302,7 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="GodPenaltyAddV" AddV="-50"/><!--天谴，正的加天谴的。-50 50-->
+			<li Name="GodPenaltyAddV" AddV="-50"/>
 			<li Name="NpcFight_ShieldResistanceToShui" AddP="1.5"/>
 
 		</Properties>

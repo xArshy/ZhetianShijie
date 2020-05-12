@@ -158,7 +158,7 @@
 		<Type>Dan</Type>
 		<EffectDesc>After learning, you can concoct all the Pills.</EffectDesc>
 		<Dans>
-			<li>Item_MY</li><!-- 筑基丹 -->
+			<li>Item_MY</li>
 		</Dans>
 	</Esoterica>
 	<Esoterica Name="MJ_JMBSY">
@@ -171,7 +171,7 @@
 		<Element>None</Element>
 		<Type>Dan</Type>
 		<Dans>
-			<li>Item_JMBSY</li><!-- 筑基丹 -->
+			<li>Item_JMBSY</li>
 		</Dans>
 	</Esoterica>
 	<Esoterica Name="MJ_ZH">
@@ -185,9 +185,9 @@
 		<Type>Dan</Type>
 		<EffectDesc>After learning, you can concoct all the Pills.</EffectDesc>
 		<Dans>
-			<li>Item_Dan_BHW1</li><!-- 筑基丹 -->
-			<li>Item_Dan_BHW2</li><!-- 归源散 -->
-			<li>Item_Dan_BHW3</li><!-- 真罡丹 -->
+			<li>Item_Dan_BHW1</li>
+			<li>Item_Dan_BHW2</li>
+			<li>Item_Dan_BHW3</li>
 			
 		</Dans>
 	</Esoterica>
@@ -615,40 +615,40 @@
 		<Type>None</Type>
 		<EffectDesc>After learning, you can get all talismans.</EffectDesc>
 		<Spells>
-			<li>Spell_MoveSpeed1</li><!-- 轻身符 -->
-			<li>Spell_TempLow1</li><!-- 避寒符 -->
-			<li>Spell_TempHigh1</li><!-- 避暑符 -->
-			<li>Spell_MoveSpeed2</li><!-- 神行符 -->
-			<li>Spell_RecoveryPower</li><!-- 药师祛病符 -->
-			<li>Spell_VisionRadius</li><!-- 千里神视符 -->
-			<li>Spell_Fatigue</li><!-- 周公涤神符 -->
-			<li>Spell_Nutrition</li><!-- 饮气符 -->
-			<li>Spell_Nutrition1</li><!-- 辟谷符 -->
-			<li>Spell_Hide</li><!-- 隐匿符 -->
-			<li>Spell_Happy</li><!-- 长乐符 -->
-			<li>Spell_LunHui_ShenShen</li><!-- 申申符 -->
-			<li>Spell_TempLow2</li><!-- 太阳符 -->
-			<li>Spell_TempHigh2</li><!-- 太阴符 -->
-			<li>Spell_Intelligence</li><!-- 文昌符 -->
-			<li>Spell_Fight</li><!-- 武昌符 -->
-			<li>Spell_GlobalEfficiency</li><!-- 神勤符 -->
-			<li>Spell_MadeQualityAddValue</li><!-- 天工符 -->
-			<li>Spell_Yield</li><!-- 丰饶符 -->
-			<li>Spell_Treatment</li><!-- 药王符 -->
-			<li>Spell_DeepPracticeSpeedSpecialCoefficient1</li><!-- 宁心符 -->
-			<li>Spell_MindState1</li><!-- 天心符 -->
-			<li>Spell_MindState2</li><!-- 洞神符 -->
-			<li>Spell_DeepPracticeSpeedSpecialCoefficient2</li><!-- 洞真符 -->
-			<li>Spell_SpeedOfMindStateCoefficientByMoods</li><!-- 洞玄符 -->
-			<li>Spell_MindState2_LunHui</li><!-- 天通洞神符 -->
-			<li>Spell_WorldMapFlySpeed</li><!-- 分影遁空符 -->
-			<li>Spell_FabaoMake_SuccessRateAddV</li><!-- 太上通宝符 -->
-			<li>Spell_FabaoMake_LingInheritRateAddV</li><!-- 五方万灵符 -->
-			<li>Spell_DanMake_SuccessRateAddV</li><!-- 兜率神符 -->
-			<li>Spell_DanMake_YieldAddP</li><!-- 万化承丹符 -->
-			<li>Spell_Fu</li><!-- 万福图 -->
-			<li>Spell_Lu</li><!-- 万禄图 -->
-			<li>Spell_Shou</li><!-- 万寿图 -->
+			<li>Spell_MoveSpeed1</li>
+			<li>Spell_TempLow1</li>
+			<li>Spell_TempHigh1</li>
+			<li>Spell_MoveSpeed2</li>
+			<li>Spell_RecoveryPower</li>
+			<li>Spell_VisionRadius</li>
+			<li>Spell_Fatigue</li>
+			<li>Spell_Nutrition</li>
+			<li>Spell_Nutrition1</li>
+			<li>Spell_Hide</li>
+			<li>Spell_Happy</li>
+			<li>Spell_LunHui_ShenShen</li>
+			<li>Spell_TempLow2</li>
+			<li>Spell_TempHigh2</li>
+			<li>Spell_Intelligence</li>
+			<li>Spell_Fight</li>
+			<li>Spell_GlobalEfficiency</li>
+			<li>Spell_MadeQualityAddValue</li>
+			<li>Spell_Yield</li>
+			<li>Spell_Treatment</li>
+			<li>Spell_DeepPracticeSpeedSpecialCoefficient1</li>
+			<li>Spell_MindState1</li>
+			<li>Spell_MindState2</li>
+			<li>Spell_DeepPracticeSpeedSpecialCoefficient2</li>
+			<li>Spell_SpeedOfMindStateCoefficientByMoods</li>
+			<li>Spell_MindState2_LunHui</li>
+			<li>Spell_WorldMapFlySpeed</li>
+			<li>Spell_FabaoMake_SuccessRateAddV</li>
+			<li>Spell_FabaoMake_LingInheritRateAddV</li>
+			<li>Spell_DanMake_SuccessRateAddV</li>
+			<li>Spell_DanMake_YieldAddP</li>
+			<li>Spell_Fu</li>
+			<li>Spell_Lu</li>
+			<li>Spell_Shou</li>
 		</Spells>
 	</Esoterica>
 	
@@ -663,67 +663,67 @@
 		<Type>Dan</Type>
 		<EffectDesc>After learning, you can concoct all the Pills.</EffectDesc>
 		<Dans>
-			<li>BasePracticeDrug</li><!-- 筑基丹 -->
-			<li>Dan_Restore</li><!-- 归源散 -->
-			<li>Dan_Defense</li><!-- 真罡丹 -->
-			<li>Dan_CalmDown</li><!-- 清心丹 -->
-			<li>Dan_Happiness</li><!-- 极乐丹 -->
-			<li>Dan_LostSoul</li><!-- 摄神丹 -->
-			<li>Dan_PracticeRate</li><!-- 黄庭丹 -->
-			<li>Dan_PracticeSpeed</li><!-- 黄芽丹 -->
-			<li>Dan_Thin</li><!-- 塑身丹 -->
-			<li>Dan_Fat</li><!-- 壮体丹 -->
-			<li>Dan_DredgeQi</li><!-- 理气丹 -->
-			<li>Dan_DredgeQi1</li><!-- 通脉散 -->
-			<li>Dan_WuLingSan</li><!-- 五灵散 -->
-			<li>Dan_CureFiveElementDamage</li><!-- 五方化伤丹 -->
-			<li>Dan_CureJinDamage</li><!-- 庚金万化丹 -->
-			<li>Dan_CureMuDamage</li><!-- 碧春丹 -->
-			<li>Dan_CureShuiDamage</li><!-- 天一承气散 -->
-			<li>Dan_CureHuoDamage</li><!-- 火真丹 -->
-			<li>Dan_CureTuDamage</li><!-- 定坤丹 -->
-			<li>Dan_NoHunger2</li><!-- 辟谷丹 -->
-			<li>Dan_NoHunger1</li><!-- 兵粮丸 -->
-			<li>Dan_NoHunger</li><!-- 饮气丹 -->
-			<li>Dan_JingYuan</li><!-- 精元丹 -->
-			<li>Dan_JingYuan2</li><!-- 参芝九窍丸 -->
-			<li>Dan_JingYuan3</li><!-- 血竭散 -->
-			<li>Dan_Ling</li><!-- 聚灵丹 -->
-			<li>Dan_Ling2</li><!-- 紫阳丹 -->
-			<li>Dan_Ling3</li><!-- 万灵散 -->
-			<li>Dan_HundredRefine</li><!-- 九转金丹 -->
-			<li>Dan_ExtremeLofty</li><!-- 造化神丹 -->
-			<li>Dan_IncreaseLife1</li><!-- 长生丹 -->
-			<li>Dan_IncreaseLife2</li><!-- 玄牝续命散 -->
-			<li>Dan_IncreaseLife3</li><!-- 五极灵丹 -->
-			<li>Dan_IncreaseLife4</li><!-- 再造金丹 -->
-			<li>Dan_IncreaseLife5</li><!-- 未来星宿化劫丹 -->
-			<li>Dan_IncreaseNeckCountdown1</li><!-- 乾元避劫丹 -->
-			<li>Dan_IncreaseNeckCountdown2</li><!-- 碧血丹青 -->
-			<li>Dan_FiveBase1</li><!-- 通天丸 -->
-			<li>Dan_FiveBase2</li><!-- 纳地丸 -->
-			<li>Dan_FiveBase3</li><!-- 逸仙丸 -->
-			<li>Dan_FiveBase4</li><!-- 明通丸 -->
-			<li>Dan_FiveBase5</li><!-- 神佑丸 -->
-			<li>Dan_FiveBaseFromLife</li><!-- 五毒五蕴五炁神丹 -->
-			<li>Dan_Soul1</li><!-- 神泣丹 -->
-			<li>Dan_Soul2</li><!-- 通玄丹 -->
-			<li>Dan_Soul3</li><!-- 凝珀丹 -->
-			<li>Dan_Soul4</li><!-- 燃魂丹 -->
-			<li>Dan_SwordBall</li><!-- 剑丸 -->
-			<li>Dan_TreeEXP</li><!-- 天道神丹 -->
-			<li>Dan_LunHui1</li><!-- 封印的记忆：星途闪耀 -->
-			<li>Dan_ReBorn</li><!-- 玄牝重生丹 -->
-			<li>Dan_LingYuanZhong</li><!-- 灵源种 -->
-			<li>Dan_LingYuanSha</li><!-- 造化玉砂 -->
-			<li>Dan_LongDan1</li><!-- 龙魂真灵丹 -->
-			<li>Dan_FengDan1</li><!-- 凤魂真灵丹 -->
-			<li>Dan_ZhuLongDan1</li><!-- 阴阳真灵丹 -->
-			<li>Dan_FenShen1</li><!-- 盘古元神丹 -->
-			<li>Dan_FenShen2</li><!-- 造化同心丹 -->
-			<li>Dan_FenShen3</li><!-- 裂神丹 -->
-			<li>Dan_LingYuanZhong</li><!-- 灵源种 -->
-			<li>Dan_LingYuanSha</li><!-- 灵源砂 -->
+			<li>BasePracticeDrug</li>
+			<li>Dan_Restore</li>
+			<li>Dan_Defense</li>
+			<li>Dan_CalmDown</li>
+			<li>Dan_Happiness</li>
+			<li>Dan_LostSoul</li>
+			<li>Dan_PracticeRate</li>
+			<li>Dan_PracticeSpeed</li>
+			<li>Dan_Thin</li>
+			<li>Dan_Fat</li>
+			<li>Dan_DredgeQi</li>
+			<li>Dan_DredgeQi1</li>
+			<li>Dan_WuLingSan</li>
+			<li>Dan_CureFiveElementDamage</li>
+			<li>Dan_CureJinDamage</li>
+			<li>Dan_CureMuDamage</li>
+			<li>Dan_CureShuiDamage</li>
+			<li>Dan_CureHuoDamage</li>
+			<li>Dan_CureTuDamage</li>
+			<li>Dan_NoHunger2</li>
+			<li>Dan_NoHunger1</li>
+			<li>Dan_NoHunger</li>
+			<li>Dan_JingYuan</li>
+			<li>Dan_JingYuan2</li>
+			<li>Dan_JingYuan3</li>
+			<li>Dan_Ling</li>
+			<li>Dan_Ling2</li>
+			<li>Dan_Ling3</li>
+			<li>Dan_HundredRefine</li>
+			<li>Dan_ExtremeLofty</li>
+			<li>Dan_IncreaseLife1</li>
+			<li>Dan_IncreaseLife2</li>
+			<li>Dan_IncreaseLife3</li>
+			<li>Dan_IncreaseLife4</li>
+			<li>Dan_IncreaseLife5</li>
+			<li>Dan_IncreaseNeckCountdown1</li>
+			<li>Dan_IncreaseNeckCountdown2</li>
+			<li>Dan_FiveBase1</li>
+			<li>Dan_FiveBase2</li>
+			<li>Dan_FiveBase3</li>
+			<li>Dan_FiveBase4</li>
+			<li>Dan_FiveBase5</li>
+			<li>Dan_FiveBaseFromLife</li>
+			<li>Dan_Soul1</li>
+			<li>Dan_Soul2</li>
+			<li>Dan_Soul3</li>
+			<li>Dan_Soul4</li>
+			<li>Dan_SwordBall</li>
+			<li>Dan_TreeEXP</li>
+			<li>Dan_LunHui1</li>
+			<li>Dan_ReBorn</li>
+			<li>Dan_LingYuanZhong</li>
+			<li>Dan_LingYuanSha</li>
+			<li>Dan_LongDan1</li>
+			<li>Dan_FengDan1</li>
+			<li>Dan_ZhuLongDan1</li>
+			<li>Dan_FenShen1</li>
+			<li>Dan_FenShen2</li>
+			<li>Dan_FenShen3</li>
+			<li>Dan_LingYuanZhong</li>
+			<li>Dan_LingYuanSha</li>
 		</Dans>
 	</Esoterica>
 	

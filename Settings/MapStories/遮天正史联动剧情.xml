@@ -8,12 +8,12 @@
 			<li>
 				<Display>Try to open</Display>
 				<Condition>
-				<![CDATA[
+				[CDATA[
 				world:GetWorldFlag(33258) == 1
 				]]>
 				</Condition>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				if world:GetWorldFlag(33257) == 1 and me:CheckItemEquptCount("Item_BXZYJ") == 1 then
 					me:AddMsg("BOSS");
 					me:AddMsg("BOSS Skills Introduction");
@@ -25,7 +25,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				<![CDATA[	
+				[CDATA[	
 				if world:GetWorldFlag(33258) == 0 then 
 					me:AddMsg("[NAME]Trying to unravel the lines, unknown moments, and sudden changes in the unknown. . An intermittent sound came in[NAME]的识海");
 					GameMain:GetMod("BuildModeHelper"):ChangeWeather("Rainstorm");
@@ -42,7 +42,7 @@
 			<li>
 				<Display>Give up open</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				me:AddMsg("[NAME]I feel that I have been miserable, and I am still a weak chicken. . . Wait again,");
 				]]>
 				</OKResult>
@@ -57,12 +57,12 @@
 			<li>
 				<Display>Explore Xingkong Ancient Road</Display>
 				<Condition>
-				<![CDATA[
+				[CDATA[
 				world:GetWorldFlag(33257) == 1
 				]]>
 				</Condition>
 				<OKResult>
-				<![CDATA[
+				[CDATA[
 					if me:GetGLevel() >= 9 then
 						me:AddMsg("[NAME]I came to Xingkong Ancient Road, but this road seems to be affected by the change of heaven and earth, and other roads are closed. then[NAME]Embarked on a road of no return.");
 						world:ShowMsgBox("SVENE Heavenly Emperor and Demon Gate testimony saw[NAME]According to the script, embarked on a path of no return and took a sip of hot tea in his hand.");				
@@ -75,7 +75,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				<![CDATA[	
+				[CDATA[	
 				
 					me:AddMsg("[NAME][Modified History] The stone box of the mod has n’t been opened, still want to explore the ancient road to the sky?");
 					world:ShowMsgBox("I heard that SVENE is a bit related to this matter. . .");
@@ -86,7 +86,7 @@
 			<li>
 				<Display>Give up exploring</Display>
 				<OKResult>
-				<![CDATA[	
+				[CDATA[	
 				me:AddMsg("[NAME]I feel that the pit at home has not been filled. . Let me think twice. . .");
 				
 				]]>

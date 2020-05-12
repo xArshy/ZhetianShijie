@@ -1,6 +1,6 @@
 <Esotericas><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Esoterica Name="Gong_HYJ_LH_A1">
 		<DisplayName>Refining Nether</DisplayName>
@@ -42,7 +42,7 @@
 	</Esoterica>
 	
 	
-	<!-- ==========================技能2========================== -->
+	
 	
 	<Esoterica Name="Gong_HYJ_DRXW">
 		<DisplayName>Fierce</DisplayName>
@@ -59,7 +59,7 @@
 		</Skills>
 	</Esoterica>
 	
-	<!-- ==========================技能3========================== -->
+	
 	
 	<Esoterica Name="Gong_HYJ_LH_A3">
 		<DisplayName>From the Vulcan Furnace</DisplayName>
@@ -101,7 +101,7 @@
 		</Fabaos>
 	</Esoterica>
 	
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Esoterica Name="Gong_HYJ_LH_B1">
 		<DisplayName>Emperor</DisplayName>
@@ -134,7 +134,7 @@
 		</Magics>
 	</Esoterica>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 	<Esoterica Name="Gong_HYJ_DG_B1">
 		<DisplayName>Shovel</DisplayName>
@@ -184,7 +184,7 @@
 		</Magics>
 	</Esoterica>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 	<Esoterica Name="Gong_HYJ_LH_B3_SDSS">
 		<DisplayName>Red alchemy</DisplayName>
@@ -206,7 +206,7 @@
 			</Dans>
 	</Esoterica>
 	
-	<!-- ==========================分割线========================== -->
+	
 	
 	<Esoterica Name="Gong_HYJ_SJ_C1">
 		<DisplayName>Heng Yu Jing Qu</DisplayName>

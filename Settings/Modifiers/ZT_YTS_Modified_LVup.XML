@@ -1,6 +1,6 @@
 <ModifierDefs><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Modifier Name="Gong_YTS_LH_1A" Type="Normal">
 		<DisplayName>Tan Yuan Deeply Forbidden</DisplayName>
@@ -38,8 +38,8 @@
 			<li Name="MindStateBaseValue" AddV="60"/>
 		</Properties>
 	</Modifier>
-	<!-- ==========================技能2========================== -->
-	<!-- ==========================技能3========================== -->
+	
+	
 	<Modifier Name="Gong_YTS_LH_3A" Type="Normal">
 		<DisplayName>源本创身</DisplayName>
 		<MaxStack>0</MaxStack>
@@ -79,7 +79,7 @@
 		</Properties>
 	</Modifier>
 	
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Modifier Name="Gong_YTS_LH_1B" Type="Normal">
 		<DisplayName>源术聚源</DisplayName>
@@ -93,7 +93,7 @@
 	</Modifier>
 	
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 		<Modifier Name="Gong_YTS_DG_1B" Type="Normal">
 		<DisplayName>源天书</DisplayName>
@@ -125,7 +125,7 @@
 	
 	
 	
-	<!-- ==========================分割线========================== -->
+	
 	
 	<Modifier Name="Gong_YTS_SJ_1C" Type="Normal">
 		<DisplayName>源术神源</DisplayName>

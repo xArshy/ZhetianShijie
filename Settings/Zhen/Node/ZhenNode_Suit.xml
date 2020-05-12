@@ -1,6 +1,6 @@
 <ZhenNodeDefs>
     <List>
-        <!-- <Condition>
+        
 		<li>
 			<SexNeed>Male</SexNeed> None Female
 			<GongLevelNeed>God</GongLevelNeed>
@@ -11,7 +11,7 @@
 			<SkillNeed Type="Fabao" Level="20"/>
 			<GongKindCondition GongKind="None" GongName="dddddd"/>
 		</li>
-	</Condition> -->
+	</Condition> 
         <Def Name="FXLJ_0" DisplayName="混沌开天" Main="1" Base="0">
             <SlotSuits>
                 <li>SlotSuit_SpZhen_FX</li>

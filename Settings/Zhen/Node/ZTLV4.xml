@@ -1,6 +1,6 @@
 <ZhenNodeDefs>
     <List>
-        <!-- Array pivot -->
+        
         <Def Name="ZT_xjdw" DisplayName="Wonderland Road Pattern" Main="1" Base="2">
             <Lv>4</Lv>
             <SlotSuits>
@@ -50,7 +50,7 @@
                 <li SlotName="Lv4_W" Pos="5" />
             </Slot>
         </Def>
-        <!-- 阵眼 -->
+        
         <Def Name="ZT_x1" DisplayName="Fairy_1" Main="0" Base="2">
             <Lv>4</Lv>
             <Slot>
@@ -261,7 +261,7 @@
                 <li SlotName="Lv4_C" Pos="5" />
             </Slot>
         </Def>
-        <!-- 阵眼 -->
+        
         <Def Name="ZT_Y" DisplayName="阴" Main="0" Base="2">
             <Lv>4</Lv>
             <Slot>

@@ -16,7 +16,7 @@
 		<BombEffect>200002</BombEffect>
 		<HitEffect>200000</HitEffect>
 		<Radius>10</Radius>
-		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+		<Missile>	
 			<p1>0</p1>
 			<p2>5</p2>
 			<p3>5</p3>
@@ -43,7 +43,7 @@
 		<BombEffect>200002</BombEffect>
 		<HitEffect>200000</HitEffect>
 		<Radius>10</Radius>
-		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+		<Missile>	
 			<p1>0</p1>
 			<p2>5</p2>
 			<p3>5</p3>
@@ -70,7 +70,7 @@
 		<BombEffect>200002</BombEffect>
 		<HitEffect>200000</HitEffect>
 		<Radius>10</Radius>
-		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+		<Missile>	
 			<p1>0</p1>
 			<p2>5</p2>
 			<p3>5</p3>
@@ -81,7 +81,7 @@
 		</Missile>
 	</Skill>	
 	
-	<Skill Name="MS_DTQL"><!--龙怒结束后对驱散天气者的伤害-->
+	<Skill Name="MS_DTQL">
 		<DisplayName>Individual Power Skills</DisplayName>
 		<IsTemplate>0</IsTemplate>
 		<Kind>Damage</Kind>
