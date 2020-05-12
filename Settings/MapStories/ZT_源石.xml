@@ -252,7 +252,7 @@
 			<li>
 				<Display>Try to cut open source stone</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				story:RemoveBindItem();
 				local nR = me:RandomInt(1, 2251);
 				local nQ = me:RandomInt(1, 101);
@@ -5167,7 +5167,7 @@
 			<li>
 				<Display>Try to cut open source stone</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				story:RemoveBindItem();
 				local nR = me:RandomInt(1, 20);
 				local tIL = {"Wood","Rock","Metal","Weapon"};					

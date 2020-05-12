@@ -6,7 +6,7 @@
 		<Selections>
 			<li>
 				<Display>I'm going to watch</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]Came to the scene to watch a tearing competition, and Dongtian's evaluation of the ancient ruins.");
 					me:DropAwardItem("Item_Dan_BCY",3);
 					me:DropAwardItem("Item_SHQ",1);
@@ -27,7 +27,7 @@
 		<Selections>
 			<li>
 				<Display>Thanks to the author, thanks to Lingxu Dongtian.</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]Happily received the benefits from Lingxu Dongtian.");
 					me:DropAwardItem("Item_Dan_BCY",2);story:FinishSecret();
 				]]>
@@ -35,7 +35,7 @@
 			</li>
 			<li>
 				<Display>No, I don't want to.</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]I feel that the blessed land in Lingxu is too bad, disdain.");
 
 				]]>
@@ -50,7 +50,7 @@
 		<Selections>
 			<li>
 				<Display>Little chic stuff, hand over the herb liquid. (Anti-robbery requires some strength)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]The person who saw him was so arrogant, but didn't have any strength, and hit the other party on three or two occasions. However, there is a law of covering the sky that he hits the small one, and the old one hits your home.");
 					me:DropAwardItem("Item_Dan_BCY",8);GameMain:GetMod("XG"):LXDT1();story:FinishSecret();
 				]]>
@@ -58,7 +58,7 @@
 			</li>
 			<li>
 				<Display>Can't afford it. . Hurry up, but the other party doesn't seem to want to let you go, just want to grab your stuff</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]Lack of strength. However, they can only run away. And followed with large troops.");
 				GameMain:GetMod("XG"):LXDT2();story:FinishSecret();
 				]]>
@@ -66,7 +66,7 @@
 			</li>
 			<li>
 				<Display>No, I don't want to.</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]I feel that the blessed land in Lingxu is too bad, disdain.");
 
 				]]>
@@ -81,7 +81,7 @@
 		<Selections>
 			<li>
 				<Display>Help Ye Fan to fight against knights. (Facing ordinary Taoist monks)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]Ye Fan was chased by the knights of the Jiang family. Inspired by heart, he wanted to help Ye Fan in the midst of meditation, so he introduced the knights of the Jiang family to the martial arts.");
 					me:DropAwardItem("Item_SG",2);me:DropAwardItem("Item_SHQ",2);GameMain:GetMod("XG"):LXDT4();story:FinishSecret();
 				]]>
@@ -89,7 +89,7 @@
 			</li>
 			<li>
 				<Display>Help the knight to hunt down Ye Fan (Facing the Eucharist during the refining period.)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]I think the knight is too strong, why not kill Ye Fan?");
 				GameMain:GetMod("XG"):LXDT3();me:DropAwardItem("Item_PTZ",1);story:FinishSecret();
 				]]>
@@ -97,7 +97,7 @@
 			</li>
 			<li>
 				<Display>Only children choose, I kill both! (At the same time facing the attack of the knight and Ye Fan.)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]Confidence swelled and both wanted to kill.");
 				GameMain:GetMod("XG"):LXDT5();me:DropAwardItem("Item_SG",2);me:DropAwardItem("Item_SHQ",2);me:DropAwardItem("Item_PTZ",1);story:FinishSecret();
 				]]>
@@ -105,7 +105,7 @@
 			</li>
 			<li>
 				<Display>No, I don't want to.</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]After thinking about it, it has nothing to do with me, and I will not participate anymore.");
 
 				]]>
@@ -121,7 +121,7 @@
 			<li>
 				<Display>Behind the major holy sites, mixed fish and fish. (Life is dead, wealth is in heaven, it is best to have strength and then mix)</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				local nR = me:RandomInt(1, 41); 
 				if nR <= 10 then
 					me:AddMsg("[NAME]Followed behind each of the holy sites, followed slowly, but too careful to lose the opportunity and spent five hundred years of life, but only harvested a large number of five-colored god stones.");
@@ -181,7 +181,7 @@
 			<li>
 				<Display>Challenge the Lord. (The Great Emperor will challenge again in 250 days!).</Display>
 				<OKResult>	
-				[CDATA[	
+				<![CDATA[	
 				local nR = me:RandomInt(1, 21); 
 				if World.DayCount <= 150 then
 					me:AddMsg("[NAME]I do n’t want to challenge the barbaric Lord. As one of the strongest emperors in this book, the barbaric Lord was lazy in the first 150 days.[NAME],Hurry up, lest I ask everyone to make fun of you together.");
@@ -228,7 +228,7 @@
 			</li>
 			<li>
 				<Display>Forget it, let's go. Why are we still young?</Display>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
 				]]>
 				</OKResult>
@@ -243,7 +243,7 @@
 		<Selections>
 			<li>
 				<Display>Help Ye Fan to defeat Elder Han. (Facing the four-pole monk who has a little strength)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]Seeing from a distance, Ye Fan was caught by Elder Han to refine his medicine, and determined to help Ye Fan.");
 					me:DropAwardItem("Item_BasePracticeDrug",2);
 					me:DropAwardItem("Item_Dan_JingYuan2",6);
@@ -257,7 +257,7 @@
 			</li>
 			<li>
 				<Display>Let the refining medicine come true today. (Facing the stronger Elder Han.)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]Lack of strength. However, they can only run away. And followed with large troops.");
 				GameMain:GetMod("XG"):LXDT7();me:DropAwardItem("Item_PTZ",1);me:DropAwardItem("Item_MiBao_WWMQD",1);story:FinishSecret();
 				]]>
@@ -265,7 +265,7 @@
 			</li>
 			<li>
 				<Display>No, I don't want to.</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]I think the Eucharist should taste good, but it ’s not strong enough.");
 
 				]]>
@@ -280,7 +280,7 @@
 		<Selections>
 			<li>
 				<Display>In front of Mai. (In the face of four somewhat powerful four-pole monks)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]From a distance, Ye Fan was surrounded by a group of Mai people. Although Ye Fan could not die in the script, it was also good to help the future emperor.");
 					me:DropAwardItem("Item_WSXY",2);
 					me:DropAwardItem("Item_JSXY",2);
@@ -294,7 +294,7 @@
 			</li>
 			<li>
 				<Display>Mai people, Ye Fan, Ji Ziyue, all mine! (Facing a group of enemies.)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]Trying to hit it all, I pray for his choice first.[NAME]And followed with large troops.");
 				GameMain:GetMod("XG"):JJHFF2();me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_MiBao_WWMQD",1);story:FinishSecret();
 				]]>
@@ -302,7 +302,7 @@
 			</li>
 			<li>
 				<Display>No, I don't want to.</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]I think it has nothing to do with me, I don't feel anything about the Eucharist.");
 
 				]]>
@@ -317,7 +317,7 @@
 		<Selections>
 			<li>
 				<Display>The Lords and Preachers are here! (Facing the Three Holy Lords and the Three Holy Lands)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]From a distance, Ye Fan was surrounded by a group of Mai people. Although Ye Fan could not die in the script, it was also good to help the future emperor.");
 					me:DropAwardItem("Item_WSXXY",2);
 					me:DropAwardItem("Item_JSXXY",2);
@@ -339,7 +339,7 @@
 			</li>
 			<li>
 				<Display>Let ’s forget what the Lord is, and pass on the Holy Land! (Facing a group of enemies.)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]Trying to hit it all, I pray for his choice first.[NAME]And followed with large troops.");
 				GameMain:GetMod("XG"):KQWDF2();me:DropAwardItem("Item_DJHJ",1);me:DropAwardItem("Item_HXCJ",1);me:DropAwardItem("Item_LWHJ",1);me:DropAwardItem("Item_YHQJ",1);
 				me:DropAwardItem("Item_SHZJ",1);me:DropAwardItem("Item_YHLJ",1);me:DropAwardItem("Item_XLLJ",1);me:DropAwardItem("Item_XHEQ",1);story:FinishSecret();
@@ -348,7 +348,7 @@
 			</li>
 			<li>
 				<Display>No, I don't want to.</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]I felt that something thrilling must have happened here, and I felt the rage of heaven and earth aura all the way.");
 
 				]]>
@@ -363,7 +363,7 @@
 		<Selections>
 			<li>
 				<Display>Coming from the Fire Domain (Is Ji Jiasu coming to the Fire Domain Refiner, is this a good opportunity?) (A lot of materials, need bodhi or the minimum resistance to 1700, the best is</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetProperty("ToleranceTMax") >= 1700 then
 				me:AddMsg("[NAME]The bodhizi was free to come and go in the fire zone. On the day, it was found that there was a Jilaijia old smelter in the fourth layer of fire zone, so he had a bad idea.");
 					if me:GetGLevel() >= 11 then
@@ -393,7 +393,7 @@
 			</li>
 			<li>
 				<Display>The eighth layer of fire domain (in the eighth layer of colorful magic fire, there seems to be a sound of iron) (a lot of materials, you need to bring a bodhi or a maximum temperature resistance of 6500 degrees)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetProperty("ToleranceTMax") >= 6500 then
 				····me:AddMsg("[NAME]Bodhizi is free to come and go in the area of ​​fire. Today, I found the fire crow Taoist in the eighth layer of fire area. I did not expect that the fire crow could move freely in the high temperature of 6,000 degrees. It seems that I can also. . .");
 					if me:GetGLevel() >= 11 then
@@ -418,7 +418,7 @@
 			</li>
 			<li>
 				<Display>No, I don't want to.</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]I think it has nothing to do with me, I don't want to stir the muddy water.");
 
 				]]>
@@ -432,7 +432,7 @@
 		<Selections>
 			<li>
 				<Display>掀翻就对了</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetGLevel() >= 6 and me:GetPerception() >= 9 and me:GetSkillLevel("Barrier") >= 27 then
 				me:AddMsg("She has a round buttock, a slender waist, arrogant twins, a beautiful item, and a jade look. She shook the jade body at the moment, receding lightly, her lotus posture was moving, her smile was very soft. [NAME] The hatred's teeth are itchy, and it's estimated that the distance is a bit far away. This shaking lady is too cautious. \nAt this moment, he concentrated his energy, the golden lake in the eyebrows shook, and the consciousness instantly appeared, attacking. \n "Ah! You," the stunned maiden screamed, her face looked painful and crumbling. \n [NAME] rushed forward, the powerful consciousness was not only attacked, the wind and the wind were over, and the moment came to the front, leaped forward, and threw the shaking lady on the grass. \n However, the maiden of shaking light only screamed for the first time, and she was not debilitated. Her brows were also full of brilliance. \nAt this moment, she opened her eyes with a swipe and looked at [NAME]. At the same time, there was a horrible wave of divine power in the soft jade break. At this moment, although she wasn't hurt to know the sea, she couldn't be distracted. The spiritual power of [NAME] was too scary and almost suppressed her. \n [NAME] I feel like I can't catch this wonderful break. The soft fairy body has a sea-like divine power and is about to lift him. \nHe is constantly attacking with consciousness, and the golden tide in the eyebrow is dazzling like a sun. At the same time, he uses heart attack and bites down. A sweet fragrance came, and he bit the maiden's ear and shook his mouth. "You !!!" \nSure enough, the sacred maiden shook with anger and anger, and the glory shot from the eyebrows was rippling, and [NAME] urged the power of consciousness to attack.");
 					me:TriggerStory("YX1");
@@ -445,7 +445,7 @@
 			</li>
 			<li>
 				<Display>Onlookers are good.</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]Give up the plan to overthrow the maiden, just watch the play.");
 					
 				]]>
@@ -459,7 +459,7 @@
 		<Selections>
 			<li>
 				<Display>Keep upset</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("Saint Yaoguang screamed and was bitten by the white teeth, which not only caused pain, but also made her feel ashamed, her sense of instability was suddenly unstable, and the glory of her brows was a little dim. [NAME] The consciousness is like a sword, turned into a golden beam, and cuts towards the consciousness of the maiden of Yaoguang, and at the same time suppresses this physical body to avoid being shaken by it. \n "刷" \n Between the two eyebrows of the saint yaoguang, a diamond-shaped mark emerged, such as a fairy tale breaking through the water, shooting a ray of color, blocking the golden beam. This moved [NAME] 's heart. The consciousness of Saint Yaoguang was so powerful that it exceeded his expectations and was not much worse than him. \nHe concentrated his thoughts, urging the power of knowing the sea, the golden lake, the rushing waves, the golden power constantly flowing out, like a water wave, condensing into a sword in the void, and rushing towards the diamond mark. \nThe two limbs are entangled and can feel each other's temperature. Below, the saint Yaoguang is like a warm jade, and the soft and slender fairy body is constantly blooming with rays of light, and she has almost lifted [NAME] out several times. \n [NAME] has an advantage in the source of consciousness, and despite being strong, Lady Yao Guang cannot match him. The golden little lake is deep like a deep water, and continuously flows out of spiritual power, like a trickle at first, and then like a long river. \nSao Yaoguang's face was pale, and her beautiful face was full of surprise. The diamond mark on her forehead gradually faded and was gradually suppressed.");
 				me:TriggerStory("YX2");
 				]]>
@@ -467,7 +467,7 @@
 			</li>
 			<li>
 				<Display>Onlookers are good.</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]Abandoned the plan to overthrow the Virgin.");
 					
 				]]>
@@ -482,7 +482,7 @@
 		<Selections>
 			<li>
 				<Display>Breaking the Divine Consciousness (Secret Challenge)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("Yes, the real saint Yaoguang is fighting with [NAME], and the gods in the shape of her sword are not dominated by gods, so she just stands there silently. "Cut!" The saint Yaoguang scorned, took the risk, and forcibly divided a ray of divine thought into the deity of the Lord. At this moment, the consciousness of [NAME] burned like a flame, surging forward, surging the diamond-shaped mark directly. In a short moment, he was forced to break into the "gate" before the sage of Yaoguang knows the sea. \nAt the same time, the deity's black hair fluttered, the silver armor was bright, and the beautiful face suddenly became vivid. There is a little aura in the eyes. However, the action is still a bit stiff, and the physical potential has not fully recovered. "锵" \nShe pulled out the magic sword hanging from Xiaoman's waist and held it in her hand, as bright as a qiushui, she is Raising high, like the goddess who came to earth, it is necessary to cut the demon and remove the demon, and shed the holy glory. "哧" This god shook his sword and slashed to [NAME], wanting to cut it. At the same time, the consciousness of [NAME] finally broke into the consciousness of the maiden of Yaoguang, and invested a little bit of Guanghua. \nBoth of them were absolutely determined. [NAME] wants to defeat her consciousness, destroy her consciousness, smash her soul, and thus annihilate. "锵" The shining sword, shining like a beam of light, chopped down with a bitter chill Come down. \n [NAME] Keenly aware, holding the maiden of Yao Xian to roll quickly, the sword directly turned the grass A ten-meter-deep crack was created. It can be imagined that the sword is terrible. If it is cut on its body, the consequences are unthinkable. \nHe bit the crystalized ears of Saint Yaoguang's ears vigorously, and refused to let his mouth loose, both of them Tangled and rolled out more than ten meters away. \nThe only thing that is fortunate is that this deity is slow to move. Only one god knows the Lord, and he cannot exert his full power. "Ah ..." the sacred lady Yaoguang was surprised. Scream, the insult was broken, and the golden beam of light drove straight like a river. \n [NAME] Stimulates the strongest spiritual power, and wants to smash the spiritual knowledge of the maiden of Yaoguang, so that the god of Wainai becomes a rootless flower . \nAt this moment, the consciousness of Saint Yaoguang awakened !!!");
 				GameMain:GetMod("XG"):YXYG();me:DropAwardItem("Item_MiBao_YG",1);
 				]]>
@@ -490,7 +490,7 @@
 			</li>
 			<li>
 				<Display>Continue to overturn. (Review the plot without a reward)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("Yes, the real saint Yaoguang is fighting with [NAME], and the gods in the shape of her sword are not dominated by gods, so she just stands there silently. "Cut!" The saint Yaoguang scorned, took the risk, and forcibly divided a ray of divine thought into the deity of the Lord. At this moment, the consciousness of [NAME] burned like a flame, surging forward, surging the diamond-shaped mark directly. In a short moment, he was forced to break into the "gate" before the sage of Yaoguang knows the sea. \nAt the same time, the deity's black hair fluttered, the silver armor was bright, and the beautiful face suddenly became vivid. There is a little aura in the eyes. However, the action is still a bit stiff, and the physical potential has not fully recovered. "锵" \nShe pulled out the magic sword hanging from Xiaoman's waist and held it in her hand, as bright as a qiushui, she is Raising high, like the goddess who came to earth, it is necessary to cut the demon and remove the demon, and shed the holy glory. "哧" This god shook his sword and slashed to [NAME], wanting to cut it. At the same time, the consciousness of [NAME] finally broke into the consciousness of the maiden of Yaoguang, and invested a little bit of Guanghua. \nBoth of them were absolutely determined. [NAME] wants to defeat her consciousness, destroy her consciousness, smash her soul, and thus annihilate. "锵" The shining sword, shining like a beam of light, chopped down with a bitter chill Come down. \n [NAME] Keenly aware, holding the maiden of Yao Xian to roll quickly, the sword directly turned the grass A ten-meter-deep crack was created. It can be imagined that the sword is terrible. If it is cut on its body, the consequences are unthinkable. \nHe bit the crystalized ears of Saint Yaoguang's ears vigorously, and refused to let his mouth loose, both of them Tangled and rolled out more than ten meters away. \nThe only thing that is fortunate is that this deity is slow to move. Only one god knows the Lord, and he cannot exert his full power. "Ah ..." the sacred lady Yaoguang was surprised. Scream, the insult was broken, and the golden beam of light drove straight like a river. \n [NAME] Stimulates the strongest spiritual power, and wants to smash the spiritual knowledge of the maiden of Yaoguang, so that the god of Wainai becomes a rootless flower [NAME] stopped in the sky and did not retreat immediately, and suddenly laughed, and said, "I see. That moon palace can only go up and down, settle the nearby area, you can't sacrifice it, no wonder you want to I lead there. "\n" Even so, what can you do? Yao Xi sneered, looking calm and calm, \n said: "I know God in the Moon Palace, and you can't do anything about me. "That's true. "[NAME] nodded, and then laughed:" I blocked your consciousness here, I divided a ray of consciousness to worship the heaven and earth with you, I see if you can calm down. "\n" You ... "It is difficult for the Lady of Shaking Light to keep calm." I go too. "[NAME] laughed, parted a divine thought, and flew away, saying," Go into the cave! "\nThe ray of thought returned to the eyebrows, and his physical body suddenly regained consciousness. At this moment, he was still biting that delicate and beautiful ear, like the smell of blue musk." Yi "is not far away , That shrine came again with a sword. [NAME] leaped quickly, backed by the swaying sage, the shrine was slow to move, but there was also a great threat. \nAt this time, he will shake the sacred The goddess of the goddess was stuck in her eyebrow, so that her divine thought could not be rushed out. Although the soft immortal body was surging at present, it was difficult to threaten him. "Sir lady, if you do n’t come out, we It's time to enter the cave. "[NAME] laughed. Although his divine power was sealed, his flesh was still rude, running like the wind, and the god behind him couldn't catch up." Bang "[NAME] slammed a punch, Hit on the flesh in her arms, but failed to break it. \nYao Xi ’s eyebrows were full of energy, she tried hard to impact, she did n’t want to be surrounded, she was really afraid of [NAME] “胡来” \n 神 念Although she couldn't rush out completely, she felt everything outside. A little force of consciousness injected into her body, she immediately exclaimed: "What are you doing? "Measure for you ..." Brother Ye smiled. "Asshole!" [NAME] embraced the sage of light and ran fast, the deity behind him moved slowly and was quickly shaken off. \nHis arm wrapped around Yao Xi ’s small waist, and he felt the kind of tenderness, and the other hand moved randomly, saying in his mouth: "Look at your light body and slender figure, but some places are so full. "..." "You ..." The Lightning Lady almost fainted. "The plump place is plump, and the slender place is slender. It's really amazing. If you leave you in the crowd, I think many men will be crazy for you ... \n [NAME] bit her ear lobe "I want to deal with me, I have to be prepared to pay the price. "");
 				]]>
 				</OKResult>
@@ -504,7 +504,7 @@
 		<Selections>
 			<li>
 				<Display>God King Jiang Taixu</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]Go forward alone, don't be too slow, pay attention to observe everything around you, but there are no more carved pictures on the rock wall, everything is just over. At first, [NAME] didn't care, but after going out hundreds of feet, he felt more and more bitter and cold, and the place was very heavy, like the north wind rolling snow on his body. [NAME] stepped forward, not far away, he suddenly saw a line of words on the purple stone wall. \n "God King Jiang entered the Devil Mountain by mistake and decided to take a peek at it!" \n [NAME] was quite shocked, a Donghuang God King came here and walked in! \n "His surname is Jiang, most of whom are from the ancient family of the Jiang family ..." \nThese dozen words are powerful and contain a kind of state, which makes people feel that the breath of God is flowing, like a god king Stand in front of you.");
 				if me:GetDaoHang() > 100 and me:CheckItemEquptCount("Item_PTZ") == 1 then
 					
@@ -518,7 +518,7 @@
 			</li>
 			<li>
 				<Display>No beginning</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]Go forward alone, don't be too slow, pay attention to observe everything around you, but there are no more carved pictures on the rock wall, everything is just over. At first, [NAME] didn't care, but after going out hundreds of feet, he felt more and more bitter and cold, and the place was very heavy, like the north wind rolling snow on his body.");
 				me:TriggerStory("ZT_G_WSJ");story:FinishSecret();
 				]]>
@@ -526,7 +526,7 @@
 			</li>
 			<li>
 				<Display>Leave this place</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]After a moment's careful consideration, I felt that Feng Shui was too flourishing here. Although there were good things, it was not something I could afford.");
 				]]>
 				</OKResult>
@@ -540,7 +540,7 @@
 		<Selections>
 			<li>
 				<Display>Xiaopeng Wang</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg(""Don't do anything with me, or you'll die without a corpse!" King Jinpeng Xiaopeng was tall, with a crazy killing in his eyes, and looked down at [NAME].");
 				me:DropAwardItem("Item_MiBao_DHJ",1);GameMain:GetMod("XG"):YSJC1();story:FinishSecret();
 				]]>
@@ -548,7 +548,7 @@
 			</li>
 			<li>
 				<Display>Eucharist remains</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("The melodious bronze bell, the quaint and simple big tripod, the shining golden pagoda, and the ninth treasure hall are gorgeous. \n All kinds of rare babies are flashing, and at first glance, they are not ordinary things. Many of them are weapons made by big names. Flow out of horrible waves. Glittering. \n But all of these are difficult to attract [NAME]. He only had the dry body in his eyes, and there was an inexplicable air force between them that attracted each other.");
 				me:DropAwardItem("Item_STYH",1);
 				story:FinishSecret();
@@ -557,7 +557,7 @@
 			</li>
 			<li>
 				<Display>Leave this place</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]After a moment's careful consideration, I felt that Feng Shui was too flourishing here. Although there were good things, it was not something I could afford.");
 				]]>
 				</OKResult>
@@ -572,11 +572,11 @@
 			<li>
 				<Display>Ran into the village (get more stone tires, true fairy difficulty)</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() >= 6
 				]]>
 				</Condition>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:RandomInt(1, 5) == 2 then
 						me:AddMsg("[NAME]Luck was not good, as soon as he entered the village, he encountered the old Chilong Road. . . . Chilong Laodao intends to buy these stone tires. A battle is inevitable");
 						GameMain:GetMod("XG"):CLLD();
@@ -604,7 +604,7 @@
 					end
 				]]>
 				</OKResult>
-				<NOResult>[CDATA[	
+				<NOResult><![CDATA[	
 				me:AddMsg("[NAME]His strength is so poor, I don't know where he is confident, and he was beaten to death.");
 				me:AddSchoolScore(1,-500);me:AddDamage("Destroy", "RightEye", 1, XT("暴打"));me:AddDamage("Destroy","LeftEye", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","LeftScapula", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","RightScapula", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","LeftThighbone", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","RightThighbone", 1, XT("暴打"))
 				]]></NOResult>
@@ -612,7 +612,7 @@
 			<li>
 				<Display>Take a look in the village (get a stone tire)</Display> 
 				
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 						me:AddMsg("[NAME]When he arrived in the village, he found Yuan Tianshi's orphan. After understanding the situation, he left with a stone tire.");
 						me:DropAwardItem("Item_WSXY",1);
 						me:DropAwardItem("Item_JSXY",1);
@@ -630,7 +630,7 @@
 			</li>
 			<li>
 				<Display>Little broken village, not interested.</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]Think it's a small village, it's not rare.");
 				]]>
 				</OKResult>
@@ -644,7 +644,7 @@
 		<Selections>
 			<li>
 				<Display>Enter the underground palace by strength (Facing all the holy land heirs of 400 million Jin Danxiu.)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("In the middle of the magnificent and empty hall, there is a suspended sacred platform, the whole body is painted black, but it shoots a ray of Ruicai, falling down, very mysterious. \nThe most exciting thing is that there is an animal skin scroll hanging on the stage. It looks very ordinary, but it makes everyone excited.");
 				
 				me:DropAwardItem("Item_HDS",20);
@@ -657,7 +657,7 @@
 			</li>
 			<li>
 				<Display>Ready to enter the underground palace</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("The melodious bronze bell, the quaint and simple big tripod, the shining golden pagoda, and the ninth treasure hall are gorgeous. \nAll kinds of rare babies are flashing, and at first glance, they are not ordinary things. Many of them are weapons made by big names. Flow out of horrible waves. Glittering. \nBut all of these are difficult to attract [NAME]. He only had the dry body in his eyes, and there was an inexplicable air force between them that attracted each other.");
 				if me:CheckItemEquptCount ("Item_MiBao_WWMQD") == 1 then
 				if me:GetGLevel() >= 11 then
@@ -677,7 +677,7 @@
 			</li>
 			<li>
 				<Display>Leave this place</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]After a moment's careful consideration, I felt that Feng Shui was too flourishing here. Although there were good things, it was not something I could afford.");
 					
 				]]>
@@ -692,7 +692,7 @@
 		<Selections>
 			<li>
 				<Display>Anzhou Liukou</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if world:GetWorldFlag(1000) < world.DayCount + 100 then
 				me:AddMsg("[NAME]Arrived in Anzhou, ransacked the big and small pirates in order, and gained a lot, but they were found");
 				world:SetWorldFlag(1000,world.DayCount);
@@ -710,7 +710,7 @@
 			</li>
 			<li>
 				<Display>Sacking Quzhou</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if world:GetWorldFlag(1001)  < world.DayCount + 100 then
 				me:AddMsg("[NAME]When I arrived in Quzhou, I ransacked the big and small pirates in order to gain a lot, but they were also found by the martial arts.");
 				world:SetWorldFlag(1001,world.DayCount);
@@ -729,7 +729,7 @@
 			
 			<li>
 				<Display>Leave this place</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]After a moment of careful consideration, good things are bound to bring risks. Forget it and wait for my strength.");
 					
 				]]>
@@ -744,7 +744,7 @@
 		<Selections>
 			<li>
 				<Display>Primitive gulin</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				local nR = me:RandomInt(1, 21); 
 				if nR >= 14 then
 				me:AddMsg("[NAME]Going in deeply, I saw a few casual repairs, and I took a sigh of relief after a detailed understanding. The Guhua dynasty and the Yinyang religion did not intend to enter, but now they are just exploring the road, and are making detailed plans and arrangements.");
@@ -767,7 +767,7 @@
 			</li>
 			<li>
 				<Display>Take a fart, don't go in</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				
 				me:AddMsg("[NAME]After thinking about it, I decided to leave here.");
 				
@@ -782,7 +782,7 @@
 		<Selections>
 			<li>
 				<Display>Head to the mountain</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				local nR = me:RandomInt(1, 51); 
 				if nR >= 41 then
 				me:AddMsg("[NAME]Heading deep into the first Shenshan Mountain, but the road is far away, the closer [NAME] is to Shenshan, the farther it is away, and Bai Shouyuan has damaged Shouyuan in the wilderness.");
@@ -811,7 +811,7 @@
 			
 			<li>
 				<Display>Take a fart, don't go in</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				
 				me:AddMsg("[NAME]After thinking about it, I decided to leave here. But the wild ancient forbidden area is a cow.");
 				me.npcObj.PropertyMgr:AddAge(1000);me:AddMsg(string.format(XT("[NAME]%s years old。"),tostring(1000)));
@@ -826,7 +826,7 @@
 		<Selections>
 			<li>
 				<Display>Exploring the mine</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				local nR = me:RandomInt(1, 51); 
 				local nQ = me:RandomInt(1, 51);
 				if nR >= 41 then
@@ -994,7 +994,7 @@
 			
 			<li>
 				<Display>Take a fart, don't go in</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				
 				me:AddMsg("[NAME]After thinking about it, I decided to leave here. But the wild ancient forbidden area is a cow.");
 				me.npcObj.PropertyMgr:AddAge(1500);me:AddMsg(string.format(XT("[NAME]Full%s years old."),tostring(1500)));
@@ -1009,7 +1009,7 @@
 		<Selections>
 			<li>
 				<Display>Explore the forest</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				local nR = me:RandomInt(1, 51); 
 				local nQ = me:RandomInt(1, 51);
 				if nR >= 41 then
@@ -1107,7 +1107,7 @@
 			
 			<li>
 				<Display>Take a fart, don't go in</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				
 				me:AddMsg("[NAME]After thinking about it, I decided to leave here. But the wild ancient forbidden area is a cow.");
 				me.npcObj.PropertyMgr:AddAge(1500);me:AddMsg(string.format(XT("[NAME]Full%s years old."),tostring(1500)));
@@ -1122,7 +1122,7 @@
 		<Selections>
 			<li>
 				<Display>进入地宫</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				local nR = me:RandomInt(1, 51); 
 				local nG = me:RandomInt(4000, 50000);
 				local nQ = me:RandomInt(1, 51);
@@ -1317,7 +1317,7 @@
 			
 			<li>
 				<Display>进个屁，不进去</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				
 				me:AddMsg("[NAME]思前想后，还是决定离开此地。但荒古禁地就是牛。");
 				me.npcObj.PropertyMgr:AddAge(1500);me:AddMsg(string.format(XT("[NAME]整整苍老了%s年。"),tostring(1500)));
@@ -1332,7 +1332,7 @@
 		<Selections>
 			<li>
 				<Display>探索灵田</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				local nR = me:RandomInt(1, 51); 
 				local nQ = me:RandomInt(1, 51);
 				if nR >= 41 then
@@ -1445,7 +1445,7 @@
 			
 			<li>
 				<Display>进个屁，不进去</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				
 				me:AddMsg("[NAME]思前想后，还是决定离开此地。但荒古禁地就是牛。");
 				me.npcObj.PropertyMgr:AddAge(1500);me:AddMsg(string.format(XT("[NAME]整整苍老了%s年。"),tostring(1500)));
@@ -1460,7 +1460,7 @@
 		<Selections>
 			<li>
 				<Display>九座神山</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me.npcObj.PropertyMgr:AddAge(3000);me:AddMsg(string.format(XT("[NAME]整整苍老了%s年。"),tostring(3000)));
 				if World:GetWorldFlag(2630) = 0 then
 				me:DropAwardItem("Item_JM1",1);world:SetWorldFlag(2630,1);
@@ -1486,7 +1486,7 @@
 			</li>
 			<li>
 				<Display>进个屁，不进去</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				
 				me:AddMsg("[NAME]思前想后，还是决定离开此地。");
 				me.npcObj.PropertyMgr:AddAge(2000);me:AddMsg(string.format(XT("[NAME]整整苍老了%s年。"),tostring(2000)));
@@ -1503,7 +1503,7 @@
 		<Selections>
 			<li>
 				<Display>瑶池盛会</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetGLevel() >= 11 and me:GetDaoHang() >= 1600 then
 				me:DropAwardItem("Item_Dan_PTMY",4);me:DropAwardItem("Item_Dan_PT",12);
 				elseif me:GetGLevel() >= 9 and me:GetDaoHang() >= 1200 then
@@ -1523,7 +1523,7 @@
 			<li>
 				<Display>瑶池天字号石园。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1544,7 +1544,7 @@
 			</li>
 			<li>
 				<Display>进个屁，不进去</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				
 				me:AddMsg("[NAME]思前想后，还是决定离开此地。");
 				
@@ -1560,7 +1560,7 @@
 		<Selections>
 			<li>
 				<Display>青龙不死药</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if world:GetWorldFlag(1100) < world.DayCount + 500 then
 				me:AddMsg("[NAME]来到了万龙巢，成功获得了试验品灵植");
 				world:SetWorldFlag(1000,world.DayCount);
@@ -1574,7 +1574,7 @@
 			</li>
 			<li>
 				<Display>黄龙不死药</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if world:GetWorldFlag(1102) + 500 < world.DayCount + 500 then
 				me:AddMsg("[NAME]来到了万龙巢，成功获得了试验品灵植");
 				world:SetWorldFlag(1102,world.DayCount);
@@ -1588,7 +1588,7 @@
 			</li>
 			<li>
 				<Display>玄武不死药</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if world:GetWorldFlag(1101) < world.DayCount + 500 then
 				me:AddMsg("[NAME]来到了万龙巢，成功获得了试验品灵植");
 				world:SetWorldFlag(1101,world.DayCount);
@@ -1602,7 +1602,7 @@
 			</li>
 			<li>
 				<Display>白虎不死药</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if world:GetWorldFlag(1103) < world.DayCount + 500 then
 				me:AddMsg("[NAME]来到了万龙巢，成功获得了试验品灵植");
 				world:SetWorldFlag(1103,world.DayCount);
@@ -1616,7 +1616,7 @@
 			</li>
 			<li>
 				<Display>朱雀不死药</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if world:GetWorldFlag(1104) < world.DayCount + 500 then
 				me:AddMsg("[NAME]来到了万龙巢，成功获得了试验品灵植");
 				world:SetWorldFlag(1104,world.DayCount);
@@ -1631,7 +1631,7 @@
 			
 			<li>
 				<Display>离开此地</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]仔细地思索了片刻，好东西，必然带风险。算了且等我有实力。");
 					
 				]]>
@@ -1646,7 +1646,7 @@
 		<Selections>
 			<li>
 				<Display>阳墓出世，早早便吸引了众多大能围观。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:TriggerStory("YM1");
 
 				]]>
@@ -1654,7 +1654,7 @@
 			</li>
 			<li>
 				<Display>阴墓被段德和叶凡所发现。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:TriggerStory("YF1");
 
 				]]>
@@ -1662,7 +1662,7 @@
 			</li>
 			<li>
 				<Display>不，我不想。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得自己不是爱管闲事的人，所以就走了。");
 
 				]]>
@@ -1677,7 +1677,7 @@
 		<Selections>
 			<li>
 				<Display>妖帝坟外围。（解锁道经，携带菩提子可获得秘宝）</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if world:IsGongUnLocked("Gong_DJ") == false then
 					me:AddMsg("[NAME]独自一人在外围徘徊，混乱中居然获得了道经。");
 					me:UnLockGong("Gong_DJ");me:DropAwardItem("Item_Dan_TreeEXP", 1);
@@ -1692,7 +1692,7 @@
 			</li>
 			<li>
 				<Display>大胆向前走。（金丹期左右方能进行剧情）</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetGLevel() <= 3 then
 						me:AddMsg("[NAME]在混战之中，完全插不上手，只能缩在角落等待大战的结束。");
 				elseif me:GetGLevel() <= 6 and me:GetLuck() >= 7 then
@@ -1708,7 +1708,7 @@
 			</li>
 			<li>
 				<Display>不，我不想。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得太危险了，何必呢。。");
 
 				]]>
@@ -1724,11 +1724,11 @@
 			<li>
 				<Display>各大长老激战之处。（金丹以上方能进行剧情）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() >= 9
 				]]>
 				</Condition>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if  me:GetGLevel() >= 9 and me:GetPhysique() >= 9 and world:GetWorldFlag(446) == 0 then
 						me:AddMsg("[NAME]凭借高深的修为，力抗众人，哪怕是圣地来着也不是[NAME]的对手，在妖帝陵的水晶棺冲出的刹那[NAME]冲上前去抢夺而走，虽然受到了不轻的伤，以及其他圣地的眼红！。");
 						world:SetWorldFlag(446,1);me:DropAwardItem("Item_YDX",1);me:AddDamgeFromCache(story.DamageCache,4,4);Map:AddEnemyAtSide("Human",CS.XiaWorld.g_emThingDir.None,math.random(64),CS.XiaWorld.g_emNpcRichLable.Richest);
@@ -1739,7 +1739,7 @@
 			</li>
 			<li>
 				<Display>不，我不想。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得太危险了，何必呢。。");
 
 				]]>
@@ -1754,7 +1754,7 @@
 		<Selections>
 			<li>
 				<Display>潜入深谭。（要求不能超出金丹期，最后一层要求携带妖帝心与避寒玉，且耐寒千度一下。）</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetGLevel() <= 3 then
 					me:AddMsg("[NAME]一个猛子扎入深谭之中，emmm这不是找死吗。");
 					me:AddDamgeFromCache(story.DamageCache,9,12);
@@ -1785,7 +1785,7 @@
 			</li>
 			<li>
 				<Display>不，我不想。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得太危险了，何必呢。。");
 
 				]]>
@@ -1800,7 +1800,7 @@
 		<Selections>
 			<li>
 				<Display>太玄主峰。星峰。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:TriggerStory("XF");
 
 				]]>
@@ -1808,7 +1808,7 @@
 			</li>
 			<li>
 				<Display>太玄门，拙峰。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:TriggerStory("ZF");
 
 				]]>
@@ -1817,11 +1817,11 @@
 			<li>
 				<Display>太玄门，其他峰。</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() <= 9
 				]]>
 				</Condition>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetProperty("NpcFight_SneakValue") <= 3 and me:GetGLevel() <= 3 then
 					me:AddMsg("[NAME]趁着人多眼杂，改变自身的样貌，投入太玄门的其中一座仙山，获得了一本秘籍,不过跑路之前被人发现，追逐中受了点伤。");
 					me:DropRandomItem("Esoterica");me:AddDamgeFromCache(story.DamageCache,3,4);story:FinishSecret();
@@ -1843,7 +1843,7 @@
 			</li>
 			<li>
 				<Display>不，我不想。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得自己不是爱管闲事的人，所以就走了。");
 
 				]]>
@@ -1859,7 +1859,7 @@
 			<li>
 				<Display>拜入星峰。</Display> 
 				
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetProperty("AbilityLvAddV") <= 30 and me:GetGLevel() <= 3 then
 					me:AddMsg("[NAME]来到了太玄峰，誓要拜入星峰，但是奈何道行不足，境界太低，没人稀罕。");
 					me:TriggerStory("XF");
@@ -1879,7 +1879,7 @@
 			</li>
 			<li>
 				<Display>垃圾太玄门，不拜。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得星峰什么的，还是算了吧。");
 
 				]]>
@@ -1896,7 +1896,7 @@
 			<li>
 				<Display>踏天梯。</Display> 
 				
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:TriggerStory("TT");
 				]]>
 				</OKResult>
@@ -1904,11 +1904,11 @@
 			<li>
 				<Display>李若愚。（结丹期以上能进行剧情）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() >= 6
 				]]>
 				</Condition>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetPerception() >= 8 and world:GetWorldFlag(447) == 0 then
 					me:AddMsg("[NAME]向李若愚躬身一拜（你不如拜群主手动滑稽）之见老人身材枯瘦，显得有些虚弱，也对着[NAME]点点头。");
 					me:AddMsg("李若愚对[NAME]说，你看拙峰，山如其名，无瑰丽景致。无雄伟气势，无灵秀仙根，没有任何出奇之处，你确定要拜入拙峰吗？");
@@ -1923,7 +1923,7 @@
 			
 			<li>
 				<Display>算了，不过是个拙峰罢了。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得没啥好东西可以拿了，还是算了吧。");
 
 				]]>
@@ -1939,7 +1939,7 @@
 			<li>
 				<Display>一阶天梯。</Display> 
 				
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:TriggerStory("TT_1");
 				]]>
 				</OKResult>
@@ -1947,7 +1947,7 @@
 			<li>
 				<Display>二阶天梯。</Display> 
 				
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:TriggerStory("TT_2");
 				]]>
 				</OKResult>
@@ -1955,7 +1955,7 @@
 			<li>
 				<Display>三阶天梯。</Display> 
 				
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:TriggerStory("TT_3");
 				]]>
 				</OKResult>
@@ -1963,7 +1963,7 @@
 			<li>
 				<Display>四阶天梯。</Display> 
 				
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:TriggerStory("TT_4");
 				]]>
 				</OKResult>
@@ -1971,7 +1971,7 @@
 			<li>
 				<Display>五阶天梯。</Display> 
 				
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:TriggerStory("TT_5");
 				]]>
 				</OKResult>
@@ -1979,7 +1979,7 @@
 			<li>
 				<Display>六阶天梯。</Display> 
 				
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:TriggerStory("TT_6");
 				]]>
 				</OKResult>
@@ -1987,7 +1987,7 @@
 			<li>
 				<Display>七阶天梯。</Display> 
 				
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:TriggerStory("TT_7");
 				]]>
 				</OKResult>
@@ -1995,7 +1995,7 @@
 			<li>
 				<Display>八阶天梯。</Display> 
 				
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:TriggerStory("TT_8");
 				]]>
 				</OKResult>
@@ -2003,7 +2003,7 @@
 			<li>
 				<Display>九阶天梯。</Display> 
 				
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:TriggerStory("TT_9");
 				]]>
 				</OKResult>
@@ -2011,7 +2011,7 @@
 			
 			<li>
 				<Display>垃圾太玄门，不拜。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
 
 				]]>
@@ -2027,11 +2027,11 @@
 			<li>
 				<Display>一阶天梯。（悟性高于6，只能获得一次，慎重）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() <= 3
 				]]>
 				</Condition>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetIntelligence() >= 6 and world:GetWorldFlag(466) == 0 then
 					me:AddMsg("[NAME]迈上了第一阶天梯，得到了拙峰的第一阶认可，获得了二十点根本灵力的加成。");
 					world:SetWorldFlag(448,1);me:ModifierProperty("_SPECIAL_NOADD_NpcLingMaxValue",20);me:TriggerStory("TT");
@@ -2041,7 +2041,7 @@
 			</li>
 			<li>
 				<Display>垃圾太玄门，不拜。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
 
 				]]>
@@ -2057,11 +2057,11 @@
 			<li>
 				<Display>二阶天梯。（悟性高于8，一次获取）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() <= 3
 				]]>
 				</Condition>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetIntelligence() >= 8 and world:GetWorldFlag(449) == 0 then
 					me:AddMsg("[NAME]的悟性还可以，迈上了第二阶天梯，获得了15000点修炼经验。");
 					world:SetWorldFlag(449,1);world:GetSelectThing().PropertyMgr.Practice:AddPractice("15000");me:TriggerStory("TT");
@@ -2071,7 +2071,7 @@
 			</li>
 			<li>
 				<Display>垃圾太玄门，不拜。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
 
 				]]>
@@ -2087,11 +2087,11 @@
 			<li>
 				<Display>三阶天梯。（感知大于6）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() <= 3
 				]]>
 				</Condition>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetPerception() >= 6 and world:GetWorldFlag(450) == 0 then
 						me:AddMsg("[NAME]迈上了第三节天梯，一道玄奇的光芒冲入体内，[NAME]修行潜力被激发，提高了五十的修行速度。");
 						world:SetWorldFlag(450,1);me:ModifierProperty("DeepPracticeSpeedSpecialCoefficient",50);me:TriggerStory("TT");
@@ -2101,7 +2101,7 @@
 			</li>
 			<li>
 				<Display>垃圾太玄门，不拜。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
 
 				]]>
@@ -2117,11 +2117,11 @@
 			<li>
 				<Display>四阶天梯。（感知大于9）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() <= 3
 				]]>
 				</Condition>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetPerception() >= 9 and world:GetWorldFlag(451) == 0 then
 					me:AddMsg("[NAME]登上了第四阶天梯，感知到了一些大道的轨迹，但还是有些难以琢磨，提升了百分五十护盾系数。");
 					world:SetWorldFlag(451,1);me:ModifierProperty("NpcFight_ShieldConversionRateAddP",0.5);me:TriggerStory("TT");
@@ -2131,7 +2131,7 @@
 			</li>
 			<li>
 				<Display>垃圾太玄门，不拜。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
 
 				]]>
@@ -2147,11 +2147,11 @@
 			<li>
 				<Display>五阶天梯。（御器等级大于20）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() <= 6
 				]]>
 				</Condition>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetSkillLevel("Fabao") >= 20 and world:GetWorldFlag(452) == 0 then
 						me:AddMsg("[NAME]登上了第五阶天梯，一股先天的御器法门涌上心头，可惜无法保存，但提高了[NAME]百分五十的法宝威力。");
 						world:SetWorldFlag(452,1);me:ModifierProperty("NpcFight_FabaoPowerAddP",0.5);me:TriggerStory("TT");
@@ -2161,7 +2161,7 @@
 			</li>
 			<li>
 				<Display>垃圾太玄门，不拜。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
 
 				]]>
@@ -2177,11 +2177,11 @@
 			<li>
 				<Display>六阶天梯。（术法技能大于20）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() <= 6
 				]]>
 				</Condition>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetSkillLevel("FightSkill") >= 20 and world:GetWorldFlag(453) == 0 then
 						me:AddMsg("[NAME]登上了第六阶天梯，一股爆裂的法术要诀浮现在[NAME]心头，[NAME]的术法威力得到百分五十提升。");
 						world:SetWorldFlag(453,1);me:ModifierProperty("NpcFight_SpellPowerAddP",0.5);me:TriggerStory("TT");
@@ -2191,7 +2191,7 @@
 			</li>
 			<li>
 				<Display>垃圾太玄门，不拜。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
 
 				]]>
@@ -2207,11 +2207,11 @@
 			<li>
 				<Display>七阶天梯。（炼丹技能大于20）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() <= 6
 				]]>
 				</Condition>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetSkillLevel("Medicine") >= 20 and world:GetWorldFlag(454) == 0 then
 						me:AddMsg("[NAME]登上了第七阶天梯，一道道绿光笼罩在[NAME]头上，[NAME]幡然醒悟，提高了百分五十的灵力恢复。");
 						world:SetWorldFlag(454,1);me:ModifierProperty("LingAbsorbSpeed",0.5);me:TriggerStory("TT");
@@ -2221,7 +2221,7 @@
 			</li>
 			<li>
 				<Display>垃圾太玄门，不拜。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
 
 				]]>
@@ -2237,11 +2237,11 @@
 			<li>
 				<Display>八阶天梯。（炼器技能大于20）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() <= 6
 				]]>
 				</Condition>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetSkillLevel("Manual") >= 20 and world:GetWorldFlag(455) == 0 then
 						me:AddMsg("[NAME]登上了第八阶天梯，望着双手，因为炼器或者干别的而结满的老茧，突然有所感悟。");
 						world:SetWorldFlag(455,1);me:ModifierProperty("FabaoMake_TwelveRateChance",0.5);me:TriggerStory("TT");
@@ -2251,7 +2251,7 @@
 			</li>
 			<li>
 				<Display>垃圾太玄门，不拜。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
 
 				]]>
@@ -2267,11 +2267,11 @@
 			<li>
 				<Display>九阶天梯。（悟性大于9，且携带菩提子）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() >= 9
 				]]>
 				</Condition>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetIntelligence() >= 9 and world:GetWorldFlag(456) == 0 and me:CheckItemEquptCount("Item_PTZ") == 1 then
 						me:AddMsg("[NAME]登上了第九阶天梯，凭借着菩提子的神奇功效，慢慢地感受到了拙峰内蕴的真正法门。");
 						world:SetWorldFlag(456,1);me:DropEsoteric("ZT_JZM_J");story:FinishSecret();
@@ -2281,7 +2281,7 @@
 			</li>
 			<li>
 				<Display>垃圾太玄门，不拜。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
 
 				]]>
@@ -2297,11 +2297,11 @@
 			<li>
 				<Display>洗劫流寇。（结丹期以上最低要求100道行以上。）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() >= 6
 				]]>
 				</Condition>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetIntelligence() >= 10 and me:GetDaoHang() >= 600 then
 						me:AddMsg("[NAME]凭借自身强大的修为洗劫了四方流寇，不给这些小贼一点机会。");
 						me:DropAwardItem("Item_WSXY",3);
@@ -2336,7 +2336,7 @@
 					end
 				]]>
 				</OKResult>
-				<NOResult>[CDATA[	
+				<NOResult><![CDATA[	
 				me:AddMsg("[NAME]的实力这么差，不知道他哪来的自信，被人打残丢茅坑里了。");
 				me:AddSchoolScore(1,-500);me:AddDamage("Destroy", "RightEye", 1, XT("暴打"));me:AddDamage("Destroy","LeftEye", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","LeftScapula", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","RightScapula", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","LeftThighbone", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","RightThighbone", 1, XT("暴打"))
 				story:FinishSecret();
@@ -2345,11 +2345,11 @@
 			<li>
 				<Display>扶持流寇。（金丹期以上且声望够高）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() >= 9
 				]]>
 				</Condition>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetIntelligence() >= 10 and me:GetSchoolScore(0) >= 36000 then
 						me:AddMsg("[NAME]凭借自己的恶名和强大的实力，带着周边的流寇四处洗劫，收获颇丰，但也导致正派人士的愤怒！。");
 						me:DropAwardItem("Item_WSXY",6);
@@ -2384,14 +2384,14 @@
 					end
 				]]>
 				</OKResult>
-				<NOResult>[CDATA[	
+				<NOResult><![CDATA[	
 				me:AddMsg("[NAME]的实力差就算了，还想学别人扶持流寇，真是胆大，打死算了。");
 				me:AddSchoolScore(1,-500);me:AddDamage("Destroy", "RightEye", 1, XT("暴打"));me:AddDamage("Destroy","LeftEye", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","LeftScapula", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","RightScapula", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","LeftThighbone", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","RightThighbone", 1, XT("暴打"))
 				]]></NOResult>
 			</li>
 			<li>
 				<Display>小破村，没兴趣。</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 					me:AddMsg("[NAME]觉得一个小村庄而已，不稀罕。");
 				]]>
 				</OKResult>

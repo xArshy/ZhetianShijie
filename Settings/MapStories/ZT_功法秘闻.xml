@@ -29,13 +29,13 @@
 			<li>
 				<Display>Forcibly seize? Are you serious? (Shouyuan 1,500, Daoxing 600 )</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() >= 9 and me:RandomInt(1, 3) == 1
 				]]>
 				</Condition>
 				<Tip>Hualong Realm and Opportunity</Tip>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				if me:GetGLevel() >= 11 and me:GetProperty("MaxAge") >= 3000 and me:GetDaoHang() >= 900 then
 					me:AddMsg("[NAME]Attempting to snatch the Heavenly Emperor's scripture, the Supreme Mana attempted to break into it. What was unexpected was that he stepped on a dark brick and went directly to the inheritance. And gained the improvement of all attributes");
 					me:AddSchoolScore(1,300);
@@ -66,7 +66,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				[CDATA[	
+				<![CDATA[	
 				if me:GetGLevel() >= 11 and me:GetProperty("MaxAge") >= 1000 and me:GetDaoHang() >= 600 then
 					me:AddMsg("[NAME]撼动天帝的威能，以强横的修为暴力破解法阵，但似乎机缘差了些：法阵破灭的力量竟然波及到了传承本身一同毁灭，[NAME]暗叹一声，只得离开。");
 					me:AddSchoolScore(1,500);
@@ -83,7 +83,7 @@
 			<li>
 				<Display>麻溜滴，接受大帝的传承。</Display> 
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				local nR = me:RandomInt(1,100);
 				if me:GetMatchingWithGong("Gong_TDJ") >= 1 then
 					if nR >= 50 then
@@ -106,7 +106,7 @@
 			<li>
 				<Display>离开</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
 				]]>
 				</OKResult>
@@ -122,13 +122,13 @@
 			<li>
 				<Display>强行夺取？你认真的？（御器等级大于等于20且道行最低要求大于600）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() >= 9 and me:RandomInt(1, 3) == 1
 				]]>
 				</Condition>
 				<Tip>化龙境及机缘</Tip>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				if me:GetGLevel() >= 11 and me:GetSkillLevel("Fabao") >= 20 and me:GetDaoHang() >= 900 then				
 					me:AddMsg("[NAME]手握三尺剑，任阵法攻向己身，一丝无损地来到了通过太皇的考验获得了传承。并获得一定法宝能力地增强");
 					me:AddSchoolScore(1,500);
@@ -150,7 +150,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				[CDATA[	
+				<![CDATA[	
 				if me:GetGLevel() >= 9 and me:GetSkillLevel("Fabao") >= 20 and me:GetDaoHang() >= 900 then
 					me:AddMsg("[NAME]撼动太皇的剑阵，以强横的修为暴力破解法阵，但似乎境界还是低了些：法阵破灭的力量竟然波及到了传承本身一同毁灭，[NAME]暗叹一声，只得离开。");
 					me:AddSchoolScore(1,1000);
@@ -167,7 +167,7 @@
 			<li>
 				<Display>太皇的传承。你接受吗？</Display> 
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				local nR = me:RandomInt(1,100);
 				if me:GetMatchingWithGong("Gong_THJ") >= 1 then
 					if nR >= 60 then
@@ -191,7 +191,7 @@
 			<li>
 				<Display>离开</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
 				]]>
 				</OKResult>
@@ -208,13 +208,13 @@
 			<li>
 				<Display>强行夺取？你认真的？（极高的境界和修为，同时护盾属性够高。不然就是死）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() >= 11 and me:RandomInt(1, 3) == 1
 				]]>
 				</Condition>
 				<Tip>化龙境及机缘</Tip>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				if me:GetGLevel() >= 11 and me:GetSkillLevel("Fabao") >= 20 and me:GetSkillLevel("FightSkill") >= 20 me:GetProperty("NpcFight_SpellCoolDownAddP") >= 10 and me:GetProperty("TreatSpeed") >= 1200 then
 					me:AddMsg("[NAME]来到紫山，一狠心一跺脚，就想着抢，进入紫山后，还好没遇到大黑狗，不过却踩到了狗屎，一波三折，总于获得了无始大帝的传承。");
 					me:AddSchoolScore(1,200);
@@ -233,7 +233,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				[CDATA[	
+				<![CDATA[	
 					me:AddMsg("[NAME]我看你还是老老实实回门派里吧，各大禁地攻打紫山都进不去更别说你了，等个百八十天，把伤养好在说吧。");
 					me:AddSchoolScore(1,-500);
 					me:AddDamgeFromCache(story.DamageCache,4);
@@ -244,7 +244,7 @@
 			<li>
 				<Display>麻溜滴，接受大帝的传承。</Display> 
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				local nR = me:RandomInt(1,100);
 				if me:GetMatchingWithGong("Gong_WSJ") >= 1 then
 					if nR >= 55 then
@@ -267,7 +267,7 @@
 			<li>
 				<Display>离开</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
 				]]>
 				</OKResult>
@@ -284,13 +284,13 @@
 			<li>
 				<Display>强行夺取？你认真的？（只要你够快就能抢到，当然最低也要六百道行）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() >= 9 and me:RandomInt(1, 3) == 1
 				]]>
 				</Condition>
 				<Tip>化龙境及机缘</Tip>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				
 				if me:GetGLevel() >= 11 and me:GetProperty("WorldMapFlySpeed") >= 5 and me:GetDaoHang() >= 900 then
 					me:AddMsg("[NAME]一路过关斩将，来到了虚空经之前，诚心跪拜了一会群主，获取了虚空经。");
@@ -311,7 +311,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				[CDATA[	
+				<![CDATA[	
 				
 				if me:GetGLevel() >= 9 and me:GetProperty("WorldMapFlySpeed") >= 5 and me:GetDaoHang() >= 900 then
 					me:AddMsg("[NAME]撼动大帝的威能，以强横的修为暴力破解法阵，但怎么可能让你如愿呢，没缘分咱就是没缘分的。");
@@ -329,7 +329,7 @@
 			<li>
 				<Display>麻溜滴，接受大帝的传承。</Display> 
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				local nR = me:RandomInt(1,100);
 				if me:GetMatchingWithGong("Gong_XKJ") >= 1 then
 					if nR >= 40 then
@@ -352,7 +352,7 @@
 			<li>
 				<Display>离开</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
 				]]>
 				</OKResult>
@@ -369,13 +369,13 @@
 			<li>
 				<Display>强行夺取？啊!喂!烂大街也要尊严的好不好！</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() >= 9 and me:RandomInt(1, 3) == 1
 				]]>
 				</Condition>
 				<Tip>化龙境及机缘</Tip>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				me:AddMsg("[NAME]运转无下法力，以好像很强横的修为暴力破解法阵，获取了其中的道经传承。");
 				me:AddSchoolScore(1,200);
 				me:DropAwardItem("Item_Dan_TreeEXP", 1);
@@ -384,7 +384,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				[CDATA[	
+				<![CDATA[	
 				if me:GetGLevel() >= 11 then
 					me:AddMsg("[NAME]运转周身法力，誓要为门下弟子拿走这本道经，我看你这么努力也不容易，但是下次吧，[NAME]暗叹一声，只得离开。");
 					me:AddSchoolScore(1,1000);
@@ -401,7 +401,7 @@
 			<li>
 				<Display>勉强接受传承，别呀，还有天道神丹，你拿去给天帝经小人吃不好吗？</Display> 
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				if me:GetMatchingWithGong("Gong_DJ") >= 1 then
 					me:AddMsg("[NAME]上前接受阵法的检测，没想到你居然通过了。");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
@@ -416,7 +416,7 @@
 			<li>
 				<Display>勉强接受道经神道传承，别呀，还有天道神丹，你拿去给天帝经小人吃不好吗？</Display> 
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				if me:GetMatchingWithGong("Gong_DJ") >= 1 then
 					me:AddMsg("[NAME]上前接受阵法的检测，没想到你居然通过了。");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
@@ -431,7 +431,7 @@
 			<li>
 				<Display>离开</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
 				]]>
 				</OKResult>
@@ -447,7 +447,7 @@
 			<li>
 				<Display>接受传承，送妙依</Display> 
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				if me:GetMatchingWithGong("Gong_NPJ") >= 1 then
 					me:AddMsg("[NAME]成功获得了涅槃经，不过妙依就不送了，自己去轮回者里寻找，顺带请答应我，守护好妙依。");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
@@ -463,7 +463,7 @@
 			<li>
 				<Display>离开</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
 				]]>
 				</OKResult>
@@ -479,13 +479,13 @@
 			<li>
 				<Display>连段德的你都抢！？（潜行值大于10且最低道行300）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() >= 6 and me:RandomInt(1, 2) == 1
 				]]>
 				</Condition>
 				<Tip>四极境及机缘</Tip>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				if me:GetGLevel() >= 11 and me:GetProperty("NpcFight_SneakValue") >= 10 and me:GetDaoHang() >= 800 then
 					me:AddMsg("[NAME]偷偷摸摸潜入其中，想要盗段德的墓，凭借多年的风水本事，没想到真让[NAME]找到了，不错不错，断德后继有人了。");
 					me:AddSchoolScore(1,200);
@@ -515,7 +515,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				[CDATA[	
+				<![CDATA[	
 				if me:GetGLevel() >= 11 then
 					me:AddMsg("[NAME]运转周身法力，想要和段德一样成为我辈楷模，但是段德看不上[NAME]，选择了玉石俱焚。");
 					me:AddSchoolScore(1,300);
@@ -532,7 +532,7 @@
 			<li>
 				<Display>被雷劈就被雷劈，听说学了可以去挖别人家花园！</Display> 
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				if me:GetMatchingWithGong("Gong_DJTG") >= 1 then
 					me:AddMsg("[NAME]上前接受阵法的检测，没想到你居然通过了。");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
@@ -547,7 +547,7 @@
 			<li>
 				<Display>离开</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
 				]]>
 				</OKResult>
@@ -564,13 +564,13 @@
 			<li>
 				<Display>抢夺不是不可以，不过你干嘛不去抢圣女？</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() >= 6 and me:RandomInt(1, 3) == 1
 				]]>
 				</Condition>
 				<Tip>四极境及机缘</Tip>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				me:AddMsg("[NAME]运转法力，企图引起瑶池圣女的关注，虽然她看都没看你一眼，不过至少你得到了传承。");
 				me:AddSchoolScore(1,200);
 				me:DropAwardItem("Item_Dan_TreeEXP", 1);
@@ -579,7 +579,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				[CDATA[	
+				<![CDATA[	
 				if me:GetGLevel() >= 11 then
 					me:AddMsg("[NAME]运转周身法力，顶住了西皇塔的威能，但西皇塔见你来者不善，于是摧毁了一切。");
 					me:AddSchoolScore(1,1000);
@@ -596,7 +596,7 @@
 			<li>
 				<Display>接受西皇母的传承！</Display> 
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				local nR = me:RandomInt(1,100);
 				if me:GetSkillLevel("Medicine") >= 20 then
 					if nR >= 80 then
@@ -620,7 +620,7 @@
 			<li>
 				<Display>离开</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
 				]]>
 				</OKResult>
@@ -637,13 +637,13 @@
 			<li>
 				<Display>抢夺？你不怕死就抢呗（术法技能大于等于20级且六百道行以上）</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() >= 9 and me:RandomInt(1, 3) == 1
 				]]>
 				</Condition>
 				<Tip>四极境及机缘</Tip>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				if me:GetGLevel() >= 11 and me:GetSkillLevel("FightSkill") >= 20 and me:GetDaoHang() >= 900 then	
 					me:AddMsg("[NAME]运转法力，一道道破开阵法，讲道理你咋这么粗鲁呢？言罢，一个巨大的炉子飞出，打出一道大帝之威，[NAME]原地感悟，提高了些许的术法威能");
 					me:AddSchoolScore(1,200);
@@ -665,7 +665,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				[CDATA[	
+				<![CDATA[	
 				if me:GetGLevel() >= 11 then
 					me:AddMsg("[NAME]运转周身法力，顶住恒宇大帝的留下的帝威，但是机缘不足，一阵强大的法力爆发，一切毁于一旦。");
 					me:AddSchoolScore(1,1000);
@@ -682,7 +682,7 @@
 			<li>
 				<Display>接受恒宇大帝的传承！</Display> 
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				local nR = me:RandomInt(1,100);
 				if me:GetSkillLevel("FightSkill") >= 20 then
 					if nR >= 40 then
@@ -705,7 +705,7 @@
 			<li>
 				<Display>离开</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
 				]]>
 				</OKResult>
@@ -725,13 +725,13 @@
 			<li>
 				<Display>虽然威能很强但是或许有大机缘，前去看看。</Display> 
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:GetGLevel() >= 9
 				]]>
 				</Condition>
 				<Tip>化龙境及机缘</Tip>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				me:AddMsg("[NAME]凭着一身蛮横的修为，靠近九龙尸身的坠落点，仔细查看了一番。但是没什么卵用，最后还得看你人品知道不。");
 				local nQ = me:RandomInt(1, 10)
 				if nQ >= 9 then 
@@ -766,7 +766,7 @@
 				]]>
 				</OKResult>
 				<NOResult>
-				[CDATA[	
+				<![CDATA[	
 				if me:GetGLevel() >= 9 then
 					me:AddMsg("[NAME]运转自身微薄的法力，以强横的修为接近龙尸，但是没能顶住龙尸的无上威能，再前进一不便可能受伤，[NAME]暗叹一声，只得离开。");
 					me:AddSchoolScore(1,100);
@@ -783,7 +783,7 @@
 			<li>
 				<Display>斜45度角仰望天空，而后慢慢离开</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				me:AddMsg("[NAME]想了想，决定还是不冒险了，就此离去。");
 				]]>
 				</OKResult>
@@ -803,7 +803,7 @@
 				<Display>终于趁着荒主打盹的时候，来到了荒古禁地了。我的不死神药我来了！！！！。</Display>
 				<Tip>主要看脸。</Tip>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				story:RemoveBindItem();
 				local nR = me:RandomInt(1, 101); 
 				if nR <= 20 then
@@ -875,14 +875,14 @@
 			</li>
 			<li>
 				<Display>算了，走吧咱可没那么长的寿元。</Display>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]仰头长啸，所以有什么用呢，该走还得走。");
 				]]>
 				</OKResult>
 			</li>
 			<li>
 				<Display>第一次来此处。</Display>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:TriggerStory("ZT_XXCTY");
 				]]>
 				</OKResult>
@@ -901,7 +901,7 @@
 			<li>
 				<Display>下去瞧瞧</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				local nR = me:RandomInt(1, 21); 
 				if nR <= 10 then
 				me:AddMsg(XT("[NAME]化身凡人边走边瞧这四周河山，不禁喜不自已，唱起了童年的歌，谁都会有回忆当初那个懵懵懂懂的自己，哪怕曾经做错过许多事，例如。。算了不例如了。/n [NAME]混在人群众被各种白眼，但到了[NAME]这个境界对于这些早已无关痛痒，就在走到路口时，发现水中有个晶莹之物，似散发着动人的气息/n[NAME]上前查看了一番居然是一块古朴的符印，似乎象征着什么？/n就在这时一道威严的声音从符中发出"年轻人，想得到我的宝藏吗，那就带着这块符去参加拍卖会吧。"声音过去后，[NAME]居然恢复了所有的灵力，并且提高了百分一的法宝回灵倍率！"));
@@ -929,7 +929,7 @@
 		<Desc>[NAME]发现了几个有心向道的凡人，于是指点了他们宗门位置，算算时间差不多到了。</Desc>
 		<Kind>Join</Kind>
 		<GlobleOKResult>
-		[CDATA[	
+		<![CDATA[	
 			local nN = me:RandomInt(1,3)
 			local nR = me:RandomInt(1,4)
 			local nD = me:RandomFloat(0.2,1)

@@ -27,7 +27,7 @@
 		<Selections>
 			<li>
 				<Display>See the situation in Beiyu.</Display>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]When I came to the mine of the Fang Gu Ji's house, I learned that the artifact was found in the mine, so he took away unknown things in the chaos.");
 				if World:GetWorldFlag(2640) = 0 then
 				world:SetWorldFlag(2640,1);

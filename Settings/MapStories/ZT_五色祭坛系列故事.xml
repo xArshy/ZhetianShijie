@@ -7,13 +7,13 @@
 			<li>
 				<Display>The five-colored altar is unclear, is the station of the practitioners of the universe, or the emperor ’s eyes under the cloth of the universe, unspeakable, unspeakable.</Display>
 				<Condition>
-				[CDATA[	
+				<![CDATA[	
 				me:RandomInt(1,3) >= 2
 				]]>
 				</Condition>
 				<Tip>Good luck may destroy the door.</Tip>
 				<OKResult>
-			[CDATA[	
+			<![CDATA[	
 				story:RemoveBindItem();
 				local nR = me:RandomInt(1, 45); 
 				local nN = me:RandomInt(1,3);
@@ -49,7 +49,7 @@
 				]]>		
 				</OKResult>
 				<NOResult>
-				[CDATA[	
+				<![CDATA[	
 
 				me:AddMsg("[NAME]The five-colored altar was not found, and it was indeed secretly absorbed by the altar with a magic power of 25% as an sacrifice.");
 				me:ModifierProperty("NpcFight_FabaoPowerAddP",-0.25);story:FinishSecret()
@@ -58,7 +58,7 @@
 			</li>
 			<li>
 				<Display>Forget it, the five-color altar can't stand it.</Display>
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				me:AddMsg("[NAME]There is a long shout, so what's the use of it?");
 				]]>
 				</OKResult>

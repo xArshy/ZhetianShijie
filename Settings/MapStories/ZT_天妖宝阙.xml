@@ -67,7 +67,7 @@
 			<li>
 				<Display>Buy some logs (100 life)</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -92,7 +92,7 @@
 			<li>
 				<Display>Buy some gold silk wood (300)</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -112,7 +112,7 @@
 			<li>
 				<Display>Buy some Spirit Wood (500)</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -132,7 +132,7 @@
 			<li>
 				<Display>Buy some Indus Shenmu (1000)</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -172,7 +172,7 @@
 			<li>
 				<Display>买点原木（150寿命）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -192,7 +192,7 @@
 			<li>
 				<Display>买点金丝灵木（400）</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -219,7 +219,7 @@
 			<li>
 				<Display>买点灵木（550）</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -239,7 +239,7 @@
 			<li>
 				<Display>买点梧桐神木（950）</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -293,7 +293,7 @@
 				<Display>买些大理石（500年）。</Display> 
 				
 					<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -319,7 +319,7 @@
 				<Display>买些玉石（300年）。</Display> 
 				
 					<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -340,7 +340,7 @@
 				<Display>买些玉髓（800年）。</Display> 
 				
 					<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -361,7 +361,7 @@
 				<Display>买些石髓（500年）。</Display> 
 				
 					<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -381,7 +381,7 @@
 			<li>
 				<Display>买些天柱石（1200年）。</Display> 
 					<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -402,7 +402,7 @@
 				<Display>买些千棱神玉（1500年）。</Display> 
 
 					<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -454,7 +454,7 @@
 				<Display>买些玉石（350年）。</Display> 
 				
 					<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -475,7 +475,7 @@
 				<Display>买些玉髓（600年）。</Display> 
 				
 					<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -496,7 +496,7 @@
 				<Display>买些石髓（50年）。</Display> 
 				
 					<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -542,7 +542,7 @@
 				<Display>买些铁矿（5000年）。</Display> 
 				
 					<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -576,7 +576,7 @@
 				<Display>买些火铜矿（500年）。</Display>
 				
 					<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -609,7 +609,7 @@
 				<Display>买些寒晶矿（500年）。</Display>
 				
 					<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -642,7 +642,7 @@
 				<Display>买些玄铁矿（800年）。</Display>
 				
 					<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -675,7 +675,7 @@
 				<Display>买些星髓矿（1500年）。</Display> Item_StarEssence
 				
 					<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -733,7 +733,7 @@
 				<Display>买些铁矿（50年）。</Display> 
 				
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -759,7 +759,7 @@
 				<Display>买些火铜矿（500年）。</Display> 
 				
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -785,7 +785,7 @@
 				<Display>买些寒晶矿（500年）。</Display> 
 				
 					<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -811,7 +811,7 @@
 				<Display>买些玄铁矿（800年）。</Display> 
 				
 					<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -837,7 +837,7 @@
 				<Display>买些星髓矿（1500年）。</Display> 
 				
 					<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1066,7 +1066,7 @@
 				<Display>玩就玩</Display> 
 				
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local tN = {1,2,3,4,5,6,7,8,9,10};
 					local nR = me:RandomInt(1,(#tN+1));
 					local nQ = tN[nR];
@@ -1129,7 +1129,7 @@
 			<li>
 				<Display>丹药老板——南宫芷（四极境修士，偶尔才会来此贩卖丹药）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local nR = me:RandomInt(1, 10000);
 					
 					if World.DayCount >= nR then
@@ -1144,7 +1144,7 @@
 			<li>
 				<Display>丹药老板——天极老宿（化龙境修士，天妖宝阙客卿长老之一。）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local nR = me:RandomInt(1,4);
 					
 					if nR >= 2 then
@@ -1178,7 +1178,7 @@
 			<li>
 				<Display>买些筑基丹（300年）10颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1197,7 +1197,7 @@
 			<li>
 				<Display>买些精元丹（500年）20颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1216,7 +1216,7 @@
 			<li>
 				<Display>买些参芝九窍丸（150年）10颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1235,7 +1235,7 @@
 			<li>
 				<Display>买些血竭散（450年）5颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1254,7 +1254,7 @@
 			<li>
 				<Display>买些聚灵丹（3000年）500颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1273,7 +1273,7 @@
 			<li>
 				<Display>买些紫阳丹（950年）5颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1292,7 +1292,7 @@
 			<li>
 				<Display>买些黄庭丹（1150年）8颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1311,7 +1311,7 @@
 			<li>
 				<Display>买些黄芽丹（1200年）10颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1331,7 +1331,7 @@
 			<li>
 				<Display>买些清心丹（1200年）20颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1350,7 +1350,7 @@
 			<li>
 				<Display>买些极乐丹（1200年）20颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1369,7 +1369,7 @@
 			<li>
 				<Display>买些饮气丹（600年）50颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1412,7 +1412,7 @@
 			<li>
 				<Display>买些辟谷丹（1750年）100颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1431,7 +1431,7 @@
 			<li>
 				<Display>买些兵粮丸（1750年）100颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1450,7 +1450,7 @@
 			<li>
 				<Display>买些摄神丹（1750年）100颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1469,7 +1469,7 @@
 			<li>
 				<Display>买些通脉散（1750年）100颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1488,7 +1488,7 @@
 			<li>
 				<Display>买些理气丹（1750年）100颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1507,7 +1507,7 @@
 			<li>
 				<Display>买些五灵散（1750年）100颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1526,7 +1526,7 @@
 			<li>
 				<Display>买些庚金万化丸（2100年）20颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1545,7 +1545,7 @@
 			<li>
 				<Display>买些碧春丹（2100年）20颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1565,7 +1565,7 @@
 			<li>
 				<Display>买些天一承气散（2100年）20颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1584,7 +1584,7 @@
 			<li>
 				<Display>买些火真丹（2100年）20颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1603,7 +1603,7 @@
 			<li>
 				<Display>买些定坤丹（2100年）20颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1622,7 +1622,7 @@
 			<li>
 				<Display>买些五方化伤丹（2500年）50颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1666,7 +1666,7 @@
 			<li>
 				<Display>买些归源散（750年）50颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1685,7 +1685,7 @@
 			<li>
 				<Display>买些造化神丹（2250年）5颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1704,7 +1704,7 @@
 			<li>
 				<Display>买些九转金丹（2250年）5颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1723,7 +1723,7 @@
 			<li>
 				<Display>买些长生丹（1450年）15颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1742,7 +1742,7 @@
 			<li>
 				<Display>买些玄牝续命散（2000年）20颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1761,7 +1761,7 @@
 			<li>
 				<Display>买些五极灵丹（2100年）10颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1780,7 +1780,7 @@
 			<li>
 				<Display>买些再造金丹（3500年）10颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1799,7 +1799,7 @@
 			<li>
 				<Display>买些未来星宿化劫丹（2500年）10颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1818,7 +1818,7 @@
 			<li>
 				<Display>买些乾元避劫丹（3750年）15颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1837,7 +1837,7 @@
 			<li>
 				<Display>买些剑丸（300年）2颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1856,7 +1856,7 @@
 			<li>
 				<Display>买些碧血丹青（1800年）20颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1875,7 +1875,7 @@
 			<li>
 				<Display>买些真罡丹（1500年）10颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1894,7 +1894,7 @@
 			<li>
 				<Display>买些万灵散（2000年）30颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1913,7 +1913,7 @@
 			<li>
 				<Display>买些通天丸（1600年）20颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1932,7 +1932,7 @@
 			<li>
 				<Display>买些纳地丸（1600年）20颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1951,7 +1951,7 @@
 			<li>
 				<Display>买些逸仙丸（1600年）20颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1970,7 +1970,7 @@
 			<li>
 				<Display>买些明通丸（1600年）20颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1989,7 +1989,7 @@
 			<li>
 				<Display>买些神佑丸（1600年）20颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2008,7 +2008,7 @@
 			<li>
 				<Display>买些五毒五炁元神丹（1640年）6颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2052,7 +2052,7 @@
 			<li>
 				<Display>买些天道神丹（2000年）10颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2071,7 +2071,7 @@
 			<li>
 				<Display>买些神泣丹（1750年）15颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2090,7 +2090,7 @@
 			<li>
 				<Display>买些通玄丹（1750年）15颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2109,7 +2109,7 @@
 			<li>
 				<Display>买些凝珀丹（1750年）15颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2128,7 +2128,7 @@
 			<li>
 				<Display>买些燃魂丹（1750年）15颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2147,7 +2147,7 @@
 			<li>
 				<Display>买些玄牝重生丹（900年）3颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2166,7 +2166,7 @@
 			<li>
 				<Display>买些六道轮回丹（4000年）2颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2185,7 +2185,7 @@
 			<li>
 				<Display>买些灵源种（6000年）4颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2204,7 +2204,7 @@
 			<li>
 				<Display>买些造化玉砂（4000年）7颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2248,7 +2248,7 @@
 			<li>
 				<Display>买些龙魂真灵丹（3500年）2颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2267,7 +2267,7 @@
 			<li>
 				<Display>买些凤魂真灵丹（3500年）2颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2286,7 +2286,7 @@
 			<li>
 				<Display>买些阴阳真灵丹（3500年）2颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2305,7 +2305,7 @@
 			<li>
 				<Display>买些盘古元神丹（3500年）2颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2324,7 +2324,7 @@
 			<li>
 				<Display>买些造化同心丹（3500年）2颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2343,7 +2343,7 @@
 			<li>
 				<Display>买些裂神丹（3500年）2颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2362,7 +2362,7 @@
 			<li>
 				<Display>买些替身丹（500年）5颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2405,7 +2405,7 @@
 			<li>
 				<Display>买些龙魂真灵丹（3000年）2颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2424,7 +2424,7 @@
 			<li>
 				<Display>买些凤魂真灵丹（3000年）2颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2443,7 +2443,7 @@
 			<li>
 				<Display>买些阴阳真灵丹（3000年）2颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2462,7 +2462,7 @@
 			<li>
 				<Display>买些盘古元神丹（3000年）2颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2481,7 +2481,7 @@
 			<li>
 				<Display>买些造化同心丹（3000年）2颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2500,7 +2500,7 @@
 			<li>
 				<Display>买些裂神丹（3000年）2颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2519,7 +2519,7 @@
 			<li>
 				<Display>买些替身丹（250年）5颗。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2563,7 +2563,7 @@
 			<li>
 				<Display>草药行商——清義小道（道宫境修士，谦逊）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local nR = me:RandomInt(50, 150);
 					local nT = me:RandomInt(150, 550);
 					if World.DayCount >= nR or World.DayCount >= nT then
@@ -2578,7 +2578,7 @@
 			<li>
 				<Display>草药行商——幸智散人（道宫境修士，常年浪迹于各大神山。）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local nR = me:RandomInt(50, 100);
 					local nT = me:RandomInt(80, 180);
 					local nY = me:RandomInt(200, 300);
@@ -2602,7 +2602,7 @@
 			<li>
 				<Display>草药行商——老吴道人（四极境修士，常驻神农坊的大能之一，但偶尔会出任务。）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local nR = me:RandomInt(50, 60);
 					local nT = me:RandomInt(70, 80);
 					local nY = me:RandomInt(90, 100);
@@ -2620,7 +2620,7 @@
 			<li>
 				<Display>丹药老板——南宫芷（四极境修士，偶尔才会来此贩卖丹药）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local nR = me:RandomInt(1, 10000);
 					
 					if World.DayCount >= nR then
@@ -2635,7 +2635,7 @@
 			<li>
 				<Display>丹药老板——天极老宿（化龙境修士，天妖宝阙客卿长老之一。）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local nR = me:RandomInt(1,4);
 					
 					if nR >= 2 then
@@ -2671,7 +2671,7 @@
 			<li>
 				<Display>买些龙涎果（250寿元）500株</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2690,7 +2690,7 @@
 			<li>
 				<Display>买些灵初露（200寿元）500份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2709,7 +2709,7 @@
 			<li>
 				<Display>买些造化玉露（800寿元）10份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2733,7 +2733,7 @@
 			<li>
 				<Display>哎。。你这没什么好货了啊。（3000寿元）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2782,7 +2782,7 @@
 			<li>
 				<Display>买些琅琊果（1500寿元）5株</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2807,7 +2807,7 @@
 			<li>
 				<Display>买些木枯藤（1500寿元）5株</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2831,7 +2831,7 @@
 			<li>
 				<Display>买些五色金莲（1500寿元）5株</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2855,7 +2855,7 @@
 			<li>
 				<Display>买些朱果（1500寿元）5株</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2879,7 +2879,7 @@
 			<li>
 				<Display>买些赭黄精（1500寿元）5株</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2928,7 +2928,7 @@
 			<li>
 				<Display>买些灵髓脂（3000寿元）10株</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2961,7 +2961,7 @@
 			<li>
 				<Display>买些血髓脂（3000寿元）10株</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2994,7 +2994,7 @@
 			<li>
 				<Display>买些长生泉（3500寿元）15株</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3027,7 +3027,7 @@
 			<li>
 				<Display>买些地母灵液（2500寿元）15份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3060,7 +3060,7 @@
 			<li>
 				<Display>买些邪脉血泉（2500寿元）15份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3118,7 +3118,7 @@
 			<li>
 				<Display>买些药草（1450寿元）300份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3140,7 +3140,7 @@
 			<li>
 				<Display>买些人参（900寿元）100份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3163,7 +3163,7 @@
 			<li>
 				<Display>买些芝草（900寿元）100份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3186,7 +3186,7 @@
 			<li>
 				<Display>买些赤参（1480寿元）30份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3209,7 +3209,7 @@
 			<li>
 				<Display>买些紫芝（1480寿元）30份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3232,7 +3232,7 @@
 			<li>
 				<Display>买些玄牝珠（1500寿元）10份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3255,7 +3255,7 @@
 			<li>
 				<Display>买些妖灵血（1500寿元）50份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3278,7 +3278,7 @@
 			<li>
 				<Display>买些清心草（1400寿元）150份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3301,7 +3301,7 @@
 			<li>
 				<Display>买些仙灵草（1400寿元）150份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3348,7 +3348,7 @@
 			<li>
 				<Display>买些仙人遗骨（2500寿元）5份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3371,7 +3371,7 @@
 			<li>
 				<Display>买些冬虫（500寿元）1份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3394,7 +3394,7 @@
 			<li>
 				<Display>买些夏草（500寿元）1份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3417,7 +3417,7 @@
 			<li>
 				<Display>买些神舍利（3600寿元）5份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3440,7 +3440,7 @@
 			<li>
 				<Display>买些造化玉籽（3600寿元）5份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3463,7 +3463,7 @@
 			<li>
 				<Display>买些元魂露（1150寿元）10份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3486,7 +3486,7 @@
 			<li>
 				<Display>买些邪魂露（1150寿元）10份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3509,7 +3509,7 @@
 			<li>
 				<Display>买些演道果（900寿元）2份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3532,7 +3532,7 @@
 			<li>
 				<Display>买些窃道果（900寿元）2份</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3581,7 +3581,7 @@
 			<li>
 				<Display>悬阁大能——不老仙（仙台境修士，乖张凶戾）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local nR = me:RandomInt(1, 1000);
 					
 					if World.DayCount >= nR then
@@ -3617,7 +3617,7 @@
 			<li>
 				<Display>悬阁大能——本始大圣（仙台境修士，随性随缘）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local nR = me:RandomInt(1, 10000);
 					
 					if World.DayCount >= nR then
@@ -3653,7 +3653,7 @@
 			<li>
 				<Display>买些无属性天道本源（3000）2颗</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3676,7 +3676,7 @@
 			<li>
 				<Display>买些金属性天道本源（3000）2颗</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3699,7 +3699,7 @@
 			<li>
 				<Display>买些木属性天道本源（3000）2颗</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3722,7 +3722,7 @@
 			<li>
 				<Display>买些水属性天道本源（3000）2颗</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3745,7 +3745,7 @@
 			<li>
 				<Display>买些火属性天道本源（3000）2颗</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3768,7 +3768,7 @@
 			<li>
 				<Display>买些土属性天道本源（3000）2颗</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3791,7 +3791,7 @@
 			<li>
 				<Display>买些土属性天道本源（3000）2颗</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3814,7 +3814,7 @@
 			<li>
 				<Display>买些神识邪念（3000）2颗</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3837,7 +3837,7 @@
 			<li>
 				<Display>买些仙识神念（3000）2颗</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3905,7 +3905,7 @@
 			<li>
 				<Display>好说好说</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					
 					local nR = me:RandomInt(1, 30);
 					local num600 = nY
@@ -3954,7 +3954,7 @@
 			<li>
 				<Display>好说好说</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					
 					local nR = me:RandomInt(1, 30);
 					local num600 = nY
@@ -4003,7 +4003,7 @@
 			<li>
 				<Display>好说好说</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					
 					local nR = me:RandomInt(1, 30);
 					local num600 = nY
@@ -4052,7 +4052,7 @@
 			<li>
 				<Display>好说好说</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					
 					local nR = me:RandomInt(1, 30);
 					local num600 = nY
@@ -4101,7 +4101,7 @@
 			<li>
 				<Display>好说好说</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					
 					local nR = me:RandomInt(1, 30);
 					local num600 = nY
@@ -4150,7 +4150,7 @@
 			<li>
 				<Display>好说好说</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					
 					local nR = me:RandomInt(1, 30);
 					local num600 = nY
@@ -4199,7 +4199,7 @@
 			<li>
 				<Display>好说好说</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					
 					local nR = me:RandomInt(1, 30);
 					local num600 = nY
@@ -4248,7 +4248,7 @@
 			<li>
 				<Display>好说好说</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					
 					local nR = me:RandomInt(1, 30);
 					local num600 = nY
@@ -4276,7 +4276,7 @@
 			<li>
 				<Display>怎么办呢，给点钱，花钱消灾吧。（3000寿元）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4318,7 +4318,7 @@
 			<li>
 				<Display>买些执念结晶（5600寿元）16颗</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4347,7 +4347,7 @@
 			<li>
 				<Display>买些幽珀（1600寿元）20颗</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4376,7 +4376,7 @@
 			<li>
 				<Display>买些宁珀（1600寿元）20颗</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4405,7 +4405,7 @@
 			<li>
 				<Display>买些灵珀（1600寿元）20颗</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4434,7 +4434,7 @@
 			<li>
 				<Display>买本拍卖会邀请函（2000寿元）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4463,7 +4463,7 @@
 			<li>
 				<Display>买本古代密卷（5000寿元）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4492,7 +4492,7 @@
 			<li>
 				<Display>买本神道宝录（5000寿元）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4592,7 +4592,7 @@
 			<li>
 				<Display>我要买一件12阶法宝（4000寿元）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4621,7 +4621,7 @@
 			<li>
 				<Display>我要买一件11阶法宝（3000寿元）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4650,7 +4650,7 @@
 			<li>
 				<Display>我要买一件10阶法宝（2000寿元）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4705,7 +4705,7 @@
 			<li>
 				<Display>我要买一件9阶法宝（900寿元）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4734,7 +4734,7 @@
 			<li>
 				<Display>我要买一件8阶法宝（600寿元）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4763,7 +4763,7 @@
 			<li>
 				<Display>我要买一件7阶法宝（500寿元）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4818,7 +4818,7 @@
 			<li>
 				<Display>我要买一件法宝（3000寿元）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4902,7 +4902,7 @@
 			<li>
 				<Display>我要买一本秘籍。（900寿元）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4928,7 +4928,7 @@
 			<li>
 				<Display>大佬赐予我一本功法吧。（6500寿元）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)

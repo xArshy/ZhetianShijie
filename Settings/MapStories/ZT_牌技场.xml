@@ -6,7 +6,7 @@
 		<Selections>
 			<li>
 				<Display>Let it go.</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local tN = {1,2,3,4,5,6,7,8,9,10};
 					local nR = me:RandomInt(1,(#tN+1));
 					local nQ = tN[nR];
@@ -54,7 +54,7 @@
 		<Selections>
 			<li>
 				<Display>I'm afraid of a hammer when there is a fairyland</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					if num168 == 1 and num169 ==10 then
 						me:AddMsg("[NAME]So arrogant? It is unexpected that the opponent is really Xianyu. Lose everything.");me:TriggerStory("PJCML");
 					elseif num168 == 10 and num169 == 1 then
@@ -67,7 +67,7 @@
 			</li>
 			<li>
 				<Display>The other party Ming Yun has 1 or 10, buy insurance.</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					if num168 == 1 and num169 ==10 then
 						me:AddMsg("[NAME]Seeing the other side of the fairyland, I felt a sigh in my heart, but fortunately I left a bottom to win directly, almost fortunately I did not lose all the underpants.");me:TriggerStory("PJCML");
 					elseif num168 == 10 and num169 == 1 then
@@ -86,7 +86,7 @@
 		<Selections>
 			<li>
 				<Display>Give me rhyme</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local tN = {1,2,3,4,5,6,7,8,9,10};
 					local nR = me:RandomInt(1,(#tN+1));
 					local nQ = tN[nR];
@@ -120,7 +120,7 @@
 			</li>
 			<li>
 				<Display>Convert 1 rhyme to 11 rhymes, and then open the card (default is to convert only 1 to 11))</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + 10)
 					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 then
 						me:AddMsg("[NAME]Obviously there is no 1, trying to lie to me, too much.");
@@ -156,7 +156,7 @@
 			</li>
 			<li>
 				<Display>Just open the card</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167))
 					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169))
 					local num596 = nT
@@ -183,7 +183,7 @@
 		<Selections>
 			<li>
 				<Display>给我道韵</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local tN = {1,2,3,4,5,6,7,8,9,10};
 					local nR = me:RandomInt(1,(#tN+1));
 					local nQ = tN[nR];
@@ -219,7 +219,7 @@
 			</li>
 			<li>
 				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + 10)
 					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 then
 						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
@@ -255,7 +255,7 @@
 			</li>
 			<li>
 				<Display>直接开牌吧</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177))
 					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178))
 					local num596 = nT
@@ -279,7 +279,7 @@
 		<Selections>
 			<li>
 				<Display>给我道韵</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local tN = {1,2,3,4,5,6,7,8,9,10};
 					local nR = me:RandomInt(1,(#tN+1));
 					local nQ = tN[nR];
@@ -317,7 +317,7 @@
 			</li>
 			<li>
 				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + 10)
 					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 then
 						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
@@ -353,7 +353,7 @@
 			</li>
 			<li>
 				<Display>直接开牌吧</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187))
 					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188))
 					local num596 = nT
@@ -377,7 +377,7 @@
 		<Selections>
 			<li>
 				<Display>给我道韵</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local tN = {1,2,3,4,5,6,7,8,9,10};
 					local nR = me:RandomInt(1,(#tN+1));
 					local nQ = tN[nR];
@@ -417,7 +417,7 @@
 			</li>
 			<li>
 				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + 10)
 					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 then
 						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
@@ -453,7 +453,7 @@
 			</li>
 			<li>
 				<Display>直接开牌吧</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197))
 					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198))
 					local num596 = nT
@@ -477,7 +477,7 @@
 		<Selections>
 			<li>
 				<Display>给我道韵</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local tN = {1,2,3,4,5,6,7,8,9,10};
 					local nR = me:RandomInt(1,(#tN+1));
 					local nQ = tN[nR];
@@ -519,7 +519,7 @@
 			</li>
 			<li>
 				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + 10)
 					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 and world:GetWorldFlag(207) > 1 then
 						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
@@ -555,7 +555,7 @@
 			</li>
 			<li>
 				<Display>直接开牌吧</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207))
 					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208))
 					local num596 = nT
@@ -580,7 +580,7 @@
 		<Selections>
 			<li>
 				<Display>给我道韵</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local tN = {1,2,3,4,5,6,7,8,9,10};
 					local nR = me:RandomInt(1,(#tN+1));
 					local nQ = tN[nR];
@@ -624,7 +624,7 @@
 			</li>
 			<li>
 				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + 10)
 					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 and world:GetWorldFlag(207) > 1 and world:GetWorldFlag(217) > 1 then
 						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
@@ -660,7 +660,7 @@
 			</li>
 			<li>
 				<Display>直接开牌吧</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217))
 					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218))
 					local num596 = nT
@@ -684,7 +684,7 @@
 		<Selections>
 			<li>
 				<Display>给我道韵</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local tN = {1,2,3,4,5,6,7,8,9,10};
 					local nR = me:RandomInt(1,(#tN+1));
 					local nQ = tN[nR];
@@ -730,7 +730,7 @@
 			</li>
 			<li>
 				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227) + 10)
 					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 and world:GetWorldFlag(207) > 1 and world:GetWorldFlag(217) > 1 and world:GetWorldFlag(227) > 1 then
 						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
@@ -766,7 +766,7 @@
 			</li>
 			<li>
 				<Display>直接开牌吧</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227))
 					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228))
 					local num596 = nT
@@ -790,14 +790,14 @@
 		<Selections>
 			<li>
 				<Display>给我道韵</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:AddMsg("大佬就冲你这个人品，东西给你了。");me:TriggerStory("PJCML");
 				]]>
 				</OKResult>
 			</li>
 			<li>
 				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227) + world:GetWorldFlag(237)+ 10)
 					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 and world:GetWorldFlag(207) > 1 and world:GetWorldFlag(217) > 1 and world:GetWorldFlag(227) > 1 and world:GetWorldFlag(237) > 1 then
 						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
@@ -833,7 +833,7 @@
 			</li>
 			<li>
 				<Display>直接开牌吧</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227) + world:GetWorldFlag(237))
 					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + world:GetWorldFlag(238))
 					local num596 = nT

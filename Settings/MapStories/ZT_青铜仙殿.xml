@@ -30,7 +30,7 @@
 				<Display>Take a look in Xiandian</Display>
 				<Tip>Inheritance</Tip>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				world:PlayBGM("Spr/Music/BGM/XD.OGG",false);
 				local nR = me:RandomInt(1, 50)
 				if nR >= 40 then
@@ -84,7 +84,7 @@
 			<li>
 				<Display>Look at the sky at an angle of 90 degrees, and then leave slowly</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				me:AddMsg("[NAME]After thinking about it, I decided not to take any chances and left.");
 				]]>
 				</OKResult>
@@ -100,7 +100,7 @@
 			<li>
 				<Display>Keep going</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				
 				local nR = me:RandomInt(1, 50)
 				if nR >= 40 then
@@ -159,7 +159,7 @@
 			<li>
 				<Display>Forget it, don't move forward.</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				local nR = me:RandomInt(1, 50)
 				if nR >= 40 then
 				me:AddMsg("[NAME]When I came out of Xiandian, I didn't expect that the gate was already a gated city. Many old people in the holy place came to hear the news of Xiandian. It is the so-called guilt, even if[NAME]There are 100 mouths that can't be explained today. Actually, I've persuaded myself.");
@@ -255,7 +255,7 @@
 			<li>
 				<Display>Left side hall</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				if me:GetGLevel() >= 9 and me:GetPerception() >= 9 then
 					if me:GetPhysique() >= 9 and me:GetLuck() >= 9 and me:GetCharisma()>=9 then
 						me:AddMsg("[NAME]Under the coercion of the Bronze Immortal Hall, there is no sense at all and the mana is running.[NAME]It seems that I felt the heaven and earth in the immortal hall, and found a faint light, which is actually the former celestial Tianxuan Yang Yizhen and the corpses of the former sages of the major holy places.[NAME]Found a way out.");me:DivideGodSoul(true,6);me:ModifierProperty("AbilityLvAddV",-90);me:AddPracticeResource("Stage", 10000);story:FinishSecret();
@@ -271,7 +271,7 @@
 			<li>
 				<Display>Central main hall.</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				local nR = me:RandomInt(1, 50)
 				
 					me:AddMsg("[NAME]From the moment you enter the main hall, you have begun to accept the inheritance of Ruthless Emperor, and the next step is to test you randomly.");
@@ -309,7 +309,7 @@
 			<li>
 				<Display>Right side hall.</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				if me:GetGLevel() >= 6 and me:GetIntelligence() >= 9 then
 					if me:GetPhysique() >= 9 and me:GetLuck() >= 9 then
 						me:AddMsg("[NAME]Under the coercion of the Bronze Immortal Hall, he was also not afraid, and by virtue of his extraordinary understanding, he realized a trace of the true meaning of being immortal. Reduced 30 points of walking and got three distractions.");me:DivideGodSoul(true,3);me:ModifierProperty("AbilityLvAddV",-30);me:AddPracticeResource("Stage", 5000);story:FinishSecret();
@@ -326,7 +326,7 @@
 			<li>
 				<Display>Forget it, just leave the fairy hall.</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 50)	
 				if nR >= 40 then
 				me:AddMsg("[NAME]When I came out of Xiandian, I didn't expect that the gate was already a gated city. Many old people in the holy place came to hear the news of Xiandian. It is the so-called guilt, even if[NAME]There are 100 mouths that can't be explained today. Actually, I've persuaded myself.");

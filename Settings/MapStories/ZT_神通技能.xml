@@ -136,7 +136,7 @@
 			<li>
 				<Display>行</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 					for i=0,CS.XiaWorld.PracticeMgr.Instance:GetAllGongName().Count-1,1 do
 
 				local count1 = CS.XiaWorld.PracticeMgr.Instance:GetGongDef(CS.XiaWorld.PracticeMgr.Instance:GetAllGongName()[i]).Stages.Count
@@ -167,7 +167,7 @@
 			<li>
 				<Display>solution</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 					for i=0,CS.XiaWorld.PracticeMgr.Instance:GetAllGongName().Count-1,1 do
 
 		local count1 = CS.XiaWorld.PracticeMgr.Instance:GetGongDef(CS.XiaWorld.PracticeMgr.Instance:GetAllGongName()[i]).Stages.Count

@@ -7,7 +7,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -29,7 +29,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -51,7 +51,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -84,7 +84,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -109,7 +109,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -134,7 +134,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -160,7 +160,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -182,7 +182,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_ReBorn",4);me:DropAwardItem("Item_Dan_ReBorn_4",1);me:DropAwardItem("Item_Dan_TreeEXP",8);me:DropAwardItem("Item_XianBone",4);me:DropAwardItem("Item_YanDaoGuo",2);
 					]]>
 				</OKResult>
@@ -196,7 +196,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -218,7 +218,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -240,7 +240,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -273,7 +273,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -298,7 +298,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -323,7 +323,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -350,7 +350,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -371,7 +371,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_ReBorn",6);me:DropAwardItem("Item_Dan_ReBorn_4",1);me:DropAwardItem("Item_Dan_TreeEXP",12);me:DropAwardItem("Item_XianBone",6);me:DropAwardItem("Item_YanDaoGuo",3);
 					]]>
 				</OKResult>
@@ -384,7 +384,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -406,7 +406,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -428,7 +428,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -461,7 +461,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -486,7 +486,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -511,7 +511,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -537,7 +537,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -558,7 +558,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_ReBorn",10);me:DropAwardItem("Item_Dan_ReBorn_4",2);me:DropAwardItem("Item_Dan_TreeEXP",18);me:DropAwardItem("Item_XianBone",10);me:DropAwardItem("Item_YanDaoGuo",6);
 					]]>
 				</OKResult>
@@ -571,7 +571,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -593,7 +593,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -615,7 +615,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -647,7 +647,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -672,7 +672,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -697,7 +697,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -722,7 +722,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -743,7 +743,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_ReBorn",16);me:DropAwardItem("Item_Dan_ReBorn_4",3);me:DropAwardItem("Item_Dan_TreeEXP",24);me:DropAwardItem("Item_XianBone",16);me:DropAwardItem("Item_YanDaoGuo",10);
 					]]>
 				</OKResult>
@@ -756,7 +756,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -778,7 +778,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -800,7 +800,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -832,7 +832,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -857,7 +857,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -882,7 +882,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -908,7 +908,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -929,7 +929,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_ReBorn",16);me:DropAwardItem("Item_Dan_ReBorn_4",3);me:DropAwardItem("Item_Dan_TreeEXP",24);me:DropAwardItem("Item_XianBone",16);me:DropAwardItem("Item_YanDaoGuo",10);
 					]]>
 				</OKResult>
@@ -942,7 +942,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -964,7 +964,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -986,7 +986,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1018,7 +1018,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -1043,7 +1043,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -1068,7 +1068,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -1094,7 +1094,7 @@
 			
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_ReBorn",32);me:DropAwardItem("Item_Dan_ReBorn_4",6);me:DropAwardItem("Item_Dan_TreeEXP",48);me:DropAwardItem("Item_XianBone",32);me:DropAwardItem("Item_YanDaoGuo",20);
 					]]>
 				</OKResult>
@@ -1108,7 +1108,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1130,7 +1130,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1152,7 +1152,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1185,7 +1185,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -1210,7 +1210,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -1235,7 +1235,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -1261,7 +1261,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1283,7 +1283,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_BenYuan_None",2);me:DropAwardItem("Item_BenYuan_Jin",2);me:DropAwardItem("Item_BenYuan_Mu",2);me:DropAwardItem("Item_BenYuan_Shui",2);me:DropAwardItem("Item_BenYuan_Huo",2);me:DropAwardItem("Item_BenYuan_Tu",2);
 					]]>
 				</OKResult>
@@ -1297,7 +1297,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1319,7 +1319,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1341,7 +1341,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1374,7 +1374,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -1399,7 +1399,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -1424,7 +1424,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -1451,7 +1451,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1472,7 +1472,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_BenYuan_None",4);me:DropAwardItem("Item_BenYuan_Jin",4);me:DropAwardItem("Item_BenYuan_Mu",4);me:DropAwardItem("Item_BenYuan_Shui",4);me:DropAwardItem("Item_BenYuan_Huo",4);me:DropAwardItem("Item_BenYuan_Tu",4);
 					]]>
 				</OKResult>
@@ -1485,7 +1485,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1507,7 +1507,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1529,7 +1529,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1562,7 +1562,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -1587,7 +1587,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -1612,7 +1612,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -1638,7 +1638,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1659,7 +1659,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_BenYuan_None",8);me:DropAwardItem("Item_BenYuan_Jin",8);me:DropAwardItem("Item_BenYuan_Mu",8);me:DropAwardItem("Item_BenYuan_Shui",8);me:DropAwardItem("Item_BenYuan_Huo",8);me:DropAwardItem("Item_BenYuan_Tu",8);
 					]]>
 				</OKResult>
@@ -1672,7 +1672,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1694,7 +1694,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1716,7 +1716,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1748,7 +1748,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -1773,7 +1773,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -1798,7 +1798,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -1823,7 +1823,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1844,7 +1844,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_BenYuan_None",16);me:DropAwardItem("Item_BenYuan_Jin",16);me:DropAwardItem("Item_BenYuan_Mu",16);me:DropAwardItem("Item_BenYuan_Shui",16);me:DropAwardItem("Item_BenYuan_Huo",16);me:DropAwardItem("Item_BenYuan_Tu",16);
 					]]>
 				</OKResult>
@@ -1857,7 +1857,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1879,7 +1879,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1901,7 +1901,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1933,7 +1933,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -1958,7 +1958,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -1983,7 +1983,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2009,7 +2009,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2030,7 +2030,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_BenYuan_None",32);me:DropAwardItem("Item_BenYuan_Jin",32);me:DropAwardItem("Item_BenYuan_Mu",32);me:DropAwardItem("Item_BenYuan_Shui",32);me:DropAwardItem("Item_BenYuan_Huo",32);me:DropAwardItem("Item_BenYuan_Tu",32);
 					]]>
 				</OKResult>
@@ -2043,7 +2043,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2065,7 +2065,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2087,7 +2087,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2119,7 +2119,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2144,7 +2144,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2169,7 +2169,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2195,7 +2195,7 @@
 			
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_BenYuan_None",64);me:DropAwardItem("Item_BenYuan_Jin",64);me:DropAwardItem("Item_BenYuan_Mu",64);me:DropAwardItem("Item_BenYuan_Shui",64);me:DropAwardItem("Item_BenYuan_Huo",64);me:DropAwardItem("Item_BenYuan_Tu",64);
 					]]>
 				</OKResult>
@@ -2209,7 +2209,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2231,7 +2231,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2253,7 +2253,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2286,7 +2286,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2311,7 +2311,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2336,7 +2336,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2362,7 +2362,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2384,7 +2384,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_LongDan1",2);me:DropAwardItem("Item_Dan_FengDan1",2);me:DropAwardItem("Item_Dan_ZhuLongDan1",2);me:DropAwardItem("Item_Dan_FenShen1",2);me:DropAwardItem("Item_Dan_FenShen2",2);me:DropAwardItem("Item_Dan_FenShen3",2);
 					]]>
 				</OKResult>
@@ -2398,7 +2398,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2420,7 +2420,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2442,7 +2442,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2475,7 +2475,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2500,7 +2500,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2525,7 +2525,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2552,7 +2552,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2573,7 +2573,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_LongDan1",4);me:DropAwardItem("Item_Dan_FengDan1",4);me:DropAwardItem("Item_Dan_ZhuLongDan1",4);me:DropAwardItem("Item_Dan_FenShen1",4);me:DropAwardItem("Item_Dan_FenShen2",4);me:DropAwardItem("Item_Dan_FenShen3",4);
 					]]>
 				</OKResult>
@@ -2586,7 +2586,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2608,7 +2608,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2630,7 +2630,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2663,7 +2663,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2688,7 +2688,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2713,7 +2713,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2739,7 +2739,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2760,7 +2760,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_LongDan1",8);me:DropAwardItem("Item_Dan_FengDan1",8);me:DropAwardItem("Item_Dan_ZhuLongDan1",8);me:DropAwardItem("Item_Dan_FenShen1",8);me:DropAwardItem("Item_Dan_FenShen2",8);me:DropAwardItem("Item_Dan_FenShen3",8);
 					]]>
 				</OKResult>
@@ -2773,7 +2773,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2795,7 +2795,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2817,7 +2817,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2849,7 +2849,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2874,7 +2874,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2899,7 +2899,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2924,7 +2924,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2945,7 +2945,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_LongDan1",16);me:DropAwardItem("Item_Dan_FengDan1",16);me:DropAwardItem("Item_Dan_ZhuLongDan1",16);me:DropAwardItem("Item_Dan_FenShen1",16);me:DropAwardItem("Item_Dan_FenShen2",16);me:DropAwardItem("Item_Dan_FenShen3",16);
 					]]>
 				</OKResult>
@@ -2958,7 +2958,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2980,7 +2980,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3002,7 +3002,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3034,7 +3034,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -3059,7 +3059,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -3084,7 +3084,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -3110,7 +3110,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3131,7 +3131,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_LongDan1",32);me:DropAwardItem("Item_Dan_FengDan1",32);me:DropAwardItem("Item_Dan_ZhuLongDan1",32);me:DropAwardItem("Item_Dan_FenShen1",32);me:DropAwardItem("Item_Dan_FenShen2",32);me:DropAwardItem("Item_Dan_FenShen3",32);
 					]]>
 				</OKResult>
@@ -3144,7 +3144,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3166,7 +3166,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3188,7 +3188,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3220,7 +3220,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -3245,7 +3245,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -3270,7 +3270,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -3296,7 +3296,7 @@
 			
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_LongDan1",64);me:DropAwardItem("Item_Dan_FengDan1",64);me:DropAwardItem("Item_Dan_ZhuLongDan1",64);me:DropAwardItem("Item_Dan_FenShen1",64);me:DropAwardItem("Item_Dan_FenShen2",64);me:DropAwardItem("Item_Dan_FenShen3",64);
 					]]>
 				</OKResult>
@@ -3311,7 +3311,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3333,7 +3333,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3355,7 +3355,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3388,7 +3388,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -3413,7 +3413,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -3438,7 +3438,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -3464,7 +3464,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3486,7 +3486,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_SkyStone",6);me:DropAwardItem("Item_ExtremeJade",2);me:DropAwardItem("Item_Dan_Defense",8);me:DropAwardItem("Item_TSXY",4);me:DropAwardItem("Item_TSXSY",1);me:DropAwardItem("Item_Dan_ExtremeLofty",3);me:DropAwardItem("Item_Dan_Ling3",6);
 					]]>
 				</OKResult>
@@ -3500,7 +3500,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3522,7 +3522,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3544,7 +3544,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3577,7 +3577,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -3602,7 +3602,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -3627,7 +3627,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -3654,7 +3654,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3675,7 +3675,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_SkyStone",8);me:DropAwardItem("Item_ExtremeJade",4);me:DropAwardItem("Item_Dan_Defense",10);me:DropAwardItem("Item_TSXY",6);me:DropAwardItem("Item_TSXSY",1);me:DropAwardItem("Item_Dan_ExtremeLofty",6);me:DropAwardItem("Item_Dan_Ling3",8);
 					]]>
 				</OKResult>
@@ -3688,7 +3688,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3710,7 +3710,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3732,7 +3732,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3765,7 +3765,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -3790,7 +3790,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -3815,7 +3815,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -3841,7 +3841,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3862,7 +3862,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_SkyStone",14);me:DropAwardItem("Item_ExtremeJade",6);me:DropAwardItem("Item_Dan_Defense",18);me:DropAwardItem("Item_TSXY",10);me:DropAwardItem("Item_TSXSY",2);me:DropAwardItem("Item_Dan_ExtremeLofty",10);me:DropAwardItem("Item_Dan_Ling3",14);
 					]]>
 				</OKResult>
@@ -3875,7 +3875,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3897,7 +3897,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3919,7 +3919,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -3951,7 +3951,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -3976,7 +3976,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -4001,7 +4001,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -4026,7 +4026,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4047,7 +4047,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_SkyStone",26);me:DropAwardItem("Item_ExtremeJade",12);me:DropAwardItem("Item_Dan_Defense",30);me:DropAwardItem("Item_TSXY",16);me:DropAwardItem("Item_TSXSY",3);me:DropAwardItem("Item_Dan_ExtremeLofty",15);me:DropAwardItem("Item_Dan_Ling3",26);
 					]]>
 				</OKResult>
@@ -4060,7 +4060,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4082,7 +4082,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4104,7 +4104,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4136,7 +4136,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -4161,7 +4161,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -4186,7 +4186,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -4212,7 +4212,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4233,7 +4233,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_SkyStone",46);me:DropAwardItem("Item_ExtremeJade",32);me:DropAwardItem("Item_Dan_Defense",60);me:DropAwardItem("Item_TSXY",32);me:DropAwardItem("Item_TSXSY",6);me:DropAwardItem("Item_Dan_ExtremeLofty",30);me:DropAwardItem("Item_Dan_Ling3",52);
 					]]>
 				</OKResult>
@@ -4246,7 +4246,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4268,7 +4268,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4290,7 +4290,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4322,7 +4322,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -4347,7 +4347,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -4372,7 +4372,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -4398,7 +4398,7 @@
 			
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_SkyStone",90);me:DropAwardItem("Item_ExtremeJade",70);me:DropAwardItem("Item_Dan_Defense",120);me:DropAwardItem("Item_TSXY",32);me:DropAwardItem("Item_TSXSY",6);me:DropAwardItem("Item_Dan_ExtremeLofty",60);me:DropAwardItem("Item_Dan_Ling3",106);
 					]]>
 				</OKResult>
@@ -4413,7 +4413,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4435,7 +4435,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4457,7 +4457,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4490,7 +4490,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -4515,7 +4515,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -4540,7 +4540,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -4566,7 +4566,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4588,7 +4588,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_LifeStream",6);me:DropAwardItem("Item_ShuiEssence",2);me:DropAwardItem("Item_LingWater",8);me:DropAwardItem("Item_SSXY",4);me:DropAwardItem("Item_SSXSY",1);me:DropAwardItem("Item_SoulPearl",3);me:DropAwardItem("Item_Dan_IncreaseLife2",6);
 					]]>
 				</OKResult>
@@ -4602,7 +4602,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4624,7 +4624,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4646,7 +4646,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4679,7 +4679,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -4704,7 +4704,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -4729,7 +4729,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -4756,7 +4756,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4777,7 +4777,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_LifeStream",8);me:DropAwardItem("Item_ShuiEssence",4);me:DropAwardItem("Item_LingWater",10);me:DropAwardItem("Item_SSXY",6);me:DropAwardItem("Item_SSXSY",1);me:DropAwardItem("Item_SoulPearl",6);me:DropAwardItem("Item_Dan_IncreaseLife2",8);
 					]]>
 				</OKResult>
@@ -4790,7 +4790,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4812,7 +4812,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4834,7 +4834,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4867,7 +4867,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -4892,7 +4892,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -4917,7 +4917,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -4943,7 +4943,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4964,7 +4964,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_LifeStream",14);me:DropAwardItem("Item_ShuiEssence",6);me:DropAwardItem("Item_LingWater",18);me:DropAwardItem("Item_SSXY",10);me:DropAwardItem("Item_SSXSY",2);me:DropAwardItem("Item_SoulPearl",10);me:DropAwardItem("Item_Dan_IncreaseLife2",14);
 					]]>
 				</OKResult>
@@ -4977,7 +4977,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -4999,7 +4999,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -5021,7 +5021,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -5053,7 +5053,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -5078,7 +5078,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -5103,7 +5103,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -5128,7 +5128,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -5149,7 +5149,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_LifeStream",26);me:DropAwardItem("Item_ShuiEssence",12);me:DropAwardItem("Item_LingWater",30);me:DropAwardItem("Item_SSXY",16);me:DropAwardItem("Item_SSXSY",3);me:DropAwardItem("Item_SoulPearl",15);me:DropAwardItem("Item_Dan_IncreaseLife2",26);
 					]]>
 				</OKResult>
@@ -5162,7 +5162,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -5184,7 +5184,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -5206,7 +5206,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -5238,7 +5238,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -5263,7 +5263,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -5288,7 +5288,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -5314,7 +5314,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -5335,7 +5335,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_LifeStream",46);me:DropAwardItem("Item_ShuiEssence",32);me:DropAwardItem("Item_LingWater",60);me:DropAwardItem("Item_SSXY",32);me:DropAwardItem("Item_SSXSY",6);me:DropAwardItem("Item_SoulPearl",30);me:DropAwardItem("Item_Dan_IncreaseLife2",52);
 					]]>
 				</OKResult>
@@ -5348,7 +5348,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -5370,7 +5370,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -5392,7 +5392,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -5424,7 +5424,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -5449,7 +5449,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -5474,7 +5474,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -5500,7 +5500,7 @@
 			
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_LifeStream",90);me:DropAwardItem("Item_ShuiEssence",70);me:DropAwardItem("Item_LingWater",120);me:DropAwardItem("Item_SSXY",32);me:DropAwardItem("Item_SSXSY",6);me:DropAwardItem("Item_SoulPearl",60);me:DropAwardItem("Item_Dan_IncreaseLife2",106);
 					]]>
 				</OKResult>

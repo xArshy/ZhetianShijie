@@ -11,7 +11,7 @@
 			<li>
 				<Display>Search some</Display>
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local nR = me:RandomInt(1, 200);
 					local nQ = me:RandomInt(1, 200);
 					local nB = me:RandomInt(1, 200);

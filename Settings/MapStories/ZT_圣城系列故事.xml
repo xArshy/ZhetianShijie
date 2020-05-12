@@ -7,7 +7,7 @@
 			<li>
 				<Display>Gambling House</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				world:PlayBGM("Spr/Music/BGM/DSF.OGG",false);
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
@@ -44,7 +44,7 @@
 			<li>
 				<Display>Fairyland</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:RandomInt(1,50)
 					
 				if SM >= 25 then
@@ -80,7 +80,7 @@
 			<li>
 				<Display>Wuling Red Bad Rabbit (1000)</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -98,7 +98,7 @@
 			<li>
 				<Display>Nanling stewed coyote (1000)</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -116,7 +116,7 @@
 			<li>
 				<Display>Steamed hundred poisonous snakes (1000)</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -134,7 +134,7 @@
 			<li>
 				<Display>Arago Big Trotter (1000)</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -152,7 +152,7 @@
 			<li>
 				<Display>West Desert Braised Paw (1000)</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -170,7 +170,7 @@
 			<li>
 				<Display>Stir-fried frog (1000)</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -189,7 +189,7 @@
 			<li>
 				<Display>Red Tortoise Turtle (1000)</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -207,7 +207,7 @@
 			<li>
 				<Display>Garlic Longjin (6000)</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -227,7 +227,7 @@
 			<li>
 				<Display>Holy City Called Chaffinch (6000)</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -247,7 +247,7 @@
 			<li>
 				<Display>Beiyu Yinyang Hotpot (6000)</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -312,7 +312,7 @@
 		<Selections>
 			<li>
 				<Display>warrior. Provided by Sven Spectacles (Conquer all martial arts)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if world:IsSchoolSubmissionToPlayer(story.1) == true and world:IsSchoolSubmissionToPlayer(story.2) == true and world:IsSchoolSubmissionToPlayer(story.3) == true and world:IsSchoolSubmissionToPlayer(story.4) == true and world:IsSchoolSubmissionToPlayer(story.5) == true and world:IsSchoolSubmissionToPlayer(story.6) == true and world:IsSchoolSubmissionToPlayer(story.7) == true and world:IsSchoolSubmissionToPlayer(story.8) == true and world:IsSchoolSubmissionToPlayer(story.9) == true and world:IsSchoolSubmissionToPlayer(story.10) == true and world:IsSchoolSubmissionToPlayer(story.11) == true and world:IsSchoolSubmissionToPlayer(story.12) == true then
 					me:AddMsg("[NAME]Cigarette lighter and glasses? People around are curious[NAME]Bring the strange light after taking this stuff so that he forgot everything he said");
 					me:AddMsg("[NAME]In the strange eyes of everyone, he continued his performance. I thought that at the time I was in charge of the Acacia faction, the sword pointed at the gate of Shushan Mountain, and everyone on the Baiman Mountain was garbage.");
@@ -325,7 +325,7 @@
 			</li>
 			<li>
 				<Display>Emperor. Let's hear a word-old man rape. (Prestige is just zero)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetSchoolRank() == 0 then
 					me:AddMsg("[NAME]Pulled up a bench and sat on it, but everyone was curious that the bench was missing a leg,[NAME]Still so calm and restless, could not help admiring secretly.");
 					me:AddMsg("[NAME]Sitting still, everyone waited for about half an hour. See you.[NAME]I didn't speak yet, thinking that I had been tricked, I had to take lessons.");
@@ -337,7 +337,7 @@
 			</li>
 			<li>
 				<Display>Chodo asked Qingtian. Xu Ye. (600 lines)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetProperty("AbilityLvAddV") >= 666 then
 				me:AddMsg("[NAME]Standing quietly in the field, the evolution of the universe in the eyes of life and death, after a moment, slowly came.");
 					me:AddMsg("The world is ruthless, taking the avenue as a chessboard, and treating sentient beings as the flag in hand. Today I[NAME]They will cut off these three thousand ruthless paths for future generations. From now on, there will be no shackles in the world. Everyone can ask the sky, and never be bullied by that day! Ask this blue sky, dare to fight me! My monk, what a war!");
@@ -349,7 +349,7 @@
 			</li>
 			<li>
 				<Display>Too Initial Emperor. Yun Changsheng. (Ji Ji has nine secrets)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:IsLearnedEsoteric("ZT_JZM_J") == true and me:IsLearnedEsoteric("ZT_JZM_X") == true and me:IsLearnedEsoteric("ZT_JZM_Z") == true and me:IsLearnedEsoteric("ZT_JZM_S") == true and me:IsLearnedEsoteric("ZT_JZM_L") == true and me:IsLearnedEsoteric("ZT_JZM_ZHEN") == true and me:IsLearnedEsoteric("ZT_JZM_Q") == true and me:IsLearnedEsoteric("ZT_JZM_D") == true and  then
 				me:AddMsg("[NAME]Sitting in a tight position, after adjusting for a long time, I always feel that it is not a comfortable 13 posture.[NAME]时，[NAME]Only slowly said.");
 					me:AddMsg("Five Emperors at the beginning of the Heavenly Emperor, one was Hongmeng, the other was Taichu, the third was Mixed Yuan, the fourth was Immortal, the fifth was Kaitian, and the Five Emperor Taichu was also one of them!");
@@ -361,7 +361,7 @@
 			</li>
 			<li>
 				<Display>Sword destroys all ways. Love without joy. (Armor level reaches level 45 and carries Taiji sword)</Display> 
-				<OKResult>[CDATA[	
+				<OKResult><![CDATA[	
 				if me:GetSkillLevel("FightSkill") >= 45 and me:CheckItemEquptCount("Item_MiBao_THJ") == 1 then			
 					me:AddMsg("[NAME]Looking at the anticipation of everyone in this room, they didn't set out slowly.");
 					me:AddMsg("in those days[NAME]Came into a strange hollow, in this situation and dreams, and resolutely entered into it. Xuanyuanqiu, which was surrounded by smoke, heard a hissing sound in the distance.[NAME]Perceived that she had changed appearance, wearing cyan armor, and felt that she had never been true before.");
@@ -421,7 +421,7 @@
 		<Desc>[NAME]In order to reach the state of Jin Dan, Xiu practitioners gave him a title.</Desc>
 		<Kind>None</Kind>
 		<GlobleOKResult>
-			[CDATA[
+			<![CDATA[
 				if me:GetGoldLevel() == 1 then
 					if me:GetGoldValue() >= 600000 then
 						local tR = {XT("Promise"),XT("No beginning"),XT("Endless"),XT("Too high"),XT("太虚"),XT("元髯"),XT("太皓"),XT("玄清"),XT("梵天"),XT("八方"),XT("四极"),XT("万象"),XT("荧惑"),XT("乾元"),XT("混沌"),XT("百刃"),XT("天罡"),XT("乘龙"),XT("域旻"),XT("灵宝"),XT("太上"),XT("玄幻"),XT("南幽"),XT("北冥")}
@@ -440,7 +440,7 @@
 		<Desc>[NAME]In order to reach the state of Jin Dan, Xiu practitioners gave him a title.</Desc>
 		<Kind>None</Kind>
 		<GlobleOKResult>
-			[CDATA[
+			<![CDATA[
 				if me:GetGoldLevel() == 1 then
 					if me:GetGoldValue() >= 1000000 then
 						local tR = {XT("无极"),XT("无始"),XT("无终"),XT("太上"),XT("太虚"),XT("元髯"),XT("太皓"),XT("玄清"),XT("梵天"),XT("八方"),XT("四极"),XT("万象"),XT("荧惑"),XT("乾元"),XT("混沌"),XT("百刃"),XT("天罡"),XT("乘龙"),XT("域旻"),XT("灵宝"),XT("太上"),XT("玄幻"),XT("南幽"),XT("北冥")}
@@ -464,7 +464,7 @@
 		<Desc>[NAME]修为达到金丹之境，修行界的同道给予其一个称号。</Desc>
 		<Kind>None</Kind>
 		<GlobleOKResult>
-			[CDATA[
+			<![CDATA[
 				if me:GetGoldLevel() == 1 then
 					if me:GetGoldValue() >= 3000000 then
 						local tR = {XT("源弘"),XT("无始"),XT("无量"),XT("太崆"),XT("太仙"),XT("元日"),XT("太白"),XT("玄风"),XT("梵界"),XT("八劫"),XT("四凡"),XT("万龙"),XT("紫薇"),XT("贪狼"),XT("巨门"),XT("七星"),XT("天岩"),XT("乘界"),XT("域劫"),XT("灵崆"),XT("三十三"),XT("玄殇"),XT("西海"),XT("东诀")}
@@ -482,7 +482,7 @@
 		<Desc>[NAME]修为达到金丹之境，修行界的同道给予其一个称号。</Desc>
 		<Kind>None</Kind>
 		<GlobleOKResult>
-			[CDATA[
+			<![CDATA[
 				if me:GetGoldLevel() == 1 then
 					if me:GetGoldValue() >= 5000000 then
 						local tR = {XT("南槐"),XT("北麟"),XT("西凤"),XT("堕韵"),XT("苍海"),XT("东宫"),XT("南岳"),XT("古道"),XT("战仙"),XT("九重"),XT("劫海"),XT("百岳"),XT("无法"),XT("贪天"),XT("枫梧"),XT("黑水"),XT("洪戮"),XT("澄琅"),XT("宇"),XT("灵"),XT("阎道"),XT("五才"),XT("西灭"),XT("东琅")}
@@ -500,7 +500,7 @@
 		<Desc>[NAME]修为达到金丹之境，修行界的同道给予其一个称号。</Desc>
 		<Kind>None</Kind>
 		<GlobleOKResult>
-			[CDATA[
+			<![CDATA[
 				if me:GetGoldLevel() == 1 then
 					if me:GetGoldValue() >= 10000000 then
 						local tR = {XT("南槐"),XT("北麟"),XT("西凤"),XT("堕韵"),XT("苍海"),XT("东宫"),XT("南岳"),XT("古道"),XT("战仙"),XT("九重"),XT("劫海"),XT("百岳"),XT("无法"),XT("贪天"),XT("枫梧"),XT("黑水"),XT("洪戮"),XT("澄琅"),XT("宇"),XT("灵"),XT("阎道"),XT("五才"),XT("西灭"),XT("东琅"),XT("吾儿王腾")}
@@ -552,7 +552,7 @@
 			<li>
 				<Display>天妖悬阁。</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					if World.DayCount >= 150 then
 					me:TriggerStory("TYXG");world:PlayBGM("Spr/Music/BGM/XG.OGG",false);
 					else
@@ -636,7 +636,7 @@
 			<li>
 				<Display>人字号石园。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -654,7 +654,7 @@
 			<li>
 				<Display>地字号石园。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -676,7 +676,7 @@
 			<li>
 				<Display>天字号石园。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -711,7 +711,7 @@
 			<li>
 				<Display>人字号石园。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -729,7 +729,7 @@
 			<li>
 				<Display>地字号石园。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -751,7 +751,7 @@
 			<li>
 				<Display>天字号石园。</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -787,7 +787,7 @@
 			<li>
 				<Display>皮石头。（20寿命）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 40);
 				local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 20 then
@@ -832,7 +832,7 @@
 			<li>
 				<Display>破石头。（20寿命）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local nR = me:RandomInt(1, 40);
 					local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 15 then
@@ -863,7 +863,7 @@
 			<li>
 				<Display>烂石头。（20寿命）</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local nR = me:RandomInt(1, 40);
 					local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 25 then
@@ -905,7 +905,7 @@
 			<li>
 				<Display>垃圾石头。（20寿命）</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local nR = me:RandomInt(1, 40);
 					local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 35 then
@@ -944,7 +944,7 @@
 			<li>
 				<Display>一般石头。（20寿命）</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local nR = me:RandomInt(1, 40);
 					local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 15 then
@@ -972,7 +972,7 @@
 			<li>
 				<Display>小石头。（20寿命）</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local nR = me:RandomInt(1, 40);
 					local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 17 then
@@ -1001,7 +1001,7 @@
 			<li>
 				<Display>九秘石头。（20寿命）</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local nR = me:RandomInt(1, 30);
 					local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 15 then
@@ -1033,7 +1033,7 @@
 			<li>
 				<Display>青山石头。（20寿命）</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local nR = me:RandomInt(1, 20);
 					local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 12 then
@@ -1057,7 +1057,7 @@
 			<li>
 				<Display>水边石头。（20寿命）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 40);
 				local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 30 then
@@ -1107,7 +1107,7 @@
 			<li>
 				<Display>金光石头。（20寿命）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 30);
 				local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 20 then
@@ -1140,7 +1140,7 @@
 			<li>
 				<Display>肾虚石头。（20寿命）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 20);
 				local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 8 then
@@ -1169,7 +1169,7 @@
 			<li>
 				<Display>天假石头。（20寿命）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 20);
 				local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 15 then
@@ -1191,7 +1191,7 @@
 			<li>
 				<Display>玄东石头。（20寿命）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 20);
 				local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 15 then
@@ -1213,7 +1213,7 @@
 			<li>
 				<Display>海劫石。（20寿命）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 20);
 				local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 12 then
@@ -1235,7 +1235,7 @@
 			<li>
 				<Display>火焚石。（20寿命）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 20);
 				local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 15 then
@@ -1260,7 +1260,7 @@
 			<li>
 				<Display>乱星石。（20寿命）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 20);
 				local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 15 then
@@ -1285,7 +1285,7 @@
 			<li>
 				<Display>绿草石。（20寿命）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 20);
 				local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 15 then
@@ -1310,7 +1310,7 @@
 			<li>
 				<Display>罡金石。（20寿命）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 20);
 				local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 15 then
@@ -1335,7 +1335,7 @@
 			<li>
 				<Display>厚圆石。（20寿命）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 20);
 				local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 15 then
@@ -1360,7 +1360,7 @@
 			<li>
 				<Display>百天石。（20寿命）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 20);
 				local tIL = {"Wood","Rock","Metal","Weapon"};
 				
@@ -1437,7 +1437,7 @@
 			<li>
 				<Display>顽石。（200寿命）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 20);
 				local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 15 then
@@ -1467,7 +1467,7 @@
 			<li>
 				<Display>百炎石。（200寿命）</Display> 
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 					local nR = me:RandomInt(1, 20);
 					local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 15 then
@@ -1498,7 +1498,7 @@
 			<li>
 				<Display>千叶石。（200寿命）</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local nR = me:RandomInt(1, 20);
 					local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 10 then
@@ -1528,7 +1528,7 @@
 			<li>
 				<Display>鬼洞石。（300寿命）</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local nR = me:RandomInt(1, 10);
 					local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 7 then
@@ -1554,7 +1554,7 @@
 			<li>
 				<Display>六月石。（300寿命）</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local nR = me:RandomInt(1, 6);
 					local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 6 then
@@ -1583,7 +1583,7 @@
 			<li>
 				<Display>天殇石。（400寿命）</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local nR = me:RandomInt(1, 30);
 					local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 20 then
@@ -1623,7 +1623,7 @@
 			<li>
 				<Display>八劫洞天石。（400寿命）</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local nR = me:RandomInt(1, 8);
 					local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 7 then
@@ -1650,7 +1650,7 @@
 			<li>
 				<Display>赤月牙。（400寿命）</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local nR = me:RandomInt(1, 30);
 					local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 20 then
@@ -1678,7 +1678,7 @@
 			<li>
 				<Display>蒙石。（400寿命）</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					local nR = me:RandomInt(1, 30);
 					local tIL = {"Wood","Rock","Metal","Weapon"};
 					if nR >= 20 then
@@ -1719,7 +1719,7 @@
 			<li>
 				<Display>天人合一。（600寿命）</Display> 
 				<OKResult>
-					[CDATA[
+					<![CDATA[
 					me:AddMsg("[NAME]在切开天下合一时，突然一股强大的精神力冲击冲向了[NAME]的眉心。");
 					me.npcObj.PropertyMgr:AddAge(600);me:TriggerStory("ZT1");
 					
@@ -1921,7 +1921,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1943,7 +1943,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1965,7 +1965,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -1998,7 +1998,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2023,7 +2023,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2048,7 +2048,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2074,7 +2074,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2096,7 +2096,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_IncreaseLife3",4);me:DropAwardItem("Item_WDCY",1);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2",8);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown1",4);me:DropAwardItem("Item_Dan_IncreaseLife5",2);
 					]]>
 				</OKResult>
@@ -2110,7 +2110,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2132,7 +2132,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2154,7 +2154,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2187,7 +2187,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2212,7 +2212,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2237,7 +2237,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2264,7 +2264,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2285,7 +2285,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_IncreaseLife3",6);me:DropAwardItem("Item_WDCY",1);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2",12);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown1",6);me:DropAwardItem("Item_Dan_IncreaseLife5",3);
 					]]>
 				</OKResult>
@@ -2298,7 +2298,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2320,7 +2320,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2342,7 +2342,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2375,7 +2375,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2400,7 +2400,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2425,7 +2425,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2451,7 +2451,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2472,7 +2472,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_IncreaseLife3",10);me:DropAwardItem("Item_WDCY",2);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2",18);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown1",10);me:DropAwardItem("Item_Dan_IncreaseLife5",6);
 					]]>
 				</OKResult>
@@ -2485,7 +2485,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2507,7 +2507,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2529,7 +2529,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2561,7 +2561,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2586,7 +2586,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2611,7 +2611,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2636,7 +2636,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2657,7 +2657,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_IncreaseLife3",16);me:DropAwardItem("Item_WDCY",3);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2",24);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown1",16);me:DropAwardItem("Item_Dan_IncreaseLife5",10);
 					]]>
 				</OKResult>
@@ -2670,7 +2670,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2692,7 +2692,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2714,7 +2714,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2746,7 +2746,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2771,7 +2771,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2796,7 +2796,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2822,7 +2822,7 @@
 		<Selections>
 			<li>
 				<Display>继续赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2843,7 +2843,7 @@
 			</li>
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_IncreaseLife3",16);me:DropAwardItem("Item_WDCY",3);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2",24);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown1",16);me:DropAwardItem("Item_Dan_IncreaseLife5",10);
 					]]>
 				</OKResult>
@@ -2856,7 +2856,7 @@
 		<Selections>
 			<li>
 				<Display>至阳之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2878,7 +2878,7 @@
 			</li>
 			<li>
 				<Display>至阴之力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2900,7 +2900,7 @@
 			</li>
 			<li>
 				<Display>先天定力。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
@@ -2932,7 +2932,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2957,7 +2957,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -2982,7 +2982,7 @@
 		<Selections>
 			<li>
 				<Display>开启赌局。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local SZT1 = string.format("[img]Spr/Object/DS/JD.png[/img]")
 					local SZT2 = string.format("[img]Spr/Object/DS/ST.png[/img]")
 					local SZT3 = string.format("[img]Spr/Object/DS/BU.png[/img]")
@@ -3008,7 +3008,7 @@
 			
 			<li>
 				<Display>拿了奖励走人。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:DropAwardItem("Item_Dan_IncreaseLife3",32);me:DropAwardItem("Item_WDCY",6);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown2",48);me:DropAwardItem("Item_Dan_IncreaseNeckCountdown1",32);me:DropAwardItem("Item_Dan_IncreaseLife5",20);
 					]]>
 				</OKResult>
@@ -3024,7 +3024,7 @@
 		<Selections>
 			<li>
 				<Display>发道韵吧。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local tN = {1,2,3,4,5,6,7,8,9,10};
 					local nR = me:RandomInt(1,(#tN+1));
 					local nQ = tN[nR];
@@ -3072,7 +3072,7 @@
 		<Selections>
 			<li>
 				<Display>仙域都有了我还怕个锤锤</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					if num168 == 1 and num169 ==10 then
 						me:AddMsg("[NAME]这么嚣张？却是没想到对手真的也是仙域。赔个精光一无所有。");
 					elseif num168 == 10 and num169 == 1 then
@@ -3086,7 +3086,7 @@
 			</li>
 			<li>
 				<Display>对方明韵有1或10，买个保险吧。</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					if num168 == 1 and num169 ==10 then
 						me:AddMsg("[NAME]看到了对方亮出的仙域，心中一阵感叹，还好留了个底，差点底裤都赔进去了。");
 					elseif num168 == 10 and num169 == 1 then
@@ -3106,7 +3106,7 @@
 		<Selections>
 			<li>
 				<Display>给我道韵</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local tN = {1,2,3,4,5,6,7,8,9,10};
 					local nR = me:RandomInt(1,(#tN+1));
 					local nQ = tN[nR];
@@ -3141,7 +3141,7 @@
 			</li>
 			<li>
 				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + 10)
 					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 then
 						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
@@ -3180,7 +3180,7 @@
 			</li>
 			<li>
 				<Display>直接开牌吧</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167))
 					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169))
 					local num596 = nT
@@ -3208,7 +3208,7 @@
 		<Selections>
 			<li>
 				<Display>给我道韵</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local tN = {1,2,3,4,5,6,7,8,9,10};
 					local nR = me:RandomInt(1,(#tN+1));
 					local nQ = tN[nR];
@@ -3245,7 +3245,7 @@
 			</li>
 			<li>
 				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + 10)
 					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 then
 						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
@@ -3283,7 +3283,7 @@
 			</li>
 			<li>
 				<Display>直接开牌吧</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177))
 					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178))
 					local num596 = nT
@@ -3308,7 +3308,7 @@
 		<Selections>
 			<li>
 				<Display>给我道韵</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local tN = {1,2,3,4,5,6,7,8,9,10};
 					local nR = me:RandomInt(1,(#tN+1));
 					local nQ = tN[nR];
@@ -3347,7 +3347,7 @@
 			</li>
 			<li>
 				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + 10)
 					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 then
 						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
@@ -3385,7 +3385,7 @@
 			</li>
 			<li>
 				<Display>直接开牌吧</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187))
 					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188))
 					local num596 = nT
@@ -3410,7 +3410,7 @@
 		<Selections>
 			<li>
 				<Display>给我道韵</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local tN = {1,2,3,4,5,6,7,8,9,10};
 					local nR = me:RandomInt(1,(#tN+1));
 					local nQ = tN[nR];
@@ -3451,7 +3451,7 @@
 			</li>
 			<li>
 				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + 10)
 					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 then
 						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
@@ -3489,7 +3489,7 @@
 			</li>
 			<li>
 				<Display>直接开牌吧</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197))
 					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198))
 					local num596 = nT
@@ -3514,7 +3514,7 @@
 		<Selections>
 			<li>
 				<Display>给我道韵</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local tN = {1,2,3,4,5,6,7,8,9,10};
 					local nR = me:RandomInt(1,(#tN+1));
 					local nQ = tN[nR];
@@ -3557,7 +3557,7 @@
 			</li>
 			<li>
 				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + 10)
 					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 and world:GetWorldFlag(207) > 1 then
 						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
@@ -3595,7 +3595,7 @@
 			</li>
 			<li>
 				<Display>直接开牌吧</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207))
 					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208))
 					local num596 = nT
@@ -3621,7 +3621,7 @@
 		<Selections>
 			<li>
 				<Display>给我道韵</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local tN = {1,2,3,4,5,6,7,8,9,10};
 					local nR = me:RandomInt(1,(#tN+1));
 					local nQ = tN[nR];
@@ -3666,7 +3666,7 @@
 			</li>
 			<li>
 				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + 10)
 					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 and world:GetWorldFlag(207) > 1 and world:GetWorldFlag(217) > 1 then
 						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
@@ -3704,7 +3704,7 @@
 			</li>
 			<li>
 				<Display>直接开牌吧</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217))
 					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218))
 					local num596 = nT
@@ -3729,7 +3729,7 @@
 		<Selections>
 			<li>
 				<Display>给我道韵</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local tN = {1,2,3,4,5,6,7,8,9,10};
 					local nR = me:RandomInt(1,(#tN+1));
 					local nQ = tN[nR];
@@ -3776,7 +3776,7 @@
 			</li>
 			<li>
 				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227) + 10)
 					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 and world:GetWorldFlag(207) > 1 and world:GetWorldFlag(217) > 1 and world:GetWorldFlag(227) > 1 then
 						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
@@ -3814,7 +3814,7 @@
 			</li>
 			<li>
 				<Display>直接开牌吧</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227))
 					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228))
 					local num596 = nT
@@ -3839,14 +3839,14 @@
 		<Selections>
 			<li>
 				<Display>给我道韵</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					me:AddMsg("大佬就冲你这个人品，东西给你了。");
 				]]>
 				</OKResult>
 			</li>
 			<li>
 				<Display>把1道韵转换为11道韵，然后开牌（默认只转换一个1为11)</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227) + world:GetWorldFlag(237)+ 10)
 					if world:GetWorldFlag(166) > 1 and world:GetWorldFlag(167) > 1 and world:GetWorldFlag(177) > 1 and world:GetWorldFlag(187) > 1 and world:GetWorldFlag(197) > 1 and world:GetWorldFlag(207) > 1 and world:GetWorldFlag(217) > 1 and world:GetWorldFlag(227) > 1 and world:GetWorldFlag(237) > 1 then
 						me:AddMsg("[NAME]明明没有1，居然企图骗我，太过分了。");
@@ -3884,7 +3884,7 @@
 			</li>
 			<li>
 				<Display>直接开牌吧</Display> 
-				<OKResult>[CDATA[
+				<OKResult><![CDATA[
 					local nT = math.abs(world:GetWorldFlag(166) + world:GetWorldFlag(167) + world:GetWorldFlag(177) + world:GetWorldFlag(187) + world:GetWorldFlag(197) + world:GetWorldFlag(207) + world:GetWorldFlag(217) + world:GetWorldFlag(227) + world:GetWorldFlag(237))
 					local nY = math.abs(world:GetWorldFlag(168) + world:GetWorldFlag(169) + world:GetWorldFlag(178) + world:GetWorldFlag(188) + world:GetWorldFlag(198) + world:GetWorldFlag(208) + world:GetWorldFlag(218) + world:GetWorldFlag(228) + world:GetWorldFlag(238))
 					local num596 = nT

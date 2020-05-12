@@ -9,7 +9,7 @@
 			<li>
 				<Display>Swallow up</Display>
 				<OKResult>
-				[CDATA[	
+				<![CDATA[	
 				local nR = me:RandomInt(1, 100); 
 				if nR <= 10 then
 					me:AddMsg("[NAME]The incident was discovered by the practitioners passing by, but fortunately the problem was not great. Just some masters of Yuanshen.");
@@ -48,7 +48,7 @@
 			<li>
 				<Display>Devouring the Origin</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 100); 
 				if me:GetModifierStack("TTMG_BY") == 40 and World:Getflag(200000) == 0 then
 				local npcmgr = me.npcObj.PropertyMgr;
@@ -87,7 +87,7 @@
 			<li>
 				<Display>吞噬本源</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 100);
 				if me:GetModifierStack("TTMG_BM") <= 20 then
 					me:AddModifier("TTMG_BM");
@@ -156,7 +156,7 @@
 			<li>
 				<Display>吞噬本源</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 100);
 				if me:GetModifierStack("TTMG_BM1") <= 20 then
 					me:AddModifier("TTMG_BM1");
@@ -225,7 +225,7 @@
 			<li>
 				<Display>吞噬本源</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 100);
 				if me:GetModifierStack("TTMG_BM2") <= 20 then
 					me:AddModifier("TTMG_BM2");
@@ -294,7 +294,7 @@
 			<li>
 				<Display>吞噬本源</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 100);
 				if me:GetModifierStack("TTMG_BM3") <= 20 then
 					me:AddModifier("TTMG_BM3");
@@ -363,7 +363,7 @@
 			<li>
 				<Display>吞噬本源</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 100);
 				if me:GetModifierStack("TTMG_BM4") <= 20 then
 					me:AddModifier("TTMG_BM4");
@@ -432,7 +432,7 @@
 			<li>
 				<Display>吞噬本源</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 100);
 				if me:GetModifierStack("TTMG_BM5") <= 20 then
 					me:AddModifier("TTMG_BM5");
@@ -501,7 +501,7 @@
 			<li>
 				<Display>吞噬本源</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 100);
 				if me:GetModifierStack("TTMG_BM6") <= 20 then
 					me:AddModifier("TTMG_BM6");
@@ -570,7 +570,7 @@
 			<li>
 				<Display>吞噬本源</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 100);
 				if me:GetModifierStack("TTMG_BM7") <= 20 then
 					me:AddModifier("TTMG_BM7");
@@ -639,7 +639,7 @@
 			<li>
 				<Display>吞噬本源</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 100);
 				if me:GetModifierStack("TTMG_BM8") <= 20 then
 					me:AddModifier("TTMG_BM8");
@@ -708,7 +708,7 @@
 			<li>
 				<Display>吞噬本源</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 100);
 				if me:GetModifierStack("TTMG_BM9") <= 20 then
 					me:AddModifier("TTMG_BM9");
@@ -777,7 +777,7 @@
 			<li>
 				<Display>吞噬本源</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 100);
 				if me:GetModifierStack("TTMG_BM10") <= 20 then
 					me:AddModifier("TTMG_BM10");
@@ -846,7 +846,7 @@
 			<li>
 				<Display>吞噬本源</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 100);
 				if me:GetModifierStack("TTMG_BM11") <= 20 then
 					me:AddModifier("TTMG_BM11");
@@ -915,7 +915,7 @@
 			<li>
 				<Display>吞噬本源</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 100);
 				if me:GetModifierStack("TTMG_BM12") <= 20 then
 					me:AddModifier("TTMG_BM12");
@@ -984,7 +984,7 @@
 			<li>
 				<Display>吞噬本源</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 100);
 				if me:GetModifierStack("TTMG_BM13") <= 20 then
 					me:AddModifier("TTMG_BM13");
@@ -1053,7 +1053,7 @@
 			<li>
 				<Display>吞噬本源</Display>
 				<OKResult>
-				[CDATA[
+				<![CDATA[
 				local nR = me:RandomInt(1, 100);
 				if me:GetModifierStack("TTMG_BM14") <= 20 then
 					me:AddModifier("TTMG_BM14");
