@@ -1,7 +1,7 @@
 <ModifierDefs><List>
 	
 	<Modifier Name="Boss_MSPartFight" Type="Normal">
-		<DisplayName>BOSS魔神通用部位战斗属性</DisplayName>
+		<DisplayName>Boss demon god general parts combat attributes</DisplayName>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -12,7 +12,7 @@
 	</Modifier> 
 	
 	<Modifier Name="Boss_MS1" Type="Normal">
-		<DisplayName>六岁肥</DisplayName>
+		<DisplayName>Six-year-old fat</DisplayName>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -47,7 +47,7 @@
 	</Modifier> 
 	
 	<Modifier Name="Boss_MSFight" Type="Normal">
-		<DisplayName>魔神战斗属性</DisplayName>
+		<DisplayName>Demon Battle Attribute</DisplayName>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -65,7 +65,7 @@
 	
 	
 	<Modifier Name="Boss_MS_Part" Type="Normal">
-		<DisplayName>魔神部位</DisplayName>
+		<DisplayName>Demon God</DisplayName>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -77,7 +77,7 @@
 	</Modifier> 
 	
 	<Modifier Name="Boss_MS_Part1" Type="Normal">
-		<DisplayName>魔神部位虚弱</DisplayName>
+		<DisplayName>Devil's part is weak</DisplayName>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -89,8 +89,8 @@
 
 
 	<Modifier Name="Boss_Jiaolong_JiSiGongYang" Type="Normal">
-		<DisplayName>成长</DisplayName>
-		<Desc>妖龙从祭品中获取力量，灵气变得更浑厚了。</Desc>
+		<DisplayName>growing up</DisplayName>
+		<Desc>The demon dragon gains strength from the sacrifice, and the aura becomes thicker.</Desc>
 		<MaxStack>999</MaxStack>
 		<Duration>-1</Duration>
 		<Display>1</Display>
@@ -100,8 +100,8 @@
 	</Modifier> 
 
 	<Modifier Name="Boss_Jiaolong_Shuiling" Type="Normal">
-		<DisplayName>水灵之力</DisplayName>
-		<Desc>凝聚水灵之力，达到100层会释放泽国。</Desc>
+		<DisplayName>Water Power</DisplayName>
+		<Desc>Condensing the power of water spirits, reaching the 100th level will release Ze Guo.</Desc>
 		<MaxStack>100</MaxStack>
 		<Duration>-1</Duration>
 		<Display>1</Display>
@@ -109,8 +109,8 @@
 
 
 	<Modifier Name="Boss_Jiaolong_LongNu" Type="Normal"><!--龙怒-->
-		<DisplayName>龙怒</DisplayName>
-		<Desc>妖龙进入愤怒状态，全属性提高。</Desc>
+		<DisplayName>Dragon Fury</DisplayName>
+		<Desc>The demon dragon enters into a state of anger and all attributes are improved.</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>60</Duration>
 		<Display>1</Display>
@@ -131,8 +131,8 @@
 	</Modifier> 
 	
 	<Modifier Name="Boss_Jiaolong_Longxi" Type="Normal"><!--龙吸BUFF 挂在对象身上的-->
-		<DisplayName>龙吸术</DisplayName>
-		<Desc>妖龙深深地吸了一口气，角色身体内的水分正在快速流失！</Desc>
+		<DisplayName>Dragon suction</DisplayName>
+		<Desc>The demon dragon took a deep breath, and the water in the character's body was quickly draining!</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>30</Duration>
 		<Display>1</Display>
@@ -145,7 +145,7 @@
 	</Modifier> 
 	
 	<Modifier Name="Boss_Jiaolong_zhenlong" Type="Normal">
-		<DisplayName>真龙</DisplayName>
+		<DisplayName>True Dragon</DisplayName>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -187,8 +187,8 @@
 	</Modifier> 
 	
 	<Modifier Name="Boss_Jiaolong_fanshi" Type="Normal"><!--龙吸BUFF 挂在对象身上的-->
-		<DisplayName>噬-蛟龙反噬</DisplayName>
-		<Desc>一段时间之后将反噬其法宝，法宝灵气削减一半，火属性的法宝效果翻倍，土属性法宝效果减半。</Desc>
+		<DisplayName>Bite-Jiaolong Anti-Bite</DisplayName>
+		<Desc>After a period of time, its magic weapon will be repelled, the magic energy of the magic weapon will be reduced by half, the effect of the fire attribute will be doubled, and the effect of the earth attribute will be halved.</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>10</Duration>
 		<Display>1</Display>
@@ -199,7 +199,7 @@
 	</Modifier> 
 	
 	<Modifier Name="ZTLH" Type="Normal">
-		<DisplayName>凶虎</DisplayName>
+		<DisplayName>Fierce tiger</DisplayName>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>

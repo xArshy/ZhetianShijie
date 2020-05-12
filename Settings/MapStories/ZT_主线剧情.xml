@@ -606,7 +606,7 @@
 				</OKResult>
 				<NOResult><![CDATA[	
 				me:AddMsg("[NAME]His strength is so poor, I don't know where he is confident, and he was beaten to death.");
-				me:AddSchoolScore(1,-500);me:AddDamage("Destroy", "RightEye", 1, XT("暴打"));me:AddDamage("Destroy","LeftEye", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","LeftScapula", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","RightScapula", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","LeftThighbone", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","RightThighbone", 1, XT("暴打"))
+				me:AddSchoolScore(1,-500);me:AddDamage("Destroy", "RightEye", 1, XT("Beating"));me:AddDamage("Destroy","LeftEye", 1, XT("Beating"));me:AddDamage("Fabao_CutOff","LeftScapula", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","RightScapula", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","LeftThighbone", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","RightThighbone", 1, XT("暴打"))
 				]]></NOResult>
 			</li>
 			<li>
@@ -668,7 +668,7 @@
 				me:DropAwardItem("Item_HDS",1);me:AddSchoolScore(1,1500);me:AddEnemy(18,0.5)
 				end
 				else
-				me:AddMsg("[NAME]以为自己准备妥妥了，但是却被打成坨坨。。");
+				me:AddMsg("[NAME] thought he was ready, but was beaten up. .");
 				me:AddDamgeFromCache(story.DamageCache,14,1);
 				end
 				story:FinishSecret();
@@ -847,7 +847,7 @@
 								me:AddMsg("Is it a group of ancient seals? ? ? As soon as the words fall, it is too late");
 								GameMain:GetMod("XG"):YSQD2();
 								elseif nQ >= 5 then
-								me:AddMsg("是荒主?");
+								me:AddMsg("Is a barren?");
 								GameMain:GetMod("XG"):HZ();
 					else
 						me:AddMsg("There was no sound. In fact, [NAME] was too nervous and hallucinated. To the end, [NAME] actually found Xianjin.");
@@ -890,7 +890,7 @@
 				me:AddMsg("[NAME]Deep into the mine, but hit by an unknown energy. .");
 				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME]Full%s years old."),tostring(2500)));
 								if nQ >= 50 then
-									me:AddMsg("[NAME]获得了百分五十的术法方面的加成");
+									me:AddMsg("[NAME] received a 50% magical bonus");
 									me:ModifierProperty("NpcFight_SpellPowerAddP",0.5);me:ModifierProperty("NpcFight_SpellLingCostAddP",-0.5);
 									me:ModifierProperty("NpcFight_SpellCastTimeAddP",-0.5);me:ModifierProperty("NpcFight_SpellCoolDownAddP",-0.5);
 										if me:GetGLevel() >= 6 then
@@ -1117,60 +1117,60 @@
 		</Selections>
 	</Story>
 	<Story Name="SHHG2_2_1"  Parent="BaseFillingStory">
-		<DisplayName>荒古森林——地宫</DisplayName>
-		<Desc>东荒有七大生命禁区，荒古禁区是最后七处可能有太古神药存在的地方了，其他原始大荒，机会渺茫。</Desc>
+		<DisplayName>Barren Ancient Forest-Underground Palace</DisplayName>
+		<Desc>There are seven forbidden areas of life in Donghuang, and the old and forbidden areas are the last seven places where there may be archaic magic medicines. Other primitive big wilds have little chance.</Desc>
 		<Selections>
 			<li>
-				<Display>进入地宫</Display> 
+				<Display>Enter the underground palace</Display> 
 				<OKResult><![CDATA[	
 				local nR = me:RandomInt(1, 51); 
 				local nG = me:RandomInt(4000, 50000);
 				local nQ = me:RandomInt(1, 51);
 				local nT = me:RandomInt(1, 51);
 				if nR >= 41 then
-				me:AddMsg("[NAME]进入地宫，寻得了荒主遗留下来的魔胎。。");
+				me:AddMsg("[NAME] enters the underground palace and finds the magic tire left by the barren master. .");
 				me.npcObj.PropertyMgr:AddAge(nG);
 										if me:GetGLevel() >= 9 then
-										me:AddMsg("[NAME]很顺利地获得了魔胎");
+										me:AddMsg("[NAME] successfully obtained the magic tire");
 										me:DropAwardItem("Item_MT",1);
 										else
-										me:AddMsg("[NAME]光有运气没有实力，承受不住魔胎的凶威。。");
+										me:AddMsg("[NAME] With luck and no strength, he can't bear the fierce power of the magic tire. .");
 										me:AddDamgeFromCache(story.DamageCache,14,1);
 										end
 				elseif nR >= 31 then
-				me:AddMsg("[NAME]进入地宫，寻的了荒主遗留的魔胎，但不幸遇到荒主。");
-				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME]整整苍老了%s年。"),tostring(2500)));
+				me:AddMsg("[NAME] entered the underground palace and found the devil left by the barren master, but unfortunately met the barren master.");
+				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME] is completely old for% s years."),tostring(2500)));
 								if me:GetGLevel() >= 9 then
-										me:AddMsg("[NAME]很顺利地获得了魔胎");
+										me:AddMsg("[NAME] successfully obtained the magic tire");
 										me:DropAwardItem("Item_MT",1);GameMain:GetMod("XG"):HZ();
 										else
-										me:AddMsg("[NAME]光有运气没有实力，承受不住魔胎的凶威。。");
+										me:AddMsg("[NAME] Without luck and strength, he can't bear the fierce power of the magic tire. .");
 										me:AddDamgeFromCache(story.DamageCache,14,1);
 										end
 				elseif nR >= 21 then
-				me:AddMsg("[NAME]深入地宫后，获得一本功法。");
-				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME]整整苍老了%s年。"),tostring(2500)));
+				me:AddMsg("[NAME] After getting into the underground palace, he got a copy of the exercises.");
+				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME] is completely old for% s years."),tostring(2500)));
 						if nQ >= 40 then
-						me:AddMsg("[NAME]成功参悟了这本功法。");
+						me:AddMsg("[NAME] successfully learned this exercise.");
 						WorldLua:UnlockRandomGong(4);me:ModifierProperty("MaxAge",-nQ * 4);
 						elseif nQ >= 30 then
-						me:AddMsg("[NAME]成功参悟了这本功法。");
+						me:AddMsg("[NAME] successfully learned this exercise.");
 						WorldLua:UnlockRandomGong(3);me:ModifierProperty("MaxAge",-nQ * 3);
 						elseif nQ >= 20 then
-						WorldLua:AddMsg("[NAME]成功参悟了这本功法。");
+						WorldLua:AddMsg("[NAME] successfully learned this exercise.");
 						WorldLua:UnlockRandomGong(2);me:ModifierProperty("MaxAge",-nQ * 2);
 						elseif nQ >= 10 then
-						WorldLua:AddMsg("[NAME]成功参悟了这本功法。");
+						WorldLua:AddMsg("[NAME] successfully learned this exercise.");
 						WorldLua:UnlockRandomGong(1);me:ModifierProperty("MaxAge",-nQ);
 						elseif nQ >= 1 then
-						me:AddMsg("[NAME]参悟获得了九妙不死药的合成秘籍。");
+						me:AddMsg("[NAME] Shen Wu obtained the cheats for the synthesis of nine wonderful immortals.");
 						me:DropEsoteric("MJ_JMBSY");
 						end
 				elseif nR >= 11 then
-				me:AddMsg("[NAME]进入地宫以后，寻得荒主遗留的仙金。");
-				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME]整整苍老了%s年。"),tostring(2500)));
+				me:AddMsg("[NAME] After entering the underground palace, he found the fairy gold left by the barren master.");
+				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME] is completely old for% s years."),tostring(2500)));
 						if nQ >= 45 then
-						me:AddMsg("其实仙金只是个幻觉罢了。。");
+						me:AddMsg("In fact, Xianjin is just an illusion. .");
 						elseif nQ >= 40 then
 						me:DropAwardItem("Item_DJHJ",2);
 						elseif nQ >= 35 then
@@ -1191,85 +1191,85 @@
 						me:DropAwardItem("Item_XHJC",2);
 						end
 				elseif nR >= 1 then
-				me:AddMsg("[NAME]在地宫中四处探索。");
-				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME]整整苍老了%s年。"),tostring(2500)));
+				me:AddMsg("[NAME] Explore around in the underground palace.");
+				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME] is completely old for%s years."),tostring(2500)));
 						if nQ >= 31 then
-										me:AddMsg("[NAME]触动了地宫的机关");
+										me:AddMsg("[NAME] touched the organ of the underground palace");
 											if me:GetGLevel() >= 11 then
-											me:AddMsg("[NAME]很顺利地躲过了机关的攻击，并获得了一些神物");
+											me:AddMsg("[NAME] successfully escaped the attack of the organization and obtained some artifacts");
 											if nT >= 50 then
-											me:AddMsg("[NAME]获得了一些火属性源。");
+											me:AddMsg("[NAME] obtained some sources of fire attributes.");
 											me:DropAwardItem("Item_HSXY",35);
 											elseif nT >= 40 then
-											me:AddMsg("[NAME]获得了一些金属性源。");
+											me:AddMsg("[NAME] acquired some metallic sources.");
 											me:DropAwardItem("Item_JSXY",35);
 											elseif nT >= 30 then
-											me:AddMsg("[NAME]获得了一些木属性源。");
+											me:AddMsg("[NAME] obtained some wood attribute sources.");
 											me:DropAwardItem("Item_MSXY",35);
 											elseif nT >= 20 then
-											me:AddMsg("[NAME]获得了一些水属性源。");
+											me:AddMsg("[NAME] obtained some water attribute sources.");
 											me:DropAwardItem("Item_SSXY",35);
 											elseif nT >= 10 then
-											me:AddMsg("[NAME]获得了一些土属性源。");
+											me:AddMsg("[NAME] obtained some sources of soil properties.");
 											me:DropAwardItem("Item_TSXY",35);
 											end
 										else
-										me:AddMsg("[NAME]实力不够，被地宫机关射穿。。");
+										me:AddMsg("[NAME] was not strong enough and was shot through by the underground palace. .");
 										me:AddDamgeFromCache(story.DamageCache,14,1);
 										end
 						elseif nQ >= 11 then
 							if nT >= 40 then
-									me:AddMsg("[NAME]获得了百分十的术法方面的加成");
+									me:AddMsg("[NAME] received a 10% bonus on spells");
 									me:ModifierProperty("NpcFight_SpellPowerAddP",0.1);me:ModifierProperty("NpcFight_SpellLingCostAddP",-0.1);
 									me:ModifierProperty("NpcFight_SpellCastTimeAddP",-0.1);me:ModifierProperty("NpcFight_SpellCoolDownAddP",-0.1);
 										if me:GetGLevel() >= 6 then
-										me:AddMsg("[NAME]很顺利地获得了其中的加成");
+										me:AddMsg("[NAME] successfully received the bonus");
 										else
-										me:AddMsg("[NAME]光有运气没有实力，接受不了这道加成。");
+										me:AddMsg("[NAME] has no luck and no strength and cannot accept this bonus.");
 										me:AddDamgeFromCache(story.DamageCache,14,1);
 										end
 								elseif nT >= 30 then
-									me:AddMsg("[NAME]获得了百分十的法宝方面的加成");
+									me:AddMsg("[NAME] received a 10% bonus to magic weapons");
 									me:ModifierProperty("NpcFight_FabaoPowerAddP",0.1);me:ModifierProperty("NpcFight_FabaoLingRecoverAddP",0.1);
 									me:ModifierProperty("NpcFight_FabaoLingRecoverK",0.01);me:ModifierProperty("NpcFight_FabaoMaxLingAddP",0.1);
 									me:ModifierProperty("NpcFight_FabaoRepelDistanceAddV",0.1);me:ModifierProperty("NpcFight_FabaoFlySpeedAddP",0.1);
 									me:ModifierProperty("NpcFight_FabaoTurnSpeedAddP",0.1);me:ModifierProperty("NpcFight_FabaoRepelResistanceAddV",0.1);
 										if me:GetGLevel() >= 6 then
-										me:AddMsg("[NAME]很顺利地获得了其中的加成");
+										me:AddMsg("[NAME] successfully received the bonus");
 										else
-										me:AddMsg("[NAME]光有运气没有实力，接受不了这道加成。");
+										me:AddMsg("[NAME] has no luck and no strength and cannot accept this bonus.");
 										me:AddDamgeFromCache(story.DamageCache,14,1);
 										end
 								elseif nT >= 20 then
-									me:AddMsg("[NAME]获得了百分十的护盾方面的加成");
+									me:AddMsg("[NAME] received a 10% shield bonus");
 									me:ModifierProperty("NpcFight_ShieldConversionRate",0.1);
 									me:ModifierProperty("NpcFight_ShieldConversionRateAddP",0.1);
 										if me:GetGLevel() >= 6 then
-										me:AddMsg("[NAME]很顺利地获得了其中的加成");
+										me:AddMsg("[NAME] successfully received the bonus");
 										else
-										me:AddMsg("[NAME]光有运气没有实力，接受不了这道加成。");
+										me:AddMsg("[NAME] has no luck and no strength and cannot accept this bonus.");
 										me:AddDamgeFromCache(story.DamageCache,14,1);
 										end
 								elseif nT >= 10 then
-									me:AddMsg("[NAME]减低了50点道行");
+									me:AddMsg("[NAME] Reduced by 50 points");
 									me:ModifierProperty("AbilityLvAddV",-50);
 										if me:GetGLevel() >= 6 then
-										me:AddMsg("[NAME]很顺利地获得了其中的加成");
+										me:AddMsg("[NAME] successfully received the bonus");
 										else
-										me:AddMsg("[NAME]光有运气没有实力，接受不了这道加成。");
+										me:AddMsg("[NAME] has no luck and no strength and cannot accept this bonus.");
 										me:AddDamgeFromCache(story.DamageCache,14,1);
 										end
 								elseif nT >= 1 then
-									me:AddMsg("[NAME]获得了300年寿元");
+									me:AddMsg("[NAME] earned 300 years of life");
 									me:ModifierProperty("MaxAge",300);
 										if me:GetGLevel() >= 6 then
-										me:AddMsg("[NAME]很顺利地获得了其中的加成");
+										me:AddMsg("[NAME] successfully received the bonus");
 										else
-										me:AddMsg("[NAME]光有运气没有实力，接受不了这道加成。");
+										me:AddMsg("[NAME] has no luck and no strength and cannot accept this bonus.");
 										me:AddDamgeFromCache(story.DamageCache,14,1);
 										end	
 					     elseif nQ >= 1 then
-						 me:AddMsg("[NAME]遇到了地宫守卫的苏醒。");
+						 me:AddMsg("[NAME] encountered a wake from the guard of the underground palace.");
 						 local long = Map:CallBoss("Boss_Long",Map:RandomBronGrid(),false);
 							long:AddModifier("Boss_JiaolongFight", 999);
 							long:AddLing(long.MaxLing - long.LingV);
@@ -1280,7 +1280,7 @@
 							long:AddModifier("Boss_ZhulongFight", 999);
 							long:AddLing(long.MaxLing - long.LingV);
 							local a = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name);
-							a.Nick = '荒古地宫守卫';
+							a.Nick = 'Ward of the Badlands';
 							a:SetPostion(Map:GetRandomWalkAbleKeyinLifeArea(),true);
 							a:Draw();
 							a.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(),12);
@@ -1316,28 +1316,28 @@
 			</li>
 			
 			<li>
-				<Display>进个屁，不进去</Display> 
+				<Display>Go in fart, don't go in</Display> 
 				<OKResult><![CDATA[	
 				
-				me:AddMsg("[NAME]思前想后，还是决定离开此地。但荒古禁地就是牛。");
-				me.npcObj.PropertyMgr:AddAge(1500);me:AddMsg(string.format(XT("[NAME]整整苍老了%s年。"),tostring(1500)));
+				me:AddMsg("[NAME] After thinking about it, he decided to leave here. But the forbidden land is cattle.");
+				me.npcObj.PropertyMgr:AddAge(1500);me:AddMsg(string.format(XT("[NAME]%s years old。"),tostring(1500)));
 				]]>
 				</OKResult>
 			</li>
 		</Selections>
 	</Story>
 	<Story Name="SHHG2_1"  Parent="BaseFillingStory">
-		<DisplayName>荒古灵田</DisplayName>
-		<Desc>东荒有七大生命禁区，荒古禁区是最后七处可能有太古神药存在的地方了，其他原始大荒，机会渺茫。</Desc>
+		<DisplayName>Barren ancient field</DisplayName>
+		<Desc>There are seven forbidden areas of life in Donghuang, and the old and forbidden areas are the last seven places where there may be archaic magic medicines. Other primitive big wilds have little chance.</Desc>
 		<Selections>
 			<li>
-				<Display>探索灵田</Display> 
+				<Display>Explore Lingtian</Display> 
 				<OKResult><![CDATA[	
 				local nR = me:RandomInt(1, 51); 
 				local nQ = me:RandomInt(1, 51);
 				if nR >= 41 then
-				me:AddMsg("[NAME]发觉灵田中有守护者的气息，虽不知是人类还是妖兽。");
-				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME]整整苍老了%s年。"),tostring(2500)));me:DropAwardItem("Item_God_ZhiNianJieJing",3);
+				me:AddMsg("[NAME] noticed that there was a breath of guardians in Ling Tian, ​​although he was not a human or a monster.");
+				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME] is completely old for%s years."),tostring(2500)));me:DropAwardItem("Item_God_ZhiNianJieJing",3);
 					if nQ >= 41 then
 						me:AddManyYaoShou(nil,36,0,999);me:AddManyYaoShou(nil,36,0,999);
 					elseif nQ >= 31 then
@@ -1345,13 +1345,13 @@
 					elseif nQ >= 21 then
 						me:AddManyYaoShou("JYSnake",36,0,999);me:AddManyYaoShou("JYSnake",36,0,999);
 					else
-						me:AddMsg("[NAME]运气还行，没有惊动守护者，还找到了不少的灵药。");
+						me:AddMsg("[NAME] Luck was okay, didn't disturb the guardians, and found a lot of elixir.");
 						me:DropAwardItem("Item_GJZ",12);me:DropAwardItem("Item_ZWX",12);me:DropAwardItem("Item_SXM",12);
 						me:DropAwardItem("Item_LX",12);me:DropAwardItem("Item_YMY",12);me:DropAwardItem("Item_JHZ",12);
 					end
 				elseif nR >= 31 then
-				me:AddMsg("[NAME]发觉灵田中有守护者的气息，虽不知是人类还是妖兽。");
-				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME]整整苍老了%s年。"),tostring(2500)));me:DropAwardItem("Item_EarthEssence_1",8);
+				me:AddMsg("[NAME] noticed that there was a breath of guardians in Ling Tian, ​​although he was not a human or a monster.");
+				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME] is completely old for%s years."),tostring(2500)));me:DropAwardItem("Item_EarthEssence_1",8);
 					if nQ >= 41 then
 						me:AddManyYaoShou(nil,36,0,999);me:AddManyYaoShou(nil,36,0,999);
 					elseif nQ >= 31 then
@@ -1359,12 +1359,12 @@
 					elseif nQ >= 21 then
 						me:AddManyYaoShou("JYSnake",36,0,999);me:AddManyYaoShou("JYSnake",36,0,999);
 					else
-						me:AddMsg("[NAME]运气还行，没有惊动守护者，还找到了不少的灵药。");
+						me:AddMsg("[NAME] Luck was okay, didn't disturb the guardians, and found a lot of elixir.");
 						me:DropAwardItem("Item_AL",12);me:DropAwardItem("Item_YYC",12);me:DropAwardItem("Item_JHZ",12);
 					end
 				elseif nR >= 21 then
-				me:AddMsg("[NAME]发觉灵田中有守护者的气息，虽不知是人类还是妖兽。");
-				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME]整整苍老了%s年。"),tostring(2500)));me:DropAwardItem("Item_EarthEssence1_1",8);
+				me:AddMsg("[NAME] noticed that there was a breath of guardians in Ling Tian, ​​although he was not a human or a monster.");
+				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME] is completely old for%s years."),tostring(2500)));me:DropAwardItem("Item_EarthEssence1_1",8);
 					if nQ >= 41 then
 						me:AddManyYaoShou(nil,36,0,999);me:AddManyYaoShou(nil,36,0,999);
 					elseif nQ >= 31 then
@@ -1372,13 +1372,13 @@
 					elseif nQ >= 21 then
 						me:AddManyYaoShou("JYSnake",36,0,999);me:AddManyYaoShou("JYSnake",36,0,999);
 					else
-						me:AddMsg("[NAME]运气还行，没有惊动守护者，还找到了不少的灵药。");
+						me:AddMsg("[NAME]Luck was okay, without disturbing the guardians, I also found a lot of elixir.");
 						me:DropAwardItem("Item_YS",12);me:DropAwardItem("Item_HG",12);me:DropAwardItem("Item_SYC",12);
 						me:DropAwardItem("Item_JC",12);me:DropAwardItem("Item_SJC",12);me:DropAwardItem("Item_SLS",12);
 					end
 				elseif nR >= 11 then
-				me:AddMsg("[NAME]发觉灵田中有守护者的气息，虽不知是人类还是妖兽。");
-				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME]整整苍老了%s年。"),tostring(2500)));
+				me:AddMsg("[NAME] I found the spirit of the guardian in the spirit field, although I don't know whether it is a human or a monster.");
+				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME] is completely old for%s years."),tostring(2500)));
 					if nQ >= 41 then
 						me:AddManyYaoShou(nil,36,0,999);me:AddManyYaoShou(nil,36,0,999);
 					elseif nQ >= 31 then
@@ -1386,9 +1386,9 @@
 					elseif nQ >= 21 then
 						me:AddManyYaoShou("JYSnake",36,0,999);me:AddManyYaoShou("JYSnake",36,0,999);
 					elseif nQ >= 11 then
-						me:AddMsg("[NAME]遇到了一群老不死。。。。");GameMain:GetMod("XG"):LBS();
+						me:AddMsg("[NAME] encountered a group of immortals. . . .");GameMain:GetMod("XG"):LBS();
 					else
-						me:AddMsg("[NAME]运气还行，没有惊动守护者，还找到了不少的灵药。");
+						me:AddMsg("[NAME] Luck was okay, without disturbing the guardians, I also found a lot of elixir.");
 						me:DropAwardItem("Item_GJZ",12);me:DropAwardItem("Item_ZWX",12);me:DropAwardItem("Item_SXM",12);
 						me:DropAwardItem("Item_LX",12);me:DropAwardItem("Item_YMY",12);
 						me:DropAwardItem("Item_AL",12);me:DropAwardItem("Item_YYC",12);me:DropAwardItem("Item_JHZ",12);
@@ -1396,31 +1396,31 @@
 						me:DropAwardItem("Item_JC",12);me:DropAwardItem("Item_SJC",12);me:DropAwardItem("Item_SLS",12);
 					end
 				elseif nR >= 1 then
-				me:AddMsg("[NAME]找到了一些草药，但是。。");
-				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME]整整苍老了%s年。"),tostring(2500)));
+				me:AddMsg("[NAME]Found some herbs, however. .");
+				me.npcObj.PropertyMgr:AddAge(2500);me:AddMsg(string.format(XT("[NAME] is completely old for%s years."),tostring(2500)));
 								if nQ >= 41 then
-								me:AddMsg("是蛟龙？？？话音刚落，就已经来不及了");
+								me:AddMsg("Is it a dragon? ? ? As soon as the voice fell, it was too late");
 								local long = Map:CallBoss("Boss_Long",Map:RandomBronGrid(),false);
 								long:AddModifier("Boss_JiaolongFight", 399);
 								long:AddLing(long.MaxLing - long.LingV);me:DropAwardItem("Item_EarthEssence",16);	
 								elseif nQ >= 31 then
-								me:AddMsg("是凶凤？？？话音刚落，就已经来不及了");
+								me:AddMsg("Is it fierce phoenix? ? ? As soon as the voice fell, it was too late");
 								local long = Map:CallBoss("Boss_Feng",Map:RandomBronGrid(),false);
 								long:AddModifier("Boss_XiongfengFight", 399);
 								long:AddLing(long.MaxLing - long.LingV);me:DropAwardItem("Item_EarthEssence1",16);
 								elseif nQ >= 21 then
-								me:AddMsg("是烛龙？？？话音刚落，就已经来不及了");
+								me:AddMsg("Is it a candle dragon? ? ? As soon as the voice fell, it was too late");
 								local long = Map:CallBoss("Boss_Zhulong",Map:RandomBronGrid(),false);
 								long:AddModifier("Boss_ZhulongFight", 399);
 								long:AddLing(long.MaxLing - long.LingV);me:DropAwardItem("Item_LifeStream",16);
 								elseif nQ >= 15 then
-								me:AddMsg("是一些古修的印记？？？话音刚落，就已经来不及了");
+								me:AddMsg("Is it the mark of some ancient repairs? ? ? As soon as the voice fell, it was too late");
 								GameMain:GetMod("XG"):YSTZ1();me:DropAwardItem("Item_SoulPearl",12);
 								elseif nQ >= 10 then
-								me:AddMsg("是一群古修的印记？？？话音刚落，就已经来不及了");
+								me:AddMsg("Is it a group of ancient repair marks? ? ? As soon as the voice fell, it was too late");
 								GameMain:GetMod("XG"):YSQD2();
 								elseif nQ >= 5 then
-								me:AddMsg("是三合一套餐？？？话音刚落，就已经来不及了");
+								me:AddMsg("Is it a three-in-one package? ? ? As soon as the voice fell, it was too late");
 								local long = Map:CallBoss("Boss_Long",Map:RandomBronGrid(),false);
 								long:AddModifier("Boss_JiaolongFight", 399);
 								long:AddLing(long.MaxLing - long.LingV);
@@ -1431,7 +1431,7 @@
 								long2:AddModifier("Boss_ZhulongFight", 499);
 								long2:AddLing(long.MaxLing - long.LingV);me:DropAwardItem("Item_YuanHunLu",12);
 								else
-									me:AddMsg("[NAME]运气还行，没有惊动守护者，还找到了不少的灵药。");
+									me:AddMsg("[NAME]Luck was okay, without disturbing the guardians, I also found a lot of elixir.");
 									me:DropAwardItem("Item_GJZ",12);me:DropAwardItem("Item_ZWX",12);me:DropAwardItem("Item_SXM",12);
 									me:DropAwardItem("Item_LX",12);me:DropAwardItem("Item_YMY",12);
 									me:DropAwardItem("Item_AL",12);me:DropAwardItem("Item_YYC",12);me:DropAwardItem("Item_JHZ",12);
@@ -1444,24 +1444,24 @@
 			</li>
 			
 			<li>
-				<Display>进个屁，不进去</Display> 
+				<Display>Go in fart, don't go in</Display> 
 				<OKResult><![CDATA[	
 				
-				me:AddMsg("[NAME]思前想后，还是决定离开此地。但荒古禁地就是牛。");
-				me.npcObj.PropertyMgr:AddAge(1500);me:AddMsg(string.format(XT("[NAME]整整苍老了%s年。"),tostring(1500)));
+				me:AddMsg("[NAME] After thinking about it, he decided to leave here. But the forbidden land is cattle.");
+				me.npcObj.PropertyMgr:AddAge(1500);me:AddMsg(string.format(XT("[NAME] is completely old for%s years."),tostring(1500)));
 				]]>
 				</OKResult>
 			</li>
 		</Selections>
 	</Story>
 	<Story Name="SHHG3"  Parent="BaseFillingStory">
-		<DisplayName>三回荒古</DisplayName>
-		<Desc>东荒有七大生命禁区，荒古禁区是最后七处可能有太古神药存在的地方了，其他原始大荒，机会渺茫。</Desc>
+		<DisplayName>Sanhuihuanggu</DisplayName>
+		<Desc>There are seven forbidden areas of life in Donghuang, and the old and forbidden areas are the last seven places where there may be archaic magic medicines. Other primitive big wilds have little chance.</Desc>
 		<Selections>
 			<li>
-				<Display>九座神山</Display> 
+				<Display>Nine Mounts</Display> 
 				<OKResult><![CDATA[	
-				me.npcObj.PropertyMgr:AddAge(3000);me:AddMsg(string.format(XT("[NAME]整整苍老了%s年。"),tostring(3000)));
+				me.npcObj.PropertyMgr:AddAge(3000);me:AddMsg(string.format(XT("[NAME] is completely old for%s years."),tostring(3000)));
 				if World:GetWorldFlag(2630) = 0 then
 				me:DropAwardItem("Item_JM1",1);world:SetWorldFlag(2630,1);
 				elseif World:GetWorldFlag(2631) = 0 then
@@ -1485,11 +1485,11 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>进个屁，不进去</Display> 
+				<Display>Go in fart, don't go in</Display> 
 				<OKResult><![CDATA[	
 				
-				me:AddMsg("[NAME]思前想后，还是决定离开此地。");
-				me.npcObj.PropertyMgr:AddAge(2000);me:AddMsg(string.format(XT("[NAME]整整苍老了%s年。"),tostring(2000)));
+				me:AddMsg("[NAME] After thinking about it, I decided to leave here.");
+				me.npcObj.PropertyMgr:AddAge(2000);me:AddMsg(string.format(XT("[NAME] is completely old for%s years."),tostring(2000)));
 				]]>
 				</OKResult>
 			</li>
@@ -1498,11 +1498,11 @@
 	
 	
 	<Story Name="ZT_YCSH"  Parent="BaseFillingStory">
-		<DisplayName>瑶池盛会</DisplayName>
-		<Desc>这里，仙乐齐鸣，各种灵禽瑞兽呈现。白云上，殿宇成片，奇花盛开，瑶草铺地，仙雾涌动，却不过膝高。</Desc>
+		<DisplayName>Yaochi Festival</DisplayName>
+		<Desc>Here, Xianle mingled, and various spirits, beasts and beasts appeared. On the white clouds, the palaces are in pieces, the strange flowers are in full bloom, the grass is covered with grass, the fairy mist is surging, but the knees are high.</Desc>
 		<Selections>
 			<li>
-				<Display>瑶池盛会</Display> 
+				<Display>Yaochi Festival</Display> 
 				<OKResult><![CDATA[	
 				if me:GetGLevel() >= 11 and me:GetDaoHang() >= 1600 then
 				me:DropAwardItem("Item_Dan_PTMY",4);me:DropAwardItem("Item_Dan_PT",12);
@@ -1513,7 +1513,7 @@
 				elseif me:GetGLevel() >= 6 and me:GetDaoHang() >= 800 then
 				me:DropAwardItem("Item_Dan_PT",4);
 				else
-				me:AddMsg("[NAME]这点实力也敢来凑热闹？不嫌丢人？");
+				me:AddMsg("[NAME] How dare you come here to join the fun? Not ashamed?");
 				me:AddDamgeFromCache(story.DamageCache,14,0.9);
 				end
 				story:FinishSecret();
@@ -1521,19 +1521,19 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>瑶池天字号石园。</Display> 
+				<Display>Yaochi Tianshi Stone Garden.</Display> 
 				<OKResult>
 				<![CDATA[
 				local SM = me:GetProperty("MaxAge");
 					local NL = me.npcObj.Age
 					local nY = math.ceil(SM - NL)
 					local num600 = nY
-					me:AddMsg(string.format(XT("[NAME]剩余余额为：%s。"), tostring(num600)));
+					me:AddMsg(string.format(XT("[NAME] The remaining balance is:%s."), tostring(num600)));
 					if nY <= 0 then
-					me:AddMsg("[NAME]命都没了，还想赌？滚滚滚！");
+					me:AddMsg("[NAME] Life is gone, still want to gamble? roll roll roll!");
 					me:TriggerStory("JLBD");
 					elseif World.DayCount <= 300 then
-					me:AddMsg("[NAME]走进石坊，但是由于时机尚早，所以源石内部还没能孕育出好东西，地字号仍未开业");
+					me:AddMsg("[NAME] Entering Shifang, but due to the early timing, the source stone has not yet been able to breed good things, and the local name has not yet opened.");
 					me:TriggerStory("YCSF");
 					else
 					me:TriggerStory("YCTZ");
@@ -1543,10 +1543,10 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>进个屁，不进去</Display> 
+				<Display>Go in fart, don't go in</Display> 
 				<OKResult><![CDATA[	
 				
-				me:AddMsg("[NAME]思前想后，还是决定离开此地。");
+				me:AddMsg("[NAME] After thinking about it, I decided to leave here.");
 				
 				]]>
 				</OKResult>
@@ -1555,84 +1555,84 @@
 	</Story>
 	
 	<Story Name="WLC"  Parent="BaseFillingStory">
-		<DisplayName>万龙巢</DisplayName>
-		<Desc>叶凡虽然在神王，和各方势力的帮助下，进入了四极秘境，但天道无情，叶凡仍然是受了道伤。。</Desc>
+		<DisplayName>Wanlong Nest</DisplayName>
+		<Desc>Although Ye Fan entered the four-pole secret realm with the help of Divine King and other forces, but the heavens were ruthless, and Ye Fan was still injured by Dao. .</Desc>
 		<Selections>
 			<li>
-				<Display>青龙不死药</Display> 
+				<Display>Qinglong immortal medicine</Display> 
 				<OKResult><![CDATA[	
 				if world:GetWorldFlag(1100) < world.DayCount + 500 then
-				me:AddMsg("[NAME]来到了万龙巢，成功获得了试验品灵植");
+				me:AddMsg("[NAME] arrived at Wanlong Nest and successfully obtained the Lingzhi");
 				world:SetWorldFlag(1000,world.DayCount);
 				me:DropAwardItem("Item_ZLBSY",1);
 				story:FinishSecret();
 				else
-				me:AddMsg("[NAME]天地神药，五百天一株，下次再来吧。");
+				me:AddMsg("[NAME] Heaven and earth magic medicine, one plant every 500 days, come again next time.");
 				end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>黄龙不死药</Display> 
+				<Display>Huanglong Undead</Display> 
 				<OKResult><![CDATA[	
 				if world:GetWorldFlag(1102) + 500 < world.DayCount + 500 then
-				me:AddMsg("[NAME]来到了万龙巢，成功获得了试验品灵植");
+				me:AddMsg("[NAME] arrived at Wanlong Nest and successfully obtained the Lingzhi");
 				world:SetWorldFlag(1102,world.DayCount);
 				me:DropAwardItem("Item_BSHLY",1);
 				story:FinishSecret();
 				else
-				me:AddMsg("[NAME]天地神药，五百天一株，下次再来吧。");
+				me:AddMsg("[NAME] Heaven and earth magic medicine, one plant every 500 days, come again next time.");
 				end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>玄武不死药</Display> 
+				<Display>Xuanwu immortality</Display> 
 				<OKResult><![CDATA[	
 				if world:GetWorldFlag(1101) < world.DayCount + 500 then
-				me:AddMsg("[NAME]来到了万龙巢，成功获得了试验品灵植");
+				me:AddMsg("[NAME] arrived at Wanlong Nest and successfully obtained the Lingzhi");
 				world:SetWorldFlag(1101,world.DayCount);
 				me:DropAwardItem("Item_BSXWY",1);
 				story:FinishSecret();
 				else
-				me:AddMsg("[NAME]天地神药，五百天一株，下次再来吧。");
+				me:AddMsg("[NAME] Heaven and earth magic medicine, one plant every 500 days, come again next time.");
 				end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>白虎不死药</Display> 
+				<Display>White Tiger Undead</Display> 
 				<OKResult><![CDATA[	
 				if world:GetWorldFlag(1103) < world.DayCount + 500 then
-				me:AddMsg("[NAME]来到了万龙巢，成功获得了试验品灵植");
+				me:AddMsg("[NAME] arrived at Wanlong Nest and successfully obtained the Lingzhi");
 				world:SetWorldFlag(1103,world.DayCount);
 				me:DropAwardItem("Item_BSBHY",1);
 				story:FinishSecret();
 				else
-				me:AddMsg("[NAME]天地神药，五百天一株，下次再来吧。");
+				me:AddMsg("[NAME] Heaven and earth magic medicine, one plant every 500 days, come again next time.");
 				end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>朱雀不死药</Display> 
+				<Display>Suzaku Undead</Display> 
 				<OKResult><![CDATA[	
 				if world:GetWorldFlag(1104) < world.DayCount + 500 then
-				me:AddMsg("[NAME]来到了万龙巢，成功获得了试验品灵植");
+				me:AddMsg("[NAME] arrived at Wanlong Nest and successfully obtained the Lingzhi");
 				world:SetWorldFlag(1104,world.DayCount);
 				me:DropAwardItem("Item_BSSHY",1);
 				story:FinishSecret();
 				else
-				me:AddMsg("[NAME]天地神药，五百天一株，下次再来吧。");
+				me:AddMsg("[NAME] Heaven and earth magic medicine, one plant every 500 days, come again next time.");
 				end
 				]]>
 				</OKResult>
 			</li>
 			
 			<li>
-				<Display>离开此地</Display> 
+				<Display>Leave here</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]仔细地思索了片刻，好东西，必然带风险。算了且等我有实力。");
+					me:AddMsg("[NAME] thought about it carefully for a while, good things inevitably carry risks. Forget it and wait for me to have strength.");
 					
 				]]>
 				</OKResult>
@@ -1641,11 +1641,11 @@
 	</Story>
 	
 	<Story Name="Story_YDF"  Parent="BaseFillingStory">
-		<DisplayName>妖帝坟</DisplayName>
-		<Desc>妖帝坟设有两处，一阳一阴，抱守太极，力量源泉心脏葬于阳墓，真正的冰冷尸身在于阴墓。</Desc>
+		<DisplayName>Demon grave</DisplayName>
+		<Desc>There are two places in the Tomb of the Demon Emperor, one yang and one yin, embracing Tai Chi, the source of strength is buried in the tomb of Yang, the real cold body is in the tomb of Yin.</Desc>
 		<Selections>
 			<li>
-				<Display>阳墓出世，早早便吸引了众多大能围观。</Display> 
+				<Display>The birth of Yang Tomb attracted many powerful observers early.</Display> 
 				<OKResult><![CDATA[	
 					me:TriggerStory("YM1");
 
@@ -1653,7 +1653,7 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>阴墓被段德和叶凡所发现。</Display> 
+				<Display>Yin Tomb was discovered by Duan De and Ye Fan.</Display> 
 				<OKResult><![CDATA[	
 					me:TriggerStory("YF1");
 
@@ -1661,9 +1661,9 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>不，我不想。</Display> 
+				<Display>No, I don't want to.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得自己不是爱管闲事的人，所以就走了。");
+					me:AddMsg("[NAME] felt that he was not a nosy person, so he left.");
 
 				]]>
 				</OKResult>
@@ -1672,18 +1672,18 @@
 	</Story>
 	
 	<Story Name="YM1"  Parent="BaseFillingStory">
-		<DisplayName>妖帝阳墓</DisplayName>
-		<Desc>沸腾的岩浆，红的异常妖艳，不断向外涌出，如鲜红的血水一般，那座光灿灿的古殿缓缓升起，渐渐要脱离火山口。</Desc>
+		<DisplayName>Tomb of Demon Emperor Yang</DisplayName>
+		<Desc>The boiling magma, the red abnormal voluptuousness, keeps gushing out, like the bright red blood, the glorious ancient temple rises slowly, and is about to break away from the crater.</Desc>
 		<Selections>
 			<li>
-				<Display>妖帝坟外围。（解锁道经，携带菩提子可获得秘宝）</Display> 
+				<Display>Outside the demon grave. (Unlock Taoist scriptures and bring bodhi to get secret treasure)</Display> 
 				<OKResult><![CDATA[	
 				if world:IsGongUnLocked("Gong_DJ") == false then
-					me:AddMsg("[NAME]独自一人在外围徘徊，混乱中居然获得了道经。");
+					me:AddMsg("[NAME] was wandering around alone, and actually got the Tao in the chaos.");
 					me:UnLockGong("Gong_DJ");me:DropAwardItem("Item_Dan_TreeEXP", 1);
 				else
 				    if me:CheckItemEquptCount("Item_PTZ") == 1 and world:GetWorldFlag(445) == 0 then
-						me:AddMsg("[NAME]在获得道经后进行了短暂的参悟，居然获得了名道金书。");
+						me:AddMsg("[NAME] gave a brief insight after obtaining the Taoist Sutra, and actually received the Golden Book of Taoism.");
 						world:SetWorldFlag(445,1);me:DropAwardItem("Item_MiBao_MDJS",1);
 						end
 				end	
@@ -1691,15 +1691,15 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>大胆向前走。（金丹期左右方能进行剧情）</Display> 
+				<Display>Go forward boldly. (The plot can only be carried out around the Jindan period)</Display> 
 				<OKResult><![CDATA[	
 				if me:GetGLevel() <= 3 then
-						me:AddMsg("[NAME]在混战之中，完全插不上手，只能缩在角落等待大战的结束。");
+						me:AddMsg("[NAME] In the melee, he ca n’t get in the way, and can only stay in the corner and wait for the end of the war.");
 				elseif me:GetGLevel() <= 6 and me:GetLuck() >= 7 then
-						me:AddMsg("[NAME]在混战之中，逍遥自得，一边抗衡着身边的修行者，一边伺机等待妖帝坟的完全打开，随着时间流逝，各大圣地也闻讯而来，[NAME]于乱战之中，有些测测不安，无奈之下带着几个法宝便跑了。");
+						me:AddMsg("[NAME] In the melee, he is content with himself, while contending with the practitioners around him, and waiting for the opportunity to fully open the tomb of the demon emperor. In the middle, some were uneasy and ran away with a few magic weapons in desperation.");
 						me:DropRandomItem("FightFabao", 4, 9);me:AddDamgeFromCache(story.DamageCache,2,3);me:TriggerStory("YM2");
 				elseif me:GetGLevel() >= 9 then
-						me:AddMsg("[NAME]凭借着自身不俗的实力，在外围如入无人之境，获得了不少的法宝。");
+						me:AddMsg("[NAME] By virtue of his own outstanding strength, he has gained a lot of magic weapons when he entered the unmanned area on the periphery.");
 						me:DropRandomItem("FightFabao", 4, 9);me:DropRandomItem("FightFabao", 4, 9);me:DropRandomItem("FightFabao", 4, 9);me:TriggerStory("YM2");
 				end	
 							
@@ -1707,9 +1707,9 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>不，我不想。</Display> 
+				<Display>No, I don't want to.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得太危险了，何必呢。。");
+					me:AddMsg("[NAME] feels too dangerous, so why not. .");
 
 				]]>
 				</OKResult>
@@ -1718,11 +1718,11 @@
 	</Story>
 	
 	<Story Name="YM2"  Parent="BaseFillingStory">
-		<DisplayName>妖帝心</DisplayName>
-		<Desc>宏伟的古殿不断摇颤，几名大妖、灵墟的长老与掌门正在激烈地交锋。</Desc>
+		<DisplayName>Demon Emperor Heart</DisplayName>
+		<Desc>The magnificent ancient temple was trembling, and several big demon and elders of the Spirit Market were fiercely fighting each other.</Desc>
 		<Selections>
 			<li>
-				<Display>各大长老激战之处。（金丹以上方能进行剧情）</Display> 
+				<Display>The battle between the elders. (The plot above Jin Dan can be performed)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() >= 9
@@ -1730,7 +1730,7 @@
 				</Condition>
 				<OKResult><![CDATA[	
 				if  me:GetGLevel() >= 9 and me:GetPhysique() >= 9 and world:GetWorldFlag(446) == 0 then
-						me:AddMsg("[NAME]凭借高深的修为，力抗众人，哪怕是圣地来着也不是[NAME]的对手，在妖帝陵的水晶棺冲出的刹那[NAME]冲上前去抢夺而走，虽然受到了不轻的伤，以及其他圣地的眼红！。");
+						me:AddMsg("[NAME], with his profound practice, resisted everyone, even if it came from the Holy Land and was not an opponent of [NAME], [NAME] rushed forward and snatched away at the moment when the crystal coffin of the Tomb of the Demon Emperor rushed away, although Not only minor injuries, but also the eyes of other holy places! .");
 						world:SetWorldFlag(446,1);me:DropAwardItem("Item_YDX",1);me:AddDamgeFromCache(story.DamageCache,4,4);Map:AddEnemyAtSide("Human",CS.XiaWorld.g_emThingDir.None,math.random(64),CS.XiaWorld.g_emNpcRichLable.Richest);
 						story:FinishSecret();
 					end	
@@ -1738,9 +1738,9 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>不，我不想。</Display> 
+				<Display>No, I don't want to.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得太危险了，何必呢。。");
+					me:AddMsg("[NAME] feels too dangerous, so why not. .");
 
 				]]>
 				</OKResult>
@@ -1749,23 +1749,23 @@
 	</Story>
 	
 	<Story Name="YF1"  Parent="BaseFillingStory">
-		<DisplayName>妖帝阴坟</DisplayName>
-		<Desc>叶凡被段德回头来寻绿铜块，叶凡谎称将绿铜丢入深谭之中。</Desc>
+		<DisplayName>Demon Emperor's Tomb</DisplayName>
+		<Desc>Ye Fan was turned back by Duan De to look for the green copper block. Ye Fan lied about throwing the green copper into Shentan.</Desc>
 		<Selections>
 			<li>
-				<Display>潜入深谭。（要求不能超出金丹期，最后一层要求携带妖帝心与避寒玉，且耐寒千度一下。）</Display> 
+				<Display>Dive into Shentan. (The requirement must not exceed the Jindan period, the last layer requires carrying the demon emperor's heart and cold-proof jade, and is cold-resistant for a thousand degrees.）</Display> 
 				<OKResult><![CDATA[	
 				if me:GetGLevel() <= 3 then
-					me:AddMsg("[NAME]一个猛子扎入深谭之中，emmm这不是找死吗。");
+					me:AddMsg("[NAME] A fierce man plunged into the deep Tan, isn't emmm looking for death?");
 					me:AddDamgeFromCache(story.DamageCache,9,12);
 				elseif me:GetGLevel() <= 6 and me:GetProperty("ToleranceTMin") >= -150 then
-						me:AddMsg("[NAME]热了热身之后，准备齐全，运起护体法身，潜入深谭，但还是没能耐住深谭的极寒，只在谭中获得了些许法宝。");
+						me:AddMsg("[NAME] After warming up, he was fully prepared, transported his body protector and dived into Shen Tan, but he still couldn't withstand Shen Tan's extreme cold, and only obtained some magic weapons in Tan.");
 						me:DropRandomItem("FightFabao", 4, 9);me:DropRandomItem("FightFabao", 4, 9);me:AddDamgeFromCache(story.DamageCache,6,9);
 				elseif me:GetGLevel() <= 6 and me:GetProperty("ToleranceTMin") >= -300 then
-						me:AddMsg("[NAME]这次真的准备很齐全了，自以为能够一口气到谭底，不过他明显想多了，还引了一波妖兽攻家。。太惨了。");
+						me:AddMsg("[NAME] This time I was really well prepared, thinking that I could reach Tan Di in one breath, but he obviously thought too much and also attracted a wave of monsters to attack the house. . It's too awful.");
 						me:DropRandomItem("FightFabao", 4, 9);me:AddDamgeFromCache(story.DamageCache,4,6);me:AddManyYaoShou(nil,6,6,1);story:FinishSecret();
 				elseif me:GetGLevel() <= 9 and me:GetProperty("ToleranceTMin") >= -600 then
-						me:AddMsg("[NAME]凭着高深的境界，和强大的体质到了接近谭底五百米处时，感受到了前方似乎更加地冷。。算了，正要回头时，捡到了一些源！还不亏。");
+						me:AddMsg("[NAME] With a high level of depth and a strong physique, when approaching Tandi 500 meters away, I felt that the front seemed to be even colder. . Forget it, when I was about to go back, I found some sources! Not losing money.");
 						me:DropAwardItem("Item_WSXSY",6);
 						me:DropAwardItem("Item_JSXSY",6);
 						me:DropAwardItem("Item_MSXSY",6);
@@ -1774,19 +1774,19 @@
 						me:DropAwardItem("Item_TSXSY",6);
 						story:FinishSecret();
 				elseif me:GetGLevel() <= 9 and me:CheckItemEquptCount("Item_BHZ") == 1 and me:CheckItemEquptCount("Item_YDX") == 1 and me:GetProperty("ToleranceTMin") <= -1000 then
-						me:AddMsg("[NAME]凭借着避水珠潜入了谭底最深处，却发现居然是一道无比凌厉的杀阵，[NAME]打算退去，但不小心触动了机关，[NAME]看到机关触发后掉落出的一本秘籍，急忙拿了秘籍便冲出去深谭。");
+						me:AddMsg("[NAME] By diving into the deepest part of Tan Di, he found that it was an extremely fierce killing team,[NAME] Planning to retreat, but accidentally touched the organ,[NAME] Seeing a cheat that was dropped after the organ triggered, he hurriedly took it and rushed out of Shen Tan.");
 						me:DropEsoteric("MJ_YDX");me:AddManyYaoShou(nil,9,9,1);story:FinishSecret();
 				else
-					me:AddMsg("[NAME]没能达成最终的金丹以下，带一颗妖帝心，一颗避寒玉，且极限耐寒未达千度以下中的其中一个，虽然没收到伤害。不过很可惜，下次努力吧。。");
+					me:AddMsg("[NAME] Failed to reach the ultimate Jindan below, with a demon emperor's heart, a jade for cold protection, and one of the extreme cold resistance below 1,000 degrees, although no damage was received. But unfortunately, work hard next time. .");
 					story:FinishSecret();
 				end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>不，我不想。</Display> 
+				<Display>No, I don't want to.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得太危险了，何必呢。。");
+					me:AddMsg("[NAME] It feels too dangerous, so why bother. .");
 
 				]]>
 				</OKResult>
@@ -1795,11 +1795,11 @@
 	</Story>
 	
 	<Story Name="TXM"  Parent="BaseFillingStory">
-		<DisplayName>太玄门</DisplayName>
-		<Desc>太玄门经年不朽，虽比不上各大荒古圣地，但也是东荒一隅的超级大势力。适合炼气期弟子前往。</Desc>
+		<DisplayName>Taixuanmen</DisplayName>
+		<Desc>Tai Xuanmen is immortal over the years, although it is not comparable to the ancient holy places of the great waste, but it is also a super power in the corner of Donghuang. Suitable for disciples during the gas refining period.</Desc>
 		<Selections>
 			<li>
-				<Display>太玄主峰。星峰。</Display> 
+				<Display>Taixuan main peak. Star peak.</Display> 
 				<OKResult><![CDATA[	
 					me:TriggerStory("XF");
 
@@ -1807,7 +1807,7 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>太玄门，拙峰。</Display> 
+				<Display>Tai Xuanmen, Humble Peak.</Display> 
 				<OKResult><![CDATA[	
 					me:TriggerStory("ZF");
 
@@ -1815,7 +1815,7 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>太玄门，其他峰。</Display> 
+				<Display>Taixuanmen, other peaks.</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() <= 9
@@ -1823,28 +1823,28 @@
 				</Condition>
 				<OKResult><![CDATA[	
 				if me:GetProperty("NpcFight_SneakValue") <= 3 and me:GetGLevel() <= 3 then
-					me:AddMsg("[NAME]趁着人多眼杂，改变自身的样貌，投入太玄门的其中一座仙山，获得了一本秘籍,不过跑路之前被人发现，追逐中受了点伤。");
+					me:AddMsg("[NAME]Taking advantage of many people's eyes and eyes, he changed his appearance and invested in one of the fairy mountains in Taixuanmen to obtain a cheat book. However, he was found before running and was injured during the chase.");
 					me:DropRandomItem("Esoterica");me:AddDamgeFromCache(story.DamageCache,3,4);story:FinishSecret();
 				elseif me:GetProperty("NpcFight_SneakValue") <= 6 and me:GetGLevel() <= 6 then
-					me:AddMsg("[NAME]趁着人多眼杂，改变自身的样貌，投入太玄门的其中一座仙山，获得了一本秘籍,不过跑路之前被人发现，追逐中受了点轻伤。");
+					me:AddMsg("[NAME] took advantage of many people's eyes, changed his appearance, invested in one of the fairy mountains in Taixuanmen, and obtained a cheat book. However, he was found before running and was slightly injured during the chase.");
 					me:DropRandomItem("Esoterica");me:AddDamgeFromCache(story.DamageCache,3,2);story:FinishSecret();
 				elseif me:GetProperty("NpcFight_SneakValue") <= 9 and me:GetGLevel() <= 9 and me:GetSkillLevel("Fabao") >= 20 and world:GetWorldFlag(467) == 0 then
-					me:AddMsg("[NAME]凭借自身不俗的御器能力，拜入了太玄门一座排名第五的仙峰，获得了重剑诀。");
+					me:AddMsg("[NAME] by virtue of his excellent ability of imperial weapon, visited a fifth-ranked fairy peak in Taixuanmen, and obtained the Epee trick.");
 					world:SetWorldFlag(467,1);me:DropEsoteric("MJ_ZJJ");story:FinishSecret();
 				elseif me:GetSkillLevel("FightSkill") >= 20 and me:GetGLevel() <= 9 and world:GetWorldFlag(468) == 0 then
-					me:AddMsg("[NAME]凭借自身不俗的术法能力，拜入了太玄门一座排名第四的仙峰，获得了炎灭真典。");
+					me:AddMsg("[NAME] by virtue of his good skill ability, he went to a fourth-ranked fairy peak in Taixuanmen, and obtained the Yandian Zhendian.");
 					world:SetWorldFlag(468,1);me:DropEsoteric("MJ_YMZD");story:FinishSecret();
 				elseif me:GetSkillLevel("Barrier") >= 20 and me:GetGLevel() <= 9 and world:GetWorldFlag(469) == 0 then
-					me:AddMsg("[NAME]凭借自身超强的护盾技巧，拜入了太玄门一座排名第三的仙峰，获得了金刚要典。");
+					me:AddMsg("[NAME] With his super shield skills, he went to a third-ranked fairy peak in Taixuanmen and won the King Kong Diamond Classic.");
 					world:SetWorldFlag(469,1);me:DropEsoteric("MJ_JGYD");story:FinishSecret();
 					end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>不，我不想。</Display> 
+				<Display>No, I don't want to.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得自己不是爱管闲事的人，所以就走了。");
+					me:AddMsg("[NAME] felt that he was not a nosy person, so he left.");
 
 				]]>
 				</OKResult>
@@ -1853,24 +1853,24 @@
 	</Story>
 	
 	<Story Name="XF"  Parent="BaseFillingStory">
-		<DisplayName>星峰</DisplayName>
-		<Desc>太玄门一百零八仙山之一，其中以星峰为第一主峰。</Desc>
+		<DisplayName>Xingfeng</DisplayName>
+		<Desc>One of the 108 Immortal Mountains in Taixuanmen, with Xingfeng as the first main peak.</Desc>
 		<Selections>
 			<li>
-				<Display>拜入星峰。</Display> 
+				<Display>Worship the star peak.</Display> 
 				
 				<OKResult><![CDATA[	
 				if me:GetProperty("AbilityLvAddV") <= 30 and me:GetGLevel() <= 3 then
-					me:AddMsg("[NAME]来到了太玄峰，誓要拜入星峰，但是奈何道行不足，境界太低，没人稀罕。");
+					me:AddMsg("[NAME] Came to Taixuanfeng, vowed to worship Xingfeng, but no matter what the way is, the state is too low, no one is rare.");
 					me:TriggerStory("XF");
 				elseif me:GetProperty("AbilityLvAddV") <= 60 and me:GetGLevel() <= 6 then
-					me:AddMsg("[NAME]凭着一手三脚猫的功力混进了太玄门，企图获得其传承，但只获得了一本秘籍，还被人发现，暴打一顿逐出星峰。");
+					me:AddMsg("[NAME] With the skill of a three-legged cat, he mixed into Taixuanmen in an attempt to obtain its inheritance, but only got a cheat book. He was also found and beat out of Xingfeng.");
 					me:DropRandomItem("Esoterica");me:AddDamgeFromCache(story.DamageCache,3,2);story:FinishSecret();
 				elseif me:GetProperty("AbilityLvAddV") <= 150 then
-					me:AddMsg("[NAME]的道行马马虎虎，所以在企图染指传承是，因为一个意外，看到了天上长老与一神秘女子的神秘故事，而被追杀。");
+					me:AddMsg("[NAME] He is so arrogant, so he tried to get involved in inheritance because he was killed after being caught in an accident by seeing the mysterious story of the heavenly elder and a mysterious woman.");
 					Map:AddEnemyAtSide("Human",CS.XiaWorld.g_emThingDir.None,math.random(19),CS.XiaWorld.g_emNpcRichLable.Richest);story:FinishSecret();
 				elseif me:GetIntelligence() >= 8 and me:GetGLevel() >= 9 and world:GetWorldFlag(448) == 0 then
-					me:AddMsg("[NAME]的悟性非凡，在众人之中脱颖而出，拜入了太玄门星峰，获得了星淬秘籍。");
+					me:AddMsg("[NAME] He has an extraordinary savvy, and stands out from the crowd. He went to Tai Xuanmen's Xingfeng and obtained the secret of Xingque.");
 					world:SetWorldFlag(466,1);me:DropEsoteric("MJ_XC");story:FinishSecret();
 				
 					end
@@ -1878,9 +1878,9 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>垃圾太玄门，不拜。</Display> 
+				<Display>The garbage is too mysterious, no worship.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得星峰什么的，还是算了吧。");
+					me:AddMsg("[NAME] I do n’t think Xingfeng is anything.");
 
 				]]>
 				</OKResult>
@@ -1890,11 +1890,11 @@
 	
 	
 	<Story Name="ZF"  Parent="BaseFillingStory">
-		<DisplayName>拙峰</DisplayName>
-		<Desc>太玄门一百零八仙山之一，其中以星峰为第一主峰。</Desc>
+		<DisplayName>Humble peak</DisplayName>
+		<Desc>One of the 108 Immortal Mountains in Taixuanmen, with Xingfeng as the first main peak.</Desc>
 		<Selections>
 			<li>
-				<Display>踏天梯。</Display> 
+				<Display>Step up the ladder.</Display> 
 				
 				<OKResult><![CDATA[	
 				me:TriggerStory("TT");
@@ -1902,7 +1902,7 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>李若愚。（结丹期以上能进行剧情）</Display> 
+				<Display>Li Ruoyu. (A plot can be performed above the Tandan period)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() >= 6
@@ -1910,10 +1910,10 @@
 				</Condition>
 				<OKResult><![CDATA[	
 				if me:GetPerception() >= 8 and world:GetWorldFlag(447) == 0 then
-					me:AddMsg("[NAME]向李若愚躬身一拜（你不如拜群主手动滑稽）之见老人身材枯瘦，显得有些虚弱，也对着[NAME]点点头。");
-					me:AddMsg("李若愚对[NAME]说，你看拙峰，山如其名，无瑰丽景致。无雄伟气势，无灵秀仙根，没有任何出奇之处，你确定要拜入拙峰吗？");
-					me:AddMsg("[NAME]坚定地说，老前辈，晚辈拜入拙峰非一日之思，从小便心生向往。，。。。略去万字浮夸。");
-					me:AddMsg("很好，且看你是否能悟到拙峰的秘宝！。");
+					me:AddMsg("[NAME] bowed to Li Ruoyu's bow (you might as well ridiculously worship the owner). The old man was thin and weak, and nodded at [NAME].");
+					me:AddMsg("Li Ruoyu said to [NAME], look at the Humble Peak, the mountain is just like its name, no magnificent scenery. There is no majestic momentum, no spirit to show fairy roots, no surprises, are you sure you want to worship Humble Peak?");
+					me:AddMsg("[NAME] firmly said that the old and the younger people have come to Humble Peaks for more than a day, and since childhood they yearn for their hearts. ,. . . Omitted 4D exaggeration.");
+					me:AddMsg("Very good, and see if you can realize the secret of Humble Peak! .");
 					world:SetWorldFlag(447,1);me:DropEsoteric("MJ_ZG");story:FinishSecret();
 					end
 
@@ -1922,9 +1922,9 @@
 			</li>
 			
 			<li>
-				<Display>算了，不过是个拙峰罢了。</Display> 
+				<Display>Forget it, it's just a humble peak.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得没啥好东西可以拿了，还是算了吧。");
+					me:AddMsg("[NAME] thinks there is nothing good to take, let ’s forget.");
 
 				]]>
 				</OKResult>
@@ -1933,11 +1933,11 @@
 	</Story>
 	
 	<Story Name="TT"  Parent="BaseFillingStory">
-		<DisplayName>天梯</DisplayName>
-		<Desc>太玄门拙峰的上古流传下来的传承，如若能够踏上第七阶已是天人之姿，如若能够走到头，也许能够在现太玄门的无上秘籍。</Desc>
+		<DisplayName>Ladder</DisplayName>
+		<Desc>The inheritance passed down from the ancients of the Humble Peak of Taixuan Gate, if you can step on the seventh level is already the attitude of heaven and man.</Desc>
 		<Selections>
 			<li>
-				<Display>一阶天梯。</Display> 
+				<Display>First-step ladder.</Display> 
 				
 				<OKResult><![CDATA[	
 				me:TriggerStory("TT_1");
@@ -1945,7 +1945,7 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>二阶天梯。</Display> 
+				<Display>Second ladder.</Display> 
 				
 				<OKResult><![CDATA[	
 				me:TriggerStory("TT_2");
@@ -1953,7 +1953,7 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>三阶天梯。</Display> 
+				<Display>The third step ladder.</Display> 
 				
 				<OKResult><![CDATA[	
 				me:TriggerStory("TT_3");
@@ -1961,7 +1961,7 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>四阶天梯。</Display> 
+				<Display>Four step ladder.</Display> 
 				
 				<OKResult><![CDATA[	
 				me:TriggerStory("TT_4");
@@ -1969,7 +1969,7 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>五阶天梯。</Display> 
+				<Display>Five-step ladder.</Display> 
 				
 				<OKResult><![CDATA[	
 				me:TriggerStory("TT_5");
@@ -1977,7 +1977,7 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>六阶天梯。</Display> 
+				<Display>Six-step ladder.</Display> 
 				
 				<OKResult><![CDATA[	
 				me:TriggerStory("TT_6");
@@ -1985,7 +1985,7 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>七阶天梯。</Display> 
+				<Display>Seventh step ladder.</Display> 
 				
 				<OKResult><![CDATA[	
 				me:TriggerStory("TT_7");
@@ -1993,7 +1993,7 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>八阶天梯。</Display> 
+				<Display>Eight-step ladder.</Display> 
 				
 				<OKResult><![CDATA[	
 				me:TriggerStory("TT_8");
@@ -2001,7 +2001,7 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>九阶天梯。</Display> 
+				<Display>Nine steps ladder.</Display> 
 				
 				<OKResult><![CDATA[	
 				me:TriggerStory("TT_9");
@@ -2010,9 +2010,9 @@
 			</li>
 			
 			<li>
-				<Display>垃圾太玄门，不拜。</Display> 
+				<Display>The garbage is too mysterious, no worship.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
+					me:AddMsg("[NAME] I feel like Humble Peak, but that's it.");
 
 				]]>
 				</OKResult>
@@ -2021,11 +2021,11 @@
 	</Story>
 	
 	<Story Name="TT_1"  Parent="BaseFillingStory">
-		<DisplayName>天梯</DisplayName>
+		<DisplayName>Ladder</DisplayName>
 		
 		<Selections>
 			<li>
-				<Display>一阶天梯。（悟性高于6，只能获得一次，慎重）</Display> 
+				<Display>First-step ladder. (Perception is higher than 6, can only be obtained once, carefully)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() <= 3
@@ -2033,16 +2033,16 @@
 				</Condition>
 				<OKResult><![CDATA[	
 				if me:GetIntelligence() >= 6 and world:GetWorldFlag(466) == 0 then
-					me:AddMsg("[NAME]迈上了第一阶天梯，得到了拙峰的第一阶认可，获得了二十点根本灵力的加成。");
+					me:AddMsg("[NAME] Stepped on the first step ladder, obtained the first step recognition of Humble Peak, and gained a 20-point basic spiritual power bonus.");
 					world:SetWorldFlag(448,1);me:ModifierProperty("_SPECIAL_NOADD_NpcLingMaxValue",20);me:TriggerStory("TT");
 					end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>垃圾太玄门，不拜。</Display> 
+				<Display>The garbage is too mysterious, no worship.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
+					me:AddMsg("[NAME] I feel like Humble Peak, but that's it.");
 
 				]]>
 				</OKResult>
@@ -2051,11 +2051,11 @@
 	</Story>
 	
 	<Story Name="TT_2"  Parent="BaseFillingStory">
-		<DisplayName>天梯</DisplayName>
+		<DisplayName>Ladder</DisplayName>
 		
 		<Selections>
 			<li>
-				<Display>二阶天梯。（悟性高于8，一次获取）</Display> 
+				<Display>Second ladder. (Perception is higher than 8, get once)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() <= 3
@@ -2063,16 +2063,16 @@
 				</Condition>
 				<OKResult><![CDATA[	
 				if me:GetIntelligence() >= 8 and world:GetWorldFlag(449) == 0 then
-					me:AddMsg("[NAME]的悟性还可以，迈上了第二阶天梯，获得了15000点修炼经验。");
+					me:AddMsg("[NAME] The perception is okay, stepped on the second ladder, and gained 15,000 cultivation experience.");
 					world:SetWorldFlag(449,1);world:GetSelectThing().PropertyMgr.Practice:AddPractice("15000");me:TriggerStory("TT");
 					end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>垃圾太玄门，不拜。</Display> 
+				<Display>The garbage is too mysterious, no worship.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
+					me:AddMsg("[NAME] I feel like Humble Peak, but that's it.");
 
 				]]>
 				</OKResult>
@@ -2081,11 +2081,11 @@
 	</Story>
 	
 	<Story Name="TT_3"  Parent="BaseFillingStory">
-		<DisplayName>天梯</DisplayName>
+		<DisplayName>Ladder</DisplayName>
 		
 		<Selections>
 			<li>
-				<Display>三阶天梯。（感知大于6）</Display> 
+				<Display>The third step ladder. (Perception greater than 6)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() <= 3
@@ -2093,16 +2093,16 @@
 				</Condition>
 				<OKResult><![CDATA[	
 				if me:GetPerception() >= 6 and world:GetWorldFlag(450) == 0 then
-						me:AddMsg("[NAME]迈上了第三节天梯，一道玄奇的光芒冲入体内，[NAME]修行潜力被激发，提高了五十的修行速度。");
+						me:AddMsg("[NAME] Ascending the third section of the ladder, a mysterious light rushed into the body,[NAME] The potential for spiritual practice is stimulated, increasing the speed of spiritual practice by fifty.");
 						world:SetWorldFlag(450,1);me:ModifierProperty("DeepPracticeSpeedSpecialCoefficient",50);me:TriggerStory("TT");
 					end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>垃圾太玄门，不拜。</Display> 
+				<Display>The garbage is too mysterious, no worship.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
+					me:AddMsg("[NAME] I feel like Humble Peak, but that's it.");
 
 				]]>
 				</OKResult>
@@ -2111,11 +2111,11 @@
 	</Story>
 		
 	<Story Name="TT_4"  Parent="BaseFillingStory">
-		<DisplayName>天梯</DisplayName>
+		<DisplayName>Ladder</DisplayName>
 		
 		<Selections>
 			<li>
-				<Display>四阶天梯。（感知大于9）</Display> 
+				<Display>Four step ladder. (Perception greater than 9)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() <= 3
@@ -2123,16 +2123,16 @@
 				</Condition>
 				<OKResult><![CDATA[	
 				if me:GetPerception() >= 9 and world:GetWorldFlag(451) == 0 then
-					me:AddMsg("[NAME]登上了第四阶天梯，感知到了一些大道的轨迹，但还是有些难以琢磨，提升了百分五十护盾系数。");
+					me:AddMsg("[NAME] Ascended the fourth ladder, and felt the trajectory of some avenues, but it was still a little difficult to figure out, increasing the shield factor by 50%.");
 					world:SetWorldFlag(451,1);me:ModifierProperty("NpcFight_ShieldConversionRateAddP",0.5);me:TriggerStory("TT");
 					end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>垃圾太玄门，不拜。</Display> 
+				<Display>The garbage is too mysterious, no worship.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
+					me:AddMsg("[NAME] thinks Humble Peak or something, but that's it.");
 
 				]]>
 				</OKResult>
@@ -2141,11 +2141,11 @@
 	</Story>
 		
 	<Story Name="TT_5"  Parent="BaseFillingStory">
-		<DisplayName>天梯</DisplayName>
+		<DisplayName>Ladder</DisplayName>
 		
 		<Selections>
 			<li>
-				<Display>五阶天梯。（御器等级大于20）</Display> 
+				<Display>Five-step ladder. (The royal level is greater than 20)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() <= 6
@@ -2153,16 +2153,16 @@
 				</Condition>
 				<OKResult><![CDATA[	
 				if me:GetSkillLevel("Fabao") >= 20 and world:GetWorldFlag(452) == 0 then
-						me:AddMsg("[NAME]登上了第五阶天梯，一股先天的御器法门涌上心头，可惜无法保存，但提高了[NAME]百分五十的法宝威力。");
+						me:AddMsg("[NAME] climbed the fifth ladder, and a congenital imperial weapon came to mind, but unfortunately it could not be saved, but it increased [NAME] 's 50% magic power.");
 						world:SetWorldFlag(452,1);me:ModifierProperty("NpcFight_FabaoPowerAddP",0.5);me:TriggerStory("TT");
 					end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>垃圾太玄门，不拜。</Display> 
+				<Display>The garbage is too mysterious, no worship.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
+					me:AddMsg("[NAME] I feel like Humble Peak, but that's it.");
 
 				]]>
 				</OKResult>
@@ -2171,11 +2171,11 @@
 	</Story>
 	
 	<Story Name="TT_6"  Parent="BaseFillingStory">
-		<DisplayName>天梯</DisplayName>
+		<DisplayName>Ladder</DisplayName>
 		
 		<Selections>
 			<li>
-				<Display>六阶天梯。（术法技能大于20）</Display> 
+				<Display>Six-step ladder. (Spell skills greater than 20)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() <= 6
@@ -2183,16 +2183,16 @@
 				</Condition>
 				<OKResult><![CDATA[	
 				if me:GetSkillLevel("FightSkill") >= 20 and world:GetWorldFlag(453) == 0 then
-						me:AddMsg("[NAME]登上了第六阶天梯，一股爆裂的法术要诀浮现在[NAME]心头，[NAME]的术法威力得到百分五十提升。");
+						me:AddMsg("[NAME] climbed the sixth ladder, and a burst of spell tips appeared in [NAME]’s mind, and [NAME]’s spell power was increased by 50%.");
 						world:SetWorldFlag(453,1);me:ModifierProperty("NpcFight_SpellPowerAddP",0.5);me:TriggerStory("TT");
 					end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>垃圾太玄门，不拜。</Display> 
+				<Display>The garbage is too mysterious, no worship.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
+					me:AddMsg("[NAME] thinks Humble Peak or something, but that's it.");
 
 				]]>
 				</OKResult>
@@ -2201,11 +2201,11 @@
 	</Story>
 	
 	<Story Name="TT_7"  Parent="BaseFillingStory">
-		<DisplayName>天梯</DisplayName>
+		<DisplayName>Ladder</DisplayName>
 		
 		<Selections>
 			<li>
-				<Display>七阶天梯。（炼丹技能大于20）</Display> 
+				<Display>Seventh step ladder. (Alchemy skills greater than 20)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() <= 6
@@ -2213,16 +2213,16 @@
 				</Condition>
 				<OKResult><![CDATA[	
 				if me:GetSkillLevel("Medicine") >= 20 and world:GetWorldFlag(454) == 0 then
-						me:AddMsg("[NAME]登上了第七阶天梯，一道道绿光笼罩在[NAME]头上，[NAME]幡然醒悟，提高了百分五十的灵力恢复。");
+						me:AddMsg("[NAME] ascended the seventh ladder, and a green light shrouded [NAME] ’s head. [NAME] awakened abruptly, increasing spiritual recovery by 50%.");
 						world:SetWorldFlag(454,1);me:ModifierProperty("LingAbsorbSpeed",0.5);me:TriggerStory("TT");
 					end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>垃圾太玄门，不拜。</Display> 
+				<Display>The garbage is too mysterious, no worship.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
+					me:AddMsg("[NAME] thinks Humble Peak or something, but that's it.");
 
 				]]>
 				</OKResult>
@@ -2231,11 +2231,11 @@
 	</Story>
 		
 	<Story Name="TT_8"  Parent="BaseFillingStory">
-		<DisplayName>天梯</DisplayName>
+		<DisplayName>Ladder</DisplayName>
 		
 		<Selections>
 			<li>
-				<Display>八阶天梯。（炼器技能大于20）</Display> 
+				<Display>Eight-step ladder. (Refinery skill is greater than 20)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() <= 6
@@ -2243,16 +2243,16 @@
 				</Condition>
 				<OKResult><![CDATA[	
 				if me:GetSkillLevel("Manual") >= 20 and world:GetWorldFlag(455) == 0 then
-						me:AddMsg("[NAME]登上了第八阶天梯，望着双手，因为炼器或者干别的而结满的老茧，突然有所感悟。");
+						me:AddMsg("[NAME] Ascended the eighth step ladder, looking at his hands, and suddenly the calluses full of refining equipment or other things suddenly felt.");
 						world:SetWorldFlag(455,1);me:ModifierProperty("FabaoMake_TwelveRateChance",0.5);me:TriggerStory("TT");
 					end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>垃圾太玄门，不拜。</Display> 
+				<Display>The garbage is too mysterious, no worship.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
+					me:AddMsg("[NAME] I feel like Humble Peak, but that's it.");
 
 				]]>
 				</OKResult>
@@ -2261,11 +2261,11 @@
 	</Story>
 	
 	<Story Name="TT_9"  Parent="BaseFillingStory">
-		<DisplayName>天梯</DisplayName>
+		<DisplayName>Ladder</DisplayName>
 		
 		<Selections>
 			<li>
-				<Display>九阶天梯。（悟性大于9，且携带菩提子）</Display> 
+				<Display>Nine steps ladder. (The perception is greater than 9, and carry the bodhi)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() >= 9
@@ -2273,16 +2273,16 @@
 				</Condition>
 				<OKResult><![CDATA[	
 				if me:GetIntelligence() >= 9 and world:GetWorldFlag(456) == 0 and me:CheckItemEquptCount("Item_PTZ") == 1 then
-						me:AddMsg("[NAME]登上了第九阶天梯，凭借着菩提子的神奇功效，慢慢地感受到了拙峰内蕴的真正法门。");
+						me:AddMsg("[NAME] Ascended to the ninth step ladder, with the magical effect of Bodhi, I slowly felt the true method of Humble Peak.");
 						world:SetWorldFlag(456,1);me:DropEsoteric("ZT_JZM_J");story:FinishSecret();
 					end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>垃圾太玄门，不拜。</Display> 
+				<Display>The garbage is too mysterious, no worship.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得拙峰什么的，不过如此。");
+					me:AddMsg("[NAME] I feel like Humble Peak, but that's it.");
 
 				]]>
 				</OKResult>
@@ -2291,11 +2291,11 @@
 	</Story>
 	
 	<Story Name="ZT_ZJC"  Parent="BaseFillingStory">
-		<DisplayName>张家村</DisplayName>
-		<Desc>源天师一脉遗留下来的后代，周遭有不少的流寇，似乎可以打劫打劫、</Desc>
+		<DisplayName>Zhangjiacun</DisplayName>
+		<Desc>The descendants left by the origin of Yuan Tianshi, there are many rogues around, it seems that they can rob and rob,</Desc>
 		<Selections>
 			<li>
-				<Display>洗劫流寇。（结丹期以上最低要求100道行以上。）</Display> 
+				<Display>Looting the rogue. (A minimum of 100 lines or more is required for the period above the Tandan period.)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() >= 6
@@ -2303,7 +2303,7 @@
 				</Condition>
 				<OKResult><![CDATA[	
 				if me:GetIntelligence() >= 10 and me:GetDaoHang() >= 600 then
-						me:AddMsg("[NAME]凭借自身强大的修为洗劫了四方流寇，不给这些小贼一点机会。");
+						me:AddMsg("[NAME] With his powerful repairs, he looted the Sifang Liukou, and did not give these little thieves a chance.");
 						me:DropAwardItem("Item_WSXY",3);
 						me:DropAwardItem("Item_JSXY",3);
 						me:DropAwardItem("Item_MSXY",3);
@@ -2312,7 +2312,7 @@
 						me:DropAwardItem("Item_TSXY",3);me:AddSchoolScore(1,250);
 						story:FinishSecret();
 				elseif me:GetIntelligence() >= 9 and me:GetDaoHang() >= 300 then
-				me:AddMsg("[NAME]偷鸡成了，不过还蚀把米，没打过流寇还引来了一大波流寇");
+				me:AddMsg("[NAME] Stealing the chicken is done, but it is still eclipsing the rice.");
 						me:DropAwardItem("Item_WSXY",3);
 						me:DropAwardItem("Item_JSXY",3);
 						me:DropAwardItem("Item_MSXY",3);
@@ -2321,7 +2321,7 @@
 						me:DropAwardItem("Item_TSXY",3);me:AddSchoolScore(1,150);
 						story:FinishSecret();me:AddEnemy(24,0.5)
 				elseif me:GetIntelligence() >= 6 and me:GetDaoHang() >= 100 then
-					me:AddMsg("[NAME]没偷到鸡成还蚀把米，没打过流寇，被打半死，还引来了一大波流寇");
+					me:AddMsg("[NAME] Did n’t steal the chicken into the eclipse rice, never hit Liu Kou, was beaten half to death, and attracted a large wave of Liu Kou");
 					me:AddDamage("Destroy", "RightEye", 1, XT("暴打"));me:AddDamage("Destroy","LeftEye", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","LeftScapula", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","RightScapula", 1, XT("暴打"));
 						me:DropAwardItem("Item_WSXY",3);
 						me:DropAwardItem("Item_JSXY",3);
@@ -2331,19 +2331,19 @@
 						me:DropAwardItem("Item_TSXY",3);me:AddSchoolScore(1,100);
 						story:FinishSecret();me:AddEnemy(24,0.5)
 				else
-					me:AddMsg("[NAME]的能力差，道行低，来就是送。");
+					me:AddMsg("[NAME] The ability is poor, the road is low, and it is sent.");
 					story:FinishSecret();me:AddEnemy(24,1)
 					end
 				]]>
 				</OKResult>
 				<NOResult><![CDATA[	
-				me:AddMsg("[NAME]的实力这么差，不知道他哪来的自信，被人打残丢茅坑里了。");
+				me:AddMsg("[NAME]'S strength is so bad, I don't know where he came from, he was beaten up and thrown into the pit.");
 				me:AddSchoolScore(1,-500);me:AddDamage("Destroy", "RightEye", 1, XT("暴打"));me:AddDamage("Destroy","LeftEye", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","LeftScapula", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","RightScapula", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","LeftThighbone", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","RightThighbone", 1, XT("暴打"))
 				story:FinishSecret();
 				]]></NOResult>
 			</li>
 			<li>
-				<Display>扶持流寇。（金丹期以上且声望够高）</Display> 
+				<Display>Support Liu Kou. (Jindan period and above and high enough reputation)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() >= 9
@@ -2351,7 +2351,7 @@
 				</Condition>
 				<OKResult><![CDATA[	
 				if me:GetIntelligence() >= 10 and me:GetSchoolScore(0) >= 36000 then
-						me:AddMsg("[NAME]凭借自己的恶名和强大的实力，带着周边的流寇四处洗劫，收获颇丰，但也导致正派人士的愤怒！。");
+						me:AddMsg("[NAME] With his own notoriety and strong strength, he took robbery around with the surrounding rogues and gained a lot, but it also caused the anger of decent people! .");
 						me:DropAwardItem("Item_WSXY",6);
 						me:DropAwardItem("Item_JSXY",6);
 						me:DropAwardItem("Item_MSXY",6);
@@ -2360,7 +2360,7 @@
 						me:DropAwardItem("Item_TSXY",6);me:AddSchoolScore(1,-250);me:AddEnemy(30,0)
 						story:FinishSecret();
 				elseif me:GetIntelligence() >= 9 and me:GetSchoolScore(0) >= 24000 then
-				me:AddMsg("[NAME]可真是个带恶人啊，抢劫流寇就算了，还扶持流寇，周围的门派已经看不下去了。");
+				me:AddMsg("[NAME] But it was really a wicked man, even if he robbed Liu Kou, and still supported Liu Kou, the surrounding martial arts could no longer be seen.");
 						me:DropAwardItem("Item_WSXY",3);
 						me:DropAwardItem("Item_JSXY",3);
 						me:DropAwardItem("Item_MSXY",3);
@@ -2369,7 +2369,7 @@
 						me:DropAwardItem("Item_TSXY",3);me:AddSchoolScore(1,-150);me:AddEnemy(20,0)
 						story:FinishSecret();me:AddEnemy(24,0.5)
 				elseif me:GetIntelligence() >= 6 and me:GetSchoolScore(0) >= 12000 then
-					me:AddMsg("[NAME]这个恶人太菜了，扶持起来的流寇也是菜鸡，所以没有捞到太多好处还被人暴打一顿。被追杀到了门派门口。");
+					me:AddMsg("[NAME] This wicked man is too good, and the supportive Liu Kou is also a chicken. Was chased to the door of the martial arts.");
 					me:AddDamage("Destroy", "RightEye", 1, XT("暴打"));me:AddDamage("Destroy","LeftEye", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","LeftScapula", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","RightScapula", 1, XT("暴打"));
 						me:DropAwardItem("Item_WSXY",1);
 						me:DropAwardItem("Item_JSXY",1);
@@ -2379,20 +2379,20 @@
 						me:DropAwardItem("Item_TSXY",1);me:AddSchoolScore(1,-100);
 						story:FinishSecret();me:AddEnemy(16,1)
 				else
-					me:AddMsg("[NAME]声望都不高，也想扶持流寇？打不死你。");
+					me:AddMsg("[NAME] The reputation is not high, but also want to support Liu Kou? Can't beat you.");
 					story:FinishSecret();me:AddEnemy(24,1)
 					end
 				]]>
 				</OKResult>
 				<NOResult><![CDATA[	
-				me:AddMsg("[NAME]的实力差就算了，还想学别人扶持流寇，真是胆大，打死算了。");
+				me:AddMsg("[NAME] Even if his strength is poor, he still wants to learn from others to support Liu Kou.");
 				me:AddSchoolScore(1,-500);me:AddDamage("Destroy", "RightEye", 1, XT("暴打"));me:AddDamage("Destroy","LeftEye", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","LeftScapula", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","RightScapula", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","LeftThighbone", 1, XT("暴打"));me:AddDamage("Fabao_CutOff","RightThighbone", 1, XT("暴打"))
 				]]></NOResult>
 			</li>
 			<li>
-				<Display>小破村，没兴趣。</Display> 
+				<Display>Xiao Po Village, not interested.</Display> 
 				<OKResult><![CDATA[	
-					me:AddMsg("[NAME]觉得一个小村庄而已，不稀罕。");
+					me:AddMsg("[NAME] It feels like a small village, not uncommon.");
 				]]>
 				</OKResult>
 			</li>

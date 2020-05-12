@@ -33,7 +33,7 @@
 				</li>
 			</Prices>	
 		
-		<FabaoSuffix>道劫,黄金</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Dao, gold</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>Sharp</li>
 			<li>Smooth2</li>
@@ -42,7 +42,7 @@
 			
 		</PhysicalLables>
 		<BeMaterial>    
-			<NamePrefix>道劫,黄金</NamePrefix>   制作物品前缀
+			<NamePrefix>Dao, gold</NamePrefix>   制作物品前缀
 			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少
  
 			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
@@ -135,7 +135,7 @@
 					<SalePrice Value="0" />
 				</li>
 			</Prices>	
-		<FabaoSuffix>凰血,赤金</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Phoenix blood, red gold</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>GreatThing_Ling</li>
 			<li>GreatThing_Attack</li>
@@ -144,7 +144,7 @@
 			
 		</PhysicalLables>
 		<BeMaterial>    
-			<NamePrefix>凰血,赤金</NamePrefix>   制作物品前缀
+			<NamePrefix>Phoenix blood, red gold</NamePrefix>   制作物品前缀
 			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少
  
 			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
@@ -238,7 +238,7 @@
 				</li>
 			</Prices>	
 		
-		<FabaoSuffix>龙刻,龙纹,黑金</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Dragon carving, dragon pattern, black gold</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>GreatThing_Attack</li>
 			<li>GreatThing_Fly</li>
@@ -247,7 +247,7 @@
 			
 		</PhysicalLables>
 		<BeMaterial>    
-			<NamePrefix>龙刻,龙纹,黑金</NamePrefix>   制作物品前缀
+			<NamePrefix>Dragon carving, dragon pattern, black gold</NamePrefix>   制作物品前缀
 			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
 			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
 			
@@ -340,7 +340,7 @@
 				</li>
 			</Prices>	
 		
-		<FabaoSuffix>羽化,飞升,青金</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Feathering, soaring, green gold</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>Precise</li>
 			<li>Hard2</li>
@@ -349,7 +349,7 @@
 			
 		</PhysicalLables>
 		<BeMaterial>    
-			<NamePrefix>羽化,飞升,青金</NamePrefix>   制作物品前缀
+			<NamePrefix>Feathering, soaring, green gold</NamePrefix>   制作物品前缀
 			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
 			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
 			
@@ -442,7 +442,7 @@
 					<SalePrice Value="0" />
 				</li>
 			</Prices>	
-		<FabaoSuffix>神印,神恒,紫金</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Divine Seal, Divine Constant, Purple Gold</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>PhysicalLables_Mu</li>
 			<li>Hard2</li>
@@ -451,7 +451,7 @@
 			
 		</PhysicalLables>
 		<BeMaterial>    
-			<NamePrefix>神印,神恒,紫金</NamePrefix>   制作物品前缀
+			<NamePrefix>Divine Seal, Divine Constant, Purple GoldF</NamePrefix>   制作物品前缀
 			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
 			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
 			
@@ -543,7 +543,7 @@
 					<SalePrice Value="0" />
 				</li>
 			</Prices>	
-		<FabaoSuffix>永,永恒,蓝金</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Eternal, eternal, blue gold</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>PhysicalLables_Shui</li>
 			<li>Light2</li>
@@ -552,7 +552,7 @@
 			
 		</PhysicalLables>
 		<BeMaterial>    
-			<NamePrefix>永,永恒,蓝金</NamePrefix>   制作物品前缀
+			<NamePrefix>Eternal, eternal, blue gold</NamePrefix>   制作物品前缀
 			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
 			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
 			
@@ -644,7 +644,7 @@
 					<SalePrice Value="0" />
 				</li>
 			</Prices>	
-		<FabaoSuffix>仙泣,仙泪,绿金</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Fairy weep, fairy tear, green gold</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>PhysicalLables_Mu</li>
 			<li>Smooth2</li>
@@ -653,7 +653,7 @@
 			
 		</PhysicalLables>
 		<BeMaterial>    
-			<NamePrefix>仙泣,仙泪,绿金</NamePrefix>   制作物品前缀
+			<NamePrefix>Fairy weep, fairy tear, green gold</NamePrefix>   制作物品前缀
 			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
 			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
 			
@@ -745,7 +745,7 @@
 					<SalePrice Value="0" />
 				</li>
 			</Prices>	
-		<FabaoSuffix>玄,黄,母气</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Mysterious, yellow, mother gas</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 	
 			<li>PhysicalLables_None</li>
@@ -755,7 +755,7 @@
 			<li>Heavy2</li>
 		</PhysicalLables>
 		<BeMaterial>    
-			<NamePrefix>玄,黄,母气</NamePrefix>   制作物品前缀
+			<NamePrefix>Mysterious, yellow, mother gas</NamePrefix>   制作物品前缀
 			<CostMultiplier>1</CostMultiplier>   消耗倍数，越低消耗越少  
 			<BuildingTileIDWhenBeMain>-10</BuildingTileIDWhenBeMain>
 			
@@ -848,7 +848,7 @@
 				</li>
 			</Prices>	
 		
-		<FabaoSuffix>玄,黄,母气</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Mysterious, yellow, mother gas</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>PhysicalLables_None</li>
 			<li>Heavy2</li>
@@ -909,7 +909,7 @@
 				</li>
 			</Prices>	
 		
-		<FabaoSuffix>神铜,紫荆</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>God Copper, Bauhinia</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>Precise</li>
 			<li>Heavy2</li>
@@ -965,7 +965,7 @@
 				</li>
 			</Prices>	
 		
-		<FabaoSuffix>神铁</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>God Iron</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>PhysicalLables_Jin</li>
 			<li>Smooth2</li>
@@ -1020,7 +1020,7 @@
 					<SalePrice Value="0" />
 				</li>
 			</Prices>	
-		<FabaoSuffix>大罗银精</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Da Luo Yin Jing</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>PhysicalLables_Jin</li>
 			<li>Smooth2</li>
@@ -1077,7 +1077,7 @@
 				</li>
 			</Prices>	
 		
-		<FabaoSuffix>血钻</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Blood Diamond</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>Heavy1</li>
 			<li>Smooth2</li>
@@ -1133,7 +1133,7 @@
 					<SalePrice Value="0" />
 				</li>
 			</Prices>	
-		<FabaoSuffix>紫玉王</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Purple Jade King</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>Heavy1</li>
 			<li>HighDensity2</li>
@@ -1189,7 +1189,7 @@
 					<SalePrice Value="0" />
 				</li>
 			</Prices>	
-		<FabaoSuffix>银月,神玉</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Yinyue, Shenyu</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>Smooth2</li>
 			<li>HighDensity2</li>
@@ -1245,7 +1245,7 @@
 					<SalePrice Value="0" />
 				</li>
 			</Prices>	
-		<FabaoSuffix>紫焰,神玉</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Ziyan, Shenyu</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>Smooth2</li>
 			<li>GreatThing_AttackLow</li>
@@ -1302,7 +1302,7 @@
 					<SalePrice Value="0" />
 				</li>
 			</Prices>	
-		<FabaoSuffix>九天赤玉,神玉</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Jiutian Chiyu, Shenyu</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>GreatThing_Knock</li>
 			<li>GreatThing_AttackLow</li>
@@ -1359,7 +1359,7 @@
 					<SalePrice Value="0" />
 				</li>
 			</Prices>	
-		<FabaoSuffix>九天白玉壁,神玉</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Nine days white jade wall, Shenyu</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>Smooth2</li>
 			<li>GreatThing_Ling</li>
@@ -1415,7 +1415,7 @@
 					<SalePrice Value="0" />
 				</li>
 			</Prices>	
-		<FabaoSuffix>白玉,神铁</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>White jade, god iron</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>Smooth2</li>
 			<li>GreatThing_Ling</li>
@@ -1472,7 +1472,7 @@
 					<SalePrice Value="0" />
 				</li>
 			</Prices>	
-		<FabaoSuffix>五色神铁</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Five-color god iron</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>GreatThing_Attack</li>
 			<li>GreatThing_Knock</li>
@@ -1529,7 +1529,7 @@
 					<SalePrice Value="0" />
 				</li>
 			</Prices>	
-		<FabaoSuffix>九天碧落,神玉</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Nine days blue sky, Shenyu</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>Smooth2</li>
 			<li>GreatThing_Rot</li>
@@ -1586,7 +1586,7 @@
 				</li>
 			</Prices>	
 		
-		<FabaoSuffix>混沌石</FabaoSuffix>   法宝前缀
+		<FabaoSuffix>Chaos Stone</FabaoSuffix>   法宝前缀
 		<PhysicalLables>   炼宝加成
 			<li>PhysicalLables_Jin</li>
 			<li>PhysicalLables_Mu</li>
