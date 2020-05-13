@@ -214,8 +214,8 @@
 	</Story>
 	
 	<Story Name="ZT_MJ_YMSC"  Parent="BaseFillingStory">
-		<DisplayName>Formation method cheats</DisplayName>
-		<Desc>[NAME]in[PLACE]News of a lost formation cheat nearby</Desc>
+		<DisplayName>Formation method Secret Arts</DisplayName>
+		<Desc>[NAME]in[PLACE]News of a lost formation Secret Art nearby</Desc>
 		<Selections>
 			<li>
 				<Display>Formation? Any good stuff? (Matrix 10)</Display>
@@ -236,7 +236,7 @@
 				<NOResult>
 				<![CDATA[	
 
-				me:AddMsg("[NAME]Have you learned the matrix? Just want to get a cheat? Ok?");
+				me:AddMsg("[NAME]Have you learned the array? Just want to get a Secret Art? Ok?");
 				me:AddSchoolScore(1,-20);
 				me:DropRandomItem("Esoterica");
 				story:FinishSecret()
@@ -278,7 +278,7 @@
 				<NOResult>
 				<![CDATA[	
 
-				me:AddMsg("[NAME]Have you learned alchemy skills? Just want to get a cheat? Ok?");
+				me:AddMsg("[NAME]Have you learned alchemy skills? Just want to get a secret art? Ok?");
 				me:AddSchoolScore(1,-20);
 				me:DropRandomItem("Esoterica");
 				story:FinishSecret()

@@ -1,8 +1,8 @@
 <ThingDefs><List>
 	
 	<ThingDef Type="Item" Name="Item_DJHJ" Parent="MaterialBase">   
-	<ThingName>Road Robbery Gold</ThingName> 名称
-	<TexPath>Spr\Object\CL\DJHJ.PNG</TexPath>  素材图片位置
+	<ThingName>Road Robbery Gold</ThingName> Name
+	<TexPath>Spr\Object\CL\DJHJ.PNG</TexPath>  Image Location
 	<Desc>The immortal gold material used for sacrificing the extreme weapons is golden and transparent.</Desc>  说明
 	<MaxStack>999</MaxStack>  最大堆叠
 	<Rate>12</Rate>   品质
@@ -104,8 +104,8 @@
 	</ThingDef>
 
 	<ThingDef Type="Item" Name="Item_HXCJ" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Phoenix Blood Red Gold</ThingName> 名称
-	<TexPath>Spr\Object\CL\HXCJ.PNG</TexPath>  素材图片位置
+	<ThingName>Phoenix Blood Red Gold</ThingName> Name
+	<TexPath>Spr\Object\CL\HXCJ.PNG</TexPath>  Image Location
 	<Desc>The immortal gold material used for sacrificing the extreme path weapon is extremely sunny, just to the extreme, red as phoenix blood, born with the phoenix pattern, and Ye Fan once obtained a piece left by Emperor Hengyu from the early restricted area.</Desc>  说明
 	<MaxStack>999</MaxStack>  最大堆叠
 	<Rate>12</Rate>   品质
@@ -206,8 +206,8 @@
 	</ThingDef>
 
 	<ThingDef Type="Item" Name="Item_LWHJ" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Dragon pattern black gold</ThingName> 名称
-	<TexPath>Spr\Object\CL\LWHJ.PNG</TexPath>  素材图片位置
+	<ThingName>Dragon pattern black gold</ThingName> Name
+	<TexPath>Spr\Object\CL\LWHJ.PNG</TexPath>  Image Location
 	<Desc>The immortal gold material used for sacrificing the jidao weapon is black and crystalline, and is naturally inscribed with the dragon pattern of the avenue.</Desc>  说明
 	<MaxStack>999</MaxStack>  最大堆叠
 	<Rate>12</Rate>   品质
@@ -308,8 +308,8 @@
 	</ThingDef>
 	
 	<ThingDef Type="Item" Name="Item_YHQJ" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Feather green gold</ThingName> 名称
-	<TexPath>Spr\Object\CL\YHQJ.PNG</TexPath>  素材图片位置
+	<ThingName>Feather green gold</ThingName> Name
+	<TexPath>Spr\Object\CL\YHQJ.PNG</TexPath>  Image Location
 	<Desc>The sacred gold material used for sacrificing extreme path weapons has a layer of ripples like wings, like a flying fairy.</Desc>  说明
 	<MaxStack>999</MaxStack>  最大堆叠
 	<Rate>12</Rate>   品质
@@ -410,8 +410,8 @@
 	</ThingDef>
 			
 	<ThingDef Type="Item" Name="Item_SHZJ" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Miracle Purple Gold</ThingName> 名称
-	<TexPath>Spr\Object\CL\SHZJ.PNG</TexPath>  素材图片位置
+	<ThingName>Miracle Purple Gold</ThingName> Name
+	<TexPath>Spr\Object\CL\SHZJ.PNG</TexPath>  Image Location
 	<Desc>The immortal gold material used for sacrificial jidao weaponry is as brilliant as a purple diamond, exuding a dreamlike brilliance.</Desc>  说明
 	<MaxStack>999</MaxStack>  最大堆叠
 	<Rate>12</Rate>   品质
@@ -512,8 +512,8 @@
 	</ThingDef>
 			
 	<ThingDef Type="Item" Name="Item_YHLJ" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Eternal Blue Gold</ThingName> 名称
-	<TexPath>Spr\Object\CL\YHLJ.PNG</TexPath>  素材图片位置
+	<ThingName>Eternal Blue Gold</ThingName> Name
+	<TexPath>Spr\Object\CL\YHLJ.PNG</TexPath>  Image Location
 	<Desc>The sacred gold material used for sacrificing the jidao weapon is as brilliant as dream, blue light flowing, like the most dazzling star in the universe.</Desc>  说明
 	<MaxStack>999</MaxStack>  最大堆叠
 	<Rate>12</Rate>   品质
@@ -613,8 +613,8 @@
 	</ThingDef>
 			
 	<ThingDef Type="Item" Name="Item_XLLJ" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Fairy Tear Green Gold</ThingName> 名称
-	<TexPath>Spr\Object\CL\XLLJ.PNG</TexPath>  素材图片位置
+	<ThingName>Fairy Tear Green Gold</ThingName> Name
+	<TexPath>Spr\Object\CL\XLLJ.PNG</TexPath>  Image Location
 	<Desc>The sacred gold material used for sacrificing the jidao weapon is as brilliant as dream, blue light flowing, like the most dazzling star in the universe.</Desc>  说明
 	<MaxStack>999</MaxStack>  最大堆叠
 	<Rate>12</Rate>   品质
@@ -714,8 +714,8 @@
 	</ThingDef>
 				
 	<ThingDef Type="Item" Name="Item_XHEQ" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Xuanhuang qi</ThingName> 名称
-	<TexPath>Spr\Object\CL\XHEQ.PNG</TexPath>  素材图片位置
+	<ThingName>Xuanhuang qi</ThingName> Name
+	<TexPath>Spr\Object\CL\XHEQ.PNG</TexPath>  Image Location
 	<Desc>The essence of the initial overflow of heaven and earth is the mother of all things, the treasure of the refiner. Its essence is more precious and unique in the world</Desc>  说明
 	<MaxStack>99</MaxStack>  最大堆叠
 	<Rate>12</Rate>   品质
@@ -816,8 +816,8 @@
 	</ThingDef>
 					
 	<ThingDef Type="Item" Name="Item_XHJC" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Xuanhuang Essence</ThingName> 名称
-	<TexPath>Spr\Object\CL\XHJC.PNG</TexPath>  素材图片位置
+	<ThingName>Xuanhuang Essence</ThingName> Name
+	<TexPath>Spr\Object\CL\XHJC.PNG</TexPath>  Image Location
 	<Desc>The essence of the initial overflow of heaven and earth is the essence of motherhood of all things, unique in the world</Desc>  说明
 	<MaxStack>1</MaxStack>  最大堆叠
 	<Rate>12</Rate>   品质
@@ -877,8 +877,8 @@
 	</ThingDef>
 	
 	<ThingDef Type="Item" Name="Item_ZJST" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Bauhinia God Copper</ThingName> 名称
-	<TexPath>Spr\Object\CL\ZJST.PNG</TexPath>  素材图片位置
+	<ThingName>Bauhinia God Copper</ThingName> Name
+	<TexPath>Spr\Object\CL\ZJST.PNG</TexPath>  Image Location
 	<Desc>Refiner God</Desc>  说明
 	<MaxStack>99</MaxStack>  最大堆叠
 	<Rate>6</Rate>   品质
@@ -933,8 +933,8 @@
 	</ThingDef>
 	
 	<ThingDef Type="Item" Name="Item_ST" Parent="MaterialBase">   Name=模板代码
-	<ThingName>God iron</ThingName> 名称
-	<TexPath>Spr\Object\CL\ST.PNG</TexPath>  素材图片位置
+	<ThingName>God iron</ThingName> Name
+	<TexPath>Spr\Object\CL\ST.PNG</TexPath>  Image Location
 	<Desc>Superior refiner material</Desc>  说明
 	<MaxStack>99</MaxStack>  最大堆叠
 	<Rate>6</Rate>   品质
@@ -989,8 +989,8 @@
 	</ThingDef>
 	
 	<ThingDef Type="Item" Name="Item_DLYJ" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Da Luo Yin Jing</ThingName> 名称
-	<TexPath>Spr\Object\CL\DLYJ.PNG</TexPath>  素材图片位置
+	<ThingName>Da Luo Yin Jing</ThingName> Name
+	<TexPath>Spr\Object\CL\DLYJ.PNG</TexPath>  Image Location
 	<Desc>One of the nine heavenly jade, saint-level materials</Desc>  说明
 	<MaxStack>99</MaxStack>  最大堆叠
 	<Rate>9</Rate>   品质
@@ -1045,8 +1045,8 @@
 	</ThingDef>
 	
 	<ThingDef Type="Item" Name="Item_XZ" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Blood diamond</ThingName> 名称
-	<TexPath>Spr\Object\CL\XZ.PNG</TexPath>  素材图片位置
+	<ThingName>Blood diamond</ThingName> Name
+	<TexPath>Spr\Object\CL\XZ.PNG</TexPath>  Image Location
 	<Desc>One of the nine heavenly gods, saint-level material</Desc>  说明
 	<MaxStack>99</MaxStack>  最大堆叠
 	<Rate>9</Rate>   品质
@@ -1102,8 +1102,8 @@
 	</ThingDef>
 	
 	<ThingDef Type="Item" Name="Item_ZYW" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Purple Jade King</ThingName> 名称
-	<TexPath>Spr\Object\CL\ZYW.PNG</TexPath>  素材图片位置
+	<ThingName>Purple Jade King</ThingName> Name
+	<TexPath>Spr\Object\CL\ZYW.PNG</TexPath>  Image Location
 	<Desc>One of the nine heavenly gods, saint-level material</Desc>  说明
 	<MaxStack>99</MaxStack>  最大堆叠
 	<Rate>9</Rate>   品质
@@ -1158,8 +1158,8 @@
 	</ThingDef>
 	
 	<ThingDef Type="Item" Name="Item_YYSY" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Silver Moon God Jade</ThingName> 名称
-	<TexPath>Spr\Object\CL\YYSY.PNG</TexPath>  素材图片位置
+	<ThingName>Silver Moon God Jade</ThingName> Name
+	<TexPath>Spr\Object\CL\YYSY.PNG</TexPath>  Image Location
 	<Desc>One of the nine heavenly gods, saint-level material</Desc>  说明
 	<MaxStack>99</MaxStack>  最大堆叠
 	<Rate>9</Rate>   品质
@@ -1214,8 +1214,8 @@
 	</ThingDef>
 	
 	<ThingDef Type="Item" Name="Item_ZYSY" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Purple Flame God Jade</ThingName> 名称
-	<TexPath>Spr\Object\CL\ZYSY.PNG</TexPath>  素材图片位置
+	<ThingName>Purple Flame God Jade</ThingName> Name
+	<TexPath>Spr\Object\CL\ZYSY.PNG</TexPath>  Image Location
 	<Desc>One of the nine heavenly gods, saint-level material</Desc>  说明
 	<MaxStack>99</MaxStack>  最大堆叠
 	<Rate>9</Rate>   品质
@@ -1271,8 +1271,8 @@
 	
 	
 	<ThingDef Type="Item" Name="Item_JTCYW" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Jiutian Red Jade King</ThingName> 名称
-	<TexPath>Spr\Object\CL\JTCYW.PNG</TexPath>  素材图片位置
+	<ThingName>Jiutian Red Jade King</ThingName> Name
+	<TexPath>Spr\Object\CL\JTCYW.PNG</TexPath>  Image Location
 	<Desc>One of the nine heavenly gods, saint-level material</Desc>  说明
 	<MaxStack>99</MaxStack>  最大堆叠
 	<Rate>9</Rate>   品质
@@ -1328,8 +1328,8 @@
 	
 	
 	<ThingDef Type="Item" Name="Item_JTBYB" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Jiutian White Jade Wall</ThingName> 名称
-	<TexPath>Spr\Object\CL\BYB.PNG</TexPath>  素材图片位置
+	<ThingName>Jiutian White Jade Wall</ThingName> Name
+	<TexPath>Spr\Object\CL\BYB.PNG</TexPath>  Image Location
 	<Desc>One of the nine heavenly gods, saint-level material</Desc>  说明
 	<MaxStack>99</MaxStack>  最大堆叠
 	<Rate>9</Rate>   品质
@@ -1384,8 +1384,8 @@
 	</ThingDef>
 	
 	<ThingDef Type="Item" Name="Item_YZBYB" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Goat fat white jade iron</ThingName> 名称
-	<TexPath>Spr\Object\CL\YZ.PNG</TexPath>  素材图片位置
+	<ThingName>Goat fat white jade iron</ThingName> Name
+	<TexPath>Spr\Object\CL\YZ.PNG</TexPath>  Image Location
 	<Desc>One of the nine heavenly gods, saint-level material</Desc>  说明
 	<MaxStack>99</MaxStack>  最大堆叠
 	<Rate>9</Rate>   品质
@@ -1441,8 +1441,8 @@
 	
 		
 	<ThingDef Type="Item" Name="Item_WSTJ" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Five-color iron</ThingName> 名称
-	<TexPath>Spr\Object\CL\WSTJ.PNG</TexPath>  素材图片位置
+	<ThingName>Five-color iron</ThingName> Name
+	<TexPath>Spr\Object\CL\WSTJ.PNG</TexPath>  Image Location
 	<Desc>Saint-level material</Desc>  说明
 	<MaxStack>99</MaxStack>  最大堆叠
 	<Rate>9</Rate>   品质
@@ -1498,8 +1498,8 @@
 	
 		
 	<ThingDef Type="Item" Name="Item_JTBLSY" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Nine days blue sky jade</ThingName> 名称
-	<TexPath>Spr\Object\CL\JTBLSY.PNG</TexPath>  素材图片位置
+	<ThingName>Nine days blue sky jade</ThingName> Name
+	<TexPath>Spr\Object\CL\JTBLSY.PNG</TexPath>  Image Location
 	<Desc>One of the nine heavenly gods, saint-level material</Desc>  说明
 	<MaxStack>99</MaxStack>  最大堆叠
 	<Rate>9</Rate>   品质
@@ -1554,8 +1554,8 @@
 	</ThingDef>
 	
 	<ThingDef Type="Item" Name="Item_HDS" Parent="MaterialBase">   Name=模板代码
-	<ThingName>Chaos Stone</ThingName> 名称
-	<TexPath>Spr\Object\CL\HDS.PNG</TexPath>  素材图片位置
+	<ThingName>Chaos Stone</ThingName> Name
+	<TexPath>Spr\Object\CL\HDS.PNG</TexPath>  Image Location
 	<Desc>Emperor-level items are said to increase practice speed.</Desc>  说明
 	<MaxStack>99</MaxStack>  最大堆叠
 	<Rate>12</Rate>   品质

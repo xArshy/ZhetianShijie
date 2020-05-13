@@ -400,7 +400,7 @@
 					me:AddMsg("[NAME]Similar in strength to the Firecrow Taoist, the two sat down and talked for a while,[NAME]It seemed to have realized that his hand shook a bit and wanted to drop down a feather. The angry crow Taoist almost killed himself.");
 					me:DropRandomItem("Esoterica");me:DropRandomItem("Esoterica");me:DropRandomItem("Esoterica");me:DropRandomItem("Esoterica");me:DropRandomItem("FightFabao", 12,12);story:FinishSecret();
 					elseif me:GetGLevel() >= 9 then
-					me:AddMsg("[NAME]The strength is slightly worse, but the fire crow Taoist did not see a stranger can come to this level of fire for a long time, see you still have some understanding, and gave you some materials and cheats.");
+					me:AddMsg("[NAME]The strength is slightly worse, but the fire crow Taoist did not see a stranger can come to this level of fire for a long time, see you still have some understanding, and gave you some materials and Secret Arts.");
 					me:DropAwardItem("Item_XZ",46);me:DropAwardItem("Item_YYSY",46);me:DropAwardItem("Item_DLYJ",46);me:DropAwardItem("Item_ZJST",46);me:DropAwardItem("Item_ST",46);
 					me:DropAwardItem("Item_ZYW",46);me:DropAwardItem("Item_ZYSY",46);me:DropAwardItem("Item_JTCYW",46);me:DropRandomItem("FightFabao", 12,12);me:DropRandomItem("Esoterica");story:FinishSecret();
 	

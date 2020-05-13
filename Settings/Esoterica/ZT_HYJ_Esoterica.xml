@@ -1,421 +1,428 @@
-<Esotericas><List>
-	
-	
-	
-	<Esoterica Name="Gong_HYJ_LH_A1">
-		<DisplayName>Refining Nether</DisplayName>
-		<Icon>Spr\Object\JN\ZT_HYJ\LHXK.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>15</Difficulty>
-		<Desc>Refining all the enemies in the world, once the furnace comes out, no one can fight.</Desc>
-		<GLevel>Qi</GLevel>
-		<Element>Huo</Element>
-		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    Yitiantian \nIncrease the load of the matrix method 25 \nAdd the root bone 2 \nLearn the magic: Refining the void (each use can increase 100 life)[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_LH_1A</Modifier>
-		<Magics>
-			<li>LHXK</li>
-		</Magics>
-	</Esoterica>
-	<Esoterica Name="Gong_HYJ_LH_A1_1">
-		<DisplayName>Refining Nether</DisplayName>
-		 
-		<Icon>Spr\Object\JN\ZT_HYJ\LHXK.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>10</Difficulty>
-		<Desc>Refining all the enemies in the world, once the furnace comes out, no one can fight.</Desc>
-		<GLevel>Qi</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]   Double Sky \nplus five-dimensional attributes1 \nplus personal Reiki 2000 \nplus personal Huiling 1.5[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_LH_1A_1</Modifier>
-	</Esoterica>
-	<Esoterica Name="Gong_HYJ_LH_A1_2">
-		<DisplayName>Refining Nether</DisplayName>
-		 <Desc>Refining all enemies in the world, once the furnace comes out, who can fight</Desc>
-		<Icon>Spr\Object\JN\ZT_HYJ\LHXK.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>10</Difficulty>
-		<GLevel>Qi</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]    Triple Sky \nPlus Potential3 \nPlus Basic Spiritual Power30 \nPlus State of Mind[/color][/size]</EffectDesc>
-		<Modifier>Gong_TDJ_LH_1A_2</Modifier>
-	</Esoterica>
-	
-	
-	
-	
-	<Esoterica Name="Gong_HYJ_DRXW">
-		<DisplayName>Fierce</DisplayName>
-		<Icon>Spr\Object\JN\ZT_HYJ\DRXW.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>10</Difficulty>
-		<Desc>Emperor Hengyu and Fallen Ridge slammed the entire restricted area in order to refine their own extreme emperor soldiers.</Desc>
-		<GLevel>Qi</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]\nAdd spell damage 5 \nRaise the upper limit of the spell level by 10 \nAcquisition: \nFalling the fierce power (each use deducts the opponent's 15000 spiritual power and deserves sacred damage)[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_DRXW</Modifier>
-		<Skills>
-			<li>HYJ_DRXW</li>
-		</Skills>
-	</Esoterica>
-	
-	
-	
-	<Esoterica Name="Gong_HYJ_LH_A3">
-		<DisplayName>From the Vulcan Furnace</DisplayName>
-		 
-		<Icon>Spr\Object\JN\ZT_HYJ\LHSL.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>15</Difficulty>
-		<Desc>Before becoming Emperor, kill the world with the furnace of Vulcan</Desc>
-		<GLevel>Qi</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]\nIncrease the maximum skill level of the refiner \nSpirit Recovery Speed ​​4[/color][/size][/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_LH_3A</Modifier>
-	</Esoterica>
-	
-	<Esoterica Name="Gong_HYJ_LH_A3_1">
-		<DisplayName>From the Vulcan Furnace</DisplayName>
-		<Icon>Spr\Object\JN\ZT_HYJ\LHSL.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>10</Difficulty>
-		<Desc>Before becoming Emperor, kill the world with the furnace of Vulcan</Desc>
-		<GLevel>Qi</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]\nGreatly increase the maximum Aura 3000 \n Reduce spell cooldown 0.5 \n Reduce spell chant 0.5[/color][/size][/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_LH_3A_1</Modifier>
-	</Esoterica>
-	
-	<Esoterica Name="Gong_HYJ_LH_A3_2">
-		<DisplayName>From the Vulcan Furnace</DisplayName>
-		<Icon>Spr\Object\JN\ZT_HYJ\LHSL.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>10</Difficulty>
-		<Desc>Before becoming Emperor, kill the world with the furnace of Vulcan</Desc>
-		<GLevel>Qi</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]\nSignificantly reduce spell consumption by 0.5 \nLearn the secret treasure away from Vulcan furnace \nIncrease spell power3[/color][/size][/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_LH_3A_2</Modifier>
-		<Fabaos>
-			<li>HYJ_LHSL</li>
-		</Fabaos>
-	</Esoterica>
-	
-	
-	
-	<Esoterica Name="Gong_HYJ_LH_B1">
-		<DisplayName>Emperor</DisplayName>
-		<Icon>Spr\Object\JN\ZT_HYJ\DH.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>15</Difficulty>
-		<Desc>Emperor Hengyu once embodyed Shennong, with titles such as "Medicine Ancestor", "Grain First Emperor", "Shen Nong Emperor" and "Di Huang". One of the Three Emperors of Huaxia</Desc>
-		<GLevel>Dan1</GLevel>
-		<Element>Huo</Element>
-		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    Yizhongtian \nPlus furnace value \nPlus opportunity \nLearn the magic of Baicao (each use increases 300 yuan and increases reputation)[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_LH_1B</Modifier>
-		<Magics>
-			<li>DH</li>
-		</Magics>
-	</Esoterica>
-	<Esoterica Name="Gong_HYJ_LH_B1_1">
-		<DisplayName>Emperor</DisplayName>
-		 
-		<Icon>Spr\Object\JN\ZT_HYJ\DH.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>10</Difficulty>
-		<Desc>Emperor Hengyu once embodyed Shennong, with titles such as "Medicine Ancestor", "Grain First Emperor", "Shen Nong Emperor" and "Di Huang". One of the Three Emperors of Huaxia</Desc>
-		<GLevel>Dan1</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508] Double Sky \nMaximum skill level 5 \nMaximum spiritual power value 5000 \nLearn Shennong ’s secret method (regenerate a target by amputating the limb and recast all the parts he has lost. Decrease ten points of condemnation with each use Value, consuming fifty years of life)[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_LH_1B_1</Modifier>
-		<Magics>
-			<li>SNZZ</li>
-		</Magics>
-	</Esoterica>
-	
-	
-	
-	<Esoterica Name="Gong_HYJ_DG_B1">
-		<DisplayName>Shovel</DisplayName>
-		 
-		<Icon>Spr\Object\JN\ZT_HYJ\CCXG.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>15</Difficulty>
-		<Desc>Shennong tasted Baicao and encountered seventy poisons every day.</Desc>
-		<GLevel>Dan1</GLevel>
-		<Element>Tu</Element>
-		<EffectDesc>[size=10][color=#D06508]   Yizhongtian \nAdd 3 times the upper limit of personal aura \nLearn the mystery Baicao Pills \nLearn the magical power: Vine consciousness \nLearn the magical power: Prayer for Heaven \nLearn the magical power: Tian Linjue[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_DG_1B</Modifier>
-		<Magics>
-			<li>HYAbsorbGong_6</li>
-			<li>AbsorbGong_8</li>
-			<li>PrayForSun</li>
-			<li>PrayForRainstorm</li>
-			<li>PrayForFohn</li>
-			<li>PrayForDustStorm</li>
-			<li>PrayForMiasma</li>
-			<li>PlantGrowUp_Gong1</li>
-		</Magics>
-		<Skills>
-			<li>HYJ_BCW</li>
-		</Skills>
-	</Esoterica>
-	<Esoterica Name="Gong_HYJ_DG_B2">
-		<DisplayName>Shovel</DisplayName>
-		 
-		<Icon>Spr\Object\JN\ZT_HYJ\CCXG.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>10</Difficulty>
-		<Desc>Shennong tasted Baicao and encountered seventy poisons every day.</Desc>
-		<GLevel>Dan1</GLevel>
-		<Element>Tu</Element>
-		<EffectDesc>[size=10][color=#D06508]    Double Sky \nAdditional Power4 \nReduce the Singing Time of Spells \nAcquired Magical Powers: Shovel Prosperity \nAcquired Magical Powers: Refined Spirit Crystals[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_DG_2B</Modifier>
-		<Magics>
-			<li>BuildLingWater</li>
-			<li>BuildLing</li>
-			<li>CCXG1</li>
-			<li>BuildLand</li>
-			<li>BuildSea</li>
-			<li>BuildFertileSoil</li>
-			<li>LingCrystalMake</li>
-			
-		</Magics>
-	</Esoterica>
-	
-	
-	
-	<Esoterica Name="Gong_HYJ_LH_B3_SDSS">
-		<DisplayName>Red alchemy</DisplayName>
-		 
-		<Icon>Spr\Object\JN\ZT_HYJ\DGSW.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>15</Difficulty>
-		<Desc>Dao Gong condenses Wudaoshenwan, which can increase 100% of different attributes for one day.</Desc>
-		<GLevel>Dan1</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]\nIncrease Spirit Recovery Speed ​​4 \nMaximum Aura Level 8 \nLearn Pill Recipe: Daomong Shenmaru[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_LH_3B_SDSS</Modifier>
-		<Dans>
-			<li>Dan_XZSZ</li>
-			<li>Dan_FZSZ</li>
-			<li>Dan_PZSZ</li>
-			<li>Dan_SZSZ</li>
-			<li>Dan_GZSZ</li>
-			</Dans>
-	</Esoterica>
-	
-	
-	
-	<Esoterica Name="Gong_HYJ_SJ_C1">
-		<DisplayName>Heng Yu Jing Qu</DisplayName>
-		<Icon>Spr\Object\JN\ZT_HYJ\ZT_TDJ_HY.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>15</Difficulty>
-		<Desc>Hengyu Sacred Furnace</Desc>
-		<GLevel>Dan2</GLevel>
-		<Element>Huo</Element>
-		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    Yitiantian \nPerception plus 1 consciousness plus 1 \nMaximum skill level 10 levels \nSpell power 5[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_SJ_1C</Modifier>
-	</Esoterica>
-	<Esoterica Name="Gong_HYJ_SJ_C1_1">
-		<DisplayName>Heng Yu Jing Qu</DisplayName>
-		 
-		<Icon>Spr\Object\JN\ZT_HYJ\ZT_TDJ_HY.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>10</Difficulty>
-		<Desc>Depressing the Old Road is different</Desc>
-		<GLevel>Dan2</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]    Double Sky \nReduces Spirit Power by 0.25 \nReduces Spell Mana by 0.25[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_SJ_1C_1</Modifier>
-	</Esoterica>
-	<Esoterica Name="Gong_HYJ_SJ_C1_2">
-		<DisplayName>Heng Yu Jing Qu</DisplayName>
-		 
-		<Icon>Spr\Object\JN\ZT_HYJ\ZT_TDJ_HY.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>10</Difficulty>
-		<Desc>If you ask where is the avenue, Hengyu furnace turns into the sky</Desc>
-		<GLevel>Qi</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]    Triple Sky \nIncrease Potential 3 \nIncrease Spell Power by 10 \nReduce Spell Cool by 0.25[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_SJ_1C_2</Modifier>
-	</Esoterica>
-	
-	
-	<Esoterica Name="Gong_HYJ_SJ_C2_YQ">
-		<DisplayName>Tianyan pressure</DisplayName>
-		 
-		<Icon>Spr\Object\JN\ZT_HYJ\TYB.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>15</Difficulty>
-		<Desc>The fire from heaven came to the fire of the Tao, and the world was destroyed</Desc>
-		<GLevel>Dan2</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]\nAcquired Mystery: \nYanyanhuo (reduce the opponent's strength by 100s and 800s)[/color][/size]</EffectDesc>
-		<Skills>
-			<li>HYJ_YYHY</li>
-		</Skills>
-	</Esoterica>
-	
-	<Esoterica Name="Gong_HYJ_SJ_C1_YQ_1">
-		<DisplayName>Tianyan pressure</DisplayName>
-		 
-		<Icon>Spr\Object\JN\ZT_HYJ\TYB.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>10</Difficulty>
-		<Desc>The fire from heaven came to the fire of the Tao, and the world was destroyed</Desc>
-		<GLevel>Dan2</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]\nAcquisition of Mystery: \nFlame Yan Yan (Damage will increase each time.)[/color][/size]</EffectDesc>
-		<Skills>
-			<li>HYJ_YYYY</li>
-		</Skills>
-	</Esoterica>
-	
-		
-	<Esoterica Name="Gong_HYJ_SJ_C3">
-		<DisplayName>Yan Yan Jiu Di</DisplayName>
-		<Icon>Spr\Object\JN\ZT_HYJ\FYJD.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>25</Difficulty>
-		<Desc>The Emperor Hengyu represents the extreme realm of the human race. The Emperor Hengyu is so proud of the past and the present that the whole East is scarce.</Desc>
-		<GLevel>Dan2</GLevel>
-		<Element>Huo</Element>
-		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]        \nIncrease the maximum skill skill level by 10 levels \nReduce spell consumption by 50% \nAdd and reduce spell singing time by 50%[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_SJ_3C</Modifier>
-	</Esoterica>
-	<Esoterica Name="Gong_HYJ_SJ_C3_1">
-		<DisplayName>Yan Yan Jiu Di</DisplayName>
-		 
-		<Icon>Spr\Object\JN\ZT_HYJ\FYJD.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>15</Difficulty>
-		<Desc>The Emperor Hengyu represents the extreme realm of the human race. The Emperor Hengyu is so proud of the past and the present that the whole East is scarce.</Desc>
-		<GLevel>Dan2</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]       \nIncrease spell skill level by 10 \nReduce spell cooling by 50% \nAdd and reduce spell singing time by 50%[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_SJ_3C_1</Modifier>
-	</Esoterica>
-	
-	<Esoterica Name="Gong_HYJ_HL_D1">
-		<DisplayName>Emperor Yan</DisplayName>
-		<Icon>Spr\Object\JN\ZT_HYJ\YD.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>15</Difficulty>
-		<Desc>Emperor Yan was the title of the chief of the Jiang tribe in ancient China.</Desc>
-		<GLevel>God</GLevel>
-		<Element>Huo</Element>
-		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]       \n10 max spell addition level \nPlus personal aura cap 4 \nSecrets: \nYan Mo (Permanent melting of enemy shield value 5.)[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_HL_1D</Modifier>
-		<Skills>
-			<li>HYJ_YM</li>
-		</Skills>
-	</Esoterica>
-	<Esoterica Name="Gong_HYJ_HL_D1_1">
-		<DisplayName>Emperor Yan</DisplayName>
-		 
-		<Icon>Spr\Object\JN\ZT_HYJ\YD.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>10</Difficulty>
-		<Desc>No. Shennong's, also known as Kuiyi's, Lianshan's, and Lieshan's, nicknamed Zhu Xiang.</Desc>
-		<GLevel>God</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]        \nDecrease sacrifice value 30 \nAdditional power 10[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_HL_1D_1</Modifier>
-	</Esoterica>
-	
-	<Esoterica Name="Gong_HYJ_HL_D2">
-		<DisplayName>Hengyu God furnace</DisplayName>
-		<Icon>Spr\Object\JN\ZT_HYJ\HYSL.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>15</Difficulty>
-		<Desc>Emperor Hengyu entered the Taichu restricted area to use the topography of the Fallen Ridge to make a solar god furnace. After he succeeded, he battled with the pursuit of the Supreme Strongman for many days, playing God's desert, and eventually killing him.</Desc>
-		<GLevel>God</GLevel>
-		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    Organ embryo \nIncrease magic power \nPlus refiner speed \nPlus artifact success rate[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_HL_2D</Modifier>
-	</Esoterica>
-	<Esoterica Name="Gong_HYJ_HL_D2_1">
-		<DisplayName>Hengyu God furnace</DisplayName>
-		 
-		<Icon>Spr\Object\JN\ZT_HYJ\HYSL.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>10</Difficulty>
-		<Desc>Emperor Hengyu entered the Taichu restricted area to use the topography of the Fallen Ridge to make a solar god furnace. After he succeeded, he battled with the pursuit of the Supreme Strongman for many days, playing God's desert, and eventually killing him.</Desc>
-		<GLevel>God2</GLevel>
-		<EffectDesc>[size=10][color=#D06508]    Furnace opening \nRefiner quality bonus \nProbability of refining artifacts \nAcquisition of the Emperor: Hengyu God furnace[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_HL_2D_1</Modifier>
-		<Fabaos>
-			<li>HYJ_HYSL</li>
-		</Fabaos>
-	</Esoterica>
-	
-	
-	<Esoterica Name="Gong_HYJ_HL_ld">
-		<DisplayName>Hengyu Real Fire</DisplayName>
-		 
-		<Icon>Spr\Object\JN\ZT_HYJ\HYZH.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>20</Difficulty>
-		<Desc>Emperor Hengyu, the supreme skill realized in the battle of life and death of the Supreme Power.</Desc>
-		<GLevel>God</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]\nLearn Mystery: \nWanjie Burning Immortal[/color][/size]</EffectDesc>
-		<Skills>
-			<li>HYJ_WJFX</li>
-		</Skills>
-	</Esoterica>
-	
-	<Esoterica Name="Gong_HYJ_XT_F1">
-		<DisplayName>Jiuyang Xuantian</DisplayName>
-		<Icon>Spr\Object\JN\ZT_HYJ\JYXT.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>15</Difficulty>
-		<Desc>Emperor Hengyu once fought the enemy to fission in the heavens and the earth, breaking the sun into nine parts.</Desc>
-		<GLevel>God2</GLevel>
-		<Element>Huo</Element>
-		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    One Heavy Sky \nPlus Aura Recovery Speed ​​4 \nMaximum Ability Level 10 \nLearn Mystery[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_XT_1F</Modifier>
-		<Skills>
-			<li>HYJ_JYYR</li>
-		</Skills>
-	</Esoterica>
-	<Esoterica Name="Gong_HYJ_XT_F1_1">
-		<DisplayName>Jiuyang Xuantian</DisplayName>
-		 
-		<Icon>Spr\Object\JN\ZT_HYJ\JYXT.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>20</Difficulty>
-		<Desc>Emperor Hengyu once fought the enemy to fission in the heavens and the earth, breaking the sun into nine parts.</Desc>
-		<GLevel>God2</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]    Double Sky \nAdd wood damage reduction 1 \nAdd shield 4[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_XT_1F_1</Modifier>
-	</Esoterica>
-	
-	
-	<Esoterica Name="Gong_HYJ_XT_ZD">
-		<DisplayName>Red Dust Immortal</DisplayName>
-		 
-		<Icon>Spr\Object\JN\ZT_HYJ\ZT_TDJ_ZD.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>200</Difficulty>
-		<Desc>When I testify, everything is flammable. Everything in the world is just a fire.</Desc>
-		<GLevel>God2</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]\nJia Shou Yuan and Ling Hui Multiplier \nPlus Thirty Primal Distractions \nPlus Furnace Ding \nPlus Artifact Success Rate \nAdditional Power and Addition Power[/color][/size]</EffectDesc>
-		<Modifier>Gong_HYJ_XT_DZ</Modifier>
-		<GodSoulCount>30</GodSoulCount>
-	</Esoterica>
-	
-	
-	
-	
-</List></Esotericas>
+<Esotericas>
+    <List>
+        <Esoterica Name="Gong_HYJ_LH_A1">
+            <DisplayName>Refining Nether</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\LHXK.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>15</Difficulty>
+            <Desc>Refining all the enemies in the world, once the furnace comes out, no
+                one can fight.</Desc>
+            <GLevel>Qi</GLevel>
+            <Element>Huo</Element>
+            <Type>Gong</Type>
+            <EffectDesc>[size=10][color=#D06508] Yitiantian \nIncrease the load of the matrix
+                method 25 \nAdd the root bone 2 \nLearn the magic: Refining the void (each
+                use can increase 100 life)[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_LH_1A</Modifier>
+            <Magics>
+                <li>LHXK</li>
+            </Magics>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_LH_A1_1">
+            <DisplayName>Refining Nether</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\LHXK.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>10</Difficulty>
+            <Desc>Refining all the enemies in the world, once the furnace comes out, no
+                one can fight.</Desc>
+            <GLevel>Qi</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508] Double Sky \nplus five-dimensional attributes1
+                \nplus personal Reiki 2000 \nplus personal Huiling 1.5[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_LH_1A_1</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_LH_A1_2">
+            <DisplayName>Refining Nether</DisplayName>
+            <Desc>Refining all enemies in the world, once the furnace comes out, who can
+                fight</Desc>
+            <Icon>Spr\Object\JN\ZT_HYJ\LHXK.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>10</Difficulty>
+            <GLevel>Qi</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508] Triple Sky \nPlus Potential3 \nPlus Basic Spiritual
+                Power30 \nPlus State of Mind[/color][/size]</EffectDesc>
+            <Modifier>Gong_TDJ_LH_1A_2</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_DRXW">
+            <DisplayName>Fierce</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\DRXW.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>10</Difficulty>
+            <Desc>Emperor Hengyu and Fallen Ridge slammed the entire restricted area in
+                order to refine their own extreme emperor soldiers.</Desc>
+            <GLevel>Qi</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508]\nAdd spell damage 5 \nRaise the upper limit of
+                the spell level by 10 \nAcquisition: \nFalling the fierce power (each use
+                deducts the opponent's 15000 spiritual power and deserves sacred damage)[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_DRXW</Modifier>
+            <Skills>
+                <li>HYJ_DRXW</li>
+            </Skills>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_LH_A3">
+            <DisplayName>From the Vulcan Furnace</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\LHSL.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>15</Difficulty>
+            <Desc>Before becoming Emperor, kill the world with the furnace of Vulcan</Desc>
+            <GLevel>Qi</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508]\nIncrease the maximum skill level of the refiner
+                \nSpirit Recovery Speed ​​4[/color][/size][/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_LH_3A</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_LH_A3_1">
+            <DisplayName>From the Vulcan Furnace</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\LHSL.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>10</Difficulty>
+            <Desc>Before becoming Emperor, kill the world with the furnace of Vulcan</Desc>
+            <GLevel>Qi</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508]\nGreatly increase the maximum Aura 3000 \n Reduce
+                spell cooldown 0.5 \n Reduce spell chant 0.5[/color][/size][/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_LH_3A_1</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_LH_A3_2">
+            <DisplayName>From the Vulcan Furnace</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\LHSL.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>10</Difficulty>
+            <Desc>Before becoming Emperor, kill the world with the furnace of Vulcan</Desc>
+            <GLevel>Qi</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508]\nSignificantly reduce spell consumption by 0.5
+                \nLearn the secret treasure away from Vulcan furnace \nIncrease spell power3[/color][/size][/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_LH_3A_2</Modifier>
+            <Fabaos>
+                <li>HYJ_LHSL</li>
+            </Fabaos>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_LH_B1">
+            <DisplayName>Emperor</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\DH.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>15</Difficulty>
+            <Desc>Emperor Hengyu once embodyed Shennong, with titles such as "Medicine Ancestor",
+                "Grain First Emperor", "Shen Nong Emperor" and "Di Huang". One of the Three
+                Emperors of Huaxia</Desc>
+            <GLevel>Dan1</GLevel>
+            <Element>Huo</Element>
+            <Type>Gong</Type>
+            <EffectDesc>[size=10][color=#D06508] Yizhongtian \nPlus furnace value \nPlus opportunity
+                \nLearn the magic of Baicao (each use increases 300 yuan and increases
+                reputation)[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_LH_1B</Modifier>
+            <Magics>
+                <li>DH</li>
+            </Magics>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_LH_B1_1">
+            <DisplayName>Emperor</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\DH.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>10</Difficulty>
+            <Desc>Emperor Hengyu once embodyed Shennong, with titles such as "Medicine Ancestor",
+                "Grain First Emperor", "Shen Nong Emperor" and "Di Huang". One of the Three
+                Emperors of Huaxia</Desc>
+            <GLevel>Dan1</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508] Double Sky \nMaximum skill level 5 \nMaximum
+                spiritual power value 5000 \nLearn Shennong ’s secret method (regenerate
+                a target by amputating the limb and recast all the parts he has lost. Decrease
+                ten points of condemnation with each use Value, consuming fifty years of
+                life)[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_LH_1B_1</Modifier>
+            <Magics>
+                <li>SNZZ</li>
+            </Magics>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_DG_B1">
+            <DisplayName>Shovel</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\CCXG.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>15</Difficulty>
+            <Desc>Shennong tasted Baicao and encountered seventy poisons every day.</Desc>
+            <GLevel>Dan1</GLevel>
+            <Element>Tu</Element>
+            <EffectDesc>[size=10][color=#D06508] Yizhongtian \nAdd 3 times the upper limit of
+                personal aura \nLearn the mystery Baicao Pills \nLearn the magical power:
+                Vine consciousness \nLearn the magical power: Prayer for Heaven \nLearn
+                the magical power: Tian Linjue[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_DG_1B</Modifier>
+            <Magics>
+                <li>HYAbsorbGong_6</li>
+                <li>AbsorbGong_8</li>
+                <li>PrayForSun</li>
+                <li>PrayForRainstorm</li>
+                <li>PrayForFohn</li>
+                <li>PrayForDustStorm</li>
+                <li>PrayForMiasma</li>
+                <li>PlantGrowUp_Gong1</li>
+            </Magics>
+            <Skills>
+                <li>HYJ_BCW</li>
+            </Skills>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_DG_B2">
+            <DisplayName>Shovel</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\CCXG.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>10</Difficulty>
+            <Desc>Shennong tasted Baicao and encountered seventy poisons every day.</Desc>
+            <GLevel>Dan1</GLevel>
+            <Element>Tu</Element>
+            <EffectDesc>[size=10][color=#D06508] Double Sky \nAdditional Power4 \nReduce the Singing
+                Time of Spells \nAcquired Magical Powers: Shovel Prosperity \nAcquired
+                Magical Powers: Refined Spirit Crystals[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_DG_2B</Modifier>
+            <Magics>
+                <li>BuildLingWater</li>
+                <li>BuildLing</li>
+                <li>CCXG1</li>
+                <li>BuildLand</li>
+                <li>BuildSea</li>
+                <li>BuildFertileSoil</li>
+                <li>LingCrystalMake</li>
+            </Magics>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_LH_B3_SDSS">
+            <DisplayName>Red alchemy</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\DGSW.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>15</Difficulty>
+            <Desc>Dao Gong condenses Wudaoshenwan, which can increase 100% of different
+                attributes for one day.</Desc>
+            <GLevel>Dan1</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508]\nIncrease Spirit Recovery Speed ​​4 \nMaximum
+                Aura Level 8 \nLearn Pill Recipe: Daomong Shenmaru[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_LH_3B_SDSS</Modifier>
+            <Dans>
+                <li>Dan_XZSZ</li>
+                <li>Dan_FZSZ</li>
+                <li>Dan_PZSZ</li>
+                <li>Dan_SZSZ</li>
+                <li>Dan_GZSZ</li>
+            </Dans>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_SJ_C1">
+            <DisplayName>Heng Yu Jing Qu</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\ZT_TDJ_HY.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>15</Difficulty>
+            <Desc>Hengyu Sacred Furnace</Desc>
+            <GLevel>Dan2</GLevel>
+            <Element>Huo</Element>
+            <Type>Gong</Type>
+            <EffectDesc>[size=10][color=#D06508] Yitiantian \nPerception plus 1 consciousness
+                plus 1 \nMaximum skill level 10 levels \nSpell power 5[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_SJ_1C</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_SJ_C1_1">
+            <DisplayName>Heng Yu Jing Qu</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\ZT_TDJ_HY.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>10</Difficulty>
+            <Desc>Depressing the Old Road is different</Desc>
+            <GLevel>Dan2</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508] Double Sky \nReduces Spirit Power by 0.25 \nReduces
+                Spell Mana by 0.25[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_SJ_1C_1</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_SJ_C1_2">
+            <DisplayName>Heng Yu Jing Qu</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\ZT_TDJ_HY.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>10</Difficulty>
+            <Desc>If you ask where is the avenue, Hengyu furnace turns into the sky</Desc>
+            <GLevel>Qi</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508] Triple Sky \nIncrease Potential 3 \nIncrease
+                Spell Power by 10 \nReduce Spell Cool by 0.25[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_SJ_1C_2</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_SJ_C2_YQ">
+            <DisplayName>Tianyan pressure</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\TYB.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>15</Difficulty>
+            <Desc>The fire from heaven came to the fire of the Tao, and the world was destroyed</Desc>
+            <GLevel>Dan2</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508]\nAcquired Mystery: \nYanyanhuo (reduce the opponent's
+                strength by 100s and 800s)[/color][/size]</EffectDesc>
+            <Skills>
+                <li>HYJ_YYHY</li>
+            </Skills>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_SJ_C1_YQ_1">
+            <DisplayName>Tianyan pressure</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\TYB.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>10</Difficulty>
+            <Desc>The fire from heaven came to the fire of the Tao, and the world was destroyed</Desc>
+            <GLevel>Dan2</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508]\nAcquisition of Mystery: \nFlame Yan Yan (Damage
+                will increase each time.)[/color][/size]</EffectDesc>
+            <Skills>
+                <li>HYJ_YYYY</li>
+            </Skills>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_SJ_C3">
+            <DisplayName>Yan Yan Jiu Di</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\FYJD.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>25</Difficulty>
+            <Desc>The Emperor Hengyu represents the extreme realm of the human race. The
+                Emperor Hengyu is so proud of the past and the present that the whole East
+                is scarce.</Desc>
+            <GLevel>Dan2</GLevel>
+            <Element>Huo</Element>
+            <Type>Gong</Type>
+            <EffectDesc>[size=10][color=#D06508] \nIncrease the maximum skill skill level by 10
+                levels \nReduce spell consumption by 50% \nAdd and reduce spell singing
+                time by 50%[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_SJ_3C</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_SJ_C3_1">
+            <DisplayName>Yan Yan Jiu Di</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\FYJD.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>15</Difficulty>
+            <Desc>The Emperor Hengyu represents the extreme realm of the human race. The
+                Emperor Hengyu is so proud of the past and the present that the whole East
+                is scarce.</Desc>
+            <GLevel>Dan2</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508] \nIncrease spell skill level by 10 \nReduce spell
+                cooling by 50% \nAdd and reduce spell singing time by 50%[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_SJ_3C_1</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_HL_D1">
+            <DisplayName>Emperor Yan</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\YD.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>15</Difficulty>
+            <Desc>Emperor Yan was the title of the chief of the Jiang tribe in ancient China.</Desc>
+            <GLevel>God</GLevel>
+            <Element>Huo</Element>
+            <Type>Gong</Type>
+            <EffectDesc>[size=10][color=#D06508] \n10 max spell addition level \nPlus personal
+                aura cap 4 \nSecrets: \nYan Mo (Permanent melting of enemy shield value
+                5.)[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_HL_1D</Modifier>
+            <Skills>
+                <li>HYJ_YM</li>
+            </Skills>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_HL_D1_1">
+            <DisplayName>Emperor Yan</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\YD.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>10</Difficulty>
+            <Desc>No. Shennong's, also known as Kuiyi's, Lianshan's, and Lieshan's, nicknamed
+                Zhu Xiang.</Desc>
+            <GLevel>God</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508] \nDecrease sacrifice value 30 \nAdditional power
+                10[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_HL_1D_1</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_HL_D2">
+            <DisplayName>Hengyu God furnace</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\HYSL.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>15</Difficulty>
+            <Desc>Emperor Hengyu entered the Taichu restricted area to use the topography
+                of the Fallen Ridge to make a solar god furnace. After he succeeded, he
+                battled with the pursuit of the Supreme Strongman for many days, playing
+                God's desert, and eventually killing him.</Desc>
+            <GLevel>God</GLevel>
+            <Type>Gong</Type>
+            <EffectDesc>[size=10][color=#D06508] Organ embryo \nIncrease magic power \nPlus refiner
+                speed \nPlus artifact success rate[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_HL_2D</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_HL_D2_1">
+            <DisplayName>Hengyu God furnace</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\HYSL.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>10</Difficulty>
+            <Desc>Emperor Hengyu entered the Taichu restricted area to use the topography
+                of the Fallen Ridge to make a solar god furnace. After he succeeded, he
+                battled with the pursuit of the Supreme Strongman for many days, playing
+                God's desert, and eventually killing him.</Desc>
+            <GLevel>God2</GLevel>
+            <EffectDesc>[size=10][color=#D06508] Furnace opening \nRefiner quality bonus \nProbability
+                of refining artifacts \nAcquisition of the Emperor: Hengyu God furnace[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_HL_2D_1</Modifier>
+            <Fabaos>
+                <li>HYJ_HYSL</li>
+            </Fabaos>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_HL_ld">
+            <DisplayName>Hengyu Real Fire</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\HYZH.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>20</Difficulty>
+            <Desc>Emperor Hengyu, the supreme skill realized in the battle of life and death
+                of the Supreme Power.</Desc>
+            <GLevel>God</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508]\nLearn Mystery: \nWanjie Burning Immortal[/color][/size]</EffectDesc>
+            <Skills>
+                <li>HYJ_WJFX</li>
+            </Skills>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_XT_F1">
+            <DisplayName>Jiuyang Xuantian</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\JYXT.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>15</Difficulty>
+            <Desc>Emperor Hengyu once fought the enemy to fission in the heavens and the
+                earth, breaking the sun into nine parts.</Desc>
+            <GLevel>God2</GLevel>
+            <Element>Huo</Element>
+            <Type>Gong</Type>
+            <EffectDesc>[size=10][color=#D06508] One Heavy Sky \nPlus Aura Recovery Speed ​​4
+                \nMaximum Ability Level 10 \nLearn Mystery[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_XT_1F</Modifier>
+            <Skills>
+                <li>HYJ_JYYR</li>
+            </Skills>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_XT_F1_1">
+            <DisplayName>Jiuyang Xuantian</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\JYXT.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>20</Difficulty>
+            <Desc>Emperor Hengyu once fought the enemy to fission in the heavens and the
+                earth, breaking the sun into nine parts.</Desc>
+            <GLevel>God2</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508] Double Sky \nAdd wood damage reduction 1 \nAdd
+                shield 4[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_XT_1F_1</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_HYJ_XT_ZD">
+            <DisplayName>Red Dust Immortal</DisplayName>
+            <Icon>Spr\Object\JN\ZT_HYJ\ZT_TDJ_ZD.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>200</Difficulty>
+            <Desc>When I testify, everything is flammable. Everything in the world is just
+                a fire.</Desc>
+            <GLevel>God2</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508]\nJia Shou Yuan and Ling Hui Multiplier \nPlus
+                Thirty Primal Distractions \nPlus Furnace Ding \nPlus Artifact Success
+                Rate \nAdditional Power and Addition Power[/color][/size]</EffectDesc>
+            <Modifier>Gong_HYJ_XT_DZ</Modifier>
+            <GodSoulCount>30</GodSoulCount>
+        </Esoterica>
+    </List>
+</Esotericas>

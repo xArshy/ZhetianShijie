@@ -3,42 +3,42 @@
 	
 	
 	<Esoterica Name="Gong_XHJ_LH_A1">
-		<DisplayName>瑶池仙境</DisplayName>
+		<DisplayName>Yaochi Wonderland</DisplayName>
 		<Icon>Spr\Object\JN\ZT_XHJ_DJ\YCXJ.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>15</Difficulty>
-		<Desc>瑶池，神话中昆仑山上的池名，是西皇母所住的地方。</Desc>
+		<Desc>Yaochi, the name of the pool on the Kunlun Mountain in mythology, is the place where the West Emperor mother lived.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>Shui</Element>
 		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    一重天    \n加五维\n加灵力最大值\n加参悟值领悟系数\n习得秘术：瑶池[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]A heavy day \n plus five dimensions \n plus the maximum spiritual power \n plus the perception value of the perception coefficient \n learned secret technique: Yaochi[/color][/size]</EffectDesc>
 		<Modifier>Gong_XHJ_LH_1A</Modifier>
 		<Skills>
 			<li>XHJ_YC</li>
 		</Skills>
 	</Esoterica>
 	<Esoterica Name="Gong_XHJ_LH_A1_1">
-		<DisplayName>瑶池仙境</DisplayName>
+		<DisplayName>Yaochi Wonderland</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XHJ_DJ\YCXJ.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>瑶池，神话中昆仑山上的池名，是西皇母所住的地方。</Desc>
+		<Desc>Yaochi, the name of the pool on the Kunlun Mountain in mythology, is the place where the West Emperor mother lived.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>Shui</Element>
-		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n加个人灵气\n加个人回灵[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    Double Heaven \nAdd five-dimensional attributes \ nAdd personal aura \ nAdd personal rejuvenation[/color][/size]</EffectDesc>
 		<Modifier>Gong_XHJ_LH_1A_1</Modifier>
 	</Esoterica>
 	<Esoterica Name="Gong_XHJ_LH_A1_2">
-		<DisplayName>瑶池仙境</DisplayName>
+		<DisplayName>Yaochi Wonderland</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XHJ_DJ\YCXJ.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>瑶池，神话中昆仑山上的池名，是西皇母所住的地方。</Desc>
+		<Desc>Yaochi, the name of the pool on the Kunlun Mountain in mythology, is the place where the West Emperor mother lived.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>Shui</Element>
-		<EffectDesc>[size=10][color=#D06508]    三重天    \n加潜力\n加法宝回灵倍率\n加心境[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    Triple Sky \nAdd Potential \nAdd Magic Power Regen Multiplier \nAdd Mood[/color][/size]</EffectDesc>
 		<Modifier>Gong_XHJ_LH_1A_2</Modifier>
 	</Esoterica>
 	

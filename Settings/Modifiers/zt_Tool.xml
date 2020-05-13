@@ -207,7 +207,7 @@
 	</Modifier> 
 	<Modifier Name="ZTFHJ" Type="Normal">
 		<DisplayName>Phoenix Robbery</DisplayName>
-		<Desc>Enhances your mood with 50 and 5 points of charm when worn.</Desc>
+		<Desc>Enhances your mood with 50 and 5 points of Charisma when worn.</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>

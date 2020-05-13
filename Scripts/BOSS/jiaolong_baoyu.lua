@@ -1,4 +1,4 @@
-龙技能暴雨术
+--Dragon skills rainstorm
 local tbTable = GameMain:GetMod("_SkillAction")
 local tbSkill = tbTable:GetSkill("jiaolong_baoyu")
 
@@ -15,7 +15,7 @@ function tbSkill:GetSingTime()
 end
 
 function tbSkill:GetName()
-    return "暴雨术"
+    return "Torrential rain"
 end
 
 function tbSkill:Enter()

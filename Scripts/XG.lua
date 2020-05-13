@@ -1926,7 +1926,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("阴阳教弟子")
+    npc:SetName("Yin and Yang taught his disciples")
     npc.PropertyMgr:AddFeature("ZTofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -1970,7 +1970,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("太初圣地弟子")
+    npc:SetName("In the beginning was the Holy Land disciple")
     npc.PropertyMgr:AddFeature("ZTofBody")
 
     npc.PropertyMgr:SetSex(CS.XiaWorld.g_emNpcSex.Male)
@@ -2017,7 +2017,7 @@ end
 
 function XG:DDLQ()
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("流寇头头")
+    npc:SetName("The leader of the bandits")
     npc.PropertyMgr:AddFeature("ZTofBody")
     npc.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(), 12)
     npc.PropertyMgr.Practice:RandomTree()
@@ -2067,7 +2067,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("流寇头头")
+    npc:SetName("The leader of the bandits")
     npc.PropertyMgr:AddFeature("ZTofBody")
     npc.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(), 12)
     npc.PropertyMgr.Practice:RandomTree()
@@ -2118,7 +2118,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("流寇头头")
+    npc:SetName("The leader of the bandits")
     npc.PropertyMgr:AddFeature("ZTofBody")
     npc.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(), 12)
     npc.PropertyMgr.Practice:RandomTree()
@@ -2169,7 +2169,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("流寇小弟")
+    npc:SetName("Younger brother Liu Kou")
     npc.PropertyMgr:AddFeature("ZTofBody")
     CS.XiaWorld.NpcMgr.Instance:AddNpc(npc, 1200, Map, CS.XiaWorld.Fight.g_emFightCamp.Enemy)
     CS.XiaWorld.ThingMgr.Instance:EquptNpc(npc, 9, CS.XiaWorld.g_emNpcRichLable.Richest)
@@ -2218,7 +2218,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("流寇小弟")
+    npc:SetName("Younger brother Liu Kou")
     npc.PropertyMgr:AddFeature("ZTofBody")
     CS.XiaWorld.NpcMgr.Instance:AddNpc(npc, 1200, Map, CS.XiaWorld.Fight.g_emFightCamp.Enemy)
     CS.XiaWorld.ThingMgr.Instance:EquptNpc(npc, 9, CS.XiaWorld.g_emNpcRichLable.Richest)
@@ -2266,7 +2266,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("流寇小弟")
+    npc:SetName("Younger brother Liu Kou")
     npc.PropertyMgr:AddFeature("ZTofBody")
     CS.XiaWorld.NpcMgr.Instance:AddNpc(npc, 1200, Map, CS.XiaWorld.Fight.g_emFightCamp.Enemy)
     CS.XiaWorld.ThingMgr.Instance:EquptNpc(npc, 9, CS.XiaWorld.g_emNpcRichLable.Richest)
@@ -2314,7 +2314,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("流寇小弟")
+    npc:SetName("Younger brother Liu Kou")
     npc.PropertyMgr:AddFeature("ZTofBody")
     CS.XiaWorld.NpcMgr.Instance:AddNpc(npc, 1200, Map, CS.XiaWorld.Fight.g_emFightCamp.Enemy)
     CS.XiaWorld.ThingMgr.Instance:EquptNpc(npc, 9, CS.XiaWorld.g_emNpcRichLable.Richest)
@@ -2362,7 +2362,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("流寇小弟")
+    npc:SetName("Younger brother Liu Kou")
     npc.PropertyMgr:AddFeature("ZTofBody")
     CS.XiaWorld.NpcMgr.Instance:AddNpc(npc, 1200, Map, CS.XiaWorld.Fight.g_emFightCamp.Enemy)
     CS.XiaWorld.ThingMgr.Instance:EquptNpc(npc, 9, CS.XiaWorld.g_emNpcRichLable.Richest)
@@ -2410,7 +2410,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("流寇小弟")
+    npc:SetName("Younger brother Liu Kou")
     npc.PropertyMgr:AddFeature("ZTofBody")
     CS.XiaWorld.NpcMgr.Instance:AddNpc(npc, 1200, Map, CS.XiaWorld.Fight.g_emFightCamp.Enemy)
     CS.XiaWorld.ThingMgr.Instance:EquptNpc(npc, 9, CS.XiaWorld.g_emNpcRichLable.Richest)
@@ -2458,7 +2458,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("流寇小弟")
+    npc:SetName("Younger brother Liu Kou")
     npc.PropertyMgr:AddFeature("ZTofBody")
     CS.XiaWorld.NpcMgr.Instance:AddNpc(npc, 1200, Map, CS.XiaWorld.Fight.g_emFightCamp.Enemy)
     CS.XiaWorld.ThingMgr.Instance:EquptNpc(npc, 9, CS.XiaWorld.g_emNpcRichLable.Richest)
@@ -2507,7 +2507,7 @@ function XG:DDLQ()
         npc.EnemyType = CS.XiaWorld.Fight.g_emEnemyType.Attacker
     end
     npc = CS.XiaWorld.SpNpcMgr.Instance:CallSpNpc(CS.XiaWorld.SpNpcMgr.Instance:AddSpNpc(nil).Name)
-    npc:SetName("流寇小弟")
+    npc:SetName("Younger brother Liu Kou")
     npc.PropertyMgr:AddFeature("ZTofBody")
     CS.XiaWorld.NpcMgr.Instance:AddNpc(npc, 1200, Map, CS.XiaWorld.Fight.g_emFightCamp.Enemy)
     CS.XiaWorld.ThingMgr.Instance:EquptNpc(npc, 9, CS.XiaWorld.g_emNpcRichLable.Richest)
@@ -2564,7 +2564,7 @@ function XG:YSYB1()
 
         ThingMgr:EquptNpc(npc, 9, CS.XiaWorld.g_emNpcRichLable.Normal)
 
-        npc:AddTitle("贪婪修行者", 0, CS.XiaWorld.g_emNpcTitleType.Normal, 1)
+        npc:AddTitle("Greedy practitioner", 0, CS.XiaWorld.g_emNpcTitleType.Normal, 1)
         npc.PropertyMgr:AddFeature("ZTofBody")
         npc.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(), 12)
         npc.PropertyMgr.Practice:RandomTree()
@@ -2578,7 +2578,7 @@ function XG:YSYB1()
 
             ThingMgr:EquptNpc(npc, 11, CS.XiaWorld.g_emNpcRichLable.Normal)
 
-            npc:AddTitle("贪婪修行者", 0, CS.XiaWorld.g_emNpcTitleType.Normal, 3)
+            npc:AddTitle("Greedy practitioner", 0, CS.XiaWorld.g_emNpcTitleType.Normal, 3)
             npc.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(), 12)
             npc.PropertyMgr.Practice:RandomTree()
             npc.BodyColor = 4
@@ -6537,7 +6537,7 @@ function XG:XJGZ()
 
         ThingMgr:EquptNpc(npc, 9, CS.XiaWorld.g_emNpcRichLable.Normal)
 
-        npc:AddTitle("各州流寇头头", 0, CS.XiaWorld.g_emNpcTitleType.Normal, 3)
+        npc:AddTitle("各州The leader of the bandits", 0, CS.XiaWorld.g_emNpcTitleType.Normal, 3)
         npc.PropertyMgr:AddFeature("ZTofBody")
         npc.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(), 12)
         npc.PropertyMgr.Practice:RandomTree()
@@ -6591,7 +6591,7 @@ function XG:XJGZ()
 
         ThingMgr:EquptNpc(npc, 11, CS.XiaWorld.g_emNpcRichLable.Normal)
 
-        npc:AddTitle("各州流寇头头", 0, CS.XiaWorld.g_emNpcTitleType.Normal, 3)
+        npc:AddTitle("各州The leader of the bandits", 0, CS.XiaWorld.g_emNpcTitleType.Normal, 3)
         npc.PropertyMgr.Practice:Up2Disciple(CS.XiaWorld.PracticeMgr.Instance:RandomGong(), 12)
         npc.PropertyMgr.Practice:RandomTree()
         npc.BodyColor = 4

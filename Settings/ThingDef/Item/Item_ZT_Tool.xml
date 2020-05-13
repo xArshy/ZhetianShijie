@@ -393,7 +393,7 @@
             <ElementKind>Huo</ElementKind>
             <Desc>No one remembers its past in the ancient harp. The passage of time is
                 on the harp. This time the ancient harp recognized Hua Yunfei as the master.
-                . (Equipment can increase charm and mood) by Qingxian</Desc>
+                . (Equipment can increase Charisma and mood) by Qingxian</Desc>
             <Item>
                 <Prices>
                     <TalkType>2</TalkType>
@@ -1444,7 +1444,7 @@
             <ThingName>Veil</ThingName>
             <TexPath>Spr\Object\DJ\ZTL.PNG</TexPath>
             <Desc>Cover the sky, auction house identity certification. Increase the wearer's
-                mood and charm</Desc>
+                mood and Charisma</Desc>
             <MaxHitPoints>10000</MaxHitPoints>
             <Rate>12</Rate>
             <Beauty>12</Beauty>
@@ -1493,7 +1493,7 @@
                 </BeMade>
             </Item>
             <StoryBnts>
-                <li Name="Understanding" Desc="Try to understand the cheat" Story="ZT_DD"
+                <li Name="Understanding" Desc="Try to understand the Secret Art" Story="ZT_DD"
                 Cost="1" Icon="Spr\Object\DJ\yyzt.PNG" />
             </StoryBnts>
             <Element>
@@ -1533,7 +1533,7 @@
                 </PhysicalLables>
             </Item>
             <StoryBnts>
-                <li Name="Understanding" Desc="Try to understand the cheat" Story="ZT_HGSJ"
+                <li Name="Understanding" Desc="Try to understand the Secret Art" Story="ZT_HGSJ"
                 Cost="1" Icon="Spr\Object\DJ\SJL.PNG" />
             </StoryBnts>
             <Element>

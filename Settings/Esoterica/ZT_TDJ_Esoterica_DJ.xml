@@ -100,7 +100,7 @@
 		<GLevel>Dan1</GLevel>
 		<Element>Mu</Element>
 		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    Yitiantian \nPlus furnace value 2000 \nPlus chance1 \nPlus charm1[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    Yitiantian \nPlus furnace value 2000 \nPlus chance1 \nPlus Charisma1[/color][/size]</EffectDesc>
 		<Modifier>Gong_TDJ_LH_1B</Modifier>
 	</Esoterica>
 	<Esoterica Name="Gong_TDJ_LH_B1_1">

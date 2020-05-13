@@ -29,7 +29,7 @@
 	</Mood>
 	<Mood Name="DB">
 		<DisplayName>Fight against piracy</DisplayName>
-		<Desc>Hey, I blame myself for being blind, with a pirated cheat book.</Desc>
+		<Desc>Hey, I blame myself for being blind, with a pirated Secret Art.</Desc>
 		<StoryDesc>Get angry over piracy</StoryDesc>
 		<MaxStack>9999</MaxStack>
 		<StackRatio>0.5</StackRatio>

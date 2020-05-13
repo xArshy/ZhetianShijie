@@ -237,7 +237,7 @@
 		<StarLevel>2</StarLevel>
 		<Difficulty>20</Difficulty>
 		<GLevel>God</GLevel>
-		<Desc>Taixuanmen Xingfeng, a constant succession cheat book, hardened by the power of the stars, you deserve it.</Desc>
+		<Desc>Taixuanmen Xingfeng, a constant succession Secret Art, hardened by the power of the stars, you deserve it.</Desc>
 		<Element>None</Element>
 		<Type>Gong</Type>
 		<EffectDesc>Significantly improve the basic properties of the body.</EffectDesc>
@@ -262,7 +262,7 @@
 		<StarLevel>2</StarLevel>
 		<Difficulty>20</Difficulty>
 		<GLevel>God</GLevel>
-		<Desc>A cheat book</Desc>
+		<Desc>Secret Art</Desc>
 		<Element>None</Element>
 		<Type>Gong</Type>
 		<EffectDesc>After studying, increase the magic power of 300%, the magic power of 300%, and the recovery of 300 magic.</EffectDesc>
@@ -274,7 +274,7 @@
 		<StarLevel>2</StarLevel>
 		<Difficulty>20</Difficulty>
 		<GLevel>Qi</GLevel>
-		<Desc>A cheat book</Desc>
+		<Desc>Secret Art</Desc>
 		<Element>None</Element>
 		<Type>Gong</Type>
 		<EffectDesc>Significantly increase the magic power by 300%, dodge by 50%, reduce the cooldown by 50%.</EffectDesc>
@@ -577,7 +577,7 @@
 		<Icon>Spr\Object\JN\MJ\YDX.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>0</Difficulty>
-		<Desc>Learn to make cheats for the demon heart.</Desc>
+		<Desc>Learn to make secret art for the demon heart.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
 		<Type>None</Type>
@@ -593,7 +593,7 @@
 		<Icon>Spr\Object\JN\MJ\ZG.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>0</Difficulty>
-		<Desc>Gain cheats for making Humble Bow.</Desc>
+		<Desc>Gain Secret Arts for making Humble Bow.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>None</Element>
 		<Type>None</Type>
