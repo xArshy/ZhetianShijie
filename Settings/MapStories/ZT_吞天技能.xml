@@ -81,64 +81,64 @@
 		</Selections>
 	</Story>
 	<Story Name="TTMG_6_2"  Parent="BaseFillingStory">
-		<DisplayName>不灭幻境</DisplayName>
-		<Desc>[NAME]准备好吞噬对方的本源了（吸收不同的小人能获得不同技能等级上限加成，吸收无体质小人则只能提高气海等级上限）。</Desc>
+		<DisplayName>Undying Illusion</DisplayName>
+		<Desc>[NAME] Ready to devour the opponent's source (absorption of different villains can get different skill level upper limit bonus, absorption of non-physical villains can only increase the upper limit of Qihai level).</Desc>
 		<Selections>
 			<li>
-				<Display>吞噬本源</Display>
+				<Display>Devour the origin</Display>
 				<OKResult>
 				<![CDATA[
 				local nR = me:RandomInt(1, 100);
 				if me:GetModifierStack("TTMG_BM") <= 20 then
 					me:AddModifier("TTMG_BM");
 					if nR <= 10 then
-					me:AddMsg("[NAME]的事被路过的修行者发现，还好问题不大。只是一些元神高手而已。");
+					me:AddMsg("[NAME] The matter was discovered by the practitioners passing by, but fortunately the problem was not big. Just some masters of Yuanshen.");
 					me:AddEnemy(24,0)me:AddEnemy(24,0)me:AddEnemy(24,0)
 				elseif nR <= 25 then
-					me:AddMsg("[NAME]在修行吞天魔功的事被路过的妖兽发现，关妖兽什么事。。居然也暴起来进攻");
+					me:AddMsg("[NAME] In the practice of swallowing the devil, it was discovered by passing monsters, what happened to monsters. . Actually violently attacked");
 					me:AddManyYaoShou(nil,12,12,1);me:AddManyYaoShou(nil,12,12,1);me:AddManyYaoShou(nil,12,12,1);
 				elseif nR <= 50 then
-					me:AddMsg("[NAME]修行吞天魔功本就应该在大成之前猥琐一点，奈何被大能级别高手发现。");
+					me:AddMsg("[NAME] The practice of swallowing the devil's demon skills should be a little bit tedious before Dacheng, but it was discovered by the master level master.");
 					GameMain:GetMod("XG"):TTMG1();
 				elseif nR <= 55 then
-					me:AddMsg("可惜可叹，[NAME]的吞天魔功修至今日，也算不容易了，然而却被圣主发现了[NAME]的秘密。");
+					me:AddMsg("Unfortunately,[NAME] It ’s not easy to devise the demon-swallowing deities today, but it was discovered by the Holy Lord [NAME] Secret.");
 					GameMain:GetMod("XG"):TTMG2();
 				elseif nR <= 60 then
-					me:AddMsg("可惜可叹，[NAME]的吞天魔功修至今日，也算不容易了，然而却被圣主带着人发现了[NAME]的秘密。");
+					me:AddMsg("Unfortunately,[NAME] It ’s not easy to devise the demon-swallowing deities today, but it was discovered by the Holy Lord with people [NAME] Secret.");
 					GameMain:GetMod("XG"):TTMG3();
 				elseif nR <= 61 then
-					me:AddMsg("[NAME]修炼这吞天魔功引天地契机，居然获得了狠人大帝的青睐，送下一件吞天魔罐。");
+					me:AddMsg("[NAME] Cultivating this Heaven Swallowing Demon Skill led the world, and actually won the favor of the ruthless emperor, giving away a Heaven Swallowing Devil Pot.");
 					GameMain:GetMod("XG"):TTMG4();
 				elseif nR <= 98 then
-					me:AddMsg("[NAME]修行吞天魔功，不过还好没被人发现。");
+					me:AddMsg("[NAME] Practitioner swallowed the devil's power, but fortunately it was not discovered.");
 				elseif nR <= 100 then
-					me:AddMsg("[NAME]修行吞天魔功时出了点岔子。增强了天劫的强度。");
+					me:AddMsg("[NAME] Something went wrong during the practice of swallowing the demon. Increased the strength of Sky Tribulation.");
 					me:ModifierProperty("GodPenaltyAddV",50);
 				end
 				else
-					me:AddMsg("[NAME]实在吞不下了。");
+					me:AddMsg("[NAME]I can't swallow it.");
 					if nR <= 10 then
-					me:AddMsg("[NAME]的事被路过的修行者发现，还好问题不大。只是一些元神高手而已。");
+					me:AddMsg("[NAME] The matter was discovered by the practitioners passing by, but fortunately the problem was not big. Just some masters of Yuanshen.");
 					me:AddEnemy(24,0)me:AddEnemy(24,0)me:AddEnemy(24,0)
 				elseif nR <= 25 then
-					me:AddMsg("[NAME]在修行吞天魔功的事被路过的妖兽发现，关妖兽什么事。。居然也暴起来进攻");
+					me:AddMsg("[NAME] In the practice of swallowing the devil, it was discovered by passing monsters, what happened to monsters. . Actually violently attacked");
 					me:AddManyYaoShou(nil,12,12,1);me:AddManyYaoShou(nil,12,12,1);me:AddManyYaoShou(nil,12,12,1);
 				elseif nR <= 50 then
-					me:AddMsg("[NAME]修行吞天魔功本就应该在大成之前猥琐一点，奈何被大能级别高手发现。");
+					me:AddMsg("[NAME] The practice of swallowing the devil's demon skills should be a little bit tedious before Dacheng, but it was discovered by the master level master.");
 					GameMain:GetMod("XG"):TTMG1();
 				elseif nR <= 55 then
-					me:AddMsg("可惜可叹，[NAME]的吞天魔功修至今日，也算不容易了，然而却被圣主发现了[NAME]的秘密。");
+					me:AddMsg("Unfortunately,[NAME] It ’s not easy to devise the demon-swallowing deities today, but it was discovered by the Holy Lord [NAME] Secret.");
 					GameMain:GetMod("XG"):TTMG2();
 				elseif nR <= 60 then
-					me:AddMsg("可惜可叹，[NAME]的吞天魔功修至今日，也算不容易了，然而却被圣主带着人发现了[NAME]的秘密。");
+					me:AddMsg("Unfortunately,[NAME] It ’s not easy to devise the demon-swallowing deities today, but it was discovered by the Holy Lord with people [NAME] Secret.");
 					GameMain:GetMod("XG"):TTMG3();
 				elseif nR <= 61 then
-					me:AddMsg("[NAME]修炼这吞天魔功引天地契机，居然获得了狠人大帝的青睐，送下一件吞天魔罐。");
+					me:AddMsg("[NAME] Cultivating this Heaven Swallowing Demon Skill led the world, and actually won the favor of the ruthless emperor, giving away a Heaven Swallowing Devil Pot.");
 					GameMain:GetMod("XG"):TTMG4();
 				elseif nR <= 98 then
-					me:AddMsg("[NAME]修行吞天魔功，不过还好没被人发现。");
+					me:AddMsg("[NAME] Practitioner swallowed the devil's power, but fortunately it was not discovered.");
 				elseif nR <= 100 then
-					me:AddMsg("[NAME]修行吞天魔功时出了点岔子。增强了天劫的强度。");
+					me:AddMsg("[NAME] Something went wrong during the practice of swallowing the demon. Increased the strength of Sky Tribulation.");
 					me:ModifierProperty("GodPenaltyAddV",50);
 				end
 				end
@@ -150,64 +150,64 @@
 		</Selections>
 	</Story>
 	<Story Name="TTMG_6_2_1"  Parent="BaseFillingStory">
-		<DisplayName>不灭幻境</DisplayName>
-		<Desc>[NAME]准备好吞噬对方的本源了（吸收不同的小人能获得不同技能等级上限加成，吸收无体质小人则只能提高气海等级上限）。</Desc>
+		<DisplayName>Undying Illusion</DisplayName>
+		<Desc>[NAME] Ready to devour the opponent's source (absorption of different villains can get different skill level upper limit bonus, absorption of non-physical villains can only increase the upper limit of Qihai level).</Desc>
 		<Selections>
 			<li>
-				<Display>吞噬本源</Display>
+				<Display>Devour the origin</Display>
 				<OKResult>
 				<![CDATA[
 				local nR = me:RandomInt(1, 100);
 				if me:GetModifierStack("TTMG_BM1") <= 20 then
 					me:AddModifier("TTMG_BM1");
 					if nR <= 10 then
-					me:AddMsg("[NAME]的事被路过的修行者发现，还好问题不大。只是一些元神高手而已。");
+					me:AddMsg("[NAME] The matter was discovered by the practitioners passing by, but fortunately the problem was not big. Just some masters of Yuanshen.");
 					me:AddEnemy(24,0)me:AddEnemy(24,0)me:AddEnemy(24,0)
 				elseif nR <= 25 then
-					me:AddMsg("[NAME]在修行吞天魔功的事被路过的妖兽发现，关妖兽什么事。。居然也暴起来进攻");
+					me:AddMsg("[NAME] In the practice of swallowing the devil, it was discovered by passing monsters, what happened to monsters. . Actually violently attacked");
 					me:AddManyYaoShou(nil,12,12,1);me:AddManyYaoShou(nil,12,12,1);me:AddManyYaoShou(nil,12,12,1);
 				elseif nR <= 50 then
-					me:AddMsg("[NAME]修行吞天魔功本就应该在大成之前猥琐一点，奈何被大能级别高手发现。");
+					me:AddMsg("[NAME] The practice of swallowing the devil's demon skills should be a little bit tedious before Dacheng, but it was discovered by the master level master.");
 					GameMain:GetMod("XG"):TTMG1();
 				elseif nR <= 55 then
-					me:AddMsg("可惜可叹，[NAME]的吞天魔功修至今日，也算不容易了，然而却被圣主发现了[NAME]的秘密。");
+					me:AddMsg("Unfortunately,[NAME] It ’s not easy to devise the demon-swallowing deities today, but it was discovered by the Holy Lord [NAME] Secret.");
 					GameMain:GetMod("XG"):TTMG2();
 				elseif nR <= 60 then
-					me:AddMsg("可惜可叹，[NAME]的吞天魔功修至今日，也算不容易了，然而却被圣主带着人发现了[NAME]的秘密。");
+					me:AddMsg("Unfortunately,[NAME] It ’s not easy to devise the demon-swallowing deities today, but it was discovered by the Holy Lord with people [NAME] Secret.");
 					GameMain:GetMod("XG"):TTMG3();
 				elseif nR <= 61 then
-					me:AddMsg("[NAME]修炼这吞天魔功引天地契机，居然获得了狠人大帝的青睐，送下一件吞天魔罐。");
+					me:AddMsg("[NAME] Cultivating this Heaven Swallowing Demon Skill led the world, and actually won the favor of the ruthless emperor, giving away a Heaven Swallowing Devil Pot.");
 					GameMain:GetMod("XG"):TTMG4();
 				elseif nR <= 98 then
-					me:AddMsg("[NAME]修行吞天魔功，不过还好没被人发现。");
+					me:AddMsg("[NAME] Practitioner swallowed the devil's power, but fortunately it was not discovered.");
 				elseif nR <= 100 then
-					me:AddMsg("[NAME]修行吞天魔功时出了点岔子。增强了天劫的强度。");
+					me:AddMsg("[NAME] Something went wrong during the practice of swallowing the demon. Increased the strength of Sky Tribulation.");
 					me:ModifierProperty("GodPenaltyAddV",50);
 				end
 				else
-					me:AddMsg("[NAME]实在吞不下了。");
+					me:AddMsg("[NAME] I can't swallow it.");
 					if nR <= 10 then
-					me:AddMsg("[NAME]的事被路过的修行者发现，还好问题不大。只是一些元神高手而已。");
+					me:AddMsg("[NAME] The matter was discovered by the practitioners passing by, but fortunately the problem was not big. Just some masters of Yuanshen.");
 					me:AddEnemy(24,0)me:AddEnemy(24,0)me:AddEnemy(24,0)
 				elseif nR <= 25 then
-					me:AddMsg("[NAME]在修行吞天魔功的事被路过的妖兽发现，关妖兽什么事。。居然也暴起来进攻");
+					me:AddMsg("[NAME] In the practice of swallowing the devil, it was discovered by passing monsters, what happened to monsters. . Actually violently attacked");
 					me:AddManyYaoShou(nil,12,12,1);me:AddManyYaoShou(nil,12,12,1);me:AddManyYaoShou(nil,12,12,1);
 				elseif nR <= 50 then
-					me:AddMsg("[NAME]修行吞天魔功本就应该在大成之前猥琐一点，奈何被大能级别高手发现。");
+					me:AddMsg("[NAME] The practice of swallowing the devil's demon skills should be a little bit tedious before Dacheng, but it was discovered by the master level master.");
 					GameMain:GetMod("XG"):TTMG1();
 				elseif nR <= 55 then
-					me:AddMsg("可惜可叹，[NAME]的吞天魔功修至今日，也算不容易了，然而却被圣主发现了[NAME]的秘密。");
+					me:AddMsg("Unfortunately,[NAME] It ’s not easy to devise the demon-swallowing deities today, but it was discovered by the Holy Lord [NAME] Secret.");
 					GameMain:GetMod("XG"):TTMG2();
 				elseif nR <= 60 then
-					me:AddMsg("可惜可叹，[NAME]的吞天魔功修至今日，也算不容易了，然而却被圣主带着人发现了[NAME]的秘密。");
+					me:AddMsg("Unfortunately,[NAME] It ’s not easy to devise the demon-swallowing deities today, but it was discovered by the Holy Lord with people [NAME] Secret.");
 					GameMain:GetMod("XG"):TTMG3();
 				elseif nR <= 61 then
-					me:AddMsg("[NAME]修炼这吞天魔功引天地契机，居然获得了狠人大帝的青睐，送下一件吞天魔罐。");
+					me:AddMsg("[NAME]Cultivating this Heaven Swallowing Demon Skill led the world, and actually won the favor of the ruthless emperor, giving away a Heaven Swallowing Devil Pot.");
 					GameMain:GetMod("XG"):TTMG4();
 				elseif nR <= 98 then
-					me:AddMsg("[NAME]修行吞天魔功，不过还好没被人发现。");
+					me:AddMsg("[NAME] Practitioner swallowed the devil's power, but fortunately it was not discovered.");
 				elseif nR <= 100 then
-					me:AddMsg("[NAME]修行吞天魔功时出了点岔子。增强了天劫的强度。");
+					me:AddMsg("[NAME] Something went wrong during the practice of swallowing the demon. Increased the strength of Sky Tribulation.");
 					me:ModifierProperty("GodPenaltyAddV",50);
 				end
 				end

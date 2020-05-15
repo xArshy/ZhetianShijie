@@ -53,7 +53,7 @@
 							me:ModifierProperty("AbilityLvAddV",-50);me:ModifierProperty("WorldMapFlySpeed",0.3);
 							me:ModifierProperty("WorldMapFlySpeedAddP",0.2);me:ModifierProperty("GodPenaltyAddV",-50);
 				elseif me:GetGLevel() >= 9 and me:GetProperty("MaxAge") >= 1500 and me:GetDaoHang() >= 600 then		
-					me:AddMsg("[NAME]企图抢夺天帝经这门功法，运转周身法力企图闯入其中，没想到的是踩到了一块暗砖居然直接进入了传承之地，但天帝发现你是强闯所以降低了你法宝的百分五十的属性。");
+					me:AddMsg("[NAME] Attempt to snatch the Emperor Tian Jing through this skill, and use the whole body mana to try to break into it. Unexpectedly, I stepped on a dark brick and went directly to the place of inheritance. Ten attributes.");
 					me:AddSchoolScore(1,300);
 					me:DropAwardItem("Item_Dan_TreeEXP", 3);
 					me:UnLockGong("Gong_TDJ");
@@ -68,11 +68,11 @@
 				<NOResult>
 				<![CDATA[	
 				if me:GetGLevel() >= 11 and me:GetProperty("MaxAge") >= 1000 and me:GetDaoHang() >= 600 then
-					me:AddMsg("[NAME]撼动天帝的威能，以强横的修为暴力破解法阵，但似乎机缘差了些：法阵破灭的力量竟然波及到了传承本身一同毁灭，[NAME]暗叹一声，只得离开。");
+					me:AddMsg("[NAME]Shaking the power of Heavenly Emperor, using brute force to violently crack the magic circle, but it seems that the chance is a little bit worse: the power of the destruction of the magic circle has spread to the inheritance itself and destroyed together,[NAME] With a sigh, I had to leave.");
 					me:AddSchoolScore(1,500);
 					story:FinishSecret();
 				else
-					me:AddMsg("[NAME]你想干嘛，天帝之威能是你小子能撼动的？开啥玩笑呢？。");
+					me:AddMsg("[NAME]What do you want to do, the power of Heavenly Emperor can be shaken by your kid? Are you kidding me? .");
 					me:AddSchoolScore(1,-500);
 					me:AddDamgeFromCache(story.DamageCache,9,9);
 					story:FinishSecret();
@@ -81,33 +81,33 @@
 				</NOResult>
 			</li>
 			<li>
-				<Display>麻溜滴，接受大帝的传承。</Display> 
+				<Display>Ma Liudi, accept the inheritance of the emperor.</Display> 
 				<OKResult>
 				<![CDATA[	
 				local nR = me:RandomInt(1,100);
 				if me:GetMatchingWithGong("Gong_TDJ") >= 1 then
 					if nR >= 50 then
-					me:AddMsg("[NAME]上前接受阵法的检测，不过天帝认为，玉不琢不成器，所以要给你点磨炼才能成大器。");
+					me:AddMsg("[NAME]I stepped forward to be tested by the formation method, but the emperor believed that jade could not be made into a weapon, so I had to give you some tempering to become a weapon.");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);me:AddManyYaoShou(nil,21,0,9);
 					me:UnLockGong("Gong_TDJ");
 					story:FinishSecret();
 					else
-					me:AddMsg("[NAME]上前接受阵法的检测，天帝见你小子马马虎虎，至少不会51天也撑不过去，就给你了传承。");
+					me:AddMsg("[NAME]When I stepped forward to be tested by the formation method, the Emperor saw your kid is so sloppy, at least 51 days will not be able to withstand it, and I will give you the heritage.");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);me:AddManyYaoShou(nil,21,0,9);me:AddManyYaoShou(nil,21,0,9);me:AddEnemy(21,0)
 					me:UnLockGong("Gong_TDJ");
 					story:FinishSecret();
 					end
 				else
-					me:AddMsg("[NAME]上前接受阵法的检测，但可惜天帝感觉给了你，可能自己会增加天谴，算了吧再见。");
+					me:AddMsg("[NAME]I stepped forward to be tested by the formation method, but unfortunately the Emperor felt that it gave you, maybe he would increase the condemnation, forget it. Bye.");
 				end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>离开</Display>
+				<Display>go away</Display>
 				<OKResult>
 				<![CDATA[	
-				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				me:AddMsg("[NAME] After thinking for a while, I decided not to take risks and turned away.");
 				]]>
 				</OKResult>
 			</li>
@@ -115,22 +115,22 @@
 	</Story>
 
 	<Story Name="ZT_G_THJ"  Parent="BaseFillingStory">
-		<DisplayName>太皇传承</DisplayName>
-		<Desc>[NAME]来到[PLACE]，发现此处竟然是《太皇经》的道统传承，传说太皇拥有无与伦比的攻击力，可以逆行伐仙！拿了就把家里真仙都伐了。</Desc>
+		<DisplayName>Emperor's Legacy</DisplayName>
+		<Desc>[NAME] come [PLACE]It was discovered that this is actually the inheritance of the Taoist Scriptures. It is said that the Taihuang has unparalleled attack power and can retrograde the immortals! Take it and cut down all the real immortals at home.</Desc>
 		<Kind>Secret</Kind>
 		<Selections>
 			<li>
-				<Display>强行夺取？你认真的？（御器等级大于等于20且道行最低要求大于600）</Display> 
+				<Display>Forcibly capture? Are you serious? (The level of the artifact is greater than or equal to 20 and the minimum requirement of Daoxing is greater than 600)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() >= 9 and me:RandomInt(1, 3) == 1
 				]]>
 				</Condition>
-				<Tip>化龙境及机缘</Tip>
+				<Tip>Hualongjing and chance</Tip>
 				<OKResult>
 				<![CDATA[
 				if me:GetGLevel() >= 11 and me:GetSkillLevel("Fabao") >= 20 and me:GetDaoHang() >= 900 then				
-					me:AddMsg("[NAME]手握三尺剑，任阵法攻向己身，一丝无损地来到了通过太皇的考验获得了传承。并获得一定法宝能力地增强");
+					me:AddMsg("[NAME] Holding a three-foot sword in his hand, Ren Zhenfa attacked his body, and came to pass the test of the Taihuang empire without any damage. And gain a certain magic weapon ability to enhance");
 					me:AddSchoolScore(1,500);
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_THJ");
@@ -139,7 +139,7 @@
 							me:ModifierProperty("NpcFight_FabaoRepelDistanceAddV",0.5);me:ModifierProperty("NpcFight_FabaoFlySpeedAddP",0.5);
 							me:ModifierProperty("NpcFight_FabaoTurnSpeedAddP",0.5);me:ModifierProperty("NpcFight_FabaoRepelResistanceAddV",0.5);
 				elseif me:GetGLevel() >= 9 and me:GetSkillLevel("Fabao") >= 20 and me:GetDaoHang() >= 600 then				
-					me:AddMsg("[NAME]纵剑破阵，一道道凌厉剑气破开考验，太皇觉得[NAME]纵是境界差了些，但也算是个可塑之才，不过[NAME]一路至此，不过是强撑罢了。（法术能力降低百分五十）。");
+					me:AddMsg("[NAME] The longitudinal sword broke through, and the sharp sword qi broke the test, the emperor felt [NAME] Although the state is worse, but it is also a plastic talent, but [NAME] All the way to this point, it was nothing but support. (Spell power reduced by 50%).");
 					me:AddSchoolScore(1,200);
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_THJ");
@@ -152,11 +152,11 @@
 				<NOResult>
 				<![CDATA[	
 				if me:GetGLevel() >= 9 and me:GetSkillLevel("Fabao") >= 20 and me:GetDaoHang() >= 900 then
-					me:AddMsg("[NAME]撼动太皇的剑阵，以强横的修为暴力破解法阵，但似乎境界还是低了些：法阵破灭的力量竟然波及到了传承本身一同毁灭，[NAME]暗叹一声，只得离开。");
+					me:AddMsg("[NAME] Shaking the emperor's sword array, using forceful cultivation to violently crack the magic circle, but it seems that the realm is still lower: the power of the magic circle's destruction has spread to the inheritance itself and destroyed together,[NAME] With a sigh, I had to leave.");
 					me:AddSchoolScore(1,1000);
 					story:FinishSecret();
 				else
-					me:AddMsg("[NAME]你怎么动不动就想着抢？。");
+					me:AddMsg("[NAME] Why are you thinking about robbing? .");
 					me:AddSchoolScore(1,-500);
 					me:AddDamgeFromCache(story.DamageCache,9,9);
 					story:FinishSecret();
@@ -165,34 +165,34 @@
 				</NOResult>
 			</li>
 			<li>
-				<Display>太皇的传承。你接受吗？</Display> 
+				<Display>Inheritance of the emperor. Do you accept?</Display> 
 				<OKResult>
 				<![CDATA[	
 				local nR = me:RandomInt(1,100);
 				if me:GetMatchingWithGong("Gong_THJ") >= 1 then
 					if nR >= 60 then
-					me:AddMsg("[NAME]上前接受阵法的检测，太皇的意识瞅了你两眼，行吧勉强合格。");
+					me:AddMsg("[NAME ]When I stepped forward to be tested by the formation method, the Emperor's consciousness glanced at you, and barely passed.");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_THJ");
 					story:FinishSecret();
 					else
-					me:AddMsg("[NAME]上前接受阵法的检测，太皇的意识瞅了你两眼，行吧勉强合格。不过太皇深知温室的花朵生长了也不能顶。于是给你安排了些考验。");
+					me:AddMsg("[NAME]When I stepped forward to be tested by the formation method, the Emperor's consciousness glanced at you, and barely passed. But Tai Huang knew that the flowers in the greenhouse could not grow. So I arranged some tests for you.");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_THJ");
 					GameUlt.CallBoss("Boss_Long", nil, world:RandomInt(0, 0));
 					story:FinishSecret();
 					end
 				else
-					me:AddMsg("[NAME]上前接受阵法的检测，但可惜。太皇不想给你。");
+					me:AddMsg("[NAME] Stepped forward to be tested by the formation, but unfortunately. Tai Huang doesn't want to give it to you.");
 				end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>离开</Display>
+				<Display>go away</Display>
 				<OKResult>
 				<![CDATA[	
-				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				me:AddMsg("[NAME] After thinking for a while, I decided not to take risks and turned away.");
 				]]>
 				</OKResult>
 			</li>
@@ -201,29 +201,29 @@
 
 
 	<Story Name="ZT_G_WSJ"  Parent="BaseFillingStory">
-		<DisplayName>紫山钟响</DisplayName>
-		<Desc>[NAME]来到[PLACE]，发现此处竟然是《无始经》的道统传承，无始大帝，遮天中的传奇人物，永远背对众生，也有人说他前面也是背面。扯远了，无始的传承！绝对是不可错过的变态功法。不对，是无上功法。</Desc>
+		<DisplayName>Purple Mountain Bell</DisplayName>
+		<Desc>[NAME] came to [PLACE] and found that it turned out to be the ancestral inheritance of Wu Shi Jing. Wu Shi Emperor, the legendary character in the sky, always turned his back to all living beings, and some people said that his front is also the back Pull away, inheritance without beginning! Absolutely not to be missed. No, it is supreme practice.</Desc>
 		<Kind>Secret</Kind>
 		<Selections>
 			<li>
-				<Display>强行夺取？你认真的？（极高的境界和修为，同时护盾属性够高。不然就是死）</Display> 
+				<Display>Forcibly capture? Are you serious? (Extremely high realm and cultivation, while the shield attribute is high enough. Otherwise it is death)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() >= 11 and me:RandomInt(1, 3) == 1
 				]]>
 				</Condition>
-				<Tip>化龙境及机缘</Tip>
+				<Tip>Hualongjing and chance</Tip>
 				<OKResult>
 				<![CDATA[	
 				if me:GetGLevel() >= 11 and me:GetSkillLevel("Fabao") >= 20 and me:GetSkillLevel("FightSkill") >= 20 me:GetProperty("NpcFight_SpellCoolDownAddP") >= 10 and me:GetProperty("TreatSpeed") >= 1200 then
-					me:AddMsg("[NAME]来到紫山，一狠心一跺脚，就想着抢，进入紫山后，还好没遇到大黑狗，不过却踩到了狗屎，一波三折，总于获得了无始大帝的传承。");
+					me:AddMsg("[NAME] When I came to Zishan, I stamped my feet with cruelty and thought about grabbing. After entering Zishan, I didn't encounter the big black dog, but stepped on the shit.");
 					me:AddSchoolScore(1,200);
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_WSJ");
 					me:ModifierProperty("NpcFight_ShieldConversionRate",0.5);
 					me:ModifierProperty("NpcFight_ShieldConversionRateAddP",0.5);
 				else
-					me:AddMsg("[NAME]来到紫山，一狠心一跺脚，就想着抢，进入紫山后，但是实力实在通过不来大帝的传承，什么也没得到，还被大帝阵纹削的命不久矣。只得离开。");
+					me:AddMsg("[NAME] When I came to Zishan, I stamped my feet with cruelty and thought about grabbing. After entering Zishan, the strength did not pass through the inheritance of the emperor, and I got nothing. Had to leave.");
 					me:AddSchoolScore(1,10);
 					me:ModifierProperty("NpcFight_ShieldConversionRate",-0.5);
 					me:ModifierProperty("NpcFight_ShieldConversionRateAddP",-0.5);
@@ -234,7 +234,7 @@
 				</OKResult>
 				<NOResult>
 				<![CDATA[	
-					me:AddMsg("[NAME]我看你还是老老实实回门派里吧，各大禁地攻打紫山都进不去更别说你了，等个百八十天，把伤养好在说吧。");
+					me:AddMsg("[NAME] I think you should go back to the school honestly. If you can't get into Zishan from all the forbidden places, let alone you, wait for 180 days and talk about the injury.");
 					me:AddSchoolScore(1,-500);
 					me:AddDamgeFromCache(story.DamageCache,4);
 					story:FinishSecret();
@@ -242,33 +242,33 @@
 				</NOResult>
 			</li>
 			<li>
-				<Display>麻溜滴，接受大帝的传承。</Display> 
+				<Display>Ma Liudi, accept the inheritance of the emperor.</Display> 
 				<OKResult>
 				<![CDATA[	
 				local nR = me:RandomInt(1,100);
 				if me:GetMatchingWithGong("Gong_WSJ") >= 1 then
 					if nR >= 55 then
-					me:AddMsg("[NAME]上前接受阵法的检测，无始大帝心说，我也没有布置阵法啊，你瞎动啥呢。");
+					me:AddMsg("[NAME] When I stepped forward to be tested by the formation, Wu Shi said that I did not arrange the formation. What are you doing?");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_WSJ");
 					story:FinishSecret();
 					else
-					me:AddMsg("[NAME]上前接受阵法的检测，无始大帝心说，我也没有布置阵法啊，你瞎动啥呢。一看这小伙就是没被磨砺过。");
+					me:AddMsg("[NAME] When I stepped forward to be tested by the formation, Wu Shi said that I did not arrange the formation. What are you doing? At first glance, this guy has never been honed.");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);me:AddManyYaoShou(nil,21,0,9);me:AddEnemy(21,0)me:AddEnemy(12,0)
 					me:UnLockGong("Gong_WSJ");
 					story:FinishSecret();
 					end
 				else
-					me:AddMsg("[NAME]上前接受阵法的检测，但可惜无始大帝感觉你小子不大行，怕你堕了他的名声，想了想还是不给你了。");
+					me:AddMsg("[NAME] I stepped forward to be tested by the formation method, but it was a pity that Wu Shi Great Emperor felt that your kid was not good. I was afraid that you might fall into his reputation.");
 				end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>离开</Display>
+				<Display>go away</Display>
 				<OKResult>
 				<![CDATA[	
-				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				me:AddMsg("[NAME] After thinking for a while, I decided not to take risks and turned away.");
 				]]>
 				</OKResult>
 			</li>
@@ -277,30 +277,30 @@
 
 
 	<Story Name="ZT_G_XKJ"  Parent="BaseFillingStory">
-		<DisplayName>虚空大帝传承</DisplayName>
-		<Desc>[NAME]来到[PLACE]，发现此处竟然是《虚空经》的道统传承虚空大帝可以说是最能打的大帝了，一路战到虚空之中。</Desc>
+		<DisplayName>Inheritance of the Nether Emperor</DisplayName>
+		<Desc>[NAME]come [PLACE] It was found that this is actually the ancestral heritage of the "Void", and the Void Emperor can be said to be the most capable emperor, fighting all the way to the void.</Desc>
 		<Kind>Secret</Kind>
 		<Selections>
 			<li>
-				<Display>强行夺取？你认真的？（只要你够快就能抢到，当然最低也要六百道行）</Display> 
+				<Display>Forcibly capture? Are you serious? (As long as you can get it fast enough, of course, the minimum is 600.)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() >= 9 and me:RandomInt(1, 3) == 1
 				]]>
 				</Condition>
-				<Tip>化龙境及机缘</Tip>
+				<Tip>Hualongjing and chance</Tip>
 				<OKResult>
 				<![CDATA[	
 				
 				if me:GetGLevel() >= 11 and me:GetProperty("WorldMapFlySpeed") >= 5 and me:GetDaoHang() >= 900 then
-					me:AddMsg("[NAME]一路过关斩将，来到了虚空经之前，诚心跪拜了一会群主，获取了虚空经。");
+					me:AddMsg("[NAME] Passing through all the way, before coming to the Void Scripture, he bowed down to the group leader sincerely and obtained the Void Scripture.");
 					me:AddSchoolScore(1,200);
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_XKJ");
 					me:ModifierProperty("WorldMapFlySpeed",0.5);
 					me:ModifierProperty("WorldMapFlySpeedAddP",0.5);me:ModifierProperty("GodPenaltyAddV",-100);
 				elseif me:GetGLevel() >= 9 and me:GetProperty("WorldMapFlySpeed") >= 3 and me:GetDaoHang() >= 600 then
-					me:AddMsg("[NAME]一路过关斩将，但是一步迟，步步迟，最终没能追上虚空经，还因为劳累过度而受到了一定的影响。");
+					me:AddMsg("[NAME] Going all the way through the journey, but one step later, one step at a time, and finally failed to catch up with the Void Sutra, and was affected to a certain extent because of overwork.");
 					me:AddSchoolScore(1,200);
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_XKJ");
@@ -314,11 +314,11 @@
 				<![CDATA[	
 				
 				if me:GetGLevel() >= 9 and me:GetProperty("WorldMapFlySpeed") >= 5 and me:GetDaoHang() >= 900 then
-					me:AddMsg("[NAME]撼动大帝的威能，以强横的修为暴力破解法阵，但怎么可能让你如愿呢，没缘分咱就是没缘分的。");
+					me:AddMsg("[NAME] Shake the power of the emperor, and use brute force to violently crack the magic circle, but how can you make you wish, we are not destined.");
 					me:AddSchoolScore(1,1000);
 					story:FinishSecret();
 				else
-					me:AddMsg("[NAME]你想干嘛，大帝之威能是你小子能撼动的？和谁两闹呢？。");
+					me:AddMsg("[NAME] What do you want to do, the power of the emperor can be shaken by your kid? Who are you fighting with? .");
 					me:AddSchoolScore(1,-500);
 					me:AddDamgeFromCache(story.DamageCache,4);
 					story:FinishSecret();
@@ -327,33 +327,33 @@
 				</NOResult>
 			</li>
 			<li>
-				<Display>麻溜滴，接受大帝的传承。</Display> 
+				<Display>Ma Liudi, accept the inheritance of the emperor.</Display> 
 				<OKResult>
 				<![CDATA[	
 				local nR = me:RandomInt(1,100);
 				if me:GetMatchingWithGong("Gong_XKJ") >= 1 then
 					if nR >= 40 then
-					me:AddMsg("[NAME]上前接受阵法的检测，大帝的神识感觉你马马虎虎，没被作者玩死还挺强。就给了你虚空经");
+					me:AddMsg("[NAME] When I stepped forward to be tested by the formation method, the emperor's consciousness felt that you were so sloppy, and it was quite strong without being killed by the author. Gave you the Void Sutra");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_XKJ");
 					story:FinishSecret();
 					else
-					me:AddMsg("[NAME]上前接受阵法的检测，大帝的神识感觉你马马虎虎，如果能挺住不被作者玩死。虚空经就是你的了。");
+					me:AddMsg("[NAME] Going forward to be tested by the formation method, the emperor's consciousness feels that you are so sloppy, if you can hold on, you will not be killed by the author. The Void Sutra is yours.");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);me:AddManyYaoShou(nil,21,0,9);
 					me:UnLockGong("Gong_XKJ");
 					story:FinishSecret();
 					end
 				else
-					me:AddMsg("[NAME]上前接受阵法的检测，但可惜大帝感觉给了你，你也干不了什么，算了吧。。");
+					me:AddMsg("[NAME] Stepped forward to be tested by the formation method, but unfortunately the emperor felt that it was given to you, and you could do nothing, forget it. .");
 				end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>离开</Display>
+				<Display>go away</Display>
 				<OKResult>
 				<![CDATA[	
-				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				me:AddMsg("[NAME] After thinking for a while, I decided not to take risks and turned away.");
 				]]>
 				</OKResult>
 			</li>
@@ -362,21 +362,21 @@
 
 
 	<Story Name="ZT_G_DJ"  Parent="BaseFillingStory">
-		<DisplayName>道经传承</DisplayName>
-		<Desc>[NAME]来到[PLACE]，发现此处竟然是《道经》的传承，说起来，为毛道经还要传承？这不是遮天里烂大街的功法吗老哥？</Desc>
+		<DisplayName>Taoist heritage</DisplayName>
+		<Desc>[NAME] came to [PLACE] and found out that it was actually the inheritance of the "Dao Jing". Is n’t this the way to cover the bad streets, bro?</Desc>
 		<Kind>Secret</Kind>
 		<Selections>
 			<li>
-				<Display>强行夺取？啊!喂!烂大街也要尊严的好不好！</Display> 
+				<Display>Forcibly capture? Ah! Hey! Dignified street also needs dignity, OK?</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() >= 9 and me:RandomInt(1, 3) == 1
 				]]>
 				</Condition>
-				<Tip>化龙境及机缘</Tip>
+				<Tip>Hualongjing and chance</Tip>
 				<OKResult>
 				<![CDATA[	
-				me:AddMsg("[NAME]运转无下法力，以好像很强横的修为暴力破解法阵，获取了其中的道经传承。");
+				me:AddMsg("[NAME] With no mana to operate, he used a seemingly tyrannical practice to violently crack the magic circle, and obtained the Taoist heritage.");
 				me:AddSchoolScore(1,200);
 				me:DropAwardItem("Item_Dan_TreeEXP", 1);
 				me:UnLockGong("Gong_DJ");
@@ -386,11 +386,11 @@
 				<NOResult>
 				<![CDATA[	
 				if me:GetGLevel() >= 11 then
-					me:AddMsg("[NAME]运转周身法力，誓要为门下弟子拿走这本道经，我看你这么努力也不容易，但是下次吧，[NAME]暗叹一声，只得离开。");
+					me:AddMsg("[NAME] is running his mana and vowing to take this Taoist script for his disciples. I do n’t think it ’s easy for you to work so hard, but next time, [NAME] sighs and has to leave.");
 					me:AddSchoolScore(1,1000);
 					story:FinishSecret();
 				else
-					me:AddMsg("[NAME]你想干嘛，好歹我也是天底下第一大经文。");
+					me:AddMsg("[NAME] What do you want to do, anyway, I am also the world's largest scripture.");
 					me:AddSchoolScore(1,-500);
 					me:AddDamgeFromCache(story.DamageCache,4);
 					story:FinishSecret();
@@ -399,72 +399,72 @@
 				</NOResult>
 			</li>
 			<li>
-				<Display>勉强接受传承，别呀，还有天道神丹，你拿去给天帝经小人吃不好吗？</Display> 
+				<Display>Reluctantly accept the inheritance, do n’t, and there is the Heavenly God Divine Pill, can you take it to the Tiandi Jingjing villain?</Display> 
 				<OKResult>
 				<![CDATA[	
 				if me:GetMatchingWithGong("Gong_DJ") >= 1 then
-					me:AddMsg("[NAME]上前接受阵法的检测，没想到你居然通过了。");
+					me:AddMsg("[NAME] When I stepped forward to be tested by the formation method, I didn't expect you to pass it.");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_DJ");
 					story:FinishSecret();
 				else
-					me:AddMsg("[NAME]上前接受阵法的检测，道经表示，不想与无道之人一起走。");
+					me:AddMsg("[NAME] Going forward to be tested by the formation method, Dao Jing said that he did not want to walk with the innocent.");
 				end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>勉强接受道经神道传承，别呀，还有天道神丹，你拿去给天帝经小人吃不好吗？</Display> 
+				<Display>Reluctantly accept the inheritance of Dao Jing Shen Dao.</Display> 
 				<OKResult>
 				<![CDATA[	
 				if me:GetMatchingWithGong("Gong_DJ") >= 1 then
-					me:AddMsg("[NAME]上前接受阵法的检测，没想到你居然通过了。");
+					me:AddMsg("[NAME] When I stepped forward to be tested by the formation method, I didn't expect you to pass it.");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_DJG");
 					story:FinishSecret();
 				else
-					me:AddMsg("[NAME]上前接受阵法的检测，道经表示，不想与无道之人一起走。");
+					me:AddMsg("[NAME] Going forward to be tested by the formation method, Dao Jing said that he did not want to walk with the innocent.");
 				end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>离开</Display>
+				<Display>go away</Display>
 				<OKResult>
 				<![CDATA[	
-				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				me:AddMsg("[NAME] After thinking for a while, I decided not to take risks and turned away.");
 				]]>
 				</OKResult>
 			</li>
 		</Selections>
 	</Story>
 	<Story Name="ZT_G_NPJ"  Parent="BaseFillingStory">
-		<DisplayName>涅槃经传承</DisplayName>
-		<Desc>[NAME]来到[PLACE]，发现此处竟然是《涅槃经》的传承，这不是安妙依送叶凡的真经吗？送妙依吗？</Desc>
+		<DisplayName>Nirvana Heritage</DisplayName>
+		<Desc>[NAME] came to [PLACE] and found that it was actually the inheritance of the Nirvana. Is n’t this the true scripture that Ye Miao sent to Ye Fan? Send Miaoyi?</Desc>
 		<Kind>Secret</Kind>
 		<Selections>
 			
 			<li>
-				<Display>接受传承，送妙依</Display> 
+				<Display>Accept inheritance, send Miaoyi</Display> 
 				<OKResult>
 				<![CDATA[	
 				if me:GetMatchingWithGong("Gong_NPJ") >= 1 then
-					me:AddMsg("[NAME]成功获得了涅槃经，不过妙依就不送了，自己去轮回者里寻找，顺带请答应我，守护好妙依。");
+					me:AddMsg("[NAME] successfully obtained the Nirvana Sutra, but Miao Yi did not send it. He went to the reincarnation himself, and by the way, please promise me to protect Miao Yi.");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_NPJ");
 					story:FinishSecret();
 				else
-					me:AddMsg("[NAME]这怂样，肯定守不住妙依。我不给。");
+					me:AddMsg("[NAME] This kind of counseling certainly cannot hold Miao Yi. I don't give it.");
 				end
 				]]>
 				</OKResult>
 			</li>
 			
 			<li>
-				<Display>离开</Display>
+				<Display>go away</Display>
 				<OKResult>
 				<![CDATA[	
-				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				me:AddMsg("[NAME] After thinking for a while, I decided not to take risks and turned away.");
 				]]>
 				</OKResult>
 			</li>
@@ -472,22 +472,22 @@
 	</Story>
 
 	<Story Name="ZT_G_DJTG"  Parent="BaseFillingStory">
-		<DisplayName>渡劫天功传承</DisplayName>
-		<Desc>[NAME]来到[PLACE]，发现此处竟然是《渡劫天功》的传承，我曹的渡劫天功？对，你断德的渡劫天功，学了天天被雷劈。</Desc>
+		<DisplayName>Inheritance</DisplayName>
+		<Desc>[NAME] come [PLACE]And found out that this is actually the inheritance of "The Tribulation of Heavenly Tribulation". My Cao's Tribulation of Heavenly Tribulation? Yes, you succumb to the robbing of nature and learn to be thundered every day.</Desc>
 		<Kind>Secret</Kind>
 		<Selections>
 			<li>
-				<Display>连段德的你都抢！？（潜行值大于10且最低道行300）</Display> 
+				<Display>You even grab Duan De! ? (Stealth value is greater than 10 and the lowest road is 300)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() >= 6 and me:RandomInt(1, 2) == 1
 				]]>
 				</Condition>
-				<Tip>四极境及机缘</Tip>
+				<Tip>Quadrupole and opportunity</Tip>
 				<OKResult>
 				<![CDATA[	
 				if me:GetGLevel() >= 11 and me:GetProperty("NpcFight_SneakValue") >= 10 and me:GetDaoHang() >= 800 then
-					me:AddMsg("[NAME]偷偷摸摸潜入其中，想要盗段德的墓，凭借多年的风水本事，没想到真让[NAME]找到了，不错不错，断德后继有人了。");
+					me:AddMsg("[NAME] I sneaked into it and wanted to steal Duan De's tomb. With many years of Feng Shui skills, I didn't expect to let [NAME] find it.");
 					me:AddSchoolScore(1,200);
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_DJTG");
@@ -495,7 +495,7 @@
 					me:ModifierProperty("AbilityLvAddV",-150);me:ModifierProperty("WorldMapFlySpeed",0.4);
 					me:ModifierProperty("WorldMapFlySpeedAddP",0.3);me:ModifierProperty("GodPenaltyAddV",-200);
 				elseif me:GetGLevel() >= 9 and me:GetProperty("NpcFight_SneakValue") >= 10 and me:GetProperty("TreatSpeed") >= 600 then
-						me:AddMsg("[NAME]偷偷摸摸潜入断德的墓里，原以为有好东西的，可惜只是个传承之地，奈何[NAME]没有断德的精髓，所以虽然获得了传承但是仍是有一丝遗憾。");
+						me:AddMsg("[NAME] I sneaked into Duande's tomb and thought that there was something good, but unfortunately it was just a place of inheritance. However, [NAME] didn't have the essence of Duande, so although it was inherited, there was still a trace of regret.");
 					me:AddSchoolScore(1,200);
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_DJTG");
@@ -503,7 +503,7 @@
 					me:ModifierProperty("AbilityLvAddV",-100);me:ModifierProperty("WorldMapFlySpeed",0.2);
 					me:ModifierProperty("WorldMapFlySpeedAddP",0.1);me:ModifierProperty("GodPenaltyAddV",-100);
 				elseif me:GetGLevel() >= 6 and me:GetProperty("NpcFight_SneakValue") >= 6 and me:GetDaoHang() >= 300 then
-						me:AddMsg("[NAME]偷偷摸摸潜入断德的墓里，但是实力太差，不是个做贼的料，还被断德天识发现有人盗他的墓，门都找不到的那种，气的断德给你加了五十的天谴");
+						me:AddMsg("[NAME] Sneaked into the tomb of Duande, but the strength was too bad, not a material for thieves, and was found by Duan Detianzhi to find someone who stolen his tomb. Fifty condemnation");
 					me:AddSchoolScore(1,200);
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_DJTG");
@@ -517,11 +517,11 @@
 				<NOResult>
 				<![CDATA[	
 				if me:GetGLevel() >= 11 then
-					me:AddMsg("[NAME]运转周身法力，想要和段德一样成为我辈楷模，但是段德看不上[NAME]，选择了玉石俱焚。");
+					me:AddMsg("[NAME] Run the whole body mana, want to be my role model like Duan De, but Duan De does not like it [NAME] And chose to burn both jade and jade.");
 					me:AddSchoolScore(1,300);
 					story:FinishSecret();
 				else
-					me:AddMsg("[NAME]你想干嘛，小心段德哪天半夜找你聊天!。");
+					me:AddMsg("[NAME] What do you want to do, be careful Duan De chats with you in the middle of the night!。");
 					me:AddSchoolScore(1,-500);
 					me:AddDamgeFromCache(story.DamageCache,6,9);
 					story:FinishSecret();
@@ -530,25 +530,25 @@
 				</NOResult>
 			</li>
 			<li>
-				<Display>被雷劈就被雷劈，听说学了可以去挖别人家花园！</Display> 
+				<Display>I was struck by thunder, and I heard that I could dig someone's garden after learning!</Display> 
 				<OKResult>
 				<![CDATA[	
 				if me:GetMatchingWithGong("Gong_DJTG") >= 1 then
-					me:AddMsg("[NAME]上前接受阵法的检测，没想到你居然通过了。");
+					me:AddMsg("[NAME] When I stepped forward to be tested by the formation method, I didn't expect you to pass it.");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_DJTG");
 					story:FinishSecret();
 				else
-					me:AddMsg("[NAME]上前接受阵法的检测，段德表示，不是伍德之人不收。");
+					me:AddMsg("[NAME] Duan De said when he stepped forward to be tested by the formation method.");
 				end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>离开</Display>
+				<Display>go away</Display>
 				<OKResult>
 				<![CDATA[	
-				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				me:AddMsg("[NAME] After thinking for a while, I decided not to take risks and turned away.");
 				]]>
 				</OKResult>
 			</li>
@@ -557,21 +557,21 @@
 
 
 	<Story Name="ZT_G_XHJ"  Parent="BaseFillingStory">
-		<DisplayName>西皇经传承</DisplayName>
-		<Desc>[NAME]来到[PLACE]，发现此处竟然是《西皇经》的传承，男人听了沉默的一本功法。</Desc>
+		<DisplayName>Western Kings Heritage</DisplayName>
+		<Desc>[NAME]come [PLACE] It was discovered that this was actually the inheritance of the "Western Emperor Jing", and the man listened to a silent exercise.</Desc>
 		<Kind>Secret</Kind>
 		<Selections>
 			<li>
-				<Display>抢夺不是不可以，不过你干嘛不去抢圣女？</Display> 
+				<Display>It's not impossible to snatch, but why don't you snatch the saint?</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() >= 6 and me:RandomInt(1, 3) == 1
 				]]>
 				</Condition>
-				<Tip>四极境及机缘</Tip>
+				<Tip>Quadrupole and opportunity</Tip>
 				<OKResult>
 				<![CDATA[	
-				me:AddMsg("[NAME]运转法力，企图引起瑶池圣女的关注，虽然她看都没看你一眼，不过至少你得到了传承。");
+				me:AddMsg("[NAME] Running mana, trying to attract the attention of the sacred girl in Yaochi, although she did not look at you, but at least you have inherited it.");
 				me:AddSchoolScore(1,200);
 				me:DropAwardItem("Item_Dan_TreeEXP", 1);
 				me:UnLockGong("Gong_XHJ");
@@ -581,11 +581,11 @@
 				<NOResult>
 				<![CDATA[	
 				if me:GetGLevel() >= 11 then
-					me:AddMsg("[NAME]运转周身法力，顶住了西皇塔的威能，但西皇塔见你来者不善，于是摧毁了一切。");
+					me:AddMsg("[NAME] Operating the whole body mana, withstood the mighty power of Xihuang Tower, but Xihuang Tower saw you coming badly, and destroyed everything.");
 					me:AddSchoolScore(1,1000);
 					story:FinishSecret();
 				else
-					me:AddMsg("[NAME]太过于不自量力了，没有十三大寇撑腰，所以啥也没得到还被暴打了。");
+					me:AddMsg("[NAME] Too self-disciplined, there are no thirteen coups to support, so I got beaten up without getting anything.");
 					me:AddSchoolScore(1,-500)
 					me:AddDamgeFromCache(story.DamageCache,6);
 					story:FinishSecret();
@@ -594,34 +594,34 @@
 				</NOResult>
 			</li>
 			<li>
-				<Display>接受西皇母的传承！</Display> 
+				<Display>Accept the heritage of the Western Queen!</Display> 
 				<OKResult>
 				<![CDATA[	
 				local nR = me:RandomInt(1,100);
 				if me:GetSkillLevel("Medicine") >= 20 then
 					if nR >= 80 then
-					me:AddMsg("[NAME]上前接受西皇塔的镇压，没想到没被压扁。");
+					me:AddMsg("[NAME] When I stepped forward to accept the suppression of the Xihuang Tower, I did not expect to be crushed.");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_XHJ");
 					else
-					me:AddMsg("[NAME]上前接受西皇塔的镇压，没想到没被压扁。但西皇觉得这样还不过啊。再加点考验吧。");
+					me:AddMsg("[NAME] When I stepped forward to accept the suppression of the Xihuang Tower, I did not expect to be crushed. But the Emperor Xi felt that this was not enough. Let's put some more tests.");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:AddEnemy(21,0)
 					me:UnLockGong("Gong_XHJ");
 					end
 					
 				else
-					me:AddMsg("[NAME]上前接受西皇塔的镇压，差点变成肉泥，急忙地跑路了。");
+					me:AddMsg("[NAME] He came forward to accept the suppression of the Xihuang Pagoda, almost turned into meat, and hurried away.");
 				end
 				story:FinishSecret();
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>离开</Display>
+				<Display>go away</Display>
 				<OKResult>
 				<![CDATA[	
-				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				me:AddMsg("[NAME] After thinking for a while, I decided not to take risks and turned away.");
 				]]>
 				</OKResult>
 			</li>
@@ -630,29 +630,29 @@
 
 
 	<Story Name="ZT_G_HYJ"  Parent="BaseFillingStory">
-		<DisplayName>恒宇经传承</DisplayName>
-		<Desc>[NAME]来到[PLACE]，发现此处竟然是《恒宇经》的传承，恒宇大帝以恒宇神炉生生为人族杀出一个大世，杀得禁区哗然。</Desc>
+		<DisplayName>Hengyujing Heritage</DisplayName>
+		<Desc>[NAME] come [PLACE]It was found that this was actually the inheritance of the "Hengyu Jing". The Hengyu Emperor used the Hengyu God Furnace as a human race to kill a great world, killing the restricted area in an uproar.</Desc>
 		<Kind>Secret</Kind>
 		<Selections>
 			<li>
-				<Display>抢夺？你不怕死就抢呗（术法技能大于等于20级且六百道行以上）</Display> 
+				<Display>snatch? You are not afraid of dying and robbing (Spell skills greater than or equal to level 20 and above 600 lines)</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() >= 9 and me:RandomInt(1, 3) == 1
 				]]>
 				</Condition>
-				<Tip>四极境及机缘</Tip>
+				<Tip>Quadrupole and opportunity</Tip>
 				<OKResult>
 				<![CDATA[	
 				if me:GetGLevel() >= 11 and me:GetSkillLevel("FightSkill") >= 20 and me:GetDaoHang() >= 900 then	
-					me:AddMsg("[NAME]运转法力，一道道破开阵法，讲道理你咋这么粗鲁呢？言罢，一个巨大的炉子飞出，打出一道大帝之威，[NAME]原地感悟，提高了些许的术法威能");
+					me:AddMsg("[NAME] Run mana, break through the array, and reason why you are so rude? In words, a huge furnace flew out, striking a great prestige,[NAME] In situ perception, improved some magical power");
 					me:AddSchoolScore(1,200);
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_HYJ");
 						me:ModifierProperty("NpcFight_SpellPowerAddP",0.5);me:ModifierProperty("NpcFight_SpellLingCostAddP",-0.5);
 							me:ModifierProperty("NpcFight_SpellCastTimeAddP",-0.5);me:ModifierProperty("NpcFight_SpellCoolDownAddP",-0.5);
 				elseif me:GetGLevel() >= 9 and me:GetSkillLevel("FightSkill") >= 20 and me:GetDaoHang() >= 600 then	
-					me:AddMsg("[NAME]运转法力，一道道破开阵法，讲道理你咋这么粗鲁呢？言罢，一个巨大的炉子飞出，打出一道大帝之威，[NAME]原地感悟，奈何境界不足，感悟中出现了些许纰漏，法宝能力受到了削弱");
+					me:AddMsg("[NAME] Run mana, break through the array, and reason why you are so rude? In words, a huge furnace flew out, striking a great prestige,[NAME] In-situ perception, but the realm is inadequate, there are some flaws in the perception, the ability of magic weapon is weakened");
 					me:AddSchoolScore(1,200);
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_HYJ");
@@ -667,11 +667,11 @@
 				<NOResult>
 				<![CDATA[	
 				if me:GetGLevel() >= 11 then
-					me:AddMsg("[NAME]运转周身法力，顶住恒宇大帝的留下的帝威，但是机缘不足，一阵强大的法力爆发，一切毁于一旦。");
+					me:AddMsg("[NAME] Running the whole body mana, withstood the left Emperor Hengyu Emperor, but the lack of opportunities, a burst of powerful mana burst, everything was destroyed.");
 					me:AddSchoolScore(1,1000);
 					story:FinishSecret();
 				else
-					me:AddMsg("[NAME]居然想抢大帝的经文，实在自不量力，往死里锤。");
+					me:AddMsg("[NAME] Actually trying to grab the scriptures of the emperor, he really couldn't do anything and hammered into death.");
 					me:AddSchoolScore(1,-500)
 					me:AddDamgeFromCache(story.DamageCache,6,9);
 					story:FinishSecret();
@@ -680,33 +680,33 @@
 				</NOResult>
 			</li>
 			<li>
-				<Display>接受恒宇大帝的传承！</Display> 
+				<Display>Accept the inheritance of Hengyu the Great!</Display> 
 				<OKResult>
 				<![CDATA[	
 				local nR = me:RandomInt(1,100);
 				if me:GetSkillLevel("FightSkill") >= 20 then
 					if nR >= 40 then
-					me:AddMsg("[NAME]上前接受了恒宇经的传承，遮天世界术法威力最强的经文。");
+					me:AddMsg("[NAME] Stepped forward to accept the inheritance of the Hengyu scriptures, covering the most powerful scriptures in the world.");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);
 					me:UnLockGong("Gong_HYJ");
 					story:FinishSecret();
 					else
-					me:AddMsg("[NAME]上前接受了恒宇经的传承，遮天世界术法威力最强的经文。不少禁区听闻后，纷纷派出妖兽前去围剿。");
+					me:AddMsg("[NAME] Stepped forward to accept the inheritance of the Hengyu scriptures, covering the most powerful scriptures in the world. After hearing in many restricted areas, they sent monster monsters to encircle and suppress them.");
 					me:DropAwardItem("Item_Dan_TreeEXP", 1);me:AddManyYaoShou(nil,11,0,1);me:AddManyYaoShou(nil,11,0,1);
 					me:UnLockGong("Gong_HYJ");
 					story:FinishSecret();
 					end
 				else
-					me:AddMsg("[NAME]上前接受恒宇经的考研但是，术法能力太差恒宇经看不上。");
+					me:AddMsg("[NAME] Going forward to take the postgraduate examination of Heng Yu Jing, however, the spell ability is too poor.");
 				end
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>离开</Display>
+				<Display>go away</Display>
 				<OKResult>
 				<![CDATA[	
-				me:AddMsg("[NAME]想了想，决定还是不冒险了，转身离去。");
+				me:AddMsg("[NAME] After thinking for a while, I decided not to take risks and turned away.");
 				]]>
 				</OKResult>
 			</li>
@@ -718,21 +718,21 @@
 	
 	
 	<Story Name="ZT_JLLG"  Parent="BaseFillingStory">
-		<DisplayName>九龙拉棺</DisplayName>
-		<Desc>[NAME]在[PLACE]附近探查时，无意间发现远处的空中出现一道巨大的裂缝，九头巨大的龙尸拉着一个青铜棺材，从裂缝中呼啸而出，而后坠入一处。</Desc>
+		<DisplayName>Jiulong La Coffin</DisplayName>
+		<Desc>When [NAME] was exploring near [PLACE], he accidentally discovered a huge crack in the distance. Nine giant dragon corpses pulled a bronze coffin, whistling out of the crack, and then crashed into one.</Desc>
 		
 		<Selections>
 			<li>
-				<Display>虽然威能很强但是或许有大机缘，前去看看。</Display> 
+				<Display>Although the power is very strong, but there may be a big chance, go and see.</Display> 
 				<Condition>
 				<![CDATA[	
 				me:GetGLevel() >= 9
 				]]>
 				</Condition>
-				<Tip>化龙境及机缘</Tip>
+				<Tip>Hualongjing and chance</Tip>
 				<OKResult>
 				<![CDATA[	
-				me:AddMsg("[NAME]凭着一身蛮横的修为，靠近九龙尸身的坠落点，仔细查看了一番。但是没什么卵用，最后还得看你人品知道不。");
+				me:AddMsg("[NAME] With a brutal practice, close to the falling point of the Kowloon corpse, I took a closer look. But it's useless. In the end, it depends on your character.");
 				local nQ = me:RandomInt(1, 10)
 				if nQ >= 9 then 
 						me:DropAwardItem("Item_DragonScale",1);
@@ -768,11 +768,11 @@
 				<NOResult>
 				<![CDATA[	
 				if me:GetGLevel() >= 9 then
-					me:AddMsg("[NAME]运转自身微薄的法力，以强横的修为接近龙尸，但是没能顶住龙尸的无上威能，再前进一不便可能受伤，[NAME]暗叹一声，只得离开。");
+					me:AddMsg("[NAME]Use his meager mana to approach the dragon corpse with tyrannical cultivation, but fail to withstand the supreme power of the dragon corpse. If he moves forward, he may be injured.[NAME] With a sigh, I had to leave.");
 					me:AddSchoolScore(1,100);
 					story:FinishSecret();
 				else
-					me:AddMsg("[NAME]试图强行接近龙尸，你以为你是叶凡啊？，那怕你选了叶凡那也靠不过去的，还没修出无上道果别想了。被龙尸威能反击身负重伤，沦为修行界的笑柄。");
+					me:AddMsg("[NAME]Trying to forcibly approach the dragon corpse, do you think you are Ye Fan? Even if you choose Ye Fan, you ca n’t rely on it. Do n’t think about it before you have cultivated the Supreme Fruit. He was seriously injured by the dragon corpse's counterattack, and became a laughing stock in the practice world.");
 					me:AddSchoolScore(1,-300);
 					me:AddDamgeFromCache(story.DamageCache,4,1);
 					story:FinishSecret();
@@ -781,10 +781,10 @@
 				</NOResult>
 			</li>
 			<li>
-				<Display>斜45度角仰望天空，而后慢慢离开</Display>
+				<Display>Look up at the sky at an angle of 45 degrees, then slowly leave</Display>
 				<OKResult>
 				<![CDATA[	
-				me:AddMsg("[NAME]想了想，决定还是不冒险了，就此离去。");
+				me:AddMsg("[NAME] After thinking about it, I decided not to take risks, so I left.");
 				]]>
 				</OKResult>
 			</li>
@@ -796,77 +796,77 @@
 	
 	
 	<Story Name="ZT_HGJD"  Parent="BaseFillingStory">
-		<DisplayName>荒古禁地</DisplayName>
-		<Desc>[NAME]在[PLACE]听闻，荒主又陷入了一段时间的睡眠，当然毕竟我们都知道，荒主是大帝水平，睡个觉能睡多久对不对，赶紧快去快回，不然啥也捞不到了。</Desc>
+		<DisplayName>Barren ancient forbidden land</DisplayName>
+		<Desc>[NAME] heard in [PLACE] that the Lord of the Desert has fallen into a period of sleep again. Of course, we all know that the Lord of the Desert is the level of the emperor. How long can I sleep after a good sleep, right? Hurry and go back quickly, otherwise you can catch anything Not yet.</Desc>
 		<Selections>
 			<li>
-				<Display>终于趁着荒主打盹的时候，来到了荒古禁地了。我的不死神药我来了！！！！。</Display>
-				<Tip>主要看脸。</Tip>
+				<Display>Finally, taking advantage of the nobility master to take a nap, he came to the Forbidden Land. My immortality medicine is here! ! ! ! .</Display>
+				<Tip>Mainly look at the face.</Tip>
 				<OKResult>
 				<![CDATA[	
 				story:RemoveBindItem();
 				local nR = me:RandomInt(1, 101); 
 				if nR <= 20 then
-					me:AddMsg("[NAME]走进荒古圣地，企图呼吸一口新鲜空气时，变发现自己正在急速地变老，连忙随便捡了两块石头就跑了。");
+					me:AddMsg("[NAME] Entering the barren ancient shrine and trying to breathe in fresh air, I found that I was getting old quickly, and I picked up two stones and ran away.");
 					me:DropAwardItem("Item_LingCrystal",30);me:ModifierProperty("MaxAge",-300);
 				elseif nR <= 30 then
-					me:AddMsg("[NAME]小心翼翼地走进了荒古圣地，听到远方传来一道圣人具有威势的咆哮声，我的天赶紧走，哪怕你是红尘仙也没用。");
+					me:AddMsg("[NAME] Carefully entered the ancient holy land, heard a powerful roar of a saint from a distance, my heaven hurried away, even if you are a red dust fairy");
 					me:DropAwardItem("Item_LingCrystal",100);me:ModifierProperty("MaxAge",-500);
 				elseif nR <= 40 then
-					me:AddMsg("[NAME]这么运气蛮不错，在荒古圣体中一点危机都不存在。[NAME]你太天真了，这里可是荒古禁地啊！！你看看你身后！。[NAME]一听这作者的声音，吓得连忙运起真气逃出了荒古禁地");
+					me:AddMsg("[NAME] Such luck is pretty good, and there is no crisis in the holy holy body.[NAME] You are so naive, this is a barren place! ! You look behind you! . [NAME] Hearing the author ’s voice, he was so scared that he escaped from the barren land");
 					me:DropAwardItem("Item_StarEssence",20);me:DropAwardItem("Item_DarksteelRock",20);
 					me:DropAwardItem("Item_SilverRock",50);me:ModifierProperty("MaxAge",-500);
 					me:DropAwardItem("Item_CopperRock",50);
 				elseif nR <= 45 then
-					me:AddMsg("[NAME]在荒古禁地里悄悄地走着，正感觉口渴，居然发现了一道清泉？难道是传说中的长生泉？。");
+					me:AddMsg("[NAME] walking quietly in the barren ground, feeling thirsty, and found a clear spring? Is it the legendary longevity spring? .");
 					me:DropAwardItem("Item_LifeStream",40);me:ModifierProperty("MaxAge",-200);
 				elseif nR <= 50 then
-					me:AddMsg("[NAME]在荒古禁地发现了一个山洞，看到里面有两只妖兽幼崽的尸体，这时候正好听到身后传来了一声悲惨的嘶吼，赶紧溜。");
+					me:AddMsg("[NAME] found a cave in the barren ground and saw the bodies of two young beast cubs. At this time, he heard a tragic roar from behind and hurried away.");
 					me:DropAwardItem("Item_StarEssence",35);me:AddManyYaoShou(nil,22,9,-1);me:ModifierProperty("MaxAge",-300);
 				elseif nR <= 55 then
-					me:AddMsg("[NAME]来到了第一座神山的脚下但是，神山上似有一股莫大的威能阻止[NAME]没办法只能捡起身边的。。。emmm，仔细辨认，那竟是一坨坨天龙砂。");
+					me:AddMsg("[NAME] came to the foot of the first Shenshan Mountain. However, there seemed to be a great power on the Shenshan Mountain to prevent [NAME] from picking up nearby. . . emmm, carefully identify, it is actually a sloppy dragon.");
 					me:DropAwardItem("Item_DragonShit",10);me:ModifierProperty("MaxAge",-750);
 				elseif nR <= 60 then
-					me:AddMsg("[NAME]在荒古禁地的中段发现了一个宝盒，里边是一个奇形怪状的物件，[NAME]拂去上面的尘土，骇然发现此物竟是一片片上古天龙之鳞。");
+					me:AddMsg("[NAME] found a treasure box in the middle of the barren forbidden land, inside which was a strange-shaped object. [NAME] brushed the dust above and was shocked to find that this object was actually a scale of ancient dragons.");
 					me:DropAwardItem("Item_DragonScale",10);me:ModifierProperty("MaxAge",-750);
 				elseif nR <= 70 then
-					me:AddMsg("[NAME]走到了荒古禁地的中段，刚刚想继续前进，竟然从空中坠落了一个迸发出十分恐怖的气息的物件，惊得[NAME]一下子坐在了地上。");
+					me:AddMsg("[NAME] walked to the middle of the barren forbidden area, just wanted to move on, and unexpectedly fell an object that burst out of the air with terrifying breath, and [NAME] sat on the ground all of a sudden.");
 					me:DropAwardItem("Item_ThunderAir",10);me:ModifierProperty("MaxAge",-600);
 				elseif nR <= 80 then
-					me:AddMsg("[NAME]刚刚跨过荒古禁地的中段的一条小河时，发现一块闪闪发光的石料，石料中乃是五十颗千棱神玉。");
+					me:AddMsg("When [NAME] just crossed a small river in the middle of the barren ancient forbidden land, he found a gleaming stone, which contained fifty thousand prismatic gods.");
 					me:DropAwardItem("Item_ExtremeJade",50);me:ModifierProperty("MaxAge",-800);
 				elseif nR <= 82 then
-					me:AddMsg("[NAME]费劲了千辛万苦，耗费了无数神材与寿元，来到了第二座神山一千米开外，终于是打算放弃时,[NAME]被屁股下的一块硬疙瘩硌着了");
+					me:AddMsg("[NAME] worked hard, spent countless gods and Shouyuan, came a thousand meters away from the second Shenshan, and finally was about to give up, [NAME] was lumped by a lump under his butt");
 					me:DropAwardItem("Item_StarEssence",300);me:ModifierProperty("MaxAge",-900);
 				elseif nR <= 84 then
-					me:AddMsg("[NAME]的机缘似乎在这座禁地了，出了点意外！[NAME]心中急速默算天机,暗道一声不好，便离开了禁地");
+					me:AddMsg("[NAME] 's chance seems to be in this forbidden place, something unexpected happened! [NAME] quickly calculated the sky in his heart, leaving the forbidden ground with a bad voice");
 					me:AddManyYaoShou(nil,36,9,-1);me:ModifierProperty("MaxAge",-1000);
 				elseif nR <= 86 then
-					me:AddMsg("[NAME]成功地登上了第一座神山，由于寿元消耗过快，[NAME]急忙打了一些圣泉就走。");
+					me:AddMsg("[NAME] successfully boarded the first Shenshan Mountain. Due to the excessive consumption of Shouyuan, [NAME] hurriedly hit some holy springs and left.");
 					me:DropAwardItem("Item_EarthEssence",30);me:DropAwardItem("Item_SHQ",18);me:ModifierProperty("MaxAge",-1200);
 				elseif nR <= 87 then
-					me:AddMsg("[NAME]成功地登上了第二座神山，[NAME]获得了一些圣泉，赶紧采摘了几颗。");
+					me:AddMsg("[NAME] successfully boarded the second mountain, [NAME] obtained some holy springs, and quickly picked a few.");
 					me:DropAwardItem("Item_Dan_IncreaseLife4",30);me:DropAwardItem("Item_SG",18);me:ModifierProperty("MaxAge",-1200);
 				elseif nR <= 89 then
-					me:AddMsg("[NAME]企图登上第二座神山，但是在登山前以及是精疲力尽，仅仅是因为一张老脸放不下，毕竟全天下都知道[NAME]来了荒古禁地，不拿到点什么可怎么回门派啊，气的[NAME]一脚踏空，掉进了一个洞穴里，里面居然！！有许多的灵珀。");
+					me:AddMsg("[NAME] tried to climb to the second God Mountain, but was exhausted before climbing, just because an old face could not be put down. How to go back to the school, the angry [NAME] stepped empty and fell into a cave, which was actually inside! ! There are many ringers.");
 					me:DropAwardItem("Item_SoulCrystalLing",66);me:DropAwardItem("Item_Dan_IncreaseLife5",12);me:ModifierProperty("MaxAge",-1200);
 				elseif nR <= 95 then
-					me:AddMsg("[NAME]成功地登上了第二座神山，上面却只有一大堆的木头，扫兴！但还是口嫌体正地收下了。");
+					me:AddMsg("[NAME] successfully boarded the second god mountain, but there was only a lot of wood on it, disappointed! But he still accepted it.");
 					me:DropAwardItem("Item_ParasolWood",333);me:DropAwardItem("Item_LingWood",333);me:DropAwardItem("Item_HardWood",333);me:ModifierProperty("MaxAge",-999);
 				elseif nR <= 96 then
-					me:AddMsg("[NAME]来到了荒古禁地一个看似古修修行之地，这里一片祥和美好，以至于这些古修结出了宁珀。");
+					me:AddMsg("[NAME] came to a seemingly ancient cultivation place in a barren ancient forbidden land, where it was so peaceful and beautiful that these ancient cultivations formed Ning Po.");
 					me:DropAwardItem("Item_SoulCrystalNing",88);me:DropAwardItem("Item_Dan_ReBorn",18);me:ModifierProperty("MaxAge",-1400);
 				elseif nR <= 97 then
-					me:AddMsg("[NAME]在荒古禁地中居然找到了，叶凡，叶天帝曾经的足迹，于是[NAME]用脚和足迹比划了比划，嗯差不多大嘛。");
+					me:AddMsg("[NAME] was actually found in the barren ancient forbidden land. Ye Fan and Ye Tiandi used to have footprints, so [NAME] made a gesture with their feet and footprints, um, it ’s about the same size.");
 					me:DropAwardItem("Item_MiBao_WWMQD",1);me:ModifierProperty("MaxAge",-1500);
 				elseif nR <= 98 then
-					me:AddMsg("[NAME]到达了第三座神山的脚下，居然看到天边飞奔的不死神道树？？。");
+					me:AddMsg("[NAME] arrived at the foot of the third Shenshan Mountain and saw the undead Shinto tree flying across the sky? ? .");
 					me:DropAwardItem("Item_Dan_TreeEXP",12);me:ModifierProperty("MaxAge",-1500);
 				elseif nR <= 99 then
-					me:AddMsg("[NAME]在想荒古禁地第四座神山进发的过程中，被空中一闪而过的金色书页，割伤了耳根，但却也因此[NAME]心中居然有所领悟");
+					me:AddMsg("[NAME] in the process of thinking about the advancement of the fourth holy mountain in the forbidden land, the golden pages flashed through the air, which cut the ear root, but [NAME] actually realized in his heart");
 					me:DropAwardItem("Item_MiBao_MDJS",1);me:ModifierProperty("MaxAge",-1200);
 				elseif nR <= 100 then
-					me:AddMsg("[NAME]在荒古禁地中，走到了一处大阵前，心中万千思绪急闪而过，居然从阵中掉落了二十本秘籍！");
+					me:AddMsg("[NAME] In the barren ancient forbidden land, he walked to a large formation, and his thoughts flashed through, and he actually dropped twenty cheats from the formation!");
 					me:DropEsotericFromCache("Esoterica",20);me:ModifierProperty("MaxAge",-1200);
 				end
 				story:FinishSecret();
@@ -874,14 +874,14 @@
 				</OKResult>
 			</li>
 			<li>
-				<Display>算了，走吧咱可没那么长的寿元。</Display>
+				<Display>Forget it, let's not have such a long life.</Display>
 				<OKResult><![CDATA[	
-				me:AddMsg("[NAME]仰头长啸，所以有什么用呢，该走还得走。");
+				me:AddMsg("[NAME] He looked up and shouted, so what's the use?");
 				]]>
 				</OKResult>
 			</li>
 			<li>
-				<Display>第一次来此处。</Display>
+				<Display>First time here.</Display>
 				<OKResult><![CDATA[	
 				me:TriggerStory("ZT_XXCTY");
 				]]>
@@ -894,30 +894,30 @@
 		
 	
 	<Story Name="Story_Item_ZTF">
-		<DisplayName>奇闻</DisplayName>
-		<Desc>[NAME]行至此处心有所感，发现此地风水异乎寻常，似有妙处。</Desc>
+		<DisplayName>anecdote</DisplayName>
+		<Desc>[NAME] When I walked here, I felt something, and found that the feng shui here is unusual and seems to have some beauty.</Desc>
 		<Kind>Treasure</Kind>
 		<Selections>
 			<li>
-				<Display>下去瞧瞧</Display>
+				<Display>Look down</Display>
 				<OKResult>
 				<![CDATA[	
 				local nR = me:RandomInt(1, 21); 
 				if nR <= 10 then
-				me:AddMsg(XT("[NAME]化身凡人边走边瞧这四周河山，不禁喜不自已，唱起了童年的歌，谁都会有回忆当初那个懵懵懂懂的自己，哪怕曾经做错过许多事，例如。。算了不例如了。/n [NAME]混在人群众被各种白眼，但到了[NAME]这个境界对于这些早已无关痛痒，就在走到路口时，发现水中有个晶莹之物，似散发着动人的气息/n[NAME]上前查看了一番居然是一块古朴的符印，似乎象征着什么？/n就在这时一道威严的声音从符中发出"年轻人，想得到我的宝藏吗，那就带着这块符去参加拍卖会吧。"声音过去后，[NAME]居然恢复了所有的灵力，并且提高了百分一的法宝回灵倍率！"));
+				me:AddMsg(XT("[NAME] Incarnation of a mortal man walking and looking at the surrounding rivers and mountains, he couldn't help but sing his childhood songs, and anyone would recall the ignorant self at the beginning, even if he once did miss many things, for example. . Never mind, for example./n [NAME] Mixed people are blinded by all kinds, but when it arrives [NAME] This realm has nothing to do with these things. When I walked to the intersection, I found a crystal in the water, which seemed to exude a breath of breath./n [NAME]I stepped forward and looked at what was actually a quaint rune, what seemed to symbolize? / n At this moment, a majestic voice came out from the rune, "Young man, do you want my treasure, then take this rune to the auction." After the voice passed, [NAME] actually recovered all Spiritual power, and increased the magic power of the magic weapon by 100%!"));
 				me:DropAwardItem("Item_ZTF",1);
 				me:AddPracticeResource("Ling",99999999999);
 				me:ModifierProperty("NpcFight_FabaoLingRecoverK",0.01);
 				else
-				me:AddMsg("[NAME]福缘不够，没有找到任何东西。");
+				me:AddMsg("[NAME] Blessing is not enough, did not find anything.");
 				end
 				]]>	
 				</OKResult>
 			</li>
 			<li>
-				<Display>放弃</Display>
+				<Display>give up</Display>
 				<OKResult>	
-				me:AddMsg(XT("[NAME]觉得机缘未到，于是离开了此地。"))
+				me:AddMsg(XT("[NAME] felt that the opportunity had not arrived and left the place."))
 				</OKResult>
 			</li>
 		</Selections>
@@ -925,8 +925,8 @@
 	
 	
 	<Story Name="Join_SC"  Parent="BaseFillingStory">
-		<DisplayName>点化仙缘</DisplayName>
-		<Desc>[NAME]发现了几个有心向道的凡人，于是指点了他们宗门位置，算算时间差不多到了。</Desc>
+		<DisplayName>Dian Xian Yuan</DisplayName>
+		<Desc>[NAME] Found a few mortals with a heart, and pointed to the position of their sect, and the time was almost up.</Desc>
 		<Kind>Join</Kind>
 		<GlobleOKResult>
 		<![CDATA[	

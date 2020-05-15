@@ -2,7 +2,7 @@
 	
 	<Node Name="Gong_NPJ_1" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_1</Esoterica>
-		<DisplayName>气海卷</DisplayName>
+		<DisplayName>Air sea roll</DisplayName>
 		<Level>Qi</Level>
 		<Index>3</Index>
 		<Line>0,0,0,0,0,0,0,0</Line>
@@ -28,7 +28,7 @@
 	
 	<Node Name="Gong_NPJ_6" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_6</Esoterica>
-		<DisplayName>丹术</DisplayName>
+		<DisplayName>Elixir</DisplayName>
 		<Level>Qi</Level>
 		<Index>6</Index>
 		<Line>0,0,0,0,0,0,0,0</Line>
@@ -50,18 +50,18 @@
 	</Node>
 	<Node Name="Gong_NPJ_6_1" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_6_1</Esoterica>
-		<DisplayName>丹术</DisplayName>
+		<DisplayName>Elixir</DisplayName>
 		<Level>None</Level>
 	</Node>
 	<Node Name="Gong_NPJ_6_2" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_6_2</Esoterica>
-		<DisplayName>丹术</DisplayName>
+		<DisplayName>Elixir</DisplayName>
 		<Level>None</Level>
 	</Node>
 	
 	<Node Name="Gong_NPJ_11" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_11</Esoterica>
-		<DisplayName>通天卷</DisplayName>
+		<DisplayName>Tsutenaki</DisplayName>
 		<Level>Qi</Level>
 		<Index>8</Index>
 		<Line>0,0,0,0,0,0,0,0</Line>
@@ -82,7 +82,7 @@
 		
 	<Node Name="Gong_NPJ_2" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_2</Esoterica>
-		<DisplayName>天道酬勤卷</DisplayName>
+		<DisplayName>Heavenly rewards</DisplayName>
 		<Level>Dan1</Level>
 		<Index>4</Index>
 		<Line>0,0,0,0,0,0,0,0</Line>
@@ -101,7 +101,7 @@
 	
 	<Node Name="Gong_NPJ_12" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_12</Esoterica>
-		<DisplayName>历行天下卷</DisplayName>
+		<DisplayName>History of the World</DisplayName>
 		<Level>Dan1</Level>
 		<Index>7</Index>
 		<Line>0,0,0,0,0,0,0,0</Line>
@@ -121,7 +121,7 @@
 
 	<Node Name="Gong_NPJ_8" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_8</Esoterica>
-		<DisplayName>地丹卷</DisplayName>
+		<DisplayName>Dianjuan</DisplayName>
 		<Level>Dan2</Level>
 		<Index>6</Index>
 		<Line>0,0,0,0,0,0,0,0</Line>
@@ -143,13 +143,13 @@
 	
 	<Node Name="Gong_NPJ_8_1" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_8_1</Esoterica>
-		<DisplayName>天丹卷</DisplayName>
+		<DisplayName>Tiandanjuan</DisplayName>
 		<Level>None</Level>
 	</Node>
 		
 	<Node Name="Gong_NPJ_4" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_4</Esoterica>
-		<DisplayName>道化卷</DisplayName>
+		<DisplayName>Daohua Juan</DisplayName>
 		<Level>God</Level>
 		<Index>4</Index>
 		<Line>0,0,0,0,0,0,0,0</Line>
@@ -167,7 +167,7 @@
 	
 	<Node Name="Gong_NPJ_14" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_14</Esoterica>
-		<DisplayName>天书卷</DisplayName>
+		<DisplayName>Book of Heaven</DisplayName>
 		<Level>God</Level>
 		<Index>7</Index>
 		<Line>0,0,0,0,0,0,0,0</Line>
@@ -185,7 +185,7 @@
 			
 	<Node Name="Gong_NPJ_10" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_10</Esoterica>
-		<DisplayName>天地卷</DisplayName>
+		<DisplayName>Heaven and earth</DisplayName>
 		<Level>God2</Level>
 		<Index>6</Index>
 		<Line>0,0,0,0,0,0,0,0</Line>
@@ -203,7 +203,7 @@
 	
 	<Node Name="Gong_NPJ_5" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_5</Esoterica>
-		<DisplayName>涅槃卷</DisplayName>
+		<DisplayName>Nirvana</DisplayName>
 		<Level>God2</Level>
 		<Index>3</Index>
 		<Line>0,0,0,0,0,0,0,0</Line>
@@ -221,7 +221,7 @@
 		
 	<Node Name="Gong_NPJ_15" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_15</Esoterica>
-		<DisplayName>红尘仙</DisplayName>
+		<DisplayName>Red Dust Fairy</DisplayName>
 		<Level>God2</Level>
 		<Index>8</Index>
 		<Line>0,0,0,0,0,0,0,0</Line>

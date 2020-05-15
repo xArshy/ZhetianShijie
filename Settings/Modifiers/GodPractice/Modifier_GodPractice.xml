@@ -1,8 +1,8 @@
 <ModifierDefs><List>
 	
 	<Modifier Name="GodPractice_GodPowerEffect" Type="Normal">
-		<DisplayName>神性</DisplayName>
-		<Desc>随着神性提高，角色对神力的掌控就越高，战斗能力也越强，同时心情的缩放系数也会提高。</Desc>
+		<DisplayName>Divinity</DisplayName>
+		<Desc>As the divinity increases, the character's control over the divine power is higher, the combat ability is stronger, and the zoom factor of the mood will also increase.</Desc>
 		<Display>1</Display>
 		<Sync>1</Sync>
 		<MaxStack>100</MaxStack>
@@ -15,8 +15,8 @@
 		</Properties>
 	</Modifier> 	
 	<Modifier Name="GodPractice_GodPowerEffect_A" Type="Normal">
-		<DisplayName>神性</DisplayName>
-		<Desc>0-30点神性的实际效果</Desc>
+		<DisplayName>Divinity</DisplayName>
+		<Desc>0-30 points of the actual effect of divinity</Desc>
 		<Display>0</Display>
 		<Sync>1</Sync>
 		<MaxStack>100</MaxStack>
@@ -37,8 +37,8 @@
 	</Modifier> 	
 	
 	<Modifier Name="GodPractice_GodPowerEffect_B" Type="Normal">
-		<DisplayName>神性</DisplayName>
-		<Desc>30-100点神性的实际效果</Desc>
+		<DisplayName>Divinity</DisplayName>
+		<Desc>30-100 points of the actual effect of divinity</Desc>
 		<Display>0</Display>
 		<Sync>1</Sync>
 		<MaxStack>100</MaxStack>
@@ -60,8 +60,8 @@
 	
 	
 	<Modifier Name="GodPractice_Xinzhai" Type="Normal">
-		<DisplayName>心斋</DisplayName>
-		<Desc>巴拉巴拉巴拉。</Desc>
+		<DisplayName>Xinzhai</DisplayName>
+		<Desc>Barbara Barbara.</Desc>
 		<Display>1</Display>
 		<Sync>1</Sync>
 		<MaxStack>100</MaxStack>
@@ -76,8 +76,8 @@
 	</Modifier> 
 	
 	<Modifier Name="GodPractice_GodLike" Type="Normal">
-		<DisplayName>神化</DisplayName>
-		<Desc>暂时将神性调整到99.99%，持续300秒，在结束后永久获得1%神性。</Desc>
+		<DisplayName>Deification</DisplayName>
+		<Desc>Temporarily adjust the divinity to 99.99% for 300 seconds, and permanently gain 1% divinity after the end.</Desc>
 		<LuaClassName>modifier_godpractice_godlike</LuaClassName>
 		<Display>1</Display>
 		<Sync>1</Sync>
@@ -90,8 +90,8 @@
 	</Modifier> 
 	
 	<Modifier Name="Modifier_Sys_XinYang_KeJi" Type="Normal">
-		<DisplayName>克己</DisplayName>
-		<DisplayName>信仰修行-克己</DisplayName>
+		<DisplayName>Self-denial</DisplayName>
+		<DisplayName>Cultivation of Faith-Self-denial</DisplayName>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -110,8 +110,8 @@
 	
 	
 	<Modifier Name="Modifier_Sys_XinYang_ZongYu" Type="Normal">
-		<DisplayName>纵欲</DisplayName>
-		<DisplayName>信仰修行-纵欲</DisplayName>
+		<DisplayName>Indulge</DisplayName>
+		<DisplayName>Cultivation of Faith-Indulgence</DisplayName>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
