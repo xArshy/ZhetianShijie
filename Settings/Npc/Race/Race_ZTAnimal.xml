@@ -30,7 +30,7 @@
 	<RebornRace>Wolf</RebornRace>
 	<Modifier>ZTLH</Modifier>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		[0,1,0],
 		[1,3,1],
@@ -155,7 +155,7 @@
 	<RebornRace>Snake</RebornRace>
 	
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		[0,0,1,0,0],
 		[0,1,1,1,0],
@@ -280,10 +280,10 @@
 	<WarningRange>0</WarningRange>
 	<WinterHide>0</WinterHide>
 	<RebornRace>Snake</RebornRace>
-	<!--<CastBip>Bip01 R Hand</CastBip>-->
+	
 	
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		[0,0,1,0,0],
 		[0,1,1,1,0],

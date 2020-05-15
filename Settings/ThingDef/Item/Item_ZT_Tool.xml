@@ -1,1704 +1,1609 @@
-<ThingDefs><List>
-	<ThingDef Type="Item" Name="ToolBase" Parent="ItemBase">
-	
-	
-	<ThingName></ThingName>
-	
-	<MaxStack>1</MaxStack>
-	<TexPath></TexPath>
-	<Desc>Desc.</Desc>
-	<SelectAble>1</SelectAble>
-	<VisualAble>1</VisualAble>
-
-	<Beauty>2</Beauty>
-	<Rate>1</Rate>
-	
-	<Flammability>
-		<Flammability>0</Flammability>
-		<FlameSpawnThingDef></FlameSpawnThingDef>
-		<FlameSpawnChance>0</FlameSpawnChance>
-		<BurningPoint>150</BurningPoint>
-	</Flammability>
-	
-	<Item  Lable="Tool">
-		<NotFengshuiItem>0</NotFengshuiItem>
-		<FuelMultiplier>1</FuelMultiplier>
-		<!-- 
-		<BeMade>
-			<WorkToMake>1</WorkToMake>
-			<Quality>0</Quality>
-			<ArtDesc></ArtDesc>
-			<Condition>
-					<Skills>
-						<Skill name = "sss" level="1"/>
-					</Skills>
-					<Researchs>
-						<Research name = "sss" level="1"/>
-					</Researchs>
-			</Condition>
-			<StuffCategories>
-				<Stuff name = "Metallic"/>
-			</StuffCategories>
-			<CostStuffCount>5</CostStuffCount>
-			<CostItems>
-				<Item name = "wheat" count = "1"/>
-			</CostItems>
-		</BeMade> 
-		
-		-->
-		<BeMaterial>
-			<NamePrefix></NamePrefix>
-			<CostMultiplier>1</CostMultiplier>
-			
-			<SharpDamageMultiplier>1</SharpDamageMultiplier>
-			<BluntDamageMultiplier>1</BluntDamageMultiplier>
-			<LingDamageMultiplier>1</LingDamageMultiplier>
-			<AttackSpeedWhenBeMain>1.2</AttackSpeedWhenBeMain>
-			
-			<SharpDefenceMultiplier>1</SharpDefenceMultiplier>
-			<BluntDefenceMultiplier>1</BluntDefenceMultiplier>
-			<LingDefenceMultiplier>1</LingDefenceMultiplier>
-			<ColdInsulationMultiplier>1</ColdInsulationMultiplier>
-			<HeatInsulationMultiplier>1</HeatInsulationMultiplier>
-			
-			<MaxHitPointsPerNum>6</MaxHitPointsPerNum>
-			<LingNumberRate>0.3</LingNumberRate>
-			
-			<FlammabilityWhenBeMain>0.2</FlammabilityWhenBeMain>
-			<BeautyWhenBeMain>0</BeautyWhenBeMain>
-			<ElementPowerWhenBeMain>1</ElementPowerWhenBeMain>
-			
-			<WorktoMakeRate>1</WorktoMakeRate>
-			<WorktoBuildRate>1</WorktoBuildRate>
-		</BeMaterial>
-		<Rot>
-			<RotSpeed>0</RotSpeed>
-			<DaysToRotStart>0</DaysToRotStart>
-			<TempMin>0</TempMin>
-			<LingMax>0</LingMax>
-		</Rot>
-	</Item>
-	<Ling>
-		<AddionLing>0</AddionLing>
-		<AddionRadius>1</AddionRadius>
-		<AddionFailing>0</AddionFailing>
-		<AddionFailRadius>0</AddionFailRadius>
-		
-		<Attenuation>0.03</Attenuation>
-		<Absorption>0.4</Absorption>
-		<Accommodate>1</Accommodate>
-	</Ling>
-	
-	<Element>
-		<Kind>None</Kind>
-		<Value>1</Value>         
-		<Radius>2</Radius>
-		<Failing>1</Failing>
-		<FailRadius>1</FailRadius>
-	</Element>
-	</ThingDef>
-	
-	<ThingDef Type="Item" Name="ZT_MT" Parent="ToolBase">
-	
-	<ThingName> Magic fetus</ThingName>
-	<TexPath>Spr\Object\HGJD\MT.png</TexPath>
-	<FabaoTexPath>Spr\Object\HGJD\MT.png</FabaoTexPath>	
-	
-	<MaxStack>1</MaxStack>
-	<Rate>24</Rate>
-	<ElementKind>None</ElementKind>
-	<Desc>The ruthless emperor turned into a magic fetus in his later years, and the magic shell left behind by the magic trick.</Desc>
-	<Item>
-			<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="1122000"/>
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="1122000" />
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="1122000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>
-	<NotRandom>2</NotRandom>
-		<FabaoSuffix>魔</FabaoSuffix>
-		
-		<PhysicalLables>
-			<li>MT</li>
-		</PhysicalLables>
-			
-		<!--<Rot>
-			<RotSpeed>0.0005</RotSpeed>
-			<DaysToRotStart>0</DaysToRotStart>
-			<TempMin>10</TempMin>
-			<LingMax>0</LingMax>
-		</Rot>-->
-		<Equip>
-			<ToolModifier>MT</ToolModifier>
-			
-			
-		</Equip>
-		<Fabao>
-		    <ActiveCondition>
-			   <Condition eventid = "BrokenNeck" des = "Carrying treasures through metal robbery" needcount = "6" lParam = "God2" eParam = "Jin" />
-			    <Condition eventid = "BrokenNeck" des = "Carrying treasures through the wooden property of the day robbery" needcount = "6" lParam = "God2" eParam = "Mu" />
-			    <Condition eventid = "BrokenNeck" des = "Carrying treasures through the water's natural robbery" needcount = "6" lParam = "God2" eParam = "Shui" />
-			    <Condition eventid = "BrokenNeck" des = "Carrying treasures through the fire" needcount = "6" lParam = "God2" eParam = "Huo" />
-			    <Condition eventid = "BrokenNeck" des = "Carrying treasures through the earth's land" needcount = "6" lParam = "God2" eParam = "Tu" />
-				 <Condition eventid = "Other" des = "Feeding treasures with blood 15 times" needcount = "15"/>
-			</ActiveCondition>
-			<SpecialAbility>
-			     <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1 = "1" Desc="At the expense of fragmentation, resist one death and recover all injuries." />
-				<Ability Kind="MultiKillAddPowerUp" nParam1="30" fParam1="1" Desc="Each killing of a living life is increased by 100 percent, up to 30 layers. If you do not drink blood on the 1st day will be zero effect."/>
-			</SpecialAbility>
-		</Fabao>
-		<UseLua>GameMain:GetMod('_FabaoHelper'):FeedSelf()</UseLua>
-	</Item>
-	</ThingDef>	
-	
-	<ThingDef Type="Item" Name="ZT_HSZD" Parent="ToolBase">
-	
-	<ThingName>Way of nursing</ThingName>
-	<TexPath>Spr\Object\WP\ZTHSZD.png</TexPath>
-	<FabaoTexPath>Spr\Object\WP\ZTHSZD.png</FabaoTexPath>	
-	
-	<MaxStack>1</MaxStack>
-	<Rate>12</Rate>
-	<ElementKind>Shui</ElementKind>
-	<Desc>At the beginning of the day, the birth of the aura of innate qi, although this object can not kill, but can activate the vitality of all things to consume their own spiritual power can return the dying person to the sun, one person can only be a lifetime. . (Equipment can increase the shield strength by 50%) by Yuzun</Desc>
-	<Item>
-			<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="22000"/>
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="22000" />
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="22000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>
-	<NotRandom>2</NotRandom>
-		<FabaoSuffix>护生之道</FabaoSuffix>
-		
-		<PhysicalLables>
-			<li>ZTHSZD</li>
-		</PhysicalLables>
-		
-		<BeMade>
-			<WorkToMake>2100</WorkToMake>
-			<Quality>0</Quality>
-			<ArtDesc></ArtDesc>
-			<CostItems>
-					<Item name = "ZT_BHZ" count = "6"/>
-					<Item name = "ZT_BHW" count = "36"/>
-					<Item name = "Item_ShuiEssence" count = "10"/>
-					<Item name = "Item_SSXSY" count = "26"/>
-					<Item name = "Item_Water" count = "1600"/>
-			</CostItems>
-		</BeMade> 		
-		<!--<Rot>
-			<RotSpeed>0.0005</RotSpeed>
-			<DaysToRotStart>0</DaysToRotStart>
-			<TempMin>10</TempMin>
-			<LingMax>0</LingMax>
-		</Rot>-->
-		<Equip>
-			<ToolModifier>ZTHSZD</ToolModifier>
-			
-			
-		</Equip>
-		<Fabao>
-		    <ActiveCondition>
-			   <Condition eventid = "BrokenNeck" des = "Carry Treasures Through Metallic Tribulation" needcount = "3" lParam = "God2" eParam = "Jin" />
-			    <Condition eventid = "BrokenNeck" des = "Carrying treasures through the scourge of wood" needcount = "3" lParam = "God2" eParam = "Mu" />
-			    <Condition eventid = "BrokenNeck" des = "Carrying treasures to survive the water disaster" needcount = "3" lParam = "God2" eParam = "Shui" />
-			    <Condition eventid = "BrokenNeck" des = "Carrying treasures to survive the fire disaster" needcount = "3" lParam = "God2" eParam = "Huo" />
-			    <Condition eventid = "BrokenNeck" des = "Carrying treasures through the nature disaster" needcount = "3" lParam = "God2" eParam = "Tu" />
-				<Condition eventid = "UseNpcJing" des = "Carrying treasures consumes 20W" needcount = "200000" />
-			</ActiveCondition>
-			<SpecialAbility>
-			     <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1 = "1" Desc="Resist the death and recover all damage at the cost of breaking." />
-				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoMaxLingAddP" fParam2="0.3" nParam1="1" Desc="Basically increase your magic power Aura bonus 30%。"/>
-				  <Ability Kind="CantAttack" Desc="Around the whole body will not actively attack, focus on defense."/>
-			</SpecialAbility>
-		</Fabao>
-	</Item>
-	</ThingDef>	
-	
-	<ThingDef Type="Item" Name="ZT_TZY" Parent="ToolBase">
-	
-	<ThingName>Seal of Heaven</ThingName>
-	<TexPath>Spr\Object\WP\ZTTDY.png</TexPath>
-	<FabaoTexPath>Spr\Object\WP\ZTTDY.png</FabaoTexPath>	
-	
-	<MaxStack>1</MaxStack>
-	<Rate>12</Rate>
-	<ElementKind>Jin</ElementKind>
-	<Desc>At the beginning of the heaven and earth, the origin of the heavens was condensed, hidden in the heavens, and held as the master of the heavens. . (Equipment can be enhanced to reduce the 30-dot spell rune) by 飐 偑</Desc>
-	<Item>
-	<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="22000"/>
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="22000" />
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="22000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>
-	<NotRandom>2</NotRandom>
-		<FabaoSuffix>天之印</FabaoSuffix>
-		
-		<PhysicalLables>
-			<li>ZTTZY</li>
-		</PhysicalLables>
-		
-		<BeMade>
-			<WorkToMake>2100</WorkToMake>
-			<Quality>0</Quality>
-			<ArtDesc></ArtDesc>
-			<CostItems>
-					<Item name = "Item_JTBYB" count = "66"/>
-					<Item name = "Item_JTCYW" count = "66"/>
-					<Item name = "Item_YYSY" count = "66"/>
-					<Item name = "Item_WSXSY" count = "26"/>
-					<Item name = "Item_XianDaoShenNian" count = "1"/>
-					<Item name = "Item_Water" count = "1600"/>
-			</CostItems>
-		</BeMade> 		
-		<!--<Rot>
-			<RotSpeed>0.0005</RotSpeed>
-			<DaysToRotStart>0</DaysToRotStart>
-			<TempMin>10</TempMin>
-			<LingMax>0</LingMax>
-		</Rot>-->
-		<Equip>
-			<ToolModifier>ZTTZY</ToolModifier>
-			
-		</Equip>
-		<Fabao>
-		    <ActiveCondition>
-			  <Condition eventid = "Other" des = "Absorption of beidou starlight for 7 consecutive days" needday = "21" continuity = "21"/>
-			</ActiveCondition>
-			<SpecialAbility>
-			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.1" nParam1="1" nParam2="1" Desc="Additional 10% additional damage to the target's current reiki when attacking the enemy body。"/>
-			</SpecialAbility>
-		</Fabao>
-		<UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveBeiDou()</UseLua>
-	</Item>
-	
-	</ThingDef>	
-	
-	<ThingDef Type="Item" Name="ZT_DZY" Parent="ToolBase">
-	
-	<ThingName>Earth Seal</ThingName>
-	<TexPath>Spr\Object\WP\ZTTDY.png</TexPath>
-	<FabaoTexPath>Spr\Object\WP\ZTTDY.png</FabaoTexPath>	
-	<MaxStack>1</MaxStack>
-	<Rate>12</Rate>
-	<ElementKind>Tu</ElementKind>
-	<Desc>At the beginning of the world, the source of the ghost was condensed, hidden in the ghost, and held as the master of the ghost. . (Equipment can increase the strength of fifty spells) by 飐 偑</Desc>
-	<Item>
-	<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="22000"/>
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="22000" />
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="22000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>
-	<NotRandom>2</NotRandom>
-		<FabaoSuffix>地之玺</FabaoSuffix>
-		
-		<PhysicalLables>
-			<li>ZTDZY</li>
-		</PhysicalLables>
-		
-		<BeMade>
-			<WorkToMake>2100</WorkToMake>
-			<Quality>0</Quality>
-			<ArtDesc></ArtDesc>
-			<CostItems>
-					<Item name = "Item_ZYSY" count = "66"/>
-					<Item name = "Item_JTBLSY" count = "66"/>
-					<Item name = "Item_ZYW" count = "66"/>
-					<Item name = "Item_TSXSY" count = "26"/>
-					<Item name = "Item_XianDaoXieNian" count = "1"/>
-					<Item name = "Item_Water" count = "1600"/>
-			</CostItems>
-		</BeMade> 		
-		<!--<Rot>
-			<RotSpeed>0.0005</RotSpeed>
-			<DaysToRotStart>0</DaysToRotStart>
-			<TempMin>10</TempMin>
-			<LingMax>0</LingMax>
-		</Rot>-->
-		<Equip>
-			<ToolModifier>ZTDZY</ToolModifier>
-			
-		</Equip>
-		<Fabao>
-		    <ActiveCondition>
-			  <Condition eventid = "Other" des = "Absorb scent 36 times forever night" needcount = "36"/>
-			</ActiveCondition>
-			<SpecialAbility>
-			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.1" nParam1="1" nParam2="1" Desc="An additional 10% additional damage to the target's current reiki is caused when attacking the enemy onthisis."/>
-			</SpecialAbility>
-		</Fabao>
-		<UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveWeather({'PermanentNight'})</UseLua>
-		
-	</Item>
-	</ThingDef>	
-	
-	<ThingDef Type="Item" Name="ZT_YMZD" Parent="ToolBase">
-	
-	<ThingName>Ghost Town</ThingName>
-	<TexPath>Spr\Object\WP\ZTYMZD.png</TexPath>
-	<FabaoTexPath>Spr\Object\WP\ZTYMZD.png</FabaoTexPath>	
-	<MaxStack>1</MaxStack>
-	<Rate>12</Rate>
-	<ElementKind>Tu</ElementKind>
-	<Desc>When the universe was flooded, the purpose of the heavenly path was cast from the earth. And Xuanhuang Kaitian are the same. . (Equipment can enhance mood value) by Clear Strings</Desc>
-	<Item>
-	<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="22000"/>
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="22000" />
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="22000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>
-	<NotRandom>2</NotRandom>
-		<FabaoSuffix>幽冥镇地</FabaoSuffix>
-		
-		<PhysicalLables>
-			<li>ZTYMZD</li>
-		</PhysicalLables>
-		
-		<BeMade>
-			<WorkToMake>2100</WorkToMake>
-			<Quality>0</Quality>
-			<ArtDesc></ArtDesc>
-			<CostItems>
-					<Item name = "Item_XHJC" count = "6"/>
-					<Item name = "Item_XHEQ" count = "66"/>
-					<Item name = "Item_LWHJ" count = "6"/>
-					<Item name = "Item_WSXXY" count = "26"/>
-					<Item name = "Item_BossZhuLong_Eye" count = "4"/>
-					<Item name = "Item_Water" count = "1600"/>
-			</CostItems>
-		</BeMade> 		
-		<!--<Rot>
-			<RotSpeed>0.0005</RotSpeed>
-			<DaysToRotStart>0</DaysToRotStart>
-			<TempMin>10</TempMin>
-			<LingMax>0</LingMax>
-		</Rot>-->
-		<Equip>
-			<ToolModifier>ZTYMZD</ToolModifier>
-			
-		</Equip>
-		<Fabao>
-		    <ActiveCondition>
-			  <Condition eventid = "Other" des = "Absorb scent 36 times forever night" needcount = "36"/>
-			</ActiveCondition>
-			<SpecialAbility>
-			      <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="4" nParam1="2" Desc="When fighting with Magic, cause 5 times as much damage."/>
-			</SpecialAbility>
-		</Fabao>
-		<UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveWeather({'PermanentNight'})</UseLua>
-		
-	</Item>
-	</ThingDef>	
-	
-	<ThingDef Type="Item" Name="ZT_FHJ" Parent="ToolBase">
-	
-	<ThingName>Phoenix Robbery</ThingName>
-	<TexPath>Spr\Object\WP\ZTFHJ.png</TexPath>
-	<FabaoTexPath>Spr\Object\WP\ZTFHJ.png</FabaoTexPath>	
-	<MaxStack>1</MaxStack>
-	<Rate>12</Rate>
-	<ElementKind>Huo</ElementKind>
-	<Desc>No one remembers its past in the ancient harp. The passage of time is on the harp. This time the ancient harp recognized Hua Yunfei as the master. . (Equipment can increase charm and mood) by Qingxian</Desc>
-	<Item>
-	<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="22000"/>
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="22000" />
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="22000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>
-	<NotRandom>2</NotRandom>
-		<FabaoSuffix>凤凰劫</FabaoSuffix>
-		
-		<PhysicalLables>
-			<li>ZTFHJ</li>
-		</PhysicalLables>
-		
-		<BeMade>
-			<WorkToMake>2100</WorkToMake>
-			<Quality>0</Quality>
-			<ArtDesc></ArtDesc>
-			<CostItems>
-					<Item name = "Item_HXCJ" count = "1"/>
-					<Item name = "Item_Mint" count = "306"/>
-					<Item name = "Item_BossFeng_WeiYu" count = "9"/>
-					<Item name = "Item_BossLong_Jing" count = "13"/>
-					<Item name = "Item_HSXSY" count = "15"/>
-					<Item name = "Item_Water" count = "1600"/>
-			</CostItems>
-		</BeMade> 		
-		<!--<Rot>
-			<RotSpeed>0.0005</RotSpeed>
-			<DaysToRotStart>0</DaysToRotStart>
-			<TempMin>10</TempMin>
-			<LingMax>0</LingMax>
-		</Rot>-->
-		<Equip>
-			<ToolModifier>ZTFHJ</ToolModifier>
-		</Equip>
-		
-		<Fabao>
-		    <ActiveCondition>
-			  <Condition eventid = "Other" des = "Absorb scent 36 times forever night" needcount = "36"/>
-			  <Condition eventid = "KillCount" des = "Carrying embryos to kill 36 meta-gods" needcount = "36" lParam = "God"/>
-			</ActiveCondition>
-			<SpecialAbility>
-			       <Ability Kind="HitAddRecovery" fParam1="0.6"  Desc="60% of the damage will be supplemented by the reiki of Faber itself."/>
-			</SpecialAbility>
-		</Fabao>
-		<UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveWeather({'PermanentNight'})</UseLua>
-	</Item>
-	</ThingDef>	
-	
-	<ThingDef Type="Item" Name="ZT_LGSF" Parent="ToolBase">
-	<ThingName>Chaos Rune</ThingName>
-	<TexPath>Spr\Object\WP\LGSF.png</TexPath>
-	<FabaoTexPath>Spr\Object\WP\LGSF.png</FabaoTexPath>	
-	<MaxStack>1</MaxStack>
-	<Rate>12</Rate>
-	<ElementKind>Huo</ElementKind>
-	<Desc>Emperor Luangu is proficient in the way of time. Wearing this amulet can reverse the time and die once. The wearer can reduce a lot of condemnation values.</Desc>
-	<Item>
-	<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="32000"/>
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="32000" />
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="32000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>
-	<NotRandom>2</NotRandom>
-		<FabaoSuffix>神符</FabaoSuffix>
-		
-		<PhysicalLables>
-			<li>LGSF</li>
-		</PhysicalLables>
-		
-		<BeMade>
-			<WorkToMake>2100</WorkToMake>
-			<Quality>0</Quality>
-			<ArtDesc></ArtDesc>
-			<CostItems>
-					<li name="Item_ThunderAir" count="3"/>
-					<Item name = "Item_WSXXY" count = "3"/>
-					<Item name = "Item_WSXSY" count = "9"/>
-					<Item name = "Item_WSXY" count = "18"/>
-					<Item name = "Item_DLYJ" count = "100"/>
-					<Item name = "Item_Water" count = "1200"/>
-			</CostItems>
-		</BeMade> 		
-		<!--<Rot>
-			<RotSpeed>0.0005</RotSpeed>
-			<DaysToRotStart>0</DaysToRotStart>
-			<TempMin>10</TempMin>
-			<LingMax>0</LingMax>
-		</Rot>-->
-		<Equip>
-			<ToolModifier>LGSF</ToolModifier>
-		</Equip>
-		<Fabao>
-		    <ActiveCondition>
-			  <Condition eventid = "KillCount" des = "Carrying embryos to kill 36 meta-gods" needcount = "36"/>
-			</ActiveCondition>
-			<SpecialAbility>
-			       <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1 = "1" Desc="At the expense of fragmentation, resist one death and recover all injuries." />
-			</SpecialAbility>
-		</Fabao>
-	</Item>
-	</ThingDef>	
-	
-	<ThingDef Type="Item" Name="ZT_SYLG" Parent="ToolBase">
-	<ThingName>Shiyin keel</ThingName>
-	<TexPath>Spr\Object\WP1\SYLG.png</TexPath>
-	<FabaoTexPath>Spr\Object\WP1\SYLG.png</FabaoTexPath>	
-	<MaxStack>1</MaxStack>
-	<Rate>12</Rate>
-	<ElementKind>Shui</ElementKind>
-	<Desc>In the early days of the Yuan Dynasty, the heavens and the earth were accompanied by the yin and yang twin dragons. When the yin dragons were killed in the Fengshen war, one of the spine bones refined by their bones was taken. This bone can penetrate the wearer's bone marrow and hurt its roots. Only by long-term refining can it resist its yin-qi conversion for its own use. Legend has it that it can resist its yin-qi when worn with pure yang keel. by 胡 家 老三</Desc>
-	<Item>
-	<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="32000"/>
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="32000" />
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="32000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>
-	<NotRandom>2</NotRandom>
-		<FabaoSuffix>释阴龙骨,释阴,龙骨</FabaoSuffix>
-		
-		<PhysicalLables>
-			<li>WPS_S</li>
-			<li>WPS_S</li>
-		</PhysicalLables>
-		
-		<BeMade>
-			<WorkToMake>2100</WorkToMake>
-			<Quality>0</Quality>
-			<ArtDesc></ArtDesc>
-			<CostItems>
-					<li name="Item_LingCrystal" count="100"/>
-					<Item name = "Item_SSXXY" count = "2"/>
-					<Item name = "Item_SSXSY" count = "5"/>
-					<Item name = "Item_SSXY" count = "10"/>
-					<Item name = "Item_LQ" count = "10"/>
-					<Item name = "Item_LWHJ" count = "1"/>
-					<Item name = "Item_XHEQ" count = "2"/>
-					<Item name = "Item_YYC" count = "30"/>
-					<Item name = "Item_AL" count = "20"/>
-					<Item name = "Item_LHY" count = "20"/>
-					<Item name = "Item_BossZhuLong_HeiLin" count = "10"/>
-					<Item name = "Item_BossZhuLong_LongYu" count = "1"/>
-					
-			</CostItems>
-		</BeMade> 		
-		<!--<Rot>
-			<RotSpeed>0.0005</RotSpeed>
-			<DaysToRotStart>0</DaysToRotStart>
-			<TempMin>10</TempMin>
-			<LingMax>0</LingMax>
-		</Rot>-->
-		<Equip>
-			<ToolModifier>ZT_SYLG</ToolModifier>
-		</Equip>
-		<Fabao>
-		    <ActiveCondition>
-			 <Condition eventid = "Carry" des = "One year worn by millennial women" needday = "112" sex = "2" age = "1000,10000"/>
-			</ActiveCondition>
-			<SpecialAbility>
-			       <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1 = "1" Desc="At the expense of fragmentation, resist one death and recover all injuries." />
-				    <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Longxinyinyanggui" Desc="Body Protection Skills Improve10"/>
-					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="2.5" nParam1="0" sParam1="Huo" Desc="Fire property target damage deepens 250%"/>
-			</SpecialAbility>
-		</Fabao>
-	</Item>
-	</ThingDef>	
-	
-	<ThingDef Type="Item" Name="ZT_CYLG" Parent="ToolBase">
-	<ThingName>Pure Yang Keel</ThingName>
-	<TexPath>Spr\Object\WP1\CYLG.png</TexPath>
-	<FabaoTexPath>Spr\Object\WP1\CYLG.png</FabaoTexPath>	
-	<MaxStack>1</MaxStack>
-	<Rate>12</Rate>
-	<ElementKind>Huo</ElementKind>
-	<Desc>In the beginning of the mixed yuan, the heavens and the earth accompany the yin and yang twin dragons. When the dragons were humiliated, they were unwilling to turn themselves into a keel. The pure yang of this bone can nourish the wearer's ability, even under long-term refining. You can take it for yourself, the legend can resist the yin of the yin keel. By Hu 家 老三</Desc>
-	<Item>
-	<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="32000"/>
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="32000" />
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="32000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>
-	<NotRandom>2</NotRandom>
-		<FabaoSuffix>纯阳龙骨,纯阳,龙骨</FabaoSuffix>
-		
-		<PhysicalLables>
-			<li>WPS_H</li>
-			<li>WPS_H</li>
-		</PhysicalLables>
-		
-		<BeMade>
-			<WorkToMake>2100</WorkToMake>
-			<Quality>0</Quality>
-			<ArtDesc></ArtDesc>
-			<CostItems>
-					<li name="Item_LingCrystal" count="100"/>
-					<Item name = "Item_HSXXY" count = "2"/>
-					<Item name = "Item_HSXSY" count = "5"/>
-					<Item name = "Item_HSXY" count = "10"/>
-					<Item name = "Item_LQ" count = "10"/>
-					<Item name = "Item_LWHJ" count = "1"/>
-					<Item name = "Item_XHEQ" count = "2"/>
-					<Item name = "Item_YYC" count = "30"/>
-					<Item name = "Item_SYC" count = "20"/>
-					<Item name = "Item_SMG" count = "20"/>
-					<Item name = "Item_FXC" count = "20"/>
-					<Item name = "Item_CL" count = "5"/>
-					<Item name = "Item_BossZhuLong_BaiLin" count = "10"/>
-					<Item name = "Item_BossZhuLong_LongYu" count = "1"/>
-					
-			</CostItems>
-		</BeMade> 		
-		<!--<Rot>
-			<RotSpeed>0.0005</RotSpeed>
-			<DaysToRotStart>0</DaysToRotStart>
-			<TempMin>10</TempMin>
-			<LingMax>0</LingMax>
-		</Rot>-->
-		<Equip>
-			<ToolModifier>ZT_CYLG</ToolModifier>
-		</Equip>
-		<Fabao>
-		    <ActiveCondition>
-			 <Condition eventid = "Carry" des = "One year worn by millennial men" needday = "112" sex = "1" age = "1000,10000"/>
-			</ActiveCondition>
-			<SpecialAbility>
-			       <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1 = "1" Desc="At the expense of fragmentation, resist one death and recover all injuries." />
-				     <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Yuanshenxinjian" Desc="Sword Skills Improved 10"/>
-					<Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="2.5" nParam1="0" sParam1="Mu" Desc="Damage to wood attribute target deepens 250%"/>
-			</SpecialAbility>
-		</Fabao>
-	</Item>
-	</ThingDef>	
-	<ThingDef Type="Item" Name="ZT_ZJSNP" Parent="ToolBase">
-	<ThingName>Ziji Shennongpei</ThingName>
-	<TexPath>Spr\Object\WP1\ZJSNP.png</TexPath>
-	<FabaoTexPath>Spr\Object\WP1\ZJSNP.png</FabaoTexPath>	
-	<MaxStack>1</MaxStack>
-	<Rate>12</Rate>
-	<ElementKind>Mu</ElementKind>
-	<Desc>According to legend, in ancient times, the space between the two realms of Xianfan was not as solid as it is now. An immortal can stay for a few days. On that day, when a certain emperor shelters his son, he falls in love with a woman at first sight. After all, Xianfan is different, even if it can stay for several days. After all, it is impossible to expect long in the world. He turned into a mortal, playing with women around the world. When he was about to leave, he used his own blood and life-long experience to give a precious jade to his woman. Although this thing does not hurt people, it has the power of shelter. But you can protect the master of Yupei from death, and have an extremely valuable learning and insight from an immortal emperor who uses Dan as a path. .by puppet</Desc>
-	<Item>
-	<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="12000"/>
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="12000" />
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="12000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>
-	<NotRandom>2</NotRandom>
-		<FabaoSuffix>紫极神农佩,神农佩</FabaoSuffix>
-		
-		<PhysicalLables>
-			<li>WPS_M</li>
-		</PhysicalLables>
-		
-		<BeMade>
-			<WorkToMake>2100</WorkToMake>
-			<Quality>0</Quality>
-			<ArtDesc></ArtDesc>
-			<CostItems>
-					<li name="Item_LingCrystal" count="500"/>
-					<li name="Item_Dan_ReBorn" count="20"/>
-					<Item name = "Item_MSXY" count = "10"/>
-					<Item name = "NP_CQD5" count = "2"/>
-					<Item name = "Item_GJZ" count = "80"/>
-					<Item name = "Item_WSTJ" count = "86"/>
-					
-			</CostItems>
-		</BeMade> 		
-		<!--<Rot>
-			<RotSpeed>0.0005</RotSpeed>
-			<DaysToRotStart>0</DaysToRotStart>
-			<TempMin>10</TempMin>
-			<LingMax>0</LingMax>
-		</Rot>-->
-		<Equip>
-			<ToolModifier>ZT_CYLG</ToolModifier>
-		</Equip>
-		<Fabao>
-		     <ActiveCondition>
-			    <Condition eventid = "SoulCrystalLing" des = "12 times for the embryo" needcount = "12" fParam = "1"/>
-			</ActiveCondition>
-			<SpecialAbility>
-			       <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1 = "1" Desc="At the expense of fragmentation, resist one death and recover all injuries." />
-				     <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_LD" Desc="The upper limit of the alchemy level is increased by 15"/>
-					<Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_LD1" Desc="Increase the refinery rate of refining dan production."/>
-			</SpecialAbility>
-		</Fabao>
-	</Item>
-	</ThingDef>	
-	
-	<ThingDef Type="Item" Name="ZT_JMDB" Parent="ToolBase">
-	<ThingName>Nine Secrets</ThingName>
-	<TexPath>Spr\Object\DJ\ZT_JMDB.png</TexPath>
-	<FabaoTexPath>Spr\Object\DJ\ZT_JMDB.png</FabaoTexPath>	
-	<MaxStack>9</MaxStack>
-	<Rate>1</Rate>
-	<ElementKind>None</ElementKind>
-	<Desc>The nine secrets of a pirated copy.</Desc>
-	<Item>
-	<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="1"/>
-					<SalePrice Value="33" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="1" />
-					<SalePrice Value="33" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="1" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>
-	<NotRandom>2</NotRandom>
-		<FabaoSuffix>神符</FabaoSuffix>
-		
-		<PhysicalLables>
-			<li>PhysicalLables_XiongFeng_HuoYu</li>
-		</PhysicalLables>
-		
-		
-		<!--<Rot>
-			<RotSpeed>0.0005</RotSpeed>
-			<DaysToRotStart>0</DaysToRotStart>
-			<TempMin>10</TempMin>
-			<LingMax>0</LingMax>
-		</Rot>-->
-		<Equip>
-			<ToolModifier>JMDB</ToolModifier>
-		</Equip>
-		
-	</Item>
-	</ThingDef>	
-	
-	<ThingDef Type="Item" Name="Item_YS1" Parent="MaterialBase">
-		<ThingName>Source stone</ThingName>
-		<MaxStack>1</MaxStack>
-		<TexPath>Spr\Object\Y\YS.PNG</TexPath>
-		<Desc>It contains extremely powerful spiritual power fluctuations. I don't know what amazing existence is, or whether it is a practical source or a divine source.</Desc>	
-		<Beauty>1</Beauty>	
-		<Rate>12</Rate>
-		<ElementKind>None</ElementKind>
-		<Flammability>
-			<Flammability>0</Flammability>
-		</Flammability>
-
-			
-		<Item Lable="Other">
-				<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>10</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="1500"/>
-					<SalePrice Value="200" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="1500" />
-					<SalePrice Value="300" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="100" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>				
-			<FabaoSuffix>白眼石,非洲石,坑石</FabaoSuffix>	
-		<BeMade>
-			<WorkToMake>3000</WorkToMake>
-			<Quality>0</Quality>
-			<ArtDesc></ArtDesc>
-		
-			<StuffCategories>
-				<Stuff name = "WoodBlock"/>
-				<Stuff name = "RockBlock"/>
-				<Stuff name = "MetalBlock"/>
-				<Stuff name = "Wood"/>
-				<Stuff name = "Rock"/>
-				<Stuff name = "Metal"/>
-				<Stuff name = "Tool"/>
-				<Stuff name = "Spell"/>
-				<Stuff name = "Food"/>
-				<Stuff name = "Dan"/>
-				<Stuff name = "Weapon"/>
-			</StuffCategories>
-			<CostStuffCount>100</CostStuffCount>
-		</BeMade> 
-			
-			
-		<BeMaterial>
-			<CostMultiplier>1</CostMultiplier>
-		</BeMaterial>
-		
-		</Item>
-		<StoryBnts>
-			<li Name="Cut" Desc="Try to cut this source stone" Appoint="3" Story="Story_Item_YS1" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
-		</StoryBnts>
-	</ThingDef>
-	
-	<ThingDef Type="Item" Name="Item_YS2" Parent="MaterialBase">
-		<ThingName>Source stone 2</ThingName>
-		<MaxStack>1</MaxStack>
-		<TexPath>Spr\Object\Y\YS.PNG</TexPath>
-		<Desc>Specially used for stone box.</Desc>	
-		<Beauty>1</Beauty>	
-		<Rate>12</Rate>
-		<ElementKind>None</ElementKind>
-		<Flammability>
-			<Flammability>0</Flammability>
-		</Flammability>
-
-			
-		<Item Lable="Other">	
-				<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>10</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="1500"/>
-					<SalePrice Value="100" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="1500" />
-					<SalePrice Value="100" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="100" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>		
-			<FabaoSuffix>白眼石,非洲石,坑石</FabaoSuffix>	
-		<BeMade>
-			<WorkToMake>3000</WorkToMake>
-			<Quality>0</Quality>
-			<ArtDesc></ArtDesc>
-			<CostItems>
-					<Item name = "Item_StoneBox2" count = "1"/>
-					<Item name = "Item_Water" count = "100"/>
-			</CostItems>		
-		</BeMade> 
-
-		<BeMaterial>
-			<CostMultiplier>1</CostMultiplier>
-		</BeMaterial>
-		
-		</Item>
-		<StoryBnts>
-			<li Name="Cut" Desc="Try to cut this source stone" Appoint="3" Story="Story_Item_YS1" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
-		</StoryBnts>
-	</ThingDef>
-	
-	<ThingDef Type="Item" Name="Item_STYH" Parent="MaterialBase">
-		<ThingName>Eucharist remains</ThingName>
-		<MaxStack>1</MaxStack>
-		<TexPath>Spr\Object\DJ\STYH.PNG</TexPath>
-		<Desc>I don't know how many years have passed. This corpse is still not bad, sitting in the treasure heap, although there is no enlightenment around the body. But it is more attractive than all treasures.</Desc>	
-		<Beauty>1</Beauty>	
-		<Rate>20</Rate>
-		<ElementKind>None</ElementKind>
-		<Flammability>
-			<Flammability>0</Flammability>
-		</Flammability>
-
-			
-		<Item Lable="Other">	
-			<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="9000"/>
-					<SalePrice Value="5000" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="9000" />
-					<SalePrice Value="5000" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="9000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>		
-		
-			<FabaoSuffix>尸骸,圣骸</FabaoSuffix>	
-			<PhysicalLables>
-				<li>PhysicalLables_None</li>	
-				<li>PhysicalLables_None</li>
-				<li>PhysicalLables_None</li>
-				<li>PhysicalLables_None</li>
-				<li>PhysicalLables_None</li>
-				<li>PhysicalLables_None</li>
-			</PhysicalLables>
-			
-		</Item>
-		<StoryBnts>
-			<li Name="Realize" Desc="Try to connect with the remains of this Eucharist" Appoint="2" Story="STYH" Cost="5" Icon="Spr\Object\DJ\STYH.PNG"/>
-		</StoryBnts>
-	</ThingDef>
-	
-	<ThingDef Type="Item" Name="Item_YS3" Parent="MaterialBase">
-		<ThingName>Stone Tire</ThingName>
-		<MaxStack>1</MaxStack>
-		<TexPath>Spr\Object\Y\YS2.PNG</TexPath>
-		<Desc>The stone tyre obtained by Zhangjiacun is said to have been left by Yuan Tianshi, and it may be the source of Tian Tianshi's heritage.</Desc>	
-		<Beauty>1</Beauty>	
-		<Rate>12</Rate>
-		<ElementKind>None</ElementKind>
-		<Flammability>
-			<Flammability>0</Flammability>
-		</Flammability>
-
-			
-		<Item Lable="Other">
-				<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="3000"/>
-					<SalePrice Value="1260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="3000" />
-					<SalePrice Value="1260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="4000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>		
-			<FabaoSuffix>白眼石,非洲石,坑石</FabaoSuffix>	
-		
-		
-		</Item>
-		<StoryBnts>
-			<li Name="Cut" Desc="Try to cut this stone tire" Appoint="1" Story="Story_Item_YS2" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
-		</StoryBnts>
-	</ThingDef>
-	
-	
-	<ThingDef Type="Item" Name="Item_PTZ" Parent="MaterialBase">
-		<ThingName>Bodhi</ThingName>
-		<MaxStack>1</MaxStack>
-		<TexPath>Spr\Object\TOOL\PTZ.PNG</TexPath>
-		<Desc>Ye Fan was obtained from the Great Leiyin Temple on Mars. With the ability to increase the speed of cultivation and the probability of understanding</Desc>	
-		<Beauty>99</Beauty>	
-		<Rate>12</Rate>
-		<ElementKind>None</ElementKind>
-		<Flammability>
-			<Flammability>0</Flammability>
-		</Flammability>		
-		<Item Lable="Other">
-				<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="5000"/>
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="5000" />
-					<SalePrice Value="3260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="8000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>		
-			<FabaoSuffix>菩提,血菩提,灵提子</FabaoSuffix>	
-			<Equip>
-			<ToolModifier>ZT_PTZ</ToolModifier>
-			</Equip>
-		</Item>
-	</ThingDef>
-	
-	<ThingDef Type="Item" Name="Item_YDX" Parent="MaterialBase">
-		<ThingName>Monster Emperor Heart</ThingName>
-		<TexPath>Spr\Object\DJ\YDX.PNG</TexPath>
-		<Desc>The heart of Donghuang's last generation emperor is well understood.噗通.</Desc>
-		<MaxHitPoints>50000</MaxHitPoints>
-		<Rate>20</Rate>
-		<Beauty>100</Beauty>
-		<MaxStack>1</MaxStack>
-		<ElementKind>Mu</ElementKind>
-		<Item>
-		<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="1220000"/>
-					<SalePrice Value="113260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="1220000" />
-					<SalePrice Value="113260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="1220000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>
-			<FabaoSuffix>妖帝心</FabaoSuffix>
-			<PhysicalLables>
-				<li>YDX</li>	
-			</PhysicalLables>
-			<Elixir>
-				<ZhuJi>25000</ZhuJi>
-				<Modifier>Dan_YDX</Modifier>
-				<Ling>5000000</Ling>
-			</Elixir>
-			
-			<Food>
-				<EatDirectable>1</EatDirectable>
-				<Nutrition>-90</Nutrition>
-				<FunAddion>-100</FunAddion>
-				<PracticeNutrition>9999</PracticeNutrition>
-			</Food>
-		</Item>
-		<Ling>
-		<AddionLing>90</AddionLing>    聚灵除以十
-		<AddionRadius>3</AddionRadius>  聚灵范围
-		<AddionFailing>0.8</AddionFailing>
-		<AddionFailRadius>3</AddionFailRadius>
-		
-		<Attenuation>0.06</Attenuation>
-		<Absorption>0.8</Absorption>
-		<Accommodate>5000</Accommodate>
-	</Ling>
-		<Element>
-			<Kind>Mu</Kind>
-			<Value>12</Value>
-			<Radius>2</Radius>
-		</Element>
-	</ThingDef>
-	
-	<ThingDef Type="Item" Name="ZT_BHZ" Parent="MaterialBase">
-		<ThingName>Cold Jade</ThingName>
-		<TexPath>Spr\Object\DJ\QHYP.PNG</TexPath>
-		<Desc>Can withstand extreme cold of minus thousand degrees.</Desc>
-		<MaxHitPoints>10000</MaxHitPoints>
-		<Rate>6</Rate>
-		<Beauty>12</Beauty>
-		<MaxStack>99</MaxStack>
-		<ElementKind>Huo</ElementKind>
-		<Item>
-			<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="2000"/>
-					<SalePrice Value="1260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="2000" />
-					<SalePrice Value="1260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="2000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>
-			<FabaoSuffix>避寒玉</FabaoSuffix>
-			<PhysicalLables>
-				<li>PhysicalLables_Shui</li>	
-				<li>PhysicalLables_Shui</li>
-				<li>PhysicalLables_Shui</li>
-			</PhysicalLables>
-			
-			<BeMade>
-			<WorkToMake>3000</WorkToMake>
-			<Quality>0</Quality>
-			<ArtDesc></ArtDesc>
-		
-			<CostItems>
-					<Item name = "Item_YYSY" count = "9"/>
-					<Item name = "Item_SilverRock" count = "99"/>
-					<Item name = "Item_ZYW" count = "6"/>
-				</CostItems>
-			<CostStuffCount>100</CostStuffCount>
-		</BeMade>
-			<Equip>
-			<ToolModifier>ZT_BHZ</ToolModifier>
-		</Equip>
-		</Item>
-		
-		<Element>
-			<Kind>Huo</Kind>
-			<Value>8</Value>
-			<Radius>2</Radius>
-		</Element>
-	</ThingDef>
-	
-	<ThingDef Type="Item" Name="ZT_BHW" Parent="MaterialBase">
-		<ThingName>Refuge from fire</ThingName>
-		<TexPath>Spr\Object\DJ\BHZ.PNG</TexPath>
-		<Desc>Can withstand the high temperature of 7,500 Baidu.</Desc>
-		<MaxHitPoints>10000</MaxHitPoints>
-		<Rate>6</Rate>
-		<Beauty>12</Beauty>
-		<MaxStack>99</MaxStack>
-		<ElementKind>Shui</ElementKind>
-		<Item>
-			<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="1000"/>
-					<SalePrice Value="260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="1000" />
-					<SalePrice Value="260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="1000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>
-			<FabaoSuffix>避寒珠</FabaoSuffix>
-			<PhysicalLables>
-				<li>PhysicalLables_Shui</li>	
-				<li>PhysicalLables_Shui</li>
-				<li>PhysicalLables_Shui</li>
-			</PhysicalLables>
-			
-			<BeMade>
-			<WorkToMake>3000</WorkToMake>
-			<Quality>0</Quality>
-			<ArtDesc></ArtDesc>
-		
-			<CostItems>
-					<Item name = "Item_Dan_BHW1" count = "9"/>
-					<Item name = "Item_Dan_BHW2" count = "6"/>
-					<Item name = "Item_Dan_BHW3" count = "3"/>
-				</CostItems>
-			<CostStuffCount>100</CostStuffCount>
-		</BeMade> 
-			<Equip>
-			<ToolModifier>ZT_BHW</ToolModifier>
-		</Equip>
-		</Item>
-		
-		<Element>
-			<Kind>Shui</Kind>
-			<Value>8</Value>
-			<Radius>2</Radius>
-		</Element>
-	</ThingDef>
-	
-	
-	<ThingDef Type="Item" Name="Item_LQ" Parent="MaterialBase">
-		<ThingName>Long Qi</ThingName>
-		<TexPath>Spr\Object\DJ\LQ.PNG</TexPath>
-		<Desc>Between hidden and mountains, and often contained in source rocks, equipment can increase the wearer's magic weapon by 50%.</Desc>
-		<MaxHitPoints>10000</MaxHitPoints>
-		<Rate>9</Rate>
-		<Beauty>12</Beauty>
-		<MaxStack>99</MaxStack>
-		<ElementKind>Jin</ElementKind>
-		<Item>
-				<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>5</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="2500"/>
-					<SalePrice Value="600" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="2500" />
-					<SalePrice Value="600" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="2500" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>		
-			<FabaoSuffix>龙气</FabaoSuffix>
-			<PhysicalLables>
-				<li>PhysicalLables_Jin</li>	
-				<li>Liquid</li>
-				<li>LowDensity2</li>
-			</PhysicalLables>
-			
-			
-			
-			
-			<Equip>
-			<ToolModifier>ZT_LQ</ToolModifier>
-		</Equip>
-		</Item>
-		
-		<Element>
-			<Kind>Jin</Kind>
-			<Value>8</Value>
-			<Radius>2</Radius>
-		</Element>
-	</ThingDef>
-	
-		<ThingDef Type="Item" Name="Item_LZ" Parent="MaterialBase">
-		<ThingName>Dragon Ball</ThingName>
-		<TexPath>Spr\Object\DJ\LZ.PNG</TexPath>
-		<Desc>The thing titled by the Qinglong Immortal Medicine contains the breath of true dragons. Wearing it can increase the natural recovery rate and mood of the inner door. After refining, it will increase the shield value by 10 points and reduce the strength bonus by 10 percent.</Desc>
-		<MaxHitPoints>10000</MaxHitPoints>
-		<Rate>9</Rate>
-		<Beauty>12</Beauty>
-		<MaxStack>99</MaxStack>
-		<ElementKind>Mu</ElementKind>
-		<Item>
-			<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="17000"/>
-					<SalePrice Value="4260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="17000" />
-					<SalePrice Value="4260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="17000" />
-					<SalePrice Value="0" />
-				</li>
-				</Prices>
-			<FabaoSuffix>龙气</FabaoSuffix>
-			<PhysicalLables>
-				<li>PhysicalLables_Mu</li>	
-				<li>Liquid</li>
-				<li>LowDensity2</li>
-			</PhysicalLables>
-			<Equip>
-			<ToolModifier>ZT_LZ</ToolModifier>
-		</Equip>
-		</Item>
-		<StoryBnts>
-			<li Name="Refining" Desc="Try to absorb the dragon beads" Appoint="2" Story="ZT_LZ" Cost="5" Icon="Spr\Object\DJ\LZ.PNG"/>
-		</StoryBnts>
-		<Element>
-			<Kind>Mu</Kind>
-			<Value>8</Value>
-			<Radius>2</Radius>
-		</Element>
-	</ThingDef>
-	
-	
-		<ThingDef Type="Item" Name="Item_SFND" Parent="MaterialBase">
-		<ThingName>Shenfeng Neitan</ThingName>
-		<TexPath>Spr\Object\DJ\SFND.PNG</TexPath>
-		<Desc>Shenhuang medicine contains Shendan, the core of the immortal medicine practice. Wear it to improve the power and mood of the spell. After refining, increase the power of the spell by 100% and the power of the spell by 20%.</Desc>
-		<MaxHitPoints>10000</MaxHitPoints>
-		<Rate>9</Rate>
-		<Beauty>12</Beauty>
-		<MaxStack>99</MaxStack>
-		<ElementKind>Huo</ElementKind>
-		<Item>
-		<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="17000"/>
-					<SalePrice Value="4260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="17000" />
-					<SalePrice Value="4260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="17000" />
-					<SalePrice Value="0" />
-				</li>
-				</Prices>
-			<FabaoSuffix>内丹</FabaoSuffix>
-			<PhysicalLables>
-				<li>PhysicalLables_Huo</li>	
-				<li>Liquid</li>
-				<li>LowDensity2</li>
-			</PhysicalLables>
-			<Equip>
-			<ToolModifier>ZT_SF</ToolModifier>
-		</Equip>
-		</Item>
-		<StoryBnts>
-			<li Name="Refining" Desc="Try to absorb the god phoenix Naitan" Appoint="2" Story="ZT_SFND" Cost="5" Icon="Spr\Object\DJ\SFND.PNG"/>
-		</StoryBnts>
-		<Element>
-			<Kind>Huo</Kind>
-			<Value>8</Value>
-			<Radius>2</Radius>
-		</Element>
-	</ThingDef>
-	
-		<ThingDef Type="Item" Name="Item_HLND" Parent="MaterialBase">
-		<ThingName>Huanglong Neitan</ThingName>
-		<TexPath>Spr\Object\DJ\HLND.PNG</TexPath>
-		<Desc>Huanglong Medicine contains Shen Dan, the core of the immortal medicine practice. Wear it to increase the load and mood of the matrix. After refining, increase the value of one thousand furnaces and reduce the speed of cultivation by ten percent.</Desc>
-		<MaxHitPoints>10000</MaxHitPoints>
-		<Rate>9</Rate>
-		<Beauty>12</Beauty>
-		<MaxStack>99</MaxStack>
-		<ElementKind>Tu</ElementKind>
-		<Item>
-		<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="17000"/>
-					<SalePrice Value="4260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="17000" />
-					<SalePrice Value="4260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="17000" />
-					<SalePrice Value="0" />
-				</li>
-				</Prices>
-			<FabaoSuffix>内丹</FabaoSuffix>
-			<PhysicalLables>
-				<li>PhysicalLables_Tu</li>	
-				<li>Liquid</li>
-				<li>LowDensity2</li>
-			</PhysicalLables>
-			<Equip>
-			<ToolModifier>ZT_HL</ToolModifier>
-		</Equip>
-		</Item>
-		<StoryBnts>
-			<li Name="Refining" Desc="Tryto absorb Nedan" Appoint="2" Story="ZT_HLND" Cost="5" Icon="Spr\Object\DJ\HLND.PNG"/>
-		</StoryBnts>
-		<Element>
-			<Kind>Tu</Kind>
-			<Value>8</Value>
-			<Radius>2</Radius>
-		</Element>
-	</ThingDef>
-	<ThingDef Type="Item" Name="Item_XWND" Parent="MaterialBase">
-		<ThingName>Basalt</ThingName>
-		<TexPath>Spr\Object\DJ\XWND.PNG</TexPath>
-		<Desc>Basalt medicine contains Shen Dan, the core of the immortal medicine practice, which can improve the spirit and mood by 50% and 100% after refining, and reduce the speed of magic rebirth by 10%.</Desc>
-		<MaxHitPoints>10000</MaxHitPoints>
-		<Rate>9</Rate>
-		<Beauty>12</Beauty>
-		<MaxStack>99</MaxStack>
-		<ElementKind>Shui</ElementKind>
-		<Item>
-		<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="17000"/>
-					<SalePrice Value="4260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="17000" />
-					<SalePrice Value="4260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="17000" />
-					<SalePrice Value="0" />
-				</li>
-				</Prices>
-			<FabaoSuffix>内丹</FabaoSuffix>
-			<PhysicalLables>
-				<li>PhysicalLables_Shui</li>	
-				<li>Liquid</li>
-				<li>LowDensity2</li>
-			</PhysicalLables>
-			<Equip>
-			<ToolModifier>ZT_XW</ToolModifier>
-		</Equip>
-		</Item>
-		<StoryBnts>
-			<li Name="Refining" Desc="Tryto absorb Nedan" Appoint="2" Story="ZT_XWND" Cost="5" Icon="Spr\Object\DJ\XWND.PNG"/>
-		</StoryBnts>
-		<Element>
-			<Kind>Shui</Kind>
-			<Value>8</Value>
-			<Radius>2</Radius>
-		</Element>
-	</ThingDef>
-	<ThingDef Type="Item" Name="Item_BHND" Parent="MaterialBase">
-		<ThingName>White Tiger Nedan</ThingName>
-		<TexPath>Spr\Object\DJ\BHND.PNG</TexPath>
-		<Desc>The white tiger medicine contains Shen Dan, the core of the immortal medicine practice. Wearing it can increase the power and state of mind of 100% magic weapon. After refining, it will increase the rebirth ratio of 100% magic weapon and increase the interval of 10% magic weapon attack.</Desc>
-		<MaxHitPoints>10000</MaxHitPoints>
-		<Rate>9</Rate>
-		<Beauty>12</Beauty>
-		<MaxStack>99</MaxStack>
-		<ElementKind>Jin</ElementKind>
-		<Item>
-		<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="17000"/>
-					<SalePrice Value="4260" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="17000" />
-					<SalePrice Value="4260" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="17000" />
-					<SalePrice Value="0" />
-				</li>
-				</Prices>
-			<FabaoSuffix>内丹</FabaoSuffix>
-			<PhysicalLables>
-				<li>PhysicalLables_Jin</li>	
-				<li>Liquid</li>
-				<li>LowDensity2</li>
-			</PhysicalLables>
-			<Equip>
-			<ToolModifier>ZT_BH</ToolModifier>
-		</Equip>
-		</Item>
-		<StoryBnts>
-			<li Name="Refining" Desc="Tryto absorb Nedan" Appoint="2" Story="ZT_BHND" Cost="5" Icon="Spr\Object\DJ\BHND.PNG"/>
-		</StoryBnts>
-		<Element>
-			<Kind>Jin</Kind>
-			<Value>8</Value>
-			<Radius>2</Radius>
-		</Element>
-	</ThingDef>
-		<ThingDef Type="Item" Name="Item_ZTF" Parent="MaterialBase">
-		<ThingName>Veil</ThingName>
-		<TexPath>Spr\Object\DJ\ZTL.PNG</TexPath>
-		<Desc>Cover the sky, auction house identity certification. Increase the wearer's mood and charm</Desc>
-		<MaxHitPoints>10000</MaxHitPoints>
-		<Rate>12</Rate>
-		<Beauty>12</Beauty>
-		<MaxStack>99</MaxStack>
-		<ElementKind>Jin</ElementKind>
-		<Item>
-			<FabaoSuffix>符</FabaoSuffix>
-			<PhysicalLables>
-				<li>PhysicalLables_None</li>	
-				<li>LowDensity2</li>
-			</PhysicalLables>
-			<StoryBnts>
-			<li Name="Call" Desc="Call the Auction House" Story="ZT_PMH" Cost="1" Icon="Spr\Object\DJ\ZTL.PNG"/>
-		</StoryBnts>
-			<Equip>
-			<ToolModifier>ZT_ZTF</ToolModifier>
-		</Equip>
-		</Item>
-		<Element>
-			<Kind>None</Kind>
-			<Value>8</Value>
-			<Radius>2</Radius>
-		</Element>
-	</ThingDef>
-	
-	<ThingDef Type="Item" Name="Item_yyzt" Parent="MaterialBase">
-		<ThingName>One page</ThingName>
-		<TexPath>Spr\Object\DJ\yyzt.PNG</TexPath>
-		<Desc>Learn a page to cover the sky, and use it to unlock new places.</Desc>
-		<MaxHitPoints>10000</MaxHitPoints>
-		<Rate>9</Rate>
-		<Beauty>12</Beauty>
-		<MaxStack>99</MaxStack>
-		<ElementKind>None</ElementKind>
-		<Item>
-			
-			<PhysicalLables>
-				<li>PhysicalLables_None</li>	
-
-			</PhysicalLables>
-			<BeMade>
-			<WorkToMake>1</WorkToMake>
-			<Quality>0</Quality>
-			<ArtDesc></ArtDesc>
-		
-			<CostItems>
-
-					<Item name = "Item_Water" count = "1"/>
-					
-				</CostItems>
-			
-		</BeMade> 
-
-		</Item>
-		<StoryBnts>
-			<li Name="Understanding" Desc="Try to understand the cheat" Story="ZT_DD" Cost="1" Icon="Spr\Object\DJ\yyzt.PNG"/>
-		</StoryBnts>
-		<Element>
-			<Kind>None</Kind>
-			<Value>8</Value>
-			<Radius>2</Radius>
-		</Element>
-	</ThingDef>
-	
-	<ThingDef Type="Item" Name="Item_SJL" Parent="MaterialBase">
-		<ThingName>Family Record</ThingName>
-		<TexPath>Spr\Object\DJ\SJL.PNG</TexPath>
-		<Desc>Enlightenment can choose one to start with a family. .</Desc>
-		<MaxHitPoints>10000</MaxHitPoints>
-		<Rate>20</Rate>
-		<Beauty>12</Beauty>
-		<MaxStack>99</MaxStack>
-		<ElementKind>None</ElementKind>
-		<Item>
-				<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="20000"/>
-					<SalePrice Value="10000" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="20000" />
-					<SalePrice Value="10000" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="20000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>	
-			<PhysicalLables>
-				<li>PhysicalLables_None</li>	
-
-			</PhysicalLables>
-		</Item>
-		<StoryBnts>
-			<li Name="Understanding" Desc="Try to understand the cheat" Story="ZT_HGSJ" Cost="1" Icon="Spr\Object\DJ\SJL.PNG"/>
-		</StoryBnts>
-		<Element>
-			<Kind>None</Kind>
-			<Value>8</Value>
-			<Radius>2</Radius>
-		</Element>
-	</ThingDef>
-	
-	<ThingDef Type="Item" Name="Item_TZW" Parent="MaterialBase">
-		<ThingName>Body fluid</ThingName>
-		<TexPath>Spr\Object\DJ\TZW.PNG</TexPath>
-		<Desc>The special physique made with countless evolution fluids can roughly compete with the constitution such as the Eucharist.</Desc>
-		<MaxHitPoints>10000</MaxHitPoints>
-		<Rate>20</Rate>
-		<Beauty>12</Beauty>
-		<MaxStack>1</MaxStack>
-		<ElementKind>None</ElementKind>
-		<Item>
-			<Prices>
-				<TalkType>2</TalkType>
-				<BaseCount>1</BaseCount>
-				<li PriceTag="School">
-					<BuyPrice Value="30000"/>
-					<SalePrice Value="1000" />
-				</li>
-				<li PriceTag="Trade">
-					<BuyPrice Value="30000" />
-					<SalePrice Value="1000" />
-				</li>
-				<li PriceTag="Auction">
-					<BuyPrice Value="40000" />
-					<SalePrice Value="0" />
-				</li>
-			</Prices>
-			<BeMade>
-			<WorkToMake>30000</WorkToMake>
-			<Quality>0</Quality>
-			<ArtDesc></ArtDesc>
-			<CostItems>
-					<Item name = "Item_WSXY" count = "15"/>
-					<Item name = "Item_JSXY" count = "15"/>
-					<Item name = "Item_MSXY" count = "15"/>
-					<Item name = "Item_SSXY" count = "15"/>
-					<Item name = "Item_HSXY" count = "15"/>
-					<Item name = "Item_TSXY" count = "15"/>
-					<Item name = "Item_DLYJ" count = "300"/>
-					<Item name = "Item_XZ" count = "300"/>
-					<Item name = "Item_ZYW" count = "300"/>
-					<Item name = "Item_YYSY" count = "300"/>
-					<Item name = "Item_ZYSY" count = "300"/>
-					<Item name = "Item_JTCYW" count = "300"/>
-					<Item name = "Item_JTBYB" count = "300"/>
-					<Item name = "Item_YZBYB" count = "300"/>
-					<Item name = "Item_JTBLSY" count = "300"/>
-			</CostItems>		
-		</BeMade> 
-			<PhysicalLables>
-				<li>PhysicalLables_None</li>	
-
-			</PhysicalLables>
-		</Item>
-		<StoryBnts>
-			<li Name="Absorption" Desc="Try to absorb the body pills" Appoint="1" Story="ZT_TZW" Cost="5" Icon="Spr\Object\DJ\TZW.PNG"/>
-		</StoryBnts>
-		<Element>
-			<Kind>None</Kind>
-			<Value>8</Value>
-			<Radius>2</Radius>
-		</Element>
-	</ThingDef>
-</List></ThingDefs>
+<ThingDefs>
+    <List>
+        <ThingDef Type="Item" Name="ToolBase" Parent="ItemBase">
+            <ThingName></ThingName>
+            <MaxStack>1</MaxStack>
+            <TexPath></TexPath>
+            <Desc>Desc.</Desc>
+            <SelectAble>1</SelectAble>
+            <VisualAble>1</VisualAble>
+            <Beauty>2</Beauty>
+            <Rate>1</Rate>
+            <Flammability>
+                <Flammability>0</Flammability>
+                <FlameSpawnThingDef></FlameSpawnThingDef>
+                <FlameSpawnChance>0</FlameSpawnChance>
+                <BurningPoint>150</BurningPoint>
+            </Flammability>
+            <Item Lable="Tool">
+                <NotFengshuiItem>0</NotFengshuiItem>
+                <FuelMultiplier>1</FuelMultiplier>
+                <BeMaterial>
+                    <NamePrefix></NamePrefix>
+                    <CostMultiplier>1</CostMultiplier>
+                    <SharpDamageMultiplier>1</SharpDamageMultiplier>
+                    <BluntDamageMultiplier>1</BluntDamageMultiplier>
+                    <LingDamageMultiplier>1</LingDamageMultiplier>
+                    <AttackSpeedWhenBeMain>1.2</AttackSpeedWhenBeMain>
+                    <SharpDefenceMultiplier>1</SharpDefenceMultiplier>
+                    <BluntDefenceMultiplier>1</BluntDefenceMultiplier>
+                    <LingDefenceMultiplier>1</LingDefenceMultiplier>
+                    <ColdInsulationMultiplier>1</ColdInsulationMultiplier>
+                    <HeatInsulationMultiplier>1</HeatInsulationMultiplier>
+                    <MaxHitPointsPerNum>6</MaxHitPointsPerNum>
+                    <LingNumberRate>0.3</LingNumberRate>
+                    <FlammabilityWhenBeMain>0.2</FlammabilityWhenBeMain>
+                    <BeautyWhenBeMain>0</BeautyWhenBeMain>
+                    <ElementPowerWhenBeMain>1</ElementPowerWhenBeMain>
+                    <WorktoMakeRate>1</WorktoMakeRate>
+                    <WorktoBuildRate>1</WorktoBuildRate>
+                </BeMaterial>
+                <Rot>
+                    <RotSpeed>0</RotSpeed>
+                    <DaysToRotStart>0</DaysToRotStart>
+                    <TempMin>0</TempMin>
+                    <LingMax>0</LingMax>
+                </Rot>
+            </Item>
+            <Ling>
+                <AddionLing>0</AddionLing>
+                <AddionRadius>1</AddionRadius>
+                <AddionFailing>0</AddionFailing>
+                <AddionFailRadius>0</AddionFailRadius>
+                <Attenuation>0.03</Attenuation>
+                <Absorption>0.4</Absorption>
+                <Accommodate>1</Accommodate>
+            </Ling>
+            <Element>
+                <Kind>None</Kind>
+                <Value>1</Value>
+                <Radius>2</Radius>
+                <Failing>1</Failing>
+                <FailRadius>1</FailRadius>
+            </Element>
+        </ThingDef>
+        <ThingDef Type="Item" Name="ZT_MT" Parent="ToolBase">
+            <ThingName>Magic fetus</ThingName>
+            <TexPath>Spr\Object\HGJD\MT.png</TexPath>
+            <FabaoTexPath>Spr\Object\HGJD\MT.png</FabaoTexPath>
+            <MaxStack>1</MaxStack>
+            <Rate>24</Rate>
+            <ElementKind>None</ElementKind>
+            <Desc>The ruthless emperor turned into a magic fetus in his later years, and
+                the magic shell left behind by the magic trick.</Desc>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="1122000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="1122000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="1122000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <NotRandom>2</NotRandom>
+                <FabaoSuffix>魔</FabaoSuffix>
+                <PhysicalLables>
+                    <li>MT</li>
+                </PhysicalLables>
+                <Equip>
+                    <ToolModifier>MT</ToolModifier>
+                </Equip>
+                <Fabao>
+                    <ActiveCondition>
+                        <Condition eventid="BrokenNeck" des="Carrying treasures through metal robbery"
+                        needcount="6" lParam="God2" eParam="Jin" />
+                        <Condition eventid="BrokenNeck" des="Carrying treasures through the wooden property of the day robbery"
+                        needcount="6" lParam="God2" eParam="Mu" />
+                        <Condition eventid="BrokenNeck" des="Carrying treasures through the water's natural robbery"
+                        needcount="6" lParam="God2" eParam="Shui" />
+                        <Condition eventid="BrokenNeck" des="Carrying treasures through the fire"
+                        needcount="6" lParam="God2" eParam="Huo" />
+                        <Condition eventid="BrokenNeck" des="Carrying treasures through the earth's land"
+                        needcount="6" lParam="God2" eParam="Tu" />
+                        <Condition eventid="Other" des="Feeding treasures with blood 15 times"
+                        needcount="15" />
+                    </ActiveCondition>
+                    <SpecialAbility>
+                        <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1="1"
+                        Desc="At the expense of fragmentation, resist one death and recover all injuries."
+                        />
+                        <Ability Kind="MultiKillAddPowerUp" nParam1="30" fParam1="1" Desc="Each killing of a living life is increased by 100 percent, up to 30 layers. If you do not drink blood on the 1st day will be zero effect."
+                        />
+                    </SpecialAbility>
+                </Fabao>
+                <UseLua>GameMain:GetMod('_FabaoHelper'):FeedSelf()</UseLua>
+            </Item>
+        </ThingDef>
+        <ThingDef Type="Item" Name="ZT_HSZD" Parent="ToolBase">
+            <ThingName>Way of nursing</ThingName>
+            <TexPath>Spr\Object\WP\ZTHSZD.png</TexPath>
+            <FabaoTexPath>Spr\Object\WP\ZTHSZD.png</FabaoTexPath>
+            <MaxStack>1</MaxStack>
+            <Rate>12</Rate>
+            <ElementKind>Shui</ElementKind>
+            <Desc>At the beginning of the day, the birth of the aura of innate qi, although
+                this object can not kill, but can activate the vitality of all things to
+                consume their own spiritual power can return the dying person to the sun,
+                one person can only be a lifetime. . (Equipment can increase the shield
+                strength by 50%) by Yuzun</Desc>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="22000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="22000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="22000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <NotRandom>2</NotRandom>
+                <FabaoSuffix>护生之道</FabaoSuffix>
+                <PhysicalLables>
+                    <li>ZTHSZD</li>
+                </PhysicalLables>
+                <BeMade>
+                    <WorkToMake>2100</WorkToMake>
+                    <Quality>0</Quality>
+                    <ArtDesc></ArtDesc>
+                    <CostItems>
+                        <Item name="ZT_BHZ" count="6" />
+                        <Item name="ZT_BHW" count="36" />
+                        <Item name="Item_ShuiEssence" count="10" />
+                        <Item name="Item_SSXSY" count="26" />
+                        <Item name="Item_Water" count="1600" />
+                    </CostItems>
+                </BeMade>
+                <Equip>
+                    <ToolModifier>ZTHSZD</ToolModifier>
+                </Equip>
+                <Fabao>
+                    <ActiveCondition>
+                        <Condition eventid="BrokenNeck" des="Carry Treasures Through Metallic Tribulation"
+                        needcount="3" lParam="God2" eParam="Jin" />
+                        <Condition eventid="BrokenNeck" des="Carrying treasures through the scourge of wood"
+                        needcount="3" lParam="God2" eParam="Mu" />
+                        <Condition eventid="BrokenNeck" des="Carrying treasures to survive the water disaster"
+                        needcount="3" lParam="God2" eParam="Shui" />
+                        <Condition eventid="BrokenNeck" des="Carrying treasures to survive the fire disaster"
+                        needcount="3" lParam="God2" eParam="Huo" />
+                        <Condition eventid="BrokenNeck" des="Carrying treasures through the nature disaster"
+                        needcount="3" lParam="God2" eParam="Tu" />
+                        <Condition eventid="UseNpcJing" des="Carrying treasures consumes 20W"
+                        needcount="200000" />
+                    </ActiveCondition>
+                    <SpecialAbility>
+                        <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1="1"
+                        Desc="Resist the death and recover all damage at the cost of breaking."
+                        />
+                        <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoMaxLingAddP"
+                        fParam2="0.3" nParam1="1" Desc="Basically increase your magic power Aura bonus 30%。"
+                        />
+                        <Ability Kind="CantAttack" Desc="Around the whole body will not actively attack, focus on defense."
+                        />
+                    </SpecialAbility>
+                </Fabao>
+            </Item>
+        </ThingDef>
+        <ThingDef Type="Item" Name="ZT_TZY" Parent="ToolBase">
+            <ThingName>Seal of Heaven</ThingName>
+            <TexPath>Spr\Object\WP\ZTTDY.png</TexPath>
+            <FabaoTexPath>Spr\Object\WP\ZTTDY.png</FabaoTexPath>
+            <MaxStack>1</MaxStack>
+            <Rate>12</Rate>
+            <ElementKind>Jin</ElementKind>
+            <Desc>At the beginning of the heaven and earth, the origin of the heavens was
+                condensed, hidden in the heavens, and held as the master of the heavens.
+                . (Equipment can be enhanced to reduce the 30-dot spell rune) by 飐 偑</Desc>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="22000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="22000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="22000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <NotRandom>2</NotRandom>
+                <FabaoSuffix>天之印</FabaoSuffix>
+                <PhysicalLables>
+                    <li>ZTTZY</li>
+                </PhysicalLables>
+                <BeMade>
+                    <WorkToMake>2100</WorkToMake>
+                    <Quality>0</Quality>
+                    <ArtDesc></ArtDesc>
+                    <CostItems>
+                        <Item name="Item_JTBYB" count="66" />
+                        <Item name="Item_JTCYW" count="66" />
+                        <Item name="Item_YYSY" count="66" />
+                        <Item name="Item_WSXSY" count="26" />
+                        <Item name="Item_XianDaoShenNian" count="1" />
+                        <Item name="Item_Water" count="1600" />
+                    </CostItems>
+                </BeMade>
+                <Equip>
+                    <ToolModifier>ZTTZY</ToolModifier>
+                </Equip>
+                <Fabao>
+                    <ActiveCondition>
+                        <Condition eventid="Other" des="Absorption of beidou starlight for 7 consecutive days"
+                        needday="21" continuity="21" />
+                    </ActiveCondition>
+                    <SpecialAbility>
+                        <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.1" nParam1="1"
+                        nParam2="1" Desc="Additional 10% additional damage to the target's current reiki when attacking the enemy body。"
+                        />
+                    </SpecialAbility>
+                </Fabao>
+                <UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveBeiDou()</UseLua>
+            </Item>
+        </ThingDef>
+        <ThingDef Type="Item" Name="ZT_DZY" Parent="ToolBase">
+            <ThingName>Earth Seal</ThingName>
+            <TexPath>Spr\Object\WP\ZTTDY.png</TexPath>
+            <FabaoTexPath>Spr\Object\WP\ZTTDY.png</FabaoTexPath>
+            <MaxStack>1</MaxStack>
+            <Rate>12</Rate>
+            <ElementKind>Tu</ElementKind>
+            <Desc>At the beginning of the world, the source of the ghost was condensed,
+                hidden in the ghost, and held as the master of the ghost. . (Equipment
+                can increase the strength of fifty spells) by 飐 偑</Desc>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="22000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="22000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="22000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <NotRandom>2</NotRandom>
+                <FabaoSuffix>地之玺</FabaoSuffix>
+                <PhysicalLables>
+                    <li>ZTDZY</li>
+                </PhysicalLables>
+                <BeMade>
+                    <WorkToMake>2100</WorkToMake>
+                    <Quality>0</Quality>
+                    <ArtDesc></ArtDesc>
+                    <CostItems>
+                        <Item name="Item_ZYSY" count="66" />
+                        <Item name="Item_JTBLSY" count="66" />
+                        <Item name="Item_ZYW" count="66" />
+                        <Item name="Item_TSXSY" count="26" />
+                        <Item name="Item_XianDaoXieNian" count="1" />
+                        <Item name="Item_Water" count="1600" />
+                    </CostItems>
+                </BeMade>
+                <Equip>
+                    <ToolModifier>ZTDZY</ToolModifier>
+                </Equip>
+                <Fabao>
+                    <ActiveCondition>
+                        <Condition eventid="Other" des="Absorb scent 36 times forever night" needcount="36"
+                        />
+                    </ActiveCondition>
+                    <SpecialAbility>
+                        <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.1" nParam1="1"
+                        nParam2="1" Desc="An additional 10% additional damage to the target's current reiki is caused when attacking the enemy onthisis."
+                        />
+                    </SpecialAbility>
+                </Fabao>
+                <UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveWeather({'PermanentNight'})</UseLua>
+            </Item>
+        </ThingDef>
+        <ThingDef Type="Item" Name="ZT_YMZD" Parent="ToolBase">
+            <ThingName>Ghost Town</ThingName>
+            <TexPath>Spr\Object\WP\ZTYMZD.png</TexPath>
+            <FabaoTexPath>Spr\Object\WP\ZTYMZD.png</FabaoTexPath>
+            <MaxStack>1</MaxStack>
+            <Rate>12</Rate>
+            <ElementKind>Tu</ElementKind>
+            <Desc>When the universe was flooded, the purpose of the heavenly path was cast
+                from the earth. And Xuanhuang Kaitian are the same. . (Equipment can enhance
+                mood value) by Clear Strings</Desc>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="22000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="22000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="22000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <NotRandom>2</NotRandom>
+                <FabaoSuffix>幽冥镇地</FabaoSuffix>
+                <PhysicalLables>
+                    <li>ZTYMZD</li>
+                </PhysicalLables>
+                <BeMade>
+                    <WorkToMake>2100</WorkToMake>
+                    <Quality>0</Quality>
+                    <ArtDesc></ArtDesc>
+                    <CostItems>
+                        <Item name="Item_XHJC" count="6" />
+                        <Item name="Item_XHEQ" count="66" />
+                        <Item name="Item_LWHJ" count="6" />
+                        <Item name="Item_WSXXY" count="26" />
+                        <Item name="Item_BossZhuLong_Eye" count="4" />
+                        <Item name="Item_Water" count="1600" />
+                    </CostItems>
+                </BeMade>
+                <Equip>
+                    <ToolModifier>ZTYMZD</ToolModifier>
+                </Equip>
+                <Fabao>
+                    <ActiveCondition>
+                        <Condition eventid="Other" des="Absorb scent 36 times forever night" needcount="36"
+                        />
+                    </ActiveCondition>
+                    <SpecialAbility>
+                        <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="4" nParam1="2"
+                        Desc="When fighting with Magic, cause 5 times as much damage." />
+                    </SpecialAbility>
+                </Fabao>
+                <UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveWeather({'PermanentNight'})</UseLua>
+            </Item>
+        </ThingDef>
+        <ThingDef Type="Item" Name="ZT_FHJ" Parent="ToolBase">
+            <ThingName>Phoenix Robbery</ThingName>
+            <TexPath>Spr\Object\WP\ZTFHJ.png</TexPath>
+            <FabaoTexPath>Spr\Object\WP\ZTFHJ.png</FabaoTexPath>
+            <MaxStack>1</MaxStack>
+            <Rate>12</Rate>
+            <ElementKind>Huo</ElementKind>
+            <Desc>No one remembers its past in the ancient harp. The passage of time is
+                on the harp. This time the ancient harp recognized Hua Yunfei as the master.
+                . (Equipment can increase Charisma and mood) by Qingxian</Desc>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="22000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="22000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="22000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <NotRandom>2</NotRandom>
+                <FabaoSuffix>凤凰劫</FabaoSuffix>
+                <PhysicalLables>
+                    <li>ZTFHJ</li>
+                </PhysicalLables>
+                <BeMade>
+                    <WorkToMake>2100</WorkToMake>
+                    <Quality>0</Quality>
+                    <ArtDesc></ArtDesc>
+                    <CostItems>
+                        <Item name="Item_HXCJ" count="1" />
+                        <Item name="Item_Mint" count="306" />
+                        <Item name="Item_BossFeng_WeiYu" count="9" />
+                        <Item name="Item_BossLong_Jing" count="13" />
+                        <Item name="Item_HSXSY" count="15" />
+                        <Item name="Item_Water" count="1600" />
+                    </CostItems>
+                </BeMade>
+                <Equip>
+                    <ToolModifier>ZTFHJ</ToolModifier>
+                </Equip>
+                <Fabao>
+                    <ActiveCondition>
+                        <Condition eventid="Other" des="Absorb scent 36 times forever night" needcount="36"
+                        />
+                        <Condition eventid="KillCount" des="Carrying embryos to kill 36 meta-gods"
+                        needcount="36" lParam="God" />
+                    </ActiveCondition>
+                    <SpecialAbility>
+                        <Ability Kind="HitAddRecovery" fParam1="0.6" Desc="60% of the damage will be supplemented by the reiki of Faber itself."
+                        />
+                    </SpecialAbility>
+                </Fabao>
+                <UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveWeather({'PermanentNight'})</UseLua>
+            </Item>
+        </ThingDef>
+        <ThingDef Type="Item" Name="ZT_LGSF" Parent="ToolBase">
+            <ThingName>Chaos Rune</ThingName>
+            <TexPath>Spr\Object\WP\LGSF.png</TexPath>
+            <FabaoTexPath>Spr\Object\WP\LGSF.png</FabaoTexPath>
+            <MaxStack>1</MaxStack>
+            <Rate>12</Rate>
+            <ElementKind>Huo</ElementKind>
+            <Desc>Emperor Luangu is proficient in the way of time. Wearing this amulet can
+                reverse the time and die once. The wearer can reduce a lot of condemnation
+                values.</Desc>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="32000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="32000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="32000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <NotRandom>2</NotRandom>
+                <FabaoSuffix>神符</FabaoSuffix>
+                <PhysicalLables>
+                    <li>LGSF</li>
+                </PhysicalLables>
+                <BeMade>
+                    <WorkToMake>2100</WorkToMake>
+                    <Quality>0</Quality>
+                    <ArtDesc></ArtDesc>
+                    <CostItems>
+                        <li name="Item_ThunderAir" count="3" />
+                        <Item name="Item_WSXXY" count="3" />
+                        <Item name="Item_WSXSY" count="9" />
+                        <Item name="Item_WSXY" count="18" />
+                        <Item name="Item_DLYJ" count="100" />
+                        <Item name="Item_Water" count="1200" />
+                    </CostItems>
+                </BeMade>
+                <Equip>
+                    <ToolModifier>LGSF</ToolModifier>
+                </Equip>
+                <Fabao>
+                    <ActiveCondition>
+                        <Condition eventid="KillCount" des="Carrying embryos to kill 36 meta-gods"
+                        needcount="36" />
+                    </ActiveCondition>
+                    <SpecialAbility>
+                        <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1="1"
+                        Desc="At the expense of fragmentation, resist one death and recover all injuries."
+                        />
+                    </SpecialAbility>
+                </Fabao>
+            </Item>
+        </ThingDef>
+        <ThingDef Type="Item" Name="ZT_SYLG" Parent="ToolBase">
+            <ThingName>Shiyin keel</ThingName>
+            <TexPath>Spr\Object\WP1\SYLG.png</TexPath>
+            <FabaoTexPath>Spr\Object\WP1\SYLG.png</FabaoTexPath>
+            <MaxStack>1</MaxStack>
+            <Rate>12</Rate>
+            <ElementKind>Shui</ElementKind>
+            <Desc>In the early days of the Yuan Dynasty, the heavens and the earth were
+                accompanied by the yin and yang twin dragons. When the yin dragons were
+                killed in the Fengshen war, one of the spine bones refined by their bones
+                was taken. This bone can penetrate the wearer's bone marrow and hurt its
+                roots. Only by long-term refining can it resist its yin-qi conversion for
+                its own use. Legend has it that it can resist its yin-qi when worn with
+                pure yang keel. by 胡 家 老三</Desc>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="32000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="32000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="32000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <NotRandom>2</NotRandom>
+                <FabaoSuffix>释阴龙骨,释阴,龙骨</FabaoSuffix>
+                <PhysicalLables>
+                    <li>WPS_S</li>
+                    <li>WPS_S</li>
+                </PhysicalLables>
+                <BeMade>
+                    <WorkToMake>2100</WorkToMake>
+                    <Quality>0</Quality>
+                    <ArtDesc></ArtDesc>
+                    <CostItems>
+                        <li name="Item_LingCrystal" count="100" />
+                        <Item name="Item_SSXXY" count="2" />
+                        <Item name="Item_SSXSY" count="5" />
+                        <Item name="Item_SSXY" count="10" />
+                        <Item name="Item_LQ" count="10" />
+                        <Item name="Item_LWHJ" count="1" />
+                        <Item name="Item_XHEQ" count="2" />
+                        <Item name="Item_YYC" count="30" />
+                        <Item name="Item_AL" count="20" />
+                        <Item name="Item_LHY" count="20" />
+                        <Item name="Item_BossZhuLong_HeiLin" count="10" />
+                        <Item name="Item_BossZhuLong_LongYu" count="1" />
+                    </CostItems>
+                </BeMade>
+                <Equip>
+                    <ToolModifier>ZT_SYLG</ToolModifier>
+                </Equip>
+                <Fabao>
+                    <ActiveCondition>
+                        <Condition eventid="Carry" des="One year worn by millennial women" needday="112"
+                        sex="2" age="1000,10000" />
+                    </ActiveCondition>
+                    <SpecialAbility>
+                        <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1="1"
+                        Desc="At the expense of fragmentation, resist one death and recover all injuries."
+                        />
+                        <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Longxinyinyanggui"
+                        Desc="Body Protection Skills Improve10" />
+                        <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="2.5" nParam1="0"
+                        sParam1="Huo" Desc="Fire property target damage deepens 250%" />
+                    </SpecialAbility>
+                </Fabao>
+            </Item>
+        </ThingDef>
+        <ThingDef Type="Item" Name="ZT_CYLG" Parent="ToolBase">
+            <ThingName>Pure Yang Keel</ThingName>
+            <TexPath>Spr\Object\WP1\CYLG.png</TexPath>
+            <FabaoTexPath>Spr\Object\WP1\CYLG.png</FabaoTexPath>
+            <MaxStack>1</MaxStack>
+            <Rate>12</Rate>
+            <ElementKind>Huo</ElementKind>
+            <Desc>In the beginning of the mixed yuan, the heavens and the earth accompany
+                the yin and yang twin dragons. When the dragons were humiliated, they were
+                unwilling to turn themselves into a keel. The pure yang of this bone can
+                nourish the wearer's ability, even under long-term refining. You can take
+                it for yourself, the legend can resist the yin of the yin keel. By Hu 家
+                老三</Desc>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="32000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="32000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="32000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <NotRandom>2</NotRandom>
+                <FabaoSuffix>纯阳龙骨,纯阳,龙骨</FabaoSuffix>
+                <PhysicalLables>
+                    <li>WPS_H</li>
+                    <li>WPS_H</li>
+                </PhysicalLables>
+                <BeMade>
+                    <WorkToMake>2100</WorkToMake>
+                    <Quality>0</Quality>
+                    <ArtDesc></ArtDesc>
+                    <CostItems>
+                        <li name="Item_LingCrystal" count="100" />
+                        <Item name="Item_HSXXY" count="2" />
+                        <Item name="Item_HSXSY" count="5" />
+                        <Item name="Item_HSXY" count="10" />
+                        <Item name="Item_LQ" count="10" />
+                        <Item name="Item_LWHJ" count="1" />
+                        <Item name="Item_XHEQ" count="2" />
+                        <Item name="Item_YYC" count="30" />
+                        <Item name="Item_SYC" count="20" />
+                        <Item name="Item_SMG" count="20" />
+                        <Item name="Item_FXC" count="20" />
+                        <Item name="Item_CL" count="5" />
+                        <Item name="Item_BossZhuLong_BaiLin" count="10" />
+                        <Item name="Item_BossZhuLong_LongYu" count="1" />
+                    </CostItems>
+                </BeMade>
+                <Equip>
+                    <ToolModifier>ZT_CYLG</ToolModifier>
+                </Equip>
+                <Fabao>
+                    <ActiveCondition>
+                        <Condition eventid="Carry" des="One year worn by millennial men" needday="112"
+                        sex="1" age="1000,10000" />
+                    </ActiveCondition>
+                    <SpecialAbility>
+                        <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1="1"
+                        Desc="At the expense of fragmentation, resist one death and recover all injuries."
+                        />
+                        <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Yuanshenxinjian"
+                        Desc="Sword Skills Improved 10" />
+                        <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="2.5" nParam1="0"
+                        sParam1="Mu" Desc="Damage to wood attribute target deepens 250%" />
+                    </SpecialAbility>
+                </Fabao>
+            </Item>
+        </ThingDef>
+        <ThingDef Type="Item" Name="ZT_ZJSNP" Parent="ToolBase">
+            <ThingName>Ziji Shennongpei</ThingName>
+            <TexPath>Spr\Object\WP1\ZJSNP.png</TexPath>
+            <FabaoTexPath>Spr\Object\WP1\ZJSNP.png</FabaoTexPath>
+            <MaxStack>1</MaxStack>
+            <Rate>12</Rate>
+            <ElementKind>Mu</ElementKind>
+            <Desc>According to legend, in ancient times, the space between the two realms
+                of Xianfan was not as solid as it is now. An immortal can stay for a few
+                days. On that day, when a certain emperor shelters his son, he falls in
+                love with a woman at first sight. After all, Xianfan is different, even
+                if it can stay for several days. After all, it is impossible to expect
+                long in the world. He turned into a mortal, playing with women around the
+                world. When he was about to leave, he used his own blood and life-long
+                experience to give a precious jade to his woman. Although this thing does
+                not hurt people, it has the power of shelter. But you can protect the master
+                of Yupei from death, and have an extremely valuable learning and insight
+                from an immortal emperor who uses Dan as a path. .by puppet</Desc>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="12000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="12000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="12000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <NotRandom>2</NotRandom>
+                <FabaoSuffix>紫极神农佩,神农佩</FabaoSuffix>
+                <PhysicalLables>
+                    <li>WPS_M</li>
+                </PhysicalLables>
+                <BeMade>
+                    <WorkToMake>2100</WorkToMake>
+                    <Quality>0</Quality>
+                    <ArtDesc></ArtDesc>
+                    <CostItems>
+                        <li name="Item_LingCrystal" count="500" />
+                        <li name="Item_Dan_ReBorn" count="20" />
+                        <Item name="Item_MSXY" count="10" />
+                        <Item name="NP_CQD5" count="2" />
+                        <Item name="Item_GJZ" count="80" />
+                        <Item name="Item_WSTJ" count="86" />
+                    </CostItems>
+                </BeMade>
+                <Equip>
+                    <ToolModifier>ZT_CYLG</ToolModifier>
+                </Equip>
+                <Fabao>
+                    <ActiveCondition>
+                        <Condition eventid="SoulCrystalLing" des="12 times for the embryo" needcount="12"
+                        fParam="1" />
+                    </ActiveCondition>
+                    <SpecialAbility>
+                        <Ability Kind="Sync_AddFlag" sParam1="FLAG_ITEM_RESURRECTION" nParam1="1"
+                        Desc="At the expense of fragmentation, resist one death and recover all injuries."
+                        />
+                        <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_LD" Desc="The upper limit of the alchemy level is increased by 15"
+                        />
+                        <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_LD1" Desc="Increase the refinery rate of refining dan production."
+                        />
+                    </SpecialAbility>
+                </Fabao>
+            </Item>
+        </ThingDef>
+        <ThingDef Type="Item" Name="ZT_JMDB" Parent="ToolBase">
+            <ThingName>Nine Secrets</ThingName>
+            <TexPath>Spr\Object\DJ\ZT_JMDB.png</TexPath>
+            <FabaoTexPath>Spr\Object\DJ\ZT_JMDB.png</FabaoTexPath>
+            <MaxStack>9</MaxStack>
+            <Rate>1</Rate>
+            <ElementKind>None</ElementKind>
+            <Desc>The nine secrets of a pirated copy.</Desc>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="1" />
+                        <SalePrice Value="33" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="1" />
+                        <SalePrice Value="33" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="1" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <NotRandom>2</NotRandom>
+                <FabaoSuffix>神符</FabaoSuffix>
+                <PhysicalLables>
+                    <li>PhysicalLables_XiongFeng_HuoYu</li>
+                </PhysicalLables>
+                <Equip>
+                    <ToolModifier>JMDB</ToolModifier>
+                </Equip>
+            </Item>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_YS1" Parent="MaterialBase">
+            <ThingName>Source stone</ThingName>
+            <MaxStack>1</MaxStack>
+            <TexPath>Spr\Object\Y\YS.PNG</TexPath>
+            <Desc>It contains extremely powerful spiritual power fluctuations. I don't know
+                what amazing existence is, or whether it is a practical source or a divine
+                source.</Desc>
+            <Beauty>1</Beauty>
+            <Rate>12</Rate>
+            <ElementKind>None</ElementKind>
+            <Flammability>
+                <Flammability>0</Flammability>
+            </Flammability>
+            <Item Lable="Other">
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>10</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="1500" />
+                        <SalePrice Value="200" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="1500" />
+                        <SalePrice Value="300" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="100" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <FabaoSuffix>白眼石,非洲石,坑石</FabaoSuffix>
+                <BeMade>
+                    <WorkToMake>3000</WorkToMake>
+                    <Quality>0</Quality>
+                    <ArtDesc></ArtDesc>
+                    <StuffCategories>
+                        <Stuff name="WoodBlock" />
+                        <Stuff name="RockBlock" />
+                        <Stuff name="MetalBlock" />
+                        <Stuff name="Wood" />
+                        <Stuff name="Rock" />
+                        <Stuff name="Metal" />
+                        <Stuff name="Tool" />
+                        <Stuff name="Spell" />
+                        <Stuff name="Food" />
+                        <Stuff name="Dan" />
+                        <Stuff name="Weapon" />
+                    </StuffCategories>
+                    <CostStuffCount>100</CostStuffCount>
+                </BeMade>
+                <BeMaterial>
+                    <CostMultiplier>1</CostMultiplier>
+                </BeMaterial>
+            </Item>
+            <StoryBnts>
+                <li Name="Cut" Desc="Try to cut this source stone" Appoint="3" Story="Story_Item_YS1"
+                Cost="5" Icon="res/Sprs/ui/icon_hand" />
+            </StoryBnts>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_YS2" Parent="MaterialBase">
+            <ThingName>Source stone 2</ThingName>
+            <MaxStack>1</MaxStack>
+            <TexPath>Spr\Object\Y\YS.PNG</TexPath>
+            <Desc>Specially used for stone box.</Desc>
+            <Beauty>1</Beauty>
+            <Rate>12</Rate>
+            <ElementKind>None</ElementKind>
+            <Flammability>
+                <Flammability>0</Flammability>
+            </Flammability>
+            <Item Lable="Other">
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>10</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="1500" />
+                        <SalePrice Value="100" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="1500" />
+                        <SalePrice Value="100" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="100" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <FabaoSuffix>白眼石,非洲石,坑石</FabaoSuffix>
+                <BeMade>
+                    <WorkToMake>3000</WorkToMake>
+                    <Quality>0</Quality>
+                    <ArtDesc></ArtDesc>
+                    <CostItems>
+                        <Item name="Item_StoneBox2" count="1" />
+                        <Item name="Item_Water" count="100" />
+                    </CostItems>
+                </BeMade>
+                <BeMaterial>
+                    <CostMultiplier>1</CostMultiplier>
+                </BeMaterial>
+            </Item>
+            <StoryBnts>
+                <li Name="Cut" Desc="Try to cut this source stone" Appoint="3" Story="Story_Item_YS1"
+                Cost="5" Icon="res/Sprs/ui/icon_hand" />
+            </StoryBnts>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_STYH" Parent="MaterialBase">
+            <ThingName>Eucharist remains</ThingName>
+            <MaxStack>1</MaxStack>
+            <TexPath>Spr\Object\DJ\STYH.PNG</TexPath>
+            <Desc>I don't know how many years have passed. This corpse is still not bad,
+                sitting in the treasure heap, although there is no enlightenment around
+                the body. But it is more attractive than all treasures.</Desc>
+            <Beauty>1</Beauty>
+            <Rate>20</Rate>
+            <ElementKind>None</ElementKind>
+            <Flammability>
+                <Flammability>0</Flammability>
+            </Flammability>
+            <Item Lable="Other">
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="9000" />
+                        <SalePrice Value="5000" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="9000" />
+                        <SalePrice Value="5000" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="9000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <FabaoSuffix>尸骸,圣骸</FabaoSuffix>
+                <PhysicalLables>
+                    <li>PhysicalLables_None</li>
+                    <li>PhysicalLables_None</li>
+                    <li>PhysicalLables_None</li>
+                    <li>PhysicalLables_None</li>
+                    <li>PhysicalLables_None</li>
+                    <li>PhysicalLables_None</li>
+                </PhysicalLables>
+            </Item>
+            <StoryBnts>
+                <li Name="Realize" Desc="Try to connect with the remains of this Eucharist"
+                Appoint="2" Story="STYH" Cost="5" Icon="Spr\Object\DJ\STYH.PNG" />
+            </StoryBnts>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_YS3" Parent="MaterialBase">
+            <ThingName>Stone Tire</ThingName>
+            <MaxStack>1</MaxStack>
+            <TexPath>Spr\Object\Y\YS2.PNG</TexPath>
+            <Desc>The stone tyre obtained by Zhangjiacun is said to have been left by Yuan
+                Tianshi, and it may be the source of Tian Tianshi's heritage.</Desc>
+            <Beauty>1</Beauty>
+            <Rate>12</Rate>
+            <ElementKind>None</ElementKind>
+            <Flammability>
+                <Flammability>0</Flammability>
+            </Flammability>
+            <Item Lable="Other">
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="3000" />
+                        <SalePrice Value="1260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="3000" />
+                        <SalePrice Value="1260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="4000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <FabaoSuffix>白眼石,非洲石,坑石</FabaoSuffix>
+            </Item>
+            <StoryBnts>
+                <li Name="Cut" Desc="Try to cut this stone tire" Appoint="1" Story="Story_Item_YS2"
+                Cost="5" Icon="res/Sprs/ui/icon_hand" />
+            </StoryBnts>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_PTZ" Parent="MaterialBase">
+            <ThingName>Bodhi</ThingName>
+            <MaxStack>1</MaxStack>
+            <TexPath>Spr\Object\TOOL\PTZ.PNG</TexPath>
+            <Desc>Ye Fan was obtained from the Great Leiyin Temple on Mars. With the ability
+                to increase the speed of cultivation and the probability of understanding</Desc>
+            <Beauty>99</Beauty>
+            <Rate>12</Rate>
+            <ElementKind>None</ElementKind>
+            <Flammability>
+                <Flammability>0</Flammability>
+            </Flammability>
+            <Item Lable="Other">
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="5000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="5000" />
+                        <SalePrice Value="3260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="8000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <FabaoSuffix>菩提,血菩提,灵提子</FabaoSuffix>
+                <Equip>
+                    <ToolModifier>ZT_PTZ</ToolModifier>
+                </Equip>
+            </Item>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_YDX" Parent="MaterialBase">
+            <ThingName>Monster Emperor Heart</ThingName>
+            <TexPath>Spr\Object\DJ\YDX.PNG</TexPath>
+            <Desc>The heart of Donghuang's last generation emperor is well understood.噗通.</Desc>
+            <MaxHitPoints>50000</MaxHitPoints>
+            <Rate>20</Rate>
+            <Beauty>100</Beauty>
+            <MaxStack>1</MaxStack>
+            <ElementKind>Mu</ElementKind>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="1220000" />
+                        <SalePrice Value="113260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="1220000" />
+                        <SalePrice Value="113260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="1220000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <FabaoSuffix>妖帝心</FabaoSuffix>
+                <PhysicalLables>
+                    <li>YDX</li>
+                </PhysicalLables>
+                <Elixir>
+                    <ZhuJi>25000</ZhuJi>
+                    <Modifier>Dan_YDX</Modifier>
+                    <Ling>5000000</Ling>
+                </Elixir>
+                <Food>
+                    <EatDirectable>1</EatDirectable>
+                    <Nutrition>-90</Nutrition>
+                    <FunAddion>-100</FunAddion>
+                    <PracticeNutrition>9999</PracticeNutrition>
+                </Food>
+            </Item>
+            <Ling>
+                <AddionLing>90</AddionLing>聚灵除以十
+                <AddionRadius>3</AddionRadius>聚灵范围
+                <AddionFailing>0.8</AddionFailing>
+                <AddionFailRadius>3</AddionFailRadius>
+                <Attenuation>0.06</Attenuation>
+                <Absorption>0.8</Absorption>
+                <Accommodate>5000</Accommodate>
+            </Ling>
+            <Element>
+                <Kind>Mu</Kind>
+                <Value>12</Value>
+                <Radius>2</Radius>
+            </Element>
+        </ThingDef>
+        <ThingDef Type="Item" Name="ZT_BHZ" Parent="MaterialBase">
+            <ThingName>Cold Jade</ThingName>
+            <TexPath>Spr\Object\DJ\QHYP.PNG</TexPath>
+            <Desc>Can withstand extreme cold of minus thousand degrees.</Desc>
+            <MaxHitPoints>10000</MaxHitPoints>
+            <Rate>6</Rate>
+            <Beauty>12</Beauty>
+            <MaxStack>99</MaxStack>
+            <ElementKind>Huo</ElementKind>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="2000" />
+                        <SalePrice Value="1260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="2000" />
+                        <SalePrice Value="1260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="2000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <FabaoSuffix>避寒玉</FabaoSuffix>
+                <PhysicalLables>
+                    <li>PhysicalLables_Shui</li>
+                    <li>PhysicalLables_Shui</li>
+                    <li>PhysicalLables_Shui</li>
+                </PhysicalLables>
+                <BeMade>
+                    <WorkToMake>3000</WorkToMake>
+                    <Quality>0</Quality>
+                    <ArtDesc></ArtDesc>
+                    <CostItems>
+                        <Item name="Item_YYSY" count="9" />
+                        <Item name="Item_SilverRock" count="99" />
+                        <Item name="Item_ZYW" count="6" />
+                    </CostItems>
+                    <CostStuffCount>100</CostStuffCount>
+                </BeMade>
+                <Equip>
+                    <ToolModifier>ZT_BHZ</ToolModifier>
+                </Equip>
+            </Item>
+            <Element>
+                <Kind>Huo</Kind>
+                <Value>8</Value>
+                <Radius>2</Radius>
+            </Element>
+        </ThingDef>
+        <ThingDef Type="Item" Name="ZT_BHW" Parent="MaterialBase">
+            <ThingName>Refuge from fire</ThingName>
+            <TexPath>Spr\Object\DJ\BHZ.PNG</TexPath>
+            <Desc>Can withstand the high temperature of 7,500 Baidu.</Desc>
+            <MaxHitPoints>10000</MaxHitPoints>
+            <Rate>6</Rate>
+            <Beauty>12</Beauty>
+            <MaxStack>99</MaxStack>
+            <ElementKind>Shui</ElementKind>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="1000" />
+                        <SalePrice Value="260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="1000" />
+                        <SalePrice Value="260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="1000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <FabaoSuffix>避寒珠</FabaoSuffix>
+                <PhysicalLables>
+                    <li>PhysicalLables_Shui</li>
+                    <li>PhysicalLables_Shui</li>
+                    <li>PhysicalLables_Shui</li>
+                </PhysicalLables>
+                <BeMade>
+                    <WorkToMake>3000</WorkToMake>
+                    <Quality>0</Quality>
+                    <ArtDesc></ArtDesc>
+                    <CostItems>
+                        <Item name="Item_Dan_BHW1" count="9" />
+                        <Item name="Item_Dan_BHW2" count="6" />
+                        <Item name="Item_Dan_BHW3" count="3" />
+                    </CostItems>
+                    <CostStuffCount>100</CostStuffCount>
+                </BeMade>
+                <Equip>
+                    <ToolModifier>ZT_BHW</ToolModifier>
+                </Equip>
+            </Item>
+            <Element>
+                <Kind>Shui</Kind>
+                <Value>8</Value>
+                <Radius>2</Radius>
+            </Element>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_LQ" Parent="MaterialBase">
+            <ThingName>Long Qi</ThingName>
+            <TexPath>Spr\Object\DJ\LQ.PNG</TexPath>
+            <Desc>Between hidden and mountains, and often contained in source rocks, equipment
+                can increase the wearer's magic weapon by 50%.</Desc>
+            <MaxHitPoints>10000</MaxHitPoints>
+            <Rate>9</Rate>
+            <Beauty>12</Beauty>
+            <MaxStack>99</MaxStack>
+            <ElementKind>Jin</ElementKind>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>5</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="2500" />
+                        <SalePrice Value="600" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="2500" />
+                        <SalePrice Value="600" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="2500" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <FabaoSuffix>龙气</FabaoSuffix>
+                <PhysicalLables>
+                    <li>PhysicalLables_Jin</li>
+                    <li>Liquid</li>
+                    <li>LowDensity2</li>
+                </PhysicalLables>
+                <Equip>
+                    <ToolModifier>ZT_LQ</ToolModifier>
+                </Equip>
+            </Item>
+            <Element>
+                <Kind>Jin</Kind>
+                <Value>8</Value>
+                <Radius>2</Radius>
+            </Element>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_LZ" Parent="MaterialBase">
+            <ThingName>Dragon Ball</ThingName>
+            <TexPath>Spr\Object\DJ\LZ.PNG</TexPath>
+            <Desc>The thing titled by the Qinglong Immortal Medicine contains the breath
+                of true dragons. Wearing it can increase the natural recovery rate and
+                mood of the inner door. After refining, it will increase the shield value
+                by 10 points and reduce the strength bonus by 10 percent.</Desc>
+            <MaxHitPoints>10000</MaxHitPoints>
+            <Rate>9</Rate>
+            <Beauty>12</Beauty>
+            <MaxStack>99</MaxStack>
+            <ElementKind>Mu</ElementKind>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="17000" />
+                        <SalePrice Value="4260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="17000" />
+                        <SalePrice Value="4260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="17000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <FabaoSuffix>龙气</FabaoSuffix>
+                <PhysicalLables>
+                    <li>PhysicalLables_Mu</li>
+                    <li>Liquid</li>
+                    <li>LowDensity2</li>
+                </PhysicalLables>
+                <Equip>
+                    <ToolModifier>ZT_LZ</ToolModifier>
+                </Equip>
+            </Item>
+            <StoryBnts>
+                <li Name="Refining" Desc="Try to absorb the dragon beads" Appoint="2"
+                Story="ZT_LZ" Cost="5" Icon="Spr\Object\DJ\LZ.PNG" />
+            </StoryBnts>
+            <Element>
+                <Kind>Mu</Kind>
+                <Value>8</Value>
+                <Radius>2</Radius>
+            </Element>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_SFND" Parent="MaterialBase">
+            <ThingName>Shenfeng Neitan</ThingName>
+            <TexPath>Spr\Object\DJ\SFND.PNG</TexPath>
+            <Desc>Shenhuang medicine contains Shendan, the core of the immortal medicine
+                practice. Wear it to improve the power and mood of the spell. After refining,
+                increase the power of the spell by 100% and the power of the spell by 20%.</Desc>
+            <MaxHitPoints>10000</MaxHitPoints>
+            <Rate>9</Rate>
+            <Beauty>12</Beauty>
+            <MaxStack>99</MaxStack>
+            <ElementKind>Huo</ElementKind>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="17000" />
+                        <SalePrice Value="4260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="17000" />
+                        <SalePrice Value="4260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="17000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <FabaoSuffix>内丹</FabaoSuffix>
+                <PhysicalLables>
+                    <li>PhysicalLables_Huo</li>
+                    <li>Liquid</li>
+                    <li>LowDensity2</li>
+                </PhysicalLables>
+                <Equip>
+                    <ToolModifier>ZT_SF</ToolModifier>
+                </Equip>
+            </Item>
+            <StoryBnts>
+                <li Name="Refining" Desc="Try to absorb the god phoenix Naitan" Appoint="2"
+                Story="ZT_SFND" Cost="5" Icon="Spr\Object\DJ\SFND.PNG" />
+            </StoryBnts>
+            <Element>
+                <Kind>Huo</Kind>
+                <Value>8</Value>
+                <Radius>2</Radius>
+            </Element>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_HLND" Parent="MaterialBase">
+            <ThingName>Huanglong Neitan</ThingName>
+            <TexPath>Spr\Object\DJ\HLND.PNG</TexPath>
+            <Desc>Huanglong Medicine contains Shen Dan, the core of the immortal medicine
+                practice. Wear it to increase the load and mood of the matrix. After refining,
+                increase the value of one thousand furnaces and reduce the speed of cultivation
+                by ten percent.</Desc>
+            <MaxHitPoints>10000</MaxHitPoints>
+            <Rate>9</Rate>
+            <Beauty>12</Beauty>
+            <MaxStack>99</MaxStack>
+            <ElementKind>Tu</ElementKind>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="17000" />
+                        <SalePrice Value="4260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="17000" />
+                        <SalePrice Value="4260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="17000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <FabaoSuffix>内丹</FabaoSuffix>
+                <PhysicalLables>
+                    <li>PhysicalLables_Tu</li>
+                    <li>Liquid</li>
+                    <li>LowDensity2</li>
+                </PhysicalLables>
+                <Equip>
+                    <ToolModifier>ZT_HL</ToolModifier>
+                </Equip>
+            </Item>
+            <StoryBnts>
+                <li Name="Refining" Desc="Tryto absorb Nedan" Appoint="2" Story="ZT_HLND"
+                Cost="5" Icon="Spr\Object\DJ\HLND.PNG" />
+            </StoryBnts>
+            <Element>
+                <Kind>Tu</Kind>
+                <Value>8</Value>
+                <Radius>2</Radius>
+            </Element>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_XWND" Parent="MaterialBase">
+            <ThingName>Basalt</ThingName>
+            <TexPath>Spr\Object\DJ\XWND.PNG</TexPath>
+            <Desc>Basalt medicine contains Shen Dan, the core of the immortal medicine practice,
+                which can improve the spirit and mood by 50% and 100% after refining, and
+                reduce the speed of magic rebirth by 10%.</Desc>
+            <MaxHitPoints>10000</MaxHitPoints>
+            <Rate>9</Rate>
+            <Beauty>12</Beauty>
+            <MaxStack>99</MaxStack>
+            <ElementKind>Shui</ElementKind>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="17000" />
+                        <SalePrice Value="4260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="17000" />
+                        <SalePrice Value="4260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="17000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <FabaoSuffix>内丹</FabaoSuffix>
+                <PhysicalLables>
+                    <li>PhysicalLables_Shui</li>
+                    <li>Liquid</li>
+                    <li>LowDensity2</li>
+                </PhysicalLables>
+                <Equip>
+                    <ToolModifier>ZT_XW</ToolModifier>
+                </Equip>
+            </Item>
+            <StoryBnts>
+                <li Name="Refining" Desc="Tryto absorb Nedan" Appoint="2" Story="ZT_XWND"
+                Cost="5" Icon="Spr\Object\DJ\XWND.PNG" />
+            </StoryBnts>
+            <Element>
+                <Kind>Shui</Kind>
+                <Value>8</Value>
+                <Radius>2</Radius>
+            </Element>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_BHND" Parent="MaterialBase">
+            <ThingName>White Tiger Nedan</ThingName>
+            <TexPath>Spr\Object\DJ\BHND.PNG</TexPath>
+            <Desc>The white tiger medicine contains Shen Dan, the core of the immortal medicine
+                practice. Wearing it can increase the power and state of mind of 100% magic
+                weapon. After refining, it will increase the rebirth ratio of 100% magic
+                weapon and increase the interval of 10% magic weapon attack.</Desc>
+            <MaxHitPoints>10000</MaxHitPoints>
+            <Rate>9</Rate>
+            <Beauty>12</Beauty>
+            <MaxStack>99</MaxStack>
+            <ElementKind>Jin</ElementKind>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="17000" />
+                        <SalePrice Value="4260" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="17000" />
+                        <SalePrice Value="4260" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="17000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <FabaoSuffix>内丹</FabaoSuffix>
+                <PhysicalLables>
+                    <li>PhysicalLables_Jin</li>
+                    <li>Liquid</li>
+                    <li>LowDensity2</li>
+                </PhysicalLables>
+                <Equip>
+                    <ToolModifier>ZT_BH</ToolModifier>
+                </Equip>
+            </Item>
+            <StoryBnts>
+                <li Name="Refining" Desc="Tryto absorb Nedan" Appoint="2" Story="ZT_BHND"
+                Cost="5" Icon="Spr\Object\DJ\BHND.PNG" />
+            </StoryBnts>
+            <Element>
+                <Kind>Jin</Kind>
+                <Value>8</Value>
+                <Radius>2</Radius>
+            </Element>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_ZTF" Parent="MaterialBase">
+            <ThingName>Veil</ThingName>
+            <TexPath>Spr\Object\DJ\ZTL.PNG</TexPath>
+            <Desc>Cover the sky, auction house identity certification. Increase the wearer's
+                mood and Charisma</Desc>
+            <MaxHitPoints>10000</MaxHitPoints>
+            <Rate>12</Rate>
+            <Beauty>12</Beauty>
+            <MaxStack>99</MaxStack>
+            <ElementKind>Jin</ElementKind>
+            <Item>
+                <FabaoSuffix>符</FabaoSuffix>
+                <PhysicalLables>
+                    <li>PhysicalLables_None</li>
+                    <li>LowDensity2</li>
+                </PhysicalLables>
+                <StoryBnts>
+                    <li Name="Call" Desc="Call the Auction House" Story="ZT_PMH" Cost="1"
+                    Icon="Spr\Object\DJ\ZTL.PNG" />
+                </StoryBnts>
+                <Equip>
+                    <ToolModifier>ZT_ZTF</ToolModifier>
+                </Equip>
+            </Item>
+            <Element>
+                <Kind>None</Kind>
+                <Value>8</Value>
+                <Radius>2</Radius>
+            </Element>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_yyzt" Parent="MaterialBase">
+            <ThingName>One page</ThingName>
+            <TexPath>Spr\Object\DJ\yyzt.PNG</TexPath>
+            <Desc>Learn a page to cover the sky, and use it to unlock new places.</Desc>
+            <MaxHitPoints>10000</MaxHitPoints>
+            <Rate>9</Rate>
+            <Beauty>12</Beauty>
+            <MaxStack>99</MaxStack>
+            <ElementKind>None</ElementKind>
+            <Item>
+                <PhysicalLables>
+                    <li>PhysicalLables_None</li>
+                </PhysicalLables>
+                <BeMade>
+                    <WorkToMake>1</WorkToMake>
+                    <Quality>0</Quality>
+                    <ArtDesc></ArtDesc>
+                    <CostItems>
+                        <Item name="Item_Water" count="1" />
+                    </CostItems>
+                </BeMade>
+            </Item>
+            <StoryBnts>
+                <li Name="Understanding" Desc="Try to understand the Secret Art" Story="ZT_DD"
+                Cost="1" Icon="Spr\Object\DJ\yyzt.PNG" />
+            </StoryBnts>
+            <Element>
+                <Kind>None</Kind>
+                <Value>8</Value>
+                <Radius>2</Radius>
+            </Element>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_SJL" Parent="MaterialBase">
+            <ThingName>Family Record</ThingName>
+            <TexPath>Spr\Object\DJ\SJL.PNG</TexPath>
+            <Desc>Enlightenment can choose one to start with a family. .</Desc>
+            <MaxHitPoints>10000</MaxHitPoints>
+            <Rate>20</Rate>
+            <Beauty>12</Beauty>
+            <MaxStack>99</MaxStack>
+            <ElementKind>None</ElementKind>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="20000" />
+                        <SalePrice Value="10000" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="20000" />
+                        <SalePrice Value="10000" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="20000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <PhysicalLables>
+                    <li>PhysicalLables_None</li>
+                </PhysicalLables>
+            </Item>
+            <StoryBnts>
+                <li Name="Understanding" Desc="Try to understand the Secret Art" Story="ZT_HGSJ"
+                Cost="1" Icon="Spr\Object\DJ\SJL.PNG" />
+            </StoryBnts>
+            <Element>
+                <Kind>None</Kind>
+                <Value>8</Value>
+                <Radius>2</Radius>
+            </Element>
+        </ThingDef>
+        <ThingDef Type="Item" Name="Item_TZW" Parent="MaterialBase">
+            <ThingName>Body fluid</ThingName>
+            <TexPath>Spr\Object\DJ\TZW.PNG</TexPath>
+            <Desc>The special physique made with countless evolution fluids can roughly
+                compete with the constitution such as the Eucharist.</Desc>
+            <MaxHitPoints>10000</MaxHitPoints>
+            <Rate>20</Rate>
+            <Beauty>12</Beauty>
+            <MaxStack>1</MaxStack>
+            <ElementKind>None</ElementKind>
+            <Item>
+                <Prices>
+                    <TalkType>2</TalkType>
+                    <BaseCount>1</BaseCount>
+                    <li PriceTag="School">
+                        <BuyPrice Value="30000" />
+                        <SalePrice Value="1000" />
+                    </li>
+                    <li PriceTag="Trade">
+                        <BuyPrice Value="30000" />
+                        <SalePrice Value="1000" />
+                    </li>
+                    <li PriceTag="Auction">
+                        <BuyPrice Value="40000" />
+                        <SalePrice Value="0" />
+                    </li>
+                </Prices>
+                <BeMade>
+                    <WorkToMake>30000</WorkToMake>
+                    <Quality>0</Quality>
+                    <ArtDesc></ArtDesc>
+                    <CostItems>
+                        <Item name="Item_WSXY" count="15" />
+                        <Item name="Item_JSXY" count="15" />
+                        <Item name="Item_MSXY" count="15" />
+                        <Item name="Item_SSXY" count="15" />
+                        <Item name="Item_HSXY" count="15" />
+                        <Item name="Item_TSXY" count="15" />
+                        <Item name="Item_DLYJ" count="300" />
+                        <Item name="Item_XZ" count="300" />
+                        <Item name="Item_ZYW" count="300" />
+                        <Item name="Item_YYSY" count="300" />
+                        <Item name="Item_ZYSY" count="300" />
+                        <Item name="Item_JTCYW" count="300" />
+                        <Item name="Item_JTBYB" count="300" />
+                        <Item name="Item_YZBYB" count="300" />
+                        <Item name="Item_JTBLSY" count="300" />
+                    </CostItems>
+                </BeMade>
+                <PhysicalLables>
+                    <li>PhysicalLables_None</li>
+                </PhysicalLables>
+            </Item>
+            <StoryBnts>
+                <li Name="Absorption" Desc="Try to absorb the body pills" Appoint="1"
+                Story="ZT_TZW" Cost="5" Icon="Spr\Object\DJ\TZW.PNG" />
+            </StoryBnts>
+            <Element>
+                <Kind>None</Kind>
+                <Value>8</Value>
+                <Radius>2</Radius>
+            </Element>
+        </ThingDef>
+    </List>
+</ThingDefs>

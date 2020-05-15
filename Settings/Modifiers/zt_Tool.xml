@@ -7,7 +7,7 @@
 		<Sync>1</Sync>
 		<Display>0</Display>
 		<Properties>
-			<li Name="ToleranceTMin" AddV="-2000"/><!--最低极限温度-->
+			<li Name="ToleranceTMin" AddV="-2000"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="MB_QSYL" Type="Normal">
@@ -65,10 +65,10 @@
 		<Sync>1</Sync>
 		<Display>0</Display>
 		<Properties>
-			<li Name="NpcFight_FabaoPowerAddP" AddP="0.5"/><!--法宝威力加成-->
-			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.5"/><!--法宝灵气恢复速度加成-->
-				<li Name="NpcFight_FabaoCoolDownAddP" AddP="-0.5"/><!--法宝攻击间隔加成-->
-				<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.25"/><!--法宝灵气最大值加成-->
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.5"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.5"/>
+				<li Name="NpcFight_FabaoCoolDownAddP" AddP="-0.5"/>
+				<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.25"/>
 		</Properties>
 	</Modifier> 
 	
@@ -81,7 +81,7 @@
 		<Display>0</Display>
 		<Properties>
 			<li Name="MagicDamageRecoveryPowerAddV" AddV="2"/>
-			<li Name="MindStateBaseValue" AddV="50"/><!--心情基础值50-->
+			<li Name="MindStateBaseValue" AddV="50"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="ZT_SF" Type="Normal">
@@ -92,8 +92,8 @@
 		<Sync>1</Sync>
 		<Display>0</Display>
 		<Properties>
-			<li Name="NpcFight_SpellPowerAddP" AddP="0.5"/><!--术法伤害加成3-->
-			<li Name="MindStateBaseValue" AddV="50"/><!--心情基础值50-->
+			<li Name="NpcFight_SpellPowerAddP" AddP="0.5"/>
+			<li Name="MindStateBaseValue" AddV="50"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="ZT_HL" Type="Normal">
@@ -104,8 +104,8 @@
 		<Sync>1</Sync>
 		<Display>0</Display>
 		<Properties>
-			<li Name="NpcFight_ZhenEnginePower" AddV="25"/><!--术法伤害加成3-->
-			<li Name="MindStateBaseValue" AddV="50"/><!--心情基础值50-->
+			<li Name="NpcFight_ZhenEnginePower" AddV="25"/>
+			<li Name="MindStateBaseValue" AddV="50"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="ZT_XW" Type="Normal">
@@ -116,8 +116,8 @@
 		<Sync>1</Sync>
 		<Display>0</Display>
 		<Properties>
-			<li Name="LingAbsorbSpeed" AddP="0.5"/><!--灵气吸收速度5-->
-			<li Name="MindStateBaseValue" AddV="50"/><!--心情基础值50-->
+			<li Name="LingAbsorbSpeed" AddP="0.5"/>
+			<li Name="MindStateBaseValue" AddV="50"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="ZT_BH" Type="Normal">
@@ -128,8 +128,8 @@
 		<Sync>1</Sync>
 		<Display>0</Display>
 		<Properties>
-			<li Name="NpcFight_FabaoPowerAddP" AddP="1"/><!--灵气吸收速度5-->
-			<li Name="MindStateBaseValue" AddV="50"/><!--心情基础值50-->
+			<li Name="NpcFight_FabaoPowerAddP" AddP="1"/>
+			<li Name="MindStateBaseValue" AddV="50"/>
 		</Properties>
 	</Modifier> 
 	
@@ -143,7 +143,7 @@
 		<Display>0</Display>
 		<BaseFive>0,0,4,0,0</BaseFive>
 		<Properties>
-			<li Name="MindStateBaseValue" AddV="50"/><!--心情基础值50-->
+			<li Name="MindStateBaseValue" AddV="50"/>
 		
 		</Properties>
 	</Modifier> 
@@ -157,7 +157,7 @@
 		<Sync>1</Sync>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="ToleranceTMax" AddV="7500"/><!--最高极限温度-->
+			<li Name="ToleranceTMax" AddV="7500"/>
 		</Properties>
 	</Modifier> 
 	
@@ -169,7 +169,7 @@
 		<Display>0</Display>
 		<Sync>1</Sync>
 		<Properties>
-			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.25"/><!--最高极限温度-->
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.25"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="ZTTZY" Type="Normal">
@@ -180,7 +180,7 @@
 		<Display>0</Display>
 		<Sync>1</Sync>
 		<Properties>
-			<li Name="NpcFight_ZhenEnginePower" AddV="-80"/><!--阵法负荷能力-20-->
+			<li Name="NpcFight_ZhenEnginePower" AddV="-80"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="ZTDZY" Type="Normal">
@@ -191,7 +191,7 @@
 		<Display>0</Display>
 		<Sync>1</Sync>
 		<Properties>
-			<li Name="NpcFight_SpellPowerAddP" AddP="0.5"/><!--术法伤害加成3-->
+			<li Name="NpcFight_SpellPowerAddP" AddP="0.5"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="ZTYMZD" Type="Normal">
@@ -202,19 +202,19 @@
 		<Display>0</Display>
 		<Sync>1</Sync>
 		<Properties>
-			<li Name="MindStateBaseValue" AddV="150"/><!--心情基础值50-->
+			<li Name="MindStateBaseValue" AddV="150"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="ZTFHJ" Type="Normal">
 		<DisplayName>Phoenix Robbery</DisplayName>
-		<Desc>Enhances your mood with 50 and 5 points of charm when worn.</Desc>
+		<Desc>Enhances your mood with 50 and 5 points of Charisma when worn.</Desc>
 		<MaxStack>1</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<Sync>1</Sync>
 		<BaseFive>0,0,5,0,0</BaseFive>
 		<Properties>
-			<li Name="MindStateBaseValue" AddV="150"/><!--心情基础值50-->
+			<li Name="MindStateBaseValue" AddV="150"/>
 		</Properties>
 	</Modifier> 
 	<Modifier Name="LGSF" Type="Normal">
@@ -334,7 +334,7 @@
 		<Display>0</Display>
 		<BaseFive>-10,-10,-10,0,0</BaseFive>
 		<Properties>
-			<li Name="NpcFight_ShieldResistanceToShui" AddP="0.25"/><!--最低极限温度-->
+			<li Name="NpcFight_ShieldResistanceToShui" AddP="0.25"/>
 		</Properties>
 		<Skills>
 			<li Name="Barrier" LevelOver="15"/>
@@ -349,8 +349,8 @@
 		<Display>0</Display>
 		<BaseFive>8,8,8,0,0</BaseFive>
 		<Properties>
-			<li Name="NpcFight_FabaoPowerAddP" AddP="5"/><!--最低极限温度-->
-			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="2"/><!--最低极限温度-->
+			<li Name="NpcFight_FabaoPowerAddP" AddP="5"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="2"/>
 		</Properties>
 		<Skills>
 			<li Name="Qi" LevelOver="15"/>

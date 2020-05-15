@@ -1,8 +1,8 @@
 ﻿<ModifierDefs><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	<Modifier Name="Gong_WSJ_LH_1A" Type="Normal">
-		<DisplayName>圣体传承</DisplayName>
+		<DisplayName>Eucharistic Heritage</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -17,7 +17,7 @@
 		</Skills>
 	</Modifier>
 	<Modifier Name="Gong_WSJ_LH_1A_1" Type="Normal">
-		<DisplayName>圣体传承</DisplayName>
+		<DisplayName>Eucharistic Heritage</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -28,7 +28,7 @@
 		</Properties>
 	</Modifier>
 	<Modifier Name="Gong_WSJ_LH_1A_2" Type="Normal">
-		<DisplayName>圣体传承</DisplayName>
+		<DisplayName>Eucharistic Heritage</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -42,7 +42,7 @@
 
 
 	<Modifier Name="Gong_WSJ_LQ_1A" Type="Normal">
-		<DisplayName>先天圣体道胎</DisplayName>
+		<DisplayName>Congenital Eucharist</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -54,7 +54,7 @@
 		
 	</Modifier>
 	<Modifier Name="Gong_WSJ_LQ_1A_1" Type="Normal">
-		<DisplayName>先天圣体道胎</DisplayName>
+		<DisplayName>Congenital Eucharist</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -68,7 +68,7 @@
 		</Skills>
 	</Modifier>
 	<Modifier Name="Gong_WSJ_LQ_1A_2" Type="Normal">
-		<DisplayName>先天圣体道胎</DisplayName>
+		<DisplayName>Congenital Eucharist</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -82,21 +82,21 @@
 	
 
 	<Modifier Name="Gong_WSJ_LQ_3A" Type="Normal">
-		<DisplayName>无上大道</DisplayName>
+		<DisplayName>Supreme Avenue</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="MaxAccumulativeLingAddV" AddV="3000"/><!--炉鼎值1000-->
+			<li Name="MaxAccumulativeLingAddV" AddV="3000"/>
 			<li Name="InspirationCoefficient" AddV="1"/>
 		</Properties>
 	</Modifier>
 
-	<!-- ==========================技能2========================== -->
+	
 	
 	<Modifier Name="Gong_WSJ_LH_1B" Type="Normal">
-		<DisplayName>西皇经道宫卷</DisplayName>
+		<DisplayName>Imperial Palace</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -107,7 +107,7 @@
 		</Properties>
 	</Modifier>
 	<Modifier Name="Gong_WSJ_LH_1B_1" Type="Normal">
-		<DisplayName>西皇经道宫卷</DisplayName>
+		<DisplayName>Imperial Palace</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -122,7 +122,7 @@
 		</Skills>
 	</Modifier>
 	<Modifier Name="Gong_WSJ_LH_1B_2" Type="Normal">
-		<DisplayName>西皇经道宫卷</DisplayName>
+		<DisplayName>Imperial Palace</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -133,7 +133,7 @@
 		</Properties>
 	</Modifier>
 	<Modifier Name="Gong_WSJ_LH_2B" Type="Normal">
-		<DisplayName>徒手接帝兵</DisplayName>
+		<DisplayName>Pick up imperial soldiers</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -150,7 +150,7 @@
 		</Skills>
 	</Modifier>
 	<Modifier Name="Gong_WSJ_LH_2B_1" Type="Normal">
-		<DisplayName>徒手接帝兵</DisplayName>
+		<DisplayName>Pick up imperial soldiers</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -168,7 +168,7 @@
 	
 	
 
-	<!-- ==========================技能3========================== -->
+	
 
 	<Modifier Name="Gong_WSJ_HL_1C" Type="Normal">
 		<DisplayName>只手镇压</DisplayName>
@@ -230,7 +230,7 @@
 	</Modifier>
 	
 
-        <!-- ==========================技能4========================== -->
+        
 
 	<Modifier Name="Gong_WSJ_YS_1C" Type="Normal">
 		<DisplayName>无始钟</DisplayName>
@@ -287,7 +287,7 @@
 	</Modifier>
 	
 
-        <!-- ==========================技能5========================== -->
+        
 
 	<Modifier Name="Gong_WSJ_XT_D1" Type="Normal">
 		<DisplayName>仙路镜头谁为峰</DisplayName>

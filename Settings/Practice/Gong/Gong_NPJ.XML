@@ -1,4 +1,4 @@
-<Gongs><List>
+﻿<Gongs><List>
 	<Gong Name="Gong_NPJ">   
 		<DisplayName>Nirvana Sutra</DisplayName>
 		<Desc>Cool and silent, annoying, and suffering forever; have no birth, no death, no dirt, no purification, no increase, no reduction, stay away from the oneness, birth and death, constant judgment, and both, practice in life, nirvana in death .</Desc>
@@ -7,7 +7,7 @@
 		<SkillSetName></SkillSetName>
 		<ElementKind>Mu</ElementKind>
 
-		<Skill> <!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+		<Skill> 
 			<li>chumo</li>
 			<li>jiangdao</li>
 			<li>guanding</li>

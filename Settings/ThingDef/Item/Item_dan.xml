@@ -145,7 +145,7 @@
 	<Beauty>16</Beauty>
 		<MaxStack>9999</MaxStack>
 	<ElementKind>Chaos</ElementKind>
-	<!--	<Color>8C6F14FF</Color>	-->
+	
 	<Flammability>
 		<Flammability>0</Flammability>
 		<BurningPoint>1500</BurningPoint>
@@ -228,7 +228,7 @@
 	<Beauty>36</Beauty>
 		<MaxStack>9999</MaxStack>
 	<ElementKind>Chaos</ElementKind>
-	<!--	<Color>8C6F14FF</Color>	-->
+	
 	<Flammability>
 		<Flammability>0</Flammability>
 		<BurningPoint>1500</BurningPoint>
@@ -3395,7 +3395,7 @@
 		</Element>
 	</ThingDef>
 	
-	<!--气海卷-->
+	
 	<ThingDef Type="Item" Name="NP_QHD1" Parent="DanBase">
 		<ThingName>Qi Hai Ren Dan</ThingName>
 		<TexPath>Spr\Object\DAN\NP\QHD1.PNG</TexPath>
@@ -4362,7 +4362,7 @@
 			<Radius>2</Radius>
 		</Element>
 	</ThingDef>
-	<!--通天卷-->
+	
 	<ThingDef Type="Item" Name="NP_TYD" Parent="DanBase">
 		<ThingName>Tianyan Dan</ThingName>
 		<TexPath>Spr\Object\DAN\NP\TYD.PNG</TexPath>
@@ -4952,7 +4952,7 @@
 			<Radius>2</Radius>
 		</Element>
 	</ThingDef>
-<!--天下卷-->
+
 	<ThingDef Type="Item" Name="NP_LLD" Parent="DanBase">
 		<ThingName>Experience the panacea</ThingName>
 		<TexPath>Spr\Object\DAN\NP\LLD.PNG</TexPath>
@@ -5490,7 +5490,7 @@
 			<Radius>2</Radius>
 		</Element>
 	</ThingDef>
-<!--酬勤卷-->
+
 	<ThingDef Type="Item" Name="NP_CQD" Parent="DanBase">
 		<ThingName>Crazy Dan</ThingName>
 		<TexPath>Spr\Object\DAN\NP\CQD.PNG</TexPath>
@@ -5949,7 +5949,7 @@
 			<Radius>2</Radius>
 		</Element>
 	</ThingDef>
-<!--地丹卷-->
+
 	<ThingDef Type="Item" Name="NP_DDJ" Parent="DanBase">
 		<ThingName>Dixin</ThingName>
 		<TexPath>Spr\Object\DAN\NP\DDJ.PNG</TexPath>
@@ -6123,7 +6123,7 @@
 			<Radius>2</Radius>
 		</Element>
 	</ThingDef>
-<!--天丹卷-->
+
 	<ThingDef Type="Item" Name="NP_TDJ" Parent="DanBase">
 		<ThingName>Xing Tiandan</ThingName>
 		<TexPath>Spr\Object\DAN\NP\XTD.PNG</TexPath>
@@ -6497,7 +6497,7 @@
 			<Radius>2</Radius>
 		</Element>
 	</ThingDef>
-<!--道化卷-->
+
 	<ThingDef Type="Item" Name="NP_DHD" Parent="DanBase">
 		<ThingName>Dohhuadan</ThingName>
 		<TexPath>Spr\Object\DAN\NP\DHD.PNG</TexPath>
@@ -7186,7 +7186,7 @@
 			<Radius>2</Radius>
 		</Element>
 	</ThingDef>
-<!--天书卷-->
+
 	<ThingDef Type="Item" Name="NP_TSD" Parent="DanBase">
 		<ThingName>Tianshu Dan</ThingName>
 		<TexPath>Spr\Object\DAN\NP\TSD.PNG</TexPath>
@@ -7483,7 +7483,7 @@
 			<Radius>2</Radius>
 		</Element>
 	</ThingDef>
-<!--涅槃卷-->
+
 	<ThingDef Type="Item" Name="NP_NPD" Parent="DanBase">
 		<ThingName>Nirvana</ThingName>
 		<TexPath>Spr\Object\DAN\NP\NPD.PNG</TexPath>
@@ -7569,7 +7569,7 @@
 			<Radius>2</Radius>
 		</Element>
 	</ThingDef>
-<!--天地卷-->
+
 	<ThingDef Type="Item" Name="NP_TJD" Parent="DanBase">
 		<ThingName>Tian Jin Dan</ThingName>
 		<TexPath>Spr\Object\DAN\NP\121.PNG</TexPath>

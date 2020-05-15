@@ -46,9 +46,9 @@
 		<DisplayName>Three Thousand Avenue</DisplayName>
 		<Desc>Three thousand avenues, Tao Dao conception, Tao Dao Xianxian Road. 20 times faster practice</Desc>
 		<Icon>Spr\Object\JN\ZT_WSJ\SQDD.png</Icon>
-		<Param1>20</Param1><!--修炼速度加成-->
-		<Param2>0.5</Param2><!--寿命消耗/秒-->
-		<Param3>4</Param3><!--精元消耗倍率-->
+		<Param1>20</Param1>
+		<Param2>0.5</Param2>
+		<Param3>4</Param3>
 		<CostLing>0</CostLing>
 		<CostAge>0</CostAge>
 		<Penalty>0</Penalty>
@@ -63,9 +63,9 @@
 		<DisplayName>Longhang Avenue</DisplayName>
 		<Desc>Know the dragon with the gods and enter the void.</Desc>
 		<Icon>Spr\Object\JN\ZT_THJ\HCCC.png</Icon>
-		<Param1>14</Param1><!--修炼速度加成-->
-		<Param2>0.8</Param2><!--寿命消耗/秒-->
-		<Param3>4</Param3><!--精元消耗倍率-->
+		<Param1>14</Param1>
+		<Param2>0.8</Param2>
+		<Param3>4</Param3>
 		<CostLing>0</CostLing>
 		<CostAge>0</CostAge>
 		<Penalty>0</Penalty>
@@ -81,9 +81,9 @@
 		<DisplayName>Space roam</DisplayName>
 		<Desc>According to the Void Sutra, the magical method of combining with the void, the consciousness and the migration of space, can increase the speed of practice by 12 times.</Desc>
 		<Icon>Spr\Object\JN\ZT_XKJ\DDZJ.png</Icon>
-		<Param1>12</Param1><!--修炼速度加成-->
-		<Param2>0.75</Param2><!--寿命消耗/秒-->
-		<Param3>4</Param3><!--精元消耗倍率-->
+		<Param1>12</Param1>
+		<Param2>0.75</Param2>
+		<Param3>4</Param3>
 		<CostLing>0</CostLing>
 		<CostAge>0</CostAge>
 		<Penalty>0</Penalty>
@@ -99,7 +99,7 @@
 		<Icon>Spr\Object\JN\ZT_TDJ_DJ\KHBT.png</Icon>
 		<CostLing>0</CostLing>
 		<CostAge>0</CostAge>
-		<Param1>50</Param1><!--提高吸灵速度N倍-->
+		<Param1>50</Param1>
 		<CMD>AbsorbLing</CMD>
 		<SelectType>AbsorbLing</SelectType>
 	</Magic>
@@ -108,7 +108,7 @@
 		<DisplayName>Refining Nether</DisplayName>
 		<Desc>Unleash the living creatures, consume the target's life, and replenish their aura.</Desc>
 		<Icon>Spr\Object\JN\ZT_HYJ\LHXK.png</Icon>
-		<Param1>0.001</Param1><!--天谴值/秒-->
+		<Param1>0.001</Param1>
 		<CostLing>5000</CostLing>
 		<CostAge>0</CostAge>
 		<ScoreBad>0</ScoreBad>
@@ -119,7 +119,7 @@
 		<DisplayName>Spatialization</DisplayName>
 		<Desc>Use the power of space to refine a corpse, refine its flesh and blood, and replenish your aura.</Desc>
 		<Icon>Spr\Object\JN\ZT_XKJ\WW.png</Icon>
-		<Param1>1</Param1><!--施法时间-->
+		<Param1>1</Param1>
 		<CostAge>-150</CostAge>
 		<Penalty>5</Penalty>
 		<CMD>AbsorbLing_Body</CMD>
@@ -151,7 +151,7 @@
 		<Kind>Good</Kind>
 		<TargetMood>BuildBody</TargetMood>
 		<CastFavour>ThankTreat</CastFavour>
-		<Param1>30</Param1><!--施法时间-->
+		<Param1>30</Param1>
 		<CostLing>15000</CostLing>
 		<CostAge>50</CostAge>
 		<Penalty>-30</Penalty>
@@ -164,9 +164,9 @@
 		<Desc>Capture a soul without cultivation as a living creature, refine it to increase your cultivation, and gain insight at the same time. The higher the target perception, the stronger the effect. .</Desc>
 		<Icon>Spr\Object\JN\ZT_XKJ\QXHY.png</Icon>
 		<Ani>shentong6</Ani>
-		<Param1>6</Param1><!--施法时间-->
-		<Param2>1</Param2><!--修为 目标悟性 *  0.3%  * 当前境界所需修为-->
-		<Param3>10000</Param3><!--参悟获取 悟性*X-->
+		<Param1>6</Param1>
+		<Param2>1</Param2>
+		<Param3>10000</Param3>
 		<CostLing>25000</CostLing>
 		<Penalty>2</Penalty>
 		<CMD>AbsorbGong_3</CMD>
@@ -178,9 +178,9 @@
 		<Desc>Apply a spell to a similar species, parasitize a ray of the gods on it, and transform the base value of the parasitic object into its own equivalent cultivation and enlightenment at 0 o'clock every day.\nFor each unit that parasitizes, it will damage the mind by distracting the soul, and the target will be weakened by being parasitized. Release the target once it has been released, and you can take back the magic power.</Desc>
 		<Icon>Spr\Object\JN\ZT_HYJ\CCXG.png</Icon>
 		<Ani>shentong2</Ani>
-		<Param1>10.2</Param1><!--施法时间-->
+		<Param1>10.2</Param1>
 		<CostLing>0</CostLing>
-	<!--	<CheckFlag>FLAG_AbsorbGong_6</CheckFlag>-->
+	
 		<CMD>AbsorbGong_6</CMD>
 		<SelectType>Npc</SelectType>
 	</Magic>
@@ -191,9 +191,9 @@
 		<Icon>Spr\Object\JN\ZT_WSJ\WGCC.png</Icon>
 		<Kind>Good</Kind>
 		<Ani>shentong3</Ani>
-		<Param1>0.1</Param1><!--施法时间-->
-		<Param2>1500</Param2><!--生长倍速-->
-		<Param3>3000</Param3><!--作用时长-->
+		<Param1>0.1</Param1>
+		<Param2>1500</Param2>
+		<Param3>3000</Param3>
 		<CostLing>150000</CostLing>
 		<CMD>PlantGrowUp</CMD>
 		<SelectType>Plant</SelectType>

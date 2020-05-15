@@ -177,7 +177,7 @@ function tbMagic:MagicStep(dt, duration)
                 end
             else
             end
-            -- (self.bind.PropertyMgr.Perception >= 10 and self.bind.PropertyMgr.Physique >= 10 and self.bind.PropertyMgr.Charisma >= 10 and self.bind.PropertyMgr.Luck >= 10 and self.bind.PropertyMgr.Intelligence >= 10)
+            
             if
                 (target.PropertyMgr.Perception <= 0 and target.PropertyMgr.Physique <= 0 and
                     target.PropertyMgr.Charisma <= 0 and

@@ -1,334 +1,316 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<SkillTree><List>
-	<Node Gong="Gong_DJ" Name="Gong_DJ_LH_A1">
-		<Esoterica>Gong_DJ_A1</Esoterica>
-		<DisplayName>Tao Jing</DisplayName>
-		<Level>Qi</Level>
-		<Index>3</Index>
-		<Line>0,0,0,0,0,0,0,0</Line>
-		<Layers>
-			<li>Gong_DJ_LH_A1_1</li>
-			<li>Gong_DJ_LH_A1_2</li>
-		</Layers>
-		<PreUnit><!--	<li></li>--></PreUnit>
-		<MutexUnit><!--	<li></li>--></MutexUnit>
-		<FiveBase>0,0,0,0,0</FiveBase>
-		<Skills><!--	<li></li>--></Skills>
-		<LingMax>0</LingMax>
-		<GoldLevel>0</GoldLevel>
-		<GodCount>0</GodCount>
-	</Node>
-	<Node Gong="Gong_DJ" Name="Gong_DJ_LH_A1_1">
-		<Esoterica>Gong_DJ_A1_1</Esoterica>
-		<DisplayName>Tao Jing</DisplayName>
-		<Level>None</Level>
-	</Node>
-	<Node Gong="Gong_DJ" Name="Gong_DJ_LH_A1_2">
-		<Esoterica>Gong_DJ_A1_2</Esoterica>
-		<DisplayName>Tao Jing</DisplayName>
-		<Level>None</Level>
-	</Node>
-	
-		<Node Gong="Gong_DJ" Name="Gong_DJ_LH_A2">
-		<Esoterica>Gong_DJ_A2</Esoterica>
-		<DisplayName>German classics</DisplayName>
-		<Level>Qi</Level>
-		<Index>7</Index>
-		<Line>0,0,0,0,0,0,0,0</Line>
-		<Layers>
-			<li>Gong_DJ_LH_A2_1</li>
-			<li>Gong_DJ_LH_A2_2</li>
-		</Layers>
-		<PreUnit><!--	<li></li>--></PreUnit>
-		<MutexUnit><!--	<li></li>--></MutexUnit>
-		<FiveBase>0,0,0,0,0</FiveBase>
-		<Skills><!--	<li></li>--></Skills>
-		<LingMax>0</LingMax>
-		<GoldLevel>0</GoldLevel>
-		<GodCount>0</GodCount>
-	</Node>
-	<Node Gong="Gong_DJ" Name="Gong_DJ_LH_A2_1">
-		<Esoterica>Gong_DJ_A2_1</Esoterica>
-		<DisplayName>German classics</DisplayName>
-		<Level>None</Level>
-	</Node>
-	<Node Gong="Gong_DJ" Name="Gong_DJ_LH_A2_2">
-		<Esoterica>Gong_DJ_A2_2</Esoterica>
-		<DisplayName>German classics</DisplayName>
-		<Level>None</Level>
-	</Node>
-	
-	<Node Gong="Gong_DJ" Name="Gong_DJ_B1">
-		<Esoterica>Gong_DJ_B1</Esoterica>
-		<DisplayName>Taking the book as the essence</DisplayName>
-		<Level>Dan1</Level>
-		<Index>3</Index>
-		<Line>0,0,0,0,0,0,0,0</Line>
-		<Layers>
-			<li>Gong_DJ_B1_1</li>
-		</Layers>
-		<PreUnit><!--	<li></li>--></PreUnit>
-		<MutexUnit><!--	<li></li>--></MutexUnit>
-		<FiveBase>0,0,0,0,0</FiveBase>
-		<Skills><!--	<li></li>--></Skills>
-		<LingMax>0</LingMax>
-		<GoldLevel>0</GoldLevel>
-		<GodCount>0</GodCount>
-	</Node>
-	<Node Gong="Gong_DJ" Name="Gong_DJ_B1_1">
-		<Esoterica>Gong_DJ_B1_1</Esoterica>
-		<DisplayName>Take things as rough</DisplayName>
-		<Level>None</Level>
-	</Node>
-	<Node Gong="Gong_DJ" Name="Gong_DJ_B1_2">
-		<Esoterica>Gong_DJ_B1_2</Esoterica>
-		<DisplayName>Take product as insufficient</DisplayName>
-		<Level>None</Level>
-	</Node>
-	
-		<Node Gong="Gong_DJ" Name="Gong_DJ_B2">
-		<Esoterica>Gong_DJ_B2</Esoterica>
-		<DisplayName>Often</DisplayName>
-		<Level>Dan1</Level>
-		<Index>6</Index>
-		<Line>0,0,0,0,0,0,0,0</Line>
-		<Layers>
-			<li>Gong_DJ_B2_1</li>
-		
-		</Layers>
-		<PreUnit><!--	<li></li>--></PreUnit>
-		<MutexUnit><!--	<li></li>--></MutexUnit>
-		<FiveBase>0,0,0,0,0</FiveBase>
-		<Skills><!--	<li></li>--></Skills>
-		<LingMax>0</LingMax>
-		<GoldLevel>0</GoldLevel>
-		<GodCount>0</GodCount>
-	</Node>
-	<Node Gong="Gong_DJ" Name="Gong_DJ_B2_1">
-		<Esoterica>Gong_DJ_B2_1</Esoterica>
-		<DisplayName>Dao Changwu</DisplayName>
-		<Level>None</Level>
-	</Node>
-
-	
-	<Node Gong="Gong_DJ" Name="Gong_DJ_B3">
-		<Esoterica>Gong_DJ_B3</Esoterica>
-		<DisplayName>Do nothing</DisplayName>
-		<Level>Dan1</Level>
-		<Index>8</Index>
-		<Line>0,0,0,0,0,0,0,0</Line>
-		<Layers>
-			<li>Gong_DJ_B3_1</li>
-		</Layers>
-		<MutexUnit><!--	<li></li>--></MutexUnit>
-		<FiveBase>0,0,0,0,0</FiveBase>
-		<Skills><!--	<li></li>--></Skills>
-		<LingMax>0</LingMax>
-		<GoldLevel>0</GoldLevel>
-		<GodCount>0</GodCount>
-	</Node>
-	<Node Gong="Gong_DJ" Name="Gong_DJ_B3_1">
-		<Esoterica>Gong_DJ_B3_1</Esoterica>
-		<DisplayName>Do not speak</DisplayName>
-		<Level>None</Level>
-	</Node>
-	
-	<Node Gong="Gong_DJ" Name="Gong_DJ_C1">
-		<Esoterica>Gong_DJ_C1</Esoterica>
-		<DisplayName>Moriichi</DisplayName>
-		<Level>Dan2</Level>
-		<Index>3</Index>
-		<Line>0,0,0,0,0,0,0,0</Line>
-		<Layers>
-			<li>Gong_DJ_C1_1</li>
-			<li>Gong_DJ_C1_2</li>
-		</Layers>
-		<MutexUnit><!--	<li></li>--></MutexUnit>
-		<FiveBase>0,0,0,0,0</FiveBase>
-		<Skills><!--	<li></li>--></Skills>
-		<LingMax>0</LingMax>
-		<GoldLevel>0</GoldLevel>
-		<GodCount>0</GodCount>
-	</Node>
-	<Node Gong="Gong_DJ" Name="Gong_DJ_C1_1">
-		<Esoterica>Gong_DJ_C1_1</Esoterica>
-		<DisplayName>Xin Qi</DisplayName>
-		<Level>None</Level>
-	</Node>
-	<Node Gong="Gong_DJ" Name="Gong_DJ_C1_2">
-		<Esoterica>Gong_DJ_C1_2</Esoterica>
-		<DisplayName>Sit and forget</DisplayName>
-		<Level>None</Level>
-	</Node>
-	
-	
-	
-	<Node Gong="Gong_DJ" Name="Gong_DJ_SJ_C2_YQ">
-		<Esoterica>Gong_DJ_SJ_C2_YQ</Esoterica>
-		<DisplayName>One gas three clear</DisplayName>
-		<Level>Dan2</Level>
-		<Index>6</Index>
-		<Line>0,0,0,0,0,0,0,0</Line>
-		<Layers>
-			<li>Gong_DJ_SJ_C2_YQ_1</li>
-			<li>Gong_DJ_SJ_C2_YQ_2</li>
-		</Layers>
-		<MutexUnit><!--	<li></li>--></MutexUnit>
-		<FiveBase>0,0,0,9,0</FiveBase>
-		<Skills><!--	<li></li>--></Skills>
-		<LingMax>0</LingMax>
-		<GoldLevel>0</GoldLevel>
-		<GodCount>0</GodCount>
-	</Node>
-	<Node Gong="Gong_DJ" Name="Gong_DJ_SJ_C2_YQ_1">
-		<Esoterica>Gong_DJ_SJ_C1_YQ_1</Esoterica>
-		<DisplayName>One gas three clear</DisplayName>
-		<Level>None</Level>
-	</Node>
-	
-	<Node Gong="Gong_DJ" Name="Gong_DJ_SJ_C2_YQ_2">
-		<Esoterica>Gong_DJ_SJ_C1_YQ_2</Esoterica>
-		<DisplayName>One gas three clear</DisplayName>
-		<Level>None</Level>
-	</Node>
-	
-	<Node Gong="Gong_DJ" Name="Gong_DJ_C3">
-		<Esoterica>Gong_DJ_C3</Esoterica>
-		<DisplayName>Desire to be soft</DisplayName>
-		<Level>Dan2</Level>
-		<Index>8</Index>
-		<Line>0,0,0,0,0,0,0,0</Line>
-		<Layers>
-			<li>Gong_DJ_C3_1</li>
-		</Layers>
-		<MutexUnit><!--	<li></li>--></MutexUnit>
-		<FiveBase>0,9,0,9,0</FiveBase>
-		<Skills><!--	<li></li>--></Skills>
-		<LingMax>0</LingMax>
-		<GoldLevel>0</GoldLevel>
-		<GodCount>0</GodCount>
-	</Node>
-	<Node Gong="Gong_DJ" Name="Gong_DJ_C3_1">
-		<Esoterica>Gong_DJ_C3_1</Esoterica>
-		<DisplayName>Remove</DisplayName>
-		<Level>None</Level>
-	</Node>
-
-	<Node Gong="Gong_DJ" Name="Gong_DJ_HL_D1">
-		<Esoterica>Gong_DJ_HL_D1</Esoterica>
-		<DisplayName>Legally</DisplayName>
-		<Level>God</Level>
-		<Index>3</Index>
-		<Line>0,0,0,0,0,0,0,0</Line>
-		<Layers>
-			<li>Gong_DJ_HL_D1_1</li>
-			<li>Gong_DJ_HL_D1_2</li>
-		</Layers>
-		<PreUnit><!--	<li></li>--></PreUnit>
-		<MutexUnit><!--	<li></li>--></MutexUnit>
-		<FiveBase>0,0,0,0,9</FiveBase>
-		<Skills><!--	<li></li>--></Skills>
-		<LingMax>0</LingMax>
-		<GoldLevel>0</GoldLevel>
-		<GodCount>0</GodCount>
-	</Node>
-	<Node Gong="Gong_DJ" Name="Gong_DJ_HL_D1_1">
-		<Esoterica>Gong_DJ_HL_D1_1</Esoterica>
-		<DisplayName>Difatian</DisplayName>
-		<Level>None</Level>
-	</Node>
-	<Node Gong="Gong_DJ" Name="Gong_DJ_HL_D1_2">
-		<Esoterica>Gong_DJ_HL_D1_2</Esoterica>
-		<DisplayName>Heaven law</DisplayName>
-		<Level>None</Level>
-	</Node>
-	
-	<Node Gong="Gong_DJ" Name="Gong_DJ_HL_D2">
-		<Esoterica>Gong_DJ_HL_D2</Esoterica>
-		<DisplayName>Golden Book of Tao</DisplayName>
-		<Level>God</Level>
-		<Index>6</Index>
-		<Line>0,0,0,0,0,0,0,0</Line>
-		<Layers>
-			<li>Gong_DJ_HL_D2_1</li>
-		</Layers>
-		<MutexUnit><!--	<li></li>--></MutexUnit>
-		<FiveBase>0,0,0,0,0</FiveBase>
-		<Skills><!--	<li></li>--></Skills>
-		<LingMax>0</LingMax>
-		<GoldLevel>0</GoldLevel>
-		<GodCount>0</GodCount>
-	</Node>
-	<Node Gong="Gong_DJ" Name="Gong_DJ_HL_D2_1">
-		<Esoterica>Gong_DJ_HL_D2_1</Esoterica>
-		<DisplayName>Golden Book of Tao</DisplayName>
-		<Level>None</Level>
-	</Node>
-	
-	
-	<Node Gong="Gong_DJ" Name="Gong_DJ_HL_YY">
-		<Esoterica>Gong_DJ_HL_YY</Esoterica>
-		<DisplayName>Negative yin yang</DisplayName>
-		<Level>God</Level>
-		<Index>8</Index>
-		<Line>0,0,0,0,0,0,0,0</Line>
-		<MutexUnit><!--	<li></li>--></MutexUnit>
-		<FiveBase>8,8,8,8,8</FiveBase>
-		<Skills><!--	<li></li>--></Skills>
-		<LingMax>0</LingMax>
-		<GoldLevel>0</GoldLevel>
-		<GodCount>0</GodCount>
-	</Node>
-	
-	<Node Gong="Gong_DJ" Name="Gong_DJ_XT_F1">
-		<Esoterica>Gong_DJ_XT_F1</Esoterica>
-		<DisplayName>Loud sound</DisplayName>
-		<Level>God2</Level>
-		<Index>3</Index>
-		<Line>0,0,0,0,0,0,0,0</Line>
-		<Layers>
-			<li>Gong_DJ_XT_F1_1</li>
-		</Layers>
-		<PreUnit><!--	<li></li>--></PreUnit>
-		<MutexUnit><!--	<li></li>--></MutexUnit>
-		<FiveBase>0,0,0,0,9</FiveBase>
-		<Skills><!--	<li></li>--></Skills>
-		<LingMax>0</LingMax>
-		<GoldLevel>0</GoldLevel>
-		<GodCount>0</GodCount>
-	</Node>
-	<Node Gong="Gong_DJ" Name="Gong_DJ_XT_F1_1">
-		<Esoterica>Gong_DJ_XT_F1_1</Esoterica>
-		<DisplayName>Elephant invisible</DisplayName>
-		<Level>None</Level>
-	</Node>
-	
-	<Node Gong="Gong_DJ" Name="Gong_DJ_XT_WEBZ">
-		<Esoterica>Gong_DJ_WEBZ</Esoterica>
-		<DisplayName>For nothing</DisplayName>
-		<Level>God2</Level>
-		<Index>6</Index>
-		<Line>0,0,0,0,0,0,0,0</Line>
-		<MutexUnit><!--	<li></li>--></MutexUnit>
-		<FiveBase>0,0,0,0,0</FiveBase>
-		<Skills><!--	<li></li>--></Skills>
-		<LingMax>0</LingMax>
-		<GoldLevel>0</GoldLevel>
-		<GodCount>0</GodCount>
-	</Node>
-	
-	<Node Gong="Gong_DJ" Name="Gong_DJ_XT_ZD">
-		<Esoterica>Gong_DJ_XT_ZD</Esoterica>
-		<DisplayName>Red Dust Fairy</DisplayName>
-		<Level>God2</Level>
-		<Index>8</Index>
-		<Line>0,0,0,0,0,0,0,0</Line>
-		<MutexUnit><!--	<li></li>--></MutexUnit>
-		<FiveBase>0,0,0,0,0</FiveBase>
-		<Skills><!--	<li></li>--></Skills>
-		<LingMax>0</LingMax>
-		<GoldLevel>0</GoldLevel>
-		<GodCount>0</GodCount>
-	</Node>
-
-</List></SkillTree>
+<?xml version="1.0" encoding="UTF-8" ?>
+<SkillTree>
+    <List>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_LH_A1">
+            <Esoterica>Gong_DJ_A1</Esoterica>
+            <DisplayName>Tao Jing</DisplayName>
+            <Level>Qi</Level>
+            <Index>3</Index>
+            <Line>0,0,0,0,0,0,0,0</Line>
+            <Layers>
+                <li>Gong_DJ_LH_A1_1</li>
+                <li>Gong_DJ_LH_A1_2</li>
+            </Layers>
+            <PreUnit></PreUnit>
+            <MutexUnit></MutexUnit>
+            <FiveBase>0,0,0,0,0</FiveBase>
+            <Skills></Skills>
+            <LingMax>0</LingMax>
+            <GoldLevel>0</GoldLevel>
+            <GodCount>0</GodCount>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_LH_A1_1">
+            <Esoterica>Gong_DJ_A1_1</Esoterica>
+            <DisplayName>Tao Jing</DisplayName>
+            <Level>None</Level>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_LH_A1_2">
+            <Esoterica>Gong_DJ_A1_2</Esoterica>
+            <DisplayName>Tao Jing</DisplayName>
+            <Level>None</Level>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_LH_A2">
+            <Esoterica>Gong_DJ_A2</Esoterica>
+            <DisplayName>German classics</DisplayName>
+            <Level>Qi</Level>
+            <Index>7</Index>
+            <Line>0,0,0,0,0,0,0,0</Line>
+            <Layers>
+                <li>Gong_DJ_LH_A2_1</li>
+                <li>Gong_DJ_LH_A2_2</li>
+            </Layers>
+            <PreUnit></PreUnit>
+            <MutexUnit></MutexUnit>
+            <FiveBase>0,0,0,0,0</FiveBase>
+            <Skills></Skills>
+            <LingMax>0</LingMax>
+            <GoldLevel>0</GoldLevel>
+            <GodCount>0</GodCount>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_LH_A2_1">
+            <Esoterica>Gong_DJ_A2_1</Esoterica>
+            <DisplayName>German classics</DisplayName>
+            <Level>None</Level>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_LH_A2_2">
+            <Esoterica>Gong_DJ_A2_2</Esoterica>
+            <DisplayName>German classics</DisplayName>
+            <Level>None</Level>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_B1">
+            <Esoterica>Gong_DJ_B1</Esoterica>
+            <DisplayName>Taking the book as the essence</DisplayName>
+            <Level>Dan1</Level>
+            <Index>3</Index>
+            <Line>0,0,0,0,0,0,0,0</Line>
+            <Layers>
+                <li>Gong_DJ_B1_1</li>
+            </Layers>
+            <PreUnit></PreUnit>
+            <MutexUnit></MutexUnit>
+            <FiveBase>0,0,0,0,0</FiveBase>
+            <Skills></Skills>
+            <LingMax>0</LingMax>
+            <GoldLevel>0</GoldLevel>
+            <GodCount>0</GodCount>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_B1_1">
+            <Esoterica>Gong_DJ_B1_1</Esoterica>
+            <DisplayName>Take things as rough</DisplayName>
+            <Level>None</Level>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_B1_2">
+            <Esoterica>Gong_DJ_B1_2</Esoterica>
+            <DisplayName>Take product as insufficient</DisplayName>
+            <Level>None</Level>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_B2">
+            <Esoterica>Gong_DJ_B2</Esoterica>
+            <DisplayName>Often</DisplayName>
+            <Level>Dan1</Level>
+            <Index>6</Index>
+            <Line>0,0,0,0,0,0,0,0</Line>
+            <Layers>
+                <li>Gong_DJ_B2_1</li>
+            </Layers>
+            <PreUnit></PreUnit>
+            <MutexUnit></MutexUnit>
+            <FiveBase>0,0,0,0,0</FiveBase>
+            <Skills></Skills>
+            <LingMax>0</LingMax>
+            <GoldLevel>0</GoldLevel>
+            <GodCount>0</GodCount>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_B2_1">
+            <Esoterica>Gong_DJ_B2_1</Esoterica>
+            <DisplayName>Dao Changwu</DisplayName>
+            <Level>None</Level>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_B3">
+            <Esoterica>Gong_DJ_B3</Esoterica>
+            <DisplayName>Do nothing</DisplayName>
+            <Level>Dan1</Level>
+            <Index>8</Index>
+            <Line>0,0,0,0,0,0,0,0</Line>
+            <Layers>
+                <li>Gong_DJ_B3_1</li>
+            </Layers>
+            <MutexUnit></MutexUnit>
+            <FiveBase>0,0,0,0,0</FiveBase>
+            <Skills></Skills>
+            <LingMax>0</LingMax>
+            <GoldLevel>0</GoldLevel>
+            <GodCount>0</GodCount>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_B3_1">
+            <Esoterica>Gong_DJ_B3_1</Esoterica>
+            <DisplayName>Do not speak</DisplayName>
+            <Level>None</Level>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_C1">
+            <Esoterica>Gong_DJ_C1</Esoterica>
+            <DisplayName>Moriichi</DisplayName>
+            <Level>Dan2</Level>
+            <Index>3</Index>
+            <Line>0,0,0,0,0,0,0,0</Line>
+            <Layers>
+                <li>Gong_DJ_C1_1</li>
+                <li>Gong_DJ_C1_2</li>
+            </Layers>
+            <MutexUnit></MutexUnit>
+            <FiveBase>0,0,0,0,0</FiveBase>
+            <Skills></Skills>
+            <LingMax>0</LingMax>
+            <GoldLevel>0</GoldLevel>
+            <GodCount>0</GodCount>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_C1_1">
+            <Esoterica>Gong_DJ_C1_1</Esoterica>
+            <DisplayName>Xin Qi</DisplayName>
+            <Level>None</Level>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_C1_2">
+            <Esoterica>Gong_DJ_C1_2</Esoterica>
+            <DisplayName>Sit and forget</DisplayName>
+            <Level>None</Level>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_SJ_C2_YQ">
+            <Esoterica>Gong_DJ_SJ_C2_YQ</Esoterica>
+            <DisplayName>One gas three clear</DisplayName>
+            <Level>Dan2</Level>
+            <Index>6</Index>
+            <Line>0,0,0,0,0,0,0,0</Line>
+            <Layers>
+                <li>Gong_DJ_SJ_C2_YQ_1</li>
+                <li>Gong_DJ_SJ_C2_YQ_2</li>
+            </Layers>
+            <MutexUnit></MutexUnit>
+            <FiveBase>0,0,0,9,0</FiveBase>
+            <Skills></Skills>
+            <LingMax>0</LingMax>
+            <GoldLevel>0</GoldLevel>
+            <GodCount>0</GodCount>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_SJ_C2_YQ_1">
+            <Esoterica>Gong_DJ_SJ_C1_YQ_1</Esoterica>
+            <DisplayName>One gas three clear</DisplayName>
+            <Level>None</Level>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_SJ_C2_YQ_2">
+            <Esoterica>Gong_DJ_SJ_C1_YQ_2</Esoterica>
+            <DisplayName>One gas three clear</DisplayName>
+            <Level>None</Level>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_C3">
+            <Esoterica>Gong_DJ_C3</Esoterica>
+            <DisplayName>Desire to be soft</DisplayName>
+            <Level>Dan2</Level>
+            <Index>8</Index>
+            <Line>0,0,0,0,0,0,0,0</Line>
+            <Layers>
+                <li>Gong_DJ_C3_1</li>
+            </Layers>
+            <MutexUnit></MutexUnit>
+            <FiveBase>0,9,0,9,0</FiveBase>
+            <Skills></Skills>
+            <LingMax>0</LingMax>
+            <GoldLevel>0</GoldLevel>
+            <GodCount>0</GodCount>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_C3_1">
+            <Esoterica>Gong_DJ_C3_1</Esoterica>
+            <DisplayName>Remove</DisplayName>
+            <Level>None</Level>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_HL_D1">
+            <Esoterica>Gong_DJ_HL_D1</Esoterica>
+            <DisplayName>Legally</DisplayName>
+            <Level>God</Level>
+            <Index>3</Index>
+            <Line>0,0,0,0,0,0,0,0</Line>
+            <Layers>
+                <li>Gong_DJ_HL_D1_1</li>
+                <li>Gong_DJ_HL_D1_2</li>
+            </Layers>
+            <PreUnit></PreUnit>
+            <MutexUnit></MutexUnit>
+            <FiveBase>0,0,0,0,9</FiveBase>
+            <Skills></Skills>
+            <LingMax>0</LingMax>
+            <GoldLevel>0</GoldLevel>
+            <GodCount>0</GodCount>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_HL_D1_1">
+            <Esoterica>Gong_DJ_HL_D1_1</Esoterica>
+            <DisplayName>Difatian</DisplayName>
+            <Level>None</Level>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_HL_D1_2">
+            <Esoterica>Gong_DJ_HL_D1_2</Esoterica>
+            <DisplayName>Heaven law</DisplayName>
+            <Level>None</Level>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_HL_D2">
+            <Esoterica>Gong_DJ_HL_D2</Esoterica>
+            <DisplayName>Golden Book of Tao</DisplayName>
+            <Level>God</Level>
+            <Index>6</Index>
+            <Line>0,0,0,0,0,0,0,0</Line>
+            <Layers>
+                <li>Gong_DJ_HL_D2_1</li>
+            </Layers>
+            <MutexUnit></MutexUnit>
+            <FiveBase>0,0,0,0,0</FiveBase>
+            <Skills></Skills>
+            <LingMax>0</LingMax>
+            <GoldLevel>0</GoldLevel>
+            <GodCount>0</GodCount>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_HL_D2_1">
+            <Esoterica>Gong_DJ_HL_D2_1</Esoterica>
+            <DisplayName>Golden Book of Tao</DisplayName>
+            <Level>None</Level>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_HL_YY">
+            <Esoterica>Gong_DJ_HL_YY</Esoterica>
+            <DisplayName>Negative yin yang</DisplayName>
+            <Level>God</Level>
+            <Index>8</Index>
+            <Line>0,0,0,0,0,0,0,0</Line>
+            <MutexUnit></MutexUnit>
+            <FiveBase>8,8,8,8,8</FiveBase>
+            <Skills></Skills>
+            <LingMax>0</LingMax>
+            <GoldLevel>0</GoldLevel>
+            <GodCount>0</GodCount>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_XT_F1">
+            <Esoterica>Gong_DJ_XT_F1</Esoterica>
+            <DisplayName>Loud sound</DisplayName>
+            <Level>God2</Level>
+            <Index>3</Index>
+            <Line>0,0,0,0,0,0,0,0</Line>
+            <Layers>
+                <li>Gong_DJ_XT_F1_1</li>
+            </Layers>
+            <PreUnit></PreUnit>
+            <MutexUnit></MutexUnit>
+            <FiveBase>0,0,0,0,9</FiveBase>
+            <Skills></Skills>
+            <LingMax>0</LingMax>
+            <GoldLevel>0</GoldLevel>
+            <GodCount>0</GodCount>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_XT_F1_1">
+            <Esoterica>Gong_DJ_XT_F1_1</Esoterica>
+            <DisplayName>Elephant invisible</DisplayName>
+            <Level>None</Level>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_XT_WEBZ">
+            <Esoterica>Gong_DJ_WEBZ</Esoterica>
+            <DisplayName>For nothing</DisplayName>
+            <Level>God2</Level>
+            <Index>6</Index>
+            <Line>0,0,0,0,0,0,0,0</Line>
+            <MutexUnit></MutexUnit>
+            <FiveBase>0,0,0,0,0</FiveBase>
+            <Skills></Skills>
+            <LingMax>0</LingMax>
+            <GoldLevel>0</GoldLevel>
+            <GodCount>0</GodCount>
+        </Node>
+        <Node Gong="Gong_DJ" Name="Gong_DJ_XT_ZD">
+            <Esoterica>Gong_DJ_XT_ZD</Esoterica>
+            <DisplayName>Red Dust Fairy</DisplayName>
+            <Level>God2</Level>
+            <Index>8</Index>
+            <Line>0,0,0,0,0,0,0,0</Line>
+            <MutexUnit></MutexUnit>
+            <FiveBase>0,0,0,0,0</FiveBase>
+            <Skills></Skills>
+            <LingMax>0</LingMax>
+            <GoldLevel>0</GoldLevel>
+            <GodCount>0</GodCount>
+        </Node>
+    </List>
+</SkillTree>

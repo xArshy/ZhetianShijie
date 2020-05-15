@@ -462,7 +462,7 @@
 				<OKResult>
 				<![CDATA[	
 				story:RemoveBindItem();
-				me:AddMsg("[NAME]Get a cheat book to unlock new locations, plus gifts from the author and a wave of enemies");
+				me:AddMsg("[NAME]Get a Secret Art to unlock new locations, plus gifts from the author and a wave of enemies");
 				me:DropRandomItem("Esoterica");me:DropRandomItem("FightFabao", 6, 12);
 				me:AddEnemy(3,1.5)
 				me:AddSchoolScore(1,50);
@@ -488,7 +488,7 @@
 				<OKResult>
 				<![CDATA[	
 				story:RemoveBindItem();
-				me:AddMsg("[NAME]Get a cheat book to unlock new locations, plus gifts from the author and a wave of enemies");
+				me:AddMsg("[NAME]Get a Secret Art to unlock new locations, plus gifts from the author and a wave of enemies");
 				me:AddEnemy(3,1.5)
 				me:AddSchoolScore(1,50);
 				me:DropEsoteric("ZT_LXDT");
@@ -516,7 +516,7 @@
 				<OKResult>
 				<![CDATA[	
 				story:RemoveBindItem();
-				me:AddMsg("[NAME]Get a cheat book to unlock new locations, plus gifts from the author and a wave of enemies");
+				me:AddMsg("[NAME]Get a Secret Art to unlock new locations, plus gifts from the author and a wave of enemies");
 				me:AddEnemy(6,1.5)
 				me:AddSchoolScore(1,50);
 				me:DropEsoteric("ZT_GWSTSFYX");me:DropAwardItem("Item_ZaoHuaYuLu",4);
@@ -541,7 +541,7 @@
 				<OKResult>
 				<![CDATA[	
 				
-				me:AddMsg("[NAME]Get a cheat book to unlock new locations, plus gifts from the author and a wave of enemies");
+				me:AddMsg("[NAME]Get a Secret Art to unlock new locations, plus gifts from the author and a wave of enemies");
 				me:AddEnemy(6,1.5)
 				me:AddSchoolScore(1,50);
 				me:DropEsoteric("ZT_TXM");me:DropAwardItem("Item_WSXY",1);
@@ -565,7 +565,7 @@
 				<OKResult>
 				<![CDATA[	
 				
-				me:AddMsg("[NAME]Get a cheat book to unlock new locations, plus gifts from the author and a wave of enemies");
+				me:AddMsg("[NAME]Get a Secret Art to unlock new locations, plus gifts from the author and a wave of enemies");
 				me:AddEnemy(6,1.5)
 				me:AddSchoolScore(1,50);
 				me:DropEsoteric("ZT_HY");me:DropAwardItem("Item_JSXY",1);me:DropAwardItem("Item_MSXY",1);me:DropAwardItem("Item_SSXY",1);me:DropAwardItem("Item_HSXY",1);me:DropAwardItem("Item_TSXY",1);

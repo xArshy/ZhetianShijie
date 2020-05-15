@@ -12,7 +12,7 @@
 	<BlockLight>1</BlockLight>
 	<ColliderKind>NoPass</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		[0,4,0],
 		[1,1,1],
@@ -71,7 +71,7 @@
 	<ThingName>Meng Po</ThingName>	
 	<Desc>The past is unavailable, the present is unavailable, and the future is unavailable. The past life is gone, and in this life, good and evil are only thought of in the heart. Come on, the hot soup is done.</Desc>
 	<TexPath>Spr\Building\MP.png</TexPath>
-	<!--<TexScale>0.65</TexScale>-->
+	
 	<Tags>
 		<Tag Name="_WONDER" Level="1"/>
 	</Tags>
@@ -82,7 +82,7 @@
 	<BlockLight>1</BlockLight>
 	
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		[0,0,0,4,0,0,0],
 		[0,1,1,1,1,1,0],
@@ -183,7 +183,7 @@
 		<y>0</y>
 	</ShadowSize>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		[0,0,4,0,1],
 		[4,1,1,1,4],
@@ -243,7 +243,7 @@
 	<TexScale>1.5</TexScale>
 	<ColliderKind>NoPass</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		[0,1,1,1,0],
 		[0,1,1,1,0],
@@ -430,7 +430,7 @@
 	</Tags>
 	<ColliderKind>NoPass</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		
 		[0,1,1,1,0],
@@ -543,7 +543,7 @@
 	<TexScale>2</TexScale>
 	<ColliderKind>NoPass</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		[1,1,1],
 		[4,2,4],
@@ -712,7 +712,7 @@
 	<TexScale>0.9</TexScale>
 	<ColliderKind>NoPass</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 
 		[0,0,2,0,0],
@@ -887,7 +887,7 @@
 	<NoElementKind>1</NoElementKind> 
 	<ColliderKind>NoPass</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		[0,0,0,0,0],
 		[0,5,3,5,0],
@@ -897,10 +897,10 @@
 			<li Index="0"  X="0" Y="0.15" Z="-1" Ang="181"/>
 		</WorkOffset>
 		<OffsetGroup>
-			<li><x>0</x><y>0</y></li>  <!-- 后 -->
-			<li><x>0</x><y>0</y></li>     <!-- 右 -->
-			<li><x>0</x><y>0.7</y></li>     <!-- 前 -->
-			<li><x>0</x><y>0</y></li>     <!-- 左 -->
+			<li><x>0</x><y>0</y></li>  
+			<li><x>0</x><y>0</y></li>     
+			<li><x>0</x><y>0.7</y></li>     
+			<li><x>0</x><y>0</y></li>     
 		</OffsetGroup>
 	</Collider>
 	<Building>
@@ -993,7 +993,7 @@
 		<CastShadow>0</CastShadow>
 		<BlockLight>0</BlockLight>
 			<Collider>
-				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				
 				<Data>
 					[6],
 				</Data>
@@ -1058,7 +1058,7 @@
 		<CastShadow>0</CastShadow>
 		<BlockLight>0</BlockLight>
 			<Collider>
-				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				
 				<Data>
 					[6],
 				</Data>
@@ -1123,7 +1123,7 @@
 		<CastShadow>0</CastShadow>
 		<BlockLight>0</BlockLight>
 			<Collider>
-				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				
 				<Data>
 					[6],
 				</Data>
@@ -1188,7 +1188,7 @@
 		<CastShadow>0</CastShadow>
 		<BlockLight>0</BlockLight>
 			<Collider>
-				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				
 				<Data>
 					[6],
 				</Data>
@@ -1253,7 +1253,7 @@
 		<CastShadow>0</CastShadow>
 		<BlockLight>0</BlockLight>
 			<Collider>
-				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				
 				<Data>
 					[6],
 				</Data>
@@ -1319,7 +1319,7 @@
 		<CastShadow>0</CastShadow>
 		<BlockLight>0</BlockLight>
 			<Collider>
-				<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+				
 				<Data>
 					[6],
 				</Data>
@@ -1389,7 +1389,7 @@
 	</ShadowSize>
 	<ColliderKind>Across</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		
 		[2],
@@ -1455,7 +1455,7 @@
 	</ShadowSize>
 	<ColliderKind>Across</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		
 		[2],
@@ -1521,7 +1521,7 @@
 	</ShadowSize>
 	<ColliderKind>Across</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		
 		[2],
@@ -1587,7 +1587,7 @@
 	</ShadowSize>
 	<ColliderKind>Across</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		
 		[2],
@@ -1653,7 +1653,7 @@
 	</ShadowSize>
 	<ColliderKind>Across</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		
 		[2],
@@ -1718,7 +1718,7 @@
 	</ShadowSize>
 	<ColliderKind>Across</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		
 		[2],
@@ -1786,7 +1786,7 @@
 	</ShadowSize>
 	<ColliderKind>Across</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		
 		[2],
@@ -1851,7 +1851,7 @@
 	</ShadowSize>
 	<ColliderKind>Across</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		
 		[2],
@@ -1916,7 +1916,7 @@
 	</ShadowSize>
 	<ColliderKind>Across</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		
 		[2],
@@ -1981,7 +1981,7 @@
 	</ShadowSize>
 	<ColliderKind>Across</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		
 		[2],
@@ -2046,7 +2046,7 @@
 	</ShadowSize>
 	<ColliderKind>Across</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		
 		[2],
@@ -2112,7 +2112,7 @@
 	</ShadowSize>
 	<ColliderKind>Across</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		
 		[2],
@@ -2177,7 +2177,7 @@
 	</ShadowSize>
 	<ColliderKind>Across</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		
 		[2],
@@ -2239,7 +2239,7 @@
 	<BlockLight>1</BlockLight>
 	<ColliderKind>NoPass</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		
 		<Data>
 		[1,3],
 		[4,4],
@@ -2286,7 +2286,7 @@
 	<BlockLight>1</BlockLight>
 	<ColliderKind>NoPass</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		
 		<Data>
 		[1,3],
 		[1,1],
@@ -2333,7 +2333,7 @@
 	<BlockLight>1</BlockLight>
 	<ColliderKind>NoPass</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		
 		<Data>
 		[3,1],
 		[1,1],
@@ -2379,7 +2379,7 @@
 	<CastShadow>1</CastShadow>
 	<BlockLight>1</BlockLight>
 	<Collider>
-		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		
 		<Data>
 		[3],
 		
@@ -2428,7 +2428,7 @@
 	</ShadowSize>
 	<ColliderKind>Across</ColliderKind>  
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		[3],
 		</Data>
@@ -2487,7 +2487,7 @@
 	</ShadowSize>
 	<ColliderKind>Across</ColliderKind>  
 	<Collider>
-		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		
 		<Data>
 		[3],
 		</Data>
@@ -2547,7 +2547,7 @@
 	<BlockLight>1</BlockLight>	
 	<ColliderKind>NoPass</ColliderKind>
 	<Collider>
-		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		
 		<Data>
 		[0,3,0,0],
 		[1,4,1,0],
@@ -2569,7 +2569,7 @@
 				<Stuff name = "Wood"/>
 				<Stuff name = "WoodBlock"/>
 			</StuffCategories>
-			<!--<DrivingTexPath>res/Sprs/buildingnew/building_liandanlu01b</DrivingTexPath>-->
+			
 			<CostStuffCount>3</CostStuffCount>
 			<Duration>0.5</Duration>
 			<DriveJustProdece>1</DriveJustProdece>

@@ -1,6 +1,6 @@
 <ModifierDefs><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Modifier Name="Gong_XKJ_LH_1A" Type="Normal">
 		<DisplayName>大道至简</DisplayName>
@@ -35,7 +35,7 @@
 			<li Name="MindStateBaseValue" AddV="30"/>
 		</Properties>
 	</Modifier>
-	<!-- ==========================技能2========================== -->
+	
 	<Modifier Name="Gong_XKJ_LH_2A_XKDSY" Type="Normal">
 		<DisplayName>虚空大手印</DisplayName>
 		<MaxStack>0</MaxStack>
@@ -50,7 +50,7 @@
 	</Modifier>
 	
 	
-	<!-- ==========================技能3========================== -->
+	
 	<Modifier Name="Gong_XKJ_LH_3A" Type="Normal">
 		<DisplayName>消万物</DisplayName>
 		<MaxStack>0</MaxStack>
@@ -93,7 +93,7 @@
 		</Properties>
 
 	</Modifier>
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Modifier Name="Gong_XKJ_LH_1B" Type="Normal">
 		<DisplayName>大虚空术</DisplayName>
@@ -125,7 +125,7 @@
 	</Modifier>
 
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 	
 	
@@ -142,7 +142,7 @@
 	</Modifier>
 	
 	
-	<!-- ==========================分割线========================== -->
+	
 	
 	<Modifier Name="Gong_XKJ_SJ_1C" Type="Normal">
 		<DisplayName>空间风暴</DisplayName>
@@ -178,7 +178,7 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="NpcFight_ShieldConversionRate" AddV="0.4"/><!--护盾强度加值2-->
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.4"/>
 			<li Name="NpcFight_SpellPowerAddP" AddP="5"/>
 		</Properties>
 		<Skills>
@@ -226,7 +226,7 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="NpcFight_ZhenEnginePower" AddV="40"/><!--阵法负荷能力-20-->
+			<li Name="NpcFight_ZhenEnginePower" AddV="40"/>
 			<li Name="NpcFight_FabaoPowerAddP" AddP="4"/>
 			<li Name="NpcFight_SpellPowerAddP" AddP="4"/> 
 		</Properties>
@@ -238,7 +238,7 @@
 		<Display>0</Display>
 		<BaseFive>2,2,2,2,2</BaseFive>
 		<Properties>
-			<li Name="NpcFight_ZhenEnginePower" AddV="30"/><!--阵法负荷能力-20-->
+			<li Name="NpcFight_ZhenEnginePower" AddV="30"/>
 			<li Name="NpcFight_FabaoNum" AddP="1"/>
 			<li Name="NpcFight_FabaoPowerAddP" AddP="6"/>
 			
@@ -251,7 +251,7 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="NpcFight_FabaoMaxLingAddP" AddP="4"/><!--阵法负荷能力-20-->
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="4"/>
 		</Properties>
 		<Skills>
 			<li Name="Fabao" LevelOver="10"/>

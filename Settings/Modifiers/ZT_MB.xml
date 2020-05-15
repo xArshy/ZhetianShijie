@@ -8,7 +8,7 @@
 		<Sync>1</Sync>
 		<BaseFive>0,0,0,0,0</BaseFive>
 			<Skills>
-				<li Name="Medicine" LevelOver="15"/><!-- 岐黄 -->
+				<li Name="Medicine" LevelOver="15"/>
 			</Skills>
 	</Modifier>
 	

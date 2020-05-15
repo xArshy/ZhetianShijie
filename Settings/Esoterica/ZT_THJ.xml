@@ -1,6 +1,6 @@
 <Esotericas><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Esoterica Name="Gong_THJ_LH_A1">
 		<DisplayName>Dynasty heritage</DisplayName>
@@ -43,7 +43,7 @@
 	</Esoterica>
 	
 	
-	<!-- ==========================技能2========================== -->
+	
 	
 	<Esoterica Name="Gong_THJ_LH_A2_XKDSY">
 		<DisplayName>Xuanlong Zhengdao</DisplayName>
@@ -61,7 +61,7 @@
 		</Skills>
 	</Esoterica>
 	
-	<!-- ==========================技能3========================== -->
+	
 	
 	<Esoterica Name="Gong_THJ_LH_A3">
 		<DisplayName>Qi Yun Long Dao</DisplayName>
@@ -89,7 +89,7 @@
 		<Modifier>Gong_THJ_LH_3A_1</Modifier>
 	</Esoterica>
 	
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Esoterica Name="Gong_THJ_LH_B1">
 		<DisplayName>Dragon spirit</DisplayName>
@@ -128,7 +128,7 @@
 		<Modifier>Gong_THJ_LH_1B_2</Modifier>
 	</Esoterica>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 	<Esoterica Name="Gong_THJ_DG_B1">
 		<DisplayName>Huang Mai Xun Long</DisplayName>
@@ -155,7 +155,7 @@
 		</Magics>
 	</Esoterica>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 	<Esoterica Name="Gong_THJ_LH_B3_SDSS">
 		<DisplayName>True Dragon Guard</DisplayName>
@@ -173,7 +173,7 @@
 		</Skills>
 	</Esoterica>
 	
-	<!-- ==========================分割线========================== -->
+	
 	
 	<Esoterica Name="Gong_THJ_SJ_C1">
 		<DisplayName>Quadrupole</DisplayName>

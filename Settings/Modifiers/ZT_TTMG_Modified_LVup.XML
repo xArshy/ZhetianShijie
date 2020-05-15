@@ -1,6 +1,6 @@
 <ModifierDefs><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Modifier Name="Gong_TTMG_1_A" Type="Normal">
 		<DisplayName>Devour Magic</DisplayName>
@@ -32,7 +32,7 @@
 			<li Name="MindStateBaseValue" AddV="60"/>
 		</Properties>
 	</Modifier>
-	<!-- ==========================技能2========================== -->
+	
 	<Modifier Name="Gong_TTMG_2_A" Type="Normal">
 		<DisplayName>Devouring the Origin</DisplayName>
 		<MaxStack>0</MaxStack>
@@ -54,7 +54,7 @@
 		</Properties>
 	</Modifier>
 	
-	<!-- ==========================技能3========================== -->
+	
 	<Modifier Name="Gong_TTMG_3" Type="Normal">
 		<DisplayName>Secret of Wanhua</DisplayName>
 		<MaxStack>0</MaxStack>
@@ -66,7 +66,7 @@
 			<li Name="LingAbsorbSpeed" BAddV="40"/>
 		</Properties>
 	</Modifier>
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Modifier Name="Gong_TTMG_4_A" Type="Normal">
 		<DisplayName>Lili Demon</DisplayName>
@@ -75,14 +75,14 @@
 		<Display>0</Display>
 		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
 		<Skills>
-				<li Name="Fight" LevelOver="5"/><!-- 御物 -->
-				<li Name="Qi" LevelOver="5"/><!-- 气感 -->
-				<li Name="Fabao" LevelOver="5"/><!-- 法宝 -->
-				<li Name="DouFa" LevelOver="5"/><!-- 斗法 -->
-				<li Name="Barrier" LevelOver="5"/><!-- 护盾 -->
-				<li Name="Zhen" LevelOver="5"/><!-- 阵法 -->
-				<li Name="FightSkill" LevelOver="5"/><!-- 术法 -->
-				<li Name="DanQi" LevelOver="5"/><!-- 丹器 -->
+				<li Name="Fight" LevelOver="5"/>
+				<li Name="Qi" LevelOver="5"/>
+				<li Name="Fabao" LevelOver="5"/>
+				<li Name="DouFa" LevelOver="5"/>
+				<li Name="Barrier" LevelOver="5"/>
+				<li Name="Zhen" LevelOver="5"/>
+				<li Name="FightSkill" LevelOver="5"/>
+				<li Name="DanQi" LevelOver="5"/>
 		</Skills>
 	</Modifier>
 	<Modifier Name="Gong_TTMG_4_B" Type="Normal">
@@ -97,7 +97,7 @@
 		</Properties>
 	</Modifier>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 		<Modifier Name="Gong_TTMG_5" Type="Normal">
 		<DisplayName>斩我明道诀</DisplayName>
@@ -111,7 +111,7 @@
 	</Modifier>
 	
 	
-		<!-- ==========================技能6========================== -->
+		
 	
 	
 	<Modifier Name="Gong_TTMG_6_A" Type="Normal">
@@ -145,12 +145,12 @@
 		<Display>0</Display>
 		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
 		<Properties>
-			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.3"/><!--术法冷却时间加成-->
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.3"/>
 		</Properties>
 	</Modifier>
 	
 	
-	<!-- ==========================分割线========================== -->
+	
 	
 	<Modifier Name="Gong_TTMG_7_A" Type="Normal">
 		<DisplayName>度神诀</DisplayName>
@@ -173,7 +173,7 @@
 		</Properties>
 	</Modifier>
 	
-	<!-- ==========================分割线========================== -->	
+	
 	<Modifier Name="Gong_TTMG_8_A" Type="Normal">
 		<DisplayName>吞天魔罐</DisplayName>
 		<MaxStack>0</MaxStack>
@@ -181,8 +181,8 @@
 		<Display>0</Display>
 		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
 		<Skills>
-				<li Name="Manual" LevelOver="10"/><!-- 御物 -->
-				<li Name="Manual" Level="10"/><!-- 御物 -->
+				<li Name="Manual" LevelOver="10"/>
+				<li Name="Manual" Level="10"/>
 		</Skills>
 	</Modifier>
 	
@@ -207,10 +207,10 @@
 		<Display>0</Display>
 		<BaseFive>-1,-1,-1,-1,-1</BaseFive>
 		<Properties>
-			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.2"/><!--术法冷却时间加成 -1-->
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.2"/>
 		</Properties>
 		<Skills>
-				<li Name="FightSkill" LevelOver="10"/><!-- 御物 -->
+				<li Name="FightSkill" LevelOver="10"/>
 		</Skills>
 	</Modifier>
 	

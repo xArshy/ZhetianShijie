@@ -1,387 +1,376 @@
-<Esotericas><List>
-	
-	<!-- ==========================技能1========================== -->
-	
-	<Esoterica Name="Gong_YTS_LH_A1">
-		<DisplayName>Tan Yuan Shen Ban</DisplayName>
-		<Icon>Spr\Object\JN\ZT_YTS\TYSJ.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>15</Difficulty>
-		<Desc>The way to the source lies in grasping the general trend of feng shui.</Desc>
-		<GLevel>Qi</GLevel>
-		<Element>Tu</Element>
-		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]A heavy day \n plus the upper limit of personal spiritual power 4 \n plus the maximum value of 2400 \n plus personal healing 4[/color][/size]</EffectDesc>
-		<Modifier>Gong_YTS_LH_1A</Modifier>
-	</Esoterica>
-	<Esoterica Name="Gong_YTS_LH_A1_1">
-		<DisplayName>Tan Yuan Shen Ban</DisplayName>
-		<Hide>2</Hide>
-		<Icon>Spr\Object\JN\ZT_YTS\TYSJ.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>10</Difficulty>
-		<Desc>The way to the source lies in grasping the general trend of feng shui.</Desc>
-		<GLevel>Qi</GLevel>
-		<Element>Tu</Element>
-		<EffectDesc>[size=10][color=#D06508]    Double Heaven \nPlus Magic Power 4 \nPlus Spell Power 4 \nPlus Base Mood[/color][/size]</EffectDesc>
-		<Modifier>Gong_YTS_LH_1A_1</Modifier>
-	</Esoterica>
-	<Esoterica Name="Gong_YTS_LH_A1_2">
-		<DisplayName>Tan Yuan Shen Ban</DisplayName>
-		<Hide>2</Hide>
-		<Icon>Spr\Object\JN\ZT_YTS\TYSJ.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>10</Difficulty>
-		<Desc>The way to the source lies in grasping the general trend of feng shui.</Desc>
-		<GLevel>Qi</GLevel>
-		<Element>Tu</Element>
-		<EffectDesc>[size=10][color=#D06508]    Triple Heaven \nPlus Shouyuan 600 \nAdding Magical Aura Upper Limit 4 \nPlus Mood[/color][/size]</EffectDesc>
-		<Modifier>Gong_YTS_LH_1A_2</Modifier>
-	</Esoterica>
-	
-	
-	<!-- ==========================技能2========================== -->
-	
-	
-	
-	<!-- ==========================技能3========================== -->
-	
-	<Esoterica Name="Gong_YTS_LH_A3">
-		<DisplayName>Original creation</DisplayName>
-		<Hide>2</Hide>
-		<Icon>Spr\Object\JN\ZT_YTS\YBCS.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>15</Difficulty>
-		<Desc>The source technique is the way of creation and the way of keeping in good health.</Desc>
-		<GLevel>Qi</GLevel>
-		<Element>Tu</Element>
-		<EffectDesc>[size=10][color=#D06508]\nIncrease shield value 1 \nIncrease shield strength 2 \nIncrease stealth value 20[/color][/size][/color][/size]</EffectDesc>
-		<Modifier>Gong_YTS_LH_3A</Modifier>
-	</Esoterica>
-	
-	<Esoterica Name="Gong_YTS_LH_A3_1">
-		<DisplayName>Original creation</DisplayName>
-		<Hide>2</Hide>
-		<Icon>Spr\Object\JN\ZT_YTS\YBCS.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>10</Difficulty>
-		<Desc>The source technique is the way of creation and the way of keeping in good health.</Desc>
-		<GLevel>Qi</GLevel>
-		<Element>Tu</Element>
-		<EffectDesc>[size=10][color=#D06508]\nImprove magical powers \nReducing spell cost 0.2 \nReducing celestial power -50[/color][/size][/color][/size]</EffectDesc>
-		<Modifier>Gong_YTS_LH_3A_1</Modifier>
-	</Esoterica>
-	<Esoterica Name="Gong_YTS_LH_A3_2">
-		<DisplayName>Original creation</DisplayName>
-		<Hide>2</Hide>
-		<Icon>Spr\Object\JN\ZT_YTS\YBCS.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>10</Difficulty>
-		<Desc>The source technique is the way of creation and the way of keeping in good health.</Desc>
-		<GLevel>Qi</GLevel>
-		<Element>Tu</Element>
-		<EffectDesc>[size=10][color=#D06508]\nIncrease potential value 3 \nIncrease base spiritual value 30 \nIncrease furnace trip value 2500[/color][/size][/color][/size]</EffectDesc>
-		<Modifier>Gong_YTS_LH_3A_1</Modifier>
-	</Esoterica>
-	
-	<!-- ==========================技能4========================== -->
-	
-	<Esoterica Name="Gong_YTS_LH_B1">
-		<DisplayName>Yuan Ju Ju Yuan</DisplayName>
-		<Icon>Spr\Object\JN\ZT_YTS\JY.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>20</Difficulty>
-		<Desc>It records the magical power of making source in the source book.</Desc>
-		<GLevel>Dan1</GLevel>
-		<Element>None</Element>
-		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    A heavy sky \n plus five-dimensional attributes 1 \n plus training speed 2 \n learned magical powers[/color][/size]</EffectDesc>
-		<Modifier>Gong_YTS_LH_1B</Modifier>
-		<Magics>
-		<li>TYS_LY</li>
-		</Magics>
-	</Esoterica>
-	
-	
-	<!-- ==========================技能5========================== -->
-	
-	<Esoterica Name="Gong_YTS_DG_B1">
-		<DisplayName>Yuantianshu</DisplayName>
-		<Hide>2</Hide>
-		<Icon>Spr\Object\JN\ZT_YTS\ZT_YTS.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>15</Difficulty>
-		<Desc>To receive the spirit of heaven and earth, the art of creation</Desc>
-		<GLevel>Dan1</GLevel>
-		<Element>Tu</Element>
-		<EffectDesc>[size=10][color=#D06508]    A Heavy Sky \nAdd Alchemy Speed ​​\nAdd Alchemy Success Rate \nLearn Magic: Feng Shui Appraisal \n Learn Magic: Prayer of Heaven \n Learn Magic: Wind Moon Illusion[/color][/size]</EffectDesc>
-		<Modifier>Gong_YTS_DG_1B</Modifier>
-		<Magics>
-			<li>AbsorbGong_2</li>
-			<li>FengshuiItemOpen</li>
-			<li>PrayForSun</li>
-			<li>PrayForRainstorm</li>
-			<li>PrayForFohn</li>
-			<li>PrayForDustStorm</li>
-			<li>PrayForMiasma</li>
-			<li>PrayForLightningStorm</li>
-		</Magics>
-	</Esoterica>
-	<Esoterica Name="Gong_YTS_DG_B2">
-		<DisplayName>Yuantianshu</DisplayName>
-		<Hide>2</Hide>
-		<Icon>Spr\Object\JN\ZT_YTS\ZT_YTS.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>10</Difficulty>
-		<Desc>To receive the spirit of heaven and earth, the art of creation</Desc>
-		<GLevel>Dan1</GLevel>
-		<Element>Tu</Element>
-		<EffectDesc>[size=10][color=#D06508]    Double Heaven \nPlus Condemnation Value \nAdd Alchemy Yield \nAdd Alchemy Level \nLearn two fortune-telling magical powers \nLearn magical powers: Move mountains and make sea \nLearn magical powers: Refine spirit crystals \nLearn Three kinds of refining magical powers[/color][/size]</EffectDesc>
-		<Modifier>Gong_YTS_DG_2B</Modifier>
-		<Magics>
-			<li>Prophesy</li>
-			<li>Prophesy_MapStory</li>
-			<li>BuildMine</li>
-			<li>BuildLand</li>
-			<li>BuildSea</li>
-			<li>TianMoWu</li>
-			<li>LingCrystalMake</li>
-			<li>SoulCrystalYouPowerUp</li>
-			<li>SoulCrystalLingPowerUp</li>
-			<li>MakeSoulCrystal</li>
-		</Magics>
-	</Esoterica>
-	
-	<!-- ==========================技能5========================== -->
-	
-	
-	<!-- ==========================分割线========================== -->
-	
-	<Esoterica Name="Gong_YTS_SJ_C1">
-		<DisplayName>Yuan Shu Shen Yuan</DisplayName>
-		<Icon>Spr\Object\JN\ZT_YTS\JY.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>20</Difficulty>
-		<Desc>It records the magical power of making the source of God in the book of Yuantian</Desc>
-		<GLevel>Dan2</GLevel>
-		<Element>None</Element>
-		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]        \nAcquired Supernatural Powers of Spiritual Containment \nPlus Spell Power 3 \nPlus Spell Power 3[/color][/size]</EffectDesc>
-		<Modifier>Gong_YTS_SJ_1C</Modifier>
-		<Magics>
-		<li>YTS_LSY</li>
-		</Magics>
-	</Esoterica>
-	
-		
-	<Esoterica Name="Gong_YTS_SJ_C3">
-		<DisplayName>Source surgery</DisplayName>
-		<Icon>Spr\Object\JN\ZT_YTS\CT.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>15</Difficulty>
-		<Desc>It is recorded in the source book how to include immortal source into the supernatural power of the divine body.</Desc>
-		<GLevel>Dan2</GLevel>
-		<Element>Tu</Element>
-		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]       \nAdd five-dimensional attributes 1 \n plus personal aura 2 \n plus personal healing 2 \n learn three kinds of quenching magical powers[/color][/size]</EffectDesc>
-		<Modifier>Gong_YTS_SJ_3C</Modifier>
-		<Magics>
-		<li>TSTL_W</li>
-		<li>TSTL_J</li>
-		<li>TSTL_M</li>
-		
-		</Magics>
-	</Esoterica>
-	
-	
-	<Esoterica Name="Gong_YTS_HL_D1">
-		<DisplayName>Source</DisplayName>
-		<Icon>Spr\Object\JN\ZT_YTS\JY.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>20</Difficulty>
-		<Desc>It records the magical power of making fairy source in Yuan Tian Shu.</Desc>
-		<GLevel>God</GLevel>
-		<Element>None</Element>
-		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]        \nAcquire magical powers Heavenly Sage Source \nAdditional magical power limit 2 \nAdditional formation level limit 15[/color][/size]</EffectDesc>
-		<Modifier>Gong_YTS_HL_1D</Modifier>
-		<Magics>
-		<li>YTS_LXY</li>
-		</Magics>
-	</Esoterica>
-	
-
-	
-	
-	<Esoterica Name="Gong_YTS_HL_ld">
-		<DisplayName>Source book quenching</DisplayName>
-		<Hide>2</Hide>
-		<Icon>Spr\Object\JN\ZT_YTS\CT.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>20</Difficulty>
-		<Desc>It is recorded in the source book how to include immortal source into the supernatural power of the divine body.</Desc>
-		<GLevel>God</GLevel>
-		<Element>Tu</Element>
-		<EffectDesc>[size=10][color=#D06508]\nReduces spell cost by 0.2 \nIncreases magic power recovery 4 \nLearns three quenched body magic[/color][/size]</EffectDesc>
-		<Modifier>Gong_YTS_HL_dl</Modifier>
-		<Magics>
-		<li>TSTL_S</li>
-		<li>TSTL_H</li>
-		<li>TSTL_T</li>
-		
-		</Magics>
-	</Esoterica>
-	
-	<Esoterica Name="Gong_YTS_XT_F1">
-		<DisplayName>Yuan Shu Tian Dao</DisplayName>
-		<Icon>Spr\Object\JN\ZT_YTS\TD1.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>30</Difficulty>
-		<Desc>Record all the supernatural powers in the source book.</Desc>
-		<GLevel>God2</GLevel>
-		<Element>Huo</Element>
-		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]        \nRefiner success rate \nRefiner speed \nAdd artifact success rate[/color][/size]</EffectDesc>
-		<Modifier>Gong_YTS_XT_1F</Modifier>
-		<Magics>
-			<li>BuildMine</li><!-- Orogeny -->
-			<li>BuildLand</li><!-- Land-building -->
-			<li>BuildSea</li><!-- Open lake -->
-			<li>BuildLing</li><!-- Creation Earth -->
-			<li>BuildLingWater</li><!-- Fortune Spirit Pool -->
-			<li>BuildFertileSoil</li><!-- Fertile soil -->
-			<li>RebornSelf</li><!-- Mystic Rebirth -->
-			<li>BuidPuppet</li><!-- Spirituality -->
-			<li>MakePuppet</li><!-- Spiritism -->
-			<li>PlantGrowUp</li><!-- Miki Ju -->
-			<li>ClosedDoor</li><!-- The art of setting -->
-			<li>Healing_Damage</li><!-- Injury -->
-			<li>BuildBody</li><!-- Reconstruction -->
-			<li>AbsorbGong_1</li><!-- Furnace Suction -->
-			<li>AbsorbGong_2</li><!-- Wind Moon Illusion -->
-			<li>AbsorbGong_3</li><!-- Fascinating Ghost Remedy -->
-			<li>AbsorbGong_4</li><!-- 天魔化身术 -->
-			<li>AbsorbGong_5</li><!-- 他化自在大法 -->
-			<li>AbsorbGong_6</li><!-- 魂体寄生 -->
-			<li>AbsorbGong_7</li><!-- 献祭 -->
-			<li>AbsorbGong_8</li><!-- 清心咒 -->
-			<li>AbsorbGong_9_1</li><!-- 天心正法 -->
-			<li>AbsorbGong_9_2</li><!-- 天魔解体大法 -->
-			<li>AbsorbGong_10</li><!-- 慧剑斩念 -->
-			<li>AbsorbLing_Live</li><!-- 冥灵真法 -->
-			<li>AbsorbLing_Body</li><!-- 天妖化血术 -->
-			<li>AbsorbLing_Thing</li><!-- 托体同山诀 -->
-			<li>AbsorbLing_Item</li><!-- 吸星掌 -->
-			<li>AbsorbLing_Aoe</li><!-- 灵息诀 -->
-			<li>RobBodyLow</li><!-- 阴神夺舍 -->
-			<li>RobBodyHigh</li><!-- 阳神夺舍 -->
-			<li>LingStoneMake</li><!-- 炼制灵石之术 -->
-			<li>LingCrystalMake</li><!-- 炼制灵晶之术 -->
-			<li>SeachSoul</li><!-- 搜魂大法 -->
-			<li>MakeSoulCrystal</li><!-- 凝珀诀 -->
-			<li>SoulCrystalYouPowerUp</li><!-- 幽淬之法 -->
-			<li>SoulCrystalLingPowerUp</li><!-- 灵淬之法 -->
-			<li>Prophesy</li><!-- 周天神算 -->
-			<li>Prophesy_MapStory</li><!-- 大衍神算 -->
-			<li>PrayForRain</li><!-- 求雨术 -->
-			<li>PrayForSun</li><!-- 驱云诀 -->
-			<li>PrayForRainstorm</li><!-- 暴雨术 -->
-			<li>PrayForFohn</li><!-- 焚风术 -->
-			<li>PrayForDustStorm</li><!-- 尘暴术 -->
-			<li>PrayForMiasma</li><!-- 毒瘴术 -->
-			<li>PrayForLightningStorm</li><!-- 雷暴术 -->
-			<li>Healing_Physique</li><!-- 伐毛洗髓之术 -->
-			<li>Healing_Intelligence</li><!-- 醍醐灌顶之术 -->
-			<li>Healing_Charisma</li><!-- 再造形神之术 -->
-			<li>Healing_Perception</li><!-- 开天眼之术 -->
-			<li>FengshuiItemOpen</li><!-- 风水鉴定 -->
-			<li>BuildRain</li><!-- 甘霖术 -->
-			<li>LingXiZhou</li><!-- 灵犀咒 -->
-			<li>XinYinJue</li><!-- 心印诀 -->
-			<li>TianMoWu</li><!-- 天魔舞 -->
-			<li>WuYinKeShen</li><!-- 五印刻神 -->
-			<li>ClosedDoor_Gong1</li><!-- 水镜观心定 -->
-			<li>ClosedDoor_Gong4</li><!-- 玉清定境 -->
-			<li>AbsorbGong_1_Gong9</li><!-- 元央归息法 -->
-			<li>AbsorbGong_2_Gong7</li><!-- 如意幻境 -->
-			<li>AbsorbGong_3_Gong11</li><!-- 九幽炼神 -->
-			<li>PlantGrowUp_Gong1</li><!-- 天霖诀 -->
-			<li>PlantGrowUp_Gong9</li><!-- 万木回春 -->
-			<li>PrayForZhenShuiJieJie_Gong1</li><!-- 九阴真水界 -->
-			<li>PrayForZhenHuoJieJie_Gong10</li><!-- 九阳真火界 -->
-			<li>PrayForBeiDouJianJie_Gong8</li><!-- 北斗剑界 -->
-			<li>FenShenZhiShu</li><!-- 分神之术 -->
-		</Magics>
-	</Esoterica>
-	<Esoterica Name="Gong_YTS_XT_F1_1">
-		<DisplayName>Yuan Shu Tian Dao</DisplayName>
-		<Hide>2</Hide>
-		<Icon>Spr\Object\JN\ZT_YTS\TD.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>15</Difficulty>
-		<Desc>Record the secret treasures needed to burn the six immortals in the source book. .</Desc>
-		<GLevel>God2</GLevel>
-		<Element>Huo</Element>
-		<EffectDesc>[size=10][color=#D06508]        \nRefiner Quality Bonus \nProbability of Refining Artifacts \nLearning Six Secrets of the Array: Six Immortals[/color][/size]</EffectDesc>
-		<Modifier>Gong_YTS_XT_1F_1</Modifier>
-		<Fabaos>
-			<li>Item_MiBao_HYYYH</li>
-			<li>Item_MiBao_TJZJT</li>
-			<li>Item_MiBao_QTBYS</li>
-			<li>Item_MiBao_HLY</li>
-			<li>Item_MiBao_BHFTJ</li>
-			<li>Item_MiBao_YJXMC</li>
-		</Fabaos>
-	</Esoterica>
-	
-	
-	<Esoterica Name="Gong_YTS_TDQ">
-		<DisplayName>Source Book Heaven</DisplayName>
-		<Hide>2</Hide>
-		<Icon>Spr\Object\JN\ZT_YTS\TD.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>40</Difficulty>
-		<Desc>Yuan Tianshu records all mysteries and a formation.</Desc>
-		<GLevel>God2</GLevel>
-		<Element>Tu</Element>
-		<EffectDesc>[size=10][color=#D06508]\nLearned all mysteries \nAcquired maps[/color][/size]</EffectDesc>
-		<Skills>
-			<li>DamageSkill_1</li><!-- 先天罡气 -->
-			<li>DamageSkill_2</li><!-- 烈焰决 -->
-			<li>DamageSkill_3</li><!-- 庚金神雷 -->
-			<li>DamageSkill_4</li><!-- 元磁灭绝神光 -->
-			<li>HealthSkill_Gong1_1</li><!-- 天水化伤术 -->
-			<li>FabaoSkill_Gong3_1</li><!-- 神剑共鸣 -->
-			<li>DamageSkill_Gong4_1</li><!-- 玉清太虚神雷 -->
-			<li>SheildSkill_Gong4_1</li><!-- 厚土之盾 -->
-			<li>HealthSkill_Gong4_1</li><!-- 回春诀 -->
-			<li>SheildSkill_Gong5_1</li><!-- 凝血神盾 -->
-			<li>DamageSkill_Gong7_1</li><!-- 斩念剑 -->
-			<li>FabaoSkill_Gong8_1</li><!-- 北极剑煞 -->
-			<li>HealthSkill_Gong9_1</li><!-- 逆转轮回 -->
-			<li>SkillSkill_Gong10_1</li><!-- 焚日真法 -->
-			<li>SheildSkill_Gong11_1</li><!-- 太虚神盾 -->
-		</Skills>
-		<Fabaos>
-			<li>Item_FXLJZhenTu</li>
-		</Fabaos>
-	</Esoterica>
-	
-	<Esoterica Name="Gong_YTS_XT_ZD">
-		<DisplayName>Red Dust Fairy</DisplayName>
-		<Hide>2</Hide>
-		<Icon>Spr\Object\JN\ZT_YTS\ZT_TDJ_ZD.png</Icon>
-		<StarLevel>2</StarLevel>
-		<Difficulty>100</Difficulty>
-		<Desc>The source technique proves the way, the source is refined, the world is promoted, and the ancient avenue is turned into a plaything in the hand.</Desc>
-		<GLevel>God2</GLevel>
-		<Element>Tu</Element>
-		<EffectDesc>[size=10][color=#D06508]\nIncrease Shouyuan and Add Spirit Multiplier \nAdd Thirty Dao Yuan Divine Distraction \nAdd Furnace Tripod \nAdd Artifact Success Rate \nAdd Spell Power and Add Spell Power[/color][/size]</EffectDesc>
-		<Modifier>Gong_YTS_XT_DZ</Modifier>
-		<GodSoulCount>30</GodSoulCount>
-	</Esoterica>
-	
-	
-	
-	
-</List></Esotericas>
+<Esotericas>
+    <List>
+        <Esoterica Name="Gong_YTS_LH_A1">
+            <DisplayName>Tan Yuan Shen Ban</DisplayName>
+            <Icon>Spr\Object\JN\ZT_YTS\TYSJ.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>15</Difficulty>
+            <Desc>The way to the source lies in grasping the general trend of feng shui.</Desc>
+            <GLevel>Qi</GLevel>
+            <Element>Tu</Element>
+            <Type>Gong</Type>
+            <EffectDesc>[size=10][color=#D06508]A heavy day \n plus the upper limit of personal
+                spiritual power 4 \n plus the maximum value of 2400 \n plus personal healing
+                4[/color][/size]</EffectDesc>
+            <Modifier>Gong_YTS_LH_1A</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_YTS_LH_A1_1">
+            <DisplayName>Tan Yuan Shen Ban</DisplayName>
+            <Hide>2</Hide>
+            <Icon>Spr\Object\JN\ZT_YTS\TYSJ.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>10</Difficulty>
+            <Desc>The way to the source lies in grasping the general trend of feng shui.</Desc>
+            <GLevel>Qi</GLevel>
+            <Element>Tu</Element>
+            <EffectDesc>[size=10][color=#D06508] Double Heaven \nPlus Magic Power 4 \nPlus Spell
+                Power 4 \nPlus Base Mood[/color][/size]</EffectDesc>
+            <Modifier>Gong_YTS_LH_1A_1</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_YTS_LH_A1_2">
+            <DisplayName>Tan Yuan Shen Ban</DisplayName>
+            <Hide>2</Hide>
+            <Icon>Spr\Object\JN\ZT_YTS\TYSJ.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>10</Difficulty>
+            <Desc>The way to the source lies in grasping the general trend of feng shui.</Desc>
+            <GLevel>Qi</GLevel>
+            <Element>Tu</Element>
+            <EffectDesc>[size=10][color=#D06508] Triple Heaven \nPlus Shouyuan 600 \nAdding Magical
+                Aura Upper Limit 4 \nPlus Mood[/color][/size]</EffectDesc>
+            <Modifier>Gong_YTS_LH_1A_2</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_YTS_LH_A3">
+            <DisplayName>Original creation</DisplayName>
+            <Hide>2</Hide>
+            <Icon>Spr\Object\JN\ZT_YTS\YBCS.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>15</Difficulty>
+            <Desc>The source technique is the way of creation and the way of keeping in
+                good health.</Desc>
+            <GLevel>Qi</GLevel>
+            <Element>Tu</Element>
+            <EffectDesc>[size=10][color=#D06508]\nIncrease shield value 1 \nIncrease shield strength
+                2 \nIncrease stealth value 20[/color][/size][/color][/size]</EffectDesc>
+            <Modifier>Gong_YTS_LH_3A</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_YTS_LH_A3_1">
+            <DisplayName>Original creation</DisplayName>
+            <Hide>2</Hide>
+            <Icon>Spr\Object\JN\ZT_YTS\YBCS.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>10</Difficulty>
+            <Desc>The source technique is the way of creation and the way of keeping in
+                good health.</Desc>
+            <GLevel>Qi</GLevel>
+            <Element>Tu</Element>
+            <EffectDesc>[size=10][color=#D06508]\nImprove magical powers \nReducing spell cost
+                0.2 \nReducing celestial power -50[/color][/size][/color][/size]</EffectDesc>
+            <Modifier>Gong_YTS_LH_3A_1</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_YTS_LH_A3_2">
+            <DisplayName>Original creation</DisplayName>
+            <Hide>2</Hide>
+            <Icon>Spr\Object\JN\ZT_YTS\YBCS.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>10</Difficulty>
+            <Desc>The source technique is the way of creation and the way of keeping in
+                good health.</Desc>
+            <GLevel>Qi</GLevel>
+            <Element>Tu</Element>
+            <EffectDesc>[size=10][color=#D06508]\nIncrease potential value 3 \nIncrease base spiritual
+                value 30 \nIncrease furnace trip value 2500[/color][/size][/color][/size]</EffectDesc>
+            <Modifier>Gong_YTS_LH_3A_1</Modifier>
+        </Esoterica>
+        <Esoterica Name="Gong_YTS_LH_B1">
+            <DisplayName>Yuan Ju Ju Yuan</DisplayName>
+            <Icon>Spr\Object\JN\ZT_YTS\JY.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>20</Difficulty>
+            <Desc>It records the magical power of making source in the source book.</Desc>
+            <GLevel>Dan1</GLevel>
+            <Element>None</Element>
+            <Type>Gong</Type>
+            <EffectDesc>[size=10][color=#D06508] A heavy sky \n plus five-dimensional attributes
+                1 \n plus training speed 2 \n learned magical powers[/color][/size]</EffectDesc>
+            <Modifier>Gong_YTS_LH_1B</Modifier>
+            <Magics>
+                <li>TYS_LY</li>
+            </Magics>
+        </Esoterica>
+        <Esoterica Name="Gong_YTS_DG_B1">
+            <DisplayName>Yuantianshu</DisplayName>
+            <Hide>2</Hide>
+            <Icon>Spr\Object\JN\ZT_YTS\ZT_YTS.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>15</Difficulty>
+            <Desc>To receive the spirit of heaven and earth, the art of creation</Desc>
+            <GLevel>Dan1</GLevel>
+            <Element>Tu</Element>
+            <EffectDesc>[size=10][color=#D06508] A Heavy Sky \nAdd Alchemy Speed ​​\nAdd Alchemy
+                Success Rate \nLearn Magic: Feng Shui Appraisal \n Learn Magic: Prayer
+                of Heaven \n Learn Magic: Wind Moon Illusion[/color][/size]</EffectDesc>
+            <Modifier>Gong_YTS_DG_1B</Modifier>
+            <Magics>
+                <li>AbsorbGong_2</li>
+                <li>FengshuiItemOpen</li>
+                <li>PrayForSun</li>
+                <li>PrayForRainstorm</li>
+                <li>PrayForFohn</li>
+                <li>PrayForDustStorm</li>
+                <li>PrayForMiasma</li>
+                <li>PrayForLightningStorm</li>
+            </Magics>
+        </Esoterica>
+        <Esoterica Name="Gong_YTS_DG_B2">
+            <DisplayName>Yuantianshu</DisplayName>
+            <Hide>2</Hide>
+            <Icon>Spr\Object\JN\ZT_YTS\ZT_YTS.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>10</Difficulty>
+            <Desc>To receive the spirit of heaven and earth, the art of creation</Desc>
+            <GLevel>Dan1</GLevel>
+            <Element>Tu</Element>
+            <EffectDesc>[size=10][color=#D06508] Double Heaven \nPlus Condemnation Value \nAdd
+                Alchemy Yield \nAdd Alchemy Level \nLearn two fortune-telling magical powers
+                \nLearn magical powers: Move mountains and make sea \nLearn magical powers:
+                Refine spirit crystals \nLearn Three kinds of refining magical powers[/color][/size]</EffectDesc>
+            <Modifier>Gong_YTS_DG_2B</Modifier>
+            <Magics>
+                <li>Prophesy</li>
+                <li>Prophesy_MapStory</li>
+                <li>BuildMine</li>
+                <li>BuildLand</li>
+                <li>BuildSea</li>
+                <li>TianMoWu</li>
+                <li>LingCrystalMake</li>
+                <li>SoulCrystalYouPowerUp</li>
+                <li>SoulCrystalLingPowerUp</li>
+                <li>MakeSoulCrystal</li>
+            </Magics>
+        </Esoterica>
+        <Esoterica Name="Gong_YTS_SJ_C1">
+            <DisplayName>Yuan Shu Shen Yuan</DisplayName>
+            <Icon>Spr\Object\JN\ZT_YTS\JY.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>20</Difficulty>
+            <Desc>It records the magical power of making the source of God in the book of
+                Yuantian</Desc>
+            <GLevel>Dan2</GLevel>
+            <Element>None</Element>
+            <Type>Gong</Type>
+            <EffectDesc>[size=10][color=#D06508] \nAcquired Supernatural Powers of Spiritual Containment
+                \nPlus Spell Power 3 \nPlus Spell Power 3[/color][/size]</EffectDesc>
+            <Modifier>Gong_YTS_SJ_1C</Modifier>
+            <Magics>
+                <li>YTS_LSY</li>
+            </Magics>
+        </Esoterica>
+        <Esoterica Name="Gong_YTS_SJ_C3">
+            <DisplayName>Source surgery</DisplayName>
+            <Icon>Spr\Object\JN\ZT_YTS\CT.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>15</Difficulty>
+            <Desc>It is recorded in the source book how to include immortal source into
+                the supernatural power of the divine body.</Desc>
+            <GLevel>Dan2</GLevel>
+            <Element>Tu</Element>
+            <Type>Gong</Type>
+            <EffectDesc>[size=10][color=#D06508] \nAdd five-dimensional attributes 1 \n plus personal
+                aura 2 \n plus personal healing 2 \n learn three kinds of quenching magical
+                powers[/color][/size]</EffectDesc>
+            <Modifier>Gong_YTS_SJ_3C</Modifier>
+            <Magics>
+                <li>TSTL_W</li>
+                <li>TSTL_J</li>
+                <li>TSTL_M</li>
+            </Magics>
+        </Esoterica>
+        <Esoterica Name="Gong_YTS_HL_D1">
+            <DisplayName>Source</DisplayName>
+            <Icon>Spr\Object\JN\ZT_YTS\JY.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>20</Difficulty>
+            <Desc>It records the magical power of making fairy source in Yuan Tian Shu.</Desc>
+            <GLevel>God</GLevel>
+            <Element>None</Element>
+            <Type>Gong</Type>
+            <EffectDesc>[size=10][color=#D06508] \nAcquire magical powers Heavenly Sage Source
+                \nAdditional magical power limit 2 \nAdditional formation level limit 15[/color][/size]</EffectDesc>
+            <Modifier>Gong_YTS_HL_1D</Modifier>
+            <Magics>
+                <li>YTS_LXY</li>
+            </Magics>
+        </Esoterica>
+        <Esoterica Name="Gong_YTS_HL_ld">
+            <DisplayName>Source book quenching</DisplayName>
+            <Hide>2</Hide>
+            <Icon>Spr\Object\JN\ZT_YTS\CT.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>20</Difficulty>
+            <Desc>It is recorded in the source book how to include immortal source into
+                the supernatural power of the divine body.</Desc>
+            <GLevel>God</GLevel>
+            <Element>Tu</Element>
+            <EffectDesc>[size=10][color=#D06508]\nReduces spell cost by 0.2 \nIncreases magic
+                power recovery 4 \nLearns three quenched body magic[/color][/size]</EffectDesc>
+            <Modifier>Gong_YTS_HL_dl</Modifier>
+            <Magics>
+                <li>TSTL_S</li>
+                <li>TSTL_H</li>
+                <li>TSTL_T</li>
+            </Magics>
+        </Esoterica>
+        <Esoterica Name="Gong_YTS_XT_F1">
+            <DisplayName>Yuan Shu Tian Dao</DisplayName>
+            <Icon>Spr\Object\JN\ZT_YTS\TD1.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>30</Difficulty>
+            <Desc>Record all the supernatural powers in the source book.</Desc>
+            <GLevel>God2</GLevel>
+            <Element>Huo</Element>
+            <Type>Gong</Type>
+            <EffectDesc>[size=10][color=#D06508] \nRefiner success rate \nRefiner speed \nAdd
+                artifact success rate[/color][/size]</EffectDesc>
+            <Modifier>Gong_YTS_XT_1F</Modifier>
+            <Magics>
+                <li>BuildMine</li>
+                <li>BuildLand</li>
+                <li>BuildSea</li>
+                <li>BuildLing</li>
+                <li>BuildLingWater</li>
+                <li>BuildFertileSoil</li>
+                <li>RebornSelf</li>
+                <li>BuidPuppet</li>
+                <li>MakePuppet</li>
+                <li>PlantGrowUp</li>
+                <li>ClosedDoor</li>
+                <li>Healing_Damage</li>
+                <li>BuildBody</li>
+                <li>AbsorbGong_1</li>
+                <li>AbsorbGong_2</li>
+                <li>AbsorbGong_3</li>
+                <li>AbsorbGong_4</li>
+                <li>AbsorbGong_5</li>
+                <li>AbsorbGong_6</li>
+                <li>AbsorbGong_7</li>
+                <li>AbsorbGong_8</li>
+                <li>AbsorbGong_9_1</li>
+                <li>AbsorbGong_9_2</li>
+                <li>AbsorbGong_10</li>
+                <li>AbsorbLing_Live</li>
+                <li>AbsorbLing_Body</li>
+                <li>AbsorbLing_Thing</li>
+                <li>AbsorbLing_Item</li>
+                <li>AbsorbLing_Aoe</li>
+                <li>RobBodyLow</li>
+                <li>RobBodyHigh</li>
+                <li>LingStoneMake</li>
+                <li>LingCrystalMake</li>
+                <li>SeachSoul</li>
+                <li>MakeSoulCrystal</li>
+                <li>SoulCrystalYouPowerUp</li>
+                <li>SoulCrystalLingPowerUp</li>
+                <li>Prophesy</li>
+                <li>Prophesy_MapStory</li>
+                <li>PrayForRain</li>
+                <li>PrayForSun</li>
+                <li>PrayForRainstorm</li>
+                <li>PrayForFohn</li>
+                <li>PrayForDustStorm</li>
+                <li>PrayForMiasma</li>
+                <li>PrayForLightningStorm</li>
+                <li>Healing_Physique</li>
+                <li>Healing_Intelligence</li>
+                <li>Healing_Charisma</li>
+                <li>Healing_Perception</li>
+                <li>FengshuiItemOpen</li>
+                <li>BuildRain</li>
+                <li>LingXiZhou</li>
+                <li>XinYinJue</li>
+                <li>TianMoWu</li>
+                <li>WuYinKeShen</li>
+                <li>ClosedDoor_Gong1</li>
+                <li>ClosedDoor_Gong4</li>
+                <li>AbsorbGong_1_Gong9</li>
+                <li>AbsorbGong_2_Gong7</li>
+                <li>AbsorbGong_3_Gong11</li>
+                <li>PlantGrowUp_Gong1</li>
+                <li>PlantGrowUp_Gong9</li>
+                <li>PrayForZhenShuiJieJie_Gong1</li>
+                <li>PrayForZhenHuoJieJie_Gong10</li>
+                <li>PrayForBeiDouJianJie_Gong8</li>
+                <li>FenShenZhiShu</li>
+            </Magics>
+        </Esoterica>
+        <Esoterica Name="Gong_YTS_XT_F1_1">
+            <DisplayName>Yuan Shu Tian Dao</DisplayName>
+            <Hide>2</Hide>
+            <Icon>Spr\Object\JN\ZT_YTS\TD.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>15</Difficulty>
+            <Desc>Record the secret treasures needed to burn the six immortals in the source
+                book. .</Desc>
+            <GLevel>God2</GLevel>
+            <Element>Huo</Element>
+            <EffectDesc>[size=10][color=#D06508] \nRefiner Quality Bonus \nProbability of Refining
+                Artifacts \nLearning Six Secrets of the Array: Six Immortals[/color][/size]</EffectDesc>
+            <Modifier>Gong_YTS_XT_1F_1</Modifier>
+            <Fabaos>
+                <li>Item_MiBao_HYYYH</li>
+                <li>Item_MiBao_TJZJT</li>
+                <li>Item_MiBao_QTBYS</li>
+                <li>Item_MiBao_HLY</li>
+                <li>Item_MiBao_BHFTJ</li>
+                <li>Item_MiBao_YJXMC</li>
+            </Fabaos>
+        </Esoterica>
+        <Esoterica Name="Gong_YTS_TDQ">
+            <DisplayName>Source Book Heaven</DisplayName>
+            <Hide>2</Hide>
+            <Icon>Spr\Object\JN\ZT_YTS\TD.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>40</Difficulty>
+            <Desc>Yuan Tianshu records all mysteries and a formation.</Desc>
+            <GLevel>God2</GLevel>
+            <Element>Tu</Element>
+            <EffectDesc>[size=10][color=#D06508]\nLearned all mysteries \nAcquired maps[/color][/size]</EffectDesc>
+            <Skills>
+                <li>DamageSkill_1</li>
+                <li>DamageSkill_2</li>
+                <li>DamageSkill_3</li>
+                <li>DamageSkill_4</li>
+                <li>HealthSkill_Gong1_1</li>
+                <li>FabaoSkill_Gong3_1</li>
+                <li>DamageSkill_Gong4_1</li>
+                <li>SheildSkill_Gong4_1</li>
+                <li>HealthSkill_Gong4_1</li>
+                <li>SheildSkill_Gong5_1</li>
+                <li>DamageSkill_Gong7_1</li>
+                <li>FabaoSkill_Gong8_1</li>
+                <li>HealthSkill_Gong9_1</li>
+                <li>SkillSkill_Gong10_1</li>
+                <li>SheildSkill_Gong11_1</li>
+            </Skills>
+            <Fabaos>
+                <li>Item_FXLJZhenTu</li>
+            </Fabaos>
+        </Esoterica>
+        <Esoterica Name="Gong_YTS_XT_ZD">
+            <DisplayName>Red Dust Fairy</DisplayName>
+            <Hide>2</Hide>
+            <Icon>Spr\Object\JN\ZT_YTS\ZT_TDJ_ZD.png</Icon>
+            <StarLevel>2</StarLevel>
+            <Difficulty>100</Difficulty>
+            <Desc>The source technique proves the way, the source is refined, the world
+                is promoted, and the ancient avenue is turned into a plaything in the hand.</Desc>
+            <GLevel>God2</GLevel>
+            <Element>Tu</Element>
+            <EffectDesc>[size=10][color=#D06508]\nIncrease Shouyuan and Add Spirit Multiplier
+                \nAdd Thirty Dao Yuan Divine Distraction \nAdd Furnace Tripod \nAdd Artifact
+                Success Rate \nAdd Spell Power and Add Spell Power[/color][/size]</EffectDesc>
+            <Modifier>Gong_YTS_XT_DZ</Modifier>
+            <GodSoulCount>30</GodSoulCount>
+        </Esoterica>
+    </List>
+</Esotericas>

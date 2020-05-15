@@ -1,5 +1,5 @@
 <ModifierDefs><List>
-	<!--神性附加效果-->
+	
 	<Modifier Name="GodPractice_GodPowerEffect" Type="Normal">
 		<DisplayName>Divinity</DisplayName>
 		<Desc>As the divinity increases, the character's control over the divine power is higher, the combat ability is stronger, and the zoom factor of the mood will also increase.</Desc>
@@ -8,7 +8,7 @@
 		<MaxStack>100</MaxStack>
 		<Duration>-1</Duration>
 		<SpecialFlags>
-			<li>GodPowerEffectCount</li><!--这个不要删-->
+			<li>GodPowerEffectCount</li>
 		</SpecialFlags>
 		<Properties>  
 			<li Name="EmotionAmplificationFactor" BAddP="-0.005"/>
@@ -22,7 +22,7 @@
 		<MaxStack>100</MaxStack>
 		<Duration>-1</Duration>
 		<SpecialFlags>
-			<li>GodPowerEffectCountA</li><!--这个不要删-->
+			<li>GodPowerEffectCountA</li>
 		</SpecialFlags>
 		
 		<Properties>  
@@ -44,7 +44,7 @@
 		<MaxStack>100</MaxStack>
 		<Duration>-1</Duration>
 		<SpecialFlags>
-			<li>GodPowerEffectCountB</li><!--这个不要删-->
+			<li>GodPowerEffectCountB</li>
 		</SpecialFlags>
 		
 		<Properties>  
@@ -58,7 +58,7 @@
 		</Properties>
 	</Modifier> 
 	
-	<!--心斋-->
+	
 	<Modifier Name="GodPractice_Xinzhai" Type="Normal">
 		<DisplayName>Xinzhai</DisplayName>
 		<Desc>Barbara Barbara.</Desc>

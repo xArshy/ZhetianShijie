@@ -40,24 +40,24 @@ function tbModifier:Enter(modifier, npc)
     end
 end
 
---获取存档数据
+
 function tbModifier:OnGetSaveData()
 end
 
---载入存档数据
+
 function tbModifier:OnLoadData(modifier, npc, tbData)
 end
 
---modifier step
+
 function tbModifier:Step(modifier, npc, dt)
 end
 
---层数更新
+
 
 function tbModifier:UpdateStack(modifier, npc, add)
 end
 
---离开modifier
+
 
 function tbModifier:Leave(modifier, npc)
 end
@@ -104,24 +104,24 @@ function tbModifier:Enter(modifier, npc)
     end
 end
 
---获取存档数据
+
 function tbModifier:OnGetSaveData()
 end
 
---载入存档数据
+
 function tbModifier:OnLoadData(modifier, npc, tbData)
 end
 
---modifier step
+
 function tbModifier:Step(modifier, npc, dt)
 end
 
---层数更新
+
 
 function tbModifier:UpdateStack(modifier, npc, add)
 end
 
---离开modifier
+
 
 function tbModifier:Leave(modifier, npc)
 end

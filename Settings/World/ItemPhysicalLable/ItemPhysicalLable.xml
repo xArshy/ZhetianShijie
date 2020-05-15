@@ -1,1271 +1,1271 @@
 <PhysicalLables><List>
-		<Lable Name="WPS_N"> <!--圣兵级无-->
+		<Lable Name="WPS_N">
 		<Effects>
-			<li Kind="AttackPower" Addp="12"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="10"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="11"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="4"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="4"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="4"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="4"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.8"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="12"/>
+			<li Kind="LingRecover" Addp="10"/>
+			<li Kind="MaxLing" Addp="11"/>
+			<li Kind="FlySpeed" Addp="4"/>
+			<li Kind="RotSpeed" Addp="4"/>
+			<li Kind="KnockBackResistance" Addp="4"/>
+			<li Kind="KnockBackAddition" Addp="4"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="1"/>
+			<li Kind="AttackRate" Addp="0.8"/>
 		</Effects>
 	</Lable>
-	<Lable Name="WPS_J"> <!--圣兵级金-->
+	<Lable Name="WPS_J"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="22"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="9"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="9.9"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="8"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="4"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="6"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1.8"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="2"/><!--体积-->
-			<li Kind="AttackRate" Addp="1.2"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="22"/>
+			<li Kind="LingRecover" Addp="9"/>
+			<li Kind="MaxLing" Addp="9.9"/>
+			<li Kind="FlySpeed" Addp="8"/>
+			<li Kind="RotSpeed" Addp="4"/>
+			<li Kind="KnockBackResistance" Addp="2"/>
+			<li Kind="KnockBackAddition" Addp="6"/>
+			<li Kind="TailLenght" Addp="1.8"/>
+			<li Kind="Scale" Addp="2"/>
+			<li Kind="AttackRate" Addp="1.2"/>
 		</Effects>
 	</Lable>
-	<Lable Name="WPS_M"> <!--圣兵级木-->
+	<Lable Name="WPS_M"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="10"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="9.5"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="13"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6.5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="8.5"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="6"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1.2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1.5"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.6"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="10"/>
+			<li Kind="LingRecover" Addp="9.5"/>
+			<li Kind="MaxLing" Addp="13"/>
+			<li Kind="FlySpeed" Addp="6.5"/>
+			<li Kind="RotSpeed" Addp="8.5"/>
+			<li Kind="KnockBackResistance" Addp="6"/>
+			<li Kind="KnockBackAddition" Addp="2"/>
+			<li Kind="TailLenght" Addp="1.2"/>
+			<li Kind="Scale" Addp="1.5"/>
+			<li Kind="AttackRate" Addp="0.6"/>
 		</Effects>
 	</Lable>
-	<Lable Name="WPS_S"> <!--圣兵级水-->
+	<Lable Name="WPS_S"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="8.5"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="13"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="15"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="9"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="5"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1.9"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1.2"/><!--体积-->
-			<li Kind="AttackRate" Addp="1.3"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="8.5"/>
+			<li Kind="LingRecover" Addp="13"/>
+			<li Kind="MaxLing" Addp="15"/>
+			<li Kind="FlySpeed" Addp="9"/>
+			<li Kind="RotSpeed" Addp="5"/>
+			<li Kind="KnockBackResistance" Addp="2"/>
+			<li Kind="KnockBackAddition" Addp="2"/>
+			<li Kind="TailLenght" Addp="1.9"/>
+			<li Kind="Scale" Addp="1.2"/>
+			<li Kind="AttackRate" Addp="1.3"/>
 		</Effects>
 	</Lable>
-	<Lable Name="WPS_H"> <!--圣兵级火-->
+	<Lable Name="WPS_H"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="12"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="12"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="12.5"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="9"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="9"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="4"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="4"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.95"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.2"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="12"/>
+			<li Kind="LingRecover" Addp="12"/>
+			<li Kind="MaxLing" Addp="12.5"/>
+			<li Kind="FlySpeed" Addp="9"/>
+			<li Kind="RotSpeed" Addp="9"/>
+			<li Kind="KnockBackResistance" Addp="4"/>
+			<li Kind="KnockBackAddition" Addp="4"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="0.95"/>
+			<li Kind="AttackRate" Addp="0.2"/>
 		</Effects>
 	</Lable>
-	<Lable Name="WPS_T"> <!--圣兵级土-->
+	<Lable Name="WPS_T"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="10"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="9.5"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="11"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="8"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="5"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="6"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2.5"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.8"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="2.75"/><!--体积-->
-			<li Kind="AttackRate" Addp="1.8"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	
-		<Lable Name="WP_N"> <!--神兵级无-->
-		<Effects>
-			<li Kind="AttackPower" Addp="6"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="5"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="5.5"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="2"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="2"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.5"/><!--体积-->
-			<li Kind="AttackRate" Addp="1"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="WP_J"> <!--神兵级金-->
-		<Effects>
-			<li Kind="AttackPower" Addp="11"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="4.5"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="4.5"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="4"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="2"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="4"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.8"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1.5"/><!--体积-->
-			<li Kind="AttackRate" Addp="1.5"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="WP_M"> <!--神兵级木-->
-		<Effects>
-			<li Kind="AttackPower" Addp="5"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="5.5"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="7"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="3.5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="2.5"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="3"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1.8"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.5"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.8"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="WP_S"> <!--神兵级水-->
-		<Effects>
-			<li Kind="AttackPower" Addp="4.5"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="7"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="7.5"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="3"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1.5"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.75"/><!--体积-->
-			<li Kind="AttackRate" Addp="1.8"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="WP_H"> <!--神兵级火-->
-		<Effects>
-			<li Kind="AttackPower" Addp="6"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="6"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="6.5"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="6"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="4"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.25"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.3"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="WP_T"> <!--神兵级土-->
-		<Effects>
-			<li Kind="AttackPower" Addp="5"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="5.5"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="8"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="3"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="3"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="0.5"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1.75"/><!--体积-->
-			<li Kind="AttackRate" Addp="2"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="10"/>
+			<li Kind="LingRecover" Addp="9.5"/>
+			<li Kind="MaxLing" Addp="11"/>
+			<li Kind="FlySpeed" Addp="8"/>
+			<li Kind="RotSpeed" Addp="5"/>
+			<li Kind="KnockBackResistance" Addp="6"/>
+			<li Kind="KnockBackAddition" Addp="2.5"/>
+			<li Kind="TailLenght" Addp="0.8"/>
+			<li Kind="Scale" Addp="2.75"/>
+			<li Kind="AttackRate" Addp="1.8"/>
 		</Effects>
 	</Lable>
 	
-	<Lable Name="ZW_N"> <!--植物无-->
+		<Lable Name="WP_N"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="4"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="2"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="2.5"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="2"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="2"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.5"/><!--体积-->
-			<li Kind="AttackRate" Addp="1"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="6"/>
+			<li Kind="LingRecover" Addp="5"/>
+			<li Kind="MaxLing" Addp="5.5"/>
+			<li Kind="FlySpeed" Addp="2"/>
+			<li Kind="RotSpeed" Addp="2"/>
+			<li Kind="KnockBackResistance" Addp="2"/>
+			<li Kind="KnockBackAddition" Addp="2"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="0.5"/>
+			<li Kind="AttackRate" Addp="1"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZW_J"> <!--植物金-->
+	<Lable Name="WP_J"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="9"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="0.5"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="1.5"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="4"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="2"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="4"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.8"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1.5"/><!--体积-->
-			<li Kind="AttackRate" Addp="1.5"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="11"/>
+			<li Kind="LingRecover" Addp="4.5"/>
+			<li Kind="MaxLing" Addp="4.5"/>
+			<li Kind="FlySpeed" Addp="4"/>
+			<li Kind="RotSpeed" Addp="2"/>
+			<li Kind="KnockBackResistance" Addp="1"/>
+			<li Kind="KnockBackAddition" Addp="4"/>
+			<li Kind="TailLenght" Addp="0.8"/>
+			<li Kind="Scale" Addp="1.5"/>
+			<li Kind="AttackRate" Addp="1.5"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZW_M"> <!--植物木-->
+	<Lable Name="WP_M"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="3"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="2.5"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="4"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="3.5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="2.5"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="3"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1.8"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.5"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.8"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="5"/>
+			<li Kind="LingRecover" Addp="5.5"/>
+			<li Kind="MaxLing" Addp="7"/>
+			<li Kind="FlySpeed" Addp="3.5"/>
+			<li Kind="RotSpeed" Addp="2.5"/>
+			<li Kind="KnockBackResistance" Addp="3"/>
+			<li Kind="KnockBackAddition" Addp="1"/>
+			<li Kind="TailLenght" Addp="1.8"/>
+			<li Kind="Scale" Addp="0.5"/>
+			<li Kind="AttackRate" Addp="0.8"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZW_S"> <!--植物水-->
+	<Lable Name="WP_S"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="2.5"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="4"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="4.5"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="3"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1.5"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.75"/><!--体积-->
-			<li Kind="AttackRate" Addp="1.8"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="4.5"/>
+			<li Kind="LingRecover" Addp="7"/>
+			<li Kind="MaxLing" Addp="7.5"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="3"/>
+			<li Kind="KnockBackResistance" Addp="1"/>
+			<li Kind="KnockBackAddition" Addp="1"/>
+			<li Kind="TailLenght" Addp="1.5"/>
+			<li Kind="Scale" Addp="0.75"/>
+			<li Kind="AttackRate" Addp="1.8"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZW_H"> <!--植物火-->
+	<Lable Name="WP_H"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="4"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="3"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="3"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="6"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="4"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.25"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.3"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="6"/>
+			<li Kind="LingRecover" Addp="6"/>
+			<li Kind="MaxLing" Addp="6.5"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="6"/>
+			<li Kind="KnockBackResistance" Addp="2"/>
+			<li Kind="KnockBackAddition" Addp="2"/>
+			<li Kind="TailLenght" Addp="4"/>
+			<li Kind="Scale" Addp="0.25"/>
+			<li Kind="AttackRate" Addp="0.3"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZW_T"> <!--植物土-->
+	<Lable Name="WP_T"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="3"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="2.5"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="6"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="3"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="3"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="0.5"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1.75"/><!--体积-->
-			<li Kind="AttackRate" Addp="2"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="Dan_N"> <!--丹药无-->
-		<Effects>
-			<li Kind="AttackPower" Addp="3"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="1"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="1"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="4"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="2"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.5"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.25"/><!--体积-->
-			<li Kind="AttackRate" Addp="2"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="Dan_J"> <!--丹药金-->
-		<Effects>
-			<li Kind="AttackPower" Addp="6"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="0.2"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="0.5"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="7"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="1"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="0.8"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="6"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.4"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.75"/><!--体积-->
-			<li Kind="AttackRate" Addp="1"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="Dan_M"> <!--丹药木-->
-		<Effects>
-			<li Kind="AttackPower" Addp="2"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="1.5"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="2"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="2"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="2"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.45"/><!--体积-->
-			<li Kind="AttackRate" Addp="1.25"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="Dan_S"> <!--丹药水-->
-		<Effects>
-			<li Kind="AttackPower" Addp="2.2"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="3"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="3.5"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="2"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="0"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.5"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.15"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.8"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="Dan_H"> <!--丹药火-->
-		<Effects>
-			<li Kind="AttackPower" Addp="4"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="1.1"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="2"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="5"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="3"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.95"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.3"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="Dan_T"> <!--丹药土-->
-		<Effects>
-			<li Kind="AttackPower" Addp="1"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="2"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="4"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="2"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="1"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="4"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="0.25"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.9"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="2.75"/><!--体积-->
-			<li Kind="AttackRate" Addp="4"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="MT"> <!--魔胎-->
-		<Effects>
-			<li Kind="AttackPower" Addp="33"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="20"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="38"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="11"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="7"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="7"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="3"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1.5"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.5"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="WWMQD"> <!--万物母气鼎-->
-		<Effects>
-			<li Kind="AttackPower" Addp="60"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="50"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="60"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="3"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="6"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="7"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1.5"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="3"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.1"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="HYSL"> <!--恒宇神炉-->
-		<Effects>
-			<li Kind="AttackPower" Addp="50"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="30"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="35"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="12"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="9"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="2"/><!--体积-->
-			<li Kind="AttackRate" Addp="1.4"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="XKJ"> <!--虚空镜-->
-		<Effects>
-			<li Kind="AttackPower" Addp="50"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="15"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="25"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="15"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="15"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="7"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1"/><!--体积-->
-			<li Kind="AttackRate" Addp="-2"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="MDJS"> <!--名道金书-->
-		<Effects>
-			<li Kind="AttackPower" Addp="45"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="20"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="30"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="11"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="15"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="4"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="3"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="3"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="-0.4"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.1"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="LHY"> <!--轮回印-->
-		<Effects>
-			<li Kind="AttackPower" Addp="35"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="30"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="40"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="10"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="10"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="5"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="5"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="-0.3"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.1"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="5"/>
+			<li Kind="LingRecover" Addp="5.5"/>
+			<li Kind="MaxLing" Addp="8"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="3"/>
+			<li Kind="KnockBackResistance" Addp="3"/>
+			<li Kind="KnockBackAddition" Addp="0.5"/>
+			<li Kind="TailLenght" Addp="0.2"/>
+			<li Kind="Scale" Addp="1.75"/>
+			<li Kind="AttackRate" Addp="2"/>
 		</Effects>
 	</Lable>
 	
-	<Lable Name="THJ"> <!--太皇剑-->
+	<Lable Name="ZW_N"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="79"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="20"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="25"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="12"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="10"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="9"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="4"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.7"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="4"/>
+			<li Kind="LingRecover" Addp="2"/>
+			<li Kind="MaxLing" Addp="2.5"/>
+			<li Kind="FlySpeed" Addp="2"/>
+			<li Kind="RotSpeed" Addp="2"/>
+			<li Kind="KnockBackResistance" Addp="2"/>
+			<li Kind="KnockBackAddition" Addp="2"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="0.5"/>
+			<li Kind="AttackRate" Addp="1"/>
+		</Effects>
+	</Lable>
+	<Lable Name="ZW_J"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="9"/>
+			<li Kind="LingRecover" Addp="0.5"/>
+			<li Kind="MaxLing" Addp="1.5"/>
+			<li Kind="FlySpeed" Addp="4"/>
+			<li Kind="RotSpeed" Addp="2"/>
+			<li Kind="KnockBackResistance" Addp="1"/>
+			<li Kind="KnockBackAddition" Addp="4"/>
+			<li Kind="TailLenght" Addp="0.8"/>
+			<li Kind="Scale" Addp="1.5"/>
+			<li Kind="AttackRate" Addp="1.5"/>
+		</Effects>
+	</Lable>
+	<Lable Name="ZW_M"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="3"/>
+			<li Kind="LingRecover" Addp="2.5"/>
+			<li Kind="MaxLing" Addp="4"/>
+			<li Kind="FlySpeed" Addp="3.5"/>
+			<li Kind="RotSpeed" Addp="2.5"/>
+			<li Kind="KnockBackResistance" Addp="3"/>
+			<li Kind="KnockBackAddition" Addp="1"/>
+			<li Kind="TailLenght" Addp="1.8"/>
+			<li Kind="Scale" Addp="0.5"/>
+			<li Kind="AttackRate" Addp="0.8"/>
+		</Effects>
+	</Lable>
+	<Lable Name="ZW_S"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="2.5"/>
+			<li Kind="LingRecover" Addp="4"/>
+			<li Kind="MaxLing" Addp="4.5"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="3"/>
+			<li Kind="KnockBackResistance" Addp="1"/>
+			<li Kind="KnockBackAddition" Addp="1"/>
+			<li Kind="TailLenght" Addp="1.5"/>
+			<li Kind="Scale" Addp="0.75"/>
+			<li Kind="AttackRate" Addp="1.8"/>
+		</Effects>
+	</Lable>
+	<Lable Name="ZW_H"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="4"/>
+			<li Kind="LingRecover" Addp="3"/>
+			<li Kind="MaxLing" Addp="3"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="6"/>
+			<li Kind="KnockBackResistance" Addp="2"/>
+			<li Kind="KnockBackAddition" Addp="2"/>
+			<li Kind="TailLenght" Addp="4"/>
+			<li Kind="Scale" Addp="0.25"/>
+			<li Kind="AttackRate" Addp="0.3"/>
+		</Effects>
+	</Lable>
+	<Lable Name="ZW_T"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="3"/>
+			<li Kind="LingRecover" Addp="2.5"/>
+			<li Kind="MaxLing" Addp="6"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="3"/>
+			<li Kind="KnockBackResistance" Addp="3"/>
+			<li Kind="KnockBackAddition" Addp="0.5"/>
+			<li Kind="TailLenght" Addp="0.2"/>
+			<li Kind="Scale" Addp="1.75"/>
+			<li Kind="AttackRate" Addp="2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Dan_N"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="3"/>
+			<li Kind="LingRecover" Addp="1"/>
+			<li Kind="MaxLing" Addp="1"/>
+			<li Kind="FlySpeed" Addp="4"/>
+			<li Kind="RotSpeed" Addp="2"/>
+			<li Kind="KnockBackResistance" Addp="1"/>
+			<li Kind="KnockBackAddition" Addp="1"/>
+			<li Kind="TailLenght" Addp="0.5"/>
+			<li Kind="Scale" Addp="0.25"/>
+			<li Kind="AttackRate" Addp="2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Dan_J"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="6"/>
+			<li Kind="LingRecover" Addp="0.2"/>
+			<li Kind="MaxLing" Addp="0.5"/>
+			<li Kind="FlySpeed" Addp="7"/>
+			<li Kind="RotSpeed" Addp="1"/>
+			<li Kind="KnockBackResistance" Addp="0.8"/>
+			<li Kind="KnockBackAddition" Addp="6"/>
+			<li Kind="TailLenght" Addp="0.4"/>
+			<li Kind="Scale" Addp="0.75"/>
+			<li Kind="AttackRate" Addp="1"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Dan_M"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="2"/>
+			<li Kind="LingRecover" Addp="1.5"/>
+			<li Kind="MaxLing" Addp="2"/>
+			<li Kind="FlySpeed" Addp="2"/>
+			<li Kind="RotSpeed" Addp="2"/>
+			<li Kind="KnockBackResistance" Addp="2"/>
+			<li Kind="KnockBackAddition" Addp="2"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="0.45"/>
+			<li Kind="AttackRate" Addp="1.25"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Dan_S"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="2.2"/>
+			<li Kind="LingRecover" Addp="3"/>
+			<li Kind="MaxLing" Addp="3.5"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="2"/>
+			<li Kind="KnockBackResistance" Addp="2"/>
+			<li Kind="KnockBackAddition" Addp="0"/>
+			<li Kind="TailLenght" Addp="0.5"/>
+			<li Kind="Scale" Addp="0.15"/>
+			<li Kind="AttackRate" Addp="0.8"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Dan_H"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="4"/>
+			<li Kind="LingRecover" Addp="1.1"/>
+			<li Kind="MaxLing" Addp="2"/>
+			<li Kind="FlySpeed" Addp="5"/>
+			<li Kind="RotSpeed" Addp="5"/>
+			<li Kind="KnockBackResistance" Addp="2"/>
+			<li Kind="KnockBackAddition" Addp="2"/>
+			<li Kind="TailLenght" Addp="3"/>
+			<li Kind="Scale" Addp="0.95"/>
+			<li Kind="AttackRate" Addp="0.3"/>
+		</Effects>
+	</Lable>
+	<Lable Name="Dan_T"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="1"/>
+			<li Kind="LingRecover" Addp="2"/>
+			<li Kind="MaxLing" Addp="4"/>
+			<li Kind="FlySpeed" Addp="2"/>
+			<li Kind="RotSpeed" Addp="1"/>
+			<li Kind="KnockBackResistance" Addp="4"/>
+			<li Kind="KnockBackAddition" Addp="0.25"/>
+			<li Kind="TailLenght" Addp="0.9"/>
+			<li Kind="Scale" Addp="2.75"/>
+			<li Kind="AttackRate" Addp="4"/>
+		</Effects>
+	</Lable>
+	<Lable Name="MT"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="33"/>
+			<li Kind="LingRecover" Addp="20"/>
+			<li Kind="MaxLing" Addp="38"/>
+			<li Kind="FlySpeed" Addp="11"/>
+			<li Kind="RotSpeed" Addp="7"/>
+			<li Kind="KnockBackResistance" Addp="7"/>
+			<li Kind="KnockBackAddition" Addp="3"/>
+			<li Kind="TailLenght" Addp="1.5"/>
+			<li Kind="Scale" Addp="1"/>
+			<li Kind="AttackRate" Addp="0.5"/>
+		</Effects>
+	</Lable>
+	<Lable Name="WWMQD"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="60"/>
+			<li Kind="LingRecover" Addp="50"/>
+			<li Kind="MaxLing" Addp="60"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="3"/>
+			<li Kind="KnockBackResistance" Addp="6"/>
+			<li Kind="KnockBackAddition" Addp="7"/>
+			<li Kind="TailLenght" Addp="1.5"/>
+			<li Kind="Scale" Addp="3"/>
+			<li Kind="AttackRate" Addp="0.1"/>
+		</Effects>
+	</Lable>
+	<Lable Name="HYSL"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="50"/>
+			<li Kind="LingRecover" Addp="30"/>
+			<li Kind="MaxLing" Addp="35"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="12"/>
+			<li Kind="KnockBackResistance" Addp="9"/>
+			<li Kind="KnockBackAddition" Addp="1"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="2"/>
+			<li Kind="AttackRate" Addp="1.4"/>
+		</Effects>
+	</Lable>
+	<Lable Name="XKJ"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="50"/>
+			<li Kind="LingRecover" Addp="15"/>
+			<li Kind="MaxLing" Addp="25"/>
+			<li Kind="FlySpeed" Addp="15"/>
+			<li Kind="RotSpeed" Addp="15"/>
+			<li Kind="KnockBackResistance" Addp="7"/>
+			<li Kind="KnockBackAddition" Addp="2"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="1"/>
+			<li Kind="AttackRate" Addp="-2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="MDJS"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="45"/>
+			<li Kind="LingRecover" Addp="20"/>
+			<li Kind="MaxLing" Addp="30"/>
+			<li Kind="FlySpeed" Addp="11"/>
+			<li Kind="RotSpeed" Addp="15"/>
+			<li Kind="KnockBackResistance" Addp="4"/>
+			<li Kind="KnockBackAddition" Addp="3"/>
+			<li Kind="TailLenght" Addp="3"/>
+			<li Kind="Scale" Addp="-0.4"/>
+			<li Kind="AttackRate" Addp="0.1"/>
+		</Effects>
+	</Lable>
+	<Lable Name="LHY"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="35"/>
+			<li Kind="LingRecover" Addp="30"/>
+			<li Kind="MaxLing" Addp="40"/>
+			<li Kind="FlySpeed" Addp="10"/>
+			<li Kind="RotSpeed" Addp="10"/>
+			<li Kind="KnockBackResistance" Addp="5"/>
+			<li Kind="KnockBackAddition" Addp="5"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="-0.3"/>
+			<li Kind="AttackRate" Addp="0.1"/>
 		</Effects>
 	</Lable>
 	
-	<Lable Name="XHT"> <!--西皇塔-->
+	<Lable Name="THJ"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="40"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="32"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="40"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="10"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="10"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="5"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="3"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="2"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.3"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="79"/>
+			<li Kind="LingRecover" Addp="20"/>
+			<li Kind="MaxLing" Addp="25"/>
+			<li Kind="FlySpeed" Addp="12"/>
+			<li Kind="RotSpeed" Addp="10"/>
+			<li Kind="KnockBackResistance" Addp="2"/>
+			<li Kind="KnockBackAddition" Addp="9"/>
+			<li Kind="TailLenght" Addp="4"/>
+			<li Kind="Scale" Addp="1"/>
+			<li Kind="AttackRate" Addp="0.7"/>
 		</Effects>
 	</Lable>
 	
-	<Lable Name="DZSG"> <!--斗战圣棍-->
+	<Lable Name="XHT"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="68"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="10"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="20"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="10"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="10"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="5"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="10"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1"/><!--体积-->
-			<li Kind="AttackRate" Addp="-1.1"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="40"/>
+			<li Kind="LingRecover" Addp="32"/>
+			<li Kind="MaxLing" Addp="40"/>
+			<li Kind="FlySpeed" Addp="10"/>
+			<li Kind="RotSpeed" Addp="10"/>
+			<li Kind="KnockBackResistance" Addp="5"/>
+			<li Kind="KnockBackAddition" Addp="3"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="2"/>
+			<li Kind="AttackRate" Addp="0.3"/>
 		</Effects>
 	</Lable>
 	
-	<Lable Name="DSB"> <!--打神鞭-->
+	<Lable Name="DZSG"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="10"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="9"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="10"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="5"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="-0.2"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.2"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="68"/>
+			<li Kind="LingRecover" Addp="10"/>
+			<li Kind="MaxLing" Addp="20"/>
+			<li Kind="FlySpeed" Addp="10"/>
+			<li Kind="RotSpeed" Addp="10"/>
+			<li Kind="KnockBackResistance" Addp="5"/>
+			<li Kind="KnockBackAddition" Addp="10"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="1"/>
+			<li Kind="AttackRate" Addp="-1.1"/>
 		</Effects>
 	</Lable>
 	
-	<Lable Name="DHJ"> <!--大荒戟-->
+	<Lable Name="DSB"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="20"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="6"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="10"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="4"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="3"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="4"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="5"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.9"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="YDX"> <!--妖帝心-->
-		<Effects>
-			<li Kind="AttackPower" Addp="20"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="22"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="30"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="11"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="12"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="4"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="3"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.1"/><!--体积-->
-			<li Kind="AttackRate" Addp="-6"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="10"/>
+			<li Kind="LingRecover" Addp="9"/>
+			<li Kind="MaxLing" Addp="10"/>
+			<li Kind="FlySpeed" Addp="5"/>
+			<li Kind="RotSpeed" Addp="5"/>
+			<li Kind="KnockBackResistance" Addp="2"/>
+			<li Kind="KnockBackAddition" Addp="1"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="-0.2"/>
+			<li Kind="AttackRate" Addp="0.2"/>
 		</Effects>
 	</Lable>
 	
-	<Lable Name="ZG"> <!--拙弓-->
+	<Lable Name="DHJ"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="40"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="2"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="12"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="3"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="1"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="5"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="5"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.5"/><!--体积-->
-			<li Kind="AttackRate" Addp="2"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="20"/>
+			<li Kind="LingRecover" Addp="6"/>
+			<li Kind="MaxLing" Addp="10"/>
+			<li Kind="FlySpeed" Addp="4"/>
+			<li Kind="RotSpeed" Addp="3"/>
+			<li Kind="KnockBackResistance" Addp="4"/>
+			<li Kind="KnockBackAddition" Addp="5"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="1"/>
+			<li Kind="AttackRate" Addp="0.9"/>
 		</Effects>
 	</Lable>
-	<Lable Name="WSZ"> <!--无始经-->
+	<Lable Name="YDX"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="35"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="25"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="35"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="7"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="3"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="7"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1.5"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.8"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="FSB"> <!--封神榜-->
-		<Effects>
-			<li Kind="AttackPower" Addp="30"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="24"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="30"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="12"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="22"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="7"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="5"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.1"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.5"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="JGZ"> <!--金刚琢-->
-		<Effects>
-			<li Kind="AttackPower" Addp="15"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="10"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="19"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="12"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="32"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.1"/><!--体积-->
-			<li Kind="AttackRate" Addp="-5"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="YYSJ"> <!--阴阳圣剑-->
-		<Effects>
-			<li Kind="AttackPower" Addp="26"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="10"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="12"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="7"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="4"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="3"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="3"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.8"/><!--体积-->
-			<li Kind="AttackRate" Addp="-1"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="20"/>
+			<li Kind="LingRecover" Addp="22"/>
+			<li Kind="MaxLing" Addp="30"/>
+			<li Kind="FlySpeed" Addp="11"/>
+			<li Kind="RotSpeed" Addp="12"/>
+			<li Kind="KnockBackResistance" Addp="4"/>
+			<li Kind="KnockBackAddition" Addp="3"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="0.1"/>
+			<li Kind="AttackRate" Addp="-6"/>
 		</Effects>
 	</Lable>
 	
-	<Lable Name="JXFJ"> <!--机械飞剑-->
+	<Lable Name="ZG"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="15"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="10"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="1"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="5"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.5"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="2"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.1"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="40"/>
+			<li Kind="LingRecover" Addp="2"/>
+			<li Kind="MaxLing" Addp="12"/>
+			<li Kind="FlySpeed" Addp="3"/>
+			<li Kind="RotSpeed" Addp="1"/>
+			<li Kind="KnockBackResistance" Addp="5"/>
+			<li Kind="KnockBackAddition" Addp="5"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="0.5"/>
+			<li Kind="AttackRate" Addp="2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="WSZ"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="35"/>
+			<li Kind="LingRecover" Addp="25"/>
+			<li Kind="MaxLing" Addp="35"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="7"/>
+			<li Kind="KnockBackResistance" Addp="3"/>
+			<li Kind="KnockBackAddition" Addp="7"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="1.5"/>
+			<li Kind="AttackRate" Addp="0.8"/>
+		</Effects>
+	</Lable>
+	<Lable Name="FSB"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="30"/>
+			<li Kind="LingRecover" Addp="24"/>
+			<li Kind="MaxLing" Addp="30"/>
+			<li Kind="FlySpeed" Addp="12"/>
+			<li Kind="RotSpeed" Addp="22"/>
+			<li Kind="KnockBackResistance" Addp="7"/>
+			<li Kind="KnockBackAddition" Addp="5"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="0.1"/>
+			<li Kind="AttackRate" Addp="0.5"/>
+		</Effects>
+	</Lable>
+	<Lable Name="JGZ"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="15"/>
+			<li Kind="LingRecover" Addp="10"/>
+			<li Kind="MaxLing" Addp="19"/>
+			<li Kind="FlySpeed" Addp="12"/>
+			<li Kind="RotSpeed" Addp="32"/>
+			<li Kind="KnockBackResistance" Addp="1"/>
+			<li Kind="KnockBackAddition" Addp="1"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="0.1"/>
+			<li Kind="AttackRate" Addp="-5"/>
+		</Effects>
+	</Lable>
+	<Lable Name="YYSJ"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="26"/>
+			<li Kind="LingRecover" Addp="10"/>
+			<li Kind="MaxLing" Addp="12"/>
+			<li Kind="FlySpeed" Addp="7"/>
+			<li Kind="RotSpeed" Addp="4"/>
+			<li Kind="KnockBackResistance" Addp="3"/>
+			<li Kind="KnockBackAddition" Addp="3"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="0.8"/>
+			<li Kind="AttackRate" Addp="-1"/>
 		</Effects>
 	</Lable>
 	
-	<Lable Name="ZTQ"> <!--诛天枪-->
+	<Lable Name="JXFJ"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="20"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="5"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="10"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="4"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="4"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="0.2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2.5"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.25"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="15"/>
+			<li Kind="LingRecover" Addp="10"/>
+			<li Kind="MaxLing" Addp="1"/>
+			<li Kind="FlySpeed" Addp="5"/>
+			<li Kind="RotSpeed" Addp="5"/>
+			<li Kind="KnockBackResistance" Addp="2"/>
+			<li Kind="KnockBackAddition" Addp="2"/>
+			<li Kind="TailLenght" Addp="0.5"/>
+			<li Kind="Scale" Addp="2"/>
+			<li Kind="AttackRate" Addp="0.1"/>
 		</Effects>
 	</Lable>
 	
-	<Lable Name="WFWTD"> <!--无法无天刀-->
+	<Lable Name="ZTQ"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="13"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="6"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="10"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="4.5"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1.5"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.4"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.3"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="20"/>
+			<li Kind="LingRecover" Addp="5"/>
+			<li Kind="MaxLing" Addp="10"/>
+			<li Kind="FlySpeed" Addp="4"/>
+			<li Kind="RotSpeed" Addp="4"/>
+			<li Kind="KnockBackResistance" Addp="0.2"/>
+			<li Kind="KnockBackAddition" Addp="2.5"/>
+			<li Kind="TailLenght" Addp="0.2"/>
+			<li Kind="Scale" Addp="1"/>
+			<li Kind="AttackRate" Addp="0.25"/>
 		</Effects>
 	</Lable>
-	<Lable Name="CYHDJ"> <!--帝渊苍皇剑-->
+	
+	<Lable Name="WFWTD"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="15"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="6"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="17"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="3"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="4"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="0.7"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1.8"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.3"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.5"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.5"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="13"/>
+			<li Kind="LingRecover" Addp="6"/>
+			<li Kind="MaxLing" Addp="10"/>
+			<li Kind="FlySpeed" Addp="5"/>
+			<li Kind="RotSpeed" Addp="4.5"/>
+			<li Kind="KnockBackResistance" Addp="1.5"/>
+			<li Kind="KnockBackAddition" Addp="2"/>
+			<li Kind="TailLenght" Addp="0.1"/>
+			<li Kind="Scale" Addp="0.4"/>
+			<li Kind="AttackRate" Addp="0.3"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZTTLD"> <!--屠龙刀-->
+	<Lable Name="CYHDJ"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="29"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="9"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="15"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="2.5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="4"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2.8"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2.3"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1.5"/><!--体积-->
-			<li Kind="AttackRate" Addp="1"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="15"/>
+			<li Kind="LingRecover" Addp="6"/>
+			<li Kind="MaxLing" Addp="17"/>
+			<li Kind="FlySpeed" Addp="3"/>
+			<li Kind="RotSpeed" Addp="4"/>
+			<li Kind="KnockBackResistance" Addp="0.7"/>
+			<li Kind="KnockBackAddition" Addp="1.8"/>
+			<li Kind="TailLenght" Addp="0.3"/>
+			<li Kind="Scale" Addp="0.5"/>
+			<li Kind="AttackRate" Addp="0.5"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZTZFJ"> <!--斩凤剑剑-->
+	<Lable Name="ZTTLD"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="20"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="22"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="26"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="0.5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="-0.1"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="0.8"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="0.3"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.8"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.6"/><!--体积-->
-			<li Kind="AttackRate" Addp="-0.2"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="29"/>
+			<li Kind="LingRecover" Addp="9"/>
+			<li Kind="MaxLing" Addp="15"/>
+			<li Kind="FlySpeed" Addp="2.5"/>
+			<li Kind="RotSpeed" Addp="4"/>
+			<li Kind="KnockBackResistance" Addp="2.8"/>
+			<li Kind="KnockBackAddition" Addp="2.3"/>
+			<li Kind="TailLenght" Addp="0.1"/>
+			<li Kind="Scale" Addp="1.5"/>
+			<li Kind="AttackRate" Addp="1"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZTHSZD"> <!--护生之道-->
+	<Lable Name="ZTZFJ"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="10"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="29"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="35"/><!--灵气容量-->
+			<li Kind="AttackPower" Addp="20"/>
+			<li Kind="LingRecover" Addp="22"/>
+			<li Kind="MaxLing" Addp="26"/>
+			<li Kind="FlySpeed" Addp="0.5"/>
+			<li Kind="RotSpeed" Addp="-0.1"/>
+			<li Kind="KnockBackResistance" Addp="0.8"/>
+			<li Kind="KnockBackAddition" Addp="0.3"/>
+			<li Kind="TailLenght" Addp="0.8"/>
+			<li Kind="Scale" Addp="0.6"/>
+			<li Kind="AttackRate" Addp="-0.2"/>
+		</Effects>
+	</Lable>
+	<Lable Name="ZTHSZD"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="10"/>
+			<li Kind="LingRecover" Addp="29"/>
+			<li Kind="MaxLing" Addp="35"/>
 			
-			<li Kind="KnockBackResistance" Addp="3"/><!--击退抵抗-->
+			<li Kind="KnockBackResistance" Addp="3"/>
 			
 		</Effects>
 	</Lable>
-	<Lable Name="ZTTZY"> <!--天印-->
+	<Lable Name="ZTTZY"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="15"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="15"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="20"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="3.5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="3"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1.8"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.8"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="-0.6"/><!--体积-->
-			<li Kind="AttackRate" Addp="-0.15"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="15"/>
+			<li Kind="LingRecover" Addp="15"/>
+			<li Kind="MaxLing" Addp="20"/>
+			<li Kind="FlySpeed" Addp="3.5"/>
+			<li Kind="RotSpeed" Addp="3"/>
+			<li Kind="KnockBackResistance" Addp="1.8"/>
+			<li Kind="KnockBackAddition" Addp="1"/>
+			<li Kind="TailLenght" Addp="0.8"/>
+			<li Kind="Scale" Addp="-0.6"/>
+			<li Kind="AttackRate" Addp="-0.15"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZTDZY"> <!--地玺-->
+	<Lable Name="ZTDZY"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="15"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="15"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="20"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="3.5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="3"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1.8"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.8"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="-0.6"/><!--体积-->
-			<li Kind="AttackRate" Addp="-0.15"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="15"/>
+			<li Kind="LingRecover" Addp="15"/>
+			<li Kind="MaxLing" Addp="20"/>
+			<li Kind="FlySpeed" Addp="3.5"/>
+			<li Kind="RotSpeed" Addp="3"/>
+			<li Kind="KnockBackResistance" Addp="1.8"/>
+			<li Kind="KnockBackAddition" Addp="1"/>
+			<li Kind="TailLenght" Addp="0.8"/>
+			<li Kind="Scale" Addp="-0.6"/>
+			<li Kind="AttackRate" Addp="-0.15"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZTYMZD"> <!--幽冥镇地-->
+	<Lable Name="ZTYMZD"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="18"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="15"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="25"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="1.5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="5"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="3"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.8"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="-0.6"/><!--体积-->
-			<li Kind="AttackRate" Addp="-0.35"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="18"/>
+			<li Kind="LingRecover" Addp="15"/>
+			<li Kind="MaxLing" Addp="25"/>
+			<li Kind="FlySpeed" Addp="1.5"/>
+			<li Kind="RotSpeed" Addp="5"/>
+			<li Kind="KnockBackResistance" Addp="3"/>
+			<li Kind="KnockBackAddition" Addp="1"/>
+			<li Kind="TailLenght" Addp="0.8"/>
+			<li Kind="Scale" Addp="-0.6"/>
+			<li Kind="AttackRate" Addp="-0.35"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZTLYFQ"> <!--烈焰焚情-->
+	<Lable Name="ZTLYFQ"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="22"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="10"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="18"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="2.5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="2"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1.8"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1.9"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1.8"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1.6"/><!--体积-->
-			<li Kind="AttackRate" Addp="-0.25"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="22"/>
+			<li Kind="LingRecover" Addp="10"/>
+			<li Kind="MaxLing" Addp="18"/>
+			<li Kind="FlySpeed" Addp="2.5"/>
+			<li Kind="RotSpeed" Addp="2"/>
+			<li Kind="KnockBackResistance" Addp="1.8"/>
+			<li Kind="KnockBackAddition" Addp="1.9"/>
+			<li Kind="TailLenght" Addp="1.8"/>
+			<li Kind="Scale" Addp="1.6"/>
+			<li Kind="AttackRate" Addp="-0.25"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZTFHJ"> <!--凤凰劫-->
+	<Lable Name="ZTFHJ"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="20"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="21"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="28"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="1"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="-2"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2.8"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1"/><!--体积-->
-			<li Kind="AttackRate" Addp="-0.1"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="20"/>
+			<li Kind="LingRecover" Addp="21"/>
+			<li Kind="MaxLing" Addp="28"/>
+			<li Kind="FlySpeed" Addp="1"/>
+			<li Kind="RotSpeed" Addp="-2"/>
+			<li Kind="KnockBackResistance" Addp="1"/>
+			<li Kind="KnockBackAddition" Addp="1"/>
+			<li Kind="TailLenght" Addp="2.8"/>
+			<li Kind="Scale" Addp="1"/>
+			<li Kind="AttackRate" Addp="-0.1"/>
 		</Effects>
 	</Lable>
-	<Lable Name="HMYYJ"> <!--鸿蒙阴阳剑-->
+	<Lable Name="HMYYJ"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="25"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="10"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="30"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="3"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="-4"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1.5"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1.5"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1.5"/><!--体积-->
-			<li Kind="AttackRate" Addp="-0.6"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="25"/>
+			<li Kind="LingRecover" Addp="10"/>
+			<li Kind="MaxLing" Addp="30"/>
+			<li Kind="FlySpeed" Addp="3"/>
+			<li Kind="RotSpeed" Addp="-4"/>
+			<li Kind="KnockBackResistance" Addp="1.5"/>
+			<li Kind="KnockBackAddition" Addp="1.5"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="1.5"/>
+			<li Kind="AttackRate" Addp="-0.6"/>
 		</Effects>
 	</Lable>
-	<Lable Name="LHSL"> <!--离火神炉-->
+	<Lable Name="LHSL"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="15"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="12"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="20"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="6"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="9"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="0"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1"/><!--体积-->
-			<li Kind="AttackRate" Addp="1.4"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="15"/>
+			<li Kind="LingRecover" Addp="12"/>
+			<li Kind="MaxLing" Addp="20"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="6"/>
+			<li Kind="KnockBackResistance" Addp="9"/>
+			<li Kind="KnockBackAddition" Addp="0"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="1"/>
+			<li Kind="AttackRate" Addp="1.4"/>
 		</Effects>
 	</Lable>
-	<Lable Name="LGSF"> <!--乱古神符-->
+	<Lable Name="LGSF"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="15"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="10"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="15"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="6"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="0.1"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="0.5"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="-1"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.01"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="15"/>
+			<li Kind="LingRecover" Addp="10"/>
+			<li Kind="MaxLing" Addp="15"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="6"/>
+			<li Kind="KnockBackResistance" Addp="0.1"/>
+			<li Kind="KnockBackAddition" Addp="0.5"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="-1"/>
+			<li Kind="AttackRate" Addp="0.01"/>
 		</Effects>
 	</Lable>
-	<Lable Name="HYYYH"> <!--混元無韵环-->
+	<Lable Name="HYYYH"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="15"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="15"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="25"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="5"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="0.5"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="0.5"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="-0.1"/><!--体积-->
-			<li Kind="AttackRate" Addp="-0.7"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="15"/>
+			<li Kind="LingRecover" Addp="15"/>
+			<li Kind="MaxLing" Addp="25"/>
+			<li Kind="FlySpeed" Addp="5"/>
+			<li Kind="RotSpeed" Addp="5"/>
+			<li Kind="KnockBackResistance" Addp="0.5"/>
+			<li Kind="KnockBackAddition" Addp="0.5"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="-0.1"/>
+			<li Kind="AttackRate" Addp="-0.7"/>
 		</Effects>
 	</Lable>
-	<Lable Name="TJZJT"> <!--天禁镇界塔-->
+	<Lable Name="TJZJT"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="24"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="11"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="21"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="2"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="2"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1.5"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2.5"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="2"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.2"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="24"/>
+			<li Kind="LingRecover" Addp="11"/>
+			<li Kind="MaxLing" Addp="21"/>
+			<li Kind="FlySpeed" Addp="2"/>
+			<li Kind="RotSpeed" Addp="2"/>
+			<li Kind="KnockBackResistance" Addp="1.5"/>
+			<li Kind="KnockBackAddition" Addp="2.5"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="2"/>
+			<li Kind="AttackRate" Addp="0.2"/>
 		</Effects>
 	</Lable>
-	<Lable Name="HLY"> <!--瀚澜月-->
+	<Lable Name="HLY"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="13"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="16"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="21"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="8"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="8"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="0.2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="0.2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="-0.5"/><!--体积-->
-			<li Kind="AttackRate" Addp="-0.4"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="13"/>
+			<li Kind="LingRecover" Addp="16"/>
+			<li Kind="MaxLing" Addp="21"/>
+			<li Kind="FlySpeed" Addp="8"/>
+			<li Kind="RotSpeed" Addp="8"/>
+			<li Kind="KnockBackResistance" Addp="0.2"/>
+			<li Kind="KnockBackAddition" Addp="0.2"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="-0.5"/>
+			<li Kind="AttackRate" Addp="-0.4"/>
 		</Effects>
 	</Lable>
-	<Lable Name="BHFTJ"> <!--八荒焚天剑-->
+	<Lable Name="BHFTJ"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="18"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="14"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="18"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="8"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="8"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2.2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2.2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.9"/><!--体积-->
-			<li Kind="AttackRate" Addp="-0.3"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="18"/>
+			<li Kind="LingRecover" Addp="14"/>
+			<li Kind="MaxLing" Addp="18"/>
+			<li Kind="FlySpeed" Addp="8"/>
+			<li Kind="RotSpeed" Addp="8"/>
+			<li Kind="KnockBackResistance" Addp="2.2"/>
+			<li Kind="KnockBackAddition" Addp="2.2"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="0.9"/>
+			<li Kind="AttackRate" Addp="-0.3"/>
 		</Effects>
 	</Lable>
-	<Lable Name="YJXMC"> <!--银精降魔杵-->
+	<Lable Name="YJXMC"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="15"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="18"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="25"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="3"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="8"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="4"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.25"/><!--体积-->
-			<li Kind="AttackRate" Addp="-0.5"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="15"/>
+			<li Kind="LingRecover" Addp="18"/>
+			<li Kind="MaxLing" Addp="25"/>
+			<li Kind="FlySpeed" Addp="3"/>
+			<li Kind="RotSpeed" Addp="8"/>
+			<li Kind="KnockBackResistance" Addp="4"/>
+			<li Kind="KnockBackAddition" Addp="2"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="0.25"/>
+			<li Kind="AttackRate" Addp="-0.5"/>
 		</Effects>
 	</Lable>
-	<Lable Name="QTBYS"> <!--青荷芭蕉扇-->
+	<Lable Name="QTBYS"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="22.5"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="5"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="10"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="7"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="0"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="5"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="0.8"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1.25"/><!--体积-->
-			<li Kind="AttackRate" Addp="1.2"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="22.5"/>
+			<li Kind="LingRecover" Addp="5"/>
+			<li Kind="MaxLing" Addp="10"/>
+			<li Kind="FlySpeed" Addp="5"/>
+			<li Kind="RotSpeed" Addp="7"/>
+			<li Kind="KnockBackResistance" Addp="0"/>
+			<li Kind="KnockBackAddition" Addp="5"/>
+			<li Kind="TailLenght" Addp="0.8"/>
+			<li Kind="Scale" Addp="1.25"/>
+			<li Kind="AttackRate" Addp="1.2"/>
 		</Effects>
 	</Lable>
-	<Lable Name="YG"> <!--月宫-->
+	<Lable Name="YG"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="12.5"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="15"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="19"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="2"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="12"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="3.25"/><!--体积-->
-			<li Kind="AttackRate" Addp="3"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="12.5"/>
+			<li Kind="LingRecover" Addp="15"/>
+			<li Kind="MaxLing" Addp="19"/>
+			<li Kind="FlySpeed" Addp="2"/>
+			<li Kind="RotSpeed" Addp="12"/>
+			<li Kind="KnockBackResistance" Addp="2"/>
+			<li Kind="KnockBackAddition" Addp="2"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="3.25"/>
+			<li Kind="AttackRate" Addp="3"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZHYX"> <!--追魂玉箫-->
+	<Lable Name="ZHYX"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="10"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="12"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="14"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="10"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="10"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="0.2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="0.2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.25"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.3"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="10"/>
+			<li Kind="LingRecover" Addp="12"/>
+			<li Kind="MaxLing" Addp="14"/>
+			<li Kind="FlySpeed" Addp="10"/>
+			<li Kind="RotSpeed" Addp="10"/>
+			<li Kind="KnockBackResistance" Addp="0.2"/>
+			<li Kind="KnockBackAddition" Addp="0.2"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="0.25"/>
+			<li Kind="AttackRate" Addp="0.3"/>
 		</Effects>
 	</Lable>
-	<Lable Name="TXF"> <!--太玄幡-->
+	<Lable Name="TXF"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="12.5"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="8"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="10"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="4"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1.2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="0.9"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1.25"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.7"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="12.5"/>
+			<li Kind="LingRecover" Addp="8"/>
+			<li Kind="MaxLing" Addp="10"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="4"/>
+			<li Kind="KnockBackResistance" Addp="1.2"/>
+			<li Kind="KnockBackAddition" Addp="0.9"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="1.25"/>
+			<li Kind="AttackRate" Addp="0.7"/>
 		</Effects>
 	</Lable>
-	<Lable Name="GYKRF"> <!--开天斧-->
+	<Lable Name="GYKRF"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="6"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="4.1"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="6"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="3"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="1"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2.2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="3.9"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1"/><!--体积-->
-			<li Kind="AttackRate" Addp="1"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="6"/>
+			<li Kind="LingRecover" Addp="4.1"/>
+			<li Kind="MaxLing" Addp="6"/>
+			<li Kind="FlySpeed" Addp="3"/>
+			<li Kind="RotSpeed" Addp="1"/>
+			<li Kind="KnockBackResistance" Addp="2.2"/>
+			<li Kind="KnockBackAddition" Addp="3.9"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="1"/>
+			<li Kind="AttackRate" Addp="1"/>
 		</Effects>
 	</Lable>
-	<Lable Name="WSLHJ"> <!--往生-->
+	<Lable Name="WSLHJ"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="20"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="10"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="15"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="4.5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="6"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="3.2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="3.2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.99"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.6"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="20"/>
+			<li Kind="LingRecover" Addp="10"/>
+			<li Kind="MaxLing" Addp="15"/>
+			<li Kind="FlySpeed" Addp="4.5"/>
+			<li Kind="RotSpeed" Addp="6"/>
+			<li Kind="KnockBackResistance" Addp="3.2"/>
+			<li Kind="KnockBackAddition" Addp="3.2"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="0.99"/>
+			<li Kind="AttackRate" Addp="0.6"/>
 		</Effects>
 	</Lable>
-	<Lable Name="NGZQS"> <!--南宫-->
+	<Lable Name="NGZQS"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="18"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="16"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="20"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="5.5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="6"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2.2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="5.2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.59"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.3"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="18"/>
+			<li Kind="LingRecover" Addp="16"/>
+			<li Kind="MaxLing" Addp="20"/>
+			<li Kind="FlySpeed" Addp="5.5"/>
+			<li Kind="RotSpeed" Addp="6"/>
+			<li Kind="KnockBackResistance" Addp="2.2"/>
+			<li Kind="KnockBackAddition" Addp="5.2"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="0.59"/>
+			<li Kind="AttackRate" Addp="0.3"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZXSLJ"> <!--紫霄神雷剑-->
+	<Lable Name="ZXSLJ"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="36"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="10"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="12"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6.5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="8"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="0.1"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="6.2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2.5"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.1"/><!--体积-->
-			<li Kind="AttackRate" Addp="2"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="36"/>
+			<li Kind="LingRecover" Addp="10"/>
+			<li Kind="MaxLing" Addp="12"/>
+			<li Kind="FlySpeed" Addp="6.5"/>
+			<li Kind="RotSpeed" Addp="8"/>
+			<li Kind="KnockBackResistance" Addp="0.1"/>
+			<li Kind="KnockBackAddition" Addp="6.2"/>
+			<li Kind="TailLenght" Addp="2.5"/>
+			<li Kind="Scale" Addp="0.1"/>
+			<li Kind="AttackRate" Addp="2"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZT_LY"> <!--蓝焰-->
+	<Lable Name="ZT_LY"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="26"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="14"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="17"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="1.5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="3"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2.1"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1.2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2.5"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1.1"/><!--体积-->
-			<li Kind="AttackRate" Addp="3"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="26"/>
+			<li Kind="LingRecover" Addp="14"/>
+			<li Kind="MaxLing" Addp="17"/>
+			<li Kind="FlySpeed" Addp="1.5"/>
+			<li Kind="RotSpeed" Addp="3"/>
+			<li Kind="KnockBackResistance" Addp="2.1"/>
+			<li Kind="KnockBackAddition" Addp="1.2"/>
+			<li Kind="TailLenght" Addp="2.5"/>
+			<li Kind="Scale" Addp="1.1"/>
+			<li Kind="AttackRate" Addp="3"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZT_JL"> <!--剑李-->
+	<Lable Name="ZT_JL"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="18"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="7"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="13"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="9"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="3"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="4.1"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2.5"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.25"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="18"/>
+			<li Kind="LingRecover" Addp="7"/>
+			<li Kind="MaxLing" Addp="13"/>
+			<li Kind="FlySpeed" Addp="9"/>
+			<li Kind="RotSpeed" Addp="3"/>
+			<li Kind="KnockBackResistance" Addp="4.1"/>
+			<li Kind="KnockBackAddition" Addp="1"/>
+			<li Kind="TailLenght" Addp="2.5"/>
+			<li Kind="Scale" Addp="1"/>
+			<li Kind="AttackRate" Addp="0.25"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZT_JD_TQ"> <!--剑李-->
+	<Lable Name="ZT_JD_TQ"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="22"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="16"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="18"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="6"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="3"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1.5"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.4"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.6"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="22"/>
+			<li Kind="LingRecover" Addp="16"/>
+			<li Kind="MaxLing" Addp="18"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="6"/>
+			<li Kind="KnockBackResistance" Addp="3"/>
+			<li Kind="KnockBackAddition" Addp="1.5"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="0.4"/>
+			<li Kind="AttackRate" Addp="0.6"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZT_MJ_JY"> <!--九幽-->
+	<Lable Name="ZT_MJ_JY"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="25"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="7"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="25"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="3"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="3"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.7"/><!--体积-->
-			<li Kind="AttackRate" Addp="2.6"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="25"/>
+			<li Kind="LingRecover" Addp="7"/>
+			<li Kind="MaxLing" Addp="25"/>
+			<li Kind="FlySpeed" Addp="3"/>
+			<li Kind="RotSpeed" Addp="3"/>
+			<li Kind="KnockBackResistance" Addp="1"/>
+			<li Kind="KnockBackAddition" Addp="1"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="0.7"/>
+			<li Kind="AttackRate" Addp="2.6"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZT_XY_CM"> <!--九幽-->
+	<Lable Name="ZT_XY_CM"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="25"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="2"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="30"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="3"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="3"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.7"/><!--体积-->
-			<li Kind="AttackRate" Addp="2.6"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="25"/>
+			<li Kind="LingRecover" Addp="2"/>
+			<li Kind="MaxLing" Addp="30"/>
+			<li Kind="FlySpeed" Addp="3"/>
+			<li Kind="RotSpeed" Addp="3"/>
+			<li Kind="KnockBackResistance" Addp="1"/>
+			<li Kind="KnockBackAddition" Addp="1"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="0.7"/>
+			<li Kind="AttackRate" Addp="2.6"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZT_ZTXLJ"> <!--葬天-->
+	<Lable Name="ZT_ZTXLJ"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="24"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="16"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="19"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="14"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="3"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.7"/><!--体积-->
-			<li Kind="AttackRate" Addp="1.6"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="24"/>
+			<li Kind="LingRecover" Addp="16"/>
+			<li Kind="MaxLing" Addp="19"/>
+			<li Kind="FlySpeed" Addp="14"/>
+			<li Kind="RotSpeed" Addp="3"/>
+			<li Kind="KnockBackResistance" Addp="1"/>
+			<li Kind="KnockBackAddition" Addp="1"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="0.7"/>
+			<li Kind="AttackRate" Addp="1.6"/>
 		</Effects>
 	</Lable>
-	<Lable Name="ZT_BXLRJ"> <!--碧心-->
+	<Lable Name="ZT_BXLRJ"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="16"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="22"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="28"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="9"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="5"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="1"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1.7"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.6"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	
-	<Lable Name="ZHYD"> <!--造化玉碟-->
-		<Effects>
-			<li Kind="AttackPower" Addp="16"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="11"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="20"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6.5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="8"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="3.2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2.2"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.59"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.1"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="BLHQRJY"> <!--入九幽-->
-		<Effects>
-			<li Kind="AttackPower" Addp="20"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="12"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="18"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="7.5"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="4"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2.2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="3.9"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.82"/><!--体积-->
-			<li Kind="AttackRate" Addp="1"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="HP"> <!--虎魄-->
-		<Effects>
-			<li Kind="AttackPower" Addp="26"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="10"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="20"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="3"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="3.2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="6.9"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1.2"/><!--体积-->
-			<li Kind="AttackRate" Addp="2"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="BQQ"> <!--冰拳枪-->
-		<Effects>
-			<li Kind="AttackPower" Addp="7"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="5"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="12"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="3"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="6"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="1.2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="0.59"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.8"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.8"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="TSMHJ"> <!--灭魂剑-->
-		<Effects>
-			<li Kind="AttackPower" Addp="6"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="4"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="6"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="6"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2.5"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2.5"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.5"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="TSMHJ"> <!--建木魂剑-->
-		<Effects>
-			<li Kind="AttackPower" Addp="6"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="12"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="19"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="6"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2.5"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2.5"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.5"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="JPLXG"> <!--建木魂剑-->
-		<Effects>
-			<li Kind="AttackPower" Addp="16"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="2"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="6"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="6"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="6"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1"/><!--体积-->
-			<li Kind="AttackRate" Addp="5"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="JPLXG"> <!--建木魂剑-->
-		<Effects>
-			<li Kind="AttackPower" Addp="16"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="3"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="3"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="6"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="6"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1"/><!--体积-->
-			<li Kind="AttackRate" Addp="5"/><!--攻击间隔-->
-		</Effects>
-	</Lable>
-	<Lable Name="ASJ"> <!--建木魂剑-->
-		<Effects>
-			<li Kind="AttackPower" Addp="8"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="5"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="15"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="6"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="9"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="4"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="3"/><!--体积-->
-			<li Kind="AttackRate" Addp="8"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="16"/>
+			<li Kind="LingRecover" Addp="22"/>
+			<li Kind="MaxLing" Addp="28"/>
+			<li Kind="FlySpeed" Addp="5"/>
+			<li Kind="RotSpeed" Addp="9"/>
+			<li Kind="KnockBackResistance" Addp="5"/>
+			<li Kind="KnockBackAddition" Addp="1"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="1.7"/>
+			<li Kind="AttackRate" Addp="0.6"/>
 		</Effects>
 	</Lable>
 	
-	<Lable Name="DDBP"> <!--大道宝瓶-->
+	<Lable Name="ZHYD"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="15.5"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="11"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="14"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="4"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="3.2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2.9"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.25"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.3"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="16"/>
+			<li Kind="LingRecover" Addp="11"/>
+			<li Kind="MaxLing" Addp="20"/>
+			<li Kind="FlySpeed" Addp="6.5"/>
+			<li Kind="RotSpeed" Addp="8"/>
+			<li Kind="KnockBackResistance" Addp="3.2"/>
+			<li Kind="KnockBackAddition" Addp="2.2"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="0.59"/>
+			<li Kind="AttackRate" Addp="0.1"/>
 		</Effects>
 	</Lable>
-	<Lable Name="TTMG"> <!--吞天魔盖-->
+	<Lable Name="BLHQRJY"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="11"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="11"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="19"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="4"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="4.2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="4.9"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1.25"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.3"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="20"/>
+			<li Kind="LingRecover" Addp="12"/>
+			<li Kind="MaxLing" Addp="18"/>
+			<li Kind="FlySpeed" Addp="7.5"/>
+			<li Kind="RotSpeed" Addp="4"/>
+			<li Kind="KnockBackResistance" Addp="2.2"/>
+			<li Kind="KnockBackAddition" Addp="3.9"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="0.82"/>
+			<li Kind="AttackRate" Addp="1"/>
 		</Effects>
 	</Lable>
-	<Lable Name="TTMW"> <!--吞天魔碗-->
+	<Lable Name="HP"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="12"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="8"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="11"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="6"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="4"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="5"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="2.5"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="1"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.5"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.3"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="26"/>
+			<li Kind="LingRecover" Addp="10"/>
+			<li Kind="MaxLing" Addp="20"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="3"/>
+			<li Kind="KnockBackResistance" Addp="3.2"/>
+			<li Kind="KnockBackAddition" Addp="6.9"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="1.2"/>
+			<li Kind="AttackRate" Addp="2"/>
 		</Effects>
 	</Lable>
-	<Lable Name="TTMG1"> <!--吞天魔罐-->
+	<Lable Name="BQQ"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="23"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="22"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="29"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="12"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="8"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="9.2"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="7.4"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="1.75"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.1"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="7"/>
+			<li Kind="LingRecover" Addp="5"/>
+			<li Kind="MaxLing" Addp="12"/>
+			<li Kind="FlySpeed" Addp="3"/>
+			<li Kind="RotSpeed" Addp="6"/>
+			<li Kind="KnockBackResistance" Addp="1.2"/>
+			<li Kind="KnockBackAddition" Addp="0.59"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="0.8"/>
+			<li Kind="AttackRate" Addp="0.8"/>
 		</Effects>
 	</Lable>
-	<Lable Name="GLMJ"> <!--鬼脸面具-->
+	<Lable Name="TSMHJ"> 
 		<Effects>
-			<li Kind="AttackPower" Addp="43"/><!--法宝威力-->
-			<li Kind="LingRecover" Addp="32"/><!--回灵速度-->
-			<li Kind="MaxLing" Addp="36"/><!--灵气容量-->
-			<li Kind="FlySpeed" Addp="12"/><!--飞行速度-->
-			<li Kind="RotSpeed" Addp="10"/><!--转弯速度-->
-			<li Kind="KnockBackResistance" Addp="3"/><!--击退抵抗-->
-			<li Kind="KnockBackAddition" Addp="3"/><!--击退强度-->
-			<li Kind="TailLenght" Addp="2"/><!--拖尾长度-->
-			<li Kind="Scale" Addp="0.75"/><!--体积-->
-			<li Kind="AttackRate" Addp="0.2"/><!--攻击间隔-->
+			<li Kind="AttackPower" Addp="6"/>
+			<li Kind="LingRecover" Addp="4"/>
+			<li Kind="MaxLing" Addp="6"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="6"/>
+			<li Kind="KnockBackResistance" Addp="2.5"/>
+			<li Kind="KnockBackAddition" Addp="2.5"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="1"/>
+			<li Kind="AttackRate" Addp="0.5"/>
+		</Effects>
+	</Lable>
+	<Lable Name="TSMHJ"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="6"/>
+			<li Kind="LingRecover" Addp="12"/>
+			<li Kind="MaxLing" Addp="19"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="6"/>
+			<li Kind="KnockBackResistance" Addp="2.5"/>
+			<li Kind="KnockBackAddition" Addp="2.5"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="1"/>
+			<li Kind="AttackRate" Addp="0.5"/>
+		</Effects>
+	</Lable>
+	<Lable Name="JPLXG"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="16"/>
+			<li Kind="LingRecover" Addp="2"/>
+			<li Kind="MaxLing" Addp="6"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="6"/>
+			<li Kind="KnockBackResistance" Addp="2"/>
+			<li Kind="KnockBackAddition" Addp="6"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="1"/>
+			<li Kind="AttackRate" Addp="5"/>
+		</Effects>
+	</Lable>
+	<Lable Name="JPLXG"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="16"/>
+			<li Kind="LingRecover" Addp="3"/>
+			<li Kind="MaxLing" Addp="3"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="6"/>
+			<li Kind="KnockBackResistance" Addp="2"/>
+			<li Kind="KnockBackAddition" Addp="6"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="1"/>
+			<li Kind="AttackRate" Addp="5"/>
+		</Effects>
+	</Lable>
+	<Lable Name="ASJ"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="8"/>
+			<li Kind="LingRecover" Addp="5"/>
+			<li Kind="MaxLing" Addp="15"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="6"/>
+			<li Kind="KnockBackResistance" Addp="9"/>
+			<li Kind="KnockBackAddition" Addp="4"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="3"/>
+			<li Kind="AttackRate" Addp="8"/>
+		</Effects>
+	</Lable>
+	
+	<Lable Name="DDBP"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="15.5"/>
+			<li Kind="LingRecover" Addp="11"/>
+			<li Kind="MaxLing" Addp="14"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="4"/>
+			<li Kind="KnockBackResistance" Addp="3.2"/>
+			<li Kind="KnockBackAddition" Addp="2.9"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="0.25"/>
+			<li Kind="AttackRate" Addp="0.3"/>
+		</Effects>
+	</Lable>
+	<Lable Name="TTMG"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="11"/>
+			<li Kind="LingRecover" Addp="11"/>
+			<li Kind="MaxLing" Addp="19"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="4"/>
+			<li Kind="KnockBackResistance" Addp="4.2"/>
+			<li Kind="KnockBackAddition" Addp="4.9"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="1.25"/>
+			<li Kind="AttackRate" Addp="0.3"/>
+		</Effects>
+	</Lable>
+	<Lable Name="TTMW"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="12"/>
+			<li Kind="LingRecover" Addp="8"/>
+			<li Kind="MaxLing" Addp="11"/>
+			<li Kind="FlySpeed" Addp="6"/>
+			<li Kind="RotSpeed" Addp="4"/>
+			<li Kind="KnockBackResistance" Addp="5"/>
+			<li Kind="KnockBackAddition" Addp="2.5"/>
+			<li Kind="TailLenght" Addp="1"/>
+			<li Kind="Scale" Addp="0.5"/>
+			<li Kind="AttackRate" Addp="0.3"/>
+		</Effects>
+	</Lable>
+	<Lable Name="TTMG1"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="23"/>
+			<li Kind="LingRecover" Addp="22"/>
+			<li Kind="MaxLing" Addp="29"/>
+			<li Kind="FlySpeed" Addp="12"/>
+			<li Kind="RotSpeed" Addp="8"/>
+			<li Kind="KnockBackResistance" Addp="9.2"/>
+			<li Kind="KnockBackAddition" Addp="7.4"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="1.75"/>
+			<li Kind="AttackRate" Addp="0.1"/>
+		</Effects>
+	</Lable>
+	<Lable Name="GLMJ"> 
+		<Effects>
+			<li Kind="AttackPower" Addp="43"/>
+			<li Kind="LingRecover" Addp="32"/>
+			<li Kind="MaxLing" Addp="36"/>
+			<li Kind="FlySpeed" Addp="12"/>
+			<li Kind="RotSpeed" Addp="10"/>
+			<li Kind="KnockBackResistance" Addp="3"/>
+			<li Kind="KnockBackAddition" Addp="3"/>
+			<li Kind="TailLenght" Addp="2"/>
+			<li Kind="Scale" Addp="0.75"/>
+			<li Kind="AttackRate" Addp="0.2"/>
 		</Effects>
 	</Lable>
 </List></PhysicalLables> 

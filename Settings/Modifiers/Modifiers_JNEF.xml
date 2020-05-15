@@ -86,7 +86,7 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Properties>
-			<li Name="NpcLingMaxValue" AddV="-10000"/><!--灵气吸收速度5-->
+			<li Name="NpcLingMaxValue" AddV="-10000"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="TDJ_SJ_SQ_TQ" Type="Normal">
@@ -96,7 +96,7 @@
 		<Duration>60</Duration>
 		<Display>1</Display>
 		<Properties>
-			<li Name="LingAbsorbSpeed" AddV="5000"/><!--灵气吸收速度5-->
+			<li Name="LingAbsorbSpeed" AddV="5000"/>
 			<li Name="SpeedOfMindStateCoefficient" AddV="1000"/>
 		</Properties>
 	</Modifier>
@@ -107,7 +107,7 @@
 		<Duration>90</Duration>
 		<Display>1</Display>
 		<Properties>
-			<li Name="LingAbsorbSpeed" AddV="5000"/><!--灵气吸收速度5-->
+			<li Name="LingAbsorbSpeed" AddV="5000"/>
 			<li Name="SpeedOfMindStateCoefficient" AddV="1000"/>
 		</Properties>
 	</Modifier>
@@ -121,7 +121,7 @@
 		<Properties>
 			<li Name="NpcFight_SpellLingCostAddP" AddP="9999"/>
 			<li Name="NpcFight_SpellCoolDownAddP" AddP="9999"/>
-			<li Name="NpcFight_SpellCastTimeAddP" AddP="9999"/><!--术法吟唱时间加成 -1-->
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="9999"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="TTMG_FXJ" Type="Normal">
@@ -131,7 +131,7 @@
 		<Duration>3000</Duration>
 		<Display>1</Display>
 		<Properties>
-			<li Name="NpcFight_FabaoNum" AddV="-1"/><!--法宝数量6-->
+			<li Name="NpcFight_FabaoNum" AddV="-1"/>
 			
 		</Properties>
 	</Modifier>
@@ -166,7 +166,7 @@
 		<Properties>
 			<li Name="NpcFight_SpellLingCostAddP" AddP="9999"/>
 			<li Name="NpcFight_SpellCoolDownAddP" AddP="9999"/>
-			<li Name="NpcFight_SpellCastTimeAddP" AddP="9999"/><!--术法吟唱时间加成 -1-->
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="9999"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="MB_ZTY" Type="Normal">
@@ -189,7 +189,7 @@
 		<Properties>
 			<li Name="NpcFight_SpellLingCostAddP" AddP="9999"/>
 			<li Name="NpcFight_SpellCoolDownAddP" AddP="9999"/>
-			<li Name="NpcFight_SpellCastTimeAddP" AddP="9999"/><!--术法吟唱时间加成 -1-->
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="9999"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="DJTG_LS" Type="Normal">
@@ -210,10 +210,10 @@
 		<Duration>50</Duration>
 		<Display>1</Display>
 		<Properties>
-			<li Name="RecoveryPower" AddP="-1"/><!--自然恢复力10-->
-			<li Name="MagicDamageRecoveryPowerAddV" AddV="-5"/><!--内门伤自然恢复力5-->
-			<li Name="NpcFight_FabaoPowerAddP" AddP="-2"/><!--法宝威力加成3-->
-			<li Name="NpcFight_SpellPowerAddP" AddP="-2"/><!--术法伤害加成3-->
+			<li Name="RecoveryPower" AddP="-1"/>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="-5"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-2"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="-2"/>
 		</Properties>
 	</Modifier>
 	
@@ -252,8 +252,8 @@
 		<Duration>90</Duration>
 		<Display>1</Display>
 		<Properties>
-			<li Name="NpcFight_FabaoPowerAddP" AddP="-9999999"/><!--法宝灵气恢复速度加成3-->
-			<li Name="NpcFight_SpellPowerAddP" AddP="-9999999"/><!--法宝灵气恢复速度加成3-->
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-9999999"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="-9999999"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="ZLGQ" Type="Normal">
@@ -263,8 +263,8 @@
 		<Duration>40</Duration>
 		<Display>1</Display>
 		<Properties>
-			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="2"/><!--法宝灵气恢复速度加成3-->
-			<li Name="NpcFight_FabaoLingRecoverK" AddP="2"/><!--法宝灵气恢复速度加成3-->
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="2"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddP="2"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="NXFX" Type="Normal">
@@ -315,57 +315,57 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Properties>
-				<li Name="MaxAge" AddV="500"/><!--寿元-->
-				<li Name="MindStateBaseValue" AddV="20"/><!--心情基础值-->
-				<li Name="IntelligenceSkillEXPConstant" AddP="0.3"/><!--学习速度-->
-				<li Name="VisionRadius" AddP="0.3"/><!--感知范围-->
-				<li Name="MoveSpeed" AddP="0.3"/><!--移动速度-->
-				<li Name="RecoveryPower" AddP="0.3"/><!--自然恢复力-->
-				<li Name="MagicDamageRecoveryPowerAddV" AddV="0.6"/><!--内门伤自然恢复力-->
-				<li Name="FatigueConsumeConstant" AddP="-0.2"/><!--精力消耗速度加成-->
-				<li Name="NutritionConsumeConstant" AddP="-0.2"/><!--食物消耗速度加成-->
-				<li Name="WaterConsumeConstant" AddP="-0.2"/><!--饮水消耗速度加成-->
-				<li Name="HappyConsumeConstant" AddP="-0.2"/><!--娱乐消耗速度加成-->
-				<li Name="ToleranceTMin" AddV="-10"/><!--最低极限温度-->
-				<li Name="ToleranceTMax" AddV="10"/><!--最高极限温度-->
-				<li Name="ComfyTMin" AddV="-10"/><!--最低舒适温度-->
-				<li Name="ComfyTMax" AddV="10"/><!--最高舒适温度-->
-				<li Name="PainTolerance" AddV="2"/><!--疼痛忍受极限-->
-				<li Name="IntelligenceSkillEXPConstant" AddP="0.1"/><!--学习速度加成-->
-				<li Name="PracticeFoodConsumeConstant" AddP="0.5"/><!--精元消耗速度-->
-				<li Name="FatigueConsumeConstant" AddP="-0.25"/><!--精力消耗速度-->
+				<li Name="MaxAge" AddV="500"/>
+				<li Name="MindStateBaseValue" AddV="20"/>
+				<li Name="IntelligenceSkillEXPConstant" AddP="0.3"/>
+				<li Name="VisionRadius" AddP="0.3"/>
+				<li Name="MoveSpeed" AddP="0.3"/>
+				<li Name="RecoveryPower" AddP="0.3"/>
+				<li Name="MagicDamageRecoveryPowerAddV" AddV="0.6"/>
+				<li Name="FatigueConsumeConstant" AddP="-0.2"/>
+				<li Name="NutritionConsumeConstant" AddP="-0.2"/>
+				<li Name="WaterConsumeConstant" AddP="-0.2"/>
+				<li Name="HappyConsumeConstant" AddP="-0.2"/>
+				<li Name="ToleranceTMin" AddV="-10"/>
+				<li Name="ToleranceTMax" AddV="10"/>
+				<li Name="ComfyTMin" AddV="-10"/>
+				<li Name="ComfyTMax" AddV="10"/>
+				<li Name="PainTolerance" AddV="2"/>
+				<li Name="IntelligenceSkillEXPConstant" AddP="0.1"/>
+				<li Name="PracticeFoodConsumeConstant" AddP="0.5"/>
+				<li Name="FatigueConsumeConstant" AddP="-0.25"/>
 				
 				战斗
-				<li Name="NpcFight_FabaoPowerAddP" AddP="0.1"/><!--法宝威力加成-->
-				<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.1"/><!--法宝灵气恢复速度加成-->
-				<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.1"/><!--法宝灵气最大值加成-->
-				<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="1"/><!--法宝击退距离加成-->
-				<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.25"/><!--法宝飞行速度加成-->
-				<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0.25"/><!--法宝转向速度加成-->
-				<li Name="NpcFight_FabaoRepelResistanceAddV" AddP="1"/><!--法宝击退距离抗性-->
-				<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="0.25"/><!--法宝拖尾长度加成-->
-				<li Name="NpcFight_SpellLingCostAddP" AddP="-0.1"/><!--术法灵气消耗加成-->
-				<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/><!--术法吟唱时间加成-->
-				<li Name="NpcFight_SpellPowerAddP" AddP="0.1"/><!--术法伤害加成-->
-				<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.1"/><!--术法冷却时间加成-->
-				<li Name="NpcFight_ShieldConversionRate" AddP="0.25"/><!--护盾强度加值-->
-				<li Name="NpcFight_ShieldConversionRateAddP" AddV="1"/><!--护盾强度加成-->
+				<li Name="NpcFight_FabaoPowerAddP" AddP="0.1"/>
+				<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.1"/>
+				<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.1"/>
+				<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="1"/>
+				<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.25"/>
+				<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0.25"/>
+				<li Name="NpcFight_FabaoRepelResistanceAddV" AddP="1"/>
+				<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="0.25"/>
+				<li Name="NpcFight_SpellLingCostAddP" AddP="-0.1"/>
+				<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/>
+				<li Name="NpcFight_SpellPowerAddP" AddP="0.1"/>
+				<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.1"/>
+				<li Name="NpcFight_ShieldConversionRate" AddP="0.25"/>
+				<li Name="NpcFight_ShieldConversionRateAddP" AddV="1"/>
 				
 				修行
-				<li Name="PracticeRateAddPFromDan" AddP="0.2"/><!--瓶颈突破概率加成系数-->
-				<li Name="ExperienceNeckTimeCostCoefficient" AddP="-0.5"/><!--历练型瓶颈时间放大系数-->
-				<li Name="PotentialOfBasepracticeAddValue" AddV="1"/><!--潜力值-->
-				<li Name="GodPenaltyAddV" AddV="40"/><!--天谴，正的加天谴的。-->
-				<li Name="MaxAccumulativeLingAddV" AddV="1000"/><!--炉鼎值-->
-				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.1"/><!--瓶颈突破概率加成系数-->
-				<li Name="InspirationCoefficient" AddP="0.5"/><!--领悟悟性-->
-				<li Name="LingAbsorbSpeed" AddP="1"/><!--灵气吸收速度-->
-				<li Name="NpcLingMaxValue" AddP="0.1"/><!--基础灵气最大值-->
-				<li Name="WorldMapFlySpeed" AddP="0.5"/><!--历练飞行速度-->
-				<li Name="WorldMapFlySpeedAddP" AddP="-0.5"/><!--历练飞行速度加成-->
-				<li Name="ExperiencePrestigeAddP" AddP="0.5"/><!--历练型声望放大系数-->
-				<li Name="EsotericaNum" AddV="99"/><!--秘籍数量限制-->
-				<li Name="AbilityLvAddV" AddV="90"/><!--道行加值-->
+				<li Name="PracticeRateAddPFromDan" AddP="0.2"/>
+				<li Name="ExperienceNeckTimeCostCoefficient" AddP="-0.5"/>
+				<li Name="PotentialOfBasepracticeAddValue" AddV="1"/>
+				<li Name="GodPenaltyAddV" AddV="40"/>
+				<li Name="MaxAccumulativeLingAddV" AddV="1000"/>
+				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.1"/>
+				<li Name="InspirationCoefficient" AddP="0.5"/>
+				<li Name="LingAbsorbSpeed" AddP="1"/>
+				<li Name="NpcLingMaxValue" AddP="0.1"/>
+				<li Name="WorldMapFlySpeed" AddP="0.5"/>
+				<li Name="WorldMapFlySpeedAddP" AddP="-0.5"/>
+				<li Name="ExperiencePrestigeAddP" AddP="0.5"/>
+				<li Name="EsotericaNum" AddV="99"/>
+				<li Name="AbilityLvAddV" AddV="90"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="TTMG_WHSJ" Type="Normal">
@@ -375,7 +375,7 @@
 		<Duration>80</Duration>
 		<Display>1</Display>
 		<Properties>
-			<li Name="NpcFight_FabaoPowerAddP" AddP="-9999999999999"/><!--法宝灵气恢复速度加成3-->
+			<li Name="NpcFight_FabaoPowerAddP" AddP="-9999999999999"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="TTMG_WHSJ" Type="Normal">
@@ -407,7 +407,7 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Skills>	
-				<li Name="Qi" LevelOver="1"/><!-- 气感 -->
+				<li Name="Qi" LevelOver="1"/>
 		</Skills>
 	</Modifier>
 	<Modifier Name="TTMG_BM1" Type="Normal">
@@ -417,7 +417,7 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Skills>	
-				<li Name="Barrier" LevelOver="1"/><!-- 气感 -->
+				<li Name="Barrier" LevelOver="1"/>
 		</Skills>
 	</Modifier>
 	<Modifier Name="TTMG_BM2" Type="Normal">
@@ -427,7 +427,7 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Skills>	
-				<li Name="Fabao" LevelOver="1"/><!-- 气感 -->
+				<li Name="Fabao" LevelOver="1"/>
 		</Skills>
 	</Modifier>
 	<Modifier Name="TTMG_BM3" Type="Normal">
@@ -437,7 +437,7 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Skills>	
-				<li Name="Fight" LevelOver="1"/><!-- 气感 -->
+				<li Name="Fight" LevelOver="1"/>
 		</Skills>
 	</Modifier>
 	
@@ -448,7 +448,7 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Skills>	
-				<li Name="DouFa" LevelOver="1"/><!-- 气感 -->
+				<li Name="DouFa" LevelOver="1"/>
 		</Skills>
 	</Modifier>
 	<Modifier Name="TTMG_BM5" Type="Normal">
@@ -458,7 +458,7 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Skills>	
-				<li Name="FightSkill" LevelOver="1"/><!-- 气感 -->
+				<li Name="FightSkill" LevelOver="1"/>
 		</Skills>
 	</Modifier>
 	<Modifier Name="TTMG_BM6" Type="Normal">
@@ -468,7 +468,7 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Skills>	
-				<li Name="Zhen" LevelOver="1"/><!-- 气感 -->
+				<li Name="Zhen" LevelOver="1"/>
 		</Skills>
 	</Modifier>
 	<Modifier Name="TTMG_BM7" Type="Normal">
@@ -478,14 +478,14 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Skills>	
-				<li Name="Fight" LevelOver="1"/><!-- 御物 -->
-				<li Name="Qi" LevelOver="2"/><!-- 气感 -->
-				<li Name="Fabao" LevelOver="1"/><!-- 法宝 -->
-				<li Name="DouFa" LevelOver="1"/><!-- 斗法 -->
-				<li Name="Barrier" LevelOver="2"/><!-- 护盾 -->
-				<li Name="Zhen" LevelOver="1"/><!-- 阵法 -->
-				<li Name="FightSkill" LevelOver="1"/><!-- 术法 -->
-				<li Name="DanQi" LevelOver="1"/><!-- 丹器 -->
+				<li Name="Fight" LevelOver="1"/>
+				<li Name="Qi" LevelOver="2"/>
+				<li Name="Fabao" LevelOver="1"/>
+				<li Name="DouFa" LevelOver="1"/>
+				<li Name="Barrier" LevelOver="2"/>
+				<li Name="Zhen" LevelOver="1"/>
+				<li Name="FightSkill" LevelOver="1"/>
+				<li Name="DanQi" LevelOver="1"/>
 		</Skills>
 	</Modifier>
 	<Modifier Name="TTMG_BM8" Type="Normal">
@@ -495,7 +495,7 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Skills>	
-				<li Name="Manual" LevelOver="1"/><!-- 御物 -->
+				<li Name="Manual" LevelOver="1"/>
 		</Skills>
 	</Modifier>
 	<Modifier Name="TTMG_BM9" Type="Normal">
@@ -505,7 +505,7 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Skills>	
-				<li Name="Medicine" LevelOver="1"/><!-- 御物 -->
+				<li Name="Medicine" LevelOver="1"/>
 		</Skills>
 	</Modifier>
 	<Modifier Name="TTMG_BM10" Type="Normal">
@@ -515,7 +515,7 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Skills>	
-				<li Name="Medicine" LevelOver="1"/><!-- 御物 -->
+				<li Name="Medicine" LevelOver="1"/>
 		</Skills>
 	</Modifier>
 	<Modifier Name="TTMG_BM11" Type="Normal">
@@ -525,7 +525,7 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Properties>
-			<li Name="NpcFight_FabaoPowerAddP" AddP="0.1"/><!--法宝灵气恢复速度加成3-->
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.1"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="TTMG_BM11" Type="Normal">
@@ -535,7 +535,7 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Properties>
-			<li Name="NpcFight_FabaoPowerAddP" AddP="0.1"/><!--法宝灵气恢复速度加成3-->
+			<li Name="NpcFight_FabaoPowerAddP" AddP="0.1"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="TTMG_BM12" Type="Normal">
@@ -545,7 +545,7 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Properties>
-			<li Name="NpcFight_SpellPowerAddP" AddP="0.1"/><!--法宝灵气恢复速度加成3-->
+			<li Name="NpcFight_SpellPowerAddP" AddP="0.1"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="TTMG_BM13" Type="Normal">
@@ -569,7 +569,7 @@
 		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Properties>
-			<li Name="NpcFight_ShieldConversionRate" AddV="0.2"/><!--法宝灵气恢复速度加成3-->
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.2"/>
 		</Properties>
 	</Modifier>
 	

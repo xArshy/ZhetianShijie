@@ -1,5 +1,5 @@
 <FabaoFormulas><List>
-	<!-- 万物母气鼎 -->
+	
 	<Fabao Name="TDJ_WWMQD">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_WWMQD</ItemName>
@@ -186,7 +186,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 百灵斩仙 -->
+	
 	<Fabao Name="MiBaoFormula_BaiLingZhanXianSword">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_BaiLingZhanXianSword</ItemName>
@@ -195,7 +195,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 十二煞神砂 -->
+	
 	<Fabao Name="MiBaoFormula_ShiErShaShenMoLingSha">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_ShiErShaShenMoLingSha</ItemName>
@@ -204,7 +204,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 天魔化血刀 -->
+	
 	<Fabao Name="MiBaoFormula_TianMoHuaXueShenDao">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_TianMoHuaXueShenDao</ItemName>
@@ -213,7 +213,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 饮魂珠 -->
+	
 	<Fabao Name="MiBaoFormula_YinHunZhu">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_YinHunZhu</ItemName>
@@ -222,7 +222,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 九天元阳尺 -->
+	
 	<Fabao Name="MiBaoFormula_JiuTianYuanYangChi">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_JiuTianYuanYangChi</ItemName>
@@ -231,7 +231,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 龙心圭 -->
+	
 	<Fabao Name="MiBaoFormula_LongXinYinYangGui">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_LongXinYinYangGui</ItemName>
@@ -240,7 +240,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 代身珠 -->
+	
 	<Fabao Name="MiBaoFormula_DaiShenZhu">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_DaiShenZhu</ItemName>
@@ -249,7 +249,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 七绝神针 -->
+	
 	<Fabao Name="MiBaoFormula_QiJueShenZhen">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_QiJueShenZhen</ItemName>
@@ -258,7 +258,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 吸星神索 -->
+	
 	<Fabao Name="MiBaoFormula_XiXingShenSuo">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_XiXingShenSuo</ItemName>
@@ -267,7 +267,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 太乙分光剑 -->
+	
 	<Fabao Name="MiBaoFormula_TaiYiFenGuangJian">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_TaiYiFenGuangJian</ItemName>
@@ -276,7 +276,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 五气雷符 -->
+	
 	<Fabao Name="MiBaoFormula_WuqiLeiFu">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_WuqiLeiFu</ItemName>
@@ -285,7 +285,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 金旗子 -->
+	
 	<Fabao Name="MiBaoFormula_JinFabao">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_JinFabao</ItemName>
@@ -326,7 +326,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 金莲神座 -->
+	
 	<Fabao Name="MiBaoFormula_JinLianShenZuo">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_JinLianShenZuo</ItemName>
@@ -335,7 +335,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 吞灵神剪 -->
+	
 	<Fabao Name="MiBaoFormula_TunLingShenJian">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_TunLingShenJian</ItemName>
@@ -344,7 +344,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 神农鼎 -->
+	
 	<Fabao Name="MiBaoFormula_ShenNongDing">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_ShenNongDing</ItemName>
@@ -353,7 +353,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 清宁羽 -->
+	
 	<Fabao Name="MiBaoFormula_QingNingFeiYu">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_QingNingFeiYu</ItemName>
@@ -362,7 +362,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 元神心剑 -->
+	
 	<Fabao Name="MiBaoFormula_YuanShenXinJian">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_YuanShenXinJian</ItemName>
@@ -371,7 +371,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 诛仙剑阵-->
+	
 	<Fabao Name="MiBaoFormula_ZhuXianJian">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_ZhuXianJian</ItemName>
@@ -380,7 +380,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 诛仙剑阵-->
+	
 	<Fabao Name="MiBaoFormula_LuXianJian">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_LuXianJian</ItemName>
@@ -389,7 +389,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 诛仙剑阵-->
+	
 	<Fabao Name="MiBaoFormula_XianXianJian">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_XianXianJian</ItemName>
@@ -398,7 +398,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 诛仙剑阵-->
+	
 	<Fabao Name="MiBaoFormula_JueXianJian">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_JueXianJian</ItemName>
@@ -407,7 +407,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 天狼钉-->
+	
 	<Fabao Name="MiBaoFormula_TianLangDing">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_TianLangDing</ItemName>
@@ -416,7 +416,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 七星剑阵-->
+	
 	<Fabao Name="MiBaoFormula_TianShu">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_TianShu</ItemName>
@@ -425,7 +425,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 七星剑阵-->
+	
 	<Fabao Name="MiBaoFormula_TianQuan">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_TianQuan</ItemName>
@@ -434,7 +434,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 七星剑阵-->
+	
 	<Fabao Name="MiBaoFormula_TianJi">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_TianJi</ItemName>
@@ -443,7 +443,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 七星剑阵-->
+	
 	<Fabao Name="MiBaoFormula_TianXuan">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_TianXuan</ItemName>
@@ -452,7 +452,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 七星剑阵-->
+	
 	<Fabao Name="MiBaoFormula_YuHeng">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_YuHeng</ItemName>
@@ -461,7 +461,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 七星剑阵-->
+	
 	<Fabao Name="MiBaoFormula_KaiYang">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_KaiYang</ItemName>
@@ -470,7 +470,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 七星剑阵-->
+	
 	<Fabao Name="MiBaoFormula_YaoGuang">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_YaoGuang</ItemName>
@@ -479,7 +479,7 @@
 		<Count>1</Count>
 	</Fabao>
 	
-	<!-- 葵花神剑-->
+	
 	<Fabao Name="MiBaoFormula_KuiHuaShenJian">
 		<Normal>0</Normal>
 		<ItemName>Item_MiBao_KuiHuaShenJian</ItemName>

@@ -1,49 +1,49 @@
 <Esotericas><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Esoterica Name="Gong_XHJ_LH_A1">
-		<DisplayName>瑶池仙境</DisplayName>
+		<DisplayName>Yaochi Wonderland</DisplayName>
 		<Icon>Spr\Object\JN\ZT_XHJ_DJ\YCXJ.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>15</Difficulty>
-		<Desc>瑶池，神话中昆仑山上的池名，是西皇母所住的地方。</Desc>
+		<Desc>Yaochi, the name of the pool on the Kunlun Mountain in mythology, is the place where the West Emperor mother lived.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>Shui</Element>
 		<Type>Gong</Type>
-		<EffectDesc>[size=10][color=#D06508]    一重天    \n加五维\n加灵力最大值\n加参悟值领悟系数\n习得秘术：瑶池[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]A heavy day \n plus five dimensions \n plus the maximum spiritual power \n plus the perception value of the perception coefficient \n learned secret technique: Yaochi[/color][/size]</EffectDesc>
 		<Modifier>Gong_XHJ_LH_1A</Modifier>
 		<Skills>
 			<li>XHJ_YC</li>
 		</Skills>
 	</Esoterica>
 	<Esoterica Name="Gong_XHJ_LH_A1_1">
-		<DisplayName>瑶池仙境</DisplayName>
+		<DisplayName>Yaochi Wonderland</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XHJ_DJ\YCXJ.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>瑶池，神话中昆仑山上的池名，是西皇母所住的地方。</Desc>
+		<Desc>Yaochi, the name of the pool on the Kunlun Mountain in mythology, is the place where the West Emperor mother lived.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>Shui</Element>
-		<EffectDesc>[size=10][color=#D06508]    二重天    \n加五维属性\n加个人灵气\n加个人回灵[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    Double Heaven \nAdd five-dimensional attributes \ nAdd personal aura \ nAdd personal rejuvenation[/color][/size]</EffectDesc>
 		<Modifier>Gong_XHJ_LH_1A_1</Modifier>
 	</Esoterica>
 	<Esoterica Name="Gong_XHJ_LH_A1_2">
-		<DisplayName>瑶池仙境</DisplayName>
+		<DisplayName>Yaochi Wonderland</DisplayName>
 		<Hide>2</Hide>
 		<Icon>Spr\Object\JN\ZT_XHJ_DJ\YCXJ.png</Icon>
 		<StarLevel>2</StarLevel>
 		<Difficulty>10</Difficulty>
-		<Desc>瑶池，神话中昆仑山上的池名，是西皇母所住的地方。</Desc>
+		<Desc>Yaochi, the name of the pool on the Kunlun Mountain in mythology, is the place where the West Emperor mother lived.</Desc>
 		<GLevel>Qi</GLevel>
 		<Element>Shui</Element>
-		<EffectDesc>[size=10][color=#D06508]    三重天    \n加潜力\n加法宝回灵倍率\n加心境[/color][/size]</EffectDesc>
+		<EffectDesc>[size=10][color=#D06508]    Triple Sky \nAdd Potential \nAdd Magic Power Regen Multiplier \nAdd Mood[/color][/size]</EffectDesc>
 		<Modifier>Gong_XHJ_LH_1A_2</Modifier>
 	</Esoterica>
 	
 	
-	<!-- ==========================技能2========================== -->
+	
 	
 	<Esoterica Name="Gong_XHJ_LH_A2">
 		<DisplayName>霞雾缭绕</DisplayName>
@@ -97,7 +97,7 @@
 		
 	</Esoterica>
 	
-	<!-- ==========================技能3========================== -->
+	
 	
 	<Esoterica Name="Gong_XHJ_LH_A3">
 		<DisplayName>仙韵</DisplayName>
@@ -125,7 +125,7 @@
 		<Modifier>Gong_XHJ_LH_3A_1</Modifier>
 	</Esoterica>
 	
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Esoterica Name="Gong_XHJ_LH_B1">
 		<DisplayName>西皇经道宫卷</DisplayName>
@@ -164,7 +164,7 @@
 		<Modifier>Gong_XHJ_LH_1B_2</Modifier>
 	</Esoterica>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 	<Esoterica Name="Gong_XHJ_DG_B1">
 		<DisplayName>迩言翼</DisplayName>
@@ -205,7 +205,7 @@
 		</Magics>
 	</Esoterica>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 	<Esoterica Name="Gong_XHJ_LH_B3_YCSS">
 		<DisplayName>瑶池圣术</DisplayName>
@@ -226,7 +226,7 @@
 		</Magics>
 	</Esoterica>
 	
-	<!-- ==========================分割线========================== -->
+	
 	
 	<Esoterica Name="Gong_XHJ_SJ_C1">
 		<DisplayName>玉女传道宝卷</DisplayName>
@@ -265,43 +265,43 @@
 		<Element>Shui</Element>
 		<EffectDesc>[size=10][color=#D06508]\n习得  丹方：黄芽秘丹方\n天格[/color][/size]</EffectDesc>
 		<Dans>
-			<li>BasePracticeDrug</li><!-- 筑基丹 -->
-			<li>Dan_Restore</li><!-- 归源散 -->
-			<li>Dan_Defense</li><!-- 真罡丹 -->
-			<li>Dan_CalmDown</li><!-- 清心丹 -->
-			<li>Dan_Happiness</li><!-- 极乐丹 -->
-			<li>Dan_LostSoul</li><!-- 摄神丹 -->
-			<li>Dan_PracticeRate</li><!-- 黄庭丹 -->
-			<li>Dan_PracticeSpeed</li><!-- 黄芽丹 -->
-			<li>Dan_Thin</li><!-- 塑身丹 -->
-			<li>Dan_Fat</li><!-- 壮体丹 -->
-			<li>Dan_DredgeQi</li><!-- 理气丹 -->
-			<li>Dan_DredgeQi1</li><!-- 通脉散 -->
-			<li>Dan_WuLingSan</li><!-- 五灵散 -->
-			<li>Dan_CureFiveElementDamage</li><!-- 五方化伤丹 -->
-			<li>Dan_CureShuiDamage</li><!-- 庚金万化丹 -->
-			<li>Dan_CureShuiDamage</li><!-- 碧春丹 -->
-			<li>Dan_CureShuiDamage</li><!-- 天一承气散 -->
-			<li>Dan_CureShuiDamage</li><!-- 火真丹 -->
-			<li>Dan_CureShuiDamage</li><!-- 定坤丹 -->
-			<li>Dan_NoHunger2</li><!-- 辟谷丹 -->
-			<li>Dan_NoHunger1</li><!-- 兵粮丸 -->
-			<li>Dan_NoHunger</li><!-- 饮气丹 -->
-			<li>Dan_ShuigYuan</li><!-- 精元丹 -->
-			<li>Dan_ShuigYuan2</li><!-- 参芝九窍丸 -->
-			<li>Dan_ShuigYuan3</li><!-- 血竭散 -->
-			<li>Dan_Ling</li><!-- 聚灵丹 -->
-			<li>Dan_Ling2</li><!-- 紫阳丹 -->
-			<li>Dan_Ling3</li><!-- 万灵散 -->
-			<li>Dan_HundredRefine</li><!-- 九转金丹 -->
-			<li>Dan_ExtremeLofty</li><!-- 造化神丹 -->
-			<li>Dan_IncreaseLife1</li><!-- 长生丹 -->
-			<li>Dan_IncreaseLife2</li><!-- 玄牝续命散 -->
-			<li>Dan_IncreaseLife3</li><!-- 五极灵丹 -->
-			<li>Dan_IncreaseLife4</li><!-- 再造金丹 -->
-			<li>Dan_IncreaseLife5</li><!-- 未来星宿化劫丹 -->
-			<li>Dan_IncreaseNeckCountdown1</li><!-- 乾元避劫丹 -->
-			<li>Dan_IncreaseNeckCountdown2</li><!-- 碧血丹青 -->
+			<li>BasePracticeDrug</li>
+			<li>Dan_Restore</li>
+			<li>Dan_Defense</li>
+			<li>Dan_CalmDown</li>
+			<li>Dan_Happiness</li>
+			<li>Dan_LostSoul</li>
+			<li>Dan_PracticeRate</li>
+			<li>Dan_PracticeSpeed</li>
+			<li>Dan_Thin</li>
+			<li>Dan_Fat</li>
+			<li>Dan_DredgeQi</li>
+			<li>Dan_DredgeQi1</li>
+			<li>Dan_WuLingSan</li>
+			<li>Dan_CureFiveElementDamage</li>
+			<li>Dan_CureShuiDamage</li>
+			<li>Dan_CureShuiDamage</li>
+			<li>Dan_CureShuiDamage</li>
+			<li>Dan_CureShuiDamage</li>
+			<li>Dan_CureShuiDamage</li>
+			<li>Dan_NoHunger2</li>
+			<li>Dan_NoHunger1</li>
+			<li>Dan_NoHunger</li>
+			<li>Dan_ShuigYuan</li>
+			<li>Dan_ShuigYuan2</li>
+			<li>Dan_ShuigYuan3</li>
+			<li>Dan_Ling</li>
+			<li>Dan_Ling2</li>
+			<li>Dan_Ling3</li>
+			<li>Dan_HundredRefine</li>
+			<li>Dan_ExtremeLofty</li>
+			<li>Dan_IncreaseLife1</li>
+			<li>Dan_IncreaseLife2</li>
+			<li>Dan_IncreaseLife3</li>
+			<li>Dan_IncreaseLife4</li>
+			<li>Dan_IncreaseLife5</li>
+			<li>Dan_IncreaseNeckCountdown1</li>
+			<li>Dan_IncreaseNeckCountdown2</li>
 			</Dans>
 	</Esoterica>
 	
@@ -316,30 +316,30 @@
 		<Element>Shui</Element>
 		<EffectDesc>[size=10][color=#D06508]\n习得  丹方：金蚕卧丹发[/color][/size]</EffectDesc>
 		<Dans>
-			<li>Dan_FiveBase1</li><!-- 通天丸 -->
-			<li>Dan_FiveBase2</li><!-- 纳地丸 -->
-			<li>Dan_FiveBase3</li><!-- 逸仙丸 -->
-			<li>Dan_FiveBase4</li><!-- 明通丸 -->
-			<li>Dan_FiveBase5</li><!-- 神佑丸 -->
-			<li>Dan_FiveBaseFromLife</li><!-- 五毒五蕴五炁神丹 -->
-			<li>Dan_Soul1</li><!-- 神泣丹 -->
-			<li>Dan_Soul2</li><!-- 通玄丹 -->
-			<li>Dan_Soul3</li><!-- 凝珀丹 -->
-			<li>Dan_Soul4</li><!-- 燃魂丹 -->
-			<li>Dan_SwordBall</li><!-- 剑丸 -->
-			<li>Dan_TreeEXP</li><!-- 天道神丹 -->
-			<li>Dan_LunHui1</li><!-- 封印的记忆：星途闪耀 -->
-			<li>Dan_ReBorn</li><!-- 玄牝重生丹 -->
-			<li>Dan_LingYuanZhong</li><!-- 灵源种 -->
-			<li>Dan_LingYuanSha</li><!-- 造化玉砂 -->
-			<li>Dan_LongDan1</li><!-- 龙魂真灵丹 -->
-			<li>Dan_FengDan1</li><!-- 凤魂真灵丹 -->
-			<li>Dan_ZhuLongDan1</li><!-- 阴阳真灵丹 -->
-			<li>Dan_FenShen1</li><!-- 盘古元神丹 -->
-			<li>Dan_FenShen2</li><!-- 造化同心丹 -->
-			<li>Dan_FenShen3</li><!-- 裂神丹 -->
-			<li>Dan_LingYuanZhong</li><!-- 灵源种 -->
-			<li>Dan_LingYuanSha</li><!-- 灵源砂 -->
+			<li>Dan_FiveBase1</li>
+			<li>Dan_FiveBase2</li>
+			<li>Dan_FiveBase3</li>
+			<li>Dan_FiveBase4</li>
+			<li>Dan_FiveBase5</li>
+			<li>Dan_FiveBaseFromLife</li>
+			<li>Dan_Soul1</li>
+			<li>Dan_Soul2</li>
+			<li>Dan_Soul3</li>
+			<li>Dan_Soul4</li>
+			<li>Dan_SwordBall</li>
+			<li>Dan_TreeEXP</li>
+			<li>Dan_LunHui1</li>
+			<li>Dan_ReBorn</li>
+			<li>Dan_LingYuanZhong</li>
+			<li>Dan_LingYuanSha</li>
+			<li>Dan_LongDan1</li>
+			<li>Dan_FengDan1</li>
+			<li>Dan_ZhuLongDan1</li>
+			<li>Dan_FenShen1</li>
+			<li>Dan_FenShen2</li>
+			<li>Dan_FenShen3</li>
+			<li>Dan_LingYuanZhong</li>
+			<li>Dan_LingYuanSha</li>
 			
 		</Dans>
 	</Esoterica>

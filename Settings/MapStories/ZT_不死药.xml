@@ -33,7 +33,7 @@
 							me:AddDamage("Huo_VisceralBurn","Lung",1,XT("True Dragon Backbone"));
 							me:AddDamage("Huo_BurnOfPain","LeftShoulder",1,XT("True Dragon Backbone"));
 					end
-				]]>		
+				]]>
 				</OKResult>
 			</li>
 			<li>

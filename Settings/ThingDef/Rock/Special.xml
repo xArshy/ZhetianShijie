@@ -43,7 +43,7 @@
 	<Desc>Reiki is at its root;</Desc>
 	<Beauty>10</Beauty>
 	<TileID>-1</TileID>	
-<!--	<Color>00DEFFFF</Color>-->
+
 	<ThingName>Spirit vein</ThingName>
 	<Harvest>
 		<DropWork>1000</DropWork>      

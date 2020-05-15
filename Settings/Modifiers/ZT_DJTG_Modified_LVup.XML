@@ -1,6 +1,6 @@
 <ModifierDefs><List>
 	
-	<!-- ==========================技能1========================== -->
+	
 	
 	<Modifier Name="Gong_DJTG_LH_1A" Type="Normal">
 		<DisplayName>IX reincarnation</DisplayName>
@@ -36,7 +36,7 @@
 			<li Name="MindStateBaseValue" AddV="20"/>
 		</Properties>
 	</Modifier>
-	<!-- ==========================技能2========================== -->
+	
 	<Modifier Name="Gong_DJTG_LH_2A_WL" Type="Normal">
 		<DisplayName>Unscrupulous</DisplayName>
 		<MaxStack>0</MaxStack>
@@ -50,7 +50,7 @@
 	</Modifier>
 	
 	
-	<!-- ==========================技能3========================== -->
+	
 	<Modifier Name="Gong_DJTG_LH_3A" Type="Normal">
 		<DisplayName>结善缘</DisplayName>
 		<MaxStack>0</MaxStack>
@@ -93,7 +93,7 @@
 		</Properties>
 	</Modifier>
 	
-	<!-- ==========================技能4========================== -->
+	
 	
 	<Modifier Name="Gong_DJTG_LH_1B" Type="Normal">
 		<DisplayName>九世轮回</DisplayName>
@@ -135,7 +135,7 @@
 		</Properties>
 	</Modifier>
 	
-	<!-- ==========================技能5========================== -->
+	
 	
 		<Modifier Name="Gong_DJTG_DG_1B" Type="Normal">
 		<DisplayName>源道</DisplayName>
@@ -182,7 +182,7 @@
 	</Modifier>
 	
 	
-	<!-- ==========================分割线========================== -->
+	
 	
 	<Modifier Name="Gong_DJTG_SJ_1C" Type="Normal">
 		<DisplayName>九世轮回</DisplayName>
@@ -294,7 +294,7 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
-			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.275"/><!--护盾强度加值2-->
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.275"/>
 			<li Name="NpcFight_ShieldConversionRate" AddV="0.25"/>
 			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.2"/> 
 		</Properties>

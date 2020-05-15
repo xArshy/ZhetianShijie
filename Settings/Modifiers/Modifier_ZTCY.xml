@@ -237,61 +237,61 @@
 		<Sync>1</Sync>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		 <Properties>
-				<li Name="MaxAge" AddV="1000"/><!--寿元-->
-				<li Name="MindStateBaseValue" AddV="10"/><!--心情基础值-->
-				<li Name="IntelligenceSkillEXPConstant" AddP="0.3"/><!--学习速度-->
-				<li Name="VisionRadius" AddP="0.1"/><!--感知范围-->
-				<li Name="MoveSpeed" AddP="0.1"/><!--移动速度-->
-				<li Name="RecoveryPower" AddP="0.1"/><!--自然恢复力-->
-				<li Name="MagicDamageRecoveryPowerAddV" AddV="0.1"/><!--内门伤自然恢复力-->
-				<li Name="FatigueConsumeConstant" AddP="-0.1"/><!--精力消耗速度加成-->
-				<li Name="NutritionConsumeConstant" AddP="-0.1"/><!--食物消耗速度加成-->
-				<li Name="WaterConsumeConstant" AddP="-0.1"/><!--饮水消耗速度加成-->
-				<li Name="HappyConsumeConstant" AddP="-0.1"/><!--娱乐消耗速度加成-->
-				<li Name="ToleranceTMin" AddV="-10"/><!--最低极限温度-->
-				<li Name="ToleranceTMax" AddV="10"/><!--最高极限温度-->
-				<li Name="ComfyTMin" AddV="-10"/><!--最低舒适温度-->
-				<li Name="ComfyTMax" AddV="10"/><!--最高舒适温度-->
-				<li Name="PainTolerance" AddV="1"/><!--疼痛忍受极限-->
-				<li Name="IntelligenceSkillEXPConstant" AddP="0.1"/><!--学习速度加成-->
-				<li Name="PracticeFoodConsumeConstant" AddP="0.1"/><!--精元消耗速度-->
-				<li Name="FatigueConsumeConstant" AddP="-0.1"/><!--精力消耗速度-->
+				<li Name="MaxAge" AddV="1000"/>
+				<li Name="MindStateBaseValue" AddV="10"/>
+				<li Name="IntelligenceSkillEXPConstant" AddP="0.3"/>
+				<li Name="VisionRadius" AddP="0.1"/>
+				<li Name="MoveSpeed" AddP="0.1"/>
+				<li Name="RecoveryPower" AddP="0.1"/>
+				<li Name="MagicDamageRecoveryPowerAddV" AddV="0.1"/>
+				<li Name="FatigueConsumeConstant" AddP="-0.1"/>
+				<li Name="NutritionConsumeConstant" AddP="-0.1"/>
+				<li Name="WaterConsumeConstant" AddP="-0.1"/>
+				<li Name="HappyConsumeConstant" AddP="-0.1"/>
+				<li Name="ToleranceTMin" AddV="-10"/>
+				<li Name="ToleranceTMax" AddV="10"/>
+				<li Name="ComfyTMin" AddV="-10"/>
+				<li Name="ComfyTMax" AddV="10"/>
+				<li Name="PainTolerance" AddV="1"/>
+				<li Name="IntelligenceSkillEXPConstant" AddP="0.1"/>
+				<li Name="PracticeFoodConsumeConstant" AddP="0.1"/>
+				<li Name="FatigueConsumeConstant" AddP="-0.1"/>
 				
 				战斗
-				<li Name="NpcFight_BaseHitChance" AddV="0.1"/><!--战斗命中-->
-				<li Name="NpcFight_BaseDodgeChance" AddV="0.1"/><!--战斗闪避-->
-				<li Name="NpcFight_FabaoPowerAddP" AddP="0.1"/><!--法宝威力加成-->
-				<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.1"/><!--法宝灵气恢复速度加成-->
-				<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.1"/><!--法宝灵气最大值加成-->
-				<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="0.1"/><!--法宝击退距离加成-->
-				<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.1"/><!--法宝飞行速度加成-->
-				<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0.1"/><!--法宝转向速度加成-->
-				<li Name="NpcFight_FabaoRepelResistanceAddV" AddP="0.1"/><!--法宝击退距离抗性-->
-				<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="0.1"/><!--法宝拖尾长度加成-->
-				<li Name="NpcFight_SpellLingCostAddP" AddP="-0.1"/><!--术法灵气消耗加成-->
-				<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/><!--术法吟唱时间加成-->
-				<li Name="NpcFight_SpellPowerAddP" AddP="0.1"/><!--术法伤害加成-->
-				<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.1"/><!--术法冷却时间加成-->
-				<li Name="NpcFight_ShieldConversionRate" AddP="0.1"/><!--护盾强度加值-->
-				<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.1"/><!--护盾强度加成-->
-				<li Name="NpcFight_FabaoNum" AddV="1"/><!--法宝数量-->
+				<li Name="NpcFight_BaseHitChance" AddV="0.1"/>
+				<li Name="NpcFight_BaseDodgeChance" AddV="0.1"/>
+				<li Name="NpcFight_FabaoPowerAddP" AddP="0.1"/>
+				<li Name="NpcFight_FabaoLingRecoverAddP" AddP="0.1"/>
+				<li Name="NpcFight_FabaoMaxLingAddP" AddP="0.1"/>
+				<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="0.1"/>
+				<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.1"/>
+				<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0.1"/>
+				<li Name="NpcFight_FabaoRepelResistanceAddV" AddP="0.1"/>
+				<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="0.1"/>
+				<li Name="NpcFight_SpellLingCostAddP" AddP="-0.1"/>
+				<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.1"/>
+				<li Name="NpcFight_SpellPowerAddP" AddP="0.1"/>
+				<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.1"/>
+				<li Name="NpcFight_ShieldConversionRate" AddP="0.1"/>
+				<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.1"/>
+				<li Name="NpcFight_FabaoNum" AddV="1"/>
 				
 				
 				修行
-				<li Name="PracticeRateAddPFromDan" AddP="0.1"/><!--Bottleneck breakthrough probability bonus coefficient-->
-				<li Name="ExperienceNeckTimeCostCoefficient" AddP="-0.1"/><!--历练型瓶颈时间放大系数-->
-				<li Name="PotentialOfBasepracticeAddValue" AddV="0.1"/><!--潜力值-->
-				<li Name="GodPenaltyAddV" AddV="10"/><!--天谴，正的加天谴的。-->
-				<li Name="MaxAccumulativeLingAddV" AddV="1000"/><!--炉鼎值-->
-				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.1"/><!--瓶颈突破概率加成系数-->
-				<li Name="InspirationCoefficient" AddP="0.1"/><!--领悟悟性-->
-				<li Name="LingAbsorbSpeed" AddP="0.1"/><!--灵气吸收速度-->
-				<li Name="NpcLingMaxValue" AddV="10000"/><!--基础灵气最大值-->
-				<li Name="WorldMapFlySpeed" AddP="0.1"/><!--历练飞行速度-->
-				<li Name="WorldMapFlySpeedAddP" AddP="-0.1"/><!--历练飞行速度加成-->
-				<li Name="ExperiencePrestigeAddP" AddP="0.1"/><!--历练型声望放大系数-->
-				<li Name="EsotericaNum" AddV="99"/><!--Number of cheats-->
-				<li Name="AbilityLvAddV" AddV="20"/><!--Daoxian-->
+				<li Name="PracticeRateAddPFromDan" AddP="0.1"/>
+				<li Name="ExperienceNeckTimeCostCoefficient" AddP="-0.1"/>
+				<li Name="PotentialOfBasepracticeAddValue" AddV="0.1"/>
+				<li Name="GodPenaltyAddV" AddV="10"/>
+				<li Name="MaxAccumulativeLingAddV" AddV="1000"/>
+				<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.1"/>
+				<li Name="InspirationCoefficient" AddP="0.1"/>
+				<li Name="LingAbsorbSpeed" AddP="0.1"/>
+				<li Name="NpcLingMaxValue" AddV="10000"/>
+				<li Name="WorldMapFlySpeed" AddP="0.1"/>
+				<li Name="WorldMapFlySpeedAddP" AddP="-0.1"/>
+				<li Name="ExperiencePrestigeAddP" AddP="0.1"/>
+				<li Name="EsotericaNum" AddV="99"/>
+				<li Name="AbilityLvAddV" AddV="20"/>
 		</Properties>
 	</Modifier>
 	<Modifier Name="ZTDrug_JHZ" Type="Normal">
@@ -323,7 +323,7 @@
 		<Display>1</Display>
 		<Sync>1</Sync>
 		<Properties>	
-		<li Name="LingAbsorbSpeed" AddV="50"/><!--基础灵气最大值-->	
+		<li Name="LingAbsorbSpeed" AddV="50"/>	
 		</Properties>
 	</Modifier>
 	<Modifier Name="ZTDrug_LYBX" Type="Normal">
@@ -334,8 +334,8 @@
 		<Display>1</Display>
 		<Sync>1</Sync>
 		<Properties>	
-		<li Name="MindStateBaseValue" AddV="20"/><!--基础灵气最大值-->	
-		<li Name="SpeedOfMindStateCoefficient" AddV="10"/><!--基础灵气最大值-->	
+		<li Name="MindStateBaseValue" AddV="20"/>	
+		<li Name="SpeedOfMindStateCoefficient" AddV="10"/>	
 		</Properties>
 	</Modifier>
 	<Modifier Name="ZTDrug_LHY" Type="Normal">
@@ -347,7 +347,7 @@
 		<Sync>1</Sync>
 		<EndModifier>ZTDrug_LHY1</EndModifier>
 		<Properties>	
-		<li Name="NpcFight_SpellPowerAddP" AddP="2"/><!--基础灵气最大值-->	
+		<li Name="NpcFight_SpellPowerAddP" AddP="2"/>	
 		
 		</Properties>
 	</Modifier>
@@ -359,7 +359,7 @@
 		<Display>1</Display>
 		<Sync>1</Sync>
 		<Properties>	
-		<li Name="NpcFight_SpellPowerAddP" AddP="-4"/><!--基础灵气最大值-->	
+		<li Name="NpcFight_SpellPowerAddP" AddP="-4"/>	
 		
 		</Properties>
 	</Modifier>
@@ -384,7 +384,7 @@
 		<Sync>1</Sync>
 		<BaseFive>2,0,0,0,0</BaseFive>
 		 <Properties>	
-		<li Name="NpcLingMaxValue" AddP="0.2"/><!--基础灵气最大值-->	
+		<li Name="NpcLingMaxValue" AddP="0.2"/>	
 		</Properties>
 	</Modifier>
 	<Modifier Name="ZTDrug_CL" Type="Normal">
@@ -396,8 +396,8 @@
 		<Sync>1</Sync>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		 <Properties>	
-		<li Name="NpcFight_FabaoPowerAddP" AddP="-0.2"/><!--基础灵气最大值-->	
-		<li Name="NpcFight_SpellPowerAddP" AddP="0.1"/><!--基础灵气最大值-->	
+		<li Name="NpcFight_FabaoPowerAddP" AddP="-0.2"/>	
+		<li Name="NpcFight_SpellPowerAddP" AddP="0.1"/>	
 		</Properties>
 	</Modifier>
 	<Modifier Name="ZTDrug_FX" Type="Normal">
@@ -409,8 +409,8 @@
 		<Sync>1</Sync>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		 <Properties>	
-		<li Name="NpcFight_FabaoPowerAddP" AddP="0.1"/><!--基础灵气最大值-->	
-		<li Name="NpcFight_SpellPowerAddP" AddP="-0.2"/><!--基础灵气最大值-->	
+		<li Name="NpcFight_FabaoPowerAddP" AddP="0.1"/>	
+		<li Name="NpcFight_SpellPowerAddP" AddP="-0.2"/>	
 		</Properties>
 	</Modifier>
 	<Modifier Name="ZTDrug_XYC" Type="Normal">
@@ -458,8 +458,8 @@
 		<Sync>1</Sync>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		 <Properties>	
-		<li Name="MaxAge" AddV="200"/><!--基础灵气最大值-->	
-		<li Name="GodPenaltyAddV" AddV="10"/><!--基础灵气最大值-->	
+		<li Name="MaxAge" AddV="200"/>	
+		<li Name="GodPenaltyAddV" AddV="10"/>	
 		</Properties>
 	</Modifier>
 	<Modifier Name="ZTDrug_CBS" Type="Normal">
@@ -471,7 +471,7 @@
 		<Sync>1</Sync>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		 <Properties>	
-		<li Name="MaxAge" AddV="300"/><!--基础灵气最大值-->	
+		<li Name="MaxAge" AddV="300"/>	
 		
 		</Properties>
 	</Modifier>
@@ -484,7 +484,7 @@
 		<Sync>1</Sync>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		 <Properties>	
-		<li Name="NpcFight_BaseDodgeChance" AddV="0.5"/><!--基础灵气最大值-->	
+		<li Name="NpcFight_BaseDodgeChance" AddV="0.5"/>	
 		</Properties>
 	</Modifier>
 	<Modifier Name="ZTDrug_YS" Type="Normal">
@@ -496,8 +496,8 @@
 		<Sync>1</Sync>
 		<BaseFive>0,0,0,0,0</BaseFive>
 		 <Properties>	
-		<li Name="MaxAge" AddV="-200"/><!--基础灵气最大值-->	
-		<li Name="GodPenaltyAddV" AddV="-10"/><!--基础灵气最大值-->	
+		<li Name="MaxAge" AddV="-200"/>	
+		<li Name="GodPenaltyAddV" AddV="-10"/>	
 		</Properties>
 	</Modifier>
 	
@@ -511,7 +511,7 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
 			<li Name="MaxAge" AddV="600"/>
-			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="AbilityLvAddV" AddV="-50"/>
 			<li Name="GodPenaltyAddV" AddV="-25"/>
 			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.1"/>
 		</Properties>
@@ -526,7 +526,7 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
 			<li Name="MaxAge" AddV="600"/>
-			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="AbilityLvAddV" AddV="-50"/>
 			<li Name="GodPenaltyAddV" AddV="-25"/>
 			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.1"/>
 		</Properties>
@@ -541,7 +541,7 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
 			<li Name="MaxAge" AddV="600"/>
-			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="AbilityLvAddV" AddV="-50"/>
 			<li Name="GodPenaltyAddV" AddV="-25"/>
 			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.1"/>
 		</Properties>
@@ -556,7 +556,7 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
 			<li Name="MaxAge" AddV="600"/>
-			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="AbilityLvAddV" AddV="-50"/>
 			<li Name="GodPenaltyAddV" AddV="-25"/>
 			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.1"/>
 		</Properties>
@@ -571,7 +571,7 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
 			<li Name="MaxAge" AddV="600"/>
-			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="AbilityLvAddV" AddV="-50"/>
 			<li Name="GodPenaltyAddV" AddV="-25"/>
 			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.1"/>
 		</Properties>
@@ -586,7 +586,7 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
 			<li Name="MaxAge" AddV="600"/>
-			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="AbilityLvAddV" AddV="-50"/>
 			<li Name="GodPenaltyAddV" AddV="-25"/>
 			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.1"/>
 		</Properties>
@@ -601,7 +601,7 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
 			<li Name="MaxAge" AddV="600"/>
-			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="AbilityLvAddV" AddV="-50"/>
 			<li Name="GodPenaltyAddV" AddV="-25"/>
 			<li Name="NpcFight_FabaoPowerAddP" AddP="5"/>
 		</Properties>
@@ -616,7 +616,7 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
 			<li Name="MaxAge" AddV="600"/>
-			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="AbilityLvAddV" AddV="-50"/>
 			<li Name="GodPenaltyAddV" AddV="-25"/>
 			<li Name="NpcFight_SpellPowerAddP" AddP="5"/>
 		</Properties>
@@ -631,7 +631,7 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
 			<li Name="MaxAge" AddV="600"/>
-			<li Name="AbilityLvAddV" AddV="-50"/><!--道行加值-->
+			<li Name="AbilityLvAddV" AddV="-50"/>
 			<li Name="GodPenaltyAddV" AddV="-25"/>
 			<li Name="NpcLingMaxValue" AddP="5"/>
 			<li Name="LingAbsorbSpeed" AddP="5"/>
@@ -647,7 +647,7 @@
 		<BaseFive>0,0,0,0,0</BaseFive>
 		<Properties>
 			<li Name="MaxAge" AddV="10000"/>
-			<li Name="AbilityLvAddV" AddV="-1500"/><!--道行加值-->
+			<li Name="AbilityLvAddV" AddV="-1500"/>
 			<li Name="GodPenaltyAddV" AddV="-250"/>
 			<li Name="NpcLingMaxValue" AddP="10"/>
 			<li Name="LingAbsorbSpeed" AddP="10"/>

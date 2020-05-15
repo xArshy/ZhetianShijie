@@ -1,5 +1,5 @@
 <ThingDefs><List>
-<!--无-->
+
 	<ThingDef Type="Item" Name="Item_AL" Parent="DrugBase">
 	<ThingName>Dark lotus</ThingName>
 	<TexPath>Spr\Object\ZW\AL.PNG</TexPath>	
@@ -354,7 +354,7 @@
 		
 	</Light>
 	</ThingDef>
-<!--金-->
+
 		
 	<ThingDef Type="Item" Name="Item_JC" Parent="DrugBase">
 	<ThingName>Sword cluster</ThingName>
@@ -693,7 +693,7 @@
 	
 	</ThingDef>
 	
-<!--木-->	
+
 	<ThingDef Type="Item" Name="Item_GJZ" Parent="DrugBase">
 	<ThingName>Tricky bamboo</ThingName>
 	<TexPath>Spr\Object\ZW\GJZ.PNG</TexPath>	
@@ -1048,7 +1048,7 @@
 	
 	</ThingDef>
 
-<!--水-->
+
 	<ThingDef Type="Item" Name="Item_YMY" Parent="DrugBase">
 	<ThingName>Cinnamon leaf</ThingName>
 	<TexPath>Spr\Object\ZW\YMC.PNG</TexPath>	
@@ -1389,7 +1389,7 @@
 	
 	</ThingDef>
 	
-<!--火-->	
+
 	<ThingDef Type="Item" Name="Item_HYY" Parent="DrugBase">
 	<ThingName>Mixed leaves</ThingName>
 	<TexPath>Spr\Object\ZW\YMC.PNG</TexPath>	
@@ -1735,7 +1735,7 @@
 	
 	</ThingDef>
 	
-<!--土-->
+
 	<ThingDef Type="Item" Name="Item_LX" Parent="DrugBase">
 	<ThingName>Old beard</ThingName>
 	<TexPath>Spr\Object\ZW\LX.PNG</TexPath>	
@@ -2061,7 +2061,7 @@
 	</ThingDef>
 	
 	
-<!--九妙-->	
+	
 	<ThingDef Type="Item" Name="Item_JM1" Parent="DrugBase">
 	<ThingName>One of the nine magic pills</ThingName>
 	<TexPath>Spr\Object\ZW\JMBSY1.PNG</TexPath>	

@@ -11,7 +11,7 @@
 			<Snow>0</Snow>
 			<Weather>DustPlace</Weather>
 			<PowerLevel>25</PowerLevel>
-		<Events><!-- 嗯-->
+		<Events>
 
 			<li Name="Story" Rate="0.8"/>
 			<li Name="Treasure" Rate="0.5"/>
@@ -50,7 +50,7 @@
 			<Snow>0</Snow>
 			<Weather>LingUpWave_Big</Weather>
 			<PowerLevel>25</PowerLevel>
-		<Events><!-- 嗯-->
+		<Events>
 			<li Name="Visit" Rate="5"/>
 			<li Name="Story" Rate="0.8"/>
 			<li Name="Treasure" Rate="0.5"/>
@@ -138,7 +138,7 @@
 			<Snow>0</Snow>
 			<Weather>Weather_Magic_ZhenHuoJieJie</Weather>
 			<PowerLevel>12</PowerLevel>
-		<Events><!-- 嗯-->
+		<Events>
 			<li Name="Story" Rate="0.8"/>
 			<li Name="Treasure" Rate="1.5"/>
 
@@ -172,7 +172,7 @@
 			<Snow>0</Snow>
 			<Weather>LingUpWave_Sp</Weather>
 			<PowerLevel>21</PowerLevel>
-		<Events><!-- 嗯-->
+		<Events>
 			<li Name="Visit" Rate="5"/>
 			<li Name="Story" Rate="0.8"/>
 			<li Name="Treasure" Rate="0.5"/>
@@ -223,7 +223,7 @@
 			<Snow>0</Snow>
 			<Weather>SunnyDay</Weather>
 			<PowerLevel>16</PowerLevel>
-		<Events><!-- 嗯-->
+		<Events>
 			<li Name="Story" Rate="1"/>
 			<li Name="Join" Rate="1"/>
 			<li Name="GoodFight" Rate="1"/>
@@ -293,7 +293,7 @@
 			<Snow>0</Snow>
 			<Weather>DenseFog</Weather>
 			<PowerLevel>12</PowerLevel>
-		<Events><!-- 嗯-->
+		<Events>
 			<li Name="GoodFight" Rate="1"/>
 			<li Name="BadFight" Rate="0.8"/>
 			<li Name="Find" Rate="2"/>
@@ -325,7 +325,7 @@
 			<Snow>0</Snow>
 			<Weather>Rainstorm</Weather>
 			<PowerLevel>18</PowerLevel>
-		<Events><!-- 嗯-->
+		<Events>
 			<li Name="Visit" Rate="5"/>
 			<li Name="Story" Rate="0.8"/>
 			<li Name="Treasure" Rate="0.5"/>
@@ -372,7 +372,7 @@
 			<Snow>0</Snow>
 			<Weather>ColdWaveInSummer</Weather>
 			<PowerLevel>14</PowerLevel>
-		<Events><!-- 嗯-->
+		<Events>
 		
 			<li Name="Visit" Rate="5"/>
 			<li Name="Story" Rate="0.8"/>
@@ -403,7 +403,7 @@
 			<li>Place_YDF</li>
 		</Children>
 	</Place>
-	<Place Name="Place_YDF" Parent="Place_Level2Base">  <!--隐居的高人-->
+	<Place Name="Place_YDF" Parent="Place_Level2Base">  
 		<Location X="1029" Y="600"/>
 		<Scale>0.2</Scale>
 		<Icon>Spr\Building\YDF.png</Icon>
@@ -414,7 +414,7 @@
 			<Snow>0</Snow>
 			<Weather>PermanentNight</Weather>
 			<PowerLevel>12</PowerLevel>
-		<Events><!-- 嗯-->
+		<Events>
 		
 			
 			<li Name="Story" Rate="0.8"/>
@@ -448,7 +448,7 @@
 			<Snow>0</Snow>
 			<Weather>LightningStorm</Weather>
 			<PowerLevel>16</PowerLevel>
-		<Events><!-- 嗯-->
+		<Events>
 
 			<li Name="Story" Rate="0.8"/>
 			<li Name="Treasure" Rate="0.5"/>
@@ -476,7 +476,7 @@
 	</Place>
 	
 	
-	<Place Name="Place_XH" Parent="Place_Level2Base">  <!--隐居的高人-->
+	<Place Name="Place_XH" Parent="Place_Level2Base">  
 		<Location X="766" Y="850"/>
 		<Scale>0.15</Scale>
 		<Icon>Spr\Building\XH.png</Icon>

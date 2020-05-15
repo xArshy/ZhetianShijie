@@ -48,7 +48,7 @@
 				if me:GetGLevel() >= 3 then
 				me:AddMsg("[NAME]Relying on oneself for fear of red fire, saying[NAME]Secretly burned the packaging of the elixir taken on the road.");
 					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetProperty("NpcFight_BaseDodgeChance") >= 3 then
-						me:AddMsg("[NAME]Brushing your phone while meditating in a heavy fire? No, look at the cheats. Suddenly, she was so happy that she got a red fire with a wave of her hand.");
+						me:AddMsg("[NAME]Brushing your phone while meditating in a heavy fire? No, look at the secret arts. Suddenly, she was so happy that she got a red fire with a wave of her hand.");
 						me:DropAwardItem("HUO_CH",1);me.npcObj.PropertyMgr:AddAge(10);
 					else 
 					 me:AddMsg("[NAME]The retreat in a heavy fire area had nothing to cook except to bake it a bit.");
@@ -71,7 +71,7 @@
 				if me:GetGLevel() >= 3 then
 				me:AddMsg("[NAME]Relying on self-cultivation has no fear of blue fire, talking[NAME]Secretly burned the packaging of two elixir taken on the road.");
 					if me:CheckItemEquptCount("Item_PTZ") == 1 or me:GetSkillLevel("Barrier") >= 15 then
-						me:AddMsg("[NAME]Roast chicken wings while retreating in the double fire field? No, look at the cheats. Suddenly, she was so happy that she got a blue fire with a wave of her hand.");
+						me:AddMsg("[NAME]Roast chicken wings while retreating in the double fire field? No, look at the Secret Arts. Suddenly, she was so happy that she got a blue fire with a wave of her hand.");
 						me:DropAwardItem("HUO_LH",1);me.npcObj.PropertyMgr:AddAge(20);
 					else 
 					 me:AddMsg("[NAME]The retreat in the area of ​​double fire did not get anything except to bake two matures.");

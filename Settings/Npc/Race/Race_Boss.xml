@@ -23,7 +23,7 @@
 	<Modifier>Boss_MS1</Modifier>
 	<FightModifier>Boss_MSFight</FightModifier>
 	<FightParts>
-		<li Name="root"><!--root会自动判断为身体本身-->
+		<li Name="root">
 			<Local>biped_bone53</Local>
 			<DisplayName>身体</DisplayName>
 		</li>
