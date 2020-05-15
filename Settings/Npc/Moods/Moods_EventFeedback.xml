@@ -37,36 +37,36 @@
 		<Duration>0.5</Duration>
 	</Mood>
 	<Mood Name="ZT_Q">
-		<DisplayName>气到吐血</DisplayName>
-		<Desc>被抢先一步切开了好东西，我可以和别人吹一万年的资本就这样没了！</Desc>
-		<StoryDesc>因为与好东西失之交臂而感到心塞</StoryDesc>
+		<DisplayName>Angry to vomit blood</DisplayName>
+		<Desc>Being preemptively cut a good thing, I can blow up 10,000 years of capital with others and that's it!</Desc>
+		<StoryDesc>Feeling heartbroken because of missing a good thing</StoryDesc>
 		<MaxStack>9999</MaxStack>
 		<StackRatio>0.5</StackRatio>
 		<Value>-25</Value>
 		<Duration>0.5</Duration>
 	</Mood>
 	<Mood Name="TWEH">
-		<DisplayName>肾虚噩耗</DisplayName>
-		<Desc>没想到强如天帝最后也是如此下场。。。</Desc>
-		<StoryDesc>因为噩耗的消息而感到难过</StoryDesc>
+		<DisplayName>Kidney deficiency news</DisplayName>
+		<Desc>Unexpectedly, as strong as Emperor Emperor ended up with this. . .</Desc>
+		<StoryDesc>Saddened by the bad news</StoryDesc>
 		<MaxStack>1</MaxStack>
 		<StackRatio>1</StackRatio>
 		<Value>-25</Value>
 		<Duration>5</Duration>
 	</Mood>
 	<Mood Name="XJ">
-		<DisplayName>仙界消息</DisplayName>
-		<Desc>仙界似乎真的存在！</Desc>
-		<StoryDesc>因为仙界的消息而欣喜</StoryDesc>
+		<DisplayName>Fairyland News</DisplayName>
+		<Desc>Fairyland seems to really exist!</Desc>
+		<StoryDesc>Rejoiced by the news of fairyland</StoryDesc>
 		<MaxStack>1</MaxStack>
 		<StackRatio>1</StackRatio>
 		<Value>25</Value>
 		<Duration>5</Duration>
 	</Mood>
 	<Mood Name="Mood_NP_CQD">
-		<DisplayName>啊啊啊！！</DisplayName>
-		<Desc>我感觉我根本停不下来！</Desc>
-		<StoryDesc>心里不停地在骂mmp</StoryDesc>
+		<DisplayName>Ahhhh! !</DisplayName>
+		<Desc>I feel like I can't stop!</Desc>
+		<StoryDesc>I keep scolding mmp in my heart</StoryDesc>
 		<MaxStack>1</MaxStack>
 		<StackRatio>1</StackRatio>
 		<Value>15</Value>

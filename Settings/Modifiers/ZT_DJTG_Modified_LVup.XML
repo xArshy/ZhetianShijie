@@ -3,7 +3,7 @@
 	
 	
 	<Modifier Name="Gong_DJTG_LH_1A" Type="Normal">
-		<DisplayName>九世轮回</DisplayName>
+		<DisplayName>IX reincarnation</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -15,7 +15,7 @@
 		</Properties>
 	</Modifier>
 	<Modifier Name="Gong_DJTG_LH_1A_1" Type="Normal">
-		<DisplayName>九世轮回</DisplayName>
+		<DisplayName>IX reincarnation</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -25,7 +25,7 @@
 		</Properties>
 	</Modifier>
 	<Modifier Name="Gong_DJTG_LH_1A_2" Type="Normal">
-		<DisplayName>九世轮回</DisplayName>
+		<DisplayName>IX reincarnation</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>
@@ -38,7 +38,7 @@
 	</Modifier>
 	
 	<Modifier Name="Gong_DJTG_LH_2A_WL" Type="Normal">
-		<DisplayName>无良</DisplayName>
+		<DisplayName>Unscrupulous</DisplayName>
 		<MaxStack>0</MaxStack>
 		<Duration>-1</Duration>
 		<Display>0</Display>

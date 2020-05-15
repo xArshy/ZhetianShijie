@@ -122,351 +122,351 @@
 	</Def>	
 		
 	<Def Name="Guard_BaBuZhong_5">
-		<DisplayName>阿修罗</DisplayName>
+		<DisplayName>Ashura</DisplayName>
 		<Rate>9</Rate>
-		<Names>魔</Names>
+		<Names>magic</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_a</Icon>
-		<Desc>八部众之中代表杀戮恶念之护法，供奉可少量提高各项能力，习得术法：修罗剑，并额外提高战斗技能等级，御器技能等级，术法技能等级，护体技能等级。</Desc>
+		<Desc>Among the eight members, it represents the law of killing evil thoughts. The enchantment can improve various abilities a little, and learn the spells: Xiuluo sword, and additionally increase the combat skill level, the weapon skill level, the spell skill level, and the body protection skill level.</Desc>
 		<Modifier>Modifier_Guard_BaBuZhong_5</Modifier>
 		<FightSkill>FightSkill_God_FaBao1</FightSkill>
 	</Def>	
 		
 	<Def Name="Guard_BaBuZhong_6">
-		<DisplayName>迦楼罗</DisplayName>
+		<DisplayName>Galuro</DisplayName>
 		<Rate>9</Rate>
-		<Names>鹏</Names>
+		<Names>Peng</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_jia</Icon>
-		<Desc>八部众之中代表神威庄严之护法，供奉可少量提高各项能力，并额外提高御器飞行速度，法宝速度，法宝转弯速度。</Desc>
+		<Desc>Among the eight ministries, it represents the divine protection of the majestic power. The enchantment can slightly improve various abilities, and additionally increase the flying speed, magic weapon speed, and magic weapon turning speed of the royal weapon.</Desc>
 		<Modifier>Modifier_Guard_BaBuZhong_6</Modifier>
 	</Def>	
 		
 	<Def Name="Guard_BaBuZhong_7">
-		<DisplayName>紧那罗</DisplayName>
+		<DisplayName>Kinaro</DisplayName>
 		<Rate>9</Rate>
-		<Names>乐</Names>
+		<Names>fun</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_jin</Icon>
-		<Desc>八部众之中代表美好宁静之护法，供奉可少量提高各项能力，习得术法：宁静，并额外提高魅力，寿命，灵气最大值。</Desc>
+		<Desc>Among the eight groups, it represents a protector of beauty and tranquility. Enshrinement can improve various abilities a little, and learn spells: tranquility, and additionally increase charm, lifespan, and maximum aura.</Desc>
 		<Modifier>Modifier_Guard_BaBuZhong_7</Modifier>
 		<FightSkill>FightSkill_God_Health2</FightSkill>
 	</Def>	
 		
 	<Def Name="Guard_BaBuZhong_8">
-		<DisplayName>摩乎罗伽</DisplayName>
+		<DisplayName>Moroga</DisplayName>
 		<Rate>9</Rate>
-		<Names>劫</Names>
+		<Names>Rob</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_mo</Icon>
-		<Desc>八部众之中代表地表众生之王，供奉可少量提高各项能力，并额外提高护盾技能等级，护盾强度。</Desc>
+		<Desc>Among the eight constituencies, representing the king of all living beings on the earth, enshrinement can improve various abilities by a small amount, and additionally increase the shield skill level and shield strength.</Desc>
 		<Modifier>Modifier_Guard_BaBuZhong_8</Modifier>
 	</Def>	
 	
 	<Def Name="Guard_YouMing_1">
-		<DisplayName>通幽判官</DisplayName>
+		<DisplayName>Tongyou Magistrate</DisplayName>
 		<Rate>12</Rate>
-		<Names>李</Names>
+		<Names>Lee</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_tong</Icon>
-		<Desc>幽冥世界掌管生死之护法，供奉可提高所有能力，并获得神通：阴阳逆转，额外提高护御技能等级，灵气最大值。</Desc>
+		<Desc>The Netherworld governs the law of life and death, enshrinement improves all abilities, and gains magical powers: reversal of yin and yang, additionally increases the level of defense skills, and the maximum aura.</Desc>
 		<Modifier>Modifier_Guard_YouMing_1</Modifier>
 		<Magic>God_ResurrectionB</Magic>
 	</Def>	
 	
 		
 	<Def Name="Guard_YouMing_2">
-		<DisplayName>黑衣无常</DisplayName>
+		<DisplayName>Impermanence</DisplayName>
 		<Rate>9</Rate>
-		<Names>范</Names>
+		<Names>Fan</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_hei</Icon>
-		<Desc>幽冥世界勾魂使，供奉可少量提高所有能力，习得术法：无常之护，并额外提高御器技能等级，法宝威力，法宝灵气，法宝灵气恢复速度。</Desc>
+		<Desc>Ghost world ghost, enchantment can increase all abilities by a small amount, learn spells: impermanence protection, and additionally increase the skill level of magic weapon, magic power, magic aura, magic aura recovery speed.</Desc>
 		<Modifier>Modifier_Guard_YouMing_2</Modifier>
 		<FightSkill>FightSkill_God_Sheild1</FightSkill>
 	</Def>	
 	
 		
 	<Def Name="Guard_YouMing_3">
-		<DisplayName>白袍无常</DisplayName>
+		<DisplayName>White robe impermanence</DisplayName>
 		<Rate>9</Rate>
-		<Names>谢</Names>
+		<Names>thank</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_bai</Icon>
-		<Desc>幽冥世界勾魂使，供奉可少量提高所有能力，并额外提高术法技能等级，术法威力，术法消耗。</Desc>
+		<Desc>The ghost world ghost ghost, enchantment can increase all abilities by a small amount, and additionally increase the spell skill level, spell power, spell consumption.</Desc>
 		<Modifier>Modifier_Guard_YouMing_3</Modifier>
 		
 	</Def>	
 		
 	<Def Name="Guard_YouMing_4">
-		<DisplayName>牛头幽使</DisplayName>
+		<DisplayName>Ngau Tau Envoy</DisplayName>
 		<Rate>9</Rate>
-		<Names>牛</Names>
+		<Names>Cattle</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_niu</Icon>
-		<Desc>幽冥世界巡查者，供奉可少量提高所有能力，并额外提高护盾强度，法宝威力。</Desc>
+		<Desc>Netherworld inspectors, enshrined can increase all abilities by a small amount, and additionally increase the shield strength and magic power.</Desc>
 		<Modifier>Modifier_Guard_YouMing_4</Modifier>
 		
 	</Def>	
 	
 	<Def Name="Guard_YouMing_5">
-		<DisplayName>马面鬼将</DisplayName>
+		<DisplayName>Horse face ghost</DisplayName>
 		<Rate>9</Rate>
-		<Names>马</Names>
+		<Names>horse</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_ma</Icon>
-		<Desc>幽冥世界巡查者，供奉可少量提高所有能力，并额外提高护盾强度，术法威力。</Desc>
+		<Desc>Netherworld inspectors, enshrined can improve all abilities by a small amount, and additionally increase the strength of shield and spell power.</Desc>
 		<Modifier>Modifier_Guard_YouMing_5</Modifier>
 	</Def>	
 	
 	<Def Name="Guard_YouMing_6">
-		<DisplayName>引渡人</DisplayName>
+		<DisplayName>Extradition</DisplayName>
 		<Rate>6</Rate>
-		<Names>孟</Names>
+		<Names>Meng</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_yien</Icon>
-		<Desc>幽冥世界冥河引渡人，供奉可提高寿命和灵气最大值，并额外获得神通：还魂术，额外提高法宝威力，术法威力。</Desc>
+		<Desc>In the ghost world, the Styx extradites people, enshrining can increase the lifespan and the maximum value of the aura, and also obtain magical powers: soul rejuvenation, extra magic power, magic power.</Desc>
 		<Modifier>Modifier_Guard_YouMing_6</Modifier>	
 		<Magic>God_ResurrectionA</Magic>
 	</Def>	
 		
 	<Def Name="Guard_YouMing_7">
-		<DisplayName>阴山卫</DisplayName>
+		<DisplayName>Yinshanwei</DisplayName>
 		<Rate>6</Rate>
-		<Names>何</Names>
+		<Names>what</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_yin</Icon>
-		<Desc>幽冥世界阴山守卫者，供奉可提高寿命和灵气最大值，并额外提高护盾强度。</Desc>
+		<Desc>Underworld guardian of Netherworld, enshrine can increase the life span and the maximum value of Aura, and increase the shield strength.</Desc>
 		<Modifier>Modifier_Guard_YouMing_7</Modifier>
 		
 	</Def>	
 		
 	<Def Name="Guard_Other_1">
-		<DisplayName>贪狼星</DisplayName>
+		<DisplayName>Greedy Star</DisplayName>
 		<Rate>12</Rate>
-		<Names>戮</Names>
+		<Names>kill</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_tan</Icon>
-		<Desc>星宿之灵，凶煞非常，供奉会提高所有能力，并额外提升法宝威力，法术威力，但会大幅降低寿命。</Desc>
+		<Desc>The spirit of the stars is very fierce, and enshrinement will increase all abilities, and additionally increase the power of magic weapons and spell power, but it will greatly reduce the life.</Desc>
 		<Modifier>Modifier_Guard_Other_1</Modifier>
 		
 	</Def>	
 		
 	<Def Name="Guard_Other_2">
-		<DisplayName>七杀星</DisplayName>
+		<DisplayName>Seven Stars</DisplayName>
 		<Rate>12</Rate>
-		<Names>杀</Names>
+		<Names>kill</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_qi</Icon>
-		<Desc>星宿之灵，凶煞非常，供奉会提高所有能力，并额外提升法宝威力，法术威力，但会大幅降低灵气上限。</Desc>
+		<Desc>The spirit of the stars is very fierce, and enshrinement will increase all abilities, and additionally increase the magic power and spell power, but will greatly reduce the upper limit of the aura.</Desc>
 		<Modifier>Modifier_Guard_Other_2</Modifier>
 		<FightSkill>FightSkill_God_Damage2</FightSkill>
 		
 	</Def>	
 		
 	<Def Name="Guard_Other_3">
-		<DisplayName>破军星</DisplayName>
+		<DisplayName>Breaking star</DisplayName>
 		<Rate>12</Rate>
-		<Names>军</Names>
+		<Names>military</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_po</Icon>
-		<Desc>星宿之灵，凶煞非常，供奉会提高所有能力，并额外提升法宝威力，法术威力，但会大幅降低护盾强度。</Desc>
+		<Desc>The spirit of the stars is very fierce, and enshrinement will increase all abilities, and additionally increase the power of magic weapons and spell power, but will greatly reduce the strength of the shield.</Desc>
 		<Modifier>Modifier_Guard_Other_3</Modifier>	
 	</Def>	
 		
 	<Def Name="Guard_Other_4">
-		<DisplayName>赤灵</DisplayName>
+		<DisplayName>Chi Ling</DisplayName>
 		<Rate>9</Rate>
-		<Names>赤</Names>
+		<Names>red</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_chi</Icon>
-		<Desc>上古五方五行护法，供奉会少量提高所有能力，并额外提高法术技能等级，法术威力。</Desc>
+		<Desc>The ancient five-party five-element protection method, enshrinement will increase all abilities by a small amount, and additionally increase the spell skill level and spell power.</Desc>
 		<Modifier>Modifier_Guard_Other_4</Modifier>
 		
 	</Def>	
 		
 	<Def Name="Guard_Other_5">
-		<DisplayName>白灵</DisplayName>
+		<DisplayName>Bai Ling</DisplayName>
 		<Rate>9</Rate>
-		<Names>白</Names>
+		<Names>White</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_bai</Icon>
-		<Desc>上古五方五行护法，供奉会少量提高所有能力，并额外提高法宝技能等级，法宝威力，法宝灵气上限，法宝灵气恢复速度。</Desc>
+		<Desc>The ancient five-party five-element method of protection, enchantment will increase all abilities by a small amount, and additionally increase the magic skill level, magic power, magic aura upper limit, magic aura recovery speed.</Desc>
 		<Modifier>Modifier_Guard_Other_5</Modifier>
 	</Def>	
 		
 	<Def Name="Guard_Other_6">
-		<DisplayName>黄灵</DisplayName>
+		<DisplayName>Huang Ling</DisplayName>
 		<Rate>9</Rate>
-		<Names>姬</Names>
+		<Names>Ji</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_huang</Icon>
-		<Desc>上古五方五行护法，供奉会少量提高所有能力，并额外提高护体技能等级，护盾强度。</Desc>
+		<Desc>The ancient five-party five-element protection method, enshrinement will slightly improve all abilities, and additionally increase the body protection skill level and shield strength.</Desc>
 		<Modifier>Modifier_Guard_Other_6</Modifier>
 		
 	</Def>	
 		
 	<Def Name="Guard_Other_7">
-		<DisplayName>黑灵</DisplayName>
+		<DisplayName>Black Spirit</DisplayName>
 		<Rate>9</Rate>
-		<Names>汁</Names>
+		<Names>juice</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_hei</Icon>
-		<Desc>上古五方五行护法，供奉会少量提高所有能力，并额外提高气感。</Desc>
+		<Desc>The ancient five-party five-element protection method, enshrinement will improve all abilities by a small amount, and additionally increase the sense of gas.</Desc>
 		<Modifier>Modifier_Guard_Other_7</Modifier>
 		
 	</Def>	
 		
 	<Def Name="Guard_Other_8">
-		<DisplayName>青灵</DisplayName>
+		<DisplayName>Qingling</DisplayName>
 		<Rate>9</Rate>
-		<Names>灵</Names>
+		<Names>spirit</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_qing</Icon>
-		<Desc>上古五方五行护法，供奉会少量提高所有能力，并额外提高灵气最大值。</Desc>
+		<Desc>The ancient five-party five-element protection method, the enchantment will slightly increase all abilities, and additionally increase the maximum aura.</Desc>
 		<Modifier>Modifier_Guard_Other_8</Modifier>
 		
 	</Def>	
 		
 	<Def Name="Guard_Other_9">
-		<DisplayName>海灵</DisplayName>
+		<DisplayName>Hailing</DisplayName>
 		<Rate>9</Rate>
-		<Names>汪</Names>
+		<Names>Wang</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_hai</Icon>
-		<Desc>不知传自何种神道的护法，供奉会少量提高所有能力，并额外提高术法威力。</Desc>
+		<Desc>I do n’t know what kind of shinto protector came from. Enshrinement will increase all abilities by a small amount, and also increase the magic power.</Desc>
 		<Modifier>Modifier_Guard_Other_9</Modifier>
 		
 	</Def>	
 		
 	<Def Name="Guard_Other_10">
-		<DisplayName>山灵</DisplayName>
+		<DisplayName>Mountain Spirit</DisplayName>
 		<Rate>9</Rate>
-		<Names>泰</Names>
+		<Names>Thai</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_shan</Icon>
-		<Desc>山脉护法之灵，供奉会少量提高所有能力，并额外提升护盾强度。</Desc>
+		<Desc>Enshrining the spirit of mountain protection law will increase all abilities by a small amount and increase the shield strength.</Desc>
 		<Modifier>Modifier_Guard_Other_10</Modifier>
 		
 	</Def>	
 		
 	<Def Name="Guard_Other_11">
-		<DisplayName>花灵</DisplayName>
+		<DisplayName>Flower spirit</DisplayName>
 		<Rate>9</Rate>
-		<Names>香</Names>
+		<Names>Fragrant</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_hua</Icon>
-		<Desc>百花护法之灵，供奉会少量提高所有能力，习得术法：万花咒，并额外提高灵气最大值。</Desc>
+		<Desc>Hundred Flower Guardian Spirit, enshrine will increase all abilities by a small amount, learn spells: Ten Thousand Flower Curse, and increase the maximum aura maximum.</Desc>
 		<Modifier>Modifier_Guard_Other_11</Modifier>	
 		<FightSkill>FightSkill_God_Health1</FightSkill>
 	</Def>	
 		
 	<Def Name="Guard_Other_12">
-		<DisplayName>巨灵</DisplayName>
+		<DisplayName>Giant spirit</DisplayName>
 		<Rate>9</Rate>
-		<Names>崇</Names>
+		<Names>worship</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_ju</Icon>
-		<Desc>身负巨力的护法，供奉会少量提高所有能力，并额外提高法宝击退能力，法宝抗击退能力。</Desc>
+		<Desc>Enormous law-enforcement, enchantment will increase all abilities by a small amount, and additionally increase the ability of the magic weapon to repel, and the magic weapon's ability to resist repel.</Desc>
 		<Modifier>Modifier_Guard_Other_12</Modifier>
 	</Def>	
 	
 	
 	<Def Name="Guard_Base_1">
-		<DisplayName>金精</DisplayName>
+		<DisplayName>Jin Jing</DisplayName>
 		<Rate>6</Rate>
-		<Names>刃</Names>
+		<Names>blade</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_jing</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高法宝技能等级，法宝威力，法宝灵气上限，法宝灵气恢复速度。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protector can increase the magic skill level, magic power, magic aura upper limit, and magic aura recovery speed.</Desc>
 		<Modifier>Modifier_Guard_Base_1</Modifier>
 	</Def>
 	<Def Name="Guard_Base_2">
-		<DisplayName>木精</DisplayName>
+		<DisplayName>Wood spirit</DisplayName>
 		<Rate>6</Rate>
-		<Names>叶</Names>
+		<Names>leaf</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_jing</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高灵气最大值。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protector can increase the maximum Reiki.</Desc>
 		<Modifier>Modifier_Guard_Base_2</Modifier>
 	</Def>
 	<Def Name="Guard_Base_3">
-		<DisplayName>水精</DisplayName>
+		<DisplayName>Water essence</DisplayName>
 		<Rate>6</Rate>
-		<Names>流</Names>
+		<Names>flow</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_jing</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高气感。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this method of protection can improve the sense of gas.</Desc>
 		<Modifier>Modifier_Guard_Base_3</Modifier>
 	</Def>
 	<Def Name="Guard_Base_4">
-		<DisplayName>火精</DisplayName>
+		<DisplayName>Fire spirit</DisplayName>
 		<Rate>6</Rate>
-		<Names>焱</Names>
+		<Names>Yan</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_jing</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高法术技能等级，法术威力。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protector can increase the spell skill level and spell power.</Desc>
 		<Modifier>Modifier_Guard_Base_4</Modifier>
 	</Def>
 	<Def Name="Guard_Base_5">
-		<DisplayName>土精</DisplayName>
+		<DisplayName>Native spirit</DisplayName>
 		<Rate>6</Rate>
-		<Names>尘</Names>
+		<Names>dust</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_jing</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高护体技能等级，护盾强度。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protection method can increase the body protection skill level and shield strength.</Desc>
 		<Modifier>Modifier_Guard_Base_5</Modifier>
 	</Def>
 	
 	<Def Name="Guard_Base_6">
-		<DisplayName>土煞</DisplayName>
+		<DisplayName>Tusha</DisplayName>
 		<Rate>6</Rate>
-		<Names>参</Names>
+		<Names>Ginseng</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_sha</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高寿命。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protector can increase lifespan.</Desc>
 		<Modifier>Modifier_Guard_Base_6</Modifier>
 	</Def>
 	
 	<Def Name="Guard_Base_7">
-		<DisplayName>木煞</DisplayName>
+		<DisplayName>Musha</DisplayName>
 		<Rate>6</Rate>
-		<Names>灵</Names>
+		<Names>spirit</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_sha</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高最大灵气值。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protector can increase the maximum aura value.</Desc>
 		<Modifier>Modifier_Guard_Base_7</Modifier>
 	</Def>
 	
 	<Def Name="Guard_Base_8">
-		<DisplayName>金煞</DisplayName>
+		<DisplayName>Jinsha</DisplayName>
 		<Rate>6</Rate>
-		<Names>灭</Names>
+		<Names>Extinguish</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_sha</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高法宝威力。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this law can increase the power of magic weapons.</Desc>
 		<Modifier>Modifier_Guard_Base_8</Modifier>
 	</Def>
 	
 	<Def Name="Guard_Base_9">
-		<DisplayName>湖精</DisplayName>
+		<DisplayName>Hu Jing</DisplayName>
 		<Rate>6</Rate>
-		<Names>于</Names>
+		<Names>to</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_jing</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高法宝灵气恢复速度。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protector can increase the recovery speed of magic aura.</Desc>
 		<Modifier>Modifier_Guard_Base_9</Modifier>
 	</Def>
 	
 	
 	<Def Name="Guard_Base_10">
-		<DisplayName>晶精</DisplayName>
+		<DisplayName>Jing Jing</DisplayName>
 		<Rate>6</Rate>
 		<Names>明</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_jing</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高法宝灵气。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protector can increase the magic aura.</Desc>
 		<Modifier>Modifier_Guard_Base_10</Modifier>
 	</Def>
 	
 	
 	<Def Name="Guard_Base_11">
-		<DisplayName>岩精</DisplayName>
+		<DisplayName>Yan Jing</DisplayName>
 		<Rate>6</Rate>
-		<Names>厚</Names>
+		<Names>thick</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_jing</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高护盾强度。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protection method can increase the strength of the shield.</Desc>
 		<Modifier>Modifier_Guard_Base_11</Modifier>
 	</Def>
 	<Def Name="Guard_Base_12">
-		<DisplayName>火煞</DisplayName>
+		<DisplayName>Fire</DisplayName>
 		<Rate>6</Rate>
-		<Names>炽</Names>
+		<Names>Fiery</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_sha</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高法术伤害。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protector can increase spell damage.</Desc>
 		<Modifier>Modifier_Guard_Base_12</Modifier>
 	</Def>
 	<Def Name="Guard_Base_13">
-		<DisplayName>水煞</DisplayName>
+		<DisplayName>Water</DisplayName>
 		<Rate>6</Rate>
-		<Names>决</Names>
+		<Names>Decide</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_sha</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以降低法术消耗。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protector can reduce spell cost.</Desc>
 		<Modifier>Modifier_Guard_Base_13</Modifier>
 	</Def>
 	<Def Name="Guard_Base_14">
-		<DisplayName>风精</DisplayName>
+		<DisplayName>Feng Jing</DisplayName>
 		<Rate>6</Rate>
-		<Names>啸</Names>
+		<Names>Howl</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_jing</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高法术法宝飞行速度。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protector can increase the flying speed of magic spells.</Desc>
 		<Modifier>Modifier_Guard_Base_14</Modifier>
 	</Def>
 	<Def Name="Guard_Base_15">
@@ -474,70 +474,70 @@
 		<Rate>6</Rate>
 		<Names>鸣</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_sha</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高法宝转弯速度。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this law can increase the turning speed of magic weapons.</Desc>
 		<Modifier>Modifier_Guard_Base_15</Modifier>
 	</Def>
 	
 	<Def Name="Guard_Base_16">
-		<DisplayName>岩煞</DisplayName>
+		<DisplayName>Yansha</DisplayName>
 		<Rate>6</Rate>
-		<Names>执</Names>
+		<Names>Hold</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_sha</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高法宝击退距离。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protector can increase the magic weapon's knockback distance.</Desc>
 		<Modifier>Modifier_Guard_Base_16</Modifier>
 	</Def>
 	
 	<Def Name="Guard_Base_17">
-		<DisplayName>韧煞</DisplayName>
+		<DisplayName>Tenacity</DisplayName>
 		<Rate>6</Rate>
-		<Names>坚</Names>
+		<Names>Firm</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_sha</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高法宝击退抵抗。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protection method can increase the resistance of the magic weapon to repel.</Desc>
 		<Modifier>Modifier_Guard_Base_17</Modifier>
 	</Def>
 	
 	<Def Name="Guard_Base_18">
-		<DisplayName>木罡</DisplayName>
+		<DisplayName>Mu Gang</DisplayName>
 		<Rate>6</Rate>
-		<Names>叶</Names>
+		<Names>leaf</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_gang</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以降低法术吟唱时间。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protector can reduce spell chant time.</Desc>
 		<Modifier>Modifier_Guard_Base_18</Modifier>
 	</Def>
 	
 	<Def Name="Guard_Base_19">
-		<DisplayName>水罡</DisplayName>
+		<DisplayName>Shuigang</DisplayName>
 		<Rate>6</Rate>
-		<Names>波</Names>
+		<Names>wave</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_gang</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以降低法术调息时间。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protector can reduce the spell's breath adjustment time.</Desc>
 		<Modifier>Modifier_Guard_Base_19</Modifier>
 	</Def>
 	
 	
 	<Def Name="Guard_Base_20">
-		<DisplayName>金罡</DisplayName>
+		<DisplayName>Jin Gang</DisplayName>
 		<Rate>6</Rate>
-		<Names>铜</Names>
+		<Names>copper</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_gang</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高御器技能等级。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protector can increase the skill level of the weapon.</Desc>
 		<Modifier>Modifier_Guard_Base_20</Modifier>
 	</Def>
 	
 	<Def Name="Guard_Base_21">
-		<DisplayName>火罡</DisplayName>
+		<DisplayName>Huogang</DisplayName>
 		<Rate>6</Rate>
-		<Names>焰</Names>
+		<Names>flame</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_gang</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高术法技能等级。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protector can increase the spell skill level.</Desc>
 		<Modifier>Modifier_Guard_Base_21</Modifier>
 	</Def>
 	<Def Name="Guard_Base_22">
-		<DisplayName>土罡</DisplayName>
+		<DisplayName>Tugang</DisplayName>
 		<Rate>6</Rate>
-		<Names>脉</Names>
+		<Names>pulse</Names>
 		<Icon>res/Sprs/ui/icon_shenguo_gang</Icon>
-		<Desc>天地间随处可见无主护法。供奉此护法可以提高护体技能等级。</Desc>
+		<Desc>There is no main protection law everywhere between heaven and earth. Enshrining this protection method can improve the body protection skill level.</Desc>
 		<Modifier>Modifier_Guard_Base_22</Modifier>
 	</Def>
 	
