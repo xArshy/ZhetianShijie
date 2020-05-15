@@ -11,9 +11,9 @@ local DanYaoList = {
 
 function tbModifier:Enter(modifier, npc)
     local name = DanYaoList[modifier.def.Name] 
-    if name ~= nil then 
+    if name then 
         local itemdef = ThingMgr:GetDef(g_emThingType.Item, name) 
-        if itemdef ~= nil and npc.IsDisciple then 
+        if itemdef and npc.IsDisciple then 
             local num = tbModifier:ShuXingJianCe(npc.PropertyMgr.Practice.Gong.ElementKind, itemdef.ElementKind)
              
             npc.PropertyMgr:ModifierProperty("AbilityLvAddV", 150 * num, 0, 0, 0)

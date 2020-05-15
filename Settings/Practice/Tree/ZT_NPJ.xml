@@ -61,7 +61,7 @@
 	
 	<Node Name="Gong_NPJ_11" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_11</Esoterica>
-		<DisplayName>Tsutenaki</DisplayName>
+		<DisplayName>Tongtian Volume</DisplayName>
 		<Level>Qi</Level>
 		<Index>8</Index>
 		<Line>0,0,0,0,0,0,0,0</Line>
@@ -82,7 +82,7 @@
 		
 	<Node Name="Gong_NPJ_2" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_2</Esoterica>
-		<DisplayName>Heavenly rewards</DisplayName>
+		<DisplayName>Heavenly Rewards</DisplayName>
 		<Level>Dan1</Level>
 		<Index>4</Index>
 		<Line>0,0,0,0,0,0,0,0</Line>
@@ -121,7 +121,7 @@
 
 	<Node Name="Gong_NPJ_8" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_8</Esoterica>
-		<DisplayName>Dianjuan</DisplayName>
+		<DisplayName>Dedan Volume</DisplayName>
 		<Level>Dan2</Level>
 		<Index>6</Index>
 		<Line>0,0,0,0,0,0,0,0</Line>
@@ -143,13 +143,13 @@
 	
 	<Node Name="Gong_NPJ_8_1" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_8_1</Esoterica>
-		<DisplayName>Tiandanjuan</DisplayName>
+		<DisplayName>Tiandan Volume</DisplayName>
 		<Level>None</Level>
 	</Node>
 		
 	<Node Name="Gong_NPJ_4" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_4</Esoterica>
-		<DisplayName>Daohua Juan</DisplayName>
+		<DisplayName>Dao Volume</DisplayName>
 		<Level>God</Level>
 		<Index>4</Index>
 		<Line>0,0,0,0,0,0,0,0</Line>
@@ -185,7 +185,7 @@
 			
 	<Node Name="Gong_NPJ_10" Gong="Gong_NPJ">
 		<Esoterica>Gong_NPJ_10</Esoterica>
-		<DisplayName>Heaven and earth</DisplayName>
+		<DisplayName>Heaven and Earth</DisplayName>
 		<Level>God2</Level>
 		<Index>6</Index>
 		<Line>0,0,0,0,0,0,0,0</Line>

@@ -22,7 +22,7 @@
 	</Story>
 		
 	<Story Name="LXDT"  Parent="BaseFillingStory">
-		<DisplayName>Lingxudong days</DisplayName>
+		<DisplayName>Lingxu Dongtian</DisplayName>
 		<Desc>Lingxu Dongtian is just a blessing place, oh no, Dongtian, so I will give you four bottles of paraquat in one year, but I'll be generous, two bottles at a time.</Desc>
 		<Selections>
 			<li>
@@ -45,7 +45,7 @@
 	</Story>
 	
 	<Story Name="LXDT1"  Parent="BaseFillingStory">
-		<DisplayName>Lingxu Dongtian.</DisplayName>
+		<DisplayName>Lingxu Dongtian</DisplayName>
 		<Desc>Although the Lingxu Dongtian is small, but there are all kinds of birds, naturally some people will grab the herb.</Desc>
 		<Selections>
 			<li>
@@ -1678,8 +1678,8 @@
 			<li>
 				<Display>Outside the demon grave. (Unlock Taoist scriptures and bring bodhi to get secret treasure)</Display> 
 				<OKResult><![CDATA[	
-				if world:IsGongUnLocked("Gong_DJ") == false then
-					me:AddMsg("[NAME] was wandering around alone, and actually got the Tao in the chaos.");
+				if not world:IsGongUnLocked("Gong_DJ") then
+					me:AddMsg("[NAME] was wandering around alone, and actually got the law in the chaos.");
 					me:UnLockGong("Gong_DJ");me:DropAwardItem("Item_Dan_TreeEXP", 1);
 				else
 				    if me:CheckItemEquptCount("Item_PTZ") == 1 and world:GetWorldFlag(445) == 0 then
