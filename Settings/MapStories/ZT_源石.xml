@@ -5195,7 +5195,7 @@
 				me:AddMsg("[NAME]切开了源石，五行的属性气息爆发开来，源石中居然有一株五行灵植");
 				me:DropAwardItem("Item_JinEssence",2);
 				elseif nR >= 1 then
-					if world:IsGongUnLocked("Gong_YTS") == false then
+					if not world:IsGongUnLocked("Gong_YTS") then
 						me:AddMsg(XT("[NAME]切开了源石，顿时天地一阵翻腾，曾经定住天地的源天书，居然再次出世了。"));me:UnLockGong("Gong_YTS");   
 					else
 						me:AddMsg(XT("[NAME]打开了源石，里面居然是一小撮龙气！"));me:DropAwardItem("Item_LQ",1);

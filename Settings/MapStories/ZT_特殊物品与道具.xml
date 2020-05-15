@@ -813,7 +813,7 @@
 				<OKResult>
 				<![CDATA[	
 				
-				if me:CheckFeature("GodBody") == true then
+				if me:CheckFeature("GodBody") then
 				me:AddMsg("[NAME]Part of the mind image is gone. Entering Qinglian, sinking into this corpse, he seemed to be out of his soul. / n "Why is this happening. I came into the other person's body ..., ..." / n [NAME] Don't know why this happened, which surprised him quite. / n Since ancient times. People don't know what happens when the two Eucharist meet. Because this kind of physique is so rare, the long years have passed. Their understanding is even more limited. / n Hard to imagine. [NAME] encountered this inexplicable encounter with a Eucharist skeleton.");
 				me:AddSchoolScore(1,50);
 				me:DropEsoteric("ZT_STYH");story:RemoveBindItem();

@@ -22,7 +22,7 @@
 	</Story>
 		
 	<Story Name="LXDT"  Parent="BaseFillingStory">
-		<DisplayName>Lingxudong days</DisplayName>
+		<DisplayName>Lingxu Dongtian</DisplayName>
 		<Desc>Lingxu Dongtian is just a blessing place, oh no, Dongtian, so I will give you four bottles of paraquat in one year, but I'll be generous, two bottles at a time.</Desc>
 		<Selections>
 			<li>
@@ -45,7 +45,7 @@
 	</Story>
 	
 	<Story Name="LXDT1"  Parent="BaseFillingStory">
-		<DisplayName>Lingxu Dongtian.</DisplayName>
+		<DisplayName>Lingxu Dongtian</DisplayName>
 		<Desc>Although the Lingxu Dongtian is small, but there are all kinds of birds, naturally some people will grab the herb.</Desc>
 		<Selections>
 			<li>
@@ -1678,7 +1678,7 @@
 			<li>
 				<Display>妖帝坟外围。（解锁道经，携带菩提子可获得秘宝）</Display> 
 				<OKResult><![CDATA[	
-				if world:IsGongUnLocked("Gong_DJ") == false then
+				if not world:IsGongUnLocked("Gong_DJ") then
 					me:AddMsg("[NAME]独自一人在外围徘徊，混乱中居然获得了道经。");
 					me:UnLockGong("Gong_DJ");me:DropAwardItem("Item_Dan_TreeEXP", 1);
 				else
