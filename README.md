@@ -4,6 +4,8 @@
   </head>
   <body>
     <h1>Download</h1>
-    <a href="https://www.w3schools.com">Zhetian MOD</a> 
+    <a href="https://github.com/pages-themes/tactile/zipball/master" id="download-zip" class="button">
+      <span>Download Zhetian MOD</span>
+    </a>
   </body>
 </html>
