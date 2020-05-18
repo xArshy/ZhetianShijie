@@ -1,6 +1,6 @@
 # Skycoveringworld
 <html>
   <head>
-    <h1> Zhetian MOD </h1>
+    <title>Zhetian MOD</title>
   </head>
 </html>
