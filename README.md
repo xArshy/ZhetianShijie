@@ -4,8 +4,8 @@
     <a href="https://github.com/pages-themes/tactile/zipball/master" id="download-zip" class="button">
       <span> Zhetian MOD</span>
     </a>
+    <footer>
+      This page is gay?
+    </footer>
   </body>
-  <footer>
-    This page is gay?
-  </footer>
 </html>
