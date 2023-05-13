@@ -1,2 +1,4 @@
-
 *.exe
+*.yml
+README.md
+docs
